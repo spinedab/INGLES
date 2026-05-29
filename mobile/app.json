@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "INGLES",
+    "slug": "ingles",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "ingles",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tuusuario.ingles",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.tuusuario.ingles"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "apiBaseUrl": "https://ingles.apicloud.lat"
+    }
+  }
+}

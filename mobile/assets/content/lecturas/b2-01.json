@@ -1,0 +1,23 @@
+{
+  "title": "On the Paradox of Choice",
+  "summary": "Essay B2 — complex grammar, AWL, formal register.",
+  "text": "<p>It would seem self-evident that more options lead to better decisions. After all, if I am offered ten varieties of olive oil instead of two, I am more likely to find the one that suits my taste, my budget and my values. And yet, a substantial body of research suggests precisely the opposite: when the number of options grows beyond a certain threshold, the quality of our decisions deteriorates and our satisfaction with whatever we choose collapses.</p><p>The psychologist Barry Schwartz coined the term \"the paradox of choice\" to describe this phenomenon. His thesis, briefly, is that abundance imposes cognitive and emotional costs we tend to underestimate. Each additional option must be evaluated, compared, ruled out — a process that consumes mental energy and, paradoxically, increases the likelihood of regret. The more we could have chosen, the more we suspect we have not chosen the best.</p><p>Critics have pointed out that the empirical evidence is more nuanced than Schwartz's popular framing suggests. Some studies have failed to replicate the effect; others find it only under specific conditions, such as when the choices are unfamiliar or the stakes are high. Notwithstanding these caveats, the central insight remains compelling: the assumption that more is always better is, at best, an oversimplification.</p><p>Whether you are buying jam, selecting a partner or designing a public policy, the lesson is the same. Before adding another option to the menu, ask yourself a simpler question — does the marginal benefit outweigh the cognitive cost? More often than we like to admit, the honest answer is no.</p>",
+  "glosses": [
+    {"word":"self-evident","tip":"evidente por sí mismo"},
+    {"word":"threshold","tip":"umbral"},
+    {"word":"deteriorates","tip":"empeora"},
+    {"word":"abundance","tip":"abundancia"},
+    {"word":"regret","tip":"arrepentimiento"},
+    {"word":"nuanced","tip":"matizado"},
+    {"word":"compelling","tip":"convincente"},
+    {"word":"oversimplification","tip":"simplificación excesiva"}
+  ],
+  "collocations": ["lead to better decisions", "a body of research", "cognitive cost", "marginal benefit", "outweigh the cost"],
+  "questions": [
+    {"q":"What is the conventional assumption about choice?","options":["More choice always improves decisions","More choice is always bad","Choice doesn't matter"],"answer":0},
+    {"q":"Who coined the term 'paradox of choice'?","options":["Barack Obama","Barry Schwartz","Daniel Kahneman"],"answer":1},
+    {"q":"According to the text, what does each additional option require?","options":["Money","Mental energy","Friends"],"answer":1},
+    {"q":"What do critics say about Schwartz's claims?","options":["They are completely wrong","The evidence is more nuanced","They are universally accepted"],"answer":1},
+    {"q":"What practical lesson does the author offer?","options":["Always choose the first option","Ask if marginal benefit outweighs cognitive cost","Avoid all decisions"],"answer":1}
+  ]
+}

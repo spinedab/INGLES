@@ -1,0 +1,20 @@
+{
+  "title": "My First Job Interview",
+  "summary": "Past simple + present perfect — describing a memorable experience.",
+  "text": "<p>I have had many job interviews in my life, but I will never forget the first one. It was five years ago, just after I finished university. I applied for a position at a small marketing company.</p><p>The day of the interview, I was very nervous. I woke up early and put on my best suit. When I arrived at the office, I noticed I had forgotten my CV at home. I panicked, but the receptionist was kind. She let me print another copy.</p><p>The interview lasted thirty minutes. The manager asked me about my studies and my hobbies. I tried to sound confident, although my hands were shaking. At one point, I made a joke and the manager laughed. I think that helped me.</p><p>One week later, they called me. I had got the job! I worked there for three years. Looking back, I have learned that being prepared is important, but being human is what really matters.</p>",
+  "glosses": [
+    {"word":"applied","tip":"solicité — past simple of 'apply'"},
+    {"word":"nervous","tip":"nervioso"},
+    {"word":"receptionist","tip":"persona en la recepción"},
+    {"word":"shaking","tip":"temblando"},
+    {"word":"confident","tip":"seguro de sí mismo"}
+  ],
+  "collocations": ["apply for a position", "wake up early", "put on a suit", "make a joke", "get the job"],
+  "questions": [
+    {"q":"How long ago was the first interview?","options":["One year","Three years","Five years"],"answer":2},
+    {"q":"What did the narrator forget?","options":["Their suit","Their CV","Their phone"],"answer":1},
+    {"q":"How long did the interview last?","options":["15 minutes","30 minutes","1 hour"],"answer":1},
+    {"q":"What helped the narrator in the interview?","options":["Their CV","Making a joke","Their suit"],"answer":1},
+    {"q":"What lesson does the narrator share at the end?","options":["Always bring your CV","Being prepared is enough","Being human matters too"],"answer":2}
+  ]
+}

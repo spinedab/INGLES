@@ -1,0 +1,20 @@
+{
+  "title": "The Hidden Cost of Cheap Fashion",
+  "summary": "Argumentative B1 text — passive voice, conditional, AWL vocabulary.",
+  "text": "<p>Every year, the average European buys about 26 kilograms of clothing. Most of it ends up in landfills within a year. The fashion industry has become one of the most polluting industries in the world, accounting for around 10% of global carbon emissions — more than international flights and shipping combined.</p><p>The reason behind this is what experts call \"fast fashion\": cheap, disposable clothes designed to be worn briefly and thrown away. Shops release new collections every few weeks instead of every season. To keep prices low, factories are often located in countries where labor regulations are weak and workers earn less than two euros a day.</p><p>If we want to mitigate the impact, we have several options. We can buy fewer but better-quality items. We can shop second-hand. We can repair instead of replacing. None of these solutions is glamorous, but eventually they would shift the market.</p><p>Of course, the responsibility cannot be placed only on the consumer. Governments must regulate the industry, and brands have to be held accountable. Notwithstanding these structural issues, individual choices still matter — they send a clear signal about what we value.</p>",
+  "glosses": [
+    {"word":"landfills","tip":"vertederos"},
+    {"word":"emissions","tip":"emisiones (de gases)"},
+    {"word":"disposable","tip":"desechable"},
+    {"word":"mitigate","tip":"reducir el impacto"},
+    {"word":"accountable","tip":"responsable, que rinde cuentas"}
+  ],
+  "collocations": ["end up in landfills", "carbon emissions", "fast fashion", "second-hand", "shift the market", "be held accountable"],
+  "questions": [
+    {"q":"What percentage of global carbon emissions does fashion produce?","options":["Around 5%","Around 10%","Around 25%"],"answer":1},
+    {"q":"What is 'fast fashion' according to the text?","options":["Sportswear","Cheap, disposable clothes released frequently","Luxury brand clothes"],"answer":1},
+    {"q":"What is NOT mentioned as a personal solution?","options":["Buying second-hand","Repairing clothes","Donating to charity"],"answer":2},
+    {"q":"What does the author say about responsibility?","options":["Only consumers are responsible","Only governments are responsible","Both consumers and governments share responsibility"],"answer":2},
+    {"q":"What is the author's main argument?","options":["Fashion is harmless","Cheap fashion has serious costs we don't see","Everyone should make their own clothes"],"answer":1}
+  ]
+}

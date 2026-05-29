@@ -1,0 +1,23 @@
+{
+  "title": "TED-Ed Style — How memory works",
+  "summary": "A short explainer script B2 about memory consolidation. Recommend listening to a real TED-Ed video for the actual audio.",
+  "duration": "5 min",
+  "audio": null,
+  "externalUrl": "https://ed.ted.com/",
+  "script": "Imagine you study a list of vocabulary for an hour. You feel you've memorized it. The next morning, half of it is gone. What happened during those eight hours?\nMemory, as it turns out, is not stored the moment you encounter it. It is constructed over time, mostly while you sleep. The process is called consolidation. Without it, learning is essentially temporary.\nDuring slow-wave sleep, the hippocampus — a structure deep in the brain that acts as a short-term buffer — replays the day's experiences for the cortex, which is where long-term memories are stored. The replay is faster than real time and seems to strengthen the neural connections that represent each memory.\nWhat does this mean for someone trying to learn a language? Three implications follow. First, cramming the night before is worse than distributing the same study time over several days, because consolidation needs sleep cycles. Second, pulling an all-nighter to study sabotages the very mechanism that turns studying into knowing. Third, brief naps after intensive learning, especially those reaching slow-wave sleep, can significantly enhance retention.\nThe brain, in other words, treats sleep not as time off, but as the second shift in which learning is genuinely accomplished. Skip it, and you skip the part where the magic happens.",
+  "vocabulary": [
+    {"word":"consolidation","meaning":"consolidación"},
+    {"word":"slow-wave sleep","meaning":"sueño de ondas lentas"},
+    {"word":"hippocampus","meaning":"hipocampo"},
+    {"word":"cortex","meaning":"corteza cerebral"},
+    {"word":"cramming","meaning":"estudiar de forma intensiva en el último momento"},
+    {"word":"pulling an all-nighter","meaning":"pasar la noche en vela estudiando"}
+  ],
+  "questions": [
+    {"q":"What is consolidation in this context?","options":["A diet","The process of forming long-term memories during sleep","A type of medication"],"answer":1},
+    {"q":"What role does the hippocampus play?","options":["Long-term storage","Short-term buffer that replays experiences","Motor control"],"answer":1},
+    {"q":"Which phase of sleep is mentioned as critical?","options":["REM sleep","Slow-wave sleep","Light sleep"],"answer":1},
+    {"q":"What does the author say about cramming?","options":["It works better than distributed study","It's worse than distributed study","It has no effect"],"answer":1},
+    {"q":"What kind of naps can help retention?","options":["Naps that reach slow-wave sleep","30-second microsleeps","Daytime sleep with TV on"],"answer":0}
+  ]
+}

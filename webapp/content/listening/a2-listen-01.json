@@ -1,0 +1,21 @@
+{
+  "title": "A Weekend Plan",
+  "summary": "Two friends discuss what to do on Saturday — modals, going to, suggestions.",
+  "duration": "2 min",
+  "audio": null,
+  "externalUrl": "https://learningenglish.voanews.com/",
+  "script": "Anna: Hey Mark, what are you doing this weekend?\nMark: Not much. I think I'm going to stay home. Why?\nAnna: There's a new exhibition at the science museum. Do you want to come with me?\nMark: That sounds interesting. When are you planning to go?\nAnna: How about Saturday afternoon? Around three?\nMark: I can't on Saturday. I have my sister's birthday in the morning, and I'll probably be tired afterwards. Could we go on Sunday instead?\nAnna: Sunday works for me. Let's meet at the entrance at two.\nMark: Perfect. Should I bring anything?\nAnna: Just your curiosity. The tickets are free for residents.\nMark: Great. See you on Sunday then.\nAnna: See you!",
+  "vocabulary": [
+    {"word":"exhibition","meaning":"exposición"},
+    {"word":"How about","meaning":"forma de sugerir"},
+    {"word":"work for me","meaning":"me viene bien"},
+    {"word":"residents","meaning":"residentes"}
+  ],
+  "questions": [
+    {"q":"Where does Anna want to go?","options":["The museum","The cinema","A restaurant"],"answer":0},
+    {"q":"Why can't Mark go on Saturday?","options":["He's working","His sister's birthday","He's sick"],"answer":1},
+    {"q":"What day do they finally choose?","options":["Saturday","Sunday","Friday"],"answer":1},
+    {"q":"At what time will they meet?","options":["At one","At two","At three"],"answer":1},
+    {"q":"How much do the tickets cost for residents?","options":["Five euros","Ten euros","They are free"],"answer":2}
+  ]
+}

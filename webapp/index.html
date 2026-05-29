@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#2d6cdf">
+<title>INGLES — App de aprendizaje</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/app-icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<header class="appbar">
+  <a class="logo" href="#/">INGLES</a>
+  <nav>
+    <a href="#/" data-route="dashboard">Inicio</a>
+    <a href="#/flashcards" data-route="flashcards">Flashcards</a>
+    <a href="#/reading" data-route="reading">Lectura</a>
+    <a href="#/listening" data-route="listening">Listening</a>
+    <a href="#/grammar" data-route="grammar">Gramática</a>
+    <a href="#/coach" data-route="coach">Coach</a>
+    <a href="#/search" data-route="search">Buscar</a>
+    <a href="#/notebook" data-route="notebook">Cuaderno</a>
+  </nav>
+  <div class="app-actions">
+    <button id="install-app" class="utility-btn" title="Instalar app" hidden>Instalar</button>
+    <span id="connection-status" class="connection-status">Online</span>
+  </div>
+  <div class="level-pill">
+    Nivel: <select id="level-select">
+      <option value="a1">A1</option>
+      <option value="a2">A2</option>
+      <option value="b1">B1</option>
+      <option value="b2">B2</option>
+    </select>
+  </div>
+</header>
+
+<main id="view"></main>
+
+<footer class="appfooter">
+  <span>Tu progreso vive en este navegador (localStorage). <a href="#/data">Exportar/Importar</a></span>
+  <span>· Basado en <a href="../docs/index.html">el tratado</a></span>
+</footer>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

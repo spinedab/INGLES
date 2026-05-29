@@ -1,0 +1,20 @@
+{
+  "title": "Why We Sleep",
+  "summary": "Science divulgation B1 — present and past, AWL items.",
+  "text": "<p>For decades, scientists thought sleep was a kind of inactive state — a passive break from the day. Recent research has revealed something quite different: sleep is one of the most active periods for the brain.</p><p>During the deepest phases of sleep, the brain consolidates what we have learned during the day. Memories are transferred from short-term to long-term storage. Without this nightly process, learning becomes considerably less effective. Studies have shown that students who sleep eight hours after studying retain significantly more information than those who pull all-nighters.</p><p>Sleep also plays a vital role in physical health. The body releases hormones that repair tissue, regulate metabolism and strengthen the immune system. Chronic sleep deprivation is associated with a higher risk of heart disease, diabetes and even Alzheimer's.</p><p>Despite all this evidence, many adults still sleep less than seven hours a night. Some treat sleep as a sign of laziness; others struggle with screens, stress or work demands. The cost is invisible at first, but it accumulates over years.</p><p>If we want to learn faster, perform better and live longer, the cheapest and most effective intervention is also the oldest: go to bed earlier.</p>",
+  "glosses": [
+    {"word":"consolidates","tip":"consolida, fija"},
+    {"word":"retain","tip":"retener, recordar"},
+    {"word":"all-nighters","tip":"noches enteras estudiando sin dormir"},
+    {"word":"deprivation","tip":"privación, falta"},
+    {"word":"laziness","tip":"pereza"}
+  ],
+  "collocations": ["consolidate memories", "release hormones", "regulate metabolism", "immune system", "go to bed earlier"],
+  "questions": [
+    {"q":"What did scientists used to think about sleep?","options":["It was active","It was a passive break","It was harmful"],"answer":1},
+    {"q":"What happens during deep sleep?","options":["Nothing","Memories are consolidated","The brain rests fully"],"answer":1},
+    {"q":"Who retains more information?","options":["Those who study all night","Those who sleep 8 hours after studying","It makes no difference"],"answer":1},
+    {"q":"Which is NOT a benefit of sleep mentioned?","options":["Tissue repair","Hormone release","Better eyesight"],"answer":2},
+    {"q":"What is the author's recommendation?","options":["Drink more coffee","Go to bed earlier","Take naps"],"answer":1}
+  ]
+}

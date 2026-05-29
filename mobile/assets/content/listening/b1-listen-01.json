@@ -1,0 +1,23 @@
+{
+  "title": "BBC 6 Minute English — Style",
+  "summary": "Sample script in the BBC 6 Minute English style. Topic: working from home culture.",
+  "duration": "6 min",
+  "audio": null,
+  "externalUrl": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english",
+  "script": "Hello and welcome to 6 Minute English. I'm Sam.\nAnd I'm Neil. Sam, since the pandemic, have you noticed how many people now work from home?\nAbsolutely. Some studies suggest that nearly 40% of workers in some sectors no longer commute every day.\nThat's a huge shift. And what's interesting is that people are divided about whether it's a good thing.\nIndeed. Supporters argue it gives them flexibility, saves time on transport, and allows for a better work-life balance.\nOn the other hand, critics say something is lost. Casual conversations in the kitchen, learning by observation, that sense of belonging to a team.\nThat's what experts call \"collaboration loss\". And it's harder to measure than productivity, which means it tends to be ignored until problems emerge.\nSo what's the solution?\nMost companies are landing on hybrid models — two or three days in the office, the rest at home. It's a compromise, not a perfect answer.\nNothing in life is perfect, Neil. That's all for today. Join us next time on 6 Minute English. Goodbye!\nGoodbye!",
+  "vocabulary": [
+    {"word":"work from home","meaning":"trabajar desde casa"},
+    {"word":"commute","meaning":"desplazarse al trabajo"},
+    {"word":"work-life balance","meaning":"equilibrio trabajo-vida"},
+    {"word":"hybrid model","meaning":"modelo híbrido"},
+    {"word":"compromise","meaning":"acuerdo intermedio (no 'compromiso', falso amigo)"}
+  ],
+  "questions": [
+    {"q":"What percentage of workers no longer commute every day in some sectors?","options":["10%","Nearly 40%","75%"],"answer":1},
+    {"q":"What is one advantage mentioned for working from home?","options":["Better salary","Flexibility","More meetings"],"answer":1},
+    {"q":"What do critics say is lost?","options":["Money","Casual conversations and team belonging","Lunch breaks"],"answer":1},
+    {"q":"What does 'collaboration loss' refer to?","options":["Lost emails","Loss of informal interaction","Reduced salary"],"answer":1},
+    {"q":"What is the solution most companies adopt?","options":["Fully remote","Fully in-office","Hybrid models"],"answer":2},
+    {"q":"What is 'compromise' in this context (false friend)?","options":["A promise","An agreement that satisfies both sides partially","A debt"],"answer":1}
+  ]
+}

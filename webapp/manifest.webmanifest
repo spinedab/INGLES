@@ -1,0 +1,18 @@
+{
+  "name": "INGLES - App de aprendizaje",
+  "short_name": "INGLES",
+  "description": "SRS, lectura graduada, listening, grammar, coach y cuaderno lexico local.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fafaf7",
+  "theme_color": "#2d6cdf",
+  "icons": [
+    {
+      "src": "icons/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

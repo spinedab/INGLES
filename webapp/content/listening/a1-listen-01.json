@@ -1,0 +1,20 @@
+{
+  "title": "Ordering Coffee at a Café",
+  "summary": "A short dialogue at a café — basic greetings, ordering, prices.",
+  "duration": "1 min",
+  "audio": null,
+  "externalUrl": "https://learningenglish.voanews.com/a/lets-learn-english-lesson-3-let-me-help-you/3193989.html",
+  "script": "Server: Hi! Good morning. How can I help you?\nCustomer: Good morning. I would like a coffee, please.\nServer: A small or a large coffee?\nCustomer: A large one. With milk, please.\nServer: Anything to eat?\nCustomer: Yes, a croissant.\nServer: That's four dollars fifty.\nCustomer: Here you are. Five dollars.\nServer: Thank you. Here is your change, fifty cents. Have a nice day!\nCustomer: You too. Thanks!",
+  "vocabulary": [
+    {"word":"How can I help you?","meaning":"saludo del personal de servicio"},
+    {"word":"a small / a large","meaning":"tamaño pequeño / grande"},
+    {"word":"change","meaning":"vuelta de dinero"},
+    {"word":"Here you are","meaning":"frase al entregar algo"}
+  ],
+  "questions": [
+    {"q":"What does the customer order to drink?","options":["A small coffee","A large coffee with milk","A tea"],"answer":1},
+    {"q":"What food does the customer order?","options":["A sandwich","A croissant","Nothing"],"answer":1},
+    {"q":"How much does the order cost?","options":["$4.50","$5.00","$5.50"],"answer":0},
+    {"q":"How much change does the customer receive?","options":["50 cents","One dollar","Nothing"],"answer":0}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Why I Stopped Using Social Media",
+  "summary": "Opinion text — present perfect, modals, connectors.",
+  "text": "<p>Six months ago, I decided to delete all my social media accounts. My friends thought I was crazy. \"How will you know what's happening?\" they asked. The truth is, I have never been happier.</p><p>I used to spend two or three hours every day scrolling on my phone. I was always tired, always comparing myself to others. I felt I had no time for the things I really wanted to do, like reading books or learning the guitar.</p><p>At first, it was strange. I kept reaching for my phone, but there was nothing to check. After two weeks, I started to feel calmer. I have read fifteen books this year. I have made new friends, real ones who I see in person.</p><p>I'm not saying everyone should do this. Social media has good things too: connecting with family abroad, finding information, supporting causes. But for me, the costs were higher than the benefits.</p>",
+  "glosses": [
+    {"word":"scrolling","tip":"deslizando en pantalla"},
+    {"word":"comparing","tip":"comparando"},
+    {"word":"reaching","tip":"tendiendo la mano hacia"},
+    {"word":"abroad","tip":"en el extranjero"},
+    {"word":"benefits","tip":"beneficios"}
+  ],
+  "collocations": ["delete an account", "spend time scrolling", "in person", "support a cause", "the costs were higher than the benefits"],
+  "questions": [
+    {"q":"When did the narrator stop using social media?","options":["A year ago","Six months ago","Last week"],"answer":1},
+    {"q":"How did the narrator's friends react?","options":["They agreed","They thought it was crazy","They did the same"],"answer":1},
+    {"q":"How many books has the narrator read this year?","options":["Five","Ten","Fifteen"],"answer":2},
+    {"q":"What does the narrator say about social media?","options":["It's all bad","It's all good","It has good and bad things"],"answer":2},
+    {"q":"What pattern does the narrator describe in their previous habit?","options":["Reading books","Scrolling for hours","Playing guitar"],"answer":1}
+  ]
+}

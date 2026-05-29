@@ -1,0 +1,20 @@
+{
+  "title": "My Morning Routine",
+  "summary": "A simple description of daily habits — present simple, time expressions.",
+  "text": "<p>My name is Sara. I am a teacher. Every day I wake up at six o'clock. I drink a glass of water. Then I have breakfast: bread, cheese and coffee. I love coffee.</p><p>I go to work by bus. The school is not far from my house. I teach English to children. They are eight or nine years old. I like my students. They are funny.</p><p>At one o'clock I eat lunch with my colleagues. We talk about our weekend. After school, I walk in the park with my dog. His name is Max. He is a happy dog.</p><p>In the evening I cook dinner. I read a book or I watch TV. I usually go to bed at eleven. I sleep eight hours every night.</p>",
+  "glosses": [
+    {"word":"wake up","tip":"levantarse de dormir"},
+    {"word":"breakfast","tip":"comida de la mañana"},
+    {"word":"colleagues","tip":"compañeros de trabajo"},
+    {"word":"weekend","tip":"sábado y domingo"},
+    {"word":"usually","tip":"normalmente"}
+  ],
+  "collocations": ["wake up at", "have breakfast", "go to work", "in the evening", "go to bed"],
+  "questions": [
+    {"q":"What time does Sara wake up?","options":["At 6 o'clock","At 8 o'clock","At 11 o'clock"],"answer":0},
+    {"q":"How does Sara go to work?","options":["By car","By bus","On foot"],"answer":1},
+    {"q":"What does Sara teach?","options":["Math","English","History"],"answer":1},
+    {"q":"Who walks in the park with Sara?","options":["Her colleagues","Her students","Her dog"],"answer":2},
+    {"q":"How many hours does Sara sleep?","options":["Six","Seven","Eight"],"answer":2}
+  ]
+}

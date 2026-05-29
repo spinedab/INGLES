@@ -1,0 +1,19 @@
+{
+  "title": "A Trip to the Beach",
+  "summary": "Past simple, narrative — a day at the beach.",
+  "text": "<p>Last Saturday my family and I went to the beach. We left home at nine in the morning. The drive was one hour. The sun was hot and the sky was blue.</p><p>At the beach, my brother and I swam in the sea. The water was cold but we had fun. My mother sat under an umbrella and read a book. My father took photos of everything.</p><p>For lunch we ate sandwiches and fruit. We drank lemonade. After lunch, my sister built a sandcastle. It was very big.</p><p>In the afternoon, we played football on the sand. We were tired but happy. We came home at seven. I slept very well that night.</p>",
+  "glosses": [
+    {"word":"sandcastle","tip":"castillo de arena"},
+    {"word":"umbrella","tip":"sombrilla o paraguas"},
+    {"word":"lemonade","tip":"bebida de limón"},
+    {"word":"drove","tip":"pasado de drive — condujo"}
+  ],
+  "collocations": ["go to the beach", "take photos", "have fun", "go home", "sleep well"],
+  "questions": [
+    {"q":"When did the family go to the beach?","options":["Last Saturday","Yesterday","Last Sunday"],"answer":0},
+    {"q":"What did the mother do?","options":["She swam","She read a book","She built a sandcastle"],"answer":1},
+    {"q":"What did they eat for lunch?","options":["Pizza","Sandwiches and fruit","Salad"],"answer":1},
+    {"q":"What did they do in the afternoon?","options":["Played football","Read books","Slept"],"answer":0},
+    {"q":"How did the narrator feel at the end?","options":["Hungry","Tired but happy","Sad"],"answer":1}
+  ]
+}
