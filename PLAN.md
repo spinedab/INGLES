@@ -159,15 +159,19 @@ Implementamos SuperMemo-2 (Wozniak, 1985) con quality scale 0-5:
 tutor-ia/
 ├── README.md                     # Cómo usar
 ├── requirements.txt              # anthropic, rich
-├── tutor.py                      # CLI principal
-├── system_prompt.md              # Prompt del tutor (versionado aparte)
+├── tutor.py                      # CLI principal (integra toda la lógica de lección)
+├── system_prompt.md              # Prompt del tutor (encoda la progresión CEFR)
 ├── escenarios.json               # Catálogo de role-plays
-├── lecciones/
-│   ├── lesson_runner.py          # Lógica de lección
-│   └── progresion.json           # Progresión CEFR del tutor
 └── data/
-    └── sesiones.jsonl            # Log de sesiones (local)
+    └── sesiones.jsonl            # Log de sesiones (creado en runtime)
 ```
+
+> Nota de implementación: el diseño original contemplaba `lecciones/lesson_runner.py`
+> y `lecciones/progresion.json` como módulos separados. Se refactorizó a una
+> arquitectura simplificada: `tutor.py` integra la lógica de lección y la
+> progresión CEFR vive en `system_prompt.md` (sección "CEFR calibration").
+> Además, el tutor fue portado a servicio HTTP en `api/` (FastAPI + Redis)
+> para integrarlo con las apps web/móvil.
 
 ### Diseño pedagógico del tutor
 

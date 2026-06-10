@@ -38,6 +38,11 @@ class Settings(BaseSettings):
     ingles_rate_limit_per_min: int = 60
     ingles_cors_origins: str = "*"
     ingles_log_level: str = "INFO"
+    # Trust boundary: X-Forwarded-For es spoofeable por el cliente si la API
+    # está expuesta directamente a internet. Déjalo en True SOLO si hay un
+    # reverse proxy delante que sobreescribe ese header (nginx/Apache/CDN).
+    # Con False se usa la IP del socket (request.client.host).
+    ingles_trust_proxy: bool = True
 
     @property
     def cors_origins_list(self) -> list[str]:

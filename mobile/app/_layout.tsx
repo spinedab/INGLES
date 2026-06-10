@@ -22,20 +22,23 @@ export default function RootLayout() {
           <Stack
             screenOptions={{
               headerStyle: { backgroundColor: theme.bg },
-              headerTitleStyle: { color: theme.fg },
+              headerTitleStyle: { color: theme.fg, fontWeight: '700' },
               headerTintColor: theme.accent,
+              headerShadowVisible: false,
               contentStyle: { backgroundColor: theme.bg },
             }}
           >
-            <Stack.Screen name="index" options={{ title: 'INGLES' }} />
-            <Stack.Screen name="settings" options={{ title: 'Ajustes' }} />
-            <Stack.Screen name="coach" options={{ title: 'Coach' }} />
-            <Stack.Screen name="notebook" options={{ title: 'Cuaderno' }} />
-            <Stack.Screen name="search" options={{ title: 'Búsqueda' }} />
+            {/* Tab navigator — main entry point */}
+            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+
+            {/* Stack screens pushed over tabs */}
             <Stack.Screen name="flashcards" options={{ headerShown: false }} />
             <Stack.Screen name="reading" options={{ headerShown: false }} />
             <Stack.Screen name="listening" options={{ headerShown: false }} />
             <Stack.Screen name="grammar" options={{ headerShown: false }} />
+            <Stack.Screen name="search" options={{ title: 'Busqueda', presentation: 'modal' }} />
+            <Stack.Screen name="settings" options={{ title: 'Ajustes' }} />
+            <Stack.Screen name="onboarding" options={{ headerShown: false, presentation: 'fullScreenModal' }} />
           </Stack>
         </LevelProvider>
       </SafeAreaProvider>

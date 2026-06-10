@@ -68,12 +68,19 @@ def build_system_prompt(
         if scenario not in scs:
             raise ValueError(f"scenario inválido: {scenario}. Disponibles: {list(scs.keys())}")
         s = scs[scenario]
+        # Formato canónico del scenarios.json (compartido con tutor-ia/escenarios.json):
+        # title, min_level, setup (texto libre con el rol del tutor), objectives (lista).
+        objectives = s.get("objectives", [])
+        objectives_block = (
+            "\nLearner objectives:\n" + "\n".join(f"- {o}" for o in objectives)
+            if objectives
+            else ""
+        )
         mode_block_parts.append(
-            f"Roleplay scenario: **{s.get('title', scenario)}**\n"
-            f"Setting: {s.get('setting', '')}\n"
-            f"Your character: {s.get('your_character', '')}\n"
-            f"Learner role: {s.get('learner_role', '')}\n"
-            f"Goal of the scene: {s.get('goal', '')}\n\n"
+            f"Roleplay scenario: **{s.get('title', scenario)}** "
+            f"(recommended level: {s.get('min_level', 'a1').upper()}+)\n\n"
+            f"{s.get('setup', '')}\n"
+            f"{objectives_block}\n\n"
             f"Stay in character. Follow the scene through to a natural conclusion. "
             f"Do not break the fourth wall unless the learner explicitly asks for help."
         )

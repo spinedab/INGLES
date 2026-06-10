@@ -64,9 +64,14 @@ def require_token(authorization: Annotated[str | None, Header()] = None) -> None
 
 
 def _client_ip(request: Request) -> str:
-    fwd = request.headers.get("x-forwarded-for")
-    if fwd:
-        return fwd.split(",")[0].strip()
+    # X-Forwarded-For solo es confiable detrás de un reverse proxy que lo
+    # sobreescriba; expuesto directo a internet, el cliente puede falsearlo
+    # (rompería rate-limit y el binding IP de sesiones). Controlado por
+    # INGLES_TRUST_PROXY (ver config.py).
+    if settings.ingles_trust_proxy:
+        fwd = request.headers.get("x-forwarded-for")
+        if fwd:
+            return fwd.split(",")[0].strip()
     if request.client:
         return request.client.host
     return "unknown"
