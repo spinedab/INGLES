@@ -1,42 +1,1209 @@
 [
-  {"id":"a2-001","front":"although (conj)","definition":"in spite of the fact that","example":"Although he was tired, he kept working.","translation":"aunque","tags":["a2","conjunction","top200"]},
-  {"id":"a2-002","front":"however (adv)","definition":"on the other hand","example":"It rained; however, we went out.","translation":"sin embargo","tags":["a2","adverb","top200"]},
-  {"id":"a2-003","front":"already (adv)","definition":"by now","example":"I have already eaten.","translation":"ya","tags":["a2","adverb","top200"]},
-  {"id":"a2-004","front":"yet (adv)","definition":"until now","example":"I haven't finished yet.","translation":"todavía","tags":["a2","adverb","top200"]},
-  {"id":"a2-005","front":"borrow (v)","definition":"to take temporarily","example":"Can I borrow your pen?","translation":"pedir prestado","tags":["a2","verb","top500"]},
-  {"id":"a2-006","front":"lend (v)","definition":"to give temporarily","example":"She lent me her car.","translation":"prestar","tags":["a2","verb","irregular","top500"]},
-  {"id":"a2-007","front":"complain (v)","definition":"to express dissatisfaction","example":"He complained about the noise.","translation":"quejarse","tags":["a2","verb","top500"]},
-  {"id":"a2-008","front":"explain (v)","definition":"to make clear","example":"Can you explain that again?","translation":"explicar","tags":["a2","verb","top500"]},
-  {"id":"a2-009","front":"suggest (v)","definition":"to propose","example":"I suggest we leave now.","translation":"sugerir","tags":["a2","verb","top500"]},
-  {"id":"a2-010","front":"decide (v)","definition":"to make a choice","example":"I decided to stay.","translation":"decidir","tags":["a2","verb","top500"]},
-  {"id":"a2-011","front":"believe (v)","definition":"to accept as true","example":"I believe you.","translation":"creer","tags":["a2","verb","top500"]},
-  {"id":"a2-012","front":"forget (v)","definition":"to fail to remember","example":"Don't forget your keys.","translation":"olvidar","tags":["a2","verb","irregular","top500"]},
-  {"id":"a2-013","front":"hope (v)","definition":"to wish for","example":"I hope you can come.","translation":"esperar (deseo)","tags":["a2","verb","top200"]},
-  {"id":"a2-014","front":"meeting (n)","definition":"a gathering of people","example":"The meeting starts at 10.","translation":"reunión","tags":["a2","noun","top500"]},
-  {"id":"a2-015","front":"problem (n)","definition":"a difficult situation","example":"We need to solve this problem.","translation":"problema","tags":["a2","noun","top200"]},
-  {"id":"a2-016","front":"experience (n)","definition":"knowledge gained from doing","example":"She has lots of experience.","translation":"experiencia","tags":["a2","noun","top500"]},
-  {"id":"a2-017","front":"opinion (n)","definition":"a personal view","example":"In my opinion, it's wrong.","translation":"opinión","tags":["a2","noun","top500"]},
-  {"id":"a2-018","front":"difference (n)","definition":"a way in which things are not the same","example":"What's the difference?","translation":"diferencia","tags":["a2","noun","top500"]},
-  {"id":"a2-019","front":"reason (n)","definition":"a cause or explanation","example":"What was the reason?","translation":"razón","tags":["a2","noun","top200"]},
-  {"id":"a2-020","front":"crowded (adj)","definition":"full of people","example":"The bus was crowded.","translation":"abarrotado","tags":["a2","adjective","top1000"]},
-  {"id":"a2-021","front":"embarrassed (adj)","definition":"feeling ashamed or awkward","example":"I was embarrassed by my mistake.","translation":"avergonzado","tags":["a2","adjective","top1000"]},
-  {"id":"a2-022","front":"available (adj)","definition":"able to be used","example":"The book is available online.","translation":"disponible","tags":["a2","adjective","top500"]},
-  {"id":"a2-023","front":"expensive (adj)","definition":"costing a lot","example":"An expensive car.","translation":"caro","tags":["a2","adjective","top500"]},
-  {"id":"a2-024","front":"important (adj)","definition":"of great significance","example":"This is important.","translation":"importante","tags":["a2","adjective","top200"]},
-  {"id":"a2-025","front":"quickly (adv)","definition":"in a fast way","example":"She ran quickly.","translation":"rápidamente","tags":["a2","adverb","top500"]},
-  {"id":"a2-026","front":"finally (adv)","definition":"in the end","example":"He finally arrived.","translation":"finalmente","tags":["a2","adverb","top500"]},
-  {"id":"a2-027","front":"recently (adv)","definition":"a short time ago","example":"I saw her recently.","translation":"recientemente","tags":["a2","adverb","top500"]},
-  {"id":"a2-028","front":"perhaps (adv)","definition":"maybe","example":"Perhaps she's right.","translation":"quizás","tags":["a2","adverb","top500"]},
-  {"id":"a2-029","front":"either (det)","definition":"one or the other","example":"You can take either road.","translation":"cualquiera (de dos)","tags":["a2","determiner","top500"]},
-  {"id":"a2-030","front":"neither (det)","definition":"not one and not the other","example":"Neither answer is correct.","translation":"ninguno (de dos)","tags":["a2","determiner","top1000"]},
-  {"id":"a2-031","front":"get along with (phr)","definition":"to have a good relationship with","example":"I get along with my coworkers.","translation":"llevarse bien con","tags":["a2","phrasal-verb"]},
-  {"id":"a2-032","front":"look after (phr)","definition":"to take care of","example":"She looks after her brother.","translation":"cuidar de","tags":["a2","phrasal-verb"]},
-  {"id":"a2-033","front":"give up (phr)","definition":"to stop trying","example":"Don't give up!","translation":"rendirse","tags":["a2","phrasal-verb"]},
-  {"id":"a2-034","front":"find out (phr)","definition":"to discover","example":"I found out the truth.","translation":"averiguar","tags":["a2","phrasal-verb"]},
-  {"id":"a2-035","front":"put off (phr)","definition":"to postpone","example":"Don't put off the work.","translation":"posponer","tags":["a2","phrasal-verb"]},
-  {"id":"a2-036","front":"make sense (chunk)","definition":"to be logical","example":"Your plan makes sense.","translation":"tener sentido","tags":["a2","chunk"]},
-  {"id":"a2-037","front":"take a break (chunk)","definition":"to pause activity","example":"Let's take a break.","translation":"tomar un descanso","tags":["a2","chunk"]},
-  {"id":"a2-038","front":"have a good time (chunk)","definition":"to enjoy oneself","example":"We had a good time at the party.","translation":"pasarlo bien","tags":["a2","chunk"]},
-  {"id":"a2-039","front":"do the dishes (chunk)","definition":"to wash plates","example":"Who's doing the dishes tonight?","translation":"fregar los platos","tags":["a2","chunk"]},
-  {"id":"a2-040","front":"make a decision (chunk)","definition":"to decide","example":"You need to make a decision.","translation":"tomar una decisión","tags":["a2","chunk"]}
+  {
+    "id": "a2-001",
+    "front": "although (conj)",
+    "definition": "in spite of the fact that",
+    "example": "Although he was tired, he kept working.",
+    "translation": "aunque",
+    "tags": [
+      "a2",
+      "conjunction",
+      "top200"
+    ]
+  },
+  {
+    "id": "a2-002",
+    "front": "however (adv)",
+    "definition": "on the other hand",
+    "example": "It rained; however, we went out.",
+    "translation": "sin embargo",
+    "tags": [
+      "a2",
+      "adverb",
+      "top200"
+    ]
+  },
+  {
+    "id": "a2-003",
+    "front": "already (adv)",
+    "definition": "by now",
+    "example": "I have already eaten.",
+    "translation": "ya",
+    "tags": [
+      "a2",
+      "adverb",
+      "top200"
+    ]
+  },
+  {
+    "id": "a2-004",
+    "front": "yet (adv)",
+    "definition": "until now",
+    "example": "I haven't finished yet.",
+    "translation": "todavía",
+    "tags": [
+      "a2",
+      "adverb",
+      "top200"
+    ]
+  },
+  {
+    "id": "a2-005",
+    "front": "borrow (v)",
+    "definition": "to take temporarily",
+    "example": "Can I borrow your pen?",
+    "translation": "pedir prestado",
+    "tags": [
+      "a2",
+      "verb",
+      "top500"
+    ]
+  },
+  {
+    "id": "a2-006",
+    "front": "lend (v)",
+    "definition": "to give temporarily",
+    "example": "She lent me her car.",
+    "translation": "prestar",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular",
+      "top500"
+    ]
+  },
+  {
+    "id": "a2-007",
+    "front": "complain (v)",
+    "definition": "to express dissatisfaction",
+    "example": "He complained about the noise.",
+    "translation": "quejarse",
+    "tags": [
+      "a2",
+      "verb",
+      "top500"
+    ]
+  },
+  {
+    "id": "a2-008",
+    "front": "explain (v)",
+    "definition": "to make clear",
+    "example": "Can you explain that again?",
+    "translation": "explicar",
+    "tags": [
+      "a2",
+      "verb",
+      "top500"
+    ]
+  },
+  {
+    "id": "a2-009",
+    "front": "suggest (v)",
+    "definition": "to propose",
+    "example": "I suggest we leave now.",
+    "translation": "sugerir",
+    "tags": [
+      "a2",
+      "verb",
+      "top500"
+    ]
+  },
+  {
+    "id": "a2-010",
+    "front": "decide (v)",
+    "definition": "to make a choice",
+    "example": "I decided to stay.",
+    "translation": "decidir",
+    "tags": [
+      "a2",
+      "verb",
+      "top500"
+    ]
+  },
+  {
+    "id": "a2-011",
+    "front": "believe (v)",
+    "definition": "to accept as true",
+    "example": "I believe you.",
+    "translation": "creer",
+    "tags": [
+      "a2",
+      "verb",
+      "top500"
+    ]
+  },
+  {
+    "id": "a2-012",
+    "front": "forget (v)",
+    "definition": "to fail to remember",
+    "example": "Don't forget your keys.",
+    "translation": "olvidar",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular",
+      "top500"
+    ]
+  },
+  {
+    "id": "a2-013",
+    "front": "hope (v)",
+    "definition": "to wish for",
+    "example": "I hope you can come.",
+    "translation": "esperar (deseo)",
+    "tags": [
+      "a2",
+      "verb",
+      "top200"
+    ]
+  },
+  {
+    "id": "a2-014",
+    "front": "meeting (n)",
+    "definition": "a gathering of people",
+    "example": "The meeting starts at 10.",
+    "translation": "reunión",
+    "tags": [
+      "a2",
+      "noun",
+      "top500"
+    ]
+  },
+  {
+    "id": "a2-015",
+    "front": "problem (n)",
+    "definition": "a difficult situation",
+    "example": "We need to solve this problem.",
+    "translation": "problema",
+    "tags": [
+      "a2",
+      "noun",
+      "top200"
+    ]
+  },
+  {
+    "id": "a2-016",
+    "front": "experience (n)",
+    "definition": "knowledge gained from doing",
+    "example": "She has lots of experience.",
+    "translation": "experiencia",
+    "tags": [
+      "a2",
+      "noun",
+      "top500"
+    ]
+  },
+  {
+    "id": "a2-017",
+    "front": "opinion (n)",
+    "definition": "a personal view",
+    "example": "In my opinion, it's wrong.",
+    "translation": "opinión",
+    "tags": [
+      "a2",
+      "noun",
+      "top500"
+    ]
+  },
+  {
+    "id": "a2-018",
+    "front": "difference (n)",
+    "definition": "a way in which things are not the same",
+    "example": "What's the difference?",
+    "translation": "diferencia",
+    "tags": [
+      "a2",
+      "noun",
+      "top500"
+    ]
+  },
+  {
+    "id": "a2-019",
+    "front": "reason (n)",
+    "definition": "a cause or explanation",
+    "example": "What was the reason?",
+    "translation": "razón",
+    "tags": [
+      "a2",
+      "noun",
+      "top200"
+    ]
+  },
+  {
+    "id": "a2-020",
+    "front": "crowded (adj)",
+    "definition": "full of people",
+    "example": "The bus was crowded.",
+    "translation": "abarrotado",
+    "tags": [
+      "a2",
+      "adjective",
+      "top1000"
+    ]
+  },
+  {
+    "id": "a2-021",
+    "front": "embarrassed (adj)",
+    "definition": "feeling ashamed or awkward",
+    "example": "I was embarrassed by my mistake.",
+    "translation": "avergonzado",
+    "tags": [
+      "a2",
+      "adjective",
+      "top1000"
+    ]
+  },
+  {
+    "id": "a2-022",
+    "front": "available (adj)",
+    "definition": "able to be used",
+    "example": "The book is available online.",
+    "translation": "disponible",
+    "tags": [
+      "a2",
+      "adjective",
+      "top500"
+    ]
+  },
+  {
+    "id": "a2-023",
+    "front": "expensive (adj)",
+    "definition": "costing a lot",
+    "example": "An expensive car.",
+    "translation": "caro",
+    "tags": [
+      "a2",
+      "adjective",
+      "top500"
+    ]
+  },
+  {
+    "id": "a2-024",
+    "front": "important (adj)",
+    "definition": "of great significance",
+    "example": "This is important.",
+    "translation": "importante",
+    "tags": [
+      "a2",
+      "adjective",
+      "top200"
+    ]
+  },
+  {
+    "id": "a2-025",
+    "front": "quickly (adv)",
+    "definition": "in a fast way",
+    "example": "She ran quickly.",
+    "translation": "rápidamente",
+    "tags": [
+      "a2",
+      "adverb",
+      "top500"
+    ]
+  },
+  {
+    "id": "a2-026",
+    "front": "finally (adv)",
+    "definition": "in the end",
+    "example": "He finally arrived.",
+    "translation": "finalmente",
+    "tags": [
+      "a2",
+      "adverb",
+      "top500"
+    ]
+  },
+  {
+    "id": "a2-027",
+    "front": "recently (adv)",
+    "definition": "a short time ago",
+    "example": "I saw her recently.",
+    "translation": "recientemente",
+    "tags": [
+      "a2",
+      "adverb",
+      "top500"
+    ]
+  },
+  {
+    "id": "a2-028",
+    "front": "perhaps (adv)",
+    "definition": "maybe",
+    "example": "Perhaps she's right.",
+    "translation": "quizás",
+    "tags": [
+      "a2",
+      "adverb",
+      "top500"
+    ]
+  },
+  {
+    "id": "a2-029",
+    "front": "either (det)",
+    "definition": "one or the other",
+    "example": "You can take either road.",
+    "translation": "cualquiera (de dos)",
+    "tags": [
+      "a2",
+      "determiner",
+      "top500"
+    ]
+  },
+  {
+    "id": "a2-030",
+    "front": "neither (det)",
+    "definition": "not one and not the other",
+    "example": "Neither answer is correct.",
+    "translation": "ninguno (de dos)",
+    "tags": [
+      "a2",
+      "determiner",
+      "top1000"
+    ]
+  },
+  {
+    "id": "a2-031",
+    "front": "get along with (phr)",
+    "definition": "to have a good relationship with",
+    "example": "I get along with my coworkers.",
+    "translation": "llevarse bien con",
+    "tags": [
+      "a2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a2-032",
+    "front": "look after (phr)",
+    "definition": "to take care of",
+    "example": "She looks after her brother.",
+    "translation": "cuidar de",
+    "tags": [
+      "a2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a2-033",
+    "front": "give up (phr)",
+    "definition": "to stop trying",
+    "example": "Don't give up!",
+    "translation": "rendirse",
+    "tags": [
+      "a2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a2-034",
+    "front": "find out (phr)",
+    "definition": "to discover",
+    "example": "I found out the truth.",
+    "translation": "averiguar",
+    "tags": [
+      "a2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a2-035",
+    "front": "put off (phr)",
+    "definition": "to postpone",
+    "example": "Don't put off the work.",
+    "translation": "posponer",
+    "tags": [
+      "a2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a2-036",
+    "front": "make sense (chunk)",
+    "definition": "to be logical",
+    "example": "Your plan makes sense.",
+    "translation": "tener sentido",
+    "tags": [
+      "a2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "a2-037",
+    "front": "take a break (chunk)",
+    "definition": "to pause activity",
+    "example": "Let's take a break.",
+    "translation": "tomar un descanso",
+    "tags": [
+      "a2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "a2-038",
+    "front": "have a good time (chunk)",
+    "definition": "to enjoy oneself",
+    "example": "We had a good time at the party.",
+    "translation": "pasarlo bien",
+    "tags": [
+      "a2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "a2-039",
+    "front": "do the dishes (chunk)",
+    "definition": "to wash plates",
+    "example": "Who's doing the dishes tonight?",
+    "translation": "fregar los platos",
+    "tags": [
+      "a2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "a2-040",
+    "front": "make a decision (chunk)",
+    "definition": "to decide",
+    "example": "You need to make a decision.",
+    "translation": "tomar una decisión",
+    "tags": [
+      "a2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "a2-041",
+    "front": "government (n)",
+    "definition": "the group of people who rule a country",
+    "example": "The government raised taxes.",
+    "translation": "gobierno",
+    "tags": [
+      "a2",
+      "noun",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a2-042",
+    "front": "become (v)",
+    "definition": "to start to be",
+    "example": "She became a teacher.",
+    "translation": "convertirse en",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a2-043",
+    "front": "leave (v)",
+    "definition": "to go away from",
+    "example": "I leave at 8am.",
+    "translation": "salir/irse/dejar",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a2-044",
+    "front": "keep (v)",
+    "definition": "to retain",
+    "example": "Keep this for me.",
+    "translation": "guardar/mantener",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a2-045",
+    "front": "seem (v)",
+    "definition": "to appear to be",
+    "example": "You seem tired.",
+    "translation": "parecer",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a2-046",
+    "front": "turn (v)",
+    "definition": "to rotate; to become",
+    "example": "Turn left at the corner.",
+    "translation": "girar",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a2-047",
+    "front": "move (v)",
+    "definition": "to change position",
+    "example": "Don't move!",
+    "translation": "mover/mudarse",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a2-048",
+    "front": "hold (v)",
+    "definition": "to grip with hands",
+    "example": "Can you hold this?",
+    "translation": "sostener/aguantar",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a2-049",
+    "front": "bring (v)",
+    "definition": "to carry to a place",
+    "example": "Bring your books.",
+    "translation": "traer",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a2-050",
+    "front": "stand (v)",
+    "definition": "to be on one's feet",
+    "example": "I stood up.",
+    "translation": "estar de pie/ponerse en pie",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-051",
+    "front": "include (v)",
+    "definition": "to contain as part",
+    "example": "The price includes breakfast.",
+    "translation": "incluir",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-052",
+    "front": "continue (v)",
+    "definition": "to keep doing",
+    "example": "Please continue your work.",
+    "translation": "continuar",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-053",
+    "front": "set (v)",
+    "definition": "to put in a place",
+    "example": "Set the table, please.",
+    "translation": "poner/colocar",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-054",
+    "front": "create (v)",
+    "definition": "to make something new",
+    "example": "He created a beautiful painting.",
+    "translation": "crear",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-055",
+    "front": "spend (v)",
+    "definition": "to use time or money",
+    "example": "I spent ten dollars.",
+    "translation": "gastar/pasar (tiempo)",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-056",
+    "front": "grow (v)",
+    "definition": "to become bigger",
+    "example": "Children grow fast.",
+    "translation": "crecer",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-057",
+    "front": "offer (v)",
+    "definition": "to present for acceptance",
+    "example": "He offered me a job.",
+    "translation": "ofrecer",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-058",
+    "front": "serve (v)",
+    "definition": "to provide a service",
+    "example": "This restaurant serves Italian food.",
+    "translation": "servir",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-059",
+    "front": "die (v)",
+    "definition": "to stop living",
+    "example": "The flower died.",
+    "translation": "morir",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-060",
+    "front": "send (v)",
+    "definition": "to dispatch",
+    "example": "Send me an email.",
+    "translation": "enviar",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-061",
+    "front": "build (v)",
+    "definition": "to construct",
+    "example": "They built a new house.",
+    "translation": "construir",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-062",
+    "front": "fall (v)",
+    "definition": "to drop downward",
+    "example": "Be careful, don't fall!",
+    "translation": "caer",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-063",
+    "front": "cut (v)",
+    "definition": "to divide with a sharp tool",
+    "example": "Cut the bread, please.",
+    "translation": "cortar",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-064",
+    "front": "kill (v)",
+    "definition": "to cause to die",
+    "example": "The frost killed the plants.",
+    "translation": "matar",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-065",
+    "front": "raise (v)",
+    "definition": "to lift up",
+    "example": "Raise your hand.",
+    "translation": "levantar/subir",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-066",
+    "front": "pass (v)",
+    "definition": "to go past; to give",
+    "example": "Pass me the salt.",
+    "translation": "pasar",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-067",
+    "front": "pull (v)",
+    "definition": "to move toward you",
+    "example": "Pull the door, don't push it.",
+    "translation": "tirar de",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-068",
+    "front": "carry (v)",
+    "definition": "to transport",
+    "example": "Can you carry this bag?",
+    "translation": "llevar",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-069",
+    "front": "receive (v)",
+    "definition": "to get",
+    "example": "I received your letter.",
+    "translation": "recibir",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-070",
+    "front": "agree (v)",
+    "definition": "to share an opinion",
+    "example": "I agree with you.",
+    "translation": "estar de acuerdo",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-071",
+    "front": "hit (v)",
+    "definition": "to strike",
+    "example": "The car hit a tree.",
+    "translation": "golpear",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-072",
+    "front": "cover (v)",
+    "definition": "to put over",
+    "example": "Cover the food, please.",
+    "translation": "cubrir",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-073",
+    "front": "catch (v)",
+    "definition": "to grab moving",
+    "example": "Catch the ball!",
+    "translation": "atrapar",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-074",
+    "front": "draw (v)",
+    "definition": "to make a picture; to pull",
+    "example": "She draws beautifully.",
+    "translation": "dibujar",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-075",
+    "front": "choose (v)",
+    "definition": "to select",
+    "example": "Choose any one you like.",
+    "translation": "elegir",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-076",
+    "front": "join (v)",
+    "definition": "to become part of",
+    "example": "I joined the team.",
+    "translation": "unirse",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a2-077",
+    "front": "add (v)",
+    "definition": "to put more",
+    "example": "Add some salt.",
+    "translation": "añadir",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a2-078",
+    "front": "prepare (v)",
+    "definition": "to make ready",
+    "example": "I'm preparing dinner.",
+    "translation": "preparar",
+    "tags": [
+      "a2",
+      "verb",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a2-079",
+    "front": "own (adj)",
+    "definition": "belonging to oneself",
+    "example": "I have my own room.",
+    "translation": "propio",
+    "tags": [
+      "a2",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-080",
+    "front": "few (adj)",
+    "definition": "a small number",
+    "example": "A few people came.",
+    "translation": "pocos",
+    "tags": [
+      "a2",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-081",
+    "front": "public (adj)",
+    "definition": "available to everyone",
+    "example": "A public park.",
+    "translation": "público",
+    "tags": [
+      "a2",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-082",
+    "front": "able (adj)",
+    "definition": "capable",
+    "example": "I am able to swim.",
+    "translation": "capaz",
+    "tags": [
+      "a2",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-083",
+    "front": "real (adj)",
+    "definition": "actual, not fake",
+    "example": "Is this a real diamond?",
+    "translation": "real",
+    "tags": [
+      "a2",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a2-084",
+    "front": "heavy (adj)",
+    "definition": "weighing a lot",
+    "example": "A heavy bag.",
+    "translation": "pesado",
+    "tags": [
+      "a2",
+      "adjective",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a2-085",
+    "front": "quick (adj)",
+    "definition": "fast",
+    "example": "A quick lunch.",
+    "translation": "rápido",
+    "tags": [
+      "a2",
+      "adjective",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a2-086",
+    "front": "slow (adj)",
+    "definition": "not fast",
+    "example": "A slow train.",
+    "translation": "lento",
+    "tags": [
+      "a2",
+      "adjective",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a2-087",
+    "front": "through (prep)",
+    "definition": "in one side and out the other",
+    "example": "We walked through the park.",
+    "translation": "a través de",
+    "tags": [
+      "a2",
+      "preposition",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a2-088",
+    "front": "during (prep)",
+    "definition": "throughout a period of time",
+    "example": "I slept during the flight.",
+    "translation": "durante",
+    "tags": [
+      "a2",
+      "preposition",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a2-089",
+    "front": "ever (adv)",
+    "definition": "at any time",
+    "example": "Have you ever been to Japan?",
+    "translation": "alguna vez",
+    "tags": [
+      "a2",
+      "adverb",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a2-090",
+    "front": "take off (phr)",
+    "definition": "to remove (clothing); to fly away",
+    "example": "Take off your shoes.",
+    "translation": "quitarse/despegar",
+    "tags": [
+      "a2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a2-091",
+    "front": "go on (phr)",
+    "definition": "to continue",
+    "example": "Please go on, I'm listening.",
+    "translation": "continuar",
+    "tags": [
+      "a2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a2-092",
+    "front": "area (n)",
+    "definition": "a region or topic",
+    "example": "This is an area of research I enjoy.",
+    "translation": "área",
+    "tags": [
+      "a2",
+      "awl",
+      "sublist1"
+    ]
+  },
+  {
+    "id": "a2-093",
+    "front": "percent (n)",
+    "definition": "one part in a hundred",
+    "example": "Ten percent of students passed.",
+    "translation": "por ciento",
+    "tags": [
+      "a2",
+      "awl",
+      "sublist1"
+    ]
+  },
+  {
+    "id": "a2-094",
+    "front": "similar (adj)",
+    "definition": "alike but not identical",
+    "example": "We have similar opinions.",
+    "translation": "similar",
+    "tags": [
+      "a2",
+      "awl",
+      "sublist1"
+    ]
+  },
+  {
+    "id": "a2-095",
+    "front": "chapter (n)",
+    "definition": "a main division of a book",
+    "example": "Read chapter five.",
+    "translation": "capítulo",
+    "tags": [
+      "a2",
+      "awl",
+      "sublist2"
+    ]
+  },
+  {
+    "id": "a2-096",
+    "front": "culture (n)",
+    "definition": "the way of life of a people",
+    "example": "English culture.",
+    "translation": "cultura",
+    "tags": [
+      "a2",
+      "awl",
+      "sublist2"
+    ]
+  },
+  {
+    "id": "a2-097",
+    "front": "normal (adj)",
+    "definition": "usual",
+    "example": "Normal behavior.",
+    "translation": "normal",
+    "tags": [
+      "a2",
+      "awl",
+      "sublist2"
+    ]
+  },
+  {
+    "id": "a2-098",
+    "front": "select (v)",
+    "definition": "to choose",
+    "example": "Select the best option.",
+    "translation": "seleccionar",
+    "tags": [
+      "a2",
+      "awl",
+      "sublist2"
+    ]
+  },
+  {
+    "id": "a2-099",
+    "front": "text (n)",
+    "definition": "written words",
+    "example": "Read the text carefully.",
+    "translation": "texto",
+    "tags": [
+      "a2",
+      "awl",
+      "sublist2"
+    ]
+  },
+  {
+    "id": "a2-100",
+    "front": "tradition (n)",
+    "definition": "a long-established custom",
+    "example": "A family tradition.",
+    "translation": "tradición",
+    "tags": [
+      "a2",
+      "awl",
+      "sublist2"
+    ]
+  }
 ]

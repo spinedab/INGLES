@@ -20,11 +20,19 @@ const VOCAB_LOCAL: Record<CefrLevel, () => Promise<VocabCard[]>> = {
 const READING_LOCAL: Record<string, () => Promise<ReadingText>> = {
   'a1-01': async () => (await import('../assets/content/lecturas/a1-01.json')).default as ReadingText,
   'a1-02': async () => (await import('../assets/content/lecturas/a1-02.json')).default as ReadingText,
+  'a1-03': async () => (await import('../assets/content/lecturas/a1-03.json')).default as ReadingText,
+  'a1-04': async () => (await import('../assets/content/lecturas/a1-04.json')).default as ReadingText,
   'a2-01': async () => (await import('../assets/content/lecturas/a2-01.json')).default as ReadingText,
   'a2-02': async () => (await import('../assets/content/lecturas/a2-02.json')).default as ReadingText,
+  'a2-03': async () => (await import('../assets/content/lecturas/a2-03.json')).default as ReadingText,
+  'a2-04': async () => (await import('../assets/content/lecturas/a2-04.json')).default as ReadingText,
   'b1-01': async () => (await import('../assets/content/lecturas/b1-01.json')).default as ReadingText,
   'b1-02': async () => (await import('../assets/content/lecturas/b1-02.json')).default as ReadingText,
+  'b1-03': async () => (await import('../assets/content/lecturas/b1-03.json')).default as ReadingText,
+  'b1-04': async () => (await import('../assets/content/lecturas/b1-04.json')).default as ReadingText,
   'b2-01': async () => (await import('../assets/content/lecturas/b2-01.json')).default as ReadingText,
+  'b2-02': async () => (await import('../assets/content/lecturas/b2-02.json')).default as ReadingText,
+  'b2-03': async () => (await import('../assets/content/lecturas/b2-03.json')).default as ReadingText,
 };
 
 const LISTEN_LOCAL: Record<string, () => Promise<ListeningItem>> = {
@@ -35,10 +43,10 @@ const LISTEN_LOCAL: Record<string, () => Promise<ListeningItem>> = {
 };
 
 export const READING_INDEX: Record<CefrLevel, string[]> = {
-  a1: ['a1-01', 'a1-02'],
-  a2: ['a2-01', 'a2-02'],
-  b1: ['b1-01', 'b1-02'],
-  b2: ['b2-01'],
+  a1: ['a1-01', 'a1-02', 'a1-03', 'a1-04'],
+  a2: ['a2-01', 'a2-02', 'a2-03', 'a2-04'],
+  b1: ['b1-01', 'b1-02', 'b1-03', 'b1-04'],
+  b2: ['b2-01', 'b2-02', 'b2-03'],
 };
 
 export const LISTENING_INDEX: Record<CefrLevel, string[]> = {

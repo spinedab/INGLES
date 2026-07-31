@@ -6,6 +6,7 @@ import { renderReading } from './reading.js';
 import { renderListening } from './listening.js';
 import { renderGrammar } from './grammar.js';
 import { renderCoach } from './coach.js';
+import { renderTutor } from './tutor.js';
 import { renderSearch } from './search.js';
 import { renderNotebook } from './notebook.js';
 import { renderData } from './data.js';
@@ -18,6 +19,7 @@ const routes = {
   '/listening': renderListening,
   '/grammar': renderGrammar,
   '/coach': renderCoach,
+  '/tutor': renderTutor,
   '/search': renderSearch,
   '/notebook': renderNotebook,
   '/data': renderData,

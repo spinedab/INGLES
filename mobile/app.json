@@ -1,35 +1,73 @@
 {
   "expo": {
-    "name": "INGLES",
+    "name": "TutorInglesIA",
     "slug": "ingles",
     "version": "1.0.0",
     "orientation": "portrait",
     "scheme": "ingles",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "primaryColor": "#2d6cdf",
+    "assetBundlePatterns": [
+      "assets/**/*"
+    ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.tuusuario.ingles",
+      "bundleIdentifier": "com.spinedab.ingles",
+      "buildNumber": "1",
+      "icon": "./assets/icon.png",
       "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
+        "ITSAppUsesNonExemptEncryption": false,
+        "CFBundleDisplayName": "Tutor Inglés",
+        "CFBundleLocalizations": [
+          "es",
+          "en"
+        ]
       }
     },
     "android": {
-      "package": "com.tuusuario.ingles"
+      "package": "com.spinedab.ingles",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2d6cdf"
+      }
     },
     "web": {
       "bundler": "metro",
-      "output": "static"
+      "output": "static",
+      "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-router",
-      "expo-font"
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#f8fafc",
+          "dark": {
+            "backgroundColor": "#020617"
+          }
+        }
+      ],
+      [
+        "expo-av",
+        {
+          "microphonePermission": false
+        }
+      ],
+      "expo-asset"
     ],
     "experiments": {
       "typedRoutes": true
     },
     "extra": {
-      "apiBaseUrl": "https://ingles.apicloud.lat"
+      "apiBaseUrl": "https://ingles.apicloud.lat",
+      "tutorBaseUrl": "https://tutor.apicloud.lat"
     }
   }
 }

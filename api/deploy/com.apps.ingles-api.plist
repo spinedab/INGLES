@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.apps.ingles-api</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/macstudio/Documents/INGLES/api/deploy/start.sh</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/macstudio/Documents/INGLES/api</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/Users/macstudio/Library/Logs/apps-ingles-api.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/macstudio/Library/Logs/apps-ingles-api.err.log</string>
+</dict>
+</plist>

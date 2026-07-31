@@ -1,32 +1,907 @@
 [
-  {"id":"b2-001","front":"cumbersome (adj)","definition":"large, heavy or difficult to manage","example":"A cumbersome bureaucratic process.","translation":"engorroso","tags":["b2","adjective"]},
-  {"id":"b2-002","front":"aforementioned (adj)","definition":"previously mentioned","example":"The aforementioned issue must be addressed.","translation":"antes mencionado","tags":["b2","adjective","formal"]},
-  {"id":"b2-003","front":"notwithstanding (prep)","definition":"despite","example":"Notwithstanding the rain, the event continued.","translation":"a pesar de","tags":["b2","preposition","formal"]},
-  {"id":"b2-004","front":"mitigate (v)","definition":"to make less severe","example":"Steps to mitigate climate change.","translation":"mitigar","tags":["b2","verb","academic"]},
-  {"id":"b2-005","front":"paradigm (n)","definition":"a typical pattern or model","example":"A paradigm shift in science.","translation":"paradigma","tags":["b2","noun","academic"]},
-  {"id":"b2-006","front":"albeit (conj)","definition":"although","example":"He agreed, albeit reluctantly.","translation":"aunque","tags":["b2","conjunction","formal"]},
-  {"id":"b2-007","front":"juxtapose (v)","definition":"to place side by side for contrast","example":"The film juxtaposes wealth and poverty.","translation":"yuxtaponer","tags":["b2","verb","academic"]},
-  {"id":"b2-008","front":"surreptitious (adj)","definition":"done secretly","example":"A surreptitious glance.","translation":"furtivo","tags":["b2","adjective"]},
-  {"id":"b2-009","front":"caveat (n)","definition":"a warning or condition","example":"With one important caveat.","translation":"advertencia","tags":["b2","noun","academic"]},
-  {"id":"b2-010","front":"dichotomy (n)","definition":"a division into two contrasting parts","example":"The dichotomy between work and life.","translation":"dicotomía","tags":["b2","noun","academic"]},
-  {"id":"b2-011","front":"ubiquitous (adj)","definition":"present everywhere","example":"Smartphones are ubiquitous.","translation":"ubicuo","tags":["b2","adjective"]},
-  {"id":"b2-012","front":"scrutinize (v)","definition":"to examine carefully","example":"Scrutinize the data.","translation":"escudriñar","tags":["b2","verb"]},
-  {"id":"b2-013","front":"ambiguous (adj)","definition":"having multiple meanings","example":"An ambiguous statement.","translation":"ambiguo","tags":["b2","adjective","awl"]},
-  {"id":"b2-014","front":"coherent (adj)","definition":"logical and consistent","example":"A coherent argument.","translation":"coherente","tags":["b2","adjective","awl"]},
-  {"id":"b2-015","front":"constitute (v)","definition":"to make up or form","example":"Twelve members constitute the board.","translation":"constituir","tags":["b2","verb","awl"]},
-  {"id":"b2-016","front":"derive (v)","definition":"to obtain or come from","example":"The word derives from Latin.","translation":"derivar","tags":["b2","verb","awl"]},
-  {"id":"b2-017","front":"diminish (v)","definition":"to become or make smaller","example":"His influence diminished.","translation":"disminuir","tags":["b2","verb"]},
-  {"id":"b2-018","front":"prevail (v)","definition":"to win or be common","example":"Justice prevailed.","translation":"prevalecer","tags":["b2","verb"]},
-  {"id":"b2-019","front":"compelling (adj)","definition":"powerful and convincing","example":"A compelling argument.","translation":"convincente","tags":["b2","adjective"]},
-  {"id":"b2-020","front":"contemplate (v)","definition":"to think about deeply","example":"She contemplated her options.","translation":"contemplar","tags":["b2","verb"]},
-  {"id":"b2-021","front":"discrepancy (n)","definition":"a difference","example":"A discrepancy in the report.","translation":"discrepancia","tags":["b2","noun"]},
-  {"id":"b2-022","front":"endeavor (n/v)","definition":"a serious attempt","example":"A worthy endeavor.","translation":"esfuerzo/empresa","tags":["b2","noun","verb"]},
-  {"id":"b2-023","front":"prerequisite (n)","definition":"something required first","example":"A prerequisite for admission.","translation":"requisito previo","tags":["b2","noun","academic"]},
-  {"id":"b2-024","front":"unprecedented (adj)","definition":"never done or known before","example":"An unprecedented event.","translation":"sin precedentes","tags":["b2","adjective"]},
-  {"id":"b2-025","front":"facilitate (v)","definition":"to make easier","example":"Technology facilitates learning.","translation":"facilitar","tags":["b2","verb","awl"]},
-  {"id":"b2-026","front":"undermine (v)","definition":"to weaken","example":"Bad data undermines the analysis.","translation":"socavar","tags":["b2","verb"]},
-  {"id":"b2-027","front":"come to terms with (chunk)","definition":"to accept (something difficult)","example":"He came to terms with the loss.","translation":"aceptar","tags":["b2","chunk"]},
-  {"id":"b2-028","front":"in light of (chunk)","definition":"considering","example":"In light of recent events…","translation":"a la luz de","tags":["b2","chunk","formal"]},
-  {"id":"b2-029","front":"bear in mind (chunk)","definition":"to remember","example":"Bear in mind the deadline.","translation":"tener en cuenta","tags":["b2","chunk"]},
-  {"id":"b2-030","front":"by and large (chunk)","definition":"generally","example":"By and large, things went well.","translation":"en general","tags":["b2","chunk"]}
+  {
+    "id": "b2-001",
+    "front": "cumbersome (adj)",
+    "definition": "large, heavy or difficult to manage",
+    "example": "A cumbersome bureaucratic process.",
+    "translation": "engorroso",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-002",
+    "front": "aforementioned (adj)",
+    "definition": "previously mentioned",
+    "example": "The aforementioned issue must be addressed.",
+    "translation": "antes mencionado",
+    "tags": [
+      "b2",
+      "adjective",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-003",
+    "front": "notwithstanding (prep)",
+    "definition": "despite",
+    "example": "Notwithstanding the rain, the event continued.",
+    "translation": "a pesar de",
+    "tags": [
+      "b2",
+      "preposition",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-004",
+    "front": "mitigate (v)",
+    "definition": "to make less severe",
+    "example": "Steps to mitigate climate change.",
+    "translation": "mitigar",
+    "tags": [
+      "b2",
+      "verb",
+      "academic"
+    ]
+  },
+  {
+    "id": "b2-005",
+    "front": "paradigm (n)",
+    "definition": "a typical pattern or model",
+    "example": "A paradigm shift in science.",
+    "translation": "paradigma",
+    "tags": [
+      "b2",
+      "noun",
+      "academic"
+    ]
+  },
+  {
+    "id": "b2-006",
+    "front": "albeit (conj)",
+    "definition": "although",
+    "example": "He agreed, albeit reluctantly.",
+    "translation": "aunque",
+    "tags": [
+      "b2",
+      "conjunction",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-007",
+    "front": "juxtapose (v)",
+    "definition": "to place side by side for contrast",
+    "example": "The film juxtaposes wealth and poverty.",
+    "translation": "yuxtaponer",
+    "tags": [
+      "b2",
+      "verb",
+      "academic"
+    ]
+  },
+  {
+    "id": "b2-008",
+    "front": "surreptitious (adj)",
+    "definition": "done secretly",
+    "example": "A surreptitious glance.",
+    "translation": "furtivo",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-009",
+    "front": "caveat (n)",
+    "definition": "a warning or condition",
+    "example": "With one important caveat.",
+    "translation": "advertencia",
+    "tags": [
+      "b2",
+      "noun",
+      "academic"
+    ]
+  },
+  {
+    "id": "b2-010",
+    "front": "dichotomy (n)",
+    "definition": "a division into two contrasting parts",
+    "example": "The dichotomy between work and life.",
+    "translation": "dicotomía",
+    "tags": [
+      "b2",
+      "noun",
+      "academic"
+    ]
+  },
+  {
+    "id": "b2-011",
+    "front": "ubiquitous (adj)",
+    "definition": "present everywhere",
+    "example": "Smartphones are ubiquitous.",
+    "translation": "ubicuo",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-012",
+    "front": "scrutinize (v)",
+    "definition": "to examine carefully",
+    "example": "Scrutinize the data.",
+    "translation": "escudriñar",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "b2-013",
+    "front": "ambiguous (adj)",
+    "definition": "having multiple meanings",
+    "example": "An ambiguous statement.",
+    "translation": "ambiguo",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-014",
+    "front": "coherent (adj)",
+    "definition": "logical and consistent",
+    "example": "A coherent argument.",
+    "translation": "coherente",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-015",
+    "front": "constitute (v)",
+    "definition": "to make up or form",
+    "example": "Twelve members constitute the board.",
+    "translation": "constituir",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-016",
+    "front": "derive (v)",
+    "definition": "to obtain or come from",
+    "example": "The word derives from Latin.",
+    "translation": "derivar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-017",
+    "front": "diminish (v)",
+    "definition": "to become or make smaller",
+    "example": "His influence diminished.",
+    "translation": "disminuir",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "b2-018",
+    "front": "prevail (v)",
+    "definition": "to win or be common",
+    "example": "Justice prevailed.",
+    "translation": "prevalecer",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "b2-019",
+    "front": "compelling (adj)",
+    "definition": "powerful and convincing",
+    "example": "A compelling argument.",
+    "translation": "convincente",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-020",
+    "front": "contemplate (v)",
+    "definition": "to think about deeply",
+    "example": "She contemplated her options.",
+    "translation": "contemplar",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "b2-021",
+    "front": "discrepancy (n)",
+    "definition": "a difference",
+    "example": "A discrepancy in the report.",
+    "translation": "discrepancia",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "b2-022",
+    "front": "endeavor (n/v)",
+    "definition": "a serious attempt",
+    "example": "A worthy endeavor.",
+    "translation": "esfuerzo/empresa",
+    "tags": [
+      "b2",
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "id": "b2-023",
+    "front": "prerequisite (n)",
+    "definition": "something required first",
+    "example": "A prerequisite for admission.",
+    "translation": "requisito previo",
+    "tags": [
+      "b2",
+      "noun",
+      "academic"
+    ]
+  },
+  {
+    "id": "b2-024",
+    "front": "unprecedented (adj)",
+    "definition": "never done or known before",
+    "example": "An unprecedented event.",
+    "translation": "sin precedentes",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-025",
+    "front": "facilitate (v)",
+    "definition": "to make easier",
+    "example": "Technology facilitates learning.",
+    "translation": "facilitar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-026",
+    "front": "undermine (v)",
+    "definition": "to weaken",
+    "example": "Bad data undermines the analysis.",
+    "translation": "socavar",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "b2-027",
+    "front": "come to terms with (chunk)",
+    "definition": "to accept (something difficult)",
+    "example": "He came to terms with the loss.",
+    "translation": "aceptar",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "b2-028",
+    "front": "in light of (chunk)",
+    "definition": "considering",
+    "example": "In light of recent events…",
+    "translation": "a la luz de",
+    "tags": [
+      "b2",
+      "chunk",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-029",
+    "front": "bear in mind (chunk)",
+    "definition": "to remember",
+    "example": "Bear in mind the deadline.",
+    "translation": "tener en cuenta",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "b2-030",
+    "front": "by and large (chunk)",
+    "definition": "generally",
+    "example": "By and large, things went well.",
+    "translation": "en general",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "b2-031",
+    "front": "evident (adj)",
+    "definition": "obvious",
+    "example": "It was evident she was tired.",
+    "translation": "evidente",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist1"
+    ]
+  },
+  {
+    "id": "b2-032",
+    "front": "interpret (v)",
+    "definition": "to explain meaning",
+    "example": "Interpret these results.",
+    "translation": "interpretar",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist1"
+    ]
+  },
+  {
+    "id": "b2-033",
+    "front": "legislate (v)",
+    "definition": "to make laws",
+    "example": "Congress legislated against pollution.",
+    "translation": "legislar",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist1"
+    ]
+  },
+  {
+    "id": "b2-034",
+    "front": "proceed (v)",
+    "definition": "to continue",
+    "example": "Please proceed to gate 5.",
+    "translation": "proceder",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist1"
+    ]
+  },
+  {
+    "id": "b2-035",
+    "front": "administrate (v)",
+    "definition": "to manage",
+    "example": "She administrates the program.",
+    "translation": "administrar",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist2"
+    ]
+  },
+  {
+    "id": "b2-036",
+    "front": "commission (n)",
+    "definition": "authority granted; a fee",
+    "example": "A government commission.",
+    "translation": "comisión",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist2"
+    ]
+  },
+  {
+    "id": "b2-037",
+    "front": "compute (v)",
+    "definition": "to calculate",
+    "example": "Compute the average.",
+    "translation": "calcular",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist2"
+    ]
+  },
+  {
+    "id": "b2-038",
+    "front": "distinct (adj)",
+    "definition": "clearly different",
+    "example": "Two distinct categories.",
+    "translation": "distinto",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist2"
+    ]
+  },
+  {
+    "id": "b2-039",
+    "front": "equate (v)",
+    "definition": "to consider as equal",
+    "example": "He equates wealth with happiness.",
+    "translation": "equiparar",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist2"
+    ]
+  },
+  {
+    "id": "b2-040",
+    "front": "perceive (v)",
+    "definition": "to become aware of",
+    "example": "I perceive a problem here.",
+    "translation": "percibir",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist2"
+    ]
+  },
+  {
+    "id": "b2-041",
+    "front": "regulate (v)",
+    "definition": "to control by rules",
+    "example": "Laws regulate behavior.",
+    "translation": "regular",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist2"
+    ]
+  },
+  {
+    "id": "b2-042",
+    "front": "reside (v)",
+    "definition": "to live in a place",
+    "example": "He resides in Madrid.",
+    "translation": "residir",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist2"
+    ]
+  },
+  {
+    "id": "b2-043",
+    "front": "restrict (v)",
+    "definition": "to limit",
+    "example": "Restrict your sugar intake.",
+    "translation": "restringir",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist2"
+    ]
+  },
+  {
+    "id": "b2-044",
+    "front": "circumstance (n)",
+    "definition": "a condition or situation",
+    "example": "Under the circumstances...",
+    "translation": "circunstancia",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist3"
+    ]
+  },
+  {
+    "id": "b2-045",
+    "front": "compensate (v)",
+    "definition": "to make up for",
+    "example": "Money compensates time.",
+    "translation": "compensar",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist3"
+    ]
+  },
+  {
+    "id": "b2-046",
+    "front": "consent (n/v)",
+    "definition": "agreement; to agree",
+    "example": "With your consent.",
+    "translation": "consentimiento/consentir",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist3"
+    ]
+  },
+  {
+    "id": "b2-047",
+    "front": "considerable (adj)",
+    "definition": "notably large",
+    "example": "A considerable amount.",
+    "translation": "considerable",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist3"
+    ]
+  },
+  {
+    "id": "b2-048",
+    "front": "convene (v)",
+    "definition": "to gather formally",
+    "example": "The committee convened.",
+    "translation": "convocar",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist3"
+    ]
+  },
+  {
+    "id": "b2-049",
+    "front": "coordinate (v)",
+    "definition": "to organize",
+    "example": "Coordinate the team.",
+    "translation": "coordinar",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist3"
+    ]
+  },
+  {
+    "id": "b2-050",
+    "front": "differentiate (v)",
+    "definition": "to distinguish",
+    "example": "Differentiate fact from opinion.",
+    "translation": "diferenciar",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist3"
+    ]
+  },
+  {
+    "id": "b2-051",
+    "front": "dispose (v)",
+    "definition": "to get rid of",
+    "example": "Dispose of waste properly.",
+    "translation": "deshacerse de",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist3"
+    ]
+  },
+  {
+    "id": "b2-052",
+    "front": "generate (v)",
+    "definition": "to produce",
+    "example": "Generate ideas.",
+    "translation": "generar",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist3"
+    ]
+  },
+  {
+    "id": "b2-053",
+    "front": "imply (v)",
+    "definition": "to suggest indirectly",
+    "example": "What are you implying?",
+    "translation": "implicar/insinuar",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist3"
+    ]
+  },
+  {
+    "id": "b2-054",
+    "front": "prior (adj)",
+    "definition": "earlier",
+    "example": "Prior experience.",
+    "translation": "previo",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist3"
+    ]
+  },
+  {
+    "id": "b2-055",
+    "front": "scope (n)",
+    "definition": "the range or extent",
+    "example": "Within the scope of...",
+    "translation": "alcance",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist3"
+    ]
+  },
+  {
+    "id": "b2-056",
+    "front": "subsequent (adj)",
+    "definition": "following in time",
+    "example": "Subsequent events.",
+    "translation": "posterior",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist3"
+    ]
+  },
+  {
+    "id": "b2-057",
+    "front": "substitute (n/v)",
+    "definition": "a replacement",
+    "example": "A sugar substitute.",
+    "translation": "sustituto/sustituir",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist3"
+    ]
+  },
+  {
+    "id": "b2-058",
+    "front": "sustain (v)",
+    "definition": "to maintain over time",
+    "example": "Sustain growth.",
+    "translation": "sostener",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist3"
+    ]
+  },
+  {
+    "id": "b2-059",
+    "front": "trace (n/v)",
+    "definition": "a small remaining sign; to find",
+    "example": "Trace the source.",
+    "translation": "rastro/rastrear",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist3"
+    ]
+  },
+  {
+    "id": "b2-060",
+    "front": "underlie (v)",
+    "definition": "to be the basis for",
+    "example": "The principle underlies the law.",
+    "translation": "subyacer",
+    "tags": [
+      "b2",
+      "c1",
+      "awl",
+      "sublist3"
+    ]
+  },
+  {
+    "id": "b2-061",
+    "front": "utilize (v)",
+    "definition": "to make use of",
+    "example": "Utilize all resources.",
+    "translation": "utilizar",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist3"
+    ]
+  },
+  {
+    "id": "b2-062",
+    "front": "adjacent (adj)",
+    "definition": "next to",
+    "example": "An adjacent room.",
+    "translation": "adyacente",
+    "tags": [
+      "b2",
+      "c1",
+      "awl",
+      "sublist10"
+    ]
+  },
+  {
+    "id": "b2-063",
+    "front": "collapse (v/n)",
+    "definition": "to fall down; failure",
+    "example": "The bridge collapsed.",
+    "translation": "colapsar/colapso",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist10"
+    ]
+  },
+  {
+    "id": "b2-064",
+    "front": "deviate (v)",
+    "definition": "to depart from",
+    "example": "Deviate from the norm.",
+    "translation": "desviarse",
+    "tags": [
+      "b2",
+      "c1",
+      "awl",
+      "sublist10"
+    ]
+  },
+  {
+    "id": "b2-065",
+    "front": "displace (v)",
+    "definition": "to move from its place",
+    "example": "War displaces people.",
+    "translation": "desplazar",
+    "tags": [
+      "b2",
+      "c1",
+      "awl",
+      "sublist10"
+    ]
+  },
+  {
+    "id": "b2-066",
+    "front": "incentive (n)",
+    "definition": "a motivation",
+    "example": "A financial incentive.",
+    "translation": "incentivo",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist10"
+    ]
+  },
+  {
+    "id": "b2-067",
+    "front": "inhibit (v)",
+    "definition": "to hold back",
+    "example": "Fear inhibits learning.",
+    "translation": "inhibir",
+    "tags": [
+      "b2",
+      "c1",
+      "awl",
+      "sublist10"
+    ]
+  },
+  {
+    "id": "b2-068",
+    "front": "nonetheless (adv)",
+    "definition": "in spite of that",
+    "example": "He failed; nonetheless he tried again.",
+    "translation": "no obstante",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist10"
+    ]
+  },
+  {
+    "id": "b2-069",
+    "front": "ongoing (adj)",
+    "definition": "continuing",
+    "example": "An ongoing project.",
+    "translation": "en curso",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist10"
+    ]
+  },
+  {
+    "id": "b2-070",
+    "front": "persist (v)",
+    "definition": "to continue stubbornly",
+    "example": "Pain persisted for days.",
+    "translation": "persistir",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist10"
+    ]
+  },
+  {
+    "id": "b2-071",
+    "front": "pose (v)",
+    "definition": "to present a problem; to position",
+    "example": "This poses a challenge.",
+    "translation": "plantear",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist10"
+    ]
+  },
+  {
+    "id": "b2-072",
+    "front": "reluctance (n)",
+    "definition": "unwillingness",
+    "example": "He showed reluctance to leave.",
+    "translation": "renuencia",
+    "tags": [
+      "b2",
+      "c1",
+      "awl",
+      "sublist10"
+    ]
+  },
+  {
+    "id": "b2-073",
+    "front": "so-called (adj)",
+    "definition": "supposedly named",
+    "example": "The so-called expert was wrong.",
+    "translation": "llamado/supuesto",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist10"
+    ]
+  },
+  {
+    "id": "b2-074",
+    "front": "straightforward (adj)",
+    "definition": "simple and clear",
+    "example": "A straightforward task.",
+    "translation": "directo/sencillo",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist10"
+    ]
+  },
+  {
+    "id": "b2-075",
+    "front": "undergo (v)",
+    "definition": "to experience",
+    "example": "Undergo treatment.",
+    "translation": "sufrir/someterse a",
+    "tags": [
+      "b2",
+      "awl",
+      "sublist10"
+    ]
+  },
+  {
+    "id": "b2-076",
+    "front": "whereby (adv)",
+    "definition": "by which",
+    "example": "A method whereby we can succeed.",
+    "translation": "mediante el cual",
+    "tags": [
+      "b2",
+      "c1",
+      "awl",
+      "sublist10"
+    ]
+  }
 ]

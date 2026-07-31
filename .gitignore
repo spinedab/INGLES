@@ -5,6 +5,8 @@
 .env
 .env.*
 !.env.example
+!.env.production.example
+api/deploy/.env.production
 
 # Python
 __pycache__/

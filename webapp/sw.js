@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ingles-webapp-v3';
+const CACHE_NAME = 'ingles-webapp-v5';
 
 const CORE_ASSETS = [
   './',
@@ -16,6 +16,8 @@ const CORE_ASSETS = [
   './js/listening.js',
   './js/grammar.js',
   './js/coach.js',
+  './js/tutor.js',
+  './js/tutor-client.js',
   './js/search.js',
   './js/notebook.js',
   './js/data.js',
@@ -25,11 +27,19 @@ const CORE_ASSETS = [
   './content/vocab/b2.json',
   './content/lecturas/a1-01.json',
   './content/lecturas/a1-02.json',
+  './content/lecturas/a1-03.json',
+  './content/lecturas/a1-04.json',
   './content/lecturas/a2-01.json',
   './content/lecturas/a2-02.json',
+  './content/lecturas/a2-03.json',
+  './content/lecturas/a2-04.json',
   './content/lecturas/b1-01.json',
   './content/lecturas/b1-02.json',
+  './content/lecturas/b1-03.json',
+  './content/lecturas/b1-04.json',
   './content/lecturas/b2-01.json',
+  './content/lecturas/b2-02.json',
+  './content/lecturas/b2-03.json',
   './content/listening/a1-listen-01.json',
   './content/listening/a2-listen-01.json',
   './content/listening/b1-listen-01.json',

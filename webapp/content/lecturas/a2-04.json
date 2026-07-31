@@ -1,0 +1,20 @@
+{
+  "title": "The Neighbour Upstairs",
+  "summary": "A small conflict solved by talking — used to, comparatives, polite requests.",
+  "text": "<p>When Kenji moved into his flat, the building was very quiet. He used to sleep eight hours every night. Then a new neighbour arrived upstairs.</p><p>The problem started in March. Every night at eleven, Kenji heard music, chairs moving and people laughing. His bedroom was directly under the living room of flat 4B. He slept worse and worse, and at work he felt slower than usual.</p><p>For three weeks he said nothing. He was angrier every night, but he did not want a fight. His sister told him, \"You should talk to her. She probably doesn't know you can hear everything.\"</p><p>One Saturday morning Kenji went upstairs and knocked. A woman about his age opened the door. \"Hi, I'm Kenji, from 3B, under you. Could I ask you something? At night I can hear the music quite clearly, and I get up at six for work. Would it be possible to keep it lower after eleven?\"</p><p>She looked surprised. \"Really? I had no idea the floor was so thin. I'm so sorry — of course.\"</p><p>That night the building was quiet again. Two months later they were friends, and now she warns him before her parties.</p>",
+  "glosses": [
+    {"word":"upstairs","tip":"en el piso de arriba"},
+    {"word":"used to sleep","tip":"solía dormir (hábito pasado)"},
+    {"word":"worse and worse","tip":"cada vez peor"},
+    {"word":"knocked","tip":"llamó a la puerta"},
+    {"word":"warns","tip":"avisa"}
+  ],
+  "collocations": ["move into a flat", "I had no idea", "would it be possible to…?", "keep it lower", "slower than usual"],
+  "questions": [
+    {"q":"What changed in the building in March?","options":["Kenji moved in","A new neighbour arrived","The floor was repaired"],"answer":1},
+    {"q":"How long did Kenji say nothing?","options":["Three days","Three weeks","Three months"],"answer":1},
+    {"q":"Why didn't he complain earlier?","options":["He didn't want a fight","He was never at home","He liked the music"],"answer":0},
+    {"q":"How did the neighbour react?","options":["She got angry","She was surprised and apologised","She ignored him"],"answer":1},
+    {"q":"What does she do now before her parties?","options":["She cancels them","She warns Kenji","She invites the whole building"],"answer":1}
+  ]
+}

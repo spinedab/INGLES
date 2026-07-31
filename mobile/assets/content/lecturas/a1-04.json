@@ -1,0 +1,20 @@
+{
+  "title": "A Rainy Day",
+  "summary": "A short story in the past simple — regular and irregular verbs, weather.",
+  "text": "<p>Last Sunday the weather was terrible. It rained all day. Lucía wanted to go to the beach with her sister, but they stayed at home.</p><p>In the morning they made pancakes. Lucía broke two eggs on the floor, and her sister laughed a lot. The kitchen was a disaster, but the pancakes were delicious.</p><p>After breakfast they watched an old film about a dog. Lucía cried at the end. Her sister said, \"It is only a film!\" but she cried too.</p><p>In the afternoon the rain stopped for one hour. They went outside and walked to the shop on the corner. They bought chocolate and came back quickly, because the sky was grey again.</p><p>At night Lucía wrote in her diary: \"Today we did not go to the beach. We ate pancakes, we watched a sad film and we got wet. It was a very good day.\"</p>",
+  "glosses": [
+    {"word":"terrible","tip":"malísimo"},
+    {"word":"broke","tip":"pasado de break: rompió"},
+    {"word":"laughed","tip":"se rió"},
+    {"word":"got wet","tip":"se mojaron"},
+    {"word":"diary","tip":"diario personal"}
+  ],
+  "collocations": ["the weather was terrible", "stay at home", "on the corner", "come back", "at the end"],
+  "questions": [
+    {"q":"Where did Lucía want to go?","options":["To the beach","To the cinema","To the shop"],"answer":0},
+    {"q":"What happened in the kitchen?","options":["The pancakes burned","Lucía broke two eggs","The sister cut her hand"],"answer":1},
+    {"q":"Who cried during the film?","options":["Only Lucía","Only her sister","Both of them"],"answer":2},
+    {"q":"Why did they come back quickly?","options":["The shop was closed","The sky was grey again","They forgot the money"],"answer":1},
+    {"q":"How did Lucía feel about the day?","options":["It was a very good day","It was a boring day","It was the worst day"],"answer":0}
+  ]
+}

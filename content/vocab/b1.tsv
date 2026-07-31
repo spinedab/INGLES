@@ -1,0 +1,155 @@
+id	front	definition	example	translation	tags
+b1-001	eventually (adv)	in the end, after a long time	Eventually, she found a job.	finalmente	b1 adverb
+b1-002	reluctant (adj)	unwilling or hesitant	He was reluctant to leave.	reacio	b1 adjective
+b1-003	thorough (adj)	complete and careful	A thorough investigation.	minucioso	b1 adjective
+b1-004	overcome (v)	to defeat or get past	She overcame her fears.	superar	b1 verb irregular
+b1-005	occurrence (n)	an event that happens	A rare occurrence.	suceso	b1 noun
+b1-006	inevitable (adj)	certain to happen	Change is inevitable.	inevitable	b1 adjective
+b1-007	glimpse (n/v)	a brief look	I caught a glimpse of him.	vistazo	b1 noun verb
+b1-008	outweigh (v)	to be more important than	The benefits outweigh the risks.	superar/pesar más	b1 verb
+b1-009	discrepancy (n)	a difference between things	There's a discrepancy in the numbers.	discrepancia	b1 noun academic
+b1-010	assess (v)	to evaluate	We need to assess the damage.	evaluar	b1 verb academic awl
+b1-011	approach (n/v)	a way of dealing with; to come near	A new approach to teaching.	enfoque	b1 noun verb awl
+b1-012	acquire (v)	to obtain	He acquired new skills.	adquirir	b1 verb awl
+b1-013	emerge (v)	to come out or appear	A new pattern emerged.	emerger	b1 verb awl
+b1-014	establish (v)	to set up; to prove	The company was established in 1990.	establecer	b1 verb awl
+b1-015	significant (adj)	important; substantial	A significant improvement.	significativo	b1 adjective awl
+b1-016	appropriate (adj)	suitable	An appropriate response.	apropiado	b1 adjective awl
+b1-017	impact (n/v)	a strong effect	The impact was huge.	impacto	b1 noun verb awl
+b1-018	sufficient (adj)	enough	Sufficient evidence.	suficiente	b1 adjective awl
+b1-019	complex (adj)	complicated	A complex problem.	complejo	b1 adjective awl
+b1-020	reveal (v)	to show what was hidden	Reveal the secret.	revelar	b1 verb awl
+b1-021	come up with (phr)	to invent or produce (an idea)	She came up with a great idea.	idear	b1 phrasal-verb
+b1-022	deal with (phr)	to handle (a situation)	I'll deal with it.	lidiar con	b1 phrasal-verb
+b1-023	look forward to (phr)	to anticipate with pleasure	I look forward to seeing you.	tener ganas de	b1 phrasal-verb
+b1-024	keep up with (phr)	to maintain the pace of	I can't keep up with him.	seguir el ritmo de	b1 phrasal-verb
+b1-025	put up with (phr)	to tolerate	I can't put up with the noise.	aguantar	b1 phrasal-verb
+b1-026	run out of (phr)	to exhaust supply	We ran out of milk.	quedarse sin	b1 phrasal-verb
+b1-027	figure out (phr)	to understand by thinking	I can't figure out the puzzle.	resolver	b1 phrasal-verb
+b1-028	end up (phr)	to finally be in a situation	I ended up staying home.	acabar (en)	b1 phrasal-verb
+b1-029	break down (phr)	to stop functioning	The car broke down.	averiarse	b1 phrasal-verb
+b1-030	get rid of (phr)	to dispose of	Get rid of these old clothes.	deshacerse de	b1 phrasal-verb
+b1-031	take advantage of (chunk)	to exploit a situation	Take advantage of the offer.	aprovechar	b1 chunk
+b1-032	have a point (chunk)	to make a valid argument	You have a point.	tener razón	b1 chunk
+b1-033	make up your mind (chunk)	to decide	Make up your mind already!	decidirse	b1 chunk
+b1-034	reach a conclusion (chunk)	to decide after thinking	We reached a conclusion.	llegar a una conclusión	b1 chunk
+b1-035	provide (v)	to supply something needed	The hotel provides breakfast.	proporcionar	b1 verb freq:top100
+b1-036	lead (v)	to guide	She leads the team.	liderar/llevar	b1 verb irregular freq:top100
+b1-037	consider (v)	to think about carefully	Please consider my offer.	considerar	b1 verb freq:top100
+b1-038	expect (v)	to anticipate	I expect to arrive at noon.	esperar (algo)	b1 verb freq:top100
+b1-039	reach (v)	to arrive at; extend to	We reached the top.	alcanzar	b1 verb freq:top100
+b1-040	remain (v)	to stay in the same condition	The problem remains.	permanecer/quedar	b1 verb freq:top100
+b1-041	require (v)	to need	This job requires patience.	requerir	b1 verb freq:top100
+b1-042	report (v)	to give an account	Report any problems to me.	informar	b1 verb freq:top100
+b1-043	develop (v)	to grow or improve	The country developed quickly.	desarrollar	b1 verb freq:top100
+b1-044	support (v)	to help; to hold up	I support your decision.	apoyar	b1 verb freq:top100
+b1-045	produce (v)	to make	This factory produces cars.	producir	b1 verb freq:top100
+b1-046	cause (v)	to make happen	What caused the accident?	causar	b1 verb freq:top200
+b1-047	allow (v)	to permit	Smoking is not allowed.	permitir	b1 verb freq:top200
+b1-048	make up (phr)	to invent; to reconcile	She made up the story.	inventar/reconciliarse	b1 phrasal-verb
+b1-049	account for (phr)	to explain	How do you account for this?	explicar/justificar	b1 phrasal-verb
+b1-050	analyse (v)	to examine in detail	Scientists analyse the data carefully.	analizar	b1 awl sublist1
+b1-051	assume (v)	to take for granted	I assume you've read the book.	asumir/dar por sentado	b1 awl sublist1
+b1-052	authority (n)	power; an expert	She is an authority on linguistics.	autoridad	b1 awl sublist1
+b1-053	benefit (n/v)	advantage; to gain	The benefits of exercise are clear.	beneficio	b1 awl sublist1
+b1-054	concept (n)	an abstract idea	The concept is hard to grasp.	concepto	b1 awl sublist1
+b1-055	consist (v)	to be made up of	Water consists of hydrogen and oxygen.	consistir en	b1 awl sublist1
+b1-056	context (n)	the situation surrounding an event	"In this context, that word means ""happy""."	contexto	b1 awl sublist1
+b1-057	contract (n/v)	a legal agreement; to shrink	Sign the contract here.	contrato/contraer	b1 awl sublist1
+b1-058	data (n)	information, facts	The data show a clear trend.	datos	b1 awl sublist1
+b1-059	define (v)	to state the meaning of	Define your terms.	definir	b1 awl sublist1
+b1-060	distribute (v)	to give out	They distributed leaflets.	distribuir	b1 awl sublist1
+b1-061	economy (n)	the wealth system of a country	The economy is growing.	economía	b1 awl sublist1
+b1-062	environment (n)	surroundings; nature	A friendly work environment.	ambiente/entorno	b1 awl sublist1
+b1-063	estimate (n/v)	an approximate calculation	Estimate the cost first.	estimación/estimar	b1 awl sublist1
+b1-064	factor (n)	an element contributing to a result	Money is one factor.	factor	b1 awl sublist1
+b1-065	finance (n/v)	money management; to fund	I work in finance.	finanzas/financiar	b1 awl sublist1
+b1-066	formula (n)	a mathematical rule; a fixed method	The formula is on the board.	fórmula	b1 awl sublist1
+b1-067	function (n/v)	purpose; to operate	What is the function of this button?	función/funcionar	b1 awl sublist1
+b1-068	identify (v)	to recognize	Identify the main idea.	identificar	b1 awl sublist1
+b1-069	income (n)	money received	My income is sufficient.	ingresos	b1 awl sublist1
+b1-070	indicate (v)	to point out	The sign indicates the exit.	indicar	b1 awl sublist1
+b1-071	individual (n/adj)	a single person; separate	Each individual is unique.	individuo/individual	b1 awl sublist1
+b1-072	involve (v)	to include necessarily	The job involves travel.	implicar/conllevar	b1 awl sublist1
+b1-073	issue (n/v)	a topic of debate; to publish	That's a serious issue.	asunto/emitir	b1 awl sublist1
+b1-074	labour (n)	work; workers	Manual labour is hard.	trabajo/mano de obra	b1 awl sublist1
+b1-075	legal (adj)	relating to law	Take legal advice.	legal	b1 awl sublist1
+b1-076	major (adj)	important	A major problem.	importante/principal	b1 awl sublist1
+b1-077	method (n)	a way of doing something	What method do you use?	método	b1 awl sublist1
+b1-078	occur (v)	to happen	The accident occurred yesterday.	ocurrir	b1 awl sublist1
+b1-079	period (n)	a length of time	A period of growth.	período	b1 awl sublist1
+b1-080	policy (n)	a plan of action	A new education policy.	política/normativa	b1 awl sublist1
+b1-081	principle (n)	a basic rule	Principles of physics.	principio	b1 awl sublist1
+b1-082	process (n/v)	a series of actions	Learning is a slow process.	proceso/procesar	b1 awl sublist1
+b1-083	research (n/v)	systematic study	Research shows that...	investigación	b1 awl sublist1
+b1-084	respond (v)	to reply	Please respond by Friday.	responder	b1 awl sublist1
+b1-085	role (n)	a function or position	She plays a key role.	papel/función	b1 awl sublist1
+b1-086	section (n)	a part of something	The first section is easy.	sección	b1 awl sublist1
+b1-087	sector (n)	a branch of industry	The tech sector is growing.	sector	b1 awl sublist1
+b1-088	source (n)	where something comes from	Cite your sources.	fuente	b1 awl sublist1
+b1-089	specific (adj)	clearly defined	Give specific examples.	específico	b1 awl sublist1
+b1-090	structure (n/v)	an organized arrangement	The structure of the essay is good.	estructura/estructurar	b1 awl sublist1
+b1-091	theory (n)	a system of ideas	Einstein's theory.	teoría	b1 awl sublist1
+b1-092	vary (v)	to differ; to change	Prices vary by season.	variar	b1 awl sublist1
+b1-093	achieve (v)	to accomplish	She achieved her goal.	lograr	b1 awl sublist2
+b1-094	aspect (n)	a particular side or feature	Every aspect of life.	aspecto	b1 awl sublist2
+b1-095	assist (v)	to help	Can I assist you?	asistir	b1 awl sublist2
+b1-096	category (n)	a class or division	What category is this?	categoría	b1 awl sublist2
+b1-097	community (n)	a group of people living together	Our community supports each other.	comunidad	b1 awl sublist2
+b1-098	conclude (v)	to bring to an end; to deduce	I conclude that we should leave.	concluir	b1 awl sublist2
+b1-099	conduct (v/n)	to carry out; behavior	Conduct the experiment.	llevar a cabo/conducta	b1 awl sublist2
+b1-100	consequence (n)	a result	Face the consequences.	consecuencia	b1 awl sublist2
+b1-101	construct (v/n)	to build	Construct an argument.	construir	b1 awl sublist2
+b1-102	consume (v)	to use up; to eat	Don't consume too much sugar.	consumir	b1 awl sublist2
+b1-103	credit (n/v)	praise; financial trust	You deserve credit for this.	crédito/acreditar	b1 awl sublist2
+b1-104	design (n/v)	a plan; to create a plan	A good design.	diseño/diseñar	b1 awl sublist2
+b1-105	element (n)	a component	A key element of success.	elemento	b1 awl sublist2
+b1-106	evaluate (v)	to judge the value of	Evaluate your options.	evaluar	b1 awl sublist2
+b1-107	feature (n/v)	a distinctive characteristic	A key feature of the design.	característica	b1 awl sublist2
+b1-108	focus (n/v)	the center of interest	The focus of the study.	enfoque/enfocarse	b1 awl sublist2
+b1-109	injure (v)	to harm	He injured his leg.	lesionar	b1 awl sublist2
+b1-110	institute (n/v)	an organization; to set up	A research institute.	instituto/instaurar	b1 awl sublist2
+b1-111	invest (v)	to put money into	Invest in your education.	invertir	b1 awl sublist2
+b1-112	item (n)	a single article	Each item on the list.	artículo	b1 awl sublist2
+b1-113	journal (n)	a periodical; a diary	A scientific journal.	revista/diario	b1 awl sublist2
+b1-114	maintain (v)	to keep up	Maintain a good attitude.	mantener	b1 awl sublist2
+b1-115	obtain (v)	to get	Obtain permission first.	obtener	b1 awl sublist2
+b1-116	participate (v)	to take part	Participate in the discussion.	participar	b1 awl sublist2
+b1-117	positive (adj)	favorable; sure	A positive attitude.	positivo	b1 awl sublist2
+b1-118	potential (n/adj)	possibility	She has great potential.	potencial	b1 awl sublist2
+b1-119	previous (adj)	earlier	The previous chapter.	previo	b1 awl sublist2
+b1-120	primary (adj)	first in order or importance	The primary cause.	principal/primario	b1 awl sublist2
+b1-121	purchase (v/n)	to buy	Purchase tickets online.	comprar/compra	b1 awl sublist2
+b1-122	range (n)	a set within limits	A wide range of options.	rango/gama	b1 awl sublist2
+b1-123	region (n)	an area	A coastal region.	región	b1 awl sublist2
+b1-124	relevant (adj)	connected to the matter	A relevant question.	relevante	b1 awl sublist2
+b1-125	resource (n)	a useful supply	Natural resources.	recurso	b1 awl sublist2
+b1-126	secure (adj/v)	safe; to obtain	A secure connection.	seguro/asegurar	b1 awl sublist2
+b1-127	seek (v)	to look for	Seek help when needed.	buscar	b1 awl sublist2
+b1-128	strategy (n)	a plan	A new strategy.	estrategia	b1 awl sublist2
+b1-129	survey (n/v)	a study; to examine broadly	A market survey.	encuesta/encuestar	b1 awl sublist2
+b1-130	transfer (v/n)	to move to another place	Transfer the file here.	transferir/traslado	b1 awl sublist2
+b1-131	alternative (n/adj)	another option	An alternative approach.	alternativa	b1 awl sublist3
+b1-132	comment (n/v)	a remark; to make a remark	Leave a comment below.	comentario/comentar	b1 awl sublist3
+b1-133	component (n)	a part of a whole	Each component matters.	componente	b1 awl sublist3
+b1-134	contrast (n/v)	a difference; to compare	In contrast to...	contraste	b1 awl sublist3
+b1-135	debate (n/v)	a discussion; to discuss	A heated debate.	debate/debatir	b1 awl sublist3
+b1-136	demonstrate (v)	to show clearly	Demonstrate the technique.	demostrar	b1 awl sublist3
+b1-137	deny (v)	to refuse; to declare untrue	I deny the charges.	negar	b1 awl sublist3
+b1-138	enable (v)	to make possible	Enable the feature.	permitir/habilitar	b1 awl sublist3
+b1-139	ensure (v)	to make certain	Ensure your safety first.	asegurar	b1 awl sublist3
+b1-140	exclude (v)	to leave out	Exclude irrelevant data.	excluir	b1 awl sublist3
+b1-141	expand (v)	to grow larger	Expand the section.	expandir	b1 awl sublist3
+b1-142	external (adj)	outside	An external factor.	externo	b1 awl sublist3
+b1-143	initial (adj)	first	The initial idea was good.	inicial	b1 awl sublist3
+b1-144	internal (adj)	inside	An internal review.	interno	b1 awl sublist3
+b1-145	license (n/v)	official permission	Driver's license.	licencia	b1 awl sublist3
+b1-146	mature (adj/v)	fully developed	A mature decision.	maduro/madurar	b1 awl sublist3
+b1-147	overall (adj/adv)	general; in general	The overall result was good.	general/en general	b1 awl sublist3
+b1-148	philosophy (n)	the study of fundamental questions	A philosophy class.	filosofía	b1 awl sublist3
+b1-149	predict (v)	to forecast	Predict the future.	predecir	b1 awl sublist3
+b1-150	principal (adj/n)	main; head of school	The principal reason.	principal	b1 awl sublist3
+b1-151	publish (v)	to make public	Publish the article.	publicar	b1 awl sublist3
+b1-152	recover (v)	to get back; to heal	She recovered quickly.	recuperar	b1 awl sublist3
+b1-153	transform (v)	to change completely	Transform your life.	transformar	b1 awl sublist3
+b1-154	panel (n)	a group of experts	A panel of judges.	panel	b1 awl sublist10

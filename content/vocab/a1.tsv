@@ -1,0 +1,176 @@
+id	front	definition	example	translation	tags
+a1-001	time (n)	a point or period when something happens	I don't have time to talk now.	tiempo	a1 noun top100
+a1-002	person (n)	a human being	She is a kind person.	persona	a1 noun top100
+a1-003	year (n)	a period of 365 days	I lived there for two years.	año	a1 noun top100
+a1-004	day (n)	a period of 24 hours	What a beautiful day!	día	a1 noun top100
+a1-005	thing (n)	an object or matter	I have one more thing to say.	cosa	a1 noun top100
+a1-006	world (n)	the Earth and all its people	English is spoken around the world.	mundo	a1 noun top100
+a1-007	life (n)	the existence of a person	She has had an interesting life.	vida	a1 noun top100
+a1-008	hand (n)	the body part at the end of your arm	He held my hand.	mano	a1 noun top100
+a1-009	child (n)	a young human	The child was sleeping.	niño/a	a1 noun top100 irregular-plural
+a1-010	woman (n)	an adult female person	The woman next door is a doctor.	mujer	a1 noun top100
+a1-011	man (n)	an adult male person	The man at the door asked for you.	hombre	a1 noun top100
+a1-012	house (n)	a building where people live	They bought a new house.	casa	a1 noun top100
+a1-013	water (n)	the transparent liquid we drink	A glass of water, please.	agua	a1 noun top100
+a1-014	food (n)	what you eat	Italian food is delicious.	comida	a1 noun top100
+a1-015	family (n)	parents and children	My family lives in Spain.	familia	a1 noun top100
+a1-016	be (v)	to exist or have a state	She is happy today.	ser/estar	a1 verb irregular top10
+a1-017	have (v)	to possess	I have a brother.	tener	a1 verb irregular top10
+a1-018	do (v)	to perform an action	What do you do for work?	hacer	a1 verb irregular top10
+a1-019	go (v)	to move or travel	Let's go to the park.	ir	a1 verb irregular top20
+a1-020	get (v)	to obtain or receive	I got a new phone.	obtener	a1 verb irregular top20
+a1-021	make (v)	to create	She makes great coffee.	hacer/fabricar	a1 verb irregular top20
+a1-022	see (v)	to perceive with the eyes	I can see you.	ver	a1 verb irregular top20
+a1-023	come (v)	to move toward the speaker	Come here, please.	venir	a1 verb irregular top20
+a1-024	eat (v)	to consume food	What do you want to eat?	comer	a1 verb irregular top50
+a1-025	drink (v)	to consume liquid	Drink more water.	beber	a1 verb irregular top50
+a1-026	sleep (v)	to rest by closing eyes	I sleep eight hours.	dormir	a1 verb irregular top100
+a1-027	work (v)	to perform a job	I work in an office.	trabajar	a1 verb top30
+a1-028	live (v)	to be alive; to reside	I live in Madrid.	vivir	a1 verb top50
+a1-029	want (v)	to desire	I want a coffee.	querer	a1 verb top30
+a1-030	like (v)	to find pleasant	I like chocolate.	gustar	a1 verb top30
+a1-031	love (v)	to feel strong affection	I love my family.	amar/encantar	a1 verb top50
+a1-032	good (adj)	of high quality	This is a good book.	bueno	a1 adjective top100
+a1-033	bad (adj)	not good	A bad day.	malo	a1 adjective top100
+a1-034	big (adj)	large	A big problem.	grande	a1 adjective top100
+a1-035	small (adj)	little	A small dog.	pequeño	a1 adjective top100
+a1-036	new (adj)	recently made	I have a new car.	nuevo	a1 adjective top100
+a1-037	old (adj)	having existed a long time	An old house.	viejo	a1 adjective top100
+a1-038	happy (adj)	feeling joy	I am happy today.	feliz	a1 adjective top100
+a1-039	tired (adj)	needing rest	I am tired.	cansado	a1 adjective top100
+a1-040	hot (adj)	high temperature	The soup is hot.	caliente	a1 adjective top100
+a1-041	cold (adj)	low temperature	It's cold outside.	frío	a1 adjective top100
+a1-042	in (prep)	inside	The book is in the bag.	en/dentro	a1 preposition top10
+a1-043	on (prep)	on top of	The phone is on the table.	sobre	a1 preposition top10
+a1-044	at (prep)	in a specific place	Meet me at the cafe.	en	a1 preposition top10
+a1-045	with (prep)	accompanied by	I'm with my friend.	con	a1 preposition top10
+a1-046	and (conj)	in addition to	Bread and butter.	y	a1 conjunction top10
+a1-047	but (conj)	however	I'm tired but happy.	pero	a1 conjunction top10
+a1-048	because (conj)	for the reason that	I left because I was tired.	porque	a1 conjunction top50
+a1-049	always (adv)	at all times	I always wake up at 7.	siempre	a1 adverb top50
+a1-050	never (adv)	not at any time	I never drink coffee.	nunca	a1 adverb top50
+a1-051	way (n)	a method or manner of doing something	This is the best way to learn.	manera/camino	a1 noun freq:top100
+a1-052	part (n)	a piece or section of something	The best part of the movie was the ending.	parte	a1 noun freq:top100
+a1-053	eye (n)	the organ used for seeing	She has blue eyes.	ojo	a1 noun freq:top100
+a1-054	place (n)	a particular location	This is a nice place to live.	lugar	a1 noun freq:top100
+a1-055	week (n)	a period of seven days	See you next week.	semana	a1 noun freq:top100
+a1-056	case (n)	a particular situation or instance	In that case, we should leave.	caso	a1 noun freq:top200
+a1-057	point (n)	a specific moment or idea	At that point, I gave up.	punto	a1 noun freq:top200
+a1-058	company (n)	a business organization	She works for a big company.	empresa	a1 noun freq:top200
+a1-059	number (n)	a word or symbol for counting	What is your phone number?	número	a1 noun freq:top200
+a1-060	group (n)	a set of people or things	A group of students arrived.	grupo	a1 noun freq:top200
+a1-061	fact (n)	something that is true	It is a fact that water boils at 100°C.	hecho	a1 noun freq:top200
+a1-062	say (v)	to speak words	She said hello.	decir	a1 verb irregular freq:top20
+a1-063	know (v)	to have information about	I know the answer.	saber/conocer	a1 verb irregular freq:top20
+a1-064	think (v)	to use your mind to consider	I think you're right.	pensar	a1 verb irregular freq:top20
+a1-065	take (v)	to grab or carry	Please take your coat.	tomar/coger	a1 verb irregular freq:top20
+a1-066	look (v)	to direct your eyes at something	Look at this picture.	mirar	a1 verb freq:top30
+a1-067	use (v)	to employ for a purpose	Can I use your pen?	usar	a1 verb freq:top30
+a1-068	find (v)	to discover the location of	I can't find my keys.	encontrar	a1 verb irregular freq:top30
+a1-069	give (v)	to transfer to someone else	Give me a minute.	dar	a1 verb irregular freq:top30
+a1-070	tell (v)	to inform verbally	Tell me the truth.	decir/contar	a1 verb irregular freq:top30
+a1-071	call (v)	to phone; to name	I'll call you tomorrow.	llamar	a1 verb freq:top30
+a1-072	try (v)	to attempt	Try this dish.	intentar	a1 verb freq:top30
+a1-073	ask (v)	to request information	Can I ask you a question?	preguntar	a1 verb freq:top30
+a1-074	need (v)	to require	I need help.	necesitar	a1 verb freq:top30
+a1-075	feel (v)	to experience an emotion	I feel happy.	sentir	a1 verb irregular freq:top30
+a1-076	put (v)	to place somewhere	Put the book on the table.	poner	a1 verb irregular freq:top50
+a1-077	mean (v)	to signify	What does this word mean?	significar	a1 verb irregular freq:top50
+a1-078	let (v)	to allow	Let me help you.	permitir	a1 verb irregular freq:top50
+a1-079	begin (v)	to start	The film begins at 7.	empezar	a1 verb irregular freq:top50
+a1-080	help (v)	to assist	Can you help me?	ayudar	a1 verb freq:top50
+a1-081	talk (v)	to speak conversationally	We talked for hours.	hablar	a1 verb freq:top50
+a1-082	start (v)	to begin	The lesson starts at 9.	empezar	a1 verb freq:top50
+a1-083	show (v)	to display	Show me the photo.	mostrar	a1 verb irregular freq:top50
+a1-084	hear (v)	to perceive sound	I hear music.	oír	a1 verb irregular freq:top50
+a1-085	play (v)	to engage in a game	The children play in the park.	jugar	a1 verb freq:top50
+a1-086	run (v)	to move on foot quickly	She runs every morning.	correr	a1 verb irregular freq:top50
+a1-087	write (v)	to put words on paper	I write every day.	escribir	a1 verb irregular freq:top50
+a1-088	sit (v)	to be on a seat	Please sit down.	sentarse	a1 verb irregular freq:top100
+a1-089	lose (v)	to fail to keep	Don't lose your ticket.	perder	a1 verb irregular freq:top100
+a1-090	pay (v)	to give money for	I'll pay the bill.	pagar	a1 verb irregular freq:top100
+a1-091	meet (v)	to come together with	Let's meet tomorrow.	encontrarse con	a1 verb irregular freq:top100
+a1-092	learn (v)	to acquire knowledge	I want to learn English.	aprender	a1 verb freq:top100
+a1-093	change (v)	to make different	Change the channel, please.	cambiar	a1 verb freq:top100
+a1-094	understand (v)	to grasp the meaning	I don't understand.	entender	a1 verb irregular freq:top100
+a1-095	watch (v)	to look at attentively	Watch this video.	ver/observar	a1 verb freq:top100
+a1-096	follow (v)	to come after	Follow me!	seguir	a1 verb freq:top100
+a1-097	stop (v)	to cease moving	Stop the car!	parar	a1 verb freq:top100
+a1-098	speak (v)	to talk	Do you speak English?	hablar	a1 verb irregular freq:top100
+a1-099	read (v)	to look at written words and understand	I read every night.	leer	a1 verb irregular freq:top100
+a1-100	open (v)	to make accessible	Open the window.	abrir	a1 verb freq:top100
+a1-101	walk (v)	to move on foot	Let's walk to the park.	caminar	a1 verb freq:top100
+a1-102	win (v)	to achieve victory	Our team won!	ganar	a1 verb irregular freq:top100
+a1-103	remember (v)	to recall	I don't remember her name.	recordar	a1 verb freq:top100
+a1-104	buy (v)	to purchase	I want to buy a book.	comprar	a1 verb irregular freq:top100
+a1-105	stay (v)	to remain	Stay here, please.	quedarse	a1 verb freq:top100
+a1-106	sell (v)	to exchange for money	They sell good coffee here.	vender	a1 verb irregular freq:top100
+a1-107	return (v)	to come back	When did you return?	volver	a1 verb freq:top100
+a1-108	break (v)	to damage in pieces	I broke the glass.	romper	a1 verb irregular freq:top100
+a1-109	drive (v)	to operate a vehicle	Can you drive?	conducir	a1 verb irregular freq:top200
+a1-110	arrive (v)	to reach a destination	When did you arrive?	llegar	a1 verb freq:top200
+a1-111	visit (v)	to go to see	We visited Paris last summer.	visitar	a1 verb freq:top200
+a1-112	travel (v)	to journey	I love to travel.	viajar	a1 verb freq:top200
+a1-113	first (adj)	number one	This is my first time here.	primero	a1 adjective freq:top100
+a1-114	last (adj)	final	The last episode was sad.	último	a1 adjective freq:top100
+a1-115	long (adj)	great in length	It's a long road.	largo	a1 adjective freq:top100
+a1-116	great (adj)	excellent	Great job!	excelente/genial	a1 adjective freq:top100
+a1-117	little (adj)	small	A little water, please.	poco	a1 adjective freq:top100
+a1-118	other (adj)	different	I'll take the other one.	otro	a1 adjective freq:top100
+a1-119	right (adj)	correct	You are right.	correcto	a1 adjective freq:top100
+a1-120	high (adj)	tall; of great elevation	The mountain is high.	alto	a1 adjective freq:top100
+a1-121	different (adj)	not the same	We are different.	diferente	a1 adjective freq:top100
+a1-122	large (adj)	big	A large pizza, please.	grande	a1 adjective freq:top100
+a1-123	next (adj)	coming after	The next train is at 9.	siguiente/próximo	a1 adjective freq:top100
+a1-124	early (adj/adv)	before the usual time	I woke up early.	temprano	a1 adjective freq:top100
+a1-125	young (adj)	not old	She is young.	joven	a1 adjective freq:top100
+a1-126	same (adj)	identical	We have the same idea.	mismo	a1 adjective freq:top100
+a1-127	sure (adj)	certain	Are you sure?	seguro	a1 adjective freq:top100
+a1-128	free (adj)	without cost; not restricted	The Wi-Fi is free.	gratis/libre	a1 adjective freq:top100
+a1-129	strong (adj)	having great power	He is strong.	fuerte	a1 adjective freq:top100
+a1-130	true (adj)	in accordance with fact	Is that true?	verdadero	a1 adjective freq:top100
+a1-131	black (adj)	color black	A black cat.	negro	a1 adjective freq:top100
+a1-132	white (adj)	color white	A white shirt.	blanco	a1 adjective freq:top100
+a1-133	red (adj)	color red	A red flower.	rojo	a1 adjective freq:top100
+a1-134	green (adj)	color green	Green tea.	verde	a1 adjective freq:top100
+a1-135	blue (adj)	color blue	A blue sky.	azul	a1 adjective freq:top100
+a1-136	yellow (adj)	color yellow	A yellow taxi.	amarillo	a1 adjective freq:top100
+a1-137	beautiful (adj)	very pretty	What a beautiful sunset.	hermoso	a1 adjective freq:top100
+a1-138	easy (adj)	not difficult	This exam is easy.	fácil	a1 adjective freq:top100
+a1-139	difficult (adj)	hard to do	Math is difficult.	difícil	a1 adjective freq:top100
+a1-140	sad (adj)	feeling sorrow	She looks sad.	triste	a1 adjective freq:top100
+a1-141	hungry (adj)	wanting food	Are you hungry?	con hambre	a1 adjective freq:top100
+a1-142	thirsty (adj)	wanting drink	I am thirsty.	sediento	a1 adjective freq:top100
+a1-143	cheap (adj)	low in price	A cheap meal.	barato	a1 adjective freq:top100
+a1-144	interesting (adj)	holding attention	An interesting book.	interesante	a1 adjective freq:top100
+a1-145	boring (adj)	not interesting	A boring movie.	aburrido	a1 adjective freq:top100
+a1-146	friendly (adj)	kind and welcoming	The neighbors are friendly.	amable	a1 adjective freq:top200
+a1-147	clean (adj)	free from dirt	A clean kitchen.	limpio	a1 adjective freq:top200
+a1-148	dirty (adj)	not clean	Dirty shoes.	sucio	a1 adjective freq:top200
+a1-149	busy (adj)	having much to do	I am busy this week.	ocupado	a1 adjective freq:top200
+a1-150	quiet (adj)	with little noise	A quiet evening.	silencioso/tranquilo	a1 adjective freq:top200
+a1-151	noisy (adj)	full of sound	A noisy street.	ruidoso	a1 adjective freq:top200
+a1-152	light (adj/n)	not heavy; brightness	A light backpack.	ligero/luz	a1 adjective freq:top200
+a1-153	short (adj)	not long; not tall	A short film.	corto/bajo	a1 adjective freq:top200
+a1-154	tall (adj)	great in height	A tall man.	alto	a1 adjective freq:top200
+a1-155	of (prep)	belonging to; about	A cup of coffee.	de	a1 preposition freq:top10
+a1-156	to (prep)	indicating direction	I'm going to work.	a/hacia	a1 preposition freq:top10
+a1-157	for (prep)	indicating purpose	This is for you.	para/por	a1 preposition freq:top10
+a1-158	from (prep)	starting at	I'm from Spain.	de/desde	a1 preposition freq:top10
+a1-159	about (prep)	concerning	A book about history.	sobre/acerca de	a1 preposition freq:top20
+a1-160	by (prep)	near; through means of	A book by Orwell.	por	a1 preposition freq:top20
+a1-161	between (prep)	in the space separating	Between you and me.	entre	a1 preposition freq:top50
+a1-162	under (prep)	beneath	The cat is under the table.	debajo	a1 preposition freq:top50
+a1-163	over (prep)	above	The plane flew over the city.	sobre/encima	a1 preposition freq:top50
+a1-164	without (prep)	not having	I can't live without you.	sin	a1 preposition freq:top50
+a1-165	also (adv)	in addition	She is also a doctor.	también	a1 adverb freq:top50
+a1-166	maybe (adv)	perhaps	Maybe we should leave.	quizás	a1 adverb freq:top50
+a1-167	sometimes (adv)	occasionally	Sometimes I cook.	a veces	a1 adverb freq:top50
+a1-168	often (adv)	frequently	He often visits us.	a menudo	a1 adverb freq:top50
+a1-169	usually (adv)	in most cases	I usually walk to work.	usualmente	a1 adverb freq:top50
+a1-170	go for a walk (chunk)	to walk for leisure	Let's go for a walk.	dar un paseo	a1 chunk
+a1-171	get up (phr)	to leave bed	I get up at 7am.	levantarse	a1 phrasal-verb
+a1-172	turn on (phr)	to activate	Turn on the light, please.	encender	a1 phrasal-verb
+a1-173	turn off (phr)	to deactivate	Turn off the TV.	apagar	a1 phrasal-verb
+a1-174	look for (phr)	to search	I'm looking for my keys.	buscar	a1 phrasal-verb
+a1-175	come back (phr)	to return	Come back soon!	volver	a1 phrasal-verb

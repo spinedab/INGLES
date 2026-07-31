@@ -1,0 +1,20 @@
+{
+  "title": "The Illusion of the Native Speaker",
+  "summary": "Applied linguistics essay — hedging, nominalisation, concessive structures, academic register.",
+  "text": "<p>Few concepts in language teaching have proved as durable, or as difficult to defend, as that of the native speaker. It functions in everyday discourse as a straightforward benchmark: the native speaker knows the language, and the learner approximates them. On closer inspection, however, the category dissolves.</p><p>Consider what it would mean to specify the competence in question. Native speakers of English differ enormously in vocabulary size, syntactic range, tolerance of ambiguity and command of registers. A monolingual adult may be unable to produce a coherent formal letter; a proficient second-language user may write one better than most of the population whose first language it is. If the benchmark varies this widely within the group, it is not obvious what is being measured.</p><p>Nor is the notion easy to pin down historically. Standard English is not the spontaneous speech of any community but a codified variety, assembled over centuries and taught in schools to native and non-native speakers alike. In that sense, everyone learns it.</p><p>None of this means that experience with a language is irrelevant — clearly it is not. What it does suggest is that \"nativeness\" bundles together several distinct things: intuitions about grammaticality, a particular accent, cultural knowledge, and social authority. These come apart under scrutiny, and only some of them are plausible goals for a learner.</p><p>The pedagogical implication is not that learners should abandon high standards. It is that the standard should be stated in terms of what someone can actually do — argue, negotiate, follow a lecture, be understood by a stranger — rather than in terms of resembling an idealised speaker who, on examination, turns out not to exist.</p>",
+  "glosses": [
+    {"word":"durable","tip":"que perdura"},
+    {"word":"benchmark","tip":"referencia, punto de comparación"},
+    {"word":"dissolves","tip":"se deshace, se desmorona"},
+    {"word":"codified","tip":"codificada, fijada por norma"},
+    {"word":"under scrutiny","tip":"al examinarlo de cerca"}
+  ],
+  "collocations": ["on closer inspection", "pin down a notion", "come apart", "the pedagogical implication", "in terms of what someone can do"],
+  "questions": [
+    {"q":"How does the native speaker work in everyday discourse?","options":["As a benchmark the learner approximates","As a legal category","As a teaching method"],"answer":0},
+    {"q":"What point is made about variation within native speakers?","options":["It is minimal","It is so wide the benchmark is unclear","It only concerns accent"],"answer":1},
+    {"q":"What does the text say about Standard English?","options":["It is anyone's spontaneous speech","It is a codified variety everyone learns","It is only for non-natives"],"answer":1},
+    {"q":"According to the author, 'nativeness' bundles together…","options":["A single unified competence","Several distinct things","Only cultural knowledge"],"answer":1},
+    {"q":"What standard does the author recommend?","options":["Resembling an idealised speaker","What someone can actually do","Abandoning high standards"],"answer":1}
+  ]
+}
