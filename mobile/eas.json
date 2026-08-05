@@ -36,8 +36,8 @@
   "submit": {
     "production": {
       "ios": {
-        "ascAppId": "REEMPLAZAR_CON_APP_STORE_CONNECT_APP_ID",
-        "appleTeamId": "REEMPLAZAR_CON_APPLE_TEAM_ID"
+        "ascAppId": "6798352342",
+        "appleTeamId": "Y9A29F6TZL"
       },
       "android": {
         "track": "internal"

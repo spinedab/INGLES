@@ -14,7 +14,16 @@ export function StatBlock({ label, value, color, style }: Props) {
   const theme = useTheme();
   return (
     <View style={[styles.box, { backgroundColor: theme.card, borderColor: theme.cardBorder }, elevation.sm, style]}>
-      <Text variant="caption" muted style={{ textTransform: 'uppercase' }}>
+      {/* Una sola línea y encogiendo si hace falta: en la fila de 4 stats de
+          Flashcards, "APRENDIDAS" no cabe y se partía como "APRENDID / AS". */}
+      <Text
+        variant="caption"
+        muted
+        numberOfLines={1}
+        adjustsFontSizeToFit
+        minimumFontScale={0.75}
+        style={{ textTransform: 'uppercase' }}
+      >
         {label}
       </Text>
       <Text
