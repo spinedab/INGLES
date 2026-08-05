@@ -95,14 +95,21 @@ ingles,aprender,vocabulario,flashcards,gramatica,srs,anki,lectura,listening,b2,c
 ## URL de soporte (obligatoria)
 
 ```
-https://spinedab.github.io/INGLES/
+https://ingles.nexocloud.co/
 ```
 
 ## URL de marketing (opcional)
 
 ```
-https://spinedab.github.io/INGLES/
+https://ingles.nexocloud.co/
 ```
+
+> Canónica es `ingles.nexocloud.co` (hosting propio, sitio completo con la
+> webapp en `/` y el export de Expo en `/app/`). Ver [`deploy/`](../../deploy/).
+>
+> `https://spinedab.github.io/INGLES/` sigue vivo y sirve la misma webapp; vale
+> como respaldo si el hosting no estuviera disponible cuando envíes. Comprueba
+> que la que pegues responda 200 antes de enviar: Apple valida las URLs.
 
 ## Categorías
 
@@ -169,11 +176,18 @@ dispositivo: vive en AsyncStorage local.
 ### URL de política de privacidad (obligatoria)
 
 ```
-https://spinedab.github.io/INGLES/privacidad.html
+https://ingles.nexocloud.co/privacidad.html
 ```
 
 La página está escrita y versionada en [`privacidad.html`](../../privacidad.html)
-(raíz del repo, para que GitHub Pages la sirva en esa URL). **Solo estará viva
-cuando hagas merge a `main` y Pages redespliegue** — verifica que responde 200
-antes de pegar la URL en App Store Connect, porque Apple la comprueba y rechaza
-el envío si da 404.
+(raíz del repo). Se publica por dos vías, y **hay que verificar 200 antes de
+pegarla** porque Apple la comprueba y rechaza el envío si da 404:
+
+| URL | Cómo se publica | Estado |
+|---|---|---|
+| `https://ingles.nexocloud.co/privacidad.html` | `dream-admin/scripts/deploy-ingles.sh` | Pendiente: el nodo no es alcanzable desde esta red (incidente del 2026-08-05) |
+| `https://spinedab.github.io/INGLES/privacidad.html` | Merge a `main` → GitHub Pages | Respaldo; Pages ya sirve el repo |
+
+```bash
+curl -sI https://ingles.nexocloud.co/privacidad.html | head -1
+```

@@ -1,0 +1,40 @@
+# Se despliega como /app/.htaccess en el hosting (Apache de cPanel).
+#
+# expo-router navega a rutas sin extensión (/app/onboarding, /app/learn,
+# /app/reading/b2-02...), pero `expo export --platform web` emite ficheros
+# `.html`. Sin estas reescrituras, cualquier recarga o enlace directo a una ruta
+# interna devuelve 404: solo funcionaría la primera carga en /app/.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /app/
+
+  # Los assets con hash existen tal cual: no tocarlos.
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # /app/learn  ->  /app/learn.html
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^(.*)$ $1.html [L]
+
+  # /app/reading/b2-02  ->  /app/reading/[id].html  (rutas dinámicas de
+  # expo-router; el nombre del fichero lleva los corchetes literales)
+  RewriteCond %{REQUEST_URI} ^/app/([^/]+)/[^/]+/?$
+  RewriteCond %{DOCUMENT_ROOT}/app/%1/[id].html -f
+  RewriteRule ^([^/]+)/[^/]+/?$ $1/[id].html [L]
+
+  # Cualquier otra cosa la resuelve el router en cliente.
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# Los bundles y assets de Expo llevan hash en el nombre: cachear fuerte.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|woff2?|ttf|otf|png|jpg|jpeg|svg|webp|ico)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  # El HTML no: si se cachea, los usuarios quedan clavados en una versión.
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>

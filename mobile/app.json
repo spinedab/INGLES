@@ -63,7 +63,8 @@
       "expo-asset"
     ],
     "experiments": {
-      "typedRoutes": true
+      "typedRoutes": true,
+      "baseUrl": "/app"
     },
     "extra": {
       "apiBaseUrl": "https://ingles.apicloud.lat",

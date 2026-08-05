@@ -1,6 +1,8 @@
 # INGLES — Sistema integral de aprendizaje de inglés basado en evidencia
 
-**Web pública:** https://spinedab.github.io/INGLES/
+**Web pública:** https://ingles.nexocloud.co — webapp en `/`, app Expo en `/app/`.
+Cómo se publica y por qué así: [`deploy/`](deploy/).
+Espejo en GitHub Pages: https://spinedab.github.io/INGLES/
 
 Implementación de siete subproyectos derivados del tratado enciclopédico sobre ESL/EFL:
 

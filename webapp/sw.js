@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ingles-webapp-v5';
+const CACHE_NAME = 'ingles-webapp-v6';
 
 const CORE_ASSETS = [
   './',
@@ -64,6 +64,11 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
+  // En producción esta webapp se sirve en la raíz de ingles.nawibox.com y el
+  // export web de Expo vive en /app/. El scope del SW es "/", así que sin esta
+  // salida se tragaría también /app/ con estrategia cache-first y dejaría esa
+  // otra app congelada en la primera versión vista.
+  if (new URL(event.request.url).pathname.startsWith('/app/')) return;
   event.respondWith(cacheFirst(event.request));
 });
 

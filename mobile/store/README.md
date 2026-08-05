@@ -57,11 +57,13 @@ xcrun simctl io <udid> screenshot captura.png     # sale a resolución nativa
    y publicar solo para iPhone. Es una decisión de producto, no técnica.
 
 2. **Publicar la política de privacidad**. La página está escrita en
-   [`privacidad.html`](../../privacidad.html) pero solo estará viva cuando se
-   haga merge a `main` y GitHub Pages redespliegue. Apple comprueba la URL y
+   [`privacidad.html`](../../privacidad.html). Se sirve en
+   `https://ingles.nexocloud.co/privacidad.html` con
+   `dream-admin/scripts/deploy-ingles.sh` (ver [`deploy/`](../../deploy/)), o en
+   GitHub Pages como respaldo al hacer merge a `main`. Apple comprueba la URL y
    rechaza el envío si da 404. Verificar antes:
    ```bash
-   curl -sI https://spinedab.github.io/INGLES/privacidad.html | head -1
+   curl -sI https://ingles.nexocloud.co/privacidad.html | head -1
    ```
 
 3. **Declarar la condición de comerciante (DSA)**. App Store Connect avisa en
