@@ -6,11 +6,6 @@
 # clavada en una versión vieja.
 
 <IfModule mod_headers.c>
-  # NUNCA cachear el service worker: es el que decide qué se actualiza.
-  <Files "sw.js">
-    Header set Cache-Control "no-cache, no-store, must-revalidate"
-  </Files>
-
   <FilesMatch "\.html$">
     Header set Cache-Control "no-cache, must-revalidate"
   </FilesMatch>
@@ -24,6 +19,14 @@
   <FilesMatch "\.(png|jpg|jpeg|svg|webp|ico|woff2?)$">
     Header set Cache-Control "public, max-age=604800"
   </FilesMatch>
+
+  # NUNCA cachear el service worker: es el que decide qué se actualiza.
+  # Va DESPUÉS del FilesMatch de .js a propósito: Apache evalúa <Files> antes
+  # que <FilesMatch>, así que puesto arriba la regla genérica lo sobrescribía
+  # y sw.js salía con max-age=3600 (verificado en producción).
+  <Files "sw.js">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+  </Files>
 </IfModule>
 
 <IfModule mod_mime.c>

@@ -4,10 +4,22 @@ El sitio vive en **https://ingles.nexocloud.co** (hosting cPanel compartido de
 DreamLabsTech). El subdominio existe desde julio de 2026; no hay que crearlo.
 
 ```
-https://ingles.nexocloud.co/                 webapp vanilla (PWA, offline)
+https://ingles.nexocloud.co/                 landing (fuente: landing/)
+https://ingles.nexocloud.co/webapp/          webapp vanilla (PWA, offline)
 https://ingles.nexocloud.co/app/             export web de Expo (mismo codebase que iOS/Android)
+https://ingles.nexocloud.co/docs/            tratado ESL/EFL (fuente: docs/)
 https://ingles.nexocloud.co/privacidad.html  política de privacidad
 ```
+
+> **El docroot no está bajo `public_html`.** `nexocloud.co` es dominio
+> adicional, así que sus subdominios viven en `~/nexocloud.co/<slug>`. Subir a
+> `public_html/ingles` deja los ficheros en una carpeta que Apache no sirve —
+> pasó en el primer intento y el sitio seguía mostrando la versión anterior con
+> HTTP 200, que es el síntoma más engañoso posible.
+>
+> El deploy usa `--delete`, pero **preserva `.well-known/` y `cgi-bin/`**:
+> el primero lo usa AutoSSL para renovar el certificado y borrarlo rompería la
+> renovación.
 
 ## Cómo se publica
 
@@ -31,7 +43,7 @@ Se despliegan, no se usan en local:
 
 | Fichero | Destino | Para qué |
 |---|---|---|
-| `raiz.htaccess` | `/.htaccess` | Caché. Sobre todo: **nunca cachear `sw.js`**, o la gente queda clavada en una versión vieja de la webapp. |
+| `raiz.htaccess` | `/.htaccess` | Caché. Sobre todo: **nunca cachear `sw.js`**, o la gente queda clavada en una versión vieja de la webapp. El bloque de `sw.js` va **después** del `FilesMatch` de `.js`: Apache evalúa `<Files>` antes que `<FilesMatch>`, y puesto arriba la regla genérica lo sobrescribía (verificado en producción: salía con `max-age=3600`). |
 | `app.htaccess` | `/app/.htaccess` | Reescrituras para expo-router. Sin ellas, recargar en `/app/learn` da 404: el router navega a rutas sin extensión y el export emite `.html`. |
 
 ## Detalles que se rompen si se tocan

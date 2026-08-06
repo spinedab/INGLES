@@ -1,6 +1,7 @@
 # INGLES — Sistema integral de aprendizaje de inglés basado en evidencia
 
-**Web pública:** https://ingles.nexocloud.co — webapp en `/`, app Expo en `/app/`.
+**Web pública:** https://ingles.nexocloud.co — landing en `/`, webapp en `/webapp/`,
+app Expo en `/app/`, tratado en `/docs/`.
 Cómo se publica y por qué así: [`deploy/`](deploy/).
 Espejo en GitHub Pages: https://spinedab.github.io/INGLES/
 
