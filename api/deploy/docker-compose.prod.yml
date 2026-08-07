@@ -1,0 +1,42 @@
+# Despliegue en la Mac Studio (DreamsTech), mismo patrón que EMOJI y AI Studio.
+#
+#   docker compose -f docker-compose.yml -f deploy/docker-compose.prod.yml \
+#     --env-file deploy/.env.production up -d --build
+#
+# Diferencias con desarrollo:
+#  - La API escucha SOLO en 127.0.0.1:8817 (siguiente puerto libre tras EMOJI 8816).
+#    Al público se expone por el túnel de Cloudflare, nunca abriendo el puerto de la Mac.
+#  - Redis no publica puerto: solo se habla por la red del compose.
+#  - Provider = gemma (Ollama local vía gemma-proxy), no Anthropic de pago.
+#  - restart: unless-stopped para sobrevivir a un reinicio de la Mac.
+
+services:
+  api:
+    # !override (no !reset — ese siempre vacía sin importar el valor dado):
+    # si solo se añade la entrada, Compose FUSIONA con el "8000:8000" del
+    # compose base y Docker falla con "port is already allocated".
+    ports: !override ["127.0.0.1:8817:8000"]
+    env_file: deploy/.env.production
+    restart: unless-stopped
+    # OJO: el compose base fija estas variables en `environment:`, que tiene
+    # PRECEDENCIA sobre `env_file`. Se repiten aquí para que no se cuele nada
+    # de desarrollo (token/url de Gemma, backend de sesiones).
+    environment:
+      INGLES_PROVIDER: gemma
+      GEMMA_API_URL: ${GEMMA_API_URL:-http://host.docker.internal:11436}
+      GEMMA_API_TOKEN: ${GEMMA_API_TOKEN:?falta GEMMA_API_TOKEN}
+      GEMMA_MODEL: ${GEMMA_MODEL:-gemma4:e4b}
+      INGLES_REDIS_URL: redis://redis:6379/0
+      INGLES_API_TOKEN: ${INGLES_API_TOKEN:-}
+      INGLES_RATE_LIMIT_PER_MIN: ${INGLES_RATE_LIMIT_PER_MIN:-60}
+      INGLES_CORS_ORIGINS: ${INGLES_CORS_ORIGINS:-*}
+      INGLES_TRUST_PROXY: "true"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    # !reset descarta el mapeo de puertos del compose base: este Redis es
+    # interno del proyecto, no debe competir con el 6379 de otros servicios.
+    ports: !reset []

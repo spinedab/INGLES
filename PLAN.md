@@ -2,15 +2,31 @@
 
 ## Visión general
 
-Cinco fases secuenciales, cada una con entregables verificables. El plan está optimizado para producir valor temprano (Fase 0 + 1 ya dan algo usable) y profundizar después.
+El plan original eran cinco fases secuenciales, optimizadas para producir valor
+temprano. Las cinco están hechas. Después el proyecto creció con tres fases más
+que no estaban previstas aquí, y este documento se quedó atrás: describía cinco
+fases cuando el README ya listaba siete subproyectos.
 
 ```
 F0  Documentación raíz                        [HECHO]
-F1  Plan personal                             [Markdown, sin dependencias]
-F2  Sitio de documentación del tratado        [HTML estático]
-F3  App web de aprendizaje                    [HTML+JS+localStorage]
-F4  Tutor IA conversacional                   [Python + Anthropic SDK]
+F1  Plan personal                             [HECHO]
+F2  Sitio de documentación del tratado        [HECHO]
+F3  App web de aprendizaje                    [HECHO]
+F4  Tutor IA conversacional                   [HECHO]
+F5  App móvil + web (Expo + React Native)     [HECHO — mobile/, iOS y Android]
+F6  API del tutor como servicio               [HECHO — api/, FastAPI, en producción]
+F7  Publicación                               [HECHO — web; iOS a falta de dos
+                                                declaraciones del titular]
 ```
+
+Estado actual del contenido, que es lo que más ha cambiado respecto al plan:
+
+| Módulo | Plan original | Ahora |
+|---|---|---|
+| Vocabulario | ~500/nivel de semilla, 2.000 objetivo | **1.213** (a1 308, a2 304, b1 300, b2 301) |
+| Gramática | 20-30 ejercicios | **23 temas, 120 ejercicios** |
+| Lecturas | 4-6 por nivel | 15 (4/4/4/3) |
+| Listening | sin número fijo | 8, reproducibles con TTS del sistema |
 
 ## Fase 0 — Documentación raíz (HECHO)
 
@@ -224,15 +240,35 @@ Cada sesión se guarda en `data/sesiones.jsonl` (una línea JSON por sesión) co
 
 ## Tradeoffs aceptados conscientemente
 
-- **No tests automatizados**: el sistema es pequeño y los criterios de aceptación son manuales. Tests añadirían 30% de tiempo por 5% de valor para este alcance.
-- **No CI/CD**: sistema local, no se despliega.
-- **Contenido del webapp limitado al inicio**: incluimos ~500 cards/nivel y 4-6 lecturas/nivel como semilla. El sistema soporta más, pero crear miles de cards requiere fuentes externas que escapan al scope.
+- **No tests unitarios**: los criterios de aceptación siguen siendo manuales. Lo
+  que sí hay es validación del contenido, que es donde de verdad se rompen las
+  cosas: `tools/build_vocab.py --check` y `tools/build_grammar.py --check` fallan
+  si un `answer` sale del rango de opciones, si falta un campo o si los ficheros
+  generados están desincronizados de la fuente. Corren en CI.
+- ~~**No CI/CD**: sistema local, no se despliega.~~ **Obsoleto**: el sistema se
+  despliega en `ingles.nexocloud.co` (ver [`deploy/`](deploy/)) y hay un workflow
+  que valida el contenido en cada push.
+- **Contenido**: ya no es una semilla. 1.213 cards con SRS, 23 temas de gramática
+  y 15 lecturas. El objetivo de 2.000/nivel de más abajo sigue abierto.
 - **Tutor IA monolingüe (responde inglés por defecto)**: traducciones puntuales si se piden, pero el principio es maximizar input en L2.
 - **Sin sincronización entre dispositivos**: localStorage es por navegador. Quien quiera multi-device puede exportar/importar JSON manualmente.
 
-## Próximos pasos tras esta sesión
+## Próximos pasos
 
-- Ampliar bancos de vocabulario hasta 2.000 por nivel.
-- Añadir más lecturas (objetivo 50 por nivel para hacer lectura extensiva real).
-- Integrar audio con TTS local (macOS `say` o Piper) para los textos.
-- Conectar tutor IA con webapp (compartir progreso).
+Hechos desde la versión anterior de esta lista:
+
+- ~~Integrar audio con TTS local~~ → hecho, pero con TTS **en tiempo de
+  ejecución** (`expo-speech` en móvil, `speechSynthesis` en web) en vez de audio
+  pregenerado: no pesa en el bundle, funciona sin conexión y no depende de
+  enlaces externos, que es justo lo que estaba roto.
+- ~~Conectar tutor IA con webapp~~ → hecho. La webapp tiene la vista `#/tutor` y
+  el móvil `lib/tutorApi.ts`, ambos contra `tutor.apicloud.lat`.
+
+Abiertos:
+
+- Ampliar vocabulario hasta 2.000 por nivel (van 300+; ver `content/vocab/`).
+- Más lecturas — objetivo 50 por nivel para lectura extensiva real (van 15).
+- Sincronización entre dispositivos: hoy el progreso es local por diseño.
+- Publicar la app de Android en Play: el AAB existe pero nunca se subió, y
+  `native/android/` no está versionado, así que el wrap no es reproducible desde
+  el repo.

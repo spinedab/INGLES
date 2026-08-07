@@ -1,0 +1,76 @@
+{
+  "title": "Asking for Directions",
+  "summary": "Diálogo en la calle — preposiciones de lugar, imperativos, números.",
+  "duration": "1 min",
+  "audio": null,
+  "script": "Tourist: Excuse me. Is there a pharmacy near here?\nLocal: Yes, there's one on Green Street. It's very close.\nTourist: How do I get there?\nLocal: Go straight for two blocks, then turn left at the bank.\nTourist: Turn left at the bank. And then?\nLocal: The pharmacy is on your right, next to a small bakery.\nTourist: Is it open now?\nLocal: I think so. It closes at eight.\nTourist: Thank you very much!\nLocal: You're welcome. Have a good day.",
+  "vocabulary": [
+    {
+      "word": "near here",
+      "meaning": "cerca de aquí"
+    },
+    {
+      "word": "go straight",
+      "meaning": "seguir recto"
+    },
+    {
+      "word": "two blocks",
+      "meaning": "dos cuadras/manzanas"
+    },
+    {
+      "word": "turn left",
+      "meaning": "girar a la izquierda"
+    },
+    {
+      "word": "next to",
+      "meaning": "al lado de"
+    }
+  ],
+  "questions": [
+    {
+      "q": "What is the tourist looking for?",
+      "options": [
+        "A bakery",
+        "A pharmacy",
+        "A bank"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "How many blocks must they walk?",
+      "options": [
+        "Two",
+        "Three",
+        "Eight"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Where do they turn left?",
+      "options": [
+        "At the bakery",
+        "At the bank",
+        "At the pharmacy"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What is next to the pharmacy?",
+      "options": [
+        "A bank",
+        "A small bakery",
+        "A school"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What time does it close?",
+      "options": [
+        "At six",
+        "At eight",
+        "It doesn't say"
+      ],
+      "answer": 1
+    }
+  ]
+}

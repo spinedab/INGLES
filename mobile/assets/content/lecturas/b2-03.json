@@ -1,0 +1,20 @@
+{
+  "title": "Who Owns a Language?",
+  "summary": "Sociolinguistic argument on English as a lingua franca — inversion, complex noun phrases, stance markers.",
+  "text": "<p>There are now considerably more people who speak English as an additional language than as a first one. Estimates vary, but by most accounts non-native users outnumber native users by something like three to one. Whatever the precise ratio, the consequence is the same: the majority of English conversations taking place at this moment involve no native speaker at all.</p><p>This has awkward implications for the idea of correctness. If two Brazilian engineers and a Korean project manager negotiate a contract in English, whose norms apply? The pragmatic answer is that they apply their own, and they usually succeed. Research on English as a lingua franca has repeatedly found that features which would be marked as errors in a classroom — a missing third-person <em>s</em>, a definite article where a native speaker would omit one — rarely cause misunderstanding. What does cause misunderstanding is unshared idiom, and idiom is disproportionately a native-speaker habit.</p><p>Not everyone welcomes this conclusion. One objection is practical: learners are still assessed by institutions that use native norms, so teaching anything else disadvantages them. This is a serious point, and it explains why most syllabuses remain conservative. Only when examination boards move will classrooms follow.</p><p>A second objection is that <em>anything goes</em> is not a teachable standard. But that is not what the research claims. The claim is narrower and more interesting: intelligibility, not nativeness, is the criterion — and intelligibility is an empirical matter that can be investigated rather than assumed.</p><p>Where does this leave the learner? In a stronger position than the traditional framing suggests. The goal is not to erase an accent or to pass as something one is not. It is to be clear, flexible and accommodating — qualities that, as it happens, many native speakers could usefully acquire as well.</p>",
+  "glosses": [
+    {"word":"outnumber","tip":"superar en número"},
+    {"word":"awkward","tip":"incómodo, poco cómodo de encajar"},
+    {"word":"lingua franca","tip":"lengua de contacto entre hablantes de distintas L1"},
+    {"word":"disproportionately","tip":"de forma desproporcionada"},
+    {"word":"accommodating","tip":"que se adapta al interlocutor"}
+  ],
+  "collocations": ["by most accounts", "whose norms apply", "a serious point", "as it happens", "leave someone in a stronger position"],
+  "questions": [
+    {"q":"What ratio of non-native to native users does the text cite?","options":["About three to one","About one to one","About ten to one"],"answer":0},
+    {"q":"What does ELF research find about classroom 'errors'?","options":["They usually cause breakdowns","They rarely cause misunderstanding","They are increasing"],"answer":1},
+    {"q":"What does cause misunderstanding, according to the text?","options":["Unshared idiom","Missing articles","Accent"],"answer":0},
+    {"q":"What is the practical objection to teaching ELF norms?","options":["It is harder to teach","Institutions still assess by native norms","It has no research base"],"answer":1},
+    {"q":"What criterion does the research propose?","options":["Nativeness","Intelligibility","Accent reduction"],"answer":1}
+  ]
+}

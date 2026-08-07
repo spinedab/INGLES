@@ -1,0 +1,304 @@
+although (conj)	in spite of the fact that	Although he was tired, he kept working.	aunque	a2 conjunction top200
+however (adv)	on the other hand	It rained; however, we went out.	sin embargo	a2 adverb top200
+already (adv)	by now	I have already eaten.	ya	a2 adverb top200
+yet (adv)	until now	I haven't finished yet.	todavía	a2 adverb top200
+borrow (v)	to take temporarily	Can I borrow your pen?	pedir prestado	a2 verb top500
+lend (v)	to give temporarily	She lent me her car.	prestar	a2 verb irregular top500
+complain (v)	to express dissatisfaction	He complained about the noise.	quejarse	a2 verb top500
+explain (v)	to make clear	Can you explain that again?	explicar	a2 verb top500
+suggest (v)	to propose	I suggest we leave now.	sugerir	a2 verb top500
+decide (v)	to make a choice	I decided to stay.	decidir	a2 verb top500
+believe (v)	to accept as true	I believe you.	creer	a2 verb top500
+forget (v)	to fail to remember	Don't forget your keys.	olvidar	a2 verb irregular top500
+hope (v)	to wish for	I hope you can come.	esperar (deseo)	a2 verb top200
+meeting (n)	a gathering of people	The meeting starts at 10.	reunión	a2 noun top500
+problem (n)	a difficult situation	We need to solve this problem.	problema	a2 noun top200
+experience (n)	knowledge gained from doing	She has lots of experience.	experiencia	a2 noun top500
+opinion (n)	a personal view	In my opinion, it's wrong.	opinión	a2 noun top500
+difference (n)	a way in which things are not the same	What's the difference?	diferencia	a2 noun top500
+reason (n)	a cause or explanation	What was the reason?	razón	a2 noun top200
+crowded (adj)	full of people	The bus was crowded.	abarrotado	a2 adjective top1000
+embarrassed (adj)	feeling ashamed or awkward	I was embarrassed by my mistake.	avergonzado	a2 adjective top1000
+available (adj)	able to be used	The book is available online.	disponible	a2 adjective top500
+expensive (adj)	costing a lot	An expensive car.	caro	a2 adjective top500
+important (adj)	of great significance	This is important.	importante	a2 adjective top200
+quickly (adv)	in a fast way	She ran quickly.	rápidamente	a2 adverb top500
+finally (adv)	in the end	He finally arrived.	finalmente	a2 adverb top500
+recently (adv)	a short time ago	I saw her recently.	recientemente	a2 adverb top500
+perhaps (adv)	maybe	Perhaps she's right.	quizás	a2 adverb top500
+either (det)	one or the other	You can take either road.	cualquiera (de dos)	a2 determiner top500
+neither (det)	not one and not the other	Neither answer is correct.	ninguno (de dos)	a2 determiner top1000
+get along with (phr)	to have a good relationship with	I get along with my coworkers.	llevarse bien con	a2 phrasal-verb
+look after (phr)	to take care of	She looks after her brother.	cuidar de	a2 phrasal-verb
+give up (phr)	to stop trying	Don't give up!	rendirse	a2 phrasal-verb
+find out (phr)	to discover	I found out the truth.	averiguar	a2 phrasal-verb
+put off (phr)	to postpone	Don't put off the work.	posponer	a2 phrasal-verb
+make sense (chunk)	to be logical	Your plan makes sense.	tener sentido	a2 chunk
+take a break (chunk)	to pause activity	Let's take a break.	tomar un descanso	a2 chunk
+have a good time (chunk)	to enjoy oneself	We had a good time at the party.	pasarlo bien	a2 chunk
+do the dishes (chunk)	to wash plates	Who's doing the dishes tonight?	fregar los platos	a2 chunk
+make a decision (chunk)	to decide	You need to make a decision.	tomar una decisión	a2 chunk
+government (n)	the group of people who rule a country	The government raised taxes.	gobierno	a2 noun freq:top200
+become (v)	to start to be	She became a teacher.	convertirse en	a2 verb irregular freq:top50
+leave (v)	to go away from	I leave at 8am.	salir/irse/dejar	a2 verb irregular freq:top50
+keep (v)	to retain	Keep this for me.	guardar/mantener	a2 verb irregular freq:top50
+seem (v)	to appear to be	You seem tired.	parecer	a2 verb freq:top50
+turn (v)	to rotate; to become	Turn left at the corner.	girar	a2 verb freq:top50
+move (v)	to change position	Don't move!	mover/mudarse	a2 verb freq:top50
+hold (v)	to grip with hands	Can you hold this?	sostener/aguantar	a2 verb irregular freq:top50
+bring (v)	to carry to a place	Bring your books.	traer	a2 verb irregular freq:top50
+stand (v)	to be on one's feet	I stood up.	estar de pie/ponerse en pie	a2 verb irregular freq:top100
+include (v)	to contain as part	The price includes breakfast.	incluir	a2 verb freq:top100
+continue (v)	to keep doing	Please continue your work.	continuar	a2 verb freq:top100
+set (v)	to put in a place	Set the table, please.	poner/colocar	a2 verb irregular freq:top100
+create (v)	to make something new	He created a beautiful painting.	crear	a2 verb freq:top100
+spend (v)	to use time or money	I spent ten dollars.	gastar/pasar (tiempo)	a2 verb irregular freq:top100
+grow (v)	to become bigger	Children grow fast.	crecer	a2 verb irregular freq:top100
+offer (v)	to present for acceptance	He offered me a job.	ofrecer	a2 verb freq:top100
+serve (v)	to provide a service	This restaurant serves Italian food.	servir	a2 verb freq:top100
+die (v)	to stop living	The flower died.	morir	a2 verb freq:top100
+send (v)	to dispatch	Send me an email.	enviar	a2 verb irregular freq:top100
+build (v)	to construct	They built a new house.	construir	a2 verb irregular freq:top100
+fall (v)	to drop downward	Be careful, don't fall!	caer	a2 verb irregular freq:top100
+cut (v)	to divide with a sharp tool	Cut the bread, please.	cortar	a2 verb irregular freq:top100
+kill (v)	to cause to die	The frost killed the plants.	matar	a2 verb freq:top100
+raise (v)	to lift up	Raise your hand.	levantar/subir	a2 verb freq:top100
+pass (v)	to go past; to give	Pass me the salt.	pasar	a2 verb freq:top100
+pull (v)	to move toward you	Pull the door, don't push it.	tirar de	a2 verb freq:top100
+carry (v)	to transport	Can you carry this bag?	llevar	a2 verb freq:top100
+receive (v)	to get	I received your letter.	recibir	a2 verb freq:top100
+agree (v)	to share an opinion	I agree with you.	estar de acuerdo	a2 verb freq:top100
+hit (v)	to strike	The car hit a tree.	golpear	a2 verb irregular freq:top100
+cover (v)	to put over	Cover the food, please.	cubrir	a2 verb freq:top100
+catch (v)	to grab moving	Catch the ball!	atrapar	a2 verb irregular freq:top100
+draw (v)	to make a picture; to pull	She draws beautifully.	dibujar	a2 verb irregular freq:top100
+choose (v)	to select	Choose any one you like.	elegir	a2 verb irregular freq:top100
+join (v)	to become part of	I joined the team.	unirse	a2 verb freq:top200
+add (v)	to put more	Add some salt.	añadir	a2 verb freq:top200
+prepare (v)	to make ready	I'm preparing dinner.	preparar	a2 verb freq:top200
+own (adj)	belonging to oneself	I have my own room.	propio	a2 adjective freq:top100
+few (adj)	a small number	A few people came.	pocos	a2 adjective freq:top100
+public (adj)	available to everyone	A public park.	público	a2 adjective freq:top100
+able (adj)	capable	I am able to swim.	capaz	a2 adjective freq:top100
+real (adj)	actual, not fake	Is this a real diamond?	real	a2 adjective freq:top100
+heavy (adj)	weighing a lot	A heavy bag.	pesado	a2 adjective freq:top200
+quick (adj)	fast	A quick lunch.	rápido	a2 adjective freq:top200
+slow (adj)	not fast	A slow train.	lento	a2 adjective freq:top200
+through (prep)	in one side and out the other	We walked through the park.	a través de	a2 preposition freq:top50
+during (prep)	throughout a period of time	I slept during the flight.	durante	a2 preposition freq:top50
+ever (adv)	at any time	Have you ever been to Japan?	alguna vez	a2 adverb freq:top50
+take off (phr)	to remove (clothing); to fly away	Take off your shoes.	quitarse/despegar	a2 phrasal-verb
+go on (phr)	to continue	Please go on, I'm listening.	continuar	a2 phrasal-verb
+area (n)	a region or topic	This is an area of research I enjoy.	área	a2 awl sublist1
+percent (n)	one part in a hundred	Ten percent of students passed.	por ciento	a2 awl sublist1
+similar (adj)	alike but not identical	We have similar opinions.	similar	a2 awl sublist1
+chapter (n)	a main division of a book	Read chapter five.	capítulo	a2 awl sublist2
+culture (n)	the way of life of a people	English culture.	cultura	a2 awl sublist2
+normal (adj)	usual	Normal behavior.	normal	a2 awl sublist2
+select (v)	to choose	Select the best option.	seleccionar	a2 awl sublist2
+text (n)	written words	Read the text carefully.	texto	a2 awl sublist2
+tradition (n)	a long-established custom	A family tradition.	tradición	a2 awl sublist2
+I'd rather (chunk)	used to say what you prefer	I'd rather stay home tonight.	preferiría	a2 chunk
+How about…? (chunk)	used to suggest something	How about meeting at seven?	¿qué tal…?	a2 chunk
+It depends on (chunk)	the result changes according to	It depends on the weather.	depende de	a2 chunk
+on my own (chunk)	alone, without help	I did it on my own.	por mi cuenta/solo	a2 chunk
+at least (chunk)	not less than; anyway	It costs at least fifty euros.	al menos	a2 chunk
+as soon as (chunk)	immediately when	Call me as soon as you arrive.	en cuanto	a2 chunk
+in order to (chunk)	for the purpose of	She left early in order to catch the bus.	para/con el fin de	a2 chunk
+by the way (chunk)	used to add something not related	By the way, did you call her?	por cierto	a2 chunk
+no wonder (chunk)	it is not surprising	No wonder you're tired!	no me extraña	a2 chunk
+get in touch (chunk)	to contact someone	I'll get in touch next week.	ponerse en contacto	a2 chunk
+keep in mind (chunk)	to remember when deciding	Keep in mind that it closes at six.	tener en cuenta	a2 chunk
+on time (chunk)	not late	The train left on time.	a tiempo/puntual	a2 chunk
+in a hurry (chunk)	needing to go fast	Sorry, I'm in a hurry.	con prisa	a2 chunk
+out of order (chunk)	not working (machine)	The lift is out of order.	fuera de servicio	a2 chunk
+used to (chunk)	a past habit that stopped	I used to play football.	solía	a2 chunk
+be about to (chunk)	going to happen very soon	I was about to call you.	estar a punto de	a2 chunk
+had better (chunk)	strong advice	You'd better take a coat.	más vale que	a2 chunk
+as well (chunk)	also	She speaks French as well.	también	a2 chunk
+a couple of (chunk)	two or a few	I need a couple of days.	un par de	a2 chunk
+turn down (phr v)	to lower; to reject an offer	Could you turn down the music?	bajar/rechazar	a2 phrasal-verb
+put on (phr v)	to dress in; to switch on	Put on your shoes.	ponerse	a2 phrasal-verb
+take out (phr v)	to remove; to withdraw	He took out his wallet.	sacar	a2 phrasal-verb
+look up (phr v)	to search for information	Look it up in the dictionary.	buscar (en una fuente)	a2 phrasal-verb
+get on (phr v)	to board; to have a relationship	We got on the bus at nine.	subir a/llevarse bien	a2 phrasal-verb
+run into (phr v)	to meet by chance	I ran into Ana at the market.	encontrarse con	a2 phrasal-verb
+come across (phr v)	to find by chance	I came across an old photo.	encontrar por casualidad	a2 phrasal-verb
+work out (phr v)	to exercise; to end well	It worked out in the end.	hacer ejercicio/salir bien	a2 phrasal-verb
+fill in (phr v)	to write information in a form	Please fill in this form.	rellenar	a2 phrasal-verb
+throw away (phr v)	to put in the rubbish	Don't throw away the receipt.	tirar/desechar	a2 phrasal-verb
+hang up (phr v)	to end a phone call	She hung up before I finished.	colgar (el teléfono)	a2 phrasal-verb
+pick up (phr v)	to lift; to collect someone	I'll pick you up at eight.	recoger	a2 phrasal-verb
+set up (phr v)	to arrange or start	They set up a small business.	montar/establecer	a2 phrasal-verb
+sort out (phr v)	to solve or organise	We need to sort out this problem.	resolver/arreglar	a2 phrasal-verb
+check in (phr v)	to register at a hotel or airport	We checked in at noon.	registrarse/facturar	a2 phrasal-verb
+get over (phr v)	to recover from	It took a week to get over the flu.	recuperarse de	a2 phrasal-verb
+hold on (phr v)	to wait	Hold on a second, please.	esperar un momento	a2 phrasal-verb
+turn up (phr v)	to arrive, often unexpectedly	He turned up an hour late.	aparecer/presentarse	a2 phrasal-verb
+give back (phr v)	to return something	Give me back my pen.	devolver	a2 phrasal-verb
+take care of (phr v)	to look after	Who takes care of the dog?	cuidar de	a2 phrasal-verb
+accept (v)	to agree to take or receive	She accepted the invitation.	aceptar	a2 verb
+admit (v)	to say that something is true	He admitted his mistake.	admitir	a2 verb
+advise (v)	to tell someone what you think they should do	The doctor advised me to rest.	aconsejar	a2 verb
+appear (v)	to seem; to become visible	She appears tired.	parecer/aparecer	a2 verb
+apply (v)	to make a formal request	I applied for the job.	solicitar	a2 verb
+arrange (v)	to organise or plan	We arranged a meeting.	organizar/concertar	a2 verb
+avoid (v)	to keep away from	Try to avoid the rush hour.	evitar	a2 verb
+belong (v)	to be owned by; to be part of	This book belongs to me.	pertenecer	a2 verb
+breathe (v)	to take air in and out	Breathe slowly and relax.	respirar	a2 verb
+cancel (v)	to stop a planned event	They cancelled the flight.	cancelar	a2 verb
+celebrate (v)	to do something special for an event	We celebrated her birthday.	celebrar	a2 verb
+charge (v)	to ask a price; to fill with power	They charged us ten euros.	cobrar/cargar	a2 verb
+compare (v)	to look at differences and similarities	Compare the two options.	comparar	a2 verb
+complete (v)	to finish	Please complete the form.	completar	a2 verb
+connect (v)	to join together	Connect the cable here.	conectar	a2 verb
+cross (v)	to go from one side to the other	Cross the street at the lights.	cruzar	a2 verb
+deliver (v)	to take goods to someone	They deliver on Saturdays.	entregar/repartir	a2 verb
+describe (v)	to say what someone or something is like	Describe your neighbourhood.	describir	a2 verb
+discover (v)	to find something new	We discovered a nice café.	descubrir	a2 verb
+discuss (v)	to talk about something seriously	Let's discuss it tomorrow.	discutir/tratar	a2 verb
+earn (v)	to get money by working	She earns a good salary.	ganar (dinero)	a2 verb
+encourage (v)	to give someone confidence to do something	My teacher encouraged me.	animar	a2 verb
+enjoy (v)	to get pleasure from	I enjoy cooking.	disfrutar	a2 verb
+fail (v)	to not succeed	He failed the exam.	fallar/suspender	a2 verb
+fix (v)	to repair; to arrange	Can you fix the tap?	arreglar	a2 verb
+happen (v)	to take place	What happened yesterday?	ocurrir/pasar	a2 verb
+hide (v)	to put out of sight	She hid the keys.	esconder	a2 verb
+hurry (v)	to move quickly	Hurry up, we're late!	darse prisa	a2 verb
+hurt (v)	to cause pain	My back hurts.	doler/herir	a2 verb
+imagine (v)	to form a picture in your mind	Imagine living there.	imaginar	a2 verb
+improve (v)	to get better	My English is improving.	mejorar	a2 verb
+increase (v)	to become larger in number	Prices increased last year.	aumentar	a2 verb
+introduce (v)	to present someone to another	Let me introduce my sister.	presentar	a2 verb
+invite (v)	to ask someone to come	They invited us to dinner.	invitar	a2 verb
+manage (v)	to succeed in doing something difficult	I managed to finish on time.	lograr/conseguir	a2 verb
+mention (v)	to say something briefly	He mentioned your name.	mencionar	a2 verb
+mind (v)	to be annoyed by	Do you mind if I open the window?	importar/molestar	a2 verb
+miss (v)	to fail to catch; to feel sad without	I missed the train.	perder/echar de menos	a2 verb
+notice (v)	to see or become aware of	I noticed a mistake.	darse cuenta/notar	a2 verb
+order (v)	to ask for food or goods	We ordered two coffees.	pedir/encargar	a2 verb
+pack (v)	to put things in a bag	I need to pack my suitcase.	hacer la maleta	a2 verb
+prefer (v)	to like one thing more	I prefer tea to coffee.	preferir	a2 verb
+promise (v)	to say you will certainly do something	He promised to help.	prometer	a2 verb
+realise (v)	to become aware of a fact	I realised I was wrong.	darse cuenta	a2 verb
+reduce (v)	to make smaller	Reduce the heat and wait.	reducir	a2 verb
+refuse (v)	to say no to	She refused the offer.	rechazar/negarse	a2 verb
+relax (v)	to rest and become calm	I relax by walking.	relajarse	a2 verb
+remind (v)	to make someone remember	Remind me to call her.	recordar (a alguien)	a2 verb
+rent (v)	to pay to use something	We rented a car.	alquilar	a2 verb
+repair (v)	to fix something broken	They repaired the roof.	reparar	a2 verb
+replace (v)	to put something new in place of	I replaced the battery.	reemplazar	a2 verb
+reply (v)	to answer	She replied immediately.	responder	a2 verb
+save (v)	to keep for later; to rescue	I'm saving for a trip.	ahorrar/guardar	a2 verb
+share (v)	to divide or use together	We shared a pizza.	compartir	a2 verb
+solve (v)	to find an answer to a problem	Can you solve this?	resolver	a2 verb
+spell (v)	to say or write the letters of a word	How do you spell it?	escribir/deletrear	a2 verb
+succeed (v)	to achieve what you wanted	She succeeded in the end.	tener éxito	a2 verb
+suppose (v)	to think something is probably true	I suppose you're right.	suponer	a2 verb
+surprise (v)	to cause a feeling of wonder	The news surprised us.	sorprender	a2 verb
+waste (v)	to use badly or lose	Don't waste water.	desperdiciar	a2 verb
+wear (v)	to have clothes on your body	She wore a blue dress.	llevar puesto	a2 verb irregular
+wish (v)	to want something unlikely	I wish I could go.	desear/ojalá	a2 verb
+wonder (v)	to want to know; to ask yourself	I wonder why he left.	preguntarse	a2 verb
+worry (v)	to feel anxious	Don't worry about it.	preocuparse	a2 verb
+afraid (adj)	feeling fear	I'm afraid of heights.	asustado/temeroso	a2 adjective
+angry (adj)	feeling strong annoyance	She was angry with me.	enfadado	a2 adjective
+careful (adj)	paying attention to avoid harm	Be careful with that knife.	cuidadoso	a2 adjective
+clever (adj)	quick to learn	That's a clever solution.	listo/ingenioso	a2 adjective
+comfortable (adj)	pleasant to be in or wear	These shoes are comfortable.	cómodo	a2 adjective
+common (adj)	happening often	It's a common mistake.	común/frecuente	a2 adjective
+dangerous (adj)	likely to cause harm	Driving there is dangerous.	peligroso	a2 adjective
+delicious (adj)	tasting very good	The soup was delicious.	delicioso	a2 adjective
+empty (adj)	containing nothing	The room was empty.	vacío	a2 adjective
+famous (adj)	known by many people	a famous writer	famoso	a2 adjective
+favourite (adj)	liked more than others	This is my favourite song.	favorito	a2 adjective
+foreign (adj)	from another country	a foreign language	extranjero	a2 adjective
+healthy (adj)	good for your body	a healthy diet	saludable	a2 adjective
+honest (adj)	telling the truth	Be honest with me.	honesto/sincero	a2 adjective
+huge (adj)	extremely large	a huge difference	enorme	a2 adjective
+ill (adj)	not healthy	She's been ill all week.	enfermo	a2 adjective
+lonely (adj)	sad because you are alone	He felt lonely at first.	solo/solitario	a2 adjective
+lucky (adj)	having good fortune	You're lucky it's open.	afortunado	a2 adjective
+nervous (adj)	worried about something	I get nervous before exams.	nervioso	a2 adjective
+polite (adj)	showing good manners	He was very polite.	educado/cortés	a2 adjective
+popular (adj)	liked by many people	a popular restaurant	popular	a2 adjective
+possible (adj)	able to happen	Is it possible to change it?	posible	a2 adjective
+proud (adj)	pleased about an achievement	I'm proud of you.	orgulloso	a2 adjective
+rare (adj)	not happening often	a rare opportunity	raro/poco frecuente	a2 adjective
+rude (adj)	not polite	It's rude to interrupt.	grosero/maleducado	a2 adjective
+safe (adj)	not in danger	The area is safe at night.	seguro	a2 adjective
+serious (adj)	important or worrying; not joking	It's a serious problem.	serio/grave	a2 adjective
+shy (adj)	nervous with other people	She's shy with strangers.	tímido	a2 adjective
+simple (adj)	easy to understand	a simple explanation	sencillo	a2 adjective
+strange (adj)	unusual or surprising	That's a strange noise.	extraño	a2 adjective
+terrible (adj)	very bad	The weather was terrible.	terrible/malísimo	a2 adjective
+tiny (adj)	extremely small	a tiny apartment	diminuto	a2 adjective
+useful (adj)	helpful for a purpose	That's a useful tip.	útil	a2 adjective
+wrong (adj)	not correct	I gave the wrong answer.	equivocado/incorrecto	a2 adjective
+worried (adj)	feeling anxious	She looked worried.	preocupado	a2 adjective
+probably (adv)	very likely	He's probably at home.	probablemente	a2 adverb
+almost (adv)	nearly but not completely	I almost missed it.	casi	a2 adverb
+especially (adv)	more than usual or others	I like fruit, especially mangoes.	especialmente	a2 adverb
+instead (adv)	in place of something else	Let's walk instead.	en su lugar	a2 adverb
+anyway (adv)	despite that; in any case	It rained, but we went anyway.	de todos modos	a2 adverb
+hardly (adv)	almost not at all	I hardly know her.	apenas	a2 adverb
+besides (adv)	in addition	Besides, it's too expensive.	además	a2 adverb
+actually (adv)	in fact (NOT «actualmente»)	Actually, I disagree.	en realidad	a2 adverb false-friend
+nearly (adv)	not quite, but very close to	The bottle is nearly empty.	casi	a2 adverb
+unfortunately (adv)	used to introduce bad news	Unfortunately, the shop is closed.	desafortunadamente	a2 adverb
+bill (n)	a paper showing what you must pay	Can we have the bill?	cuenta/factura	a2 noun
+boss (n)	the person in charge at work	My boss is on holiday.	jefe/a	a2 noun job
+cash (n)	money in coins and notes	Can I pay in cash?	efectivo	a2 noun uncountable
+crowd (n)	a large group of people	There was a big crowd.	multitud	a2 noun
+customer (n)	someone who buys something	The customer is waiting.	cliente	a2 noun
+deadline (n)	the latest time to finish	The deadline is Friday.	plazo/fecha límite	a2 noun
+discount (n)	a reduction in price	They gave us a discount.	descuento	a2 noun
+flight (n)	a journey by plane	Our flight is delayed.	vuelo	a2 noun
+holiday (n)	time away from work	We're on holiday next week.	vacaciones	a2 noun
+injury (n)	damage to your body	a knee injury	lesión	a2 noun
+insurance (n)	protection you pay for	travel insurance	seguro	a2 noun uncountable
+journey (n)	travelling from one place to another	a long journey	viaje/trayecto	a2 noun
+luggage (n)	the bags you travel with	Where's my luggage?	equipaje	a2 noun uncountable
+neighbour (n)	someone who lives near you	My neighbour is very quiet.	vecino/a	a2 noun
+queue (n)	a line of people waiting	There's a long queue.	cola/fila	a2 noun
+receipt (n)	a paper proving you paid	Keep the receipt.	recibo	a2 noun
+salary (n)	money you earn each month	a good salary	sueldo	a2 noun
+skill (n)	an ability you learn	Listening is a skill.	habilidad/destreza	a2 noun
+staff (n)	the people who work somewhere	The staff are friendly.	personal/plantilla	a2 noun uncountable
+traffic (n)	the cars on the road	There's a lot of traffic.	tráfico	a2 noun uncountable
+weather (n)	the state of the air outside	What's the weather like?	tiempo (clima)	a2 noun uncountable
+borrow vs lend (chunk)	borrow = take; lend = give	Can I borrow it? / Can you lend it to me?	pedir prestado / prestar	a2 chunk
+get used to (chunk)	to become accustomed to	I got used to the noise.	acostumbrarse a	a2 chunk
+be into (chunk)	to be very interested in	She's really into music.	estar metido en	a2 chunk
+dress up (phr v)	to wear formal clothes	Do we need to dress up?	arreglarse/vestirse elegante	a2 phrasal-verb
+eat out (phr v)	to eat in a restaurant	We eat out on Fridays.	comer fuera	a2 phrasal-verb
+get back (phr v)	to return	I got back at midnight.	volver/regresar	a2 phrasal-verb
+go out (phr v)	to leave home for fun	We went out last night.	salir	a2 phrasal-verb
+grow up (phr v)	to become an adult	I grew up in Medellín.	crecer/criarse	a2 phrasal-verb
+hurry up (phr v)	to move faster	Hurry up, it's late!	darse prisa	a2 phrasal-verb
+put away (phr v)	to store in the right place	Put away your clothes.	guardar	a2 phrasal-verb
+take part in (phr v)	to participate	I took part in the course.	participar en	a2 phrasal-verb
+try on (phr v)	to put on clothes to test them	Can I try it on?	probarse	a2 phrasal-verb
+wake up (phr v)	to stop sleeping	I wake up at six.	despertarse	a2 phrasal-verb
+borrow money (coll)	to take money to return later	I had to borrow money.	pedir dinero prestado	a2 collocation
+make a mistake (coll)	to do something wrong	Everyone makes mistakes.	cometer un error	a2 collocation
+take a photo (coll)	to photograph	Can you take a photo?	hacer una foto	a2 collocation
+do exercise (coll)	to train your body	I do exercise three times a week.	hacer ejercicio	a2 collocation
+have a shower (coll)	to wash your body	I have a shower in the morning.	ducharse	a2 collocation
+catch a cold (coll)	to become ill with a cold	I caught a cold last week.	resfriarse	a2 collocation
+miss the bus (coll)	to fail to catch the bus	I missed the bus again.	perder el autobús	a2 collocation
+pay attention (coll)	to listen or watch carefully	Pay attention to the ending.	prestar atención	a2 collocation
+save time (coll)	to use less time	This saves a lot of time.	ahorrar tiempo	a2 collocation
+tell the truth (coll)	to say what is true	Just tell me the truth.	decir la verdad	a2 collocation
+advice (n)	an opinion about what to do (uncountable)	She gave me good advice.	consejo	a2 noun uncountable
+argument (n)	an angry disagreement; a reason	They had an argument.	discusión/argumento	a2 noun
+chance (n)	a possibility; an opportunity	There's a chance of rain.	posibilidad/oportunidad	a2 noun
+choice (n)	the act of choosing; an option	It was a difficult choice.	elección	a2 noun
+crime (n)	an illegal act	Crime has fallen this year.	delito/crimen	a2 noun
+effort (n)	physical or mental energy used	It takes effort at first.	esfuerzo	a2 noun
+habit (n)	something you do regularly	Reading is a good habit.	hábito/costumbre	a2 noun
+noise (n)	an unpleasant sound	What's that noise?	ruido	a2 noun
+purpose (n)	the reason for doing something	the purpose of the exercise	propósito/finalidad	a2 noun
+silence (n)	the absence of sound	There was a long silence.	silencio	a2 noun uncountable
+truth (n)	what is real or true	Tell me the truth.	verdad	a2 noun uncountable
+view (n)	an opinion; what you can see	In my view, it's fine.	opinión/vista	a2 noun

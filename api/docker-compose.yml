@@ -1,0 +1,26 @@
+# Desarrollo local: API + Redis propio (aislado del resto del ecosistema).
+#   docker compose up --build
+#   curl http://localhost:8000/health
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      INGLES_PROVIDER: gemma
+      GEMMA_API_URL: http://host.docker.internal:11436
+      GEMMA_API_TOKEN: ${GEMMA_API_TOKEN:?falta GEMMA_API_TOKEN}
+      GEMMA_MODEL: gemma4:e4b
+      INGLES_REDIS_URL: redis://redis:6379/0
+      INGLES_API_TOKEN: ""
+      INGLES_TRUST_PROXY: "false"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "16379:6379"

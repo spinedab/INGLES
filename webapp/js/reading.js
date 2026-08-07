@@ -2,10 +2,10 @@ import * as storage from './storage.js';
 import { logActivity } from './insights.js';
 
 export const READING_INDEX = {
-  a1: ['a1-01', 'a1-02'],
-  a2: ['a2-01', 'a2-02'],
-  b1: ['b1-01', 'b1-02'],
-  b2: ['b2-01'],
+  a1: ['a1-01', 'a1-02', 'a1-03', 'a1-04'],
+  a2: ['a2-01', 'a2-02', 'a2-03', 'a2-04'],
+  b1: ['b1-01', 'b1-02', 'b1-03', 'b1-04'],
+  b2: ['b2-01', 'b2-02', 'b2-03'],
 };
 
 export async function loadText(id) {

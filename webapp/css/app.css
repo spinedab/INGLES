@@ -27,6 +27,10 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
+/* Varias clases del layout fijan display, lo que anularía el atributo
+   [hidden]; esto lo restaura para toda la app. */
+[hidden] { display: none !important; }
+
 body {
   background: var(--bg);
   color: var(--fg);
@@ -957,4 +961,55 @@ kbd {
   .filter-row {
     grid-template-columns: 1fr;
   }
+}
+
+/* ── Tutor IA (chat con streaming) ─────────────────────────────────────── */
+.tutor-chat {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 52vh;
+  overflow-y: auto;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg);
+}
+
+.tutor-msg {
+  max-width: 82%;
+  padding: 9px 12px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--card-bg);
+  font-size: 15px;
+}
+
+.tutor-msg.from-user {
+  align-self: flex-end;
+  background: var(--accent-soft);
+  border-color: var(--accent-soft);
+}
+
+.tutor-msg.from-tutor { align-self: flex-start; }
+
+.tutor-msg .who {
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 3px;
+}
+
+.tutor-msg.pending .body { opacity: 0.85; }
+
+#tutor-status.good, #tutor-status.danger { font-weight: 600; }
+#tutor-status.good { color: var(--good); }
+#tutor-status.danger { color: var(--bad); }
+
+@media (max-width: 520px) {
+  .tutor-msg { max-width: 95%; }
+  .tutor-chat { max-height: 60vh; }
 }

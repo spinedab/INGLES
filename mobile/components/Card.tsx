@@ -12,6 +12,12 @@ interface Props {
   variant?: 'default' | 'elevated' | 'outlined' | 'accent';
 }
 
+// Deliberadamente NO es forwardRef. `<Link asChild>` de expo-router clona el
+// hijo y le pasa un ref, así que React avisa "Function components cannot be
+// given refs" por consola. Envolverlo en React.forwardRef parece el arreglo
+// obvio, pero el SlotClone de expo-router no acepta un componente exótico y
+// revienta el render con "Component is not a function (it is Object)". El aviso
+// es inocuo: el ref se descarta y el onPress sigue llegando por props.
 export function Card({ children, onPress, style, variant = 'default' }: Props) {
   const theme = useTheme();
   const scale = useSharedValue(1);

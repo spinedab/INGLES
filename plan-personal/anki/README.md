@@ -1,6 +1,13 @@
 # Decks de Anki
 
-Decks de vocabulario para importar en Anki. Formato TSV (tab-separated values), 5 campos por línea:
+Decks de vocabulario para importar en Anki, uno por nivel CEFR.
+
+> **Estos ficheros se generan, no se editan.** Salen de la fuente canónica
+> `content/vocab/<nivel>.tsv` (raíz del repo) vía `python3 tools/build_vocab.py`,
+> el mismo comando que alimenta los decks de la webapp y de la app móvil. Si
+> editas un `vocab-*.tsv` a mano, el siguiente build sobreescribe el cambio.
+
+Formato TSV (tab-separated values), 5 campos por línea:
 
 | Campo | Contenido |
 |-------|-----------|
@@ -45,11 +52,23 @@ Sin pre y post, Anki por sí solo produce *paper vocabulary* — palabras que re
 
 ## Decks incluidos
 
-### `top2000-a1a2.tsv`
-~250 palabras del rango de las 2.000 más frecuentes (cubre ~80% del inglés cotidiano). Base imprescindible para A1-A2.
+Un deck por nivel, con exactamente el mismo contenido que estudia la app (misma
+fuente). Las palabras llevan tags de procedencia (`top100`, `awl`, `sublist1`…),
+así que puedes filtrar dentro de un deck con búsquedas de Anki como `tag:awl`.
 
-### `awl-b1b2.tsv`
-~120 palabras del Academic Word List (Coxhead, 2000). Cubre vocabulario académico que aparece en >3 ramas del conocimiento. Útil para B1-B2 con objetivos académicos.
+| Deck | Cards | Contenido |
+|------|-------|-----------|
+| `vocab-a1.tsv` | 175 | Núcleo de altísima frecuencia (rango top-1000, GSL/NGSL). Lo imprescindible. |
+| `vocab-a2.tsv` | 100 | Rango top-1000/2000 más chunks y phrasal verbs de uso diario. |
+| `vocab-b1.tsv` | 154 | Salto a vocabulario académico: mayoría de Academic Word List (Coxhead, 2000). |
+| `vocab-b2.tsv` | 76 | AWL de sublistas altas, registro formal y algunas entradas C1. |
+
+Total: 505 cards. Es una base, no un objetivo: `PLAN.md` apunta a 2.000 por
+nivel. Para ampliar, añade filas a `content/vocab/<nivel>.tsv` y regenera.
+
+> Los ficheros anteriores `top2000-a1a2.tsv` y `awl-b1b2.tsv` se retiraron: sus
+> nombres prometían 2.000 y 570 palabras cuando tenían 257 y 177, y su contenido
+> está íntegro en los decks por nivel de arriba.
 
 ## Decks complementarios recomendados
 

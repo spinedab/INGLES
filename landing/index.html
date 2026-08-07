@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#ef4444">
+<title>INGLES — Aprende inglés con IA conversacional + plan A1→B2</title>
+<meta name="description" content="Sistema integral de aprendizaje de inglés: 8 escenarios conversacionales con IA, flashcards SRS, lecturas niveladas, listening y plan de 6 meses A1→B2 basado en evidencia.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="INGLES — Aprende inglés con IA + evidencia">
+<meta property="og:description" content="8 escenarios conversacionales · Flashcards SRS · Plan 6 meses A1→B2">
+<meta property="og:url" content="https://ingles.nexocloud.co/">
+<meta property="og:site_name" content="INGLES">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%87%AC%F0%9F%87%A7%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://ingles.apicloud.lat">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500&family=Crimson+Pro:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --primary:#ef4444;       /* red — energy */
+  --accent:#f59e0b;        /* amber — warmth */
+  --accent2:#14b8a6;       /* teal — clarity */
+  --accent3:#8b5cf6;       /* violet — culture */
+  --bg:#0a0606;
+  --surface:#15090a;
+  --text:#f5f0e8;
+  --muted:rgba(245,240,232,0.65);
+  --border:rgba(255,255,255,0.08);
+}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.55;min-height:100vh;overflow-x:hidden}
+.mesh-bg{position:fixed;inset:0;z-index:-1;background:
+  radial-gradient(circle at 12% 8%,var(--primary)28 0%,transparent 50%),
+  radial-gradient(circle at 88% 22%,var(--accent)26 0%,transparent 55%),
+  radial-gradient(circle at 45% 88%,var(--accent3)22 0%,transparent 60%),
+  radial-gradient(circle at 92% 78%,var(--accent2)20 0%,transparent 50%),var(--bg)}
+.orb{position:fixed;border-radius:50%;filter:blur(80px);opacity:.45;z-index:-1;animation:float 22s ease-in-out infinite}
+.orb-1{width:380px;height:380px;background:var(--primary);top:-100px;left:-80px}
+.orb-2{width:340px;height:340px;background:var(--accent);bottom:-100px;right:-80px;animation-delay:-11s}
+.orb-3{width:280px;height:280px;background:var(--accent2);top:40%;right:-100px;animation-delay:-5s}
+@keyframes float{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(50px,-40px) scale(1.08)}}
+
+.container{max-width:1180px;margin:0 auto;padding:0 28px}
+
+/* NAV */
+nav{padding:18px 28px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;background:rgba(10,6,6,.85);backdrop-filter:blur(16px);z-index:50;margin:0;border-bottom:1px solid var(--border)}
+.nav-inner{max-width:1180px;width:100%;margin:0 auto;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:20px;text-decoration:none;color:var(--text);letter-spacing:-.02em}
+.brand-mark{width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,var(--primary),var(--accent));display:flex;align-items:center;justify-content:center;font-size:22px;line-height:1;box-shadow:0 8px 24px rgba(239,68,68,.4)}
+.nav-right{display:flex;align-items:center;gap:18px;font-size:14px}
+.nav-link{color:var(--muted);text-decoration:none;font-weight:500;transition:color .2s}
+.nav-link:hover{color:var(--text)}
+.api-status{display:flex;align-items:center;gap:6px;padding:6px 10px;border-radius:99px;background:rgba(16,185,129,.12);border:1px solid rgba(16,185,129,.3);font-size:12px;font-weight:600;color:#34d399;font-family:'JetBrains Mono',monospace}
+.api-status.checking{background:rgba(245,158,11,.12);border-color:rgba(245,158,11,.3);color:#fbbf24}
+.api-status.down{background:rgba(239,68,68,.12);border-color:rgba(239,68,68,.3);color:#fca5a5}
+.api-status .dot{width:6px;height:6px;border-radius:50%;background:currentColor;box-shadow:0 0 8px currentColor;animation:blink 1.4s infinite}
+@keyframes blink{50%{opacity:.3}}
+
+main{padding:64px 0 96px}
+
+/* HERO */
+.hero{display:grid;grid-template-columns:1.2fr 1fr;gap:64px;align-items:center;padding:24px 0 64px}
+@media (max-width:880px){.hero{grid-template-columns:1fr;gap:40px;padding:16px 0 56px}}
+.tag{display:inline-flex;align-items:center;gap:10px;padding:8px 14px;border-radius:99px;background:rgba(255,255,255,0.05);border:1px solid var(--border);font-size:12px;color:var(--muted);font-weight:500;margin-bottom:24px;backdrop-filter:blur(10px)}
+.tag .flags{display:inline-flex;gap:4px;font-size:14px}
+h1{font-family:'Crimson Pro',serif;font-size:clamp(44px,7vw,76px);line-height:1.02;letter-spacing:-.025em;font-weight:700;margin-bottom:24px}
+h1 .grad{background:linear-gradient(120deg,var(--primary),var(--accent),var(--accent3));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;display:inline-block}
+.hero-desc{font-size:clamp(17px,1.6vw,20px);color:var(--muted);max-width:560px;margin-bottom:36px;line-height:1.6}
+.cta{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:32px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 24px;border-radius:14px;font-weight:600;font-size:15px;text-decoration:none;transition:all .2s;cursor:pointer;border:none;font-family:inherit}
+.btn-primary{background:linear-gradient(135deg,var(--primary),var(--accent));color:#fff;box-shadow:0 8px 24px rgba(239,68,68,.5)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 32px rgba(239,68,68,.6)}
+.btn-ghost{background:rgba(255,255,255,0.04);border:1px solid var(--border);color:var(--text);backdrop-filter:blur(10px)}
+.btn-ghost:hover{background:rgba(255,255,255,0.08)}
+
+.hero-stats{display:flex;gap:32px;flex-wrap:wrap;padding-top:24px;border-top:1px solid var(--border)}
+.stat-num{font-size:32px;font-weight:800;font-family:'JetBrains Mono',monospace;background:linear-gradient(135deg,var(--primary),var(--accent));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.stat-label{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-top:4px}
+
+/* HERO VISUAL — Chat mockup */
+.chat-mockup{position:relative;width:100%;max-width:480px;justify-self:center;background:linear-gradient(135deg,rgba(255,255,255,0.05),rgba(255,255,255,0.01));border:1px solid var(--border);border-radius:24px;padding:24px;backdrop-filter:blur(20px);box-shadow:0 24px 64px -16px rgba(0,0,0,.6)}
+.chat-header{display:flex;align-items:center;gap:12px;padding-bottom:14px;border-bottom:1px solid var(--border);margin-bottom:16px}
+.chat-avatar{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--accent2),var(--accent3));display:flex;align-items:center;justify-content:center;font-size:18px}
+.chat-meta strong{display:block;font-size:14px}
+.chat-meta small{font-size:11px;color:var(--muted)}
+.chat-msg{display:flex;gap:10px;margin-bottom:14px;animation:msgIn .4s ease backwards}
+.chat-msg.user{flex-direction:row-reverse}
+.chat-msg .bubble{padding:10px 14px;border-radius:14px;font-size:14px;max-width:80%;line-height:1.5}
+.chat-msg.ai .bubble{background:rgba(255,255,255,.06);border:1px solid var(--border);border-top-left-radius:4px}
+.chat-msg.user .bubble{background:linear-gradient(135deg,var(--primary),var(--accent));color:#fff;border-top-right-radius:4px}
+.chat-msg:nth-child(2){animation-delay:.6s}
+.chat-msg:nth-child(3){animation-delay:1.2s}
+.chat-msg:nth-child(4){animation-delay:1.8s}
+.chat-msg:nth-child(5){animation-delay:2.4s}
+@keyframes msgIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.typing{display:flex;gap:4px;padding:8px 12px}
+.typing span{width:6px;height:6px;background:var(--muted);border-radius:50%;animation:typingBounce 1.4s infinite ease-in-out}
+.typing span:nth-child(2){animation-delay:.16s}
+.typing span:nth-child(3){animation-delay:.32s}
+@keyframes typingBounce{0%,80%,100%{transform:scale(.6);opacity:.4}40%{transform:scale(1);opacity:1}}
+
+/* SECTIONS */
+section{margin-top:96px;scroll-margin-top:80px}
+.section-tag{display:inline-block;font-size:12px;color:var(--primary);background:rgba(239,68,68,.15);padding:4px 12px;border-radius:6px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;margin-bottom:16px;font-family:'JetBrains Mono',monospace}
+section h2{font-family:'Crimson Pro',serif;font-size:clamp(32px,4.5vw,48px);font-weight:700;letter-spacing:-.02em;margin-bottom:14px}
+section .lead{color:var(--muted);font-size:17px;margin-bottom:48px;max-width:640px;line-height:1.6}
+
+/* SCENARIOS GRID */
+.scenarios-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.scenario-card{padding:24px;border-radius:18px;background:linear-gradient(135deg,rgba(255,255,255,0.04),rgba(255,255,255,0));border:1px solid var(--border);transition:all .25s;cursor:pointer;position:relative;overflow:hidden}
+.scenario-card::before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,var(--c)12,transparent);opacity:0;transition:opacity .25s;pointer-events:none}
+.scenario-card:hover{transform:translateY(-4px);border-color:var(--c);box-shadow:0 16px 40px -8px rgba(0,0,0,.5)}
+.scenario-card:hover::before{opacity:1}
+.scenario-icon{font-size:36px;margin-bottom:14px;line-height:1;display:inline-block}
+.scenario-level{display:inline-block;font-size:10px;font-weight:700;color:var(--c);background:color-mix(in srgb,var(--c) 20%,transparent);padding:3px 8px;border-radius:5px;font-family:'JetBrains Mono',monospace;letter-spacing:.05em;text-transform:uppercase;margin-bottom:10px}
+.scenario-title{font-size:17px;font-weight:700;margin-bottom:8px}
+.scenario-desc{font-size:13px;color:var(--muted);line-height:1.55;min-height:42px}
+.scenario-objectives{margin-top:14px;padding-top:14px;border-top:1px solid var(--border);font-size:11px;color:var(--muted)}
+.scenario-objectives strong{color:var(--text);display:block;margin-bottom:4px;font-size:10px;text-transform:uppercase;letter-spacing:.05em}
+.scenario-objectives ul{list-style:none;font-size:12px}
+.scenario-objectives li::before{content:"→ ";color:var(--c);font-weight:700}
+
+/* FEATURES */
+.features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.feature{padding:28px;border-radius:18px;background:linear-gradient(135deg,rgba(255,255,255,0.04),rgba(255,255,255,0));border:1px solid var(--border);transition:all .25s}
+.feature:hover{transform:translateY(-4px);border-color:var(--primary)}
+.feature-icon{width:48px;height:48px;border-radius:12px;background:linear-gradient(135deg,var(--primary)40,var(--accent)40);display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:14px}
+.feature h3{font-size:18px;font-weight:700;margin-bottom:8px}
+.feature p{font-size:14px;color:var(--muted);line-height:1.6}
+
+/* PLAN 6 MESES — Timeline */
+.plan-timeline{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-top:32px}
+@media (max-width:880px){.plan-timeline{grid-template-columns:repeat(2,1fr)}}
+.month{padding:18px;border-radius:14px;background:linear-gradient(135deg,rgba(255,255,255,0.04),rgba(255,255,255,0));border:1px solid var(--border);position:relative;overflow:hidden}
+.month::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--primary),var(--accent),var(--accent2),var(--accent3));opacity:.7}
+.month-num{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--primary);font-weight:700;margin-bottom:8px}
+.month-level{font-size:11px;font-weight:600;padding:2px 8px;border-radius:5px;background:rgba(255,255,255,.06);display:inline-block;margin-bottom:10px;font-family:'JetBrains Mono',monospace;letter-spacing:.05em}
+.month-focus{font-size:13px;color:var(--text);font-weight:600;margin-bottom:4px}
+.month-desc{font-size:11px;color:var(--muted);line-height:1.5}
+
+/* TRY IT NOW (live scenario list from API) */
+.try-now{background:linear-gradient(135deg,rgba(239,68,68,.1),rgba(245,158,11,.05));border:1px solid var(--border);border-radius:24px;padding:36px;margin-top:32px}
+.try-now h3{font-size:22px;font-weight:700;margin-bottom:8px;font-family:'Crimson Pro',serif}
+.try-now p{color:var(--muted);font-size:14px;margin-bottom:24px}
+.scenario-pills{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.scenario-pill{padding:8px 14px;border-radius:99px;background:rgba(255,255,255,.06);border:1px solid var(--border);font-size:13px;font-family:'JetBrains Mono',monospace;cursor:pointer;transition:all .2s}
+.scenario-pill:hover{background:var(--primary);color:#fff;border-color:var(--primary);transform:translateY(-1px)}
+.scenario-pill.active{background:linear-gradient(135deg,var(--primary),var(--accent));color:#fff;border-color:transparent}
+
+/* API endpoints */
+.api-endpoints{margin-top:28px;background:#000;border:1px solid var(--border);border-radius:16px;overflow:hidden}
+.api-row{display:grid;grid-template-columns:56px auto 1fr;gap:14px;align-items:center;padding:12px 18px;font-family:'JetBrains Mono',monospace;font-size:13px;border-bottom:1px solid rgba(255,255,255,.04)}
+.api-row:last-child{border-bottom:0}
+.api-method{display:inline-block;text-align:center;font-size:10px;padding:3px 0;border-radius:4px;font-weight:700;letter-spacing:.05em}
+.api-method.get{background:#10b98122;color:#34d399}
+.api-method.post{background:#3b82f622;color:#60a5fa}
+.api-method.delete{background:#ef444422;color:#fb7185}
+.api-path{color:var(--text)}
+.api-desc{color:var(--muted);font-family:'Inter',sans-serif;font-size:12px;text-align:right}
+
+/* CTA FINAL */
+.cta-final{margin-top:96px;background:linear-gradient(135deg,rgba(239,68,68,.18),rgba(245,158,11,.18),rgba(139,92,246,.18));border:1px solid var(--border);border-radius:32px;padding:64px 48px;text-align:center;position:relative;overflow:hidden}
+.cta-final h3{font-family:'Crimson Pro',serif;font-size:clamp(28px,4vw,40px);font-weight:700;margin-bottom:12px}
+.cta-final p{color:var(--muted);max-width:480px;margin:0 auto 32px}
+
+footer{margin-top:96px;padding:40px 0;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;font-size:13px;color:var(--muted)}
+footer a{color:var(--muted);text-decoration:none;transition:color .2s}
+footer a:hover{color:var(--text)}
+</style>
+</head>
+<body>
+
+<div class="mesh-bg"></div>
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+<div class="orb orb-3"></div>
+
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="/">
+      <span class="brand-mark">🇬🇧</span>
+      <span>INGLES</span>
+    </a>
+    <div class="nav-right">
+      <a class="nav-link" href="#scenarios">Escenarios</a>
+      <a class="nav-link" href="#features">Features</a>
+      <a class="nav-link" href="#plan">Plan A1→B2</a>
+      <a class="nav-link" href="/docs/" target="_blank">Docs</a>
+      <span class="api-status checking" id="apiStatus" title="Backend status">
+        <span class="dot"></span>
+        <span id="apiStatusText">Verificando…</span>
+      </span>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+<main>
+
+<section class="hero">
+  <div>
+    <div class="tag"><span class="flags">🇬🇧 🇺🇸</span> Sistema integral · evidencia ESL/EFL · LATAM</div>
+    <h1>Aprende inglés <span class="grad">conversando con IA</span><br>de verdad.</h1>
+    <p class="hero-desc">8 escenarios reales (café, aeropuerto, médico, entrevista…) con tutor IA en streaming. Plus flashcards SRS, lecturas niveladas, listening y un plan estructurado de 6 meses A1→B2. Local-first, sin login.</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="/app/">Abrir app →</a>
+      <a class="btn btn-ghost" href="/webapp/">Versión ligera</a>
+      <a class="btn btn-ghost" href="/docs/">Leer encyclopedia</a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num">8</div>
+        <div class="stat-label">Escenarios</div>
+      </div>
+      <div>
+        <div class="stat-num">6</div>
+        <div class="stat-label">Meses A1→B2</div>
+      </div>
+      <div>
+        <div class="stat-num">15</div>
+        <div class="stat-label">Secciones docs</div>
+      </div>
+      <div>
+        <div class="stat-num">0$</div>
+        <div class="stat-label">Costo de usar</div>
+      </div>
+    </div>
+  </div>
+  <div class="chat-mockup">
+    <div class="chat-header">
+      <div class="chat-avatar">☕</div>
+      <div class="chat-meta">
+        <strong>Ordering at a café</strong>
+        <small>Live · openclaw model</small>
+      </div>
+    </div>
+    <div class="chat-msg ai">
+      <div class="bubble">Good morning! Welcome to the café. What can I get you today?</div>
+    </div>
+    <div class="chat-msg user">
+      <div class="bubble">A flat white, please. Large.</div>
+    </div>
+    <div class="chat-msg ai">
+      <div class="bubble">Lovely. Anything to eat? We have fresh pastries and sandwiches.</div>
+    </div>
+    <div class="chat-msg user">
+      <div class="bubble">Hmm, a croissant. How much is that?</div>
+    </div>
+    <div class="chat-msg ai">
+      <div class="bubble"><span class="typing"><span></span><span></span><span></span></span></div>
+    </div>
+  </div>
+</section>
+
+<section id="scenarios">
+  <span class="section-tag">// Escenarios conversacionales</span>
+  <h2>8 conversaciones reales con IA</h2>
+  <p class="lead">Cada escenario tiene un setup, objetivos y nivel CEFR mínimo. La IA mantiene personaje, te corrige sutilmente y avanza con vos. Streaming SSE en tiempo real.</p>
+  <div class="scenarios-grid">
+    <div class="scenario-card" style="--c:#ef4444">
+      <div class="scenario-icon">☕</div>
+      <div class="scenario-level">A1</div>
+      <div class="scenario-title">Ordering at a café</div>
+      <div class="scenario-desc">Pides café y comida en un café de Londres. Manejas tamaños, precios y cambio.</div>
+      <div class="scenario-objectives">
+        <strong>Objetivos</strong>
+        <ul><li>Order food/drink</li><li>Ask size & price</li><li>Pay & say goodbye</li></ul>
+      </div>
+    </div>
+    <div class="scenario-card" style="--c:#f59e0b">
+      <div class="scenario-icon">✈️</div>
+      <div class="scenario-level">A2</div>
+      <div class="scenario-title">Airport check-in</div>
+      <div class="scenario-desc">Eres pasajero en Heathrow rumbo a NY. Pasaporte, equipaje, preferencias de asiento.</div>
+      <div class="scenario-objectives">
+        <strong>Objetivos</strong>
+        <ul><li>Travel documents</li><li>Baggage</li><li>Seat & boarding</li></ul>
+      </div>
+    </div>
+    <div class="scenario-card" style="--c:#14b8a6">
+      <div class="scenario-icon">🩺</div>
+      <div class="scenario-level">A2</div>
+      <div class="scenario-title">Visit to the doctor</div>
+      <div class="scenario-desc">Vas al GP con gripe. Describes síntomas, recibes recomendaciones, agendas follow-up.</div>
+      <div class="scenario-objectives">
+        <strong>Objetivos</strong>
+        <ul><li>Describe symptoms</li><li>Answer questions</li><li>Understand recs</li></ul>
+      </div>
+    </div>
+    <div class="scenario-card" style="--c:#8b5cf6">
+      <div class="scenario-icon">💼</div>
+      <div class="scenario-level">B1</div>
+      <div class="scenario-title">Job interview</div>
+      <div class="scenario-desc">Entrevista para un puesto entry-level. Te preguntan experiencia, fortalezas, motivación.</div>
+      <div class="scenario-objectives">
+        <strong>Objetivos</strong>
+        <ul><li>Talk about experience</li><li>Strengths</li><li>Ask smart questions</li></ul>
+      </div>
+    </div>
+    <div class="scenario-card" style="--c:#3b82f6">
+      <div class="scenario-icon">🏨</div>
+      <div class="scenario-level">A2</div>
+      <div class="scenario-title">Hotel check-in</div>
+      <div class="scenario-desc">Llegas a tu hotel con reservación. Tipo de habitación, payment, requests especiales.</div>
+      <div class="scenario-objectives">
+        <strong>Objetivos</strong>
+        <ul><li>Confirm booking</li><li>Room type</li><li>Special requests</li></ul>
+      </div>
+    </div>
+    <div class="scenario-card" style="--c:#ec4899">
+      <div class="scenario-icon">🛒</div>
+      <div class="scenario-level">A2</div>
+      <div class="scenario-title">Shopping for clothes</div>
+      <div class="scenario-desc">En una tienda de ropa. Tallas, colores, probadores, pago. Vocabulario práctico.</div>
+      <div class="scenario-objectives">
+        <strong>Objetivos</strong>
+        <ul><li>Sizes & colors</li><li>Try on</li><li>Payment</li></ul>
+      </div>
+    </div>
+    <div class="scenario-card" style="--c:#22c55e">
+      <div class="scenario-icon">🍝</div>
+      <div class="scenario-level">A2</div>
+      <div class="scenario-title">Restaurant dinner</div>
+      <div class="scenario-desc">Cenar en un restaurante. Menú, alergias, opiniones del plato, cuenta y propina.</div>
+      <div class="scenario-objectives">
+        <strong>Objetivos</strong>
+        <ul><li>Order</li><li>Discuss food</li><li>Pay the bill</li></ul>
+      </div>
+    </div>
+    <div class="scenario-card" style="--c:#a855f7">
+      <div class="scenario-icon">📞</div>
+      <div class="scenario-level">B1</div>
+      <div class="scenario-title">Phone customer service</div>
+      <div class="scenario-desc">Llamas a soporte por un cargo incorrecto. Explicar, escalar, llegar a una solución.</div>
+      <div class="scenario-objectives">
+        <strong>Objetivos</strong>
+        <ul><li>Explain issue</li><li>Negotiate</li><li>Confirm resolution</li></ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="try-now">
+    <h3>Probar ahora — Backend conversacional live</h3>
+    <p>El tutor corre en <code style="background:rgba(255,255,255,.06);padding:2px 8px;border-radius:4px;font-family:'JetBrains Mono',monospace;font-size:13px">ingles.apicloud.lat</code> con SSE streaming, cascade LLM (OpenClaw → Anthropic → Gemma local) y Redis para sesiones. Click un escenario para abrir la app:</p>
+    <div class="scenario-pills" id="scenarioPills"></div>
+    <a class="btn btn-primary" href="/app/">Abrir app ahora →</a>
+  </div>
+</section>
+
+<section id="features">
+  <span class="section-tag">// Features</span>
+  <h2>5 modos de aprendizaje en una sola app</h2>
+  <p class="lead">No solo conversación. Vocabulario con SRS, lecturas niveladas, comprehension auditiva, gramática contextual. Funciona offline; sincroniza cuando hay red.</p>
+  <div class="features-grid">
+    <div class="feature">
+      <div class="feature-icon">💬</div>
+      <h3>Tutor IA conversacional</h3>
+      <p>8 escenarios con personajes que mantienen contexto. Te corrigen sin frustrar, ajustan a tu nivel y dan feedback útil.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">🎴</div>
+      <h3>Flashcards SRS</h3>
+      <p>Sistema de repetición espaciada (algoritmo SM-2 simplificado). Carga vocab por nivel A1/A2/B1/B2 o crea propias.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">📖</div>
+      <h3>Lecturas niveladas</h3>
+      <p>Textos de A1 a B2 con glosario click-to-translate. Comprehension questions y resumen guiado.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">🎧</div>
+      <h3>Listening</h3>
+      <p>Audio con transcripts gradados. Comprehension exercises, slow-mode, repetir frase por frase.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">📚</div>
+      <h3>Gramática contextual</h3>
+      <p>15 secciones de tratado enciclopédico ESL/EFL. Explicaciones con evidencia + ejercicios.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">📅</div>
+      <h3>Plan 6 meses A1→B2</h3>
+      <p>Currículum día-a-día basado en CEFR. Anki TSV exportable. Métricas de progreso visibles.</p>
+    </div>
+  </div>
+</section>
+
+<section id="plan">
+  <span class="section-tag">// Currículum</span>
+  <h2>De A1 a B2 en 6 meses</h2>
+  <p class="lead">Plan estructurado con metas semanales, rutinas diarias y materiales recomendados. Basado en evidencia: input comprensible (Krashen), output funcional, deliberate practice y retrieval spaced.</p>
+  <div class="plan-timeline">
+    <div class="month">
+      <div class="month-num">Mes 1</div>
+      <div class="month-level">A1 →</div>
+      <div class="month-focus">Pronunciación + vocab base</div>
+      <div class="month-desc">500 palabras de alta frecuencia. Fonética IPA. Frases útiles de supervivencia.</div>
+    </div>
+    <div class="month">
+      <div class="month-num">Mes 2</div>
+      <div class="month-level">A1+ → A2</div>
+      <div class="month-focus">Presente + pasado simple</div>
+      <div class="month-desc">Verbos regulares e irregulares top-50. Routines, descriptions, narrating.</div>
+    </div>
+    <div class="month">
+      <div class="month-num">Mes 3</div>
+      <div class="month-level">A2</div>
+      <div class="month-focus">Listening intensivo</div>
+      <div class="month-desc">Podcasts A2, series con subs en inglés. 1500 palabras. Past continuous + futures.</div>
+    </div>
+    <div class="month">
+      <div class="month-num">Mes 4</div>
+      <div class="month-level">A2 → B1</div>
+      <div class="month-focus">Reading + outputs largos</div>
+      <div class="month-desc">Articles, opinion writing. Conditionals, modals, present perfect.</div>
+    </div>
+    <div class="month">
+      <div class="month-num">Mes 5</div>
+      <div class="month-level">B1</div>
+      <div class="month-focus">Speaking fluido</div>
+      <div class="month-desc">Tutor conversacional 4×/semana. Tandem online. 3000+ palabras activas.</div>
+    </div>
+    <div class="month">
+      <div class="month-num">Mes 6</div>
+      <div class="month-level">B1 → B2</div>
+      <div class="month-focus">Producción libre</div>
+      <div class="month-desc">Mock interview B2, escritura argumentativa, podcasts B2 sin subs.</div>
+    </div>
+  </div>
+</section>
+
+<section id="api">
+  <span class="section-tag">// API</span>
+  <h2>Backend conversacional abierto</h2>
+  <p class="lead">FastAPI + Redis + cascade LLM. SSE streaming. Bearer auth. Todo documentado en OpenAPI. Cualquier cliente puede integrarse.</p>
+  <div class="api-endpoints">
+    <div class="api-row"><span class="api-method get">GET</span><span class="api-path">/health</span><span class="api-desc">Status del servicio</span></div>
+    <div class="api-row"><span class="api-method get">GET</span><span class="api-path">/v1/scenarios</span><span class="api-desc">8 escenarios disponibles</span></div>
+    <div class="api-row"><span class="api-method post">POST</span><span class="api-path">/v1/sessions/start</span><span class="api-desc">Inicia conversación</span></div>
+    <div class="api-row"><span class="api-method post">POST</span><span class="api-path">/v1/sessions/{id}/respond</span><span class="api-desc">Turno JSON</span></div>
+    <div class="api-row"><span class="api-method post">POST</span><span class="api-path">/v1/sessions/{id}/stream</span><span class="api-desc">Turno SSE streaming</span></div>
+    <div class="api-row"><span class="api-method get">GET</span><span class="api-path">/v1/sessions/{id}</span><span class="api-desc">Rehidratar historial</span></div>
+    <div class="api-row"><span class="api-method delete">DELETE</span><span class="api-path">/v1/sessions/{id}</span><span class="api-desc">Borrar sesión</span></div>
+  </div>
+</section>
+
+<section class="cta-final" id="empezar">
+  <h3>Empieza ahora — sin login, sin install</h3>
+  <p>La app vanilla funciona en tu navegador. La documentación es navegable. El backend está vivo. Llévate todo o usa solo lo que necesites.</p>
+  <div class="cta" style="justify-content:center">
+    <a class="btn btn-primary" href="/app/">Abrir app de aprendizaje →</a>
+    <a class="btn btn-ghost" href="/docs/">Leer tratado ESL/EFL</a>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div><strong style="color:var(--text)">INGLES</strong> · ingles.nexocloud.co · Sistema integral basado en evidencia</div>
+  <div>Backend en <a href="https://ingles.apicloud.lat/health">ingles.apicloud.lat</a> · <a href="https://nexocloud.co">Nexocloud Ecosystem</a></div>
+</footer>
+
+</div>
+
+<script>
+// Health check del backend
+(async () => {
+  const statusEl = document.getElementById('apiStatus');
+  const statusText = document.getElementById('apiStatusText');
+  try {
+    const res = await fetch('https://ingles.apicloud.lat/health', { method: 'GET', mode: 'cors' });
+    const data = await res.json();
+    if (data.status === 'ok') {
+      statusEl.classList.remove('checking');
+      statusText.textContent = 'API live · ' + (data.scenarios_loaded || 8) + ' escenarios';
+    } else {
+      throw new Error('not ok');
+    }
+  } catch (e) {
+    statusEl.classList.remove('checking');
+    statusEl.classList.add('down');
+    statusText.textContent = 'API offline';
+  }
+})();
+
+// Render escenarios desde la API
+(async () => {
+  const wrap = document.getElementById('scenarioPills');
+  try {
+    const res = await fetch('https://ingles.apicloud.lat/v1/scenarios', { mode: 'cors' });
+    const data = await res.json();
+    Object.entries(data).slice(0, 8).forEach(([key, s]) => {
+      const pill = document.createElement('a');
+      pill.className = 'scenario-pill';
+      pill.href = '/app/#/conversation/' + key;
+      pill.textContent = s.title || key;
+      wrap.appendChild(pill);
+    });
+  } catch (e) {
+    // fallback static
+    ['Ordering at a café','Airport check-in','Doctor visit','Job interview','Hotel check-in','Shopping','Restaurant','Phone support'].forEach(t => {
+      const pill = document.createElement('a');
+      pill.className = 'scenario-pill';
+      pill.href = '/app/';
+      pill.textContent = t;
+      wrap.appendChild(pill);
+    });
+  }
+})();
+</script>
+
+</body>
+</html>

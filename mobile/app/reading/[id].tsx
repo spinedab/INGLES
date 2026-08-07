@@ -24,19 +24,23 @@ function stripTags(html: string): string {
 function segmentText(plain: string, glosses: { word: string; tip: string }[], collocations: string[]): Segment[] {
   // Sustituye tanto glosas (case-insensitive, palabra completa) como colocaciones por marcadores.
   // Estrategia: ordena marcadores por longitud decreciente, escapa regex, sustituye, luego separa.
+  // El marcador envuelve el texto TAL CUAL aparece en la lectura, no la forma
+  // del diccionario: el regex es case-insensitive, así que reinyectar `g.word`
+  // convertía "On closer inspection" (inicio de frase) en "on closer
+  // inspection" y corrompía el texto que lee el aprendiz.
   const markers: { token: string; replacement: (m: string) => string }[] = [];
   glosses.forEach((g, i) => {
     const esc = g.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     markers.push({
       token: `\\b(${esc})\\b`,
-      replacement: () => `[[G${i}]]${g.word}[[/G${i}]]`,
+      replacement: (m) => `[[G${i}]]${m}[[/G${i}]]`,
     });
   });
   collocations.forEach((c, i) => {
     const esc = c.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     markers.push({
       token: `(${esc})`,
-      replacement: () => `[[C${i}]]${c}[[/C${i}]]`,
+      replacement: (m) => `[[C${i}]]${m}[[/C${i}]]`,
     });
   });
 

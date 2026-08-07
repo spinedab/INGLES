@@ -1,52 +1,3697 @@
 [
-  {"id":"a1-001","front":"time (n)","definition":"a point or period when something happens","example":"I don't have time to talk now.","translation":"tiempo","tags":["a1","noun","top100"]},
-  {"id":"a1-002","front":"person (n)","definition":"a human being","example":"She is a kind person.","translation":"persona","tags":["a1","noun","top100"]},
-  {"id":"a1-003","front":"year (n)","definition":"a period of 365 days","example":"I lived there for two years.","translation":"año","tags":["a1","noun","top100"]},
-  {"id":"a1-004","front":"day (n)","definition":"a period of 24 hours","example":"What a beautiful day!","translation":"día","tags":["a1","noun","top100"]},
-  {"id":"a1-005","front":"thing (n)","definition":"an object or matter","example":"I have one more thing to say.","translation":"cosa","tags":["a1","noun","top100"]},
-  {"id":"a1-006","front":"world (n)","definition":"the Earth and all its people","example":"English is spoken around the world.","translation":"mundo","tags":["a1","noun","top100"]},
-  {"id":"a1-007","front":"life (n)","definition":"the existence of a person","example":"She has had an interesting life.","translation":"vida","tags":["a1","noun","top100"]},
-  {"id":"a1-008","front":"hand (n)","definition":"the body part at the end of your arm","example":"He held my hand.","translation":"mano","tags":["a1","noun","top100"]},
-  {"id":"a1-009","front":"child (n)","definition":"a young human","example":"The child was sleeping.","translation":"niño/a","tags":["a1","noun","top100","irregular-plural"]},
-  {"id":"a1-010","front":"woman (n)","definition":"an adult female person","example":"The woman next door is a doctor.","translation":"mujer","tags":["a1","noun","top100"]},
-  {"id":"a1-011","front":"man (n)","definition":"an adult male person","example":"The man at the door asked for you.","translation":"hombre","tags":["a1","noun","top100"]},
-  {"id":"a1-012","front":"house (n)","definition":"a building where people live","example":"They bought a new house.","translation":"casa","tags":["a1","noun","top100"]},
-  {"id":"a1-013","front":"water (n)","definition":"the transparent liquid we drink","example":"A glass of water, please.","translation":"agua","tags":["a1","noun","top100"]},
-  {"id":"a1-014","front":"food (n)","definition":"what you eat","example":"Italian food is delicious.","translation":"comida","tags":["a1","noun","top100"]},
-  {"id":"a1-015","front":"family (n)","definition":"parents and children","example":"My family lives in Spain.","translation":"familia","tags":["a1","noun","top100"]},
-  {"id":"a1-016","front":"be (v)","definition":"to exist or have a state","example":"She is happy today.","translation":"ser/estar","tags":["a1","verb","irregular","top10"]},
-  {"id":"a1-017","front":"have (v)","definition":"to possess","example":"I have a brother.","translation":"tener","tags":["a1","verb","irregular","top10"]},
-  {"id":"a1-018","front":"do (v)","definition":"to perform an action","example":"What do you do for work?","translation":"hacer","tags":["a1","verb","irregular","top10"]},
-  {"id":"a1-019","front":"go (v)","definition":"to move or travel","example":"Let's go to the park.","translation":"ir","tags":["a1","verb","irregular","top20"]},
-  {"id":"a1-020","front":"get (v)","definition":"to obtain or receive","example":"I got a new phone.","translation":"obtener","tags":["a1","verb","irregular","top20"]},
-  {"id":"a1-021","front":"make (v)","definition":"to create","example":"She makes great coffee.","translation":"hacer/fabricar","tags":["a1","verb","irregular","top20"]},
-  {"id":"a1-022","front":"see (v)","definition":"to perceive with the eyes","example":"I can see you.","translation":"ver","tags":["a1","verb","irregular","top20"]},
-  {"id":"a1-023","front":"come (v)","definition":"to move toward the speaker","example":"Come here, please.","translation":"venir","tags":["a1","verb","irregular","top20"]},
-  {"id":"a1-024","front":"eat (v)","definition":"to consume food","example":"What do you want to eat?","translation":"comer","tags":["a1","verb","irregular","top50"]},
-  {"id":"a1-025","front":"drink (v)","definition":"to consume liquid","example":"Drink more water.","translation":"beber","tags":["a1","verb","irregular","top50"]},
-  {"id":"a1-026","front":"sleep (v)","definition":"to rest by closing eyes","example":"I sleep eight hours.","translation":"dormir","tags":["a1","verb","irregular","top100"]},
-  {"id":"a1-027","front":"work (v)","definition":"to perform a job","example":"I work in an office.","translation":"trabajar","tags":["a1","verb","top30"]},
-  {"id":"a1-028","front":"live (v)","definition":"to be alive; to reside","example":"I live in Madrid.","translation":"vivir","tags":["a1","verb","top50"]},
-  {"id":"a1-029","front":"want (v)","definition":"to desire","example":"I want a coffee.","translation":"querer","tags":["a1","verb","top30"]},
-  {"id":"a1-030","front":"like (v)","definition":"to find pleasant","example":"I like chocolate.","translation":"gustar","tags":["a1","verb","top30"]},
-  {"id":"a1-031","front":"love (v)","definition":"to feel strong affection","example":"I love my family.","translation":"amar/encantar","tags":["a1","verb","top50"]},
-  {"id":"a1-032","front":"good (adj)","definition":"of high quality","example":"This is a good book.","translation":"bueno","tags":["a1","adjective","top100"]},
-  {"id":"a1-033","front":"bad (adj)","definition":"not good","example":"A bad day.","translation":"malo","tags":["a1","adjective","top100"]},
-  {"id":"a1-034","front":"big (adj)","definition":"large","example":"A big problem.","translation":"grande","tags":["a1","adjective","top100"]},
-  {"id":"a1-035","front":"small (adj)","definition":"little","example":"A small dog.","translation":"pequeño","tags":["a1","adjective","top100"]},
-  {"id":"a1-036","front":"new (adj)","definition":"recently made","example":"I have a new car.","translation":"nuevo","tags":["a1","adjective","top100"]},
-  {"id":"a1-037","front":"old (adj)","definition":"having existed a long time","example":"An old house.","translation":"viejo","tags":["a1","adjective","top100"]},
-  {"id":"a1-038","front":"happy (adj)","definition":"feeling joy","example":"I am happy today.","translation":"feliz","tags":["a1","adjective","top100"]},
-  {"id":"a1-039","front":"tired (adj)","definition":"needing rest","example":"I am tired.","translation":"cansado","tags":["a1","adjective","top100"]},
-  {"id":"a1-040","front":"hot (adj)","definition":"high temperature","example":"The soup is hot.","translation":"caliente","tags":["a1","adjective","top100"]},
-  {"id":"a1-041","front":"cold (adj)","definition":"low temperature","example":"It's cold outside.","translation":"frío","tags":["a1","adjective","top100"]},
-  {"id":"a1-042","front":"in (prep)","definition":"inside","example":"The book is in the bag.","translation":"en/dentro","tags":["a1","preposition","top10"]},
-  {"id":"a1-043","front":"on (prep)","definition":"on top of","example":"The phone is on the table.","translation":"sobre","tags":["a1","preposition","top10"]},
-  {"id":"a1-044","front":"at (prep)","definition":"in a specific place","example":"Meet me at the cafe.","translation":"en","tags":["a1","preposition","top10"]},
-  {"id":"a1-045","front":"with (prep)","definition":"accompanied by","example":"I'm with my friend.","translation":"con","tags":["a1","preposition","top10"]},
-  {"id":"a1-046","front":"and (conj)","definition":"in addition to","example":"Bread and butter.","translation":"y","tags":["a1","conjunction","top10"]},
-  {"id":"a1-047","front":"but (conj)","definition":"however","example":"I'm tired but happy.","translation":"pero","tags":["a1","conjunction","top10"]},
-  {"id":"a1-048","front":"because (conj)","definition":"for the reason that","example":"I left because I was tired.","translation":"porque","tags":["a1","conjunction","top50"]},
-  {"id":"a1-049","front":"always (adv)","definition":"at all times","example":"I always wake up at 7.","translation":"siempre","tags":["a1","adverb","top50"]},
-  {"id":"a1-050","front":"never (adv)","definition":"not at any time","example":"I never drink coffee.","translation":"nunca","tags":["a1","adverb","top50"]}
+  {
+    "id": "a1-001",
+    "front": "time (n)",
+    "definition": "a point or period when something happens",
+    "example": "I don't have time to talk now.",
+    "translation": "tiempo",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-002",
+    "front": "person (n)",
+    "definition": "a human being",
+    "example": "She is a kind person.",
+    "translation": "persona",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-003",
+    "front": "year (n)",
+    "definition": "a period of 365 days",
+    "example": "I lived there for two years.",
+    "translation": "año",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-004",
+    "front": "day (n)",
+    "definition": "a period of 24 hours",
+    "example": "What a beautiful day!",
+    "translation": "día",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-005",
+    "front": "thing (n)",
+    "definition": "an object or matter",
+    "example": "I have one more thing to say.",
+    "translation": "cosa",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-006",
+    "front": "world (n)",
+    "definition": "the Earth and all its people",
+    "example": "English is spoken around the world.",
+    "translation": "mundo",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-007",
+    "front": "life (n)",
+    "definition": "the existence of a person",
+    "example": "She has had an interesting life.",
+    "translation": "vida",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-008",
+    "front": "hand (n)",
+    "definition": "the body part at the end of your arm",
+    "example": "He held my hand.",
+    "translation": "mano",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-009",
+    "front": "child (n)",
+    "definition": "a young human",
+    "example": "The child was sleeping.",
+    "translation": "niño/a",
+    "tags": [
+      "a1",
+      "noun",
+      "top100",
+      "irregular-plural"
+    ]
+  },
+  {
+    "id": "a1-010",
+    "front": "woman (n)",
+    "definition": "an adult female person",
+    "example": "The woman next door is a doctor.",
+    "translation": "mujer",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-011",
+    "front": "man (n)",
+    "definition": "an adult male person",
+    "example": "The man at the door asked for you.",
+    "translation": "hombre",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-012",
+    "front": "house (n)",
+    "definition": "a building where people live",
+    "example": "They bought a new house.",
+    "translation": "casa",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-013",
+    "front": "water (n)",
+    "definition": "the transparent liquid we drink",
+    "example": "A glass of water, please.",
+    "translation": "agua",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-014",
+    "front": "food (n)",
+    "definition": "what you eat",
+    "example": "Italian food is delicious.",
+    "translation": "comida",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-015",
+    "front": "family (n)",
+    "definition": "parents and children",
+    "example": "My family lives in Spain.",
+    "translation": "familia",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-016",
+    "front": "be (v)",
+    "definition": "to exist or have a state",
+    "example": "She is happy today.",
+    "translation": "ser/estar",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "top10"
+    ]
+  },
+  {
+    "id": "a1-017",
+    "front": "have (v)",
+    "definition": "to possess",
+    "example": "I have a brother.",
+    "translation": "tener",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "top10"
+    ]
+  },
+  {
+    "id": "a1-018",
+    "front": "do (v)",
+    "definition": "to perform an action",
+    "example": "What do you do for work?",
+    "translation": "hacer",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "top10"
+    ]
+  },
+  {
+    "id": "a1-019",
+    "front": "go (v)",
+    "definition": "to move or travel",
+    "example": "Let's go to the park.",
+    "translation": "ir",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "top20"
+    ]
+  },
+  {
+    "id": "a1-020",
+    "front": "get (v)",
+    "definition": "to obtain or receive",
+    "example": "I got a new phone.",
+    "translation": "obtener",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "top20"
+    ]
+  },
+  {
+    "id": "a1-021",
+    "front": "make (v)",
+    "definition": "to create",
+    "example": "She makes great coffee.",
+    "translation": "hacer/fabricar",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "top20"
+    ]
+  },
+  {
+    "id": "a1-022",
+    "front": "see (v)",
+    "definition": "to perceive with the eyes",
+    "example": "I can see you.",
+    "translation": "ver",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "top20"
+    ]
+  },
+  {
+    "id": "a1-023",
+    "front": "come (v)",
+    "definition": "to move toward the speaker",
+    "example": "Come here, please.",
+    "translation": "venir",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "top20"
+    ]
+  },
+  {
+    "id": "a1-024",
+    "front": "eat (v)",
+    "definition": "to consume food",
+    "example": "What do you want to eat?",
+    "translation": "comer",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "top50"
+    ]
+  },
+  {
+    "id": "a1-025",
+    "front": "drink (v)",
+    "definition": "to consume liquid",
+    "example": "Drink more water.",
+    "translation": "beber",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "top50"
+    ]
+  },
+  {
+    "id": "a1-026",
+    "front": "sleep (v)",
+    "definition": "to rest by closing eyes",
+    "example": "I sleep eight hours.",
+    "translation": "dormir",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-027",
+    "front": "work (v)",
+    "definition": "to perform a job",
+    "example": "I work in an office.",
+    "translation": "trabajar",
+    "tags": [
+      "a1",
+      "verb",
+      "top30"
+    ]
+  },
+  {
+    "id": "a1-028",
+    "front": "live (v)",
+    "definition": "to be alive; to reside",
+    "example": "I live in Madrid.",
+    "translation": "vivir",
+    "tags": [
+      "a1",
+      "verb",
+      "top50"
+    ]
+  },
+  {
+    "id": "a1-029",
+    "front": "want (v)",
+    "definition": "to desire",
+    "example": "I want a coffee.",
+    "translation": "querer",
+    "tags": [
+      "a1",
+      "verb",
+      "top30"
+    ]
+  },
+  {
+    "id": "a1-030",
+    "front": "like (v)",
+    "definition": "to find pleasant",
+    "example": "I like chocolate.",
+    "translation": "gustar",
+    "tags": [
+      "a1",
+      "verb",
+      "top30"
+    ]
+  },
+  {
+    "id": "a1-031",
+    "front": "love (v)",
+    "definition": "to feel strong affection",
+    "example": "I love my family.",
+    "translation": "amar/encantar",
+    "tags": [
+      "a1",
+      "verb",
+      "top50"
+    ]
+  },
+  {
+    "id": "a1-032",
+    "front": "good (adj)",
+    "definition": "of high quality",
+    "example": "This is a good book.",
+    "translation": "bueno",
+    "tags": [
+      "a1",
+      "adjective",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-033",
+    "front": "bad (adj)",
+    "definition": "not good",
+    "example": "A bad day.",
+    "translation": "malo",
+    "tags": [
+      "a1",
+      "adjective",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-034",
+    "front": "big (adj)",
+    "definition": "large",
+    "example": "A big problem.",
+    "translation": "grande",
+    "tags": [
+      "a1",
+      "adjective",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-035",
+    "front": "small (adj)",
+    "definition": "little",
+    "example": "A small dog.",
+    "translation": "pequeño",
+    "tags": [
+      "a1",
+      "adjective",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-036",
+    "front": "new (adj)",
+    "definition": "recently made",
+    "example": "I have a new car.",
+    "translation": "nuevo",
+    "tags": [
+      "a1",
+      "adjective",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-037",
+    "front": "old (adj)",
+    "definition": "having existed a long time",
+    "example": "An old house.",
+    "translation": "viejo",
+    "tags": [
+      "a1",
+      "adjective",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-038",
+    "front": "happy (adj)",
+    "definition": "feeling joy",
+    "example": "I am happy today.",
+    "translation": "feliz",
+    "tags": [
+      "a1",
+      "adjective",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-039",
+    "front": "tired (adj)",
+    "definition": "needing rest",
+    "example": "I am tired.",
+    "translation": "cansado",
+    "tags": [
+      "a1",
+      "adjective",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-040",
+    "front": "hot (adj)",
+    "definition": "high temperature",
+    "example": "The soup is hot.",
+    "translation": "caliente",
+    "tags": [
+      "a1",
+      "adjective",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-041",
+    "front": "cold (adj)",
+    "definition": "low temperature",
+    "example": "It's cold outside.",
+    "translation": "frío",
+    "tags": [
+      "a1",
+      "adjective",
+      "top100"
+    ]
+  },
+  {
+    "id": "a1-042",
+    "front": "in (prep)",
+    "definition": "inside",
+    "example": "The book is in the bag.",
+    "translation": "en/dentro",
+    "tags": [
+      "a1",
+      "preposition",
+      "top10"
+    ]
+  },
+  {
+    "id": "a1-043",
+    "front": "on (prep)",
+    "definition": "on top of",
+    "example": "The phone is on the table.",
+    "translation": "sobre",
+    "tags": [
+      "a1",
+      "preposition",
+      "top10"
+    ]
+  },
+  {
+    "id": "a1-044",
+    "front": "at (prep)",
+    "definition": "in a specific place",
+    "example": "Meet me at the cafe.",
+    "translation": "en",
+    "tags": [
+      "a1",
+      "preposition",
+      "top10"
+    ]
+  },
+  {
+    "id": "a1-045",
+    "front": "with (prep)",
+    "definition": "accompanied by",
+    "example": "I'm with my friend.",
+    "translation": "con",
+    "tags": [
+      "a1",
+      "preposition",
+      "top10"
+    ]
+  },
+  {
+    "id": "a1-046",
+    "front": "and (conj)",
+    "definition": "in addition to",
+    "example": "Bread and butter.",
+    "translation": "y",
+    "tags": [
+      "a1",
+      "conjunction",
+      "top10"
+    ]
+  },
+  {
+    "id": "a1-047",
+    "front": "but (conj)",
+    "definition": "however",
+    "example": "I'm tired but happy.",
+    "translation": "pero",
+    "tags": [
+      "a1",
+      "conjunction",
+      "top10"
+    ]
+  },
+  {
+    "id": "a1-048",
+    "front": "because (conj)",
+    "definition": "for the reason that",
+    "example": "I left because I was tired.",
+    "translation": "porque",
+    "tags": [
+      "a1",
+      "conjunction",
+      "top50"
+    ]
+  },
+  {
+    "id": "a1-049",
+    "front": "always (adv)",
+    "definition": "at all times",
+    "example": "I always wake up at 7.",
+    "translation": "siempre",
+    "tags": [
+      "a1",
+      "adverb",
+      "top50"
+    ]
+  },
+  {
+    "id": "a1-050",
+    "front": "never (adv)",
+    "definition": "not at any time",
+    "example": "I never drink coffee.",
+    "translation": "nunca",
+    "tags": [
+      "a1",
+      "adverb",
+      "top50"
+    ]
+  },
+  {
+    "id": "a1-051",
+    "front": "way (n)",
+    "definition": "a method or manner of doing something",
+    "example": "This is the best way to learn.",
+    "translation": "manera/camino",
+    "tags": [
+      "a1",
+      "noun",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-052",
+    "front": "part (n)",
+    "definition": "a piece or section of something",
+    "example": "The best part of the movie was the ending.",
+    "translation": "parte",
+    "tags": [
+      "a1",
+      "noun",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-053",
+    "front": "eye (n)",
+    "definition": "the organ used for seeing",
+    "example": "She has blue eyes.",
+    "translation": "ojo",
+    "tags": [
+      "a1",
+      "noun",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-054",
+    "front": "place (n)",
+    "definition": "a particular location",
+    "example": "This is a nice place to live.",
+    "translation": "lugar",
+    "tags": [
+      "a1",
+      "noun",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-055",
+    "front": "week (n)",
+    "definition": "a period of seven days",
+    "example": "See you next week.",
+    "translation": "semana",
+    "tags": [
+      "a1",
+      "noun",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-056",
+    "front": "case (n)",
+    "definition": "a particular situation or instance",
+    "example": "In that case, we should leave.",
+    "translation": "caso",
+    "tags": [
+      "a1",
+      "noun",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a1-057",
+    "front": "point (n)",
+    "definition": "a specific moment or idea",
+    "example": "At that point, I gave up.",
+    "translation": "punto",
+    "tags": [
+      "a1",
+      "noun",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a1-058",
+    "front": "company (n)",
+    "definition": "a business organization",
+    "example": "She works for a big company.",
+    "translation": "empresa",
+    "tags": [
+      "a1",
+      "noun",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a1-059",
+    "front": "number (n)",
+    "definition": "a word or symbol for counting",
+    "example": "What is your phone number?",
+    "translation": "número",
+    "tags": [
+      "a1",
+      "noun",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a1-060",
+    "front": "group (n)",
+    "definition": "a set of people or things",
+    "example": "A group of students arrived.",
+    "translation": "grupo",
+    "tags": [
+      "a1",
+      "noun",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a1-061",
+    "front": "fact (n)",
+    "definition": "something that is true",
+    "example": "It is a fact that water boils at 100°C.",
+    "translation": "hecho",
+    "tags": [
+      "a1",
+      "noun",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a1-062",
+    "front": "say (v)",
+    "definition": "to speak words",
+    "example": "She said hello.",
+    "translation": "decir",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top20"
+    ]
+  },
+  {
+    "id": "a1-063",
+    "front": "know (v)",
+    "definition": "to have information about",
+    "example": "I know the answer.",
+    "translation": "saber/conocer",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top20"
+    ]
+  },
+  {
+    "id": "a1-064",
+    "front": "think (v)",
+    "definition": "to use your mind to consider",
+    "example": "I think you're right.",
+    "translation": "pensar",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top20"
+    ]
+  },
+  {
+    "id": "a1-065",
+    "front": "take (v)",
+    "definition": "to grab or carry",
+    "example": "Please take your coat.",
+    "translation": "tomar/coger",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top20"
+    ]
+  },
+  {
+    "id": "a1-066",
+    "front": "look (v)",
+    "definition": "to direct your eyes at something",
+    "example": "Look at this picture.",
+    "translation": "mirar",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top30"
+    ]
+  },
+  {
+    "id": "a1-067",
+    "front": "use (v)",
+    "definition": "to employ for a purpose",
+    "example": "Can I use your pen?",
+    "translation": "usar",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top30"
+    ]
+  },
+  {
+    "id": "a1-068",
+    "front": "find (v)",
+    "definition": "to discover the location of",
+    "example": "I can't find my keys.",
+    "translation": "encontrar",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top30"
+    ]
+  },
+  {
+    "id": "a1-069",
+    "front": "give (v)",
+    "definition": "to transfer to someone else",
+    "example": "Give me a minute.",
+    "translation": "dar",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top30"
+    ]
+  },
+  {
+    "id": "a1-070",
+    "front": "tell (v)",
+    "definition": "to inform verbally",
+    "example": "Tell me the truth.",
+    "translation": "decir/contar",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top30"
+    ]
+  },
+  {
+    "id": "a1-071",
+    "front": "call (v)",
+    "definition": "to phone; to name",
+    "example": "I'll call you tomorrow.",
+    "translation": "llamar",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top30"
+    ]
+  },
+  {
+    "id": "a1-072",
+    "front": "try (v)",
+    "definition": "to attempt",
+    "example": "Try this dish.",
+    "translation": "intentar",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top30"
+    ]
+  },
+  {
+    "id": "a1-073",
+    "front": "ask (v)",
+    "definition": "to request information",
+    "example": "Can I ask you a question?",
+    "translation": "preguntar",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top30"
+    ]
+  },
+  {
+    "id": "a1-074",
+    "front": "need (v)",
+    "definition": "to require",
+    "example": "I need help.",
+    "translation": "necesitar",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top30"
+    ]
+  },
+  {
+    "id": "a1-075",
+    "front": "feel (v)",
+    "definition": "to experience an emotion",
+    "example": "I feel happy.",
+    "translation": "sentir",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top30"
+    ]
+  },
+  {
+    "id": "a1-076",
+    "front": "put (v)",
+    "definition": "to place somewhere",
+    "example": "Put the book on the table.",
+    "translation": "poner",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-077",
+    "front": "mean (v)",
+    "definition": "to signify",
+    "example": "What does this word mean?",
+    "translation": "significar",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-078",
+    "front": "let (v)",
+    "definition": "to allow",
+    "example": "Let me help you.",
+    "translation": "permitir",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-079",
+    "front": "begin (v)",
+    "definition": "to start",
+    "example": "The film begins at 7.",
+    "translation": "empezar",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-080",
+    "front": "help (v)",
+    "definition": "to assist",
+    "example": "Can you help me?",
+    "translation": "ayudar",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-081",
+    "front": "talk (v)",
+    "definition": "to speak conversationally",
+    "example": "We talked for hours.",
+    "translation": "hablar",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-082",
+    "front": "start (v)",
+    "definition": "to begin",
+    "example": "The lesson starts at 9.",
+    "translation": "empezar",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-083",
+    "front": "show (v)",
+    "definition": "to display",
+    "example": "Show me the photo.",
+    "translation": "mostrar",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-084",
+    "front": "hear (v)",
+    "definition": "to perceive sound",
+    "example": "I hear music.",
+    "translation": "oír",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-085",
+    "front": "play (v)",
+    "definition": "to engage in a game",
+    "example": "The children play in the park.",
+    "translation": "jugar",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-086",
+    "front": "run (v)",
+    "definition": "to move on foot quickly",
+    "example": "She runs every morning.",
+    "translation": "correr",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-087",
+    "front": "write (v)",
+    "definition": "to put words on paper",
+    "example": "I write every day.",
+    "translation": "escribir",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-088",
+    "front": "sit (v)",
+    "definition": "to be on a seat",
+    "example": "Please sit down.",
+    "translation": "sentarse",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-089",
+    "front": "lose (v)",
+    "definition": "to fail to keep",
+    "example": "Don't lose your ticket.",
+    "translation": "perder",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-090",
+    "front": "pay (v)",
+    "definition": "to give money for",
+    "example": "I'll pay the bill.",
+    "translation": "pagar",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-091",
+    "front": "meet (v)",
+    "definition": "to come together with",
+    "example": "Let's meet tomorrow.",
+    "translation": "encontrarse con",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-092",
+    "front": "learn (v)",
+    "definition": "to acquire knowledge",
+    "example": "I want to learn English.",
+    "translation": "aprender",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-093",
+    "front": "change (v)",
+    "definition": "to make different",
+    "example": "Change the channel, please.",
+    "translation": "cambiar",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-094",
+    "front": "understand (v)",
+    "definition": "to grasp the meaning",
+    "example": "I don't understand.",
+    "translation": "entender",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-095",
+    "front": "watch (v)",
+    "definition": "to look at attentively",
+    "example": "Watch this video.",
+    "translation": "ver/observar",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-096",
+    "front": "follow (v)",
+    "definition": "to come after",
+    "example": "Follow me!",
+    "translation": "seguir",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-097",
+    "front": "stop (v)",
+    "definition": "to cease moving",
+    "example": "Stop the car!",
+    "translation": "parar",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-098",
+    "front": "speak (v)",
+    "definition": "to talk",
+    "example": "Do you speak English?",
+    "translation": "hablar",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-099",
+    "front": "read (v)",
+    "definition": "to look at written words and understand",
+    "example": "I read every night.",
+    "translation": "leer",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-100",
+    "front": "open (v)",
+    "definition": "to make accessible",
+    "example": "Open the window.",
+    "translation": "abrir",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-101",
+    "front": "walk (v)",
+    "definition": "to move on foot",
+    "example": "Let's walk to the park.",
+    "translation": "caminar",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-102",
+    "front": "win (v)",
+    "definition": "to achieve victory",
+    "example": "Our team won!",
+    "translation": "ganar",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-103",
+    "front": "remember (v)",
+    "definition": "to recall",
+    "example": "I don't remember her name.",
+    "translation": "recordar",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-104",
+    "front": "buy (v)",
+    "definition": "to purchase",
+    "example": "I want to buy a book.",
+    "translation": "comprar",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-105",
+    "front": "stay (v)",
+    "definition": "to remain",
+    "example": "Stay here, please.",
+    "translation": "quedarse",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-106",
+    "front": "sell (v)",
+    "definition": "to exchange for money",
+    "example": "They sell good coffee here.",
+    "translation": "vender",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-107",
+    "front": "return (v)",
+    "definition": "to come back",
+    "example": "When did you return?",
+    "translation": "volver",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-108",
+    "front": "break (v)",
+    "definition": "to damage in pieces",
+    "example": "I broke the glass.",
+    "translation": "romper",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-109",
+    "front": "drive (v)",
+    "definition": "to operate a vehicle",
+    "example": "Can you drive?",
+    "translation": "conducir",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a1-110",
+    "front": "arrive (v)",
+    "definition": "to reach a destination",
+    "example": "When did you arrive?",
+    "translation": "llegar",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a1-111",
+    "front": "visit (v)",
+    "definition": "to go to see",
+    "example": "We visited Paris last summer.",
+    "translation": "visitar",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a1-112",
+    "front": "travel (v)",
+    "definition": "to journey",
+    "example": "I love to travel.",
+    "translation": "viajar",
+    "tags": [
+      "a1",
+      "verb",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a1-113",
+    "front": "first (adj)",
+    "definition": "number one",
+    "example": "This is my first time here.",
+    "translation": "primero",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-114",
+    "front": "last (adj)",
+    "definition": "final",
+    "example": "The last episode was sad.",
+    "translation": "último",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-115",
+    "front": "long (adj)",
+    "definition": "great in length",
+    "example": "It's a long road.",
+    "translation": "largo",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-116",
+    "front": "great (adj)",
+    "definition": "excellent",
+    "example": "Great job!",
+    "translation": "excelente/genial",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-117",
+    "front": "little (adj)",
+    "definition": "small",
+    "example": "A little water, please.",
+    "translation": "poco",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-118",
+    "front": "other (adj)",
+    "definition": "different",
+    "example": "I'll take the other one.",
+    "translation": "otro",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-119",
+    "front": "right (adj)",
+    "definition": "correct",
+    "example": "You are right.",
+    "translation": "correcto",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-120",
+    "front": "high (adj)",
+    "definition": "tall; of great elevation",
+    "example": "The mountain is high.",
+    "translation": "alto",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-121",
+    "front": "different (adj)",
+    "definition": "not the same",
+    "example": "We are different.",
+    "translation": "diferente",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-122",
+    "front": "large (adj)",
+    "definition": "big",
+    "example": "A large pizza, please.",
+    "translation": "grande",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-123",
+    "front": "next (adj)",
+    "definition": "coming after",
+    "example": "The next train is at 9.",
+    "translation": "siguiente/próximo",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-124",
+    "front": "early (adj/adv)",
+    "definition": "before the usual time",
+    "example": "I woke up early.",
+    "translation": "temprano",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-125",
+    "front": "young (adj)",
+    "definition": "not old",
+    "example": "She is young.",
+    "translation": "joven",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-126",
+    "front": "same (adj)",
+    "definition": "identical",
+    "example": "We have the same idea.",
+    "translation": "mismo",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-127",
+    "front": "sure (adj)",
+    "definition": "certain",
+    "example": "Are you sure?",
+    "translation": "seguro",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-128",
+    "front": "free (adj)",
+    "definition": "without cost; not restricted",
+    "example": "The Wi-Fi is free.",
+    "translation": "gratis/libre",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-129",
+    "front": "strong (adj)",
+    "definition": "having great power",
+    "example": "He is strong.",
+    "translation": "fuerte",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-130",
+    "front": "true (adj)",
+    "definition": "in accordance with fact",
+    "example": "Is that true?",
+    "translation": "verdadero",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-131",
+    "front": "black (adj)",
+    "definition": "color black",
+    "example": "A black cat.",
+    "translation": "negro",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-132",
+    "front": "white (adj)",
+    "definition": "color white",
+    "example": "A white shirt.",
+    "translation": "blanco",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-133",
+    "front": "red (adj)",
+    "definition": "color red",
+    "example": "A red flower.",
+    "translation": "rojo",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-134",
+    "front": "green (adj)",
+    "definition": "color green",
+    "example": "Green tea.",
+    "translation": "verde",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-135",
+    "front": "blue (adj)",
+    "definition": "color blue",
+    "example": "A blue sky.",
+    "translation": "azul",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-136",
+    "front": "yellow (adj)",
+    "definition": "color yellow",
+    "example": "A yellow taxi.",
+    "translation": "amarillo",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-137",
+    "front": "beautiful (adj)",
+    "definition": "very pretty",
+    "example": "What a beautiful sunset.",
+    "translation": "hermoso",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-138",
+    "front": "easy (adj)",
+    "definition": "not difficult",
+    "example": "This exam is easy.",
+    "translation": "fácil",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-139",
+    "front": "difficult (adj)",
+    "definition": "hard to do",
+    "example": "Math is difficult.",
+    "translation": "difícil",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-140",
+    "front": "sad (adj)",
+    "definition": "feeling sorrow",
+    "example": "She looks sad.",
+    "translation": "triste",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-141",
+    "front": "hungry (adj)",
+    "definition": "wanting food",
+    "example": "Are you hungry?",
+    "translation": "con hambre",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-142",
+    "front": "thirsty (adj)",
+    "definition": "wanting drink",
+    "example": "I am thirsty.",
+    "translation": "sediento",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-143",
+    "front": "cheap (adj)",
+    "definition": "low in price",
+    "example": "A cheap meal.",
+    "translation": "barato",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-144",
+    "front": "interesting (adj)",
+    "definition": "holding attention",
+    "example": "An interesting book.",
+    "translation": "interesante",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-145",
+    "front": "boring (adj)",
+    "definition": "not interesting",
+    "example": "A boring movie.",
+    "translation": "aburrido",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top100"
+    ]
+  },
+  {
+    "id": "a1-146",
+    "front": "friendly (adj)",
+    "definition": "kind and welcoming",
+    "example": "The neighbors are friendly.",
+    "translation": "amable",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a1-147",
+    "front": "clean (adj)",
+    "definition": "free from dirt",
+    "example": "A clean kitchen.",
+    "translation": "limpio",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a1-148",
+    "front": "dirty (adj)",
+    "definition": "not clean",
+    "example": "Dirty shoes.",
+    "translation": "sucio",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a1-149",
+    "front": "busy (adj)",
+    "definition": "having much to do",
+    "example": "I am busy this week.",
+    "translation": "ocupado",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a1-150",
+    "front": "quiet (adj)",
+    "definition": "with little noise",
+    "example": "A quiet evening.",
+    "translation": "silencioso/tranquilo",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a1-151",
+    "front": "noisy (adj)",
+    "definition": "full of sound",
+    "example": "A noisy street.",
+    "translation": "ruidoso",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a1-152",
+    "front": "light (adj/n)",
+    "definition": "not heavy; brightness",
+    "example": "A light backpack.",
+    "translation": "ligero/luz",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a1-153",
+    "front": "short (adj)",
+    "definition": "not long; not tall",
+    "example": "A short film.",
+    "translation": "corto/bajo",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a1-154",
+    "front": "tall (adj)",
+    "definition": "great in height",
+    "example": "A tall man.",
+    "translation": "alto",
+    "tags": [
+      "a1",
+      "adjective",
+      "freq:top200"
+    ]
+  },
+  {
+    "id": "a1-155",
+    "front": "of (prep)",
+    "definition": "belonging to; about",
+    "example": "A cup of coffee.",
+    "translation": "de",
+    "tags": [
+      "a1",
+      "preposition",
+      "freq:top10"
+    ]
+  },
+  {
+    "id": "a1-156",
+    "front": "to (prep)",
+    "definition": "indicating direction",
+    "example": "I'm going to work.",
+    "translation": "a/hacia",
+    "tags": [
+      "a1",
+      "preposition",
+      "freq:top10"
+    ]
+  },
+  {
+    "id": "a1-157",
+    "front": "for (prep)",
+    "definition": "indicating purpose",
+    "example": "This is for you.",
+    "translation": "para/por",
+    "tags": [
+      "a1",
+      "preposition",
+      "freq:top10"
+    ]
+  },
+  {
+    "id": "a1-158",
+    "front": "from (prep)",
+    "definition": "starting at",
+    "example": "I'm from Spain.",
+    "translation": "de/desde",
+    "tags": [
+      "a1",
+      "preposition",
+      "freq:top10"
+    ]
+  },
+  {
+    "id": "a1-159",
+    "front": "about (prep)",
+    "definition": "concerning",
+    "example": "A book about history.",
+    "translation": "sobre/acerca de",
+    "tags": [
+      "a1",
+      "preposition",
+      "freq:top20"
+    ]
+  },
+  {
+    "id": "a1-160",
+    "front": "by (prep)",
+    "definition": "near; through means of",
+    "example": "A book by Orwell.",
+    "translation": "por",
+    "tags": [
+      "a1",
+      "preposition",
+      "freq:top20"
+    ]
+  },
+  {
+    "id": "a1-161",
+    "front": "between (prep)",
+    "definition": "in the space separating",
+    "example": "Between you and me.",
+    "translation": "entre",
+    "tags": [
+      "a1",
+      "preposition",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-162",
+    "front": "under (prep)",
+    "definition": "beneath",
+    "example": "The cat is under the table.",
+    "translation": "debajo",
+    "tags": [
+      "a1",
+      "preposition",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-163",
+    "front": "over (prep)",
+    "definition": "above",
+    "example": "The plane flew over the city.",
+    "translation": "sobre/encima",
+    "tags": [
+      "a1",
+      "preposition",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-164",
+    "front": "without (prep)",
+    "definition": "not having",
+    "example": "I can't live without you.",
+    "translation": "sin",
+    "tags": [
+      "a1",
+      "preposition",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-165",
+    "front": "also (adv)",
+    "definition": "in addition",
+    "example": "She is also a doctor.",
+    "translation": "también",
+    "tags": [
+      "a1",
+      "adverb",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-166",
+    "front": "maybe (adv)",
+    "definition": "perhaps",
+    "example": "Maybe we should leave.",
+    "translation": "quizás",
+    "tags": [
+      "a1",
+      "adverb",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-167",
+    "front": "sometimes (adv)",
+    "definition": "occasionally",
+    "example": "Sometimes I cook.",
+    "translation": "a veces",
+    "tags": [
+      "a1",
+      "adverb",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-168",
+    "front": "often (adv)",
+    "definition": "frequently",
+    "example": "He often visits us.",
+    "translation": "a menudo",
+    "tags": [
+      "a1",
+      "adverb",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-169",
+    "front": "usually (adv)",
+    "definition": "in most cases",
+    "example": "I usually walk to work.",
+    "translation": "usualmente",
+    "tags": [
+      "a1",
+      "adverb",
+      "freq:top50"
+    ]
+  },
+  {
+    "id": "a1-170",
+    "front": "go for a walk (chunk)",
+    "definition": "to walk for leisure",
+    "example": "Let's go for a walk.",
+    "translation": "dar un paseo",
+    "tags": [
+      "a1",
+      "chunk"
+    ]
+  },
+  {
+    "id": "a1-171",
+    "front": "get up (phr)",
+    "definition": "to leave bed",
+    "example": "I get up at 7am.",
+    "translation": "levantarse",
+    "tags": [
+      "a1",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a1-172",
+    "front": "turn on (phr)",
+    "definition": "to activate",
+    "example": "Turn on the light, please.",
+    "translation": "encender",
+    "tags": [
+      "a1",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a1-173",
+    "front": "turn off (phr)",
+    "definition": "to deactivate",
+    "example": "Turn off the TV.",
+    "translation": "apagar",
+    "tags": [
+      "a1",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a1-174",
+    "front": "look for (phr)",
+    "definition": "to search",
+    "example": "I'm looking for my keys.",
+    "translation": "buscar",
+    "tags": [
+      "a1",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a1-175",
+    "front": "come back (phr)",
+    "definition": "to return",
+    "example": "Come back soon!",
+    "translation": "volver",
+    "tags": [
+      "a1",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a1-176",
+    "front": "head (n)",
+    "definition": "the top part of your body",
+    "example": "My head hurts.",
+    "translation": "cabeza",
+    "tags": [
+      "a1",
+      "noun",
+      "body"
+    ]
+  },
+  {
+    "id": "a1-177",
+    "front": "hair (n)",
+    "definition": "what grows on your head",
+    "example": "She has long hair.",
+    "translation": "pelo",
+    "tags": [
+      "a1",
+      "noun",
+      "body"
+    ]
+  },
+  {
+    "id": "a1-178",
+    "front": "arm (n)",
+    "definition": "the part between shoulder and hand",
+    "example": "He broke his arm.",
+    "translation": "brazo",
+    "tags": [
+      "a1",
+      "noun",
+      "body"
+    ]
+  },
+  {
+    "id": "a1-179",
+    "front": "leg (n)",
+    "definition": "you walk with your legs",
+    "example": "My legs are tired.",
+    "translation": "pierna",
+    "tags": [
+      "a1",
+      "noun",
+      "body"
+    ]
+  },
+  {
+    "id": "a1-180",
+    "front": "foot (n)",
+    "definition": "the end of your leg (pl. feet)",
+    "example": "My feet are cold.",
+    "translation": "pie",
+    "tags": [
+      "a1",
+      "noun",
+      "body",
+      "irregular-plural"
+    ]
+  },
+  {
+    "id": "a1-181",
+    "front": "mouth (n)",
+    "definition": "you eat and speak with it",
+    "example": "Open your mouth.",
+    "translation": "boca",
+    "tags": [
+      "a1",
+      "noun",
+      "body"
+    ]
+  },
+  {
+    "id": "a1-182",
+    "front": "nose (n)",
+    "definition": "you smell with it",
+    "example": "She has a small nose.",
+    "translation": "nariz",
+    "tags": [
+      "a1",
+      "noun",
+      "body"
+    ]
+  },
+  {
+    "id": "a1-183",
+    "front": "tooth (n)",
+    "definition": "the white parts in your mouth (pl. teeth)",
+    "example": "I brush my teeth twice a day.",
+    "translation": "diente",
+    "tags": [
+      "a1",
+      "noun",
+      "body",
+      "irregular-plural"
+    ]
+  },
+  {
+    "id": "a1-184",
+    "front": "face (n)",
+    "definition": "the front of your head",
+    "example": "Wash your face.",
+    "translation": "cara",
+    "tags": [
+      "a1",
+      "noun",
+      "body"
+    ]
+  },
+  {
+    "id": "a1-185",
+    "front": "ear (n)",
+    "definition": "you hear with it",
+    "example": "My ears hurt on the plane.",
+    "translation": "oreja/oído",
+    "tags": [
+      "a1",
+      "noun",
+      "body"
+    ]
+  },
+  {
+    "id": "a1-186",
+    "front": "mother (n)",
+    "definition": "your female parent",
+    "example": "My mother is a nurse.",
+    "translation": "madre",
+    "tags": [
+      "a1",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": "a1-187",
+    "front": "father (n)",
+    "definition": "your male parent",
+    "example": "His father works here.",
+    "translation": "padre",
+    "tags": [
+      "a1",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": "a1-188",
+    "front": "brother (n)",
+    "definition": "your male sibling",
+    "example": "I have two brothers.",
+    "translation": "hermano",
+    "tags": [
+      "a1",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": "a1-189",
+    "front": "sister (n)",
+    "definition": "your female sibling",
+    "example": "My sister lives in Cali.",
+    "translation": "hermana",
+    "tags": [
+      "a1",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": "a1-190",
+    "front": "son (n)",
+    "definition": "your male child",
+    "example": "Their son is five.",
+    "translation": "hijo",
+    "tags": [
+      "a1",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": "a1-191",
+    "front": "daughter (n)",
+    "definition": "your female child",
+    "example": "My daughter loves books.",
+    "translation": "hija",
+    "tags": [
+      "a1",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": "a1-192",
+    "front": "husband (n)",
+    "definition": "the man you are married to",
+    "example": "Her husband is a teacher.",
+    "translation": "marido/esposo",
+    "tags": [
+      "a1",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": "a1-193",
+    "front": "wife (n)",
+    "definition": "the woman you are married to",
+    "example": "My wife speaks German.",
+    "translation": "esposa",
+    "tags": [
+      "a1",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": "a1-194",
+    "front": "baby (n)",
+    "definition": "a very young child",
+    "example": "The baby is sleeping.",
+    "translation": "bebé",
+    "tags": [
+      "a1",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": "a1-195",
+    "front": "parents (n)",
+    "definition": "your mother and father",
+    "example": "I live with my parents.",
+    "translation": "padres",
+    "tags": [
+      "a1",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": "a1-196",
+    "front": "friend (n)",
+    "definition": "someone you like and know well",
+    "example": "She's my best friend.",
+    "translation": "amigo/a",
+    "tags": [
+      "a1",
+      "noun"
+    ]
+  },
+  {
+    "id": "a1-197",
+    "front": "bread (n)",
+    "definition": "a common food made from flour",
+    "example": "I buy bread every morning.",
+    "translation": "pan",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "a1-198",
+    "front": "milk (n)",
+    "definition": "a white drink from cows",
+    "example": "A glass of milk, please.",
+    "translation": "leche",
+    "tags": [
+      "a1",
+      "noun",
+      "food",
+      "uncountable"
+    ]
+  },
+  {
+    "id": "a1-199",
+    "front": "egg (n)",
+    "definition": "food that comes from a hen",
+    "example": "Two eggs for breakfast.",
+    "translation": "huevo",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "a1-200",
+    "front": "cheese (n)",
+    "definition": "a food made from milk",
+    "example": "I like cheese on bread.",
+    "translation": "queso",
+    "tags": [
+      "a1",
+      "noun",
+      "food",
+      "uncountable"
+    ]
+  },
+  {
+    "id": "a1-201",
+    "front": "meat (n)",
+    "definition": "food from animals",
+    "example": "I don't eat meat.",
+    "translation": "carne",
+    "tags": [
+      "a1",
+      "noun",
+      "food",
+      "uncountable"
+    ]
+  },
+  {
+    "id": "a1-202",
+    "front": "fish (n)",
+    "definition": "an animal that lives in water; food",
+    "example": "We had fish for dinner.",
+    "translation": "pescado/pez",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "a1-203",
+    "front": "rice (n)",
+    "definition": "small white grains you cook",
+    "example": "Rice with chicken.",
+    "translation": "arroz",
+    "tags": [
+      "a1",
+      "noun",
+      "food",
+      "uncountable"
+    ]
+  },
+  {
+    "id": "a1-204",
+    "front": "fruit (n)",
+    "definition": "food like apples and bananas",
+    "example": "Eat more fruit.",
+    "translation": "fruta",
+    "tags": [
+      "a1",
+      "noun",
+      "food",
+      "uncountable"
+    ]
+  },
+  {
+    "id": "a1-205",
+    "front": "apple (n)",
+    "definition": "a round red or green fruit",
+    "example": "An apple a day.",
+    "translation": "manzana",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "a1-206",
+    "front": "coffee (n)",
+    "definition": "a hot dark drink",
+    "example": "Two coffees, please.",
+    "translation": "café",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "a1-207",
+    "front": "tea (n)",
+    "definition": "a hot drink made from leaves",
+    "example": "I drink tea at night.",
+    "translation": "té",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "a1-208",
+    "front": "sugar (n)",
+    "definition": "a sweet white food",
+    "example": "No sugar, thanks.",
+    "translation": "azúcar",
+    "tags": [
+      "a1",
+      "noun",
+      "food",
+      "uncountable"
+    ]
+  },
+  {
+    "id": "a1-209",
+    "front": "salt (n)",
+    "definition": "a white food that makes things salty",
+    "example": "Add a little salt.",
+    "translation": "sal",
+    "tags": [
+      "a1",
+      "noun",
+      "food",
+      "uncountable"
+    ]
+  },
+  {
+    "id": "a1-210",
+    "front": "breakfast (n)",
+    "definition": "the first meal of the day",
+    "example": "I have breakfast at seven.",
+    "translation": "desayuno",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "a1-211",
+    "front": "lunch (n)",
+    "definition": "the meal in the middle of the day",
+    "example": "Lunch is at one.",
+    "translation": "almuerzo/comida",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "a1-212",
+    "front": "dinner (n)",
+    "definition": "the evening meal",
+    "example": "We cook dinner together.",
+    "translation": "cena",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "a1-213",
+    "front": "room (n)",
+    "definition": "a space inside a building",
+    "example": "My room is small.",
+    "translation": "habitación/cuarto",
+    "tags": [
+      "a1",
+      "noun",
+      "house"
+    ]
+  },
+  {
+    "id": "a1-214",
+    "front": "kitchen (n)",
+    "definition": "the room where you cook",
+    "example": "She's in the kitchen.",
+    "translation": "cocina",
+    "tags": [
+      "a1",
+      "noun",
+      "house"
+    ]
+  },
+  {
+    "id": "a1-215",
+    "front": "bathroom (n)",
+    "definition": "the room with a toilet and shower",
+    "example": "Where's the bathroom?",
+    "translation": "baño",
+    "tags": [
+      "a1",
+      "noun",
+      "house"
+    ]
+  },
+  {
+    "id": "a1-216",
+    "front": "bedroom (n)",
+    "definition": "the room where you sleep",
+    "example": "Two bedrooms and a balcony.",
+    "translation": "dormitorio",
+    "tags": [
+      "a1",
+      "noun",
+      "house"
+    ]
+  },
+  {
+    "id": "a1-217",
+    "front": "door (n)",
+    "definition": "you open it to enter",
+    "example": "Close the door, please.",
+    "translation": "puerta",
+    "tags": [
+      "a1",
+      "noun",
+      "house"
+    ]
+  },
+  {
+    "id": "a1-218",
+    "front": "window (n)",
+    "definition": "the glass opening in a wall",
+    "example": "Open the window.",
+    "translation": "ventana",
+    "tags": [
+      "a1",
+      "noun",
+      "house"
+    ]
+  },
+  {
+    "id": "a1-219",
+    "front": "table (n)",
+    "definition": "furniture with a flat top",
+    "example": "Put it on the table.",
+    "translation": "mesa",
+    "tags": [
+      "a1",
+      "noun",
+      "house"
+    ]
+  },
+  {
+    "id": "a1-220",
+    "front": "chair (n)",
+    "definition": "furniture you sit on",
+    "example": "Take a chair.",
+    "translation": "silla",
+    "tags": [
+      "a1",
+      "noun",
+      "house"
+    ]
+  },
+  {
+    "id": "a1-221",
+    "front": "bed (n)",
+    "definition": "furniture you sleep on",
+    "example": "I'm going to bed.",
+    "translation": "cama",
+    "tags": [
+      "a1",
+      "noun",
+      "house"
+    ]
+  },
+  {
+    "id": "a1-222",
+    "front": "floor (n)",
+    "definition": "the surface you walk on",
+    "example": "The keys are on the floor.",
+    "translation": "suelo/piso",
+    "tags": [
+      "a1",
+      "noun",
+      "house"
+    ]
+  },
+  {
+    "id": "a1-223",
+    "front": "garden (n)",
+    "definition": "the outdoor area with plants",
+    "example": "We eat in the garden.",
+    "translation": "jardín",
+    "tags": [
+      "a1",
+      "noun",
+      "house"
+    ]
+  },
+  {
+    "id": "a1-224",
+    "front": "key (n)",
+    "definition": "you use it to open a lock",
+    "example": "I lost my keys.",
+    "translation": "llave",
+    "tags": [
+      "a1",
+      "noun",
+      "house"
+    ]
+  },
+  {
+    "id": "a1-225",
+    "front": "school (n)",
+    "definition": "where children study",
+    "example": "My school is near here.",
+    "translation": "escuela/colegio",
+    "tags": [
+      "a1",
+      "noun",
+      "place"
+    ]
+  },
+  {
+    "id": "a1-226",
+    "front": "shop (n)",
+    "definition": "where you buy things",
+    "example": "The shop closes at eight.",
+    "translation": "tienda",
+    "tags": [
+      "a1",
+      "noun",
+      "place"
+    ]
+  },
+  {
+    "id": "a1-227",
+    "front": "street (n)",
+    "definition": "a road in a town",
+    "example": "I live on this street.",
+    "translation": "calle",
+    "tags": [
+      "a1",
+      "noun",
+      "place"
+    ]
+  },
+  {
+    "id": "a1-228",
+    "front": "city (n)",
+    "definition": "a large town",
+    "example": "Bogotá is a big city.",
+    "translation": "ciudad",
+    "tags": [
+      "a1",
+      "noun",
+      "place"
+    ]
+  },
+  {
+    "id": "a1-229",
+    "front": "town (n)",
+    "definition": "a place smaller than a city",
+    "example": "a small town by the sea",
+    "translation": "pueblo",
+    "tags": [
+      "a1",
+      "noun",
+      "place"
+    ]
+  },
+  {
+    "id": "a1-230",
+    "front": "park (n)",
+    "definition": "a green public area",
+    "example": "We walk in the park.",
+    "translation": "parque",
+    "tags": [
+      "a1",
+      "noun",
+      "place"
+    ]
+  },
+  {
+    "id": "a1-231",
+    "front": "station (n)",
+    "definition": "where trains or buses stop",
+    "example": "the bus station",
+    "translation": "estación",
+    "tags": [
+      "a1",
+      "noun",
+      "place"
+    ]
+  },
+  {
+    "id": "a1-232",
+    "front": "airport (n)",
+    "definition": "where planes arrive and leave",
+    "example": "The airport is far.",
+    "translation": "aeropuerto",
+    "tags": [
+      "a1",
+      "noun",
+      "place"
+    ]
+  },
+  {
+    "id": "a1-233",
+    "front": "hospital (n)",
+    "definition": "where doctors treat people",
+    "example": "She works in a hospital.",
+    "translation": "hospital",
+    "tags": [
+      "a1",
+      "noun",
+      "place"
+    ]
+  },
+  {
+    "id": "a1-234",
+    "front": "restaurant (n)",
+    "definition": "where you pay to eat",
+    "example": "a good Italian restaurant",
+    "translation": "restaurante",
+    "tags": [
+      "a1",
+      "noun",
+      "place"
+    ]
+  },
+  {
+    "id": "a1-235",
+    "front": "hotel (n)",
+    "definition": "where you sleep when travelling",
+    "example": "We stayed in a small hotel.",
+    "translation": "hotel",
+    "tags": [
+      "a1",
+      "noun",
+      "place"
+    ]
+  },
+  {
+    "id": "a1-236",
+    "front": "bank (n)",
+    "definition": "where you keep money",
+    "example": "The bank opens at nine.",
+    "translation": "banco",
+    "tags": [
+      "a1",
+      "noun",
+      "place"
+    ]
+  },
+  {
+    "id": "a1-237",
+    "front": "market (n)",
+    "definition": "where people sell food and goods",
+    "example": "I buy fruit at the market.",
+    "translation": "mercado",
+    "tags": [
+      "a1",
+      "noun",
+      "place"
+    ]
+  },
+  {
+    "id": "a1-238",
+    "front": "beach (n)",
+    "definition": "the sand next to the sea",
+    "example": "a day at the beach",
+    "translation": "playa",
+    "tags": [
+      "a1",
+      "noun",
+      "place"
+    ]
+  },
+  {
+    "id": "a1-239",
+    "front": "country (n)",
+    "definition": "a nation; land outside cities",
+    "example": "Which country are you from?",
+    "translation": "país/campo",
+    "tags": [
+      "a1",
+      "noun",
+      "place"
+    ]
+  },
+  {
+    "id": "a1-240",
+    "front": "morning (n)",
+    "definition": "the early part of the day",
+    "example": "See you in the morning.",
+    "translation": "mañana",
+    "tags": [
+      "a1",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": "a1-241",
+    "front": "afternoon (n)",
+    "definition": "after midday until evening",
+    "example": "I work in the afternoon.",
+    "translation": "tarde",
+    "tags": [
+      "a1",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": "a1-242",
+    "front": "evening (n)",
+    "definition": "the end of the day",
+    "example": "Good evening!",
+    "translation": "tarde/noche (temprano)",
+    "tags": [
+      "a1",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": "a1-243",
+    "front": "night (n)",
+    "definition": "when it is dark",
+    "example": "I sleep eight hours a night.",
+    "translation": "noche",
+    "tags": [
+      "a1",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": "a1-244",
+    "front": "today (adv)",
+    "definition": "on this day",
+    "example": "I'm busy today.",
+    "translation": "hoy",
+    "tags": [
+      "a1",
+      "adverb",
+      "time"
+    ]
+  },
+  {
+    "id": "a1-245",
+    "front": "tomorrow (adv)",
+    "definition": "on the day after today",
+    "example": "See you tomorrow.",
+    "translation": "mañana (el día)",
+    "tags": [
+      "a1",
+      "adverb",
+      "time"
+    ]
+  },
+  {
+    "id": "a1-246",
+    "front": "yesterday (adv)",
+    "definition": "on the day before today",
+    "example": "I called you yesterday.",
+    "translation": "ayer",
+    "tags": [
+      "a1",
+      "adverb",
+      "time"
+    ]
+  },
+  {
+    "id": "a1-247",
+    "front": "hour (n)",
+    "definition": "sixty minutes",
+    "example": "It takes two hours.",
+    "translation": "hora",
+    "tags": [
+      "a1",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": "a1-248",
+    "front": "minute (n)",
+    "definition": "sixty seconds",
+    "example": "Wait a minute.",
+    "translation": "minuto",
+    "tags": [
+      "a1",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": "a1-249",
+    "front": "month (n)",
+    "definition": "one of the twelve parts of a year",
+    "example": "next month",
+    "translation": "mes",
+    "tags": [
+      "a1",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": "a1-250",
+    "front": "weekend (n)",
+    "definition": "Saturday and Sunday",
+    "example": "Have a nice weekend!",
+    "translation": "fin de semana",
+    "tags": [
+      "a1",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": "a1-251",
+    "front": "now (adv)",
+    "definition": "at this moment",
+    "example": "I can't talk now.",
+    "translation": "ahora",
+    "tags": [
+      "a1",
+      "adverb",
+      "time"
+    ]
+  },
+  {
+    "id": "a1-252",
+    "front": "late (adj/adv)",
+    "definition": "after the expected time",
+    "example": "Sorry I'm late.",
+    "translation": "tarde",
+    "tags": [
+      "a1",
+      "adjective",
+      "time"
+    ]
+  },
+  {
+    "id": "a1-253",
+    "front": "soon (adv)",
+    "definition": "in a short time",
+    "example": "I'll call you soon.",
+    "translation": "pronto",
+    "tags": [
+      "a1",
+      "adverb",
+      "time"
+    ]
+  },
+  {
+    "id": "a1-254",
+    "front": "before (prep)",
+    "definition": "earlier than",
+    "example": "Call me before six.",
+    "translation": "antes de",
+    "tags": [
+      "a1",
+      "preposition",
+      "time"
+    ]
+  },
+  {
+    "id": "a1-255",
+    "front": "after (prep)",
+    "definition": "later than",
+    "example": "after lunch",
+    "translation": "después de",
+    "tags": [
+      "a1",
+      "preposition",
+      "time"
+    ]
+  },
+  {
+    "id": "a1-256",
+    "front": "teacher (n)",
+    "definition": "someone who teaches",
+    "example": "My teacher is very patient.",
+    "translation": "profesor/a",
+    "tags": [
+      "a1",
+      "noun",
+      "job"
+    ]
+  },
+  {
+    "id": "a1-257",
+    "front": "student (n)",
+    "definition": "someone who studies",
+    "example": "I'm a student.",
+    "translation": "estudiante",
+    "tags": [
+      "a1",
+      "noun",
+      "job"
+    ]
+  },
+  {
+    "id": "a1-258",
+    "front": "doctor (n)",
+    "definition": "someone who treats sick people",
+    "example": "I need to see a doctor.",
+    "translation": "médico/a",
+    "tags": [
+      "a1",
+      "noun",
+      "job"
+    ]
+  },
+  {
+    "id": "a1-259",
+    "front": "boy (n)",
+    "definition": "a young male",
+    "example": "The boy is playing.",
+    "translation": "niño/chico",
+    "tags": [
+      "a1",
+      "noun"
+    ]
+  },
+  {
+    "id": "a1-260",
+    "front": "girl (n)",
+    "definition": "a young female",
+    "example": "The girl is reading.",
+    "translation": "niña/chica",
+    "tags": [
+      "a1",
+      "noun"
+    ]
+  },
+  {
+    "id": "a1-261",
+    "front": "name (n)",
+    "definition": "what someone is called",
+    "example": "What's your name?",
+    "translation": "nombre",
+    "tags": [
+      "a1",
+      "noun"
+    ]
+  },
+  {
+    "id": "a1-262",
+    "front": "car (n)",
+    "definition": "a vehicle with four wheels",
+    "example": "We go by car.",
+    "translation": "coche/carro",
+    "tags": [
+      "a1",
+      "noun",
+      "transport"
+    ]
+  },
+  {
+    "id": "a1-263",
+    "front": "bus (n)",
+    "definition": "a large vehicle for many people",
+    "example": "I take the bus to work.",
+    "translation": "autobús/bus",
+    "tags": [
+      "a1",
+      "noun",
+      "transport"
+    ]
+  },
+  {
+    "id": "a1-264",
+    "front": "train (n)",
+    "definition": "a vehicle that runs on rails",
+    "example": "The train is late.",
+    "translation": "tren",
+    "tags": [
+      "a1",
+      "noun",
+      "transport"
+    ]
+  },
+  {
+    "id": "a1-265",
+    "front": "bike (n)",
+    "definition": "a vehicle with two wheels and pedals",
+    "example": "I ride my bike to school.",
+    "translation": "bicicleta",
+    "tags": [
+      "a1",
+      "noun",
+      "transport"
+    ]
+  },
+  {
+    "id": "a1-266",
+    "front": "plane (n)",
+    "definition": "a vehicle that flies",
+    "example": "The plane leaves at noon.",
+    "translation": "avión",
+    "tags": [
+      "a1",
+      "noun",
+      "transport"
+    ]
+  },
+  {
+    "id": "a1-267",
+    "front": "close (v)",
+    "definition": "to shut",
+    "example": "Please close the window.",
+    "translation": "cerrar",
+    "tags": [
+      "a1",
+      "verb"
+    ]
+  },
+  {
+    "id": "a1-268",
+    "front": "cook (v)",
+    "definition": "to prepare food with heat",
+    "example": "I cook every evening.",
+    "translation": "cocinar",
+    "tags": [
+      "a1",
+      "verb"
+    ]
+  },
+  {
+    "id": "a1-269",
+    "front": "cry (v)",
+    "definition": "to have tears in your eyes",
+    "example": "The baby is crying.",
+    "translation": "llorar",
+    "tags": [
+      "a1",
+      "verb"
+    ]
+  },
+  {
+    "id": "a1-270",
+    "front": "dance (v)",
+    "definition": "to move your body to music",
+    "example": "They love to dance.",
+    "translation": "bailar",
+    "tags": [
+      "a1",
+      "verb"
+    ]
+  },
+  {
+    "id": "a1-271",
+    "front": "finish (v)",
+    "definition": "to complete something",
+    "example": "I finish work at five.",
+    "translation": "terminar",
+    "tags": [
+      "a1",
+      "verb"
+    ]
+  },
+  {
+    "id": "a1-272",
+    "front": "jump (v)",
+    "definition": "to push yourself into the air",
+    "example": "The cat jumped on the table.",
+    "translation": "saltar",
+    "tags": [
+      "a1",
+      "verb"
+    ]
+  },
+  {
+    "id": "a1-273",
+    "front": "laugh (v)",
+    "definition": "to make sounds when something is funny",
+    "example": "We laughed a lot.",
+    "translation": "reír",
+    "tags": [
+      "a1",
+      "verb"
+    ]
+  },
+  {
+    "id": "a1-274",
+    "front": "listen (v)",
+    "definition": "to pay attention to a sound",
+    "example": "Listen to this song.",
+    "translation": "escuchar",
+    "tags": [
+      "a1",
+      "verb"
+    ]
+  },
+  {
+    "id": "a1-275",
+    "front": "sing (v)",
+    "definition": "to make music with your voice",
+    "example": "She sings very well.",
+    "translation": "cantar",
+    "tags": [
+      "a1",
+      "verb"
+    ]
+  },
+  {
+    "id": "a1-276",
+    "front": "study (v)",
+    "definition": "to learn about a subject",
+    "example": "I study English at night.",
+    "translation": "estudiar",
+    "tags": [
+      "a1",
+      "verb"
+    ]
+  },
+  {
+    "id": "a1-277",
+    "front": "swim (v)",
+    "definition": "to move through water",
+    "example": "Can you swim?",
+    "translation": "nadar",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular"
+    ]
+  },
+  {
+    "id": "a1-278",
+    "front": "teach (v)",
+    "definition": "to help someone learn",
+    "example": "She teaches maths.",
+    "translation": "enseñar",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular"
+    ]
+  },
+  {
+    "id": "a1-279",
+    "front": "wait (v)",
+    "definition": "to stay until something happens",
+    "example": "Wait for me, please.",
+    "translation": "esperar",
+    "tags": [
+      "a1",
+      "verb"
+    ]
+  },
+  {
+    "id": "a1-280",
+    "front": "wash (v)",
+    "definition": "to clean with water",
+    "example": "Wash your hands.",
+    "translation": "lavar",
+    "tags": [
+      "a1",
+      "verb"
+    ]
+  },
+  {
+    "id": "a1-281",
+    "front": "smile (v)",
+    "definition": "to make a happy face",
+    "example": "She smiled at me.",
+    "translation": "sonreír",
+    "tags": [
+      "a1",
+      "verb"
+    ]
+  },
+  {
+    "id": "a1-282",
+    "front": "hard (adj)",
+    "definition": "difficult; not soft",
+    "example": "This exercise is hard.",
+    "translation": "difícil/duro",
+    "tags": [
+      "a1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "a1-283",
+    "front": "soft (adj)",
+    "definition": "not hard; pleasant to touch",
+    "example": "a soft pillow",
+    "translation": "suave/blando",
+    "tags": [
+      "a1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "a1-284",
+    "front": "fast (adj)",
+    "definition": "moving quickly",
+    "example": "a fast car",
+    "translation": "rápido",
+    "tags": [
+      "a1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "a1-285",
+    "front": "full (adj)",
+    "definition": "containing as much as possible",
+    "example": "The bus is full.",
+    "translation": "lleno",
+    "tags": [
+      "a1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "a1-286",
+    "front": "dark (adj)",
+    "definition": "with little light",
+    "example": "It's dark outside.",
+    "translation": "oscuro",
+    "tags": [
+      "a1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "a1-287",
+    "front": "warm (adj)",
+    "definition": "a little hot, pleasantly",
+    "example": "warm water",
+    "translation": "cálido/templado",
+    "tags": [
+      "a1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "a1-288",
+    "front": "wet (adj)",
+    "definition": "covered in water",
+    "example": "My shoes are wet.",
+    "translation": "mojado",
+    "tags": [
+      "a1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "a1-289",
+    "front": "dry (adj)",
+    "definition": "not wet",
+    "example": "The towel is dry.",
+    "translation": "seco",
+    "tags": [
+      "a1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "a1-290",
+    "front": "nice (adj)",
+    "definition": "pleasant or kind",
+    "example": "She's very nice.",
+    "translation": "agradable/simpático",
+    "tags": [
+      "a1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "a1-291",
+    "front": "kind (adj)",
+    "definition": "caring about others",
+    "example": "That was very kind of you.",
+    "translation": "amable",
+    "tags": [
+      "a1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "a1-292",
+    "front": "poor (adj)",
+    "definition": "having little money",
+    "example": "a poor country",
+    "translation": "pobre",
+    "tags": [
+      "a1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "a1-293",
+    "front": "rich (adj)",
+    "definition": "having a lot of money",
+    "example": "a rich family",
+    "translation": "rico",
+    "tags": [
+      "a1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "a1-294",
+    "front": "funny (adj)",
+    "definition": "making you laugh",
+    "example": "a funny film",
+    "translation": "divertido/gracioso",
+    "tags": [
+      "a1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "a1-295",
+    "front": "sweet (adj)",
+    "definition": "tasting like sugar",
+    "example": "The cake is too sweet.",
+    "translation": "dulce",
+    "tags": [
+      "a1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "a1-296",
+    "front": "cool (adj)",
+    "definition": "a little cold; very good",
+    "example": "a cool evening",
+    "translation": "fresco/genial",
+    "tags": [
+      "a1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "a1-297",
+    "front": "this / these (det)",
+    "definition": "near me: singular / plural",
+    "example": "This book, these books.",
+    "translation": "este / estos",
+    "tags": [
+      "a1",
+      "determiner"
+    ]
+  },
+  {
+    "id": "a1-298",
+    "front": "that / those (det)",
+    "definition": "far from me: singular / plural",
+    "example": "That house, those houses.",
+    "translation": "ese / esos",
+    "tags": [
+      "a1",
+      "determiner"
+    ]
+  },
+  {
+    "id": "a1-299",
+    "front": "here (adv)",
+    "definition": "in this place",
+    "example": "Come here.",
+    "translation": "aquí",
+    "tags": [
+      "a1",
+      "adverb"
+    ]
+  },
+  {
+    "id": "a1-300",
+    "front": "there (adv)",
+    "definition": "in that place",
+    "example": "Put it there.",
+    "translation": "allí",
+    "tags": [
+      "a1",
+      "adverb"
+    ]
+  },
+  {
+    "id": "a1-301",
+    "front": "many (det)",
+    "definition": "a large number of (countable)",
+    "example": "many people",
+    "translation": "muchos",
+    "tags": [
+      "a1",
+      "determiner"
+    ]
+  },
+  {
+    "id": "a1-302",
+    "front": "much (det)",
+    "definition": "a large amount of (uncountable)",
+    "example": "much time",
+    "translation": "mucho",
+    "tags": [
+      "a1",
+      "determiner"
+    ]
+  },
+  {
+    "id": "a1-303",
+    "front": "some (det)",
+    "definition": "an unknown amount",
+    "example": "some water",
+    "translation": "algo de/unos",
+    "tags": [
+      "a1",
+      "determiner"
+    ]
+  },
+  {
+    "id": "a1-304",
+    "front": "any (det)",
+    "definition": "used in questions and negatives",
+    "example": "Do you have any questions?",
+    "translation": "algún/ningún",
+    "tags": [
+      "a1",
+      "determiner"
+    ]
+  },
+  {
+    "id": "a1-305",
+    "front": "please (adv)",
+    "definition": "used to ask politely",
+    "example": "Two tickets, please.",
+    "translation": "por favor",
+    "tags": [
+      "a1",
+      "adverb"
+    ]
+  },
+  {
+    "id": "a1-306",
+    "front": "sorry (adj)",
+    "definition": "used to apologise",
+    "example": "Sorry, I'm late.",
+    "translation": "perdón/lo siento",
+    "tags": [
+      "a1",
+      "adverb"
+    ]
+  },
+  {
+    "id": "a1-307",
+    "front": "thank you (chunk)",
+    "definition": "used to show gratitude",
+    "example": "Thank you very much.",
+    "translation": "gracias",
+    "tags": [
+      "a1",
+      "chunk"
+    ]
+  },
+  {
+    "id": "a1-308",
+    "front": "excuse me (chunk)",
+    "definition": "used to get attention politely",
+    "example": "Excuse me, is this free?",
+    "translation": "perdone/disculpe",
+    "tags": [
+      "a1",
+      "chunk"
+    ]
+  }
 ]
