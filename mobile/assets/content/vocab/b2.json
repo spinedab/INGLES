@@ -233,13 +233,14 @@
   },
   {
     "id": "b2-021",
-    "front": "discrepancy (n)",
-    "definition": "a difference",
-    "example": "A discrepancy in the report.",
-    "translation": "discrepancia",
+    "front": "a discrepancy between (coll)",
+    "definition": "the fixed pattern: a difference between two things",
+    "example": "There is a discrepancy between the two accounts.",
+    "translation": "una discrepancia entre",
     "tags": [
       "b2",
-      "noun"
+      "collocation",
+      "academic"
     ]
   },
   {
