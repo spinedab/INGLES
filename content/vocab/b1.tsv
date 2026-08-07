@@ -153,3 +153,149 @@ b1-151	publish (v)	to make public	Publish the article.	publicar	b1 awl sublist3
 b1-152	recover (v)	to get back; to heal	She recovered quickly.	recuperar	b1 awl sublist3
 b1-153	transform (v)	to change completely	Transform your life.	transformar	b1 awl sublist3
 b1-154	panel (n)	a group of experts	A panel of judges.	panel	b1 awl sublist10
+b1-155	access (n/v)	the right or way to reach something	Students have access to the library.	acceso/acceder	b1 noun awl
+b1-156	adjust (v)	to change slightly to fit better	Adjust the volume, please.	ajustar	b1 verb awl
+b1-157	affect (v)	to influence or change	Noise affects concentration.	afectar	b1 verb awl
+b1-158	annual (adj)	happening once a year	the annual report	anual	b1 adjective awl
+b1-159	apparent (adj)	easy to see or understand	It became apparent that he was right.	aparente/evidente	b1 adjective awl
+b1-160	appreciate (v)	to value; to understand fully	I appreciate your help.	apreciar/valorar	b1 verb awl
+b1-161	arise (v)	to happen or appear	A problem arose during the test.	surgir	b1 verb awl irregular
+b1-162	aware (adj)	knowing about something	Are you aware of the risk?	consciente	b1 adjective awl
+b1-163	brief (adj)	short in time or length	a brief explanation	breve	b1 adjective awl
+b1-164	capable (adj)	able to do something	She's capable of much more.	capaz	b1 adjective awl
+b1-165	commit (v)	to promise to do; to do something wrong	He committed to the plan.	comprometerse	b1 verb awl
+b1-166	communicate (v)	to share information	We communicate by email.	comunicar	b1 verb awl
+b1-167	concentrate (v)	to focus your attention	I can't concentrate with the noise.	concentrarse	b1 verb awl
+b1-168	confirm (v)	to say that something is definitely true	Please confirm your booking.	confirmar	b1 verb awl
+b1-169	conflict (n)	a serious disagreement	a conflict between the two groups	conflicto	b1 noun awl
+b1-170	constant (adj)	happening all the time; not changing	constant interruptions	constante	b1 adjective awl
+b1-171	contact (v/n)	to communicate with someone	Contact us for more information.	contactar/contacto	b1 verb awl
+b1-172	contemporary (adj)	of the present time	contemporary music	contemporáneo	b1 adjective awl
+b1-173	contribute (v)	to give a part to something	Everyone contributed ideas.	contribuir	b1 verb awl
+b1-174	convert (v)	to change into another form	Convert the file to PDF.	convertir	b1 verb awl
+b1-175	core (n/adj)	the most important part	the core of the argument	núcleo/central	b1 noun awl
+b1-176	correspond (v)	to match; to exchange letters	The numbers don't correspond.	corresponder	b1 verb awl
+b1-177	crisis (n)	a time of great difficulty (pl. crises)	an economic crisis	crisis	b1 noun awl irregular-plural
+b1-178	cycle (n)	a series of events that repeat	the sleep cycle	ciclo	b1 noun awl
+b1-179	decade (n)	a period of ten years	over the last decade	década	b1 noun awl
+b1-180	detect (v)	to discover or notice	The test detects small changes.	detectar	b1 verb awl
+b1-181	dimension (n)	a measurement or aspect	another dimension of the problem	dimensión	b1 noun awl
+b1-182	display (v/n)	to show	The screen displays the results.	mostrar/pantalla	b1 verb awl
+b1-183	diverse (adj)	very different from each other	a diverse group of students	diverso	b1 adjective awl
+b1-184	document (n/v)	a written record; to record	Save the document.	documento/documentar	b1 noun awl
+b1-185	domestic (adj)	of the home or a country's own	domestic flights	doméstico/nacional	b1 adjective awl
+b1-186	dominate (v)	to be the strongest	One theory dominated the field.	dominar	b1 verb awl
+b1-187	draft (n/v)	a first version	This is only a first draft.	borrador	b1 noun awl
+b1-188	dramatic (adj)	sudden and noticeable	a dramatic improvement	drástico/espectacular	b1 adjective awl
+b1-189	dynamic (adj)	always changing; full of energy	a dynamic classroom	dinámico	b1 adjective awl
+b1-190	enforce (v)	to make people obey a rule	The rule is rarely enforced.	hacer cumplir	b1 verb awl
+b1-191	enormous (adj)	extremely large	an enormous difference	enorme	b1 adjective awl
+b1-192	equivalent (adj/n)	equal in value or meaning	There is no exact equivalent.	equivalente	b1 adjective awl
+b1-193	error (n)	a mistake	a common error among learners	error	b1 noun awl
+b1-194	ethical (adj)	morally right	an ethical decision	ético	b1 adjective awl
+b1-195	evolve (v)	to develop gradually	The language has evolved.	evolucionar	b1 verb awl
+b1-196	exceed (v)	to be greater than a limit	Costs exceeded the budget.	exceder/superar	b1 verb awl
+b1-197	exhibit (v)	to show publicly or display a quality	He exhibits great patience.	exhibir/mostrar	b1 verb awl
+b1-198	expert (n/adj)	someone with special knowledge	an expert in phonetics	experto	b1 noun awl
+b1-199	expose (v)	to make visible or subject to	Learners must be exposed to real speech.	exponer	b1 verb awl
+b1-200	extract (v/n)	to take out; a short passage	an extract from the novel	extraer/extracto	b1 verb awl
+b1-201	flexible (adj)	able to change easily	flexible working hours	flexible	b1 adjective awl
+b1-202	framework (n)	a basic structure of ideas	a theoretical framework	marco	b1 noun awl
+b1-203	gender (n)	the state of being male or female	gender differences in the data	género	b1 noun awl
+b1-204	generation (n)	all the people born around the same time	the younger generation	generación	b1 noun awl
+b1-205	guarantee (v/n)	to promise something will happen	Practice doesn't guarantee fluency.	garantizar	b1 verb awl
+b1-206	guideline (n)	advice on how to do something	follow the guidelines	directriz/pauta	b1 noun awl
+b1-207	highlight (v)	to draw attention to	The study highlights a gap.	destacar/resaltar	b1 verb awl
+b1-208	hence (adv)	for this reason	It rained; hence the delay.	por tanto	b1 adverb awl formal
+b1-209	illustrate (v)	to show with an example	This case illustrates the point.	ilustrar	b1 verb awl
+b1-210	impose (v)	to force something on someone	They imposed a new rule.	imponer	b1 verb awl
+b1-211	index (n)	an alphabetical list; a measure	Check the index at the back.	índice	b1 noun awl
+b1-212	initiative (n)	a new plan; the ability to act alone	a government initiative	iniciativa	b1 noun awl
+b1-213	insight (n)	a clear understanding	The study offers useful insight.	perspicacia/visión	b1 noun awl
+b1-214	instance (n)	an example or case	in this instance	caso/instancia	b1 noun awl
+b1-215	intense (adj)	very strong	intense concentration	intenso	b1 adjective awl
+b1-216	interact (v)	to communicate or act together	Learners interact in pairs.	interactuar	b1 verb awl
+b1-217	justify (v)	to give a good reason for	How do you justify that claim?	justificar	b1 verb awl
+b1-218	layer (n)	a level or thickness	another layer of meaning	capa	b1 noun awl
+b1-219	lecture (n)	a formal talk to teach	a lecture on phonology	conferencia/clase magistral	b1 noun awl
+b1-220	link (v/n)	to connect	The two ideas are linked.	vincular/enlace	b1 verb awl
+b1-221	locate (v)	to find the position of	Can you locate the error?	localizar	b1 verb awl
+b1-222	logical (adj)	sensible and reasonable	a logical conclusion	lógico	b1 adjective awl
+b1-223	mechanism (n)	a process or system that produces a result	the mechanism behind forgetting	mecanismo	b1 noun awl
+b1-224	media (n)	newspapers, TV and internet together	social media	medios de comunicación	b1 noun awl
+b1-225	mental (adj)	of the mind	mental effort	mental	b1 adjective awl
+b1-226	minimal (adj)	very small in amount	minimal effort	mínimo	b1 adjective awl
+b1-227	minor (adj)	small and not important	a minor error	menor/leve	b1 adjective awl
+b1-228	modify (v)	to change slightly	We modified the design.	modificar	b1 verb awl
+b1-229	monitor (v)	to watch and check over time	Monitor your progress weekly.	supervisar/controlar	b1 verb awl
+b1-230	negative (adj)	bad or harmful; saying no	a negative effect	negativo	b1 adjective awl
+b1-231	network (n)	a connected system	a network of contacts	red	b1 noun awl
+b1-232	neutral (adj)	not supporting either side	a neutral tone	neutral	b1 adjective awl
+b1-233	nevertheless (adv)	despite that	It's hard; nevertheless, it works.	no obstante	b1 adverb awl formal
+b1-234	objective (n/adj)	a goal; not influenced by feelings	Our main objective is fluency.	objetivo	b1 noun awl
+b1-235	obvious (adj)	easy to see or understand	an obvious mistake	obvio	b1 adjective awl
+b1-236	option (n)	a choice	You have three options.	opción	b1 noun awl
+b1-237	output (n)	what is produced	language output	producción/salida	b1 noun awl
+b1-238	parallel (adj)	similar and happening at the same time	a parallel process	paralelo	b1 adjective awl
+b1-239	passive (adj)	not active; accepting without acting	passive listening isn't enough	pasivo	b1 adjective awl
+b1-240	perspective (n)	a point of view	from a different perspective	perspectiva	b1 noun awl
+b1-241	phase (n)	a stage in a process	the first phase of learning	fase	b1 noun awl
+b1-242	physical (adj)	of the body or material world	physical exercise	físico	b1 adjective awl
+b1-243	precise (adj)	exact and accurate	the precise meaning	preciso	b1 adjective awl
+b1-244	promote (v)	to encourage; to raise in rank	This promotes autonomy.	promover/ascender	b1 verb awl
+b1-245	proportion (n)	a part compared to the whole	a large proportion of learners	proporción	b1 noun awl
+b1-246	pursue (v)	to continue trying to achieve	She pursued a career in teaching.	perseguir/proseguir	b1 verb awl
+b1-247	quote (v/n)	to repeat someone's exact words	He quoted the author directly.	citar/cita	b1 verb awl
+b1-248	random (adj)	chosen without a pattern	a random sample	aleatorio	b1 adjective awl
+b1-249	react (v)	to respond to something	How did she react?	reaccionar	b1 verb awl
+b1-250	recall (v)	to remember	I can't recall his name.	recordar	b1 verb awl
+b1-251	register (n/v)	the style of language for a situation	an academic register	registro	b1 noun awl
+b1-252	reject (v)	to refuse to accept	They rejected the proposal.	rechazar	b1 verb awl
+b1-253	release (v)	to let go; to make available	They released the results.	liberar/publicar	b1 verb awl
+b1-254	restore (v)	to bring back to a former state	Sleep restores attention.	restaurar/restablecer	b1 verb awl
+b1-255	reverse (v/adj)	to change to the opposite	The trend has reversed.	invertir/inverso	b1 verb awl
+b1-256	revise (v)	to change or study again	Revise your draft.	revisar/repasar	b1 verb awl
+b1-257	route (n)	a way from one place to another	the fastest route	ruta	b1 noun awl
+b1-258	schedule (n/v)	a plan of times	a tight schedule	horario/programar	b1 noun awl
+b1-259	shift (n/v)	a change; a work period	a shift in attention	cambio/turno	b1 noun awl
+b1-260	somewhat (adv)	a little; to some degree	somewhat surprising	algo/un poco	b1 adverb awl
+b1-261	specify (v)	to state exactly	Specify the deadline.	especificar	b1 verb awl
+b1-262	stable (adj)	not likely to change	a stable result	estable	b1 adjective awl
+b1-263	statistic (n)	a number from collected data	an alarming statistic	estadística	b1 noun awl
+b1-264	status (n)	position or state	the status of the application	estado/estatus	b1 noun awl
+b1-265	stress (n/v)	pressure; to emphasise	He stressed the importance of input.	estrés/enfatizar	b1 noun awl
+b1-266	submit (v)	to give in for consideration	Submit your essay by Friday.	entregar/presentar	b1 verb awl
+b1-267	summary (n)	a short version of the main points	Write a brief summary.	resumen	b1 noun awl
+b1-268	survive (v)	to continue to live or exist	Few languages survive isolation.	sobrevivir	b1 verb awl
+b1-269	suspend (v)	to stop temporarily	The service was suspended.	suspender	b1 verb awl
+b1-270	symbol (n)	a sign that represents something	a phonetic symbol	símbolo	b1 noun awl
+b1-271	target (n/v)	something you aim at	a realistic target	objetivo/meta	b1 noun awl
+b1-272	task (n)	a piece of work to do	a communicative task	tarea	b1 noun awl
+b1-273	technical (adj)	relating to a specific skill or science	technical vocabulary	técnico	b1 adjective awl
+b1-274	technique (n)	a particular way of doing something	a memory technique	técnica	b1 noun awl
+b1-275	temporary (adj)	lasting only a short time	a temporary solution	temporal/provisional	b1 adjective awl
+b1-276	theme (n)	the main subject	the central theme of the text	tema	b1 noun awl
+b1-277	trend (n)	a general direction of change	a growing trend	tendencia	b1 noun awl
+b1-278	trigger (v)	to cause something to start	The word triggered a memory.	desencadenar	b1 verb
+b1-279	ultimate (adj)	final or most important	the ultimate goal	último/definitivo	b1 adjective awl
+b1-280	undertake (v)	to start and take responsibility for	They undertook a large study.	emprender	b1 verb awl irregular
+b1-281	unique (adj)	the only one of its kind	a unique case	único	b1 adjective awl
+b1-282	valid (adj)	based on truth or logic; legally usable	a valid argument	válido	b1 adjective awl
+b1-283	version (n)	a form of something that differs	the latest version	versión	b1 noun awl
+b1-284	via (prep)	by way of; using	We contacted them via email.	a través de	b1 preposition awl
+b1-285	virtual (adj)	existing on a computer	a virtual classroom	virtual	b1 adjective awl
+b1-286	visible (adj)	able to be seen	no visible difference	visible	b1 adjective awl
+b1-287	visual (adj)	relating to seeing	visual memory	visual	b1 adjective awl
+b1-288	volume (n)	amount; loudness	the volume of input	volumen	b1 noun awl
+b1-289	voluntary (adj)	done by choice	voluntary participation	voluntario	b1 adjective awl
+b1-290	whereas (conj)	in contrast to the fact that	He likes reading, whereas she prefers audio.	mientras que	b1 conjunction awl formal
+b1-291	as a result (chunk)	because of that	As a result, prices fell.	como resultado	b1 chunk
+b1-292	in addition (chunk)	also, moreover	In addition, it saves time.	además	b1 chunk
+b1-293	on the other hand (chunk)	used to give a contrasting view	On the other hand, it's cheaper.	por otro lado	b1 chunk
+b1-294	in terms of (chunk)	with regard to	In terms of cost, it's fine.	en cuanto a	b1 chunk
+b1-295	take into account (chunk)	to consider when deciding	Take the deadline into account.	tener en cuenta	b1 chunk
+b1-296	play a role (chunk)	to have an effect or function	Sleep plays a key role.	jugar un papel	b1 chunk
+b1-297	to some extent (chunk)	partly	That's true to some extent.	en cierta medida	b1 chunk
+b1-298	bear in mind that (chunk)	remember that	Bear in mind that it's optional.	ten en cuenta que	b1 chunk
+b1-299	give rise to (chunk)	to cause	The change gave rise to complaints.	dar lugar a	b1 chunk
+b1-300	in the long run (chunk)	over a long period	It's cheaper in the long run.	a la larga	b1 chunk

@@ -1828,5 +1828,1752 @@
       "awl",
       "sublist10"
     ]
+  },
+  {
+    "id": "b1-155",
+    "front": "access (n/v)",
+    "definition": "the right or way to reach something",
+    "example": "Students have access to the library.",
+    "translation": "acceso/acceder",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-156",
+    "front": "adjust (v)",
+    "definition": "to change slightly to fit better",
+    "example": "Adjust the volume, please.",
+    "translation": "ajustar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-157",
+    "front": "affect (v)",
+    "definition": "to influence or change",
+    "example": "Noise affects concentration.",
+    "translation": "afectar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-158",
+    "front": "annual (adj)",
+    "definition": "happening once a year",
+    "example": "the annual report",
+    "translation": "anual",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-159",
+    "front": "apparent (adj)",
+    "definition": "easy to see or understand",
+    "example": "It became apparent that he was right.",
+    "translation": "aparente/evidente",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-160",
+    "front": "appreciate (v)",
+    "definition": "to value; to understand fully",
+    "example": "I appreciate your help.",
+    "translation": "apreciar/valorar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-161",
+    "front": "arise (v)",
+    "definition": "to happen or appear",
+    "example": "A problem arose during the test.",
+    "translation": "surgir",
+    "tags": [
+      "b1",
+      "verb",
+      "awl",
+      "irregular"
+    ]
+  },
+  {
+    "id": "b1-162",
+    "front": "aware (adj)",
+    "definition": "knowing about something",
+    "example": "Are you aware of the risk?",
+    "translation": "consciente",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-163",
+    "front": "brief (adj)",
+    "definition": "short in time or length",
+    "example": "a brief explanation",
+    "translation": "breve",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-164",
+    "front": "capable (adj)",
+    "definition": "able to do something",
+    "example": "She's capable of much more.",
+    "translation": "capaz",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-165",
+    "front": "commit (v)",
+    "definition": "to promise to do; to do something wrong",
+    "example": "He committed to the plan.",
+    "translation": "comprometerse",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-166",
+    "front": "communicate (v)",
+    "definition": "to share information",
+    "example": "We communicate by email.",
+    "translation": "comunicar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-167",
+    "front": "concentrate (v)",
+    "definition": "to focus your attention",
+    "example": "I can't concentrate with the noise.",
+    "translation": "concentrarse",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-168",
+    "front": "confirm (v)",
+    "definition": "to say that something is definitely true",
+    "example": "Please confirm your booking.",
+    "translation": "confirmar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-169",
+    "front": "conflict (n)",
+    "definition": "a serious disagreement",
+    "example": "a conflict between the two groups",
+    "translation": "conflicto",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-170",
+    "front": "constant (adj)",
+    "definition": "happening all the time; not changing",
+    "example": "constant interruptions",
+    "translation": "constante",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-171",
+    "front": "contact (v/n)",
+    "definition": "to communicate with someone",
+    "example": "Contact us for more information.",
+    "translation": "contactar/contacto",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-172",
+    "front": "contemporary (adj)",
+    "definition": "of the present time",
+    "example": "contemporary music",
+    "translation": "contemporáneo",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-173",
+    "front": "contribute (v)",
+    "definition": "to give a part to something",
+    "example": "Everyone contributed ideas.",
+    "translation": "contribuir",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-174",
+    "front": "convert (v)",
+    "definition": "to change into another form",
+    "example": "Convert the file to PDF.",
+    "translation": "convertir",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-175",
+    "front": "core (n/adj)",
+    "definition": "the most important part",
+    "example": "the core of the argument",
+    "translation": "núcleo/central",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-176",
+    "front": "correspond (v)",
+    "definition": "to match; to exchange letters",
+    "example": "The numbers don't correspond.",
+    "translation": "corresponder",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-177",
+    "front": "crisis (n)",
+    "definition": "a time of great difficulty (pl. crises)",
+    "example": "an economic crisis",
+    "translation": "crisis",
+    "tags": [
+      "b1",
+      "noun",
+      "awl",
+      "irregular-plural"
+    ]
+  },
+  {
+    "id": "b1-178",
+    "front": "cycle (n)",
+    "definition": "a series of events that repeat",
+    "example": "the sleep cycle",
+    "translation": "ciclo",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-179",
+    "front": "decade (n)",
+    "definition": "a period of ten years",
+    "example": "over the last decade",
+    "translation": "década",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-180",
+    "front": "detect (v)",
+    "definition": "to discover or notice",
+    "example": "The test detects small changes.",
+    "translation": "detectar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-181",
+    "front": "dimension (n)",
+    "definition": "a measurement or aspect",
+    "example": "another dimension of the problem",
+    "translation": "dimensión",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-182",
+    "front": "display (v/n)",
+    "definition": "to show",
+    "example": "The screen displays the results.",
+    "translation": "mostrar/pantalla",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-183",
+    "front": "diverse (adj)",
+    "definition": "very different from each other",
+    "example": "a diverse group of students",
+    "translation": "diverso",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-184",
+    "front": "document (n/v)",
+    "definition": "a written record; to record",
+    "example": "Save the document.",
+    "translation": "documento/documentar",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-185",
+    "front": "domestic (adj)",
+    "definition": "of the home or a country's own",
+    "example": "domestic flights",
+    "translation": "doméstico/nacional",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-186",
+    "front": "dominate (v)",
+    "definition": "to be the strongest",
+    "example": "One theory dominated the field.",
+    "translation": "dominar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-187",
+    "front": "draft (n/v)",
+    "definition": "a first version",
+    "example": "This is only a first draft.",
+    "translation": "borrador",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-188",
+    "front": "dramatic (adj)",
+    "definition": "sudden and noticeable",
+    "example": "a dramatic improvement",
+    "translation": "drástico/espectacular",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-189",
+    "front": "dynamic (adj)",
+    "definition": "always changing; full of energy",
+    "example": "a dynamic classroom",
+    "translation": "dinámico",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-190",
+    "front": "enforce (v)",
+    "definition": "to make people obey a rule",
+    "example": "The rule is rarely enforced.",
+    "translation": "hacer cumplir",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-191",
+    "front": "enormous (adj)",
+    "definition": "extremely large",
+    "example": "an enormous difference",
+    "translation": "enorme",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-192",
+    "front": "equivalent (adj/n)",
+    "definition": "equal in value or meaning",
+    "example": "There is no exact equivalent.",
+    "translation": "equivalente",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-193",
+    "front": "error (n)",
+    "definition": "a mistake",
+    "example": "a common error among learners",
+    "translation": "error",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-194",
+    "front": "ethical (adj)",
+    "definition": "morally right",
+    "example": "an ethical decision",
+    "translation": "ético",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-195",
+    "front": "evolve (v)",
+    "definition": "to develop gradually",
+    "example": "The language has evolved.",
+    "translation": "evolucionar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-196",
+    "front": "exceed (v)",
+    "definition": "to be greater than a limit",
+    "example": "Costs exceeded the budget.",
+    "translation": "exceder/superar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-197",
+    "front": "exhibit (v)",
+    "definition": "to show publicly or display a quality",
+    "example": "He exhibits great patience.",
+    "translation": "exhibir/mostrar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-198",
+    "front": "expert (n/adj)",
+    "definition": "someone with special knowledge",
+    "example": "an expert in phonetics",
+    "translation": "experto",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-199",
+    "front": "expose (v)",
+    "definition": "to make visible or subject to",
+    "example": "Learners must be exposed to real speech.",
+    "translation": "exponer",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-200",
+    "front": "extract (v/n)",
+    "definition": "to take out; a short passage",
+    "example": "an extract from the novel",
+    "translation": "extraer/extracto",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-201",
+    "front": "flexible (adj)",
+    "definition": "able to change easily",
+    "example": "flexible working hours",
+    "translation": "flexible",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-202",
+    "front": "framework (n)",
+    "definition": "a basic structure of ideas",
+    "example": "a theoretical framework",
+    "translation": "marco",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-203",
+    "front": "gender (n)",
+    "definition": "the state of being male or female",
+    "example": "gender differences in the data",
+    "translation": "género",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-204",
+    "front": "generation (n)",
+    "definition": "all the people born around the same time",
+    "example": "the younger generation",
+    "translation": "generación",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-205",
+    "front": "guarantee (v/n)",
+    "definition": "to promise something will happen",
+    "example": "Practice doesn't guarantee fluency.",
+    "translation": "garantizar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-206",
+    "front": "guideline (n)",
+    "definition": "advice on how to do something",
+    "example": "follow the guidelines",
+    "translation": "directriz/pauta",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-207",
+    "front": "highlight (v)",
+    "definition": "to draw attention to",
+    "example": "The study highlights a gap.",
+    "translation": "destacar/resaltar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-208",
+    "front": "hence (adv)",
+    "definition": "for this reason",
+    "example": "It rained; hence the delay.",
+    "translation": "por tanto",
+    "tags": [
+      "b1",
+      "adverb",
+      "awl",
+      "formal"
+    ]
+  },
+  {
+    "id": "b1-209",
+    "front": "illustrate (v)",
+    "definition": "to show with an example",
+    "example": "This case illustrates the point.",
+    "translation": "ilustrar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-210",
+    "front": "impose (v)",
+    "definition": "to force something on someone",
+    "example": "They imposed a new rule.",
+    "translation": "imponer",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-211",
+    "front": "index (n)",
+    "definition": "an alphabetical list; a measure",
+    "example": "Check the index at the back.",
+    "translation": "índice",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-212",
+    "front": "initiative (n)",
+    "definition": "a new plan; the ability to act alone",
+    "example": "a government initiative",
+    "translation": "iniciativa",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-213",
+    "front": "insight (n)",
+    "definition": "a clear understanding",
+    "example": "The study offers useful insight.",
+    "translation": "perspicacia/visión",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-214",
+    "front": "instance (n)",
+    "definition": "an example or case",
+    "example": "in this instance",
+    "translation": "caso/instancia",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-215",
+    "front": "intense (adj)",
+    "definition": "very strong",
+    "example": "intense concentration",
+    "translation": "intenso",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-216",
+    "front": "interact (v)",
+    "definition": "to communicate or act together",
+    "example": "Learners interact in pairs.",
+    "translation": "interactuar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-217",
+    "front": "justify (v)",
+    "definition": "to give a good reason for",
+    "example": "How do you justify that claim?",
+    "translation": "justificar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-218",
+    "front": "layer (n)",
+    "definition": "a level or thickness",
+    "example": "another layer of meaning",
+    "translation": "capa",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-219",
+    "front": "lecture (n)",
+    "definition": "a formal talk to teach",
+    "example": "a lecture on phonology",
+    "translation": "conferencia/clase magistral",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-220",
+    "front": "link (v/n)",
+    "definition": "to connect",
+    "example": "The two ideas are linked.",
+    "translation": "vincular/enlace",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-221",
+    "front": "locate (v)",
+    "definition": "to find the position of",
+    "example": "Can you locate the error?",
+    "translation": "localizar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-222",
+    "front": "logical (adj)",
+    "definition": "sensible and reasonable",
+    "example": "a logical conclusion",
+    "translation": "lógico",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-223",
+    "front": "mechanism (n)",
+    "definition": "a process or system that produces a result",
+    "example": "the mechanism behind forgetting",
+    "translation": "mecanismo",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-224",
+    "front": "media (n)",
+    "definition": "newspapers, TV and internet together",
+    "example": "social media",
+    "translation": "medios de comunicación",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-225",
+    "front": "mental (adj)",
+    "definition": "of the mind",
+    "example": "mental effort",
+    "translation": "mental",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-226",
+    "front": "minimal (adj)",
+    "definition": "very small in amount",
+    "example": "minimal effort",
+    "translation": "mínimo",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-227",
+    "front": "minor (adj)",
+    "definition": "small and not important",
+    "example": "a minor error",
+    "translation": "menor/leve",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-228",
+    "front": "modify (v)",
+    "definition": "to change slightly",
+    "example": "We modified the design.",
+    "translation": "modificar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-229",
+    "front": "monitor (v)",
+    "definition": "to watch and check over time",
+    "example": "Monitor your progress weekly.",
+    "translation": "supervisar/controlar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-230",
+    "front": "negative (adj)",
+    "definition": "bad or harmful; saying no",
+    "example": "a negative effect",
+    "translation": "negativo",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-231",
+    "front": "network (n)",
+    "definition": "a connected system",
+    "example": "a network of contacts",
+    "translation": "red",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-232",
+    "front": "neutral (adj)",
+    "definition": "not supporting either side",
+    "example": "a neutral tone",
+    "translation": "neutral",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-233",
+    "front": "nevertheless (adv)",
+    "definition": "despite that",
+    "example": "It's hard; nevertheless, it works.",
+    "translation": "no obstante",
+    "tags": [
+      "b1",
+      "adverb",
+      "awl",
+      "formal"
+    ]
+  },
+  {
+    "id": "b1-234",
+    "front": "objective (n/adj)",
+    "definition": "a goal; not influenced by feelings",
+    "example": "Our main objective is fluency.",
+    "translation": "objetivo",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-235",
+    "front": "obvious (adj)",
+    "definition": "easy to see or understand",
+    "example": "an obvious mistake",
+    "translation": "obvio",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-236",
+    "front": "option (n)",
+    "definition": "a choice",
+    "example": "You have three options.",
+    "translation": "opción",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-237",
+    "front": "output (n)",
+    "definition": "what is produced",
+    "example": "language output",
+    "translation": "producción/salida",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-238",
+    "front": "parallel (adj)",
+    "definition": "similar and happening at the same time",
+    "example": "a parallel process",
+    "translation": "paralelo",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-239",
+    "front": "passive (adj)",
+    "definition": "not active; accepting without acting",
+    "example": "passive listening isn't enough",
+    "translation": "pasivo",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-240",
+    "front": "perspective (n)",
+    "definition": "a point of view",
+    "example": "from a different perspective",
+    "translation": "perspectiva",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-241",
+    "front": "phase (n)",
+    "definition": "a stage in a process",
+    "example": "the first phase of learning",
+    "translation": "fase",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-242",
+    "front": "physical (adj)",
+    "definition": "of the body or material world",
+    "example": "physical exercise",
+    "translation": "físico",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-243",
+    "front": "precise (adj)",
+    "definition": "exact and accurate",
+    "example": "the precise meaning",
+    "translation": "preciso",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-244",
+    "front": "promote (v)",
+    "definition": "to encourage; to raise in rank",
+    "example": "This promotes autonomy.",
+    "translation": "promover/ascender",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-245",
+    "front": "proportion (n)",
+    "definition": "a part compared to the whole",
+    "example": "a large proportion of learners",
+    "translation": "proporción",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-246",
+    "front": "pursue (v)",
+    "definition": "to continue trying to achieve",
+    "example": "She pursued a career in teaching.",
+    "translation": "perseguir/proseguir",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-247",
+    "front": "quote (v/n)",
+    "definition": "to repeat someone's exact words",
+    "example": "He quoted the author directly.",
+    "translation": "citar/cita",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-248",
+    "front": "random (adj)",
+    "definition": "chosen without a pattern",
+    "example": "a random sample",
+    "translation": "aleatorio",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-249",
+    "front": "react (v)",
+    "definition": "to respond to something",
+    "example": "How did she react?",
+    "translation": "reaccionar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-250",
+    "front": "recall (v)",
+    "definition": "to remember",
+    "example": "I can't recall his name.",
+    "translation": "recordar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-251",
+    "front": "register (n/v)",
+    "definition": "the style of language for a situation",
+    "example": "an academic register",
+    "translation": "registro",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-252",
+    "front": "reject (v)",
+    "definition": "to refuse to accept",
+    "example": "They rejected the proposal.",
+    "translation": "rechazar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-253",
+    "front": "release (v)",
+    "definition": "to let go; to make available",
+    "example": "They released the results.",
+    "translation": "liberar/publicar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-254",
+    "front": "restore (v)",
+    "definition": "to bring back to a former state",
+    "example": "Sleep restores attention.",
+    "translation": "restaurar/restablecer",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-255",
+    "front": "reverse (v/adj)",
+    "definition": "to change to the opposite",
+    "example": "The trend has reversed.",
+    "translation": "invertir/inverso",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-256",
+    "front": "revise (v)",
+    "definition": "to change or study again",
+    "example": "Revise your draft.",
+    "translation": "revisar/repasar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-257",
+    "front": "route (n)",
+    "definition": "a way from one place to another",
+    "example": "the fastest route",
+    "translation": "ruta",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-258",
+    "front": "schedule (n/v)",
+    "definition": "a plan of times",
+    "example": "a tight schedule",
+    "translation": "horario/programar",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-259",
+    "front": "shift (n/v)",
+    "definition": "a change; a work period",
+    "example": "a shift in attention",
+    "translation": "cambio/turno",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-260",
+    "front": "somewhat (adv)",
+    "definition": "a little; to some degree",
+    "example": "somewhat surprising",
+    "translation": "algo/un poco",
+    "tags": [
+      "b1",
+      "adverb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-261",
+    "front": "specify (v)",
+    "definition": "to state exactly",
+    "example": "Specify the deadline.",
+    "translation": "especificar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-262",
+    "front": "stable (adj)",
+    "definition": "not likely to change",
+    "example": "a stable result",
+    "translation": "estable",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-263",
+    "front": "statistic (n)",
+    "definition": "a number from collected data",
+    "example": "an alarming statistic",
+    "translation": "estadística",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-264",
+    "front": "status (n)",
+    "definition": "position or state",
+    "example": "the status of the application",
+    "translation": "estado/estatus",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-265",
+    "front": "stress (n/v)",
+    "definition": "pressure; to emphasise",
+    "example": "He stressed the importance of input.",
+    "translation": "estrés/enfatizar",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-266",
+    "front": "submit (v)",
+    "definition": "to give in for consideration",
+    "example": "Submit your essay by Friday.",
+    "translation": "entregar/presentar",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-267",
+    "front": "summary (n)",
+    "definition": "a short version of the main points",
+    "example": "Write a brief summary.",
+    "translation": "resumen",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-268",
+    "front": "survive (v)",
+    "definition": "to continue to live or exist",
+    "example": "Few languages survive isolation.",
+    "translation": "sobrevivir",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-269",
+    "front": "suspend (v)",
+    "definition": "to stop temporarily",
+    "example": "The service was suspended.",
+    "translation": "suspender",
+    "tags": [
+      "b1",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-270",
+    "front": "symbol (n)",
+    "definition": "a sign that represents something",
+    "example": "a phonetic symbol",
+    "translation": "símbolo",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-271",
+    "front": "target (n/v)",
+    "definition": "something you aim at",
+    "example": "a realistic target",
+    "translation": "objetivo/meta",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-272",
+    "front": "task (n)",
+    "definition": "a piece of work to do",
+    "example": "a communicative task",
+    "translation": "tarea",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-273",
+    "front": "technical (adj)",
+    "definition": "relating to a specific skill or science",
+    "example": "technical vocabulary",
+    "translation": "técnico",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-274",
+    "front": "technique (n)",
+    "definition": "a particular way of doing something",
+    "example": "a memory technique",
+    "translation": "técnica",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-275",
+    "front": "temporary (adj)",
+    "definition": "lasting only a short time",
+    "example": "a temporary solution",
+    "translation": "temporal/provisional",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-276",
+    "front": "theme (n)",
+    "definition": "the main subject",
+    "example": "the central theme of the text",
+    "translation": "tema",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-277",
+    "front": "trend (n)",
+    "definition": "a general direction of change",
+    "example": "a growing trend",
+    "translation": "tendencia",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-278",
+    "front": "trigger (v)",
+    "definition": "to cause something to start",
+    "example": "The word triggered a memory.",
+    "translation": "desencadenar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "b1-279",
+    "front": "ultimate (adj)",
+    "definition": "final or most important",
+    "example": "the ultimate goal",
+    "translation": "último/definitivo",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-280",
+    "front": "undertake (v)",
+    "definition": "to start and take responsibility for",
+    "example": "They undertook a large study.",
+    "translation": "emprender",
+    "tags": [
+      "b1",
+      "verb",
+      "awl",
+      "irregular"
+    ]
+  },
+  {
+    "id": "b1-281",
+    "front": "unique (adj)",
+    "definition": "the only one of its kind",
+    "example": "a unique case",
+    "translation": "único",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-282",
+    "front": "valid (adj)",
+    "definition": "based on truth or logic; legally usable",
+    "example": "a valid argument",
+    "translation": "válido",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-283",
+    "front": "version (n)",
+    "definition": "a form of something that differs",
+    "example": "the latest version",
+    "translation": "versión",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-284",
+    "front": "via (prep)",
+    "definition": "by way of; using",
+    "example": "We contacted them via email.",
+    "translation": "a través de",
+    "tags": [
+      "b1",
+      "preposition",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-285",
+    "front": "virtual (adj)",
+    "definition": "existing on a computer",
+    "example": "a virtual classroom",
+    "translation": "virtual",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-286",
+    "front": "visible (adj)",
+    "definition": "able to be seen",
+    "example": "no visible difference",
+    "translation": "visible",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-287",
+    "front": "visual (adj)",
+    "definition": "relating to seeing",
+    "example": "visual memory",
+    "translation": "visual",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-288",
+    "front": "volume (n)",
+    "definition": "amount; loudness",
+    "example": "the volume of input",
+    "translation": "volumen",
+    "tags": [
+      "b1",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-289",
+    "front": "voluntary (adj)",
+    "definition": "done by choice",
+    "example": "voluntary participation",
+    "translation": "voluntario",
+    "tags": [
+      "b1",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b1-290",
+    "front": "whereas (conj)",
+    "definition": "in contrast to the fact that",
+    "example": "He likes reading, whereas she prefers audio.",
+    "translation": "mientras que",
+    "tags": [
+      "b1",
+      "conjunction",
+      "awl",
+      "formal"
+    ]
+  },
+  {
+    "id": "b1-291",
+    "front": "as a result (chunk)",
+    "definition": "because of that",
+    "example": "As a result, prices fell.",
+    "translation": "como resultado",
+    "tags": [
+      "b1",
+      "chunk"
+    ]
+  },
+  {
+    "id": "b1-292",
+    "front": "in addition (chunk)",
+    "definition": "also, moreover",
+    "example": "In addition, it saves time.",
+    "translation": "además",
+    "tags": [
+      "b1",
+      "chunk"
+    ]
+  },
+  {
+    "id": "b1-293",
+    "front": "on the other hand (chunk)",
+    "definition": "used to give a contrasting view",
+    "example": "On the other hand, it's cheaper.",
+    "translation": "por otro lado",
+    "tags": [
+      "b1",
+      "chunk"
+    ]
+  },
+  {
+    "id": "b1-294",
+    "front": "in terms of (chunk)",
+    "definition": "with regard to",
+    "example": "In terms of cost, it's fine.",
+    "translation": "en cuanto a",
+    "tags": [
+      "b1",
+      "chunk"
+    ]
+  },
+  {
+    "id": "b1-295",
+    "front": "take into account (chunk)",
+    "definition": "to consider when deciding",
+    "example": "Take the deadline into account.",
+    "translation": "tener en cuenta",
+    "tags": [
+      "b1",
+      "chunk"
+    ]
+  },
+  {
+    "id": "b1-296",
+    "front": "play a role (chunk)",
+    "definition": "to have an effect or function",
+    "example": "Sleep plays a key role.",
+    "translation": "jugar un papel",
+    "tags": [
+      "b1",
+      "chunk"
+    ]
+  },
+  {
+    "id": "b1-297",
+    "front": "to some extent (chunk)",
+    "definition": "partly",
+    "example": "That's true to some extent.",
+    "translation": "en cierta medida",
+    "tags": [
+      "b1",
+      "chunk"
+    ]
+  },
+  {
+    "id": "b1-298",
+    "front": "bear in mind that (chunk)",
+    "definition": "remember that",
+    "example": "Bear in mind that it's optional.",
+    "translation": "ten en cuenta que",
+    "tags": [
+      "b1",
+      "chunk"
+    ]
+  },
+  {
+    "id": "b1-299",
+    "front": "give rise to (chunk)",
+    "definition": "to cause",
+    "example": "The change gave rise to complaints.",
+    "translation": "dar lugar a",
+    "tags": [
+      "b1",
+      "chunk"
+    ]
+  },
+  {
+    "id": "b1-300",
+    "front": "in the long run (chunk)",
+    "definition": "over a long period",
+    "example": "It's cheaper in the long run.",
+    "translation": "a la larga",
+    "tags": [
+      "b1",
+      "chunk"
+    ]
   }
 ]
