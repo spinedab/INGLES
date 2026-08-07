@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ingles-webapp-v6';
+const CACHE_NAME = 'ingles-webapp-v7';
 
 const CORE_ASSETS = [
   './',
@@ -21,6 +21,7 @@ const CORE_ASSETS = [
   './js/search.js',
   './js/notebook.js',
   './js/data.js',
+  './content/grammar.json',
   './content/vocab/a1.json',
   './content/vocab/a2.json',
   './content/vocab/b1.json',

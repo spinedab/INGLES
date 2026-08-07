@@ -1,7 +1,7 @@
 import { loadVocab } from './flashcards.js';
 import { READING_INDEX, countWords, loadText } from './reading.js';
 import { LISTENING_INDEX, loadListen } from './listening.js';
-import { TOPICS } from './grammar.js';
+import { loadTopics } from './grammar.js';
 import { addLexiconEntry, isSaved } from './notebook.js';
 
 const LEVELS = ['a1', 'a2', 'b1', 'b2'];
@@ -137,7 +137,7 @@ async function buildSearchIndex() {
     }
   }
 
-  for (const topic of TOPICS) {
+  for (const topic of await loadTopics()) {
     items.push({
       type: 'grammar',
       level: topic.level,

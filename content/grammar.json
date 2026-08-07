@@ -1,0 +1,1603 @@
+[
+  {
+    "id": "articulo-indefinido-profesiones",
+    "title": "«a / an» con profesiones y cantidades",
+    "level": "a1",
+    "why": "«Soy ingeniero» no lleva artículo en español, pero «I am engineer» es incorrecto: el inglés exige «an engineer».",
+    "rule": "Profesiones, nacionalidades como sustantivo y sustantivos contables en singular llevan a/an. «a» ante sonido consonántico, «an» ante sonido vocálico — se decide por SONIDO, no por letra: «a university» (yu-), «an hour» (au-).",
+    "examples": [
+      [
+        "I'm a nurse.",
+        "NO: «*I'm nurse.»"
+      ],
+      [
+        "She's an architect.",
+        "sonido vocálico → an"
+      ],
+      [
+        "a university",
+        "se pronuncia «yuniversity» → a"
+      ],
+      [
+        "an hour",
+        "la h es muda → an"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "My brother is _____ doctor.",
+        "options": [
+          "a",
+          "an",
+          "—"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "I need _____ umbrella.",
+        "options": [
+          "a",
+          "an"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "We waited _____ hour.",
+        "options": [
+          "a",
+          "an"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "She's _____ engineer.",
+        "options": [
+          "a",
+          "an"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "It's _____ European country.",
+        "options": [
+          "a",
+          "an"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "have-vs-be-edad",
+    "title": "Edad, hambre y frío: be, no have",
+    "level": "a1",
+    "why": "«Tengo 30 años», «tengo hambre», «tengo frío» se dicen con TENER en español y con BE en inglés. «I have 30 years» es un error inmediatamente reconocible.",
+    "rule": "Estados personales (edad, hambre, sed, frío, calor, miedo, sueño, razón) van con be + adjetivo: I am hungry. Con have van las posesiones y algunas dolencias: I have a car, I have a headache.",
+    "examples": [
+      [
+        "I'm 30 (years old).",
+        "NO: «*I have 30 years»"
+      ],
+      [
+        "Are you hungry?",
+        "NO: «*Do you have hunger?»"
+      ],
+      [
+        "She's cold.",
+        "NO: «*She has cold» — eso sería resfriado"
+      ],
+      [
+        "I have a headache.",
+        "Dolencia concreta: sí lleva have"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "How old _____ you?",
+        "options": [
+          "are",
+          "do you have",
+          "have"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "I _____ thirsty.",
+        "options": [
+          "have",
+          "am"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "They _____ afraid of dogs.",
+        "options": [
+          "have",
+          "are"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "She _____ a new bike.",
+        "options": [
+          "is",
+          "has"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "My son _____ eight years old.",
+        "options": [
+          "has",
+          "is"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "plural-y-tercera-persona",
+    "title": "La -s: plural y tercera persona",
+    "level": "a1",
+    "why": "Omitir la -s de «he works» es uno de los errores más persistentes, y sobrevive incluso en niveles altos porque en español la persona ya va marcada en la terminación del verbo.",
+    "rule": "Sustantivos: +s en plural. Verbos: +s SOLO en he/she/it del presente simple. Nunca las dos cosas a la vez: «the cats sleep» (sujeto plural → verbo sin s), «the cat sleeps».",
+    "examples": [
+      [
+        "He works in a bank.",
+        "NO: «*He work»"
+      ],
+      [
+        "They work in a bank.",
+        "Sujeto plural → verbo sin -s"
+      ],
+      [
+        "My sister lives in Cali.",
+        "3ª persona singular"
+      ],
+      [
+        "Two coffees, please.",
+        "Plural del sustantivo"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "She _____ tennis every Sunday.",
+        "options": [
+          "play",
+          "plays"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "My parents _____ in Bogotá.",
+        "options": [
+          "live",
+          "lives"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "The dog _____ a lot.",
+        "options": [
+          "bark",
+          "barks"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "It _____ a lot in April.",
+        "options": [
+          "rain",
+          "rains"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "John and Ana _____ English.",
+        "options": [
+          "study",
+          "studies"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "He never _____ late.",
+        "options": [
+          "arrive",
+          "arrives"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "subject-pronoun-obligatorio",
+    "title": "El sujeto nunca se omite",
+    "level": "a1",
+    "why": "En español «Es profesora» o «Llueve» no llevan sujeto. En inglés el sujeto es obligatorio siempre, incluso cuando no significa nada: «It rains».",
+    "rule": "Toda oración necesita sujeto explícito. Cuando no hay sujeto real (clima, hora, distancia, valoraciones) se usa el sujeto vacío «it». Para «hay» se usa «there is / there are».",
+    "examples": [
+      [
+        "She is a teacher.",
+        "NO: «*Is a teacher.»"
+      ],
+      [
+        "It's raining.",
+        "NO: «*Is raining.» — «it» no traduce nada"
+      ],
+      [
+        "It's five o'clock.",
+        "El «it» del reloj tampoco se traduce"
+      ],
+      [
+        "There are three books on the table.",
+        "«hay» = there is / there are"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "_____ is cold today.",
+        "options": [
+          "It",
+          "—",
+          "There"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "_____ two cats in the garden.",
+        "options": [
+          "It is",
+          "There are",
+          "Are"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "«Es médico.» →",
+        "options": [
+          "Is a doctor.",
+          "He is a doctor."
+        ],
+        "answer": 1
+      },
+      {
+        "q": "_____ 'clock. Time to go.",
+        "options": [
+          "Is nine o",
+          "It's nine o"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "_____ a problem with the wifi.",
+        "options": [
+          "There is",
+          "It has",
+          "Has"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "word-order",
+    "title": "Orden de palabras: adjetivo + sustantivo",
+    "level": "a1",
+    "why": "En español \"una casa roja\", en inglés \"a red house\". El adjetivo SIEMPRE va antes del sustantivo en inglés.",
+    "rule": "Adjetivo + sustantivo. Si hay varios: opinión → tamaño → edad → forma → color → origen → material → propósito. \"A beautiful little old square brown wooden picture frame.\"",
+    "examples": [
+      [
+        "a red car",
+        "NO: \"*a car red\""
+      ],
+      [
+        "expensive Italian shoes",
+        "opinión + origen"
+      ],
+      [
+        "the small black cat",
+        "tamaño + color"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "Choose: \"Tengo un coche nuevo y rápido.\"",
+        "options": [
+          "I have a new fast car.",
+          "I have a car new and fast.",
+          "I have a fast new car."
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Choose: \"Una casa grande y blanca\"",
+        "options": [
+          "A big white house",
+          "A white big house",
+          "A house big white"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Choose the correct sentence:",
+        "options": [
+          "She wore a beautiful long red dress.",
+          "She wore a red long beautiful dress.",
+          "She wore a dress beautiful long red."
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "comparativos",
+    "title": "Comparativos y superlativos",
+    "level": "a2",
+    "why": "«más alto que» tienta a decir «*more tall that»: se olvida el -er de los adjetivos cortos y se confunde «than» con «that».",
+    "rule": "1 sílaba (y 2 acabadas en -y): +er / +est (tall→taller, easy→easier). 2 o más sílabas: more / most. La comparación se marca con THAN, no «that». Irregulares: good→better→best, bad→worse→worst, far→further.",
+    "examples": [
+      [
+        "She's taller than me.",
+        "NO: «*more tall that me»"
+      ],
+      [
+        "This is more expensive than that.",
+        "adjetivo largo → more"
+      ],
+      [
+        "It's the best film of the year.",
+        "irregular"
+      ],
+      [
+        "Today is worse than yesterday.",
+        "irregular"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "My car is _____ than yours.",
+        "options": [
+          "more fast",
+          "faster"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "This exercise is _____ difficult.",
+        "options": [
+          "more",
+          "-er"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "He's the _____ student in the class.",
+        "options": [
+          "most good",
+          "best"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "It's colder _____ last week.",
+        "options": [
+          "that",
+          "than"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "This is the _____ book I've read.",
+        "options": [
+          "worse",
+          "worst"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "countable-uncountable",
+    "title": "Contables e incontables: much, many, few, little",
+    "level": "a2",
+    "why": "«un consejo», «una información», «un mueble» son contables en español e incontables en inglés: «*an advice», «*informations» y «*a furniture» son errores.",
+    "rule": "Incontables frecuentes: advice, information, furniture, luggage, news, money, bread, work, homework. No llevan a/an ni plural. Con ellos: much, little, a little, a bit of. Con contables: many, few, a few.",
+    "examples": [
+      [
+        "She gave me some good advice.",
+        "NO: «*an advice» / «*advices»"
+      ],
+      [
+        "I don't have much time.",
+        "incontable → much"
+      ],
+      [
+        "How many books do you have?",
+        "contable → many"
+      ],
+      [
+        "The news is bad.",
+        "«news» es incontable y va en singular"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "How _____ money do you need?",
+        "options": [
+          "many",
+          "much"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "I have _____ friends here.",
+        "options": [
+          "much",
+          "a few"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Can you give me some _____?",
+        "options": [
+          "informations",
+          "information"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "There isn't _____ bread left.",
+        "options": [
+          "many",
+          "much"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "We bought new _____.",
+        "options": [
+          "furnitures",
+          "furniture"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "She has very _____ patience.",
+        "options": [
+          "few",
+          "little"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "do-support",
+    "title": "Do-support en preguntas y negaciones",
+    "level": "a2",
+    "why": "En español preguntamos \"¿Tú comes carne?\" sin auxiliar. En inglés se requiere \"do/does\" excepto con be y modales: \"Do you eat meat?\".",
+    "rule": "Para presente simple: do (I, you, we, they) / does (he, she, it). Pasado simple: did para todos. El verbo principal en infinitivo SIN -s ni -ed: \"Does he LIVE here?\" (no \"lives\"). Excepciones: be, modal verbs (can, must, will, etc.), have got.",
+    "examples": [
+      [
+        "Do you speak English?",
+        "NO: \"*Speak you English?\""
+      ],
+      [
+        "She doesn't like coffee.",
+        "NO: \"*She not likes coffee.\""
+      ],
+      [
+        "Did they arrive on time?",
+        "NO: \"*Arrived they on time?\""
+      ],
+      [
+        "Is he a doctor?",
+        "Con \"be\" no hay do-support."
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "_____ you like pizza?",
+        "options": [
+          "Are",
+          "Do",
+          "—"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "She _____ live in Madrid.",
+        "options": [
+          "don't",
+          "doesn't",
+          "not"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "_____ he come yesterday?",
+        "options": [
+          "Was",
+          "Did",
+          "Do"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "They _____ work on Sundays.",
+        "options": [
+          "don't",
+          "doesn't",
+          "aren't"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "_____ your sister speak French?",
+        "options": [
+          "Is",
+          "Does",
+          "Do"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "I _____ understand the question.",
+        "options": [
+          "don't",
+          "am not",
+          "not"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "for-since-ago",
+    "title": "for, since y ago",
+    "level": "a2",
+    "why": "«Hace dos años» puede ser «two years ago» o «for two years» según si la acción terminó o continúa, y «desde» se confunde con «hace».",
+    "rule": "for + duración (for three years). since + punto de inicio (since 2020, since Monday). ago + periodo, siempre con past simple (three years ago). «hace X que...» continuando = for/since + present perfect.",
+    "examples": [
+      [
+        "I've lived here for five years.",
+        "duración que continúa"
+      ],
+      [
+        "I've lived here since 2021.",
+        "punto de inicio"
+      ],
+      [
+        "I moved here five years ago.",
+        "acción puntual y cerrada → past simple"
+      ],
+      [
+        "NO: «*I live here since 2021.»",
+        "«since» pide present perfect"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "I've known her _____ 2015.",
+        "options": [
+          "for",
+          "since"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "We waited _____ two hours.",
+        "options": [
+          "since",
+          "for"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "She left ten minutes _____.",
+        "options": [
+          "ago",
+          "since"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "They _____ married for a year.",
+        "options": [
+          "are",
+          "have been"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "He started working here three years _____.",
+        "options": [
+          "for",
+          "ago"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "gerundio-tras-preposicion",
+    "title": "Tras preposición, siempre -ing",
+    "level": "a2",
+    "why": "En español «antes de salir» usa infinitivo; en inglés «before leaving» exige gerundio. «*before to leave» es un error muy frecuente.",
+    "rule": "Cualquier verbo que siga a una preposición va en -ing: before/after/without/instead of/interested in/good at/tired of/look forward to. Ojo: «to» puede ser preposición (look forward to seeing) o parte del infinitivo (want to see).",
+    "examples": [
+      [
+        "Before leaving, check the lights.",
+        "NO: «*before to leave»"
+      ],
+      [
+        "She's good at cooking.",
+        "at + -ing"
+      ],
+      [
+        "I'm tired of waiting.",
+        "of + -ing"
+      ],
+      [
+        "I look forward to hearing from you.",
+        "«to» aquí es preposición"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "Thanks for _____ me.",
+        "options": [
+          "help",
+          "helping"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "He left without _____ goodbye.",
+        "options": [
+          "saying",
+          "to say"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "I'm interested in _____ Japanese.",
+        "options": [
+          "learn",
+          "learning"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Instead of _____, she walked.",
+        "options": [
+          "driving",
+          "to drive"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "We want _____ early.",
+        "options": [
+          "leaving",
+          "to leave"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "there-is-vs-it-is",
+    "title": "«there is» frente a «it is»",
+    "level": "a2",
+    "why": "Los dos se traducen por formas de «haber/ser» y se confunden: «hay un problema» es «there is a problem», no «it is a problem» (que significa «es un problema»).",
+    "rule": "there is/are presenta algo nuevo (existencia). it is describe algo ya identificado. Una vez presentado con there, se sigue hablando de ello con it.",
+    "examples": [
+      [
+        "There's a café on the corner. It's very good.",
+        "primero presenta, luego describe"
+      ],
+      [
+        "There are many reasons.",
+        "existencia"
+      ],
+      [
+        "It's a difficult decision.",
+        "valoración de algo ya conocido"
+      ],
+      [
+        "Is there any milk?",
+        "pregunta por existencia"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "_____ someone at the door.",
+        "options": [
+          "It's",
+          "There's"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "_____ my favourite restaurant.",
+        "options": [
+          "There's",
+          "It's"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "_____ any tickets left?",
+        "options": [
+          "Are there",
+          "Are it"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "_____ too late to call her.",
+        "options": [
+          "There is",
+          "It is"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "_____ a lot of traffic today.",
+        "options": [
+          "It is",
+          "There is"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "conditionals",
+    "title": "1ª, 2ª y 3ª condicional",
+    "level": "b1",
+    "why": "Cuatro patrones que muchos confunden. Decisión clave: ¿situación real, hipotética presente o hipotética pasada?",
+    "rule": "0ª: If + present, present (verdad general). 1ª: If + present, will (futuro real). 2ª: If + past, would (hipotético presente). 3ª: If + past perfect, would have + p.p. (hipotético pasado).",
+    "examples": [
+      [
+        "If you heat water, it boils.",
+        "0ª — verdad."
+      ],
+      [
+        "If it rains, I'll stay home.",
+        "1ª — real futuro."
+      ],
+      [
+        "If I had more money, I would travel.",
+        "2ª — irreal presente."
+      ],
+      [
+        "If I had studied harder, I would have passed.",
+        "3ª — irreal pasado."
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "If I _____ rich, I would buy a house.",
+        "options": [
+          "am",
+          "were",
+          "have been"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "If it _____ tomorrow, we'll cancel the picnic.",
+        "options": [
+          "rains",
+          "will rain",
+          "rained"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "If she had known, she _____ you.",
+        "options": [
+          "would tell",
+          "would have told",
+          "will tell"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "If you _____ ice, it melts.",
+        "options": [
+          "heat",
+          "will heat",
+          "heated"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "If I _____ you, I would apologize.",
+        "options": [
+          "am",
+          "was",
+          "were"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "modals-deduccion",
+    "title": "Modales de deducción: must, might, can't",
+    "level": "b1",
+    "why": "Para especular, el español usa futuro y condicional («serán las tres», «estaría cansado»). En inglés eso se hace con modales, y usar el futuro suena a predicción, no a deducción.",
+    "rule": "must (deducción casi segura), might/may/could (posible), can't (imposible — no «mustn't», que es prohibición). Para deducir sobre el pasado: modal + have + participio.",
+    "examples": [
+      [
+        "It must be three o'clock.",
+        "«serán las tres»"
+      ],
+      [
+        "She might be at home.",
+        "posibilidad"
+      ],
+      [
+        "That can't be right.",
+        "NO: «*that mustn't be right»"
+      ],
+      [
+        "He must have forgotten.",
+        "deducción sobre el pasado"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "The lights are off — they _____ be out.",
+        "options": [
+          "must",
+          "can't"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "That _____ be John; he's in Peru.",
+        "options": [
+          "mustn't",
+          "can't"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "She's late; she _____ missed the bus.",
+        "options": [
+          "might have",
+          "might"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Estará durmiendo» →",
+        "options": [
+          "He will sleep.",
+          "He must be sleeping."
+        ],
+        "answer": 1
+      },
+      {
+        "q": "It _____ rain later; take a coat.",
+        "options": [
+          "must",
+          "could"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "passive-voice",
+    "title": "Voz pasiva",
+    "level": "b1",
+    "why": "El español prefiere la pasiva refleja («se construyó en 1920») y la impersonal, así que la pasiva inglesa se usa menos de lo que debería en registro formal y académico.",
+    "rule": "be + participio pasado. El agente solo se menciona con «by» si aporta información. Es la forma normal cuando el agente es desconocido, irrelevante u obvio — muy frecuente en textos científicos y noticias.",
+    "examples": [
+      [
+        "The bridge was built in 1920.",
+        "«se construyó» — agente irrelevante"
+      ],
+      [
+        "English is spoken here.",
+        "«se habla inglés»"
+      ],
+      [
+        "The results were published by Nature.",
+        "agente relevante → by"
+      ],
+      [
+        "My wallet has been stolen.",
+        "present perfect pasivo"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "The letter _____ yesterday.",
+        "options": [
+          "was sent",
+          "was send"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "This song _____ by millions.",
+        "options": [
+          "is listened",
+          "is heard"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "«Se venden casas» →",
+        "options": [
+          "Houses are sold.",
+          "Houses sell."
+        ],
+        "answer": 0
+      },
+      {
+        "q": "The room _____ every day.",
+        "options": [
+          "is cleaned",
+          "is cleaning"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "The problem _____ already been solved.",
+        "options": [
+          "has",
+          "is"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "phrasal-verbs-core",
+    "title": "Phrasal verbs esenciales",
+    "level": "b1",
+    "why": "No se pueden traducir literalmente. \"Look up\" puede significar \"mirar arriba\" o \"buscar (en diccionario)\" según contexto. Hay miles, pero ~200 cubren el uso diario.",
+    "rule": "Separables (objeto entre verbo y partícula u después): \"turn the light on / turn on the light\". Inseparables: \"look after the children\" (no \"*look the children after\"). Memorizar como unidades.",
+    "examples": [
+      [
+        "Could you turn off the TV?",
+        "Separable."
+      ],
+      [
+        "I look after my grandmother.",
+        "Inseparable."
+      ],
+      [
+        "Find out what time it starts.",
+        "Inseparable, transitivo."
+      ],
+      [
+        "She finally gave up smoking.",
+        "Inseparable."
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "Please _____ your homework before dinner.",
+        "options": [
+          "turn off",
+          "finish off",
+          "figure out"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "I can't _____ this puzzle.",
+        "options": [
+          "figure out",
+          "put up with",
+          "come across"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "How do you _____ all this stress?",
+        "options": [
+          "put up with",
+          "look up",
+          "turn into"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "I ran _____ an old friend yesterday.",
+        "options": [
+          "into",
+          "after",
+          "on"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "We need to _____ a solution to this problem.",
+        "options": [
+          "come up with",
+          "put off",
+          "take after"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "present-perfect-vs-past",
+    "title": "Present Perfect vs. Past Simple",
+    "level": "b1",
+    "why": "Error #1 de hispanohablantes: usar \"I have eaten yesterday\" cuando \"yesterday\" exige past simple. El present perfect implica conexión con el presente (sin tiempo definido); el past simple, tiempo cerrado.",
+    "rule": "Past simple: tiempo determinado y cerrado (yesterday, last year, in 2019, ago). Present perfect: experiencia (ever, never), resultado presente, periodo no terminado (today, this week, since, for + período hasta ahora).",
+    "examples": [
+      [
+        "I lived in Madrid in 2015.",
+        "Past simple — tiempo cerrado."
+      ],
+      [
+        "I have lived in Madrid since 2015.",
+        "Present perfect — desde entonces y aún continúa."
+      ],
+      [
+        "Have you ever been to Japan?",
+        "Present perfect — experiencia de vida."
+      ],
+      [
+        "I went to Japan last summer.",
+        "Past simple — momento concreto."
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "I _____ John yesterday.",
+        "options": [
+          "saw",
+          "have seen"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "I _____ in this city for 10 years.",
+        "options": [
+          "lived",
+          "have lived"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "She _____ to Paris three times in her life.",
+        "options": [
+          "went",
+          "has been"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "We _____ dinner an hour ago.",
+        "options": [
+          "had",
+          "have had"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "_____ you ever _____ sushi?",
+        "options": [
+          "Did / try",
+          "Have / tried"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "I _____ the new movie last weekend.",
+        "options": [
+          "saw",
+          "have seen"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "They _____ in their new house since March.",
+        "options": [
+          "live",
+          "have lived"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "When _____ you _____ here?",
+        "options": [
+          "did / arrive",
+          "have / arrived"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "relative-clauses",
+    "title": "Oraciones de relativo",
+    "level": "b1",
+    "why": "«La persona que vi» tienta a «*The person that I saw her»: se duplica el objeto, que en inglés ya está en el relativo. Y «lo que» se traduce mal como «*that».",
+    "rule": "who (personas), which (cosas), that (ambos, solo en especificativas), whose (posesión), where (lugar). El relativo YA es el objeto: no se repite con un pronombre. «Lo que» = what, no that. Con comas (explicativas) no se usa that.",
+    "examples": [
+      [
+        "The man who called is my boss.",
+        "sujeto de la relativa"
+      ],
+      [
+        "The book (that) I read was great.",
+        "objeto: se puede omitir"
+      ],
+      [
+        "NO: «*The book that I read it»",
+        "objeto duplicado"
+      ],
+      [
+        "I don't understand what you mean.",
+        "«lo que» = what"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "The woman _____ lives next door is a vet.",
+        "options": [
+          "which",
+          "who"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "That's the house _____ I grew up.",
+        "options": [
+          "where",
+          "which"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "The film _____ we saw was long.",
+        "options": [
+          "that",
+          "what"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "I know _____ you're thinking.",
+        "options": [
+          "that",
+          "what"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "The student _____ phone rang left.",
+        "options": [
+          "whose",
+          "who's"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "reported-speech",
+    "title": "Estilo indirecto",
+    "level": "b1",
+    "why": "El desplazamiento de tiempos coincide en parte con el español, pero el orden de la pregunta indirecta no: «*He asked me where was the station» es error, aunque suene natural al oído hispano.",
+    "rule": "Un verbo introductor en pasado desplaza el tiempo un paso atrás: present→past, past→past perfect, will→would, can→could. En preguntas indirectas se recupera el orden de afirmación (sujeto + verbo) y desaparece el do-support.",
+    "examples": [
+      [
+        "«I'm tired» → He said he was tired.",
+        "present → past"
+      ],
+      [
+        "«I'll call you» → She said she would call me.",
+        "will → would"
+      ],
+      [
+        "«Where is it?» → He asked where it was.",
+        "NO: «*where was it»"
+      ],
+      [
+        "«Do you speak French?» → She asked if I spoke French.",
+        "sin do-support"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "«I live in Lima» → He said he _____ in Lima.",
+        "options": [
+          "lives",
+          "lived"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "«What time is it?» → She asked what time _____.",
+        "options": [
+          "was it",
+          "it was"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "«I can help» → He said he _____ help.",
+        "options": [
+          "can",
+          "could"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "«Are you ready?» → He asked _____ ready.",
+        "options": [
+          "was I",
+          "if I was"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "«I saw her» → She said she _____ her.",
+        "options": [
+          "saw",
+          "had seen"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "used-to-would-be-used-to",
+    "title": "used to, would y be used to",
+    "level": "b1",
+    "why": "Tres estructuras casi idénticas con significados distintos: «solía», «estoy acostumbrado a» y el imperfecto narrativo. Se mezclan constantemente.",
+    "rule": "used to + infinitivo = hábito pasado que ya no ocurre. would + infinitivo = hábito pasado repetido, solo en narración (no para estados). be used to + -ing/sustantivo = estar acostumbrado a (presente o pasado).",
+    "examples": [
+      [
+        "I used to smoke.",
+        "hábito pasado terminado"
+      ],
+      [
+        "Every summer we would go to the coast.",
+        "hábito narrativo"
+      ],
+      [
+        "I'm used to getting up early.",
+        "estoy acostumbrado — ojo al -ing"
+      ],
+      [
+        "NO: «*I would live in Madrid»",
+        "«live» es estado → used to"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "I _____ play the piano as a child.",
+        "options": [
+          "used to",
+          "am used to"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "She's _____ to working nights now.",
+        "options": [
+          "used",
+          "use"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "I'm not used to _____ so much.",
+        "options": [
+          "walk",
+          "walking"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "We _____ have a dog, but he died.",
+        "options": [
+          "used to",
+          "would"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Are you used to _____ climate?",
+        "options": [
+          "this",
+          "these"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "false-friends",
+    "title": "Falsos amigos de alta frecuencia",
+    "level": "b2",
+    "why": "Son errores que no se corrigen solos porque la palabra existe y la frase suena bien: «I assisted to the meeting» es gramatical pero significa que ayudaste a la reunión.",
+    "rule": "Los más costosos: actually (en realidad, no «actualmente»=currently), eventually (finalmente, no «eventualmente»=possibly), assist (ayudar, no «asistir»=attend), realize (darse cuenta, no «realizar»=carry out), sensible (sensato, no «sensible»=sensitive), embarrassed (avergonzado, no «embarazada»=pregnant).",
+    "examples": [
+      [
+        "I attended the meeting.",
+        "NO: «*assisted to»"
+      ],
+      [
+        "Actually, I disagree.",
+        "= en realidad"
+      ],
+      [
+        "She's currently in Lima.",
+        "«actualmente» = currently"
+      ],
+      [
+        "He eventually agreed.",
+        "= finalmente, tras un proceso"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "«Actualmente vivo en Cali» →",
+        "options": [
+          "Actually I live",
+          "I currently live"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Did you _____ the conference?",
+        "options": [
+          "assist",
+          "attend"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "She's a very _____ person: she thinks first.",
+        "options": [
+          "sensible",
+          "sensitive"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "I didn't _____ how late it was.",
+        "options": [
+          "realize",
+          "realise the project"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Estoy avergonzado» →",
+        "options": [
+          "I'm embarrassed.",
+          "I'm embarazed."
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "hedging-academico",
+    "title": "Matizar la afirmación (hedging)",
+    "level": "b2",
+    "why": "El registro académico en inglés matiza mucho más que en español. Afirmar sin matizar suena arrogante o poco riguroso a un lector anglófono, y es una de las diferencias que más delata a un escritor no nativo.",
+    "rule": "Recursos: modales (may, might, could), verbos de distancia (suggest, indicate, appear, tend to), adverbios (arguably, largely, relatively, apparently), cuantificadores (most, many, some) y construcciones impersonales (it seems that, there is evidence that). Evitar absolutos: always, never, all, prove.",
+    "examples": [
+      [
+        "The data suggest that…",
+        "en vez de «prove that»"
+      ],
+      [
+        "This may partly explain…",
+        "doble matiz"
+      ],
+      [
+        "Most learners tend to…",
+        "en vez de «all learners»"
+      ],
+      [
+        "It appears that the effect is small.",
+        "distancia del autor"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "Registro académico: «These results _____ a link.»",
+        "options": [
+          "prove",
+          "suggest"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "«_____ students struggle with this.»",
+        "options": [
+          "All",
+          "Many"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "«The method is _____ more efficient.»",
+        "options": [
+          "absolutely",
+          "arguably"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "«This _____ explain the difference.»",
+        "options": [
+          "may",
+          "will"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Learners _____ to avoid this form.»",
+        "options": [
+          "tend",
+          "always fail"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "inversion-enfatica",
+    "title": "Inversión enfática",
+    "level": "b2",
+    "why": "Es un recurso de registro formal y escrito que el español resuelve con orden de palabras o entonación, así que no se produce nunca de forma espontánea si no se practica.",
+    "rule": "Con un negativo o restrictivo al principio (never, rarely, seldom, hardly, no sooner, not only, little), el auxiliar pasa delante del sujeto, como en una pregunta. También tras «only + expresión de tiempo» y en condicionales formales sin if: «Had I known…».",
+    "examples": [
+      [
+        "Never have I seen such a thing.",
+        "NO: «*Never I have seen»"
+      ],
+      [
+        "Not only did she win, she broke the record.",
+        "auxiliar delante"
+      ],
+      [
+        "Hardly had we arrived when it started.",
+        "no sooner / hardly"
+      ],
+      [
+        "Had I known, I would have called.",
+        "condicional formal sin if"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "Rarely _____ such commitment.",
+        "options": [
+          "we see",
+          "do we see"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Not only _____ late, he forgot the report.",
+        "options": [
+          "he was",
+          "was he"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "_____ I known, I'd have helped.",
+        "options": [
+          "Had",
+          "If had"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "No sooner _____ than the phone rang.",
+        "options": [
+          "I sat down",
+          "had I sat down"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Only later _____ the mistake.",
+        "options": [
+          "did I notice",
+          "I noticed"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "verb-patterns",
+    "title": "Verbos con -ing o infinitivo",
+    "level": "b2",
+    "why": "No hay regla deducible desde el español: enjoy pide -ing, decide pide infinitivo, y con stop o remember el significado cambia según cuál uses.",
+    "rule": "Solo -ing: enjoy, avoid, mind, suggest, recommend, finish, keep. Solo infinitivo: decide, hope, promise, refuse, manage, afford. Los dos con cambio de sentido: stop doing (dejar de) / stop to do (parar para); remember doing (recordar haberlo hecho) / remember to do (acordarse de hacerlo).",
+    "examples": [
+      [
+        "I enjoy reading.",
+        "NO: «*enjoy to read»"
+      ],
+      [
+        "She decided to leave.",
+        "NO: «*decided leaving»"
+      ],
+      [
+        "He stopped smoking.",
+        "dejó de fumar"
+      ],
+      [
+        "He stopped to smoke.",
+        "paró para fumar"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "I avoid _____ at night.",
+        "options": [
+          "to drive",
+          "driving"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "They managed _____ the deadline.",
+        "options": [
+          "meeting",
+          "to meet"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Remember _____ the door — don't forget!",
+        "options": [
+          "locking",
+          "to lock"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Would you mind _____ the window?",
+        "options": [
+          "opening",
+          "to open"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "We can't afford _____ now.",
+        "options": [
+          "moving",
+          "to move"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "She suggested _____ a break.",
+        "options": [
+          "taking",
+          "to take"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]
