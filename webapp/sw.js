@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ingles-webapp-v7';
+const CACHE_NAME = 'ingles-webapp-v8';
 
 const CORE_ASSETS = [
   './',

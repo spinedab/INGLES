@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Linking, Platform, StyleSheet, View } from 'react-native';
 import { useLocalSearchParams } from 'expo-router';
 import { Audio } from 'expo-av';
+import * as Speech from 'expo-speech';
 import { Screen } from '@/components/Screen';
 import { Text } from '@/components/Text';
 import { Button } from '@/components/Button';
@@ -22,6 +23,7 @@ export default function ListeningDetail() {
   const [answers, setAnswers] = useState<Record<number, boolean>>({});
   const [sound, setSound] = useState<Audio.Sound | null>(null);
   const [playing, setPlaying] = useState(false);
+  const [speaking, setSpeaking] = useState(false);
 
   useEffect(() => {
     if (!id) return;
@@ -34,6 +36,8 @@ export default function ListeningDetail() {
   useEffect(() => {
     return () => {
       if (sound) sound.unloadAsync().catch(() => {});
+      // Sin esto el TTS sigue hablando después de salir de la pantalla.
+      Speech.stop();
     };
   }, [sound]);
 
@@ -60,6 +64,32 @@ export default function ListeningDetail() {
     setSound(s);
     setPlaying(true);
     await s.playAsync();
+  };
+
+  // Ningún ejercicio trae `audio`: los originales solo enlazaban a VOA/BBC y esos
+  // enlaces no sirven (uno daba 404 y dos apuntaban a la portada, no al audio).
+  // El TTS del sistema lo resuelve sin depender de terceros ni pesar en el bundle,
+  // y funciona sin conexión. Se lee el script quitando las etiquetas de hablante
+  // ("Server:", "Customer:") para que no las pronuncie.
+  const speakScript = (rate: number) => {
+    if (!data) return;
+    if (speaking) {
+      Speech.stop();
+      setSpeaking(false);
+      return;
+    }
+    const text = data.script
+      .split('\n')
+      .map((l) => l.replace(/^\s*[A-Z][A-Za-z ]{0,18}:\s*/, ''))
+      .join('. ');
+    setSpeaking(true);
+    Speech.speak(text, {
+      language: 'en-US',
+      rate,
+      onDone: () => setSpeaking(false),
+      onStopped: () => setSpeaking(false),
+      onError: () => setSpeaking(false),
+    });
   };
 
   const handleAnswer = (qi: number, correct: boolean) => {
@@ -103,21 +133,25 @@ export default function ListeningDetail() {
       {data.audio ? (
         <Button title={playing ? 'Pausar' : 'Reproducir audio'} onPress={playAudio} />
       ) : (
-        <View
-          style={[
-            styles.note,
-            { backgroundColor: theme.accentSoft, borderColor: theme.accent },
-          ]}
-        >
-          <Text muted>
-            Audio externo. Toca para abrir en el navegador:
-          </Text>
+        <View>
           <Button
-            title={data.externalUrl ?? 'Abrir'}
+            title={speaking ? 'Detener' : 'Escuchar'}
+            onPress={() => speakScript(1.0)}
+          />
+          <Button
+            title="Escuchar despacio"
             variant="secondary"
-            onPress={() => data.externalUrl && Linking.openURL(data.externalUrl)}
+            onPress={() => speakScript(0.65)}
             style={{ marginTop: spacing.sm }}
           />
+          {data.externalUrl ? (
+            <Button
+              title="Material original (web)"
+              variant="secondary"
+              onPress={() => data.externalUrl && Linking.openURL(data.externalUrl)}
+              style={{ marginTop: spacing.sm }}
+            />
+          ) : null}
         </View>
       )}
 
