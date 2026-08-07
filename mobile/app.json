@@ -13,7 +13,7 @@
       "assets/**/*"
     ],
     "ios": {
-      "supportsTablet": true,
+      "supportsTablet": false,
       "bundleIdentifier": "com.spinedab.ingles",
       "buildNumber": "1",
       "icon": "./assets/icon.png",

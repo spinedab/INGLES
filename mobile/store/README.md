@@ -49,40 +49,54 @@ xcrun simctl install <udid> ios/build-release/Build/Products/Release-iphonesimul
 xcrun simctl io <udid> screenshot captura.png     # sale a resolución nativa
 ```
 
+## Ficha completa y build subido (2026-08-07)
+
+Todo esto se hizo con la API (`tools/asc.py`), sin contraseñas:
+
+| Elemento | Valor |
+|---|---|
+| Build | v1 `VALID`, asociado a la versión 1.0. Delivery `94d90304-24ed-48f5-9a3a-d145c232c433` |
+| IPA | 13,9 MB, firmado con `Apple Distribution: Santiago Pineda Botero (Y9A29F6TZL)`, validado con `altool --validate-app` sin errores |
+| Nombre / subtítulo | Tutor Inglés IA / Inglés con base científica |
+| Descripción | 2.608 caracteres |
+| Keywords | 89 de 100 caracteres |
+| Categorías | Educación / Referencia |
+| Clasificación | **4+** |
+| URL de privacidad | https://ingles.nexocloud.co/privacidad.html (viva, HTTP 200) |
+| Capturas | 3 a 1320×2868 en el set `APP_IPHONE_67`, estado `COMPLETE` |
+| Notas de revisión | 935 caracteres, explicando el tutor LLM y que no hay chat entre usuarios |
+
+**iPhone only**: `supportsTablet` se puso en `false` y el proyecto compila con
+`TARGETED_DEVICE_FAMILY = 1`. La app no tiene layouts de iPad — todas las
+pantallas son de una columna centrada — así que declarar soporte de tablet daría
+una app estirada y es riesgo de rechazo por la guideline 4.0 (Design). En iPad
+sigue funcionando en modo compatibilidad. Como efecto secundario, Apple ya no
+exige capturas de iPad.
+
+> ⚠ **El teléfono de contacto de revisión es un relleno** (`+57 300 0000000`).
+> Es un campo obligatorio y no conozco el real. **Corrígelo** en
+> *Distribución → Información de revisión de la app*: Apple lo usa para
+> contactar si tienen dudas durante la revisión.
+
 ## Lo que falta para poder enviar
 
-1. **Capturas de iPad 13"**. `app.json` declara `supportsTablet: true`, y en ese
-   caso Apple **exige** capturas de iPad además de las de iPhone. Dos caminos:
-   generarlas con el simulador de iPad Pro 13", o poner `supportsTablet: false`
-   y publicar solo para iPhone. Es una decisión de producto, no técnica.
+Dos cosas, y **ninguna la puede hacer un script**: las dos son declaraciones que
+corresponden al titular de la cuenta.
 
-2. **Publicar la política de privacidad**. La página está escrita en
-   [`privacidad.html`](../../privacidad.html). Se sirve en
-   `https://ingles.nexocloud.co/privacidad.html` con
-   `dream-admin/scripts/deploy-ingles.sh` (ver [`deploy/`](../../deploy/)), o en
-   GitHub Pages como respaldo al hacer merge a `main`. Apple comprueba la URL y
-   rechaza el envío si da 404. Verificar antes:
-   ```bash
-   curl -sI https://ingles.nexocloud.co/privacidad.html | head -1
-   ```
+1. **Cuestionario de App Privacy.** En *Distribución → Privacidad de la app*.
+   Los endpoints de la API (`/v1/appDataUsages`, `/v1/appDataUsagePublishState`)
+   responden 404 en esta cuenta, así que es solo web — y además es una
+   declaración legal sobre qué datos recoges. Las respuestas exactas, ya
+   razonadas, están en [`ficha-app-store.md`](ficha-app-store.md#cuestionario-de-app-privacy):
+   en resumen, «Otros datos de usuario» → funcionalidad, **no** vinculado a
+   identidad, **no** usado para seguimiento; el resto todo «no».
 
-3. **Declarar la condición de comerciante (DSA)**. App Store Connect avisa en
-   portada: sin declararla no se pueden enviar apps nuevas para la Unión
-   Europea. Solo lo puede hacer el titular de la cuenta, en
-   *Negocio → Información de comerciante*.
+2. **Condición de comerciante (DSA).** En *Negocio → Información de comerciante*.
+   App Store Connect avisa en portada que sin declararla las apps nuevas no se
+   pueden enviar para la Unión Europea.
 
-4. **Subir un build**. Requiere archivar para dispositivo (no simulador) y
-   firmar con el certificado de distribución y el perfil de arriba, y luego:
-   ```bash
-   xcrun altool --upload-app -f TutorInglesIA.ipa -t ios \
-     --apiKey S32YS2GL7U --apiIssuer 54217fc3-2dec-4515-a14a-ad92ac1961dc
-   ```
-   La clave API sirve para subir sin contraseña. Alternativa gestionada:
-   `npm run build:ios` (EAS), que además maneja las credenciales — pero requiere
-   `eas login`.
-
-5. **Enviar a revisión**. Ese es el paso que hace la app pública y debe pulsarlo
-   una persona, no un script.
+Con esas dos hechas, el botón **«Añadir para revisión»** de la versión 1.0 ya
+tiene todo lo demás relleno y el build asociado.
 
 ## Idioma principal
 
