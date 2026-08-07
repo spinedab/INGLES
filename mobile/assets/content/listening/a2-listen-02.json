@@ -1,0 +1,75 @@
+{
+  "title": "A Phone Call to Cancel an Appointment",
+  "summary": "Llamada telefónica — pasado, disculpas, reprogramar. Registro cortés.",
+  "duration": "2 min",
+  "audio": null,
+  "script": "Receptionist: Good afternoon, Dr. Lopez's office. How can I help you?\nCaller: Hello. I have an appointment tomorrow at four, but I can't come.\nReceptionist: I see. Can I take your name, please?\nCaller: Yes, it's Marta Ruiz.\nReceptionist: Thank you. Would you like to cancel or reschedule?\nCaller: I'd like to reschedule, if possible. I'm sorry for the short notice.\nReceptionist: That's no problem. We have Thursday at eleven, or Friday afternoon.\nCaller: Thursday at eleven works better for me.\nReceptionist: Perfect. I've moved your appointment to Thursday at eleven.\nCaller: Thank you so much. Have a nice day.",
+  "vocabulary": [
+    {
+      "word": "reschedule",
+      "meaning": "reprogramar, cambiar la cita"
+    },
+    {
+      "word": "short notice",
+      "meaning": "poco tiempo de aviso"
+    },
+    {
+      "word": "That's no problem",
+      "meaning": "no hay problema"
+    },
+    {
+      "word": "works better for me",
+      "meaning": "me viene mejor"
+    },
+    {
+      "word": "I've moved your appointment",
+      "meaning": "he cambiado su cita"
+    }
+  ],
+  "questions": [
+    {
+      "q": "Why is Marta calling?",
+      "options": [
+        "To book a first appointment",
+        "She can't come tomorrow",
+        "To complain"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Does she cancel or reschedule?",
+      "options": [
+        "Cancel",
+        "Reschedule"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What does she apologise for?",
+      "options": [
+        "Being late",
+        "The short notice",
+        "The wrong number"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which slot does she choose?",
+      "options": [
+        "Friday afternoon",
+        "Thursday at eleven",
+        "Tomorrow at four"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What does 'short notice' mean?",
+      "options": [
+        "A small note",
+        "Little advance warning",
+        "A short visit"
+      ],
+      "answer": 1
+    }
+  ]
+}

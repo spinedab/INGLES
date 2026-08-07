@@ -2,10 +2,10 @@ import * as storage from './storage.js';
 import { logActivity } from './insights.js';
 
 export const LISTENING_INDEX = {
-  a1: ['a1-listen-01'],
-  a2: ['a2-listen-01'],
-  b1: ['b1-listen-01'],
-  b2: ['b2-listen-01'],
+  a1: ['a1-listen-01', 'a1-listen-02'],
+  a2: ['a2-listen-01', 'a2-listen-02'],
+  b1: ['b1-listen-01', 'b1-listen-02'],
+  b2: ['b2-listen-01', 'b2-listen-02'],
 };
 
 export async function loadListen(id) {

@@ -1,0 +1,85 @@
+{
+  "title": "Podcast: Why Sleep Beats Cramming",
+  "summary": "Monólogo divulgativo — presente perfecto, conectores causales, léxico académico.",
+  "duration": "4 min",
+  "audio": null,
+  "script": "Welcome back to the show. Today we're talking about something every student has tried at least once: staying up all night before an exam.\nIt feels productive, and that's exactly the problem. Research over the last two decades has consistently shown that sleep is not lost study time. It is part of studying.\nDuring deep sleep, the brain replays what you practised during the day and moves it into more stable storage. If you skip that stage, much of what you reviewed simply does not stick.\nOne study compared two groups. Both learned the same list of words. One group slept normally; the other stayed awake. A week later, the sleepers remembered clearly more.\nSo what should you do instead? Study in shorter sessions across several days, and protect your sleep the night before. It is less dramatic than cramming, but it works.\nThat's all for today. See you next week.",
+  "vocabulary": [
+    {
+      "word": "stay up all night",
+      "meaning": "quedarse despierto toda la noche"
+    },
+    {
+      "word": "cramming",
+      "meaning": "estudiar todo a última hora, empollar"
+    },
+    {
+      "word": "does not stick",
+      "meaning": "no se queda, no se retiene"
+    },
+    {
+      "word": "consistently",
+      "meaning": "de forma sistemática"
+    },
+    {
+      "word": "protect your sleep",
+      "meaning": "cuidar tus horas de sueño"
+    }
+  ],
+  "questions": [
+    {
+      "q": "What is the main claim?",
+      "options": [
+        "Sleep is lost study time",
+        "Sleep is part of studying",
+        "Cramming works if you focus"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What happens during deep sleep?",
+      "options": [
+        "The brain rests completely",
+        "The brain replays and stabilises learning",
+        "Nothing relevant"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "In the study, who remembered more?",
+      "options": [
+        "The group that slept",
+        "The group that stayed awake",
+        "Both the same"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "When were they tested?",
+      "options": [
+        "The next morning",
+        "A week later",
+        "A month later"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What does the host recommend?",
+      "options": [
+        "One long session",
+        "Shorter sessions across days",
+        "Studying only at night"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Why is cramming tempting?",
+      "options": [
+        "It is cheap",
+        "It feels productive",
+        "Teachers recommend it"
+      ],
+      "answer": 1
+    }
+  ]
+}

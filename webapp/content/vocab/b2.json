@@ -903,5 +903,1490 @@
       "awl",
       "sublist10"
     ]
+  },
+  {
+    "id": "b2-077",
+    "front": "abstract (adj)",
+    "definition": "based on ideas, not physical things",
+    "example": "The paper is too abstract to be useful.",
+    "translation": "abstracto",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-078",
+    "front": "accommodate (v)",
+    "definition": "to provide space for; to adapt to",
+    "example": "The hall accommodates 300 people.",
+    "translation": "alojar/adaptarse",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-079",
+    "front": "accumulate (v)",
+    "definition": "to increase in quantity over time",
+    "example": "Dust accumulates quickly here.",
+    "translation": "acumular",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-080",
+    "front": "acknowledge (v)",
+    "definition": "to accept that something is true",
+    "example": "She acknowledged the mistake.",
+    "translation": "reconocer",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-081",
+    "front": "adequate (adj)",
+    "definition": "enough for a purpose, but not more",
+    "example": "The funding is adequate but not generous.",
+    "translation": "suficiente/adecuado",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-082",
+    "front": "advocate (v/n)",
+    "definition": "to publicly support; a supporter",
+    "example": "He advocates smaller classes.",
+    "translation": "abogar por/defensor",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-083",
+    "front": "allocate (v)",
+    "definition": "to give out for a specific purpose",
+    "example": "We allocated two hours to the task.",
+    "translation": "asignar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-084",
+    "front": "alter (v)",
+    "definition": "to change slightly",
+    "example": "The plan was altered at the last minute.",
+    "translation": "modificar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-085",
+    "front": "anticipate (v)",
+    "definition": "to expect and prepare for",
+    "example": "We didn't anticipate such demand.",
+    "translation": "prever/anticipar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-086",
+    "front": "arbitrary (adj)",
+    "definition": "decided by chance or whim, not reason",
+    "example": "The deadline felt arbitrary.",
+    "translation": "arbitrario",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-087",
+    "front": "articulate (v)",
+    "definition": "to express an idea clearly",
+    "example": "She articulated her concerns well.",
+    "translation": "expresar con claridad",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-088",
+    "front": "assert (v)",
+    "definition": "to state firmly",
+    "example": "He asserted that the data were sound.",
+    "translation": "afirmar/sostener",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-089",
+    "front": "attain (v)",
+    "definition": "to reach or achieve",
+    "example": "Few attain that level of fluency.",
+    "translation": "alcanzar/lograr",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-090",
+    "front": "attribute (v/n)",
+    "definition": "to say something is caused by; a quality",
+    "example": "She attributes her success to practice.",
+    "translation": "atribuir/atributo",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-091",
+    "front": "autonomy (n)",
+    "definition": "the freedom to decide for yourself",
+    "example": "Learners need some autonomy.",
+    "translation": "autonomía",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-092",
+    "front": "bias (n)",
+    "definition": "an unfair preference or tendency",
+    "example": "The sample had an obvious bias.",
+    "translation": "sesgo",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-093",
+    "front": "capacity (n)",
+    "definition": "the ability or amount that fits",
+    "example": "Our capacity to learn changes with age.",
+    "translation": "capacidad",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-094",
+    "front": "cease (v)",
+    "definition": "to stop",
+    "example": "The noise ceased at midnight.",
+    "translation": "cesar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-095",
+    "front": "cite (v)",
+    "definition": "to mention as an example or source",
+    "example": "She cited three studies.",
+    "translation": "citar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-096",
+    "front": "clarify (v)",
+    "definition": "to make clearer",
+    "example": "Could you clarify that point?",
+    "translation": "aclarar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-097",
+    "front": "coincide (v)",
+    "definition": "to happen at the same time",
+    "example": "The dates coincide with the holidays.",
+    "translation": "coincidir",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-098",
+    "front": "comprehensive (adj)",
+    "definition": "including everything relevant",
+    "example": "a comprehensive review of the field",
+    "translation": "exhaustivo/integral",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-099",
+    "front": "comprise (v)",
+    "definition": "to consist of",
+    "example": "The course comprises six modules.",
+    "translation": "comprender/constar de",
+    "tags": [
+      "b2",
+      "verb",
+      "awl",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-100",
+    "front": "conceive (v)",
+    "definition": "to form an idea of",
+    "example": "It's hard to conceive of such a scale.",
+    "translation": "concebir",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-101",
+    "front": "conform (v)",
+    "definition": "to behave according to rules or norms",
+    "example": "The design conforms to the standard.",
+    "translation": "ajustarse/cumplir",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-102",
+    "front": "consecutive (adj)",
+    "definition": "following one after another",
+    "example": "three consecutive days of rain",
+    "translation": "consecutivo",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-103",
+    "front": "consolidate (v)",
+    "definition": "to make stronger or combine into one",
+    "example": "Sleep consolidates what you learned.",
+    "translation": "consolidar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-104",
+    "front": "constrain (v)",
+    "definition": "to limit or restrict",
+    "example": "Time constrains what we can cover.",
+    "translation": "limitar/constreñir",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-105",
+    "front": "contradict (v)",
+    "definition": "to say the opposite of",
+    "example": "The results contradict the hypothesis.",
+    "translation": "contradecir",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-106",
+    "front": "convey (v)",
+    "definition": "to communicate an idea or feeling",
+    "example": "The tone conveys impatience.",
+    "translation": "transmitir",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-107",
+    "front": "correlate (v)",
+    "definition": "to have a mutual relationship",
+    "example": "Exposure correlates with fluency.",
+    "translation": "correlacionar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-108",
+    "front": "credible (adj)",
+    "definition": "believable, deserving trust",
+    "example": "a credible explanation",
+    "translation": "creíble",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-109",
+    "front": "criterion (n)",
+    "definition": "a standard used to judge (pl. criteria)",
+    "example": "Fluency is one criterion among several.",
+    "translation": "criterio",
+    "tags": [
+      "b2",
+      "noun",
+      "awl",
+      "irregular-plural"
+    ]
+  },
+  {
+    "id": "b2-110",
+    "front": "crucial (adj)",
+    "definition": "extremely important",
+    "example": "Feedback is crucial at this stage.",
+    "translation": "crucial",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-111",
+    "front": "decline (v/n)",
+    "definition": "to decrease; to refuse politely",
+    "example": "Enrolment declined last year.",
+    "translation": "disminuir/rechazar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-112",
+    "front": "deduce (v)",
+    "definition": "to reach a conclusion by reasoning",
+    "example": "We can deduce the meaning from context.",
+    "translation": "deducir",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-113",
+    "front": "deem (v)",
+    "definition": "to consider something to be",
+    "example": "The evidence was deemed sufficient.",
+    "translation": "considerar/estimar",
+    "tags": [
+      "b2",
+      "verb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-114",
+    "front": "deliberate (adj)",
+    "definition": "done on purpose",
+    "example": "a deliberate omission",
+    "translation": "deliberado",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-115",
+    "front": "denote (v)",
+    "definition": "to mean or indicate",
+    "example": "The symbol denotes a long vowel.",
+    "translation": "denotar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-116",
+    "front": "deploy (v)",
+    "definition": "to put into use or position",
+    "example": "They deployed a new strategy.",
+    "translation": "desplegar/emplear",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-117",
+    "front": "deteriorate (v)",
+    "definition": "to become worse",
+    "example": "His accent deteriorated without practice.",
+    "translation": "deteriorarse",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-118",
+    "front": "devise (v)",
+    "definition": "to invent a method or plan",
+    "example": "She devised a simpler test.",
+    "translation": "idear/diseñar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-119",
+    "front": "discern (v)",
+    "definition": "to notice or understand with effort",
+    "example": "It's hard to discern a pattern.",
+    "translation": "discernir/percibir",
+    "tags": [
+      "b2",
+      "verb",
+      "awl",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-120",
+    "front": "discrete (adj)",
+    "definition": "separate and distinct",
+    "example": "two discrete categories",
+    "translation": "discreto/separado",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-121",
+    "front": "disparity (n)",
+    "definition": "a clear difference, usually unfair",
+    "example": "the disparity between regions",
+    "translation": "disparidad",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-122",
+    "front": "disseminate (v)",
+    "definition": "to spread widely",
+    "example": "The findings were disseminated online.",
+    "translation": "difundir",
+    "tags": [
+      "b2",
+      "verb",
+      "awl",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-123",
+    "front": "distort (v)",
+    "definition": "to change so it is no longer accurate",
+    "example": "The summary distorts the argument.",
+    "translation": "distorsionar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-124",
+    "front": "elaborate (v)",
+    "definition": "to give more detail",
+    "example": "Could you elaborate on that?",
+    "translation": "detallar/ampliar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-125",
+    "front": "elicit (v)",
+    "definition": "to get a response from someone",
+    "example": "The question elicited no answer.",
+    "translation": "provocar/obtener",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-126",
+    "front": "embody (v)",
+    "definition": "to represent an idea in a clear form",
+    "example": "The design embodies the principle.",
+    "translation": "encarnar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-127",
+    "front": "empirical (adj)",
+    "definition": "based on observation, not theory",
+    "example": "There is little empirical support.",
+    "translation": "empírico",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-128",
+    "front": "encompass (v)",
+    "definition": "to include a wide range",
+    "example": "The term encompasses several methods.",
+    "translation": "abarcar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-129",
+    "front": "enhance (v)",
+    "definition": "to improve the quality of",
+    "example": "Sleep enhances retention.",
+    "translation": "mejorar/realzar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-130",
+    "front": "entail (v)",
+    "definition": "to involve as a necessary part",
+    "example": "Fluency entails a lot of listening.",
+    "translation": "conllevar/implicar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-131",
+    "front": "erode (v)",
+    "definition": "to wear away gradually",
+    "example": "Confidence erodes without practice.",
+    "translation": "erosionar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-132",
+    "front": "exacerbate (v)",
+    "definition": "to make a bad situation worse",
+    "example": "Rushing exacerbates the problem.",
+    "translation": "agravar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-133",
+    "front": "exemplify (v)",
+    "definition": "to be a typical example of",
+    "example": "This case exemplifies the trend.",
+    "translation": "ejemplificar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-134",
+    "front": "exert (v)",
+    "definition": "to apply force or influence",
+    "example": "Peers exert a strong influence.",
+    "translation": "ejercer",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-135",
+    "front": "explicit (adj)",
+    "definition": "stated clearly and directly",
+    "example": "explicit grammar instruction",
+    "translation": "explícito",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-136",
+    "front": "exploit (v)",
+    "definition": "to use fully; to use unfairly",
+    "example": "The method exploits spaced repetition.",
+    "translation": "aprovechar/explotar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-137",
+    "front": "feasible (adj)",
+    "definition": "possible to do in practice",
+    "example": "Thirty minutes a day is feasible.",
+    "translation": "factible/viable",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-138",
+    "front": "fluctuate (v)",
+    "definition": "to rise and fall irregularly",
+    "example": "Motivation fluctuates over months.",
+    "translation": "fluctuar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-139",
+    "front": "formulate (v)",
+    "definition": "to express or devise carefully",
+    "example": "He formulated a clear hypothesis.",
+    "translation": "formular",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-140",
+    "front": "foster (v)",
+    "definition": "to encourage the development of",
+    "example": "The class fosters risk-taking.",
+    "translation": "fomentar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-141",
+    "front": "fundamental (adj)",
+    "definition": "forming a necessary base",
+    "example": "a fundamental difference",
+    "translation": "fundamental",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-142",
+    "front": "hamper (v)",
+    "definition": "to make progress difficult",
+    "example": "Anxiety hampers production.",
+    "translation": "dificultar/obstaculizar",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "b2-143",
+    "front": "hierarchy (n)",
+    "definition": "a system ranked by level",
+    "example": "a hierarchy of difficulty",
+    "translation": "jerarquía",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-144",
+    "front": "hinder (v)",
+    "definition": "to slow or prevent progress",
+    "example": "Translating word by word hinders fluency.",
+    "translation": "impedir/estorbar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-145",
+    "front": "hypothesis (n)",
+    "definition": "an idea to be tested (pl. hypotheses)",
+    "example": "The hypothesis was not supported.",
+    "translation": "hipótesis",
+    "tags": [
+      "b2",
+      "noun",
+      "awl",
+      "irregular-plural"
+    ]
+  },
+  {
+    "id": "b2-146",
+    "front": "impede (v)",
+    "definition": "to obstruct or delay",
+    "example": "Noise impedes comprehension.",
+    "translation": "impedir",
+    "tags": [
+      "b2",
+      "verb",
+      "awl",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-147",
+    "front": "implement (v)",
+    "definition": "to put a plan into action",
+    "example": "We implemented the change in March.",
+    "translation": "implementar/aplicar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-148",
+    "front": "implicit (adj)",
+    "definition": "suggested but not stated",
+    "example": "implicit learning through exposure",
+    "translation": "implícito",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-149",
+    "front": "incur (v)",
+    "definition": "to become subject to a cost or loss",
+    "example": "You may incur additional fees.",
+    "translation": "incurrir en",
+    "tags": [
+      "b2",
+      "verb",
+      "awl",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-150",
+    "front": "indispensable (adj)",
+    "definition": "absolutely necessary",
+    "example": "Practice is indispensable.",
+    "translation": "indispensable",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-151",
+    "front": "induce (v)",
+    "definition": "to cause or persuade",
+    "example": "The drug induces drowsiness.",
+    "translation": "inducir/provocar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-152",
+    "front": "infer (v)",
+    "definition": "to conclude from evidence",
+    "example": "We can infer the meaning from context.",
+    "translation": "inferir",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-153",
+    "front": "inherent (adj)",
+    "definition": "existing as a natural part",
+    "example": "an inherent limitation of the method",
+    "translation": "inherente",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-154",
+    "front": "initiate (v)",
+    "definition": "to start something",
+    "example": "She initiated the conversation.",
+    "translation": "iniciar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-155",
+    "front": "integral (adj)",
+    "definition": "necessary to make something complete",
+    "example": "Feedback is integral to learning.",
+    "translation": "integral/esencial",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-156",
+    "front": "integrate (v)",
+    "definition": "to combine into a whole",
+    "example": "The course integrates all four skills.",
+    "translation": "integrar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-157",
+    "front": "intervene (v)",
+    "definition": "to become involved to change something",
+    "example": "The teacher intervened early.",
+    "translation": "intervenir",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-158",
+    "front": "intrinsic (adj)",
+    "definition": "belonging naturally; from within",
+    "example": "intrinsic motivation",
+    "translation": "intrínseco",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-159",
+    "front": "isolate (v)",
+    "definition": "to separate from others",
+    "example": "We isolated one variable.",
+    "translation": "aislar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-160",
+    "front": "latter (adj)",
+    "definition": "the second of two mentioned",
+    "example": "Of the two, the latter is cheaper.",
+    "translation": "el último (de dos)",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-161",
+    "front": "magnitude (n)",
+    "definition": "great size or importance",
+    "example": "the magnitude of the effect",
+    "translation": "magnitud",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-162",
+    "front": "manifest (v/adj)",
+    "definition": "to show clearly; obvious",
+    "example": "Anxiety manifests as silence.",
+    "translation": "manifestar(se)",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-163",
+    "front": "mediate (v)",
+    "definition": "to help two sides reach agreement",
+    "example": "Social interaction mediates learning.",
+    "translation": "mediar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-164",
+    "front": "mere (adj)",
+    "definition": "nothing more than",
+    "example": "a mere coincidence",
+    "translation": "simple/mero",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-165",
+    "front": "methodology (n)",
+    "definition": "the set of methods used",
+    "example": "The methodology was clearly described.",
+    "translation": "metodología",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-166",
+    "front": "negligible (adj)",
+    "definition": "so small it can be ignored",
+    "example": "The difference was negligible.",
+    "translation": "insignificante",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-167",
+    "front": "notion (n)",
+    "definition": "an idea or belief",
+    "example": "the notion of a critical period",
+    "translation": "noción/idea",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-168",
+    "front": "obscure (adj/v)",
+    "definition": "not well known; to hide",
+    "example": "The point is obscured by jargon.",
+    "translation": "oscuro/ocultar",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-169",
+    "front": "offset (v)",
+    "definition": "to balance one thing against another",
+    "example": "Gains offset the initial cost.",
+    "translation": "compensar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-170",
+    "front": "omit (v)",
+    "definition": "to leave out",
+    "example": "He omitted the third person -s.",
+    "translation": "omitir",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-171",
+    "front": "onset (n)",
+    "definition": "the beginning of something",
+    "example": "the onset of adolescence",
+    "translation": "inicio/comienzo",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "b2-172",
+    "front": "overt (adj)",
+    "definition": "done openly, not hidden",
+    "example": "overt correction of errors",
+    "translation": "abierto/manifiesto",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-173",
+    "front": "paramount (adj)",
+    "definition": "more important than anything else",
+    "example": "Clarity is paramount here.",
+    "translation": "primordial",
+    "tags": [
+      "b2",
+      "adjective",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-174",
+    "front": "pertinent (adj)",
+    "definition": "relevant to the matter",
+    "example": "a pertinent question",
+    "translation": "pertinente",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-175",
+    "front": "phenomenon (n)",
+    "definition": "an observable fact (pl. phenomena)",
+    "example": "a well-documented phenomenon",
+    "translation": "fenómeno",
+    "tags": [
+      "b2",
+      "noun",
+      "awl",
+      "irregular-plural"
+    ]
+  },
+  {
+    "id": "b2-176",
+    "front": "plausible (adj)",
+    "definition": "seeming reasonable or probable",
+    "example": "a plausible explanation",
+    "translation": "plausible/verosímil",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-177",
+    "front": "preclude (v)",
+    "definition": "to make impossible",
+    "example": "Cost precludes a larger sample.",
+    "translation": "impedir/excluir",
+    "tags": [
+      "b2",
+      "verb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-178",
+    "front": "predominant (adj)",
+    "definition": "most common or strongest",
+    "example": "the predominant view in the field",
+    "translation": "predominante",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-179",
+    "front": "presume (v)",
+    "definition": "to suppose something is true",
+    "example": "I presume you've read it.",
+    "translation": "presumir/suponer",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-180",
+    "front": "prompt (v)",
+    "definition": "to cause an action or response",
+    "example": "The image prompted a memory.",
+    "translation": "provocar/inducir",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "b2-181",
+    "front": "proponent (n)",
+    "definition": "someone who supports an idea",
+    "example": "a proponent of extensive reading",
+    "translation": "partidario",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "b2-182",
+    "front": "rationale (n)",
+    "definition": "the reasons behind a decision",
+    "example": "the rationale for spaced repetition",
+    "translation": "fundamento/razón",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-183",
+    "front": "refute (v)",
+    "definition": "to prove that something is wrong",
+    "example": "The study refutes that claim.",
+    "translation": "refutar",
+    "tags": [
+      "b2",
+      "verb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-184",
+    "front": "reinforce (v)",
+    "definition": "to make stronger",
+    "example": "Retrieval reinforces memory.",
+    "translation": "reforzar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-185",
+    "front": "resilient (adj)",
+    "definition": "able to recover quickly",
+    "example": "Resilient learners keep going.",
+    "translation": "resiliente",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-186",
+    "front": "retain (v)",
+    "definition": "to keep or hold on to",
+    "example": "You retain what you retrieve.",
+    "translation": "retener",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-187",
+    "front": "robust (adj)",
+    "definition": "strong and reliable",
+    "example": "a robust finding",
+    "translation": "robusto/sólido",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-188",
+    "front": "salient (adj)",
+    "definition": "most noticeable or important",
+    "example": "the salient features of the text",
+    "translation": "destacado/saliente",
+    "tags": [
+      "b2",
+      "adjective",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-189",
+    "front": "scarce (adj)",
+    "definition": "not enough; hard to find",
+    "example": "Water is scarce in the region.",
+    "translation": "escaso",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-190",
+    "front": "simultaneous (adj)",
+    "definition": "happening at the same time",
+    "example": "simultaneous translation",
+    "translation": "simultáneo",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-191",
+    "front": "stem from (phr v)",
+    "definition": "to be caused by",
+    "example": "The error stems from the L1.",
+    "translation": "derivarse de",
+    "tags": [
+      "b2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "b2-192",
+    "front": "substantial (adj)",
+    "definition": "large in amount or importance",
+    "example": "a substantial improvement",
+    "translation": "considerable/sustancial",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-193",
+    "front": "supersede (v)",
+    "definition": "to replace something older",
+    "example": "The new model supersedes the old one.",
+    "translation": "reemplazar/sustituir",
+    "tags": [
+      "b2",
+      "verb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-194",
+    "front": "tentative (adj)",
+    "definition": "not certain; provisional",
+    "example": "a tentative conclusion",
+    "translation": "provisional/tentativo",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-195",
+    "front": "threshold (n)",
+    "definition": "the level at which something starts",
+    "example": "a threshold of comprehension",
+    "translation": "umbral",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "b2-196",
+    "front": "underpin (v)",
+    "definition": "to support or form the basis of",
+    "example": "Five principles underpin the method.",
+    "translation": "sustentar/apuntalar",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "b2-197",
+    "front": "viable (adj)",
+    "definition": "able to work successfully",
+    "example": "a viable alternative",
+    "translation": "viable",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-198",
+    "front": "warrant (v)",
+    "definition": "to justify or deserve",
+    "example": "The claim warrants closer study.",
+    "translation": "justificar/merecer",
+    "tags": [
+      "b2",
+      "verb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-199",
+    "front": "widespread (adj)",
+    "definition": "existing in many places",
+    "example": "a widespread misconception",
+    "translation": "generalizado",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-200",
+    "front": "yield (v/n)",
+    "definition": "to produce a result; output",
+    "example": "The method yields better retention.",
+    "translation": "producir/rendimiento",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
   }
 ]

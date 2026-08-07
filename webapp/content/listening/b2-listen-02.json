@@ -1,0 +1,85 @@
+{
+  "title": "Lecture Excerpt: The Cost of Convenience",
+  "summary": "Fragmento de conferencia — pasivas, hedging, nominalización, registro académico.",
+  "duration": "5 min",
+  "audio": null,
+  "script": "In this part of the lecture I want to examine a claim that is often made but rarely defended: that convenience is straightforwardly good.\nConsider food delivery. The service is fast, cheap and, for many households, genuinely useful. Yet the price paid at the door does not reflect the full cost. Some of that cost is displaced onto the rider, whose income fluctuates and who absorbs the risk of accidents. Some is displaced onto the future, in packaging that will outlast everyone in this room.\nI am not suggesting that these services should be abolished. That would be a poor conclusion from the evidence. What I am suggesting is narrower: that when a cost is not visible in a price, it has not disappeared. It has merely been moved.\nThis has a methodological implication for the way we evaluate technology. If we measure only what is easy to measure, we will systematically overstate the benefits and understate the harms. The apparent efficiency of a system may be, in part, an artefact of what we have chosen to count.",
+  "vocabulary": [
+    {
+      "word": "rarely defended",
+      "meaning": "que casi nunca se argumenta"
+    },
+    {
+      "word": "displaced onto",
+      "meaning": "trasladado a (otro que lo asume)"
+    },
+    {
+      "word": "absorbs the risk",
+      "meaning": "asume el riesgo"
+    },
+    {
+      "word": "outlast",
+      "meaning": "durar más que"
+    },
+    {
+      "word": "an artefact of",
+      "meaning": "un efecto derivado de, no real"
+    }
+  ],
+  "questions": [
+    {
+      "q": "What claim does the speaker examine?",
+      "options": [
+        "Convenience is straightforwardly good",
+        "Delivery should be banned",
+        "Riders earn too much"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Who absorbs the risk of accidents?",
+      "options": [
+        "The customer",
+        "The rider",
+        "The company"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What does the speaker explicitly NOT suggest?",
+      "options": [
+        "That costs are hidden",
+        "That these services be abolished",
+        "That packaging lasts long"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What happens to an invisible cost?",
+      "options": [
+        "It disappears",
+        "It has merely been moved",
+        "It doubles"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What is the methodological implication?",
+      "options": [
+        "Measure only what is easy",
+        "We overstate benefits if we measure only the measurable",
+        "Technology cannot be evaluated"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The register of this excerpt is…",
+      "options": [
+        "Informal conversation",
+        "Academic and hedged",
+        "Advertising"
+      ],
+      "answer": 1
+    }
+  ]
+}

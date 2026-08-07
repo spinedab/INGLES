@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ingles-webapp-v8';
+const CACHE_NAME = 'ingles-webapp-v9';
 
 const CORE_ASSETS = [
   './',
@@ -42,9 +42,13 @@ const CORE_ASSETS = [
   './content/lecturas/b2-02.json',
   './content/lecturas/b2-03.json',
   './content/listening/a1-listen-01.json',
+  './content/listening/a1-listen-02.json',
   './content/listening/a2-listen-01.json',
+  './content/listening/a2-listen-02.json',
   './content/listening/b1-listen-01.json',
+  './content/listening/b1-listen-02.json',
   './content/listening/b2-listen-01.json',
+  './content/listening/b2-listen-02.json',
 ];
 
 self.addEventListener('install', (event) => {

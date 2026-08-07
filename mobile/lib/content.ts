@@ -38,9 +38,13 @@ const READING_LOCAL: Record<string, () => Promise<ReadingText>> = {
 
 const LISTEN_LOCAL: Record<string, () => Promise<ListeningItem>> = {
   'a1-listen-01': async () => (await import('../assets/content/listening/a1-listen-01.json')).default as ListeningItem,
+  'a1-listen-02': async () => (await import('../assets/content/listening/a1-listen-02.json')).default as ListeningItem,
   'a2-listen-01': async () => (await import('../assets/content/listening/a2-listen-01.json')).default as ListeningItem,
+  'a2-listen-02': async () => (await import('../assets/content/listening/a2-listen-02.json')).default as ListeningItem,
   'b1-listen-01': async () => (await import('../assets/content/listening/b1-listen-01.json')).default as ListeningItem,
+  'b1-listen-02': async () => (await import('../assets/content/listening/b1-listen-02.json')).default as ListeningItem,
   'b2-listen-01': async () => (await import('../assets/content/listening/b2-listen-01.json')).default as ListeningItem,
+  'b2-listen-02': async () => (await import('../assets/content/listening/b2-listen-02.json')).default as ListeningItem,
 };
 
 export const READING_INDEX: Record<CefrLevel, string[]> = {
@@ -51,10 +55,10 @@ export const READING_INDEX: Record<CefrLevel, string[]> = {
 };
 
 export const LISTENING_INDEX: Record<CefrLevel, string[]> = {
-  a1: ['a1-listen-01'],
-  a2: ['a2-listen-01'],
-  b1: ['b1-listen-01'],
-  b2: ['b2-listen-01'],
+  a1: ['a1-listen-01', 'a1-listen-02'],
+  a2: ['a2-listen-01', 'a2-listen-02'],
+  b1: ['b1-listen-01', 'b1-listen-02'],
+  b2: ['b2-listen-01', 'b2-listen-02'],
 };
 
 export async function loadVocab(level: CefrLevel): Promise<VocabCard[]> {
