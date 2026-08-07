@@ -2388,5 +2388,1159 @@
       "verb",
       "awl"
     ]
+  },
+  {
+    "id": "b2-201",
+    "front": "adhere to (phr v)",
+    "definition": "to follow a rule or belief closely",
+    "example": "You must adhere to the guidelines.",
+    "translation": "adherirse a/cumplir",
+    "tags": [
+      "b2",
+      "phrasal-verb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-202",
+    "front": "akin to (chunk)",
+    "definition": "similar to",
+    "example": "The process is akin to translation.",
+    "translation": "semejante a",
+    "tags": [
+      "b2",
+      "chunk",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-203",
+    "front": "ambivalent (adj)",
+    "definition": "having mixed feelings",
+    "example": "She was ambivalent about leaving.",
+    "translation": "ambivalente",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-204",
+    "front": "amend (v)",
+    "definition": "to change a text or law slightly",
+    "example": "The law was amended in 2020.",
+    "translation": "enmendar/modificar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-205",
+    "front": "anomaly (n)",
+    "definition": "something that does not fit the pattern",
+    "example": "The result was an anomaly.",
+    "translation": "anomalía",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "b2-206",
+    "front": "apt (adj)",
+    "definition": "suitable; likely to",
+    "example": "an apt description",
+    "translation": "apropiado/propenso",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-207",
+    "front": "array (n)",
+    "definition": "a wide range of things",
+    "example": "an array of options",
+    "translation": "abanico/conjunto",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "b2-208",
+    "front": "ascribe (v)",
+    "definition": "to say something is caused by",
+    "example": "The effect is ascribed to practice.",
+    "translation": "atribuir",
+    "tags": [
+      "b2",
+      "verb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-209",
+    "front": "assimilate (v)",
+    "definition": "to absorb and understand fully",
+    "example": "It takes time to assimilate new rules.",
+    "translation": "asimilar",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "b2-210",
+    "front": "at odds with (chunk)",
+    "definition": "in disagreement or conflict with",
+    "example": "The finding is at odds with theory.",
+    "translation": "en desacuerdo con",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "b2-211",
+    "front": "bolster (v)",
+    "definition": "to strengthen or support",
+    "example": "The data bolster the claim.",
+    "translation": "reforzar/apuntalar",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "b2-212",
+    "front": "by virtue of (chunk)",
+    "definition": "because of",
+    "example": "by virtue of its position",
+    "translation": "en virtud de",
+    "tags": [
+      "b2",
+      "chunk",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-213",
+    "front": "candid (adj)",
+    "definition": "honest and direct",
+    "example": "a candid assessment",
+    "translation": "sincero/franco",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-214",
+    "front": "coerce (v)",
+    "definition": "to force someone by threat",
+    "example": "No one should be coerced.",
+    "translation": "coaccionar",
+    "tags": [
+      "b2",
+      "verb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-215",
+    "front": "commonplace (adj)",
+    "definition": "very common, not special",
+    "example": "Remote work is now commonplace.",
+    "translation": "habitual/corriente",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-216",
+    "front": "compound (v)",
+    "definition": "to make a problem worse",
+    "example": "Delays compounded the issue.",
+    "translation": "agravar",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "b2-217",
+    "front": "conducive to (chunk)",
+    "definition": "helping something to happen",
+    "example": "conditions conducive to learning",
+    "translation": "propicio para",
+    "tags": [
+      "b2",
+      "chunk",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-218",
+    "front": "conjecture (n)",
+    "definition": "an opinion without full proof",
+    "example": "That remains conjecture.",
+    "translation": "conjetura",
+    "tags": [
+      "b2",
+      "noun",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-219",
+    "front": "consensus (n)",
+    "definition": "general agreement",
+    "example": "There is broad consensus on this.",
+    "translation": "consenso",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-220",
+    "front": "contentious (adj)",
+    "definition": "causing disagreement",
+    "example": "a contentious claim",
+    "translation": "polémico",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-221",
+    "front": "converge (v)",
+    "definition": "to come together from different directions",
+    "example": "The two lines of research converge.",
+    "translation": "converger",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-222",
+    "front": "corroborate (v)",
+    "definition": "to give support to a finding",
+    "example": "Two studies corroborate this.",
+    "translation": "corroborar",
+    "tags": [
+      "b2",
+      "verb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-223",
+    "front": "counterintuitive (adj)",
+    "definition": "the opposite of what you expect",
+    "example": "a counterintuitive result",
+    "translation": "contraintuitivo",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-224",
+    "front": "delineate (v)",
+    "definition": "to describe precisely",
+    "example": "The author delineates three stages.",
+    "translation": "delimitar/describir",
+    "tags": [
+      "b2",
+      "verb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-225",
+    "front": "detrimental (adj)",
+    "definition": "harmful",
+    "example": "detrimental to progress",
+    "translation": "perjudicial",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-226",
+    "front": "discourse (n)",
+    "definition": "language in use; serious discussion",
+    "example": "academic discourse",
+    "translation": "discurso",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-227",
+    "front": "disproportionate (adj)",
+    "definition": "too large or small in comparison",
+    "example": "a disproportionate effect",
+    "translation": "desproporcionado",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-228",
+    "front": "elusive (adj)",
+    "definition": "hard to find, catch or define",
+    "example": "Fluency is an elusive concept.",
+    "translation": "esquivo/difícil de definir",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-229",
+    "front": "embark on (phr v)",
+    "definition": "to start something new and big",
+    "example": "She embarked on a PhD.",
+    "translation": "emprender",
+    "tags": [
+      "b2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "b2-230",
+    "front": "entrenched (adj)",
+    "definition": "firmly established, hard to change",
+    "example": "an entrenched habit",
+    "translation": "arraigado",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-231",
+    "front": "equitable (adj)",
+    "definition": "fair to everyone",
+    "example": "an equitable distribution",
+    "translation": "equitativo",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-232",
+    "front": "erroneous (adj)",
+    "definition": "incorrect",
+    "example": "an erroneous assumption",
+    "translation": "erróneo",
+    "tags": [
+      "b2",
+      "adjective",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-233",
+    "front": "expedite (v)",
+    "definition": "to make happen faster",
+    "example": "This will expedite the process.",
+    "translation": "acelerar/agilizar",
+    "tags": [
+      "b2",
+      "verb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-234",
+    "front": "extraneous (adj)",
+    "definition": "not relevant; from outside",
+    "example": "Remove extraneous detail.",
+    "translation": "ajeno/superfluo",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-235",
+    "front": "fallacy (n)",
+    "definition": "a false belief or bad reasoning",
+    "example": "a common fallacy about age",
+    "translation": "falacia",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "b2-236",
+    "front": "forgo (v)",
+    "definition": "to give up something you could have",
+    "example": "We forgo short-term gains.",
+    "translation": "renunciar a",
+    "tags": [
+      "b2",
+      "verb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-237",
+    "front": "give grounds for (chunk)",
+    "definition": "reasons to justify",
+    "example": "This gives grounds for concern.",
+    "translation": "motivos para",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "b2-238",
+    "front": "hitherto (adv)",
+    "definition": "until now",
+    "example": "a hitherto unknown effect",
+    "translation": "hasta ahora",
+    "tags": [
+      "b2",
+      "adverb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-239",
+    "front": "impetus (n)",
+    "definition": "something that makes a process move",
+    "example": "The study gave impetus to reform.",
+    "translation": "impulso",
+    "tags": [
+      "b2",
+      "noun",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-240",
+    "front": "in conjunction with (chunk)",
+    "definition": "together with",
+    "example": "used in conjunction with practice",
+    "translation": "junto con",
+    "tags": [
+      "b2",
+      "chunk",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-241",
+    "front": "inadvertently (adv)",
+    "definition": "without intending to",
+    "example": "He inadvertently deleted the file.",
+    "translation": "sin darse cuenta",
+    "tags": [
+      "b2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "b2-242",
+    "front": "incremental (adj)",
+    "definition": "happening in small steps",
+    "example": "incremental improvement",
+    "translation": "gradual/incremental",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-243",
+    "front": "indicative of (chunk)",
+    "definition": "showing or suggesting",
+    "example": "indicative of a deeper problem",
+    "translation": "indicativo de",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "b2-244",
+    "front": "inordinate (adj)",
+    "definition": "much more than reasonable",
+    "example": "an inordinate amount of time",
+    "translation": "desmedido/excesivo",
+    "tags": [
+      "b2",
+      "adjective",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-245",
+    "front": "insofar as (chunk)",
+    "definition": "to the extent that",
+    "example": "useful insofar as it saves time",
+    "translation": "en la medida en que",
+    "tags": [
+      "b2",
+      "chunk",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-246",
+    "front": "intelligible (adj)",
+    "definition": "able to be understood",
+    "example": "clear and intelligible speech",
+    "translation": "inteligible",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-247",
+    "front": "interplay (n)",
+    "definition": "the way two things affect each other",
+    "example": "the interplay of input and output",
+    "translation": "interacción/juego",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "b2-248",
+    "front": "lend itself to (chunk)",
+    "definition": "to be suitable for",
+    "example": "The topic lends itself to debate.",
+    "translation": "prestarse a",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "b2-249",
+    "front": "longitudinal (adj)",
+    "definition": "following the same people over time",
+    "example": "a longitudinal study",
+    "translation": "longitudinal",
+    "tags": [
+      "b2",
+      "adjective",
+      "academic"
+    ]
+  },
+  {
+    "id": "b2-250",
+    "front": "meticulous (adj)",
+    "definition": "very careful with detail",
+    "example": "meticulous record-keeping",
+    "translation": "meticuloso",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-251",
+    "front": "mitigating (adj)",
+    "definition": "making something less severe",
+    "example": "mitigating circumstances",
+    "translation": "atenuante",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-252",
+    "front": "nuanced (adj)",
+    "definition": "showing small but important differences",
+    "example": "a more nuanced view",
+    "translation": "matizado",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-253",
+    "front": "obviate (v)",
+    "definition": "to remove the need for",
+    "example": "This obviates the need for testing.",
+    "translation": "evitar/obviar",
+    "tags": [
+      "b2",
+      "verb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-254",
+    "front": "on the grounds that (chunk)",
+    "definition": "for the reason that",
+    "example": "rejected on the grounds that it was late",
+    "translation": "alegando que",
+    "tags": [
+      "b2",
+      "chunk",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-255",
+    "front": "optimal (adj)",
+    "definition": "the best possible",
+    "example": "the optimal amount of review",
+    "translation": "óptimo",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-256",
+    "front": "ostensibly (adv)",
+    "definition": "apparently, but perhaps not really",
+    "example": "ostensibly a technical issue",
+    "translation": "aparentemente",
+    "tags": [
+      "b2",
+      "adverb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-257",
+    "front": "pervasive (adj)",
+    "definition": "present everywhere",
+    "example": "a pervasive assumption",
+    "translation": "generalizado/omnipresente",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-258",
+    "front": "posit (v)",
+    "definition": "to suggest as a basis for argument",
+    "example": "The author posits three stages.",
+    "translation": "postular",
+    "tags": [
+      "b2",
+      "verb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-259",
+    "front": "preliminary (adj)",
+    "definition": "coming before the main part",
+    "example": "preliminary results",
+    "translation": "preliminar",
+    "tags": [
+      "b2",
+      "adjective",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-260",
+    "front": "premise (n)",
+    "definition": "a statement an argument is based on",
+    "example": "The premise is questionable.",
+    "translation": "premisa",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-261",
+    "front": "prone to (chunk)",
+    "definition": "likely to suffer from",
+    "example": "prone to error",
+    "translation": "propenso a",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "b2-262",
+    "front": "proliferate (v)",
+    "definition": "to increase quickly in number",
+    "example": "Apps have proliferated.",
+    "translation": "proliferar",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "b2-263",
+    "front": "provisional (adj)",
+    "definition": "temporary, likely to change",
+    "example": "a provisional conclusion",
+    "translation": "provisional",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-264",
+    "front": "qualify (v)",
+    "definition": "to limit a statement; to become eligible",
+    "example": "I would qualify that claim.",
+    "translation": "matizar/cualificar",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "b2-265",
+    "front": "reconcile (v)",
+    "definition": "to make two things agree",
+    "example": "hard to reconcile the two findings",
+    "translation": "reconciliar/conciliar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "b2-266",
+    "front": "redundant (adj)",
+    "definition": "not needed; repeated unnecessarily",
+    "example": "The second step is redundant.",
+    "translation": "redundante",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-267",
+    "front": "render (v)",
+    "definition": "to cause to become; to provide",
+    "example": "This renders the test useless.",
+    "translation": "volver/dejar",
+    "tags": [
+      "b2",
+      "verb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-268",
+    "front": "resort to (phr v)",
+    "definition": "to use something because nothing else works",
+    "example": "Don't resort to translation.",
+    "translation": "recurrir a",
+    "tags": [
+      "b2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "b2-269",
+    "front": "rudimentary (adj)",
+    "definition": "very basic and limited",
+    "example": "rudimentary knowledge",
+    "translation": "rudimentario",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-270",
+    "front": "scant (adj)",
+    "definition": "very little, not enough",
+    "example": "scant evidence",
+    "translation": "escaso",
+    "tags": [
+      "b2",
+      "adjective",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-271",
+    "front": "sceptical (adj)",
+    "definition": "doubting that something is true",
+    "example": "I'm sceptical of that figure.",
+    "translation": "escéptico",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-272",
+    "front": "stark (adj)",
+    "definition": "very clear and often unpleasant",
+    "example": "a stark contrast",
+    "translation": "marcado/crudo",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-273",
+    "front": "stipulate (v)",
+    "definition": "to state a requirement clearly",
+    "example": "The rules stipulate a deadline.",
+    "translation": "estipular",
+    "tags": [
+      "b2",
+      "verb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-274",
+    "front": "subject to (chunk)",
+    "definition": "likely to be affected by",
+    "example": "subject to change",
+    "translation": "sujeto a",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "b2-275",
+    "front": "subtle (adj)",
+    "definition": "not obvious; delicate",
+    "example": "a subtle difference",
+    "translation": "sutil",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-276",
+    "front": "succinct (adj)",
+    "definition": "expressed clearly in few words",
+    "example": "a succinct summary",
+    "translation": "conciso",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-277",
+    "front": "tangible (adj)",
+    "definition": "real and able to be seen",
+    "example": "tangible progress",
+    "translation": "tangible",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-278",
+    "front": "tenet (n)",
+    "definition": "a main principle of a belief",
+    "example": "a central tenet of the theory",
+    "translation": "principio/dogma",
+    "tags": [
+      "b2",
+      "noun",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-279",
+    "front": "the extent to which (chunk)",
+    "definition": "how much",
+    "example": "the extent to which it helps",
+    "translation": "la medida en que",
+    "tags": [
+      "b2",
+      "chunk",
+      "academic"
+    ]
+  },
+  {
+    "id": "b2-280",
+    "front": "thereby (adv)",
+    "definition": "and as a result of that",
+    "example": "thereby reducing the cost",
+    "translation": "de ese modo",
+    "tags": [
+      "b2",
+      "adverb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-281",
+    "front": "trivial (adj)",
+    "definition": "not important",
+    "example": "a trivial objection",
+    "translation": "trivial",
+    "tags": [
+      "b2",
+      "adjective"
+    ]
+  },
+  {
+    "id": "b2-282",
+    "front": "unequivocal (adj)",
+    "definition": "completely clear, leaving no doubt",
+    "example": "unequivocal evidence",
+    "translation": "inequívoco",
+    "tags": [
+      "b2",
+      "adjective",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-283",
+    "front": "underscore (v)",
+    "definition": "to emphasise",
+    "example": "This underscores the need for care.",
+    "translation": "subrayar/resaltar",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "b2-284",
+    "front": "untenable (adj)",
+    "definition": "impossible to defend",
+    "example": "an untenable position",
+    "translation": "insostenible",
+    "tags": [
+      "b2",
+      "adjective",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-285",
+    "front": "vindicate (v)",
+    "definition": "to prove that someone was right",
+    "example": "Later results vindicated her.",
+    "translation": "reivindicar/dar la razón",
+    "tags": [
+      "b2",
+      "verb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-286",
+    "front": "wane (v)",
+    "definition": "to become weaker or smaller",
+    "example": "Interest waned after a month.",
+    "translation": "decaer/disminuir",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "b2-287",
+    "front": "with respect to (chunk)",
+    "definition": "concerning",
+    "example": "with respect to accuracy",
+    "translation": "con respecto a",
+    "tags": [
+      "b2",
+      "chunk",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-288",
+    "front": "yardstick (n)",
+    "definition": "a standard for comparison",
+    "example": "a useful yardstick",
+    "translation": "criterio/patrón",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "b2-289",
+    "front": "albeit briefly (coll)",
+    "definition": "although only for a short time",
+    "example": "He mentioned it, albeit briefly.",
+    "translation": "aunque brevemente",
+    "tags": [
+      "b2",
+      "collocation",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-290",
+    "front": "draw a distinction (coll)",
+    "definition": "to point out a difference",
+    "example": "We must draw a distinction here.",
+    "translation": "establecer una distinción",
+    "tags": [
+      "b2",
+      "collocation"
+    ]
+  },
+  {
+    "id": "b2-291",
+    "front": "draw on (phr v)",
+    "definition": "to use knowledge or experience",
+    "example": "She drew on years of teaching.",
+    "translation": "recurrir a/basarse en",
+    "tags": [
+      "b2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "b2-292",
+    "front": "hold true (coll)",
+    "definition": "to remain valid",
+    "example": "Does that hold true for adults?",
+    "translation": "seguir siendo cierto",
+    "tags": [
+      "b2",
+      "collocation"
+    ]
+  },
+  {
+    "id": "b2-293",
+    "front": "lay the groundwork (coll)",
+    "definition": "to prepare the basis",
+    "example": "This lays the groundwork for later study.",
+    "translation": "sentar las bases",
+    "tags": [
+      "b2",
+      "collocation"
+    ]
+  },
+  {
+    "id": "b2-294",
+    "front": "raise concerns (coll)",
+    "definition": "to make people worried",
+    "example": "The report raises concerns.",
+    "translation": "suscitar inquietudes",
+    "tags": [
+      "b2",
+      "collocation"
+    ]
+  },
+  {
+    "id": "b2-295",
+    "front": "shed light on (coll)",
+    "definition": "to help explain",
+    "example": "The study sheds light on the process.",
+    "translation": "arrojar luz sobre",
+    "tags": [
+      "b2",
+      "collocation"
+    ]
+  },
+  {
+    "id": "b2-296",
+    "front": "take precedence over (coll)",
+    "definition": "to be more important than",
+    "example": "Clarity takes precedence over style.",
+    "translation": "tener prioridad sobre",
+    "tags": [
+      "b2",
+      "collocation"
+    ]
+  },
+  {
+    "id": "b2-297",
+    "front": "call into question (coll)",
+    "definition": "to make people doubt",
+    "example": "This calls the method into question.",
+    "translation": "poner en cuestión",
+    "tags": [
+      "b2",
+      "collocation"
+    ]
+  },
+  {
+    "id": "b2-298",
+    "front": "bridge the gap (coll)",
+    "definition": "to connect two separate things",
+    "example": "to bridge the gap between theory and practice",
+    "translation": "salvar la distancia",
+    "tags": [
+      "b2",
+      "collocation"
+    ]
+  },
+  {
+    "id": "b2-299",
+    "front": "preclude the possibility (coll)",
+    "definition": "to rule something out",
+    "example": "This does not preclude the possibility of error.",
+    "translation": "descartar la posibilidad",
+    "tags": [
+      "b2",
+      "collocation",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-300",
+    "front": "substantiate (v)",
+    "definition": "to provide evidence for",
+    "example": "The claim was never substantiated.",
+    "translation": "fundamentar/probar",
+    "tags": [
+      "b2",
+      "verb",
+      "formal"
+    ]
+  },
+  {
+    "id": "b2-301",
+    "front": "with the caveat that (chunk)",
+    "definition": "with this warning or limitation",
+    "example": "Useful, with the caveat that data are scarce.",
+    "translation": "con la salvedad de que",
+    "tags": [
+      "b2",
+      "chunk",
+      "formal"
+    ]
   }
 ]

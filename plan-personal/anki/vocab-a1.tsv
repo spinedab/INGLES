@@ -173,3 +173,136 @@ turn on (phr)	to activate	Turn on the light, please.	encender	a1 phrasal-verb
 turn off (phr)	to deactivate	Turn off the TV.	apagar	a1 phrasal-verb
 look for (phr)	to search	I'm looking for my keys.	buscar	a1 phrasal-verb
 come back (phr)	to return	Come back soon!	volver	a1 phrasal-verb
+head (n)	the top part of your body	My head hurts.	cabeza	a1 noun body
+hair (n)	what grows on your head	She has long hair.	pelo	a1 noun body
+arm (n)	the part between shoulder and hand	He broke his arm.	brazo	a1 noun body
+leg (n)	you walk with your legs	My legs are tired.	pierna	a1 noun body
+foot (n)	the end of your leg (pl. feet)	My feet are cold.	pie	a1 noun body irregular-plural
+mouth (n)	you eat and speak with it	Open your mouth.	boca	a1 noun body
+nose (n)	you smell with it	She has a small nose.	nariz	a1 noun body
+tooth (n)	the white parts in your mouth (pl. teeth)	I brush my teeth twice a day.	diente	a1 noun body irregular-plural
+face (n)	the front of your head	Wash your face.	cara	a1 noun body
+ear (n)	you hear with it	My ears hurt on the plane.	oreja/oído	a1 noun body
+mother (n)	your female parent	My mother is a nurse.	madre	a1 noun family
+father (n)	your male parent	His father works here.	padre	a1 noun family
+brother (n)	your male sibling	I have two brothers.	hermano	a1 noun family
+sister (n)	your female sibling	My sister lives in Cali.	hermana	a1 noun family
+son (n)	your male child	Their son is five.	hijo	a1 noun family
+daughter (n)	your female child	My daughter loves books.	hija	a1 noun family
+husband (n)	the man you are married to	Her husband is a teacher.	marido/esposo	a1 noun family
+wife (n)	the woman you are married to	My wife speaks German.	esposa	a1 noun family
+baby (n)	a very young child	The baby is sleeping.	bebé	a1 noun family
+parents (n)	your mother and father	I live with my parents.	padres	a1 noun family
+friend (n)	someone you like and know well	She's my best friend.	amigo/a	a1 noun
+bread (n)	a common food made from flour	I buy bread every morning.	pan	a1 noun food
+milk (n)	a white drink from cows	A glass of milk, please.	leche	a1 noun food uncountable
+egg (n)	food that comes from a hen	Two eggs for breakfast.	huevo	a1 noun food
+cheese (n)	a food made from milk	I like cheese on bread.	queso	a1 noun food uncountable
+meat (n)	food from animals	I don't eat meat.	carne	a1 noun food uncountable
+fish (n)	an animal that lives in water; food	We had fish for dinner.	pescado/pez	a1 noun food
+rice (n)	small white grains you cook	Rice with chicken.	arroz	a1 noun food uncountable
+fruit (n)	food like apples and bananas	Eat more fruit.	fruta	a1 noun food uncountable
+apple (n)	a round red or green fruit	An apple a day.	manzana	a1 noun food
+coffee (n)	a hot dark drink	Two coffees, please.	café	a1 noun food
+tea (n)	a hot drink made from leaves	I drink tea at night.	té	a1 noun food
+sugar (n)	a sweet white food	No sugar, thanks.	azúcar	a1 noun food uncountable
+salt (n)	a white food that makes things salty	Add a little salt.	sal	a1 noun food uncountable
+breakfast (n)	the first meal of the day	I have breakfast at seven.	desayuno	a1 noun food
+lunch (n)	the meal in the middle of the day	Lunch is at one.	almuerzo/comida	a1 noun food
+dinner (n)	the evening meal	We cook dinner together.	cena	a1 noun food
+room (n)	a space inside a building	My room is small.	habitación/cuarto	a1 noun house
+kitchen (n)	the room where you cook	She's in the kitchen.	cocina	a1 noun house
+bathroom (n)	the room with a toilet and shower	Where's the bathroom?	baño	a1 noun house
+bedroom (n)	the room where you sleep	Two bedrooms and a balcony.	dormitorio	a1 noun house
+door (n)	you open it to enter	Close the door, please.	puerta	a1 noun house
+window (n)	the glass opening in a wall	Open the window.	ventana	a1 noun house
+table (n)	furniture with a flat top	Put it on the table.	mesa	a1 noun house
+chair (n)	furniture you sit on	Take a chair.	silla	a1 noun house
+bed (n)	furniture you sleep on	I'm going to bed.	cama	a1 noun house
+floor (n)	the surface you walk on	The keys are on the floor.	suelo/piso	a1 noun house
+garden (n)	the outdoor area with plants	We eat in the garden.	jardín	a1 noun house
+key (n)	you use it to open a lock	I lost my keys.	llave	a1 noun house
+school (n)	where children study	My school is near here.	escuela/colegio	a1 noun place
+shop (n)	where you buy things	The shop closes at eight.	tienda	a1 noun place
+street (n)	a road in a town	I live on this street.	calle	a1 noun place
+city (n)	a large town	Bogotá is a big city.	ciudad	a1 noun place
+town (n)	a place smaller than a city	a small town by the sea	pueblo	a1 noun place
+park (n)	a green public area	We walk in the park.	parque	a1 noun place
+station (n)	where trains or buses stop	the bus station	estación	a1 noun place
+airport (n)	where planes arrive and leave	The airport is far.	aeropuerto	a1 noun place
+hospital (n)	where doctors treat people	She works in a hospital.	hospital	a1 noun place
+restaurant (n)	where you pay to eat	a good Italian restaurant	restaurante	a1 noun place
+hotel (n)	where you sleep when travelling	We stayed in a small hotel.	hotel	a1 noun place
+bank (n)	where you keep money	The bank opens at nine.	banco	a1 noun place
+market (n)	where people sell food and goods	I buy fruit at the market.	mercado	a1 noun place
+beach (n)	the sand next to the sea	a day at the beach	playa	a1 noun place
+country (n)	a nation; land outside cities	Which country are you from?	país/campo	a1 noun place
+morning (n)	the early part of the day	See you in the morning.	mañana	a1 noun time
+afternoon (n)	after midday until evening	I work in the afternoon.	tarde	a1 noun time
+evening (n)	the end of the day	Good evening!	tarde/noche (temprano)	a1 noun time
+night (n)	when it is dark	I sleep eight hours a night.	noche	a1 noun time
+today (adv)	on this day	I'm busy today.	hoy	a1 adverb time
+tomorrow (adv)	on the day after today	See you tomorrow.	mañana (el día)	a1 adverb time
+yesterday (adv)	on the day before today	I called you yesterday.	ayer	a1 adverb time
+hour (n)	sixty minutes	It takes two hours.	hora	a1 noun time
+minute (n)	sixty seconds	Wait a minute.	minuto	a1 noun time
+month (n)	one of the twelve parts of a year	next month	mes	a1 noun time
+weekend (n)	Saturday and Sunday	Have a nice weekend!	fin de semana	a1 noun time
+now (adv)	at this moment	I can't talk now.	ahora	a1 adverb time
+late (adj/adv)	after the expected time	Sorry I'm late.	tarde	a1 adjective time
+soon (adv)	in a short time	I'll call you soon.	pronto	a1 adverb time
+before (prep)	earlier than	Call me before six.	antes de	a1 preposition time
+after (prep)	later than	after lunch	después de	a1 preposition time
+teacher (n)	someone who teaches	My teacher is very patient.	profesor/a	a1 noun job
+student (n)	someone who studies	I'm a student.	estudiante	a1 noun job
+doctor (n)	someone who treats sick people	I need to see a doctor.	médico/a	a1 noun job
+boy (n)	a young male	The boy is playing.	niño/chico	a1 noun
+girl (n)	a young female	The girl is reading.	niña/chica	a1 noun
+name (n)	what someone is called	What's your name?	nombre	a1 noun
+car (n)	a vehicle with four wheels	We go by car.	coche/carro	a1 noun transport
+bus (n)	a large vehicle for many people	I take the bus to work.	autobús/bus	a1 noun transport
+train (n)	a vehicle that runs on rails	The train is late.	tren	a1 noun transport
+bike (n)	a vehicle with two wheels and pedals	I ride my bike to school.	bicicleta	a1 noun transport
+plane (n)	a vehicle that flies	The plane leaves at noon.	avión	a1 noun transport
+close (v)	to shut	Please close the window.	cerrar	a1 verb
+cook (v)	to prepare food with heat	I cook every evening.	cocinar	a1 verb
+cry (v)	to have tears in your eyes	The baby is crying.	llorar	a1 verb
+dance (v)	to move your body to music	They love to dance.	bailar	a1 verb
+finish (v)	to complete something	I finish work at five.	terminar	a1 verb
+jump (v)	to push yourself into the air	The cat jumped on the table.	saltar	a1 verb
+laugh (v)	to make sounds when something is funny	We laughed a lot.	reír	a1 verb
+listen (v)	to pay attention to a sound	Listen to this song.	escuchar	a1 verb
+sing (v)	to make music with your voice	She sings very well.	cantar	a1 verb
+study (v)	to learn about a subject	I study English at night.	estudiar	a1 verb
+swim (v)	to move through water	Can you swim?	nadar	a1 verb irregular
+teach (v)	to help someone learn	She teaches maths.	enseñar	a1 verb irregular
+wait (v)	to stay until something happens	Wait for me, please.	esperar	a1 verb
+wash (v)	to clean with water	Wash your hands.	lavar	a1 verb
+smile (v)	to make a happy face	She smiled at me.	sonreír	a1 verb
+hard (adj)	difficult; not soft	This exercise is hard.	difícil/duro	a1 adjective
+soft (adj)	not hard; pleasant to touch	a soft pillow	suave/blando	a1 adjective
+fast (adj)	moving quickly	a fast car	rápido	a1 adjective
+full (adj)	containing as much as possible	The bus is full.	lleno	a1 adjective
+dark (adj)	with little light	It's dark outside.	oscuro	a1 adjective
+warm (adj)	a little hot, pleasantly	warm water	cálido/templado	a1 adjective
+wet (adj)	covered in water	My shoes are wet.	mojado	a1 adjective
+dry (adj)	not wet	The towel is dry.	seco	a1 adjective
+nice (adj)	pleasant or kind	She's very nice.	agradable/simpático	a1 adjective
+kind (adj)	caring about others	That was very kind of you.	amable	a1 adjective
+poor (adj)	having little money	a poor country	pobre	a1 adjective
+rich (adj)	having a lot of money	a rich family	rico	a1 adjective
+funny (adj)	making you laugh	a funny film	divertido/gracioso	a1 adjective
+sweet (adj)	tasting like sugar	The cake is too sweet.	dulce	a1 adjective
+cool (adj)	a little cold; very good	a cool evening	fresco/genial	a1 adjective
+this / these (det)	near me: singular / plural	This book, these books.	este / estos	a1 determiner
+that / those (det)	far from me: singular / plural	That house, those houses.	ese / esos	a1 determiner
+here (adv)	in this place	Come here.	aquí	a1 adverb
+there (adv)	in that place	Put it there.	allí	a1 adverb
+many (det)	a large number of (countable)	many people	muchos	a1 determiner
+much (det)	a large amount of (uncountable)	much time	mucho	a1 determiner
+some (det)	an unknown amount	some water	algo de/unos	a1 determiner
+any (det)	used in questions and negatives	Do you have any questions?	algún/ningún	a1 determiner
+please (adv)	used to ask politely	Two tickets, please.	por favor	a1 adverb
+sorry (adj)	used to apologise	Sorry, I'm late.	perdón/lo siento	a1 adverb
+thank you (chunk)	used to show gratitude	Thank you very much.	gracias	a1 chunk
+excuse me (chunk)	used to get attention politely	Excuse me, is this free?	perdone/disculpe	a1 chunk

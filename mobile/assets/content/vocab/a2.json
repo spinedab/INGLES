@@ -2835,5 +2835,631 @@
       "a2",
       "adverb"
     ]
+  },
+  {
+    "id": "a2-249",
+    "front": "bill (n)",
+    "definition": "a paper showing what you must pay",
+    "example": "Can we have the bill?",
+    "translation": "cuenta/factura",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-250",
+    "front": "boss (n)",
+    "definition": "the person in charge at work",
+    "example": "My boss is on holiday.",
+    "translation": "jefe/a",
+    "tags": [
+      "a2",
+      "noun",
+      "job"
+    ]
+  },
+  {
+    "id": "a2-251",
+    "front": "cash (n)",
+    "definition": "money in coins and notes",
+    "example": "Can I pay in cash?",
+    "translation": "efectivo",
+    "tags": [
+      "a2",
+      "noun",
+      "uncountable"
+    ]
+  },
+  {
+    "id": "a2-252",
+    "front": "crowd (n)",
+    "definition": "a large group of people",
+    "example": "There was a big crowd.",
+    "translation": "multitud",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-253",
+    "front": "customer (n)",
+    "definition": "someone who buys something",
+    "example": "The customer is waiting.",
+    "translation": "cliente",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-254",
+    "front": "deadline (n)",
+    "definition": "the latest time to finish",
+    "example": "The deadline is Friday.",
+    "translation": "plazo/fecha límite",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-255",
+    "front": "discount (n)",
+    "definition": "a reduction in price",
+    "example": "They gave us a discount.",
+    "translation": "descuento",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-256",
+    "front": "flight (n)",
+    "definition": "a journey by plane",
+    "example": "Our flight is delayed.",
+    "translation": "vuelo",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-257",
+    "front": "holiday (n)",
+    "definition": "time away from work",
+    "example": "We're on holiday next week.",
+    "translation": "vacaciones",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-258",
+    "front": "injury (n)",
+    "definition": "damage to your body",
+    "example": "a knee injury",
+    "translation": "lesión",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-259",
+    "front": "insurance (n)",
+    "definition": "protection you pay for",
+    "example": "travel insurance",
+    "translation": "seguro",
+    "tags": [
+      "a2",
+      "noun",
+      "uncountable"
+    ]
+  },
+  {
+    "id": "a2-260",
+    "front": "journey (n)",
+    "definition": "travelling from one place to another",
+    "example": "a long journey",
+    "translation": "viaje/trayecto",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-261",
+    "front": "luggage (n)",
+    "definition": "the bags you travel with",
+    "example": "Where's my luggage?",
+    "translation": "equipaje",
+    "tags": [
+      "a2",
+      "noun",
+      "uncountable"
+    ]
+  },
+  {
+    "id": "a2-262",
+    "front": "neighbour (n)",
+    "definition": "someone who lives near you",
+    "example": "My neighbour is very quiet.",
+    "translation": "vecino/a",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-263",
+    "front": "queue (n)",
+    "definition": "a line of people waiting",
+    "example": "There's a long queue.",
+    "translation": "cola/fila",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-264",
+    "front": "receipt (n)",
+    "definition": "a paper proving you paid",
+    "example": "Keep the receipt.",
+    "translation": "recibo",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-265",
+    "front": "salary (n)",
+    "definition": "money you earn each month",
+    "example": "a good salary",
+    "translation": "sueldo",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-266",
+    "front": "skill (n)",
+    "definition": "an ability you learn",
+    "example": "Listening is a skill.",
+    "translation": "habilidad/destreza",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-267",
+    "front": "staff (n)",
+    "definition": "the people who work somewhere",
+    "example": "The staff are friendly.",
+    "translation": "personal/plantilla",
+    "tags": [
+      "a2",
+      "noun",
+      "uncountable"
+    ]
+  },
+  {
+    "id": "a2-268",
+    "front": "traffic (n)",
+    "definition": "the cars on the road",
+    "example": "There's a lot of traffic.",
+    "translation": "tráfico",
+    "tags": [
+      "a2",
+      "noun",
+      "uncountable"
+    ]
+  },
+  {
+    "id": "a2-269",
+    "front": "weather (n)",
+    "definition": "the state of the air outside",
+    "example": "What's the weather like?",
+    "translation": "tiempo (clima)",
+    "tags": [
+      "a2",
+      "noun",
+      "uncountable"
+    ]
+  },
+  {
+    "id": "a2-270",
+    "front": "borrow vs lend (chunk)",
+    "definition": "borrow = take; lend = give",
+    "example": "Can I borrow it? / Can you lend it to me?",
+    "translation": "pedir prestado / prestar",
+    "tags": [
+      "a2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "a2-271",
+    "front": "get used to (chunk)",
+    "definition": "to become accustomed to",
+    "example": "I got used to the noise.",
+    "translation": "acostumbrarse a",
+    "tags": [
+      "a2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "a2-272",
+    "front": "be into (chunk)",
+    "definition": "to be very interested in",
+    "example": "She's really into music.",
+    "translation": "estar metido en",
+    "tags": [
+      "a2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "a2-273",
+    "front": "dress up (phr v)",
+    "definition": "to wear formal clothes",
+    "example": "Do we need to dress up?",
+    "translation": "arreglarse/vestirse elegante",
+    "tags": [
+      "a2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a2-274",
+    "front": "eat out (phr v)",
+    "definition": "to eat in a restaurant",
+    "example": "We eat out on Fridays.",
+    "translation": "comer fuera",
+    "tags": [
+      "a2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a2-275",
+    "front": "get back (phr v)",
+    "definition": "to return",
+    "example": "I got back at midnight.",
+    "translation": "volver/regresar",
+    "tags": [
+      "a2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a2-276",
+    "front": "go out (phr v)",
+    "definition": "to leave home for fun",
+    "example": "We went out last night.",
+    "translation": "salir",
+    "tags": [
+      "a2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a2-277",
+    "front": "grow up (phr v)",
+    "definition": "to become an adult",
+    "example": "I grew up in Medellín.",
+    "translation": "crecer/criarse",
+    "tags": [
+      "a2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a2-278",
+    "front": "hurry up (phr v)",
+    "definition": "to move faster",
+    "example": "Hurry up, it's late!",
+    "translation": "darse prisa",
+    "tags": [
+      "a2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a2-279",
+    "front": "put away (phr v)",
+    "definition": "to store in the right place",
+    "example": "Put away your clothes.",
+    "translation": "guardar",
+    "tags": [
+      "a2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a2-280",
+    "front": "take part in (phr v)",
+    "definition": "to participate",
+    "example": "I took part in the course.",
+    "translation": "participar en",
+    "tags": [
+      "a2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a2-281",
+    "front": "try on (phr v)",
+    "definition": "to put on clothes to test them",
+    "example": "Can I try it on?",
+    "translation": "probarse",
+    "tags": [
+      "a2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a2-282",
+    "front": "wake up (phr v)",
+    "definition": "to stop sleeping",
+    "example": "I wake up at six.",
+    "translation": "despertarse",
+    "tags": [
+      "a2",
+      "phrasal-verb"
+    ]
+  },
+  {
+    "id": "a2-283",
+    "front": "borrow money (coll)",
+    "definition": "to take money to return later",
+    "example": "I had to borrow money.",
+    "translation": "pedir dinero prestado",
+    "tags": [
+      "a2",
+      "collocation"
+    ]
+  },
+  {
+    "id": "a2-284",
+    "front": "make a mistake (coll)",
+    "definition": "to do something wrong",
+    "example": "Everyone makes mistakes.",
+    "translation": "cometer un error",
+    "tags": [
+      "a2",
+      "collocation"
+    ]
+  },
+  {
+    "id": "a2-285",
+    "front": "take a photo (coll)",
+    "definition": "to photograph",
+    "example": "Can you take a photo?",
+    "translation": "hacer una foto",
+    "tags": [
+      "a2",
+      "collocation"
+    ]
+  },
+  {
+    "id": "a2-286",
+    "front": "do exercise (coll)",
+    "definition": "to train your body",
+    "example": "I do exercise three times a week.",
+    "translation": "hacer ejercicio",
+    "tags": [
+      "a2",
+      "collocation"
+    ]
+  },
+  {
+    "id": "a2-287",
+    "front": "have a shower (coll)",
+    "definition": "to wash your body",
+    "example": "I have a shower in the morning.",
+    "translation": "ducharse",
+    "tags": [
+      "a2",
+      "collocation"
+    ]
+  },
+  {
+    "id": "a2-288",
+    "front": "catch a cold (coll)",
+    "definition": "to become ill with a cold",
+    "example": "I caught a cold last week.",
+    "translation": "resfriarse",
+    "tags": [
+      "a2",
+      "collocation"
+    ]
+  },
+  {
+    "id": "a2-289",
+    "front": "miss the bus (coll)",
+    "definition": "to fail to catch the bus",
+    "example": "I missed the bus again.",
+    "translation": "perder el autobús",
+    "tags": [
+      "a2",
+      "collocation"
+    ]
+  },
+  {
+    "id": "a2-290",
+    "front": "pay attention (coll)",
+    "definition": "to listen or watch carefully",
+    "example": "Pay attention to the ending.",
+    "translation": "prestar atención",
+    "tags": [
+      "a2",
+      "collocation"
+    ]
+  },
+  {
+    "id": "a2-291",
+    "front": "save time (coll)",
+    "definition": "to use less time",
+    "example": "This saves a lot of time.",
+    "translation": "ahorrar tiempo",
+    "tags": [
+      "a2",
+      "collocation"
+    ]
+  },
+  {
+    "id": "a2-292",
+    "front": "tell the truth (coll)",
+    "definition": "to say what is true",
+    "example": "Just tell me the truth.",
+    "translation": "decir la verdad",
+    "tags": [
+      "a2",
+      "collocation"
+    ]
+  },
+  {
+    "id": "a2-293",
+    "front": "advice (n)",
+    "definition": "an opinion about what to do (uncountable)",
+    "example": "She gave me good advice.",
+    "translation": "consejo",
+    "tags": [
+      "a2",
+      "noun",
+      "uncountable"
+    ]
+  },
+  {
+    "id": "a2-294",
+    "front": "argument (n)",
+    "definition": "an angry disagreement; a reason",
+    "example": "They had an argument.",
+    "translation": "discusión/argumento",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-295",
+    "front": "chance (n)",
+    "definition": "a possibility; an opportunity",
+    "example": "There's a chance of rain.",
+    "translation": "posibilidad/oportunidad",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-296",
+    "front": "choice (n)",
+    "definition": "the act of choosing; an option",
+    "example": "It was a difficult choice.",
+    "translation": "elección",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-297",
+    "front": "crime (n)",
+    "definition": "an illegal act",
+    "example": "Crime has fallen this year.",
+    "translation": "delito/crimen",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-298",
+    "front": "effort (n)",
+    "definition": "physical or mental energy used",
+    "example": "It takes effort at first.",
+    "translation": "esfuerzo",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-299",
+    "front": "habit (n)",
+    "definition": "something you do regularly",
+    "example": "Reading is a good habit.",
+    "translation": "hábito/costumbre",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-300",
+    "front": "noise (n)",
+    "definition": "an unpleasant sound",
+    "example": "What's that noise?",
+    "translation": "ruido",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-301",
+    "front": "purpose (n)",
+    "definition": "the reason for doing something",
+    "example": "the purpose of the exercise",
+    "translation": "propósito/finalidad",
+    "tags": [
+      "a2",
+      "noun"
+    ]
+  },
+  {
+    "id": "a2-302",
+    "front": "silence (n)",
+    "definition": "the absence of sound",
+    "example": "There was a long silence.",
+    "translation": "silencio",
+    "tags": [
+      "a2",
+      "noun",
+      "uncountable"
+    ]
+  },
+  {
+    "id": "a2-303",
+    "front": "truth (n)",
+    "definition": "what is real or true",
+    "example": "Tell me the truth.",
+    "translation": "verdad",
+    "tags": [
+      "a2",
+      "noun",
+      "uncountable"
+    ]
+  },
+  {
+    "id": "a2-304",
+    "front": "view (n)",
+    "definition": "an opinion; what you can see",
+    "example": "In my view, it's fine.",
+    "translation": "opinión/vista",
+    "tags": [
+      "a2",
+      "noun"
+    ]
   }
 ]
