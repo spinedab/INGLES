@@ -7,7 +7,7 @@ superseded — ver [`native/README.md`](../native/README.md).
 | Dato | Valor |
 |------|-------|
 | applicationId | `com.spinedab.ingles` (el mismo que el bundle id de iOS) |
-| versionCode / versionName | `1` / `1.0.0` (`app.json`) |
+| versionCode / versionName | `2` / `1.0.0` (`app.json`) |
 | targetSdk | 35 |
 | Nombre visible | Tutor Inglés IA |
 
@@ -26,7 +26,9 @@ export PATH="$JAVA_HOME/bin:$ANDROID_HOME/platform-tools:$PATH"
 - **SDK de Android** en `~/Library/Android/sdk` con platform 35 y build-tools 35.
 - Android Studio **no** está instalado y no hace falta: todo va por Gradle.
 - No hay ningún AVD creado, así que para probar en emulador habría que crearlo
-  primero.
+  primero. El AAB se compiló y se verificó firmado, pero **la app no se ha
+  ejecutado nunca en un dispositivo o emulador Android** — a diferencia de iOS,
+  que sí se probó en el simulador.
 
 ## Generar el proyecto nativo
 
