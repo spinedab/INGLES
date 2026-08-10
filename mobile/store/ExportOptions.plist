@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Opciones de exportación del archive de iOS a IPA para App Store Connect.
+
+  Vive en el repo a propósito: la primera vez estaba en /tmp y al limpiarse el
+  directorio el `xcodebuild -exportArchive` falló con «no such file» tras un
+  archive de cuatro minutos.
+
+  Uso:
+    xcodebuild -exportArchive \
+      -archivePath /tmp/TutorInglesIA.xcarchive \
+      -exportPath /tmp/ipa \
+      -exportOptionsPlist mobile/store/ExportOptions.plist
+-->
+<plist version="1.0">
+<dict>
+  <key>method</key><string>app-store-connect</string>
+  <key>teamID</key><string>Y9A29F6TZL</string>
+  <key>signingStyle</key><string>manual</string>
+  <key>stripSwiftSymbols</key><true/>
+  <key>uploadSymbols</key><true/>
+  <key>provisioningProfiles</key>
+  <dict>
+    <key>com.spinedab.ingles</key><string>TutorInglesIA AppStore</string>
+  </dict>
+</dict>
+</plist>
