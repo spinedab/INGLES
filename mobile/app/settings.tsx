@@ -11,45 +11,16 @@ import { radius, spacing, useTheme } from '@/lib/theme';
 export default function Settings() {
   const theme = useTheme();
   const [apiUrl, setApiUrl] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [authed, setAuthed] = useState(false);
   const [exportData, setExportData] = useState<string | null>(null);
   const [importText, setImportText] = useState('');
 
   useEffect(() => {
     setApiUrl(apiClient.getBaseUrl());
-    setAuthed(apiClient.isAuthenticated());
   }, []);
 
   const saveApi = async () => {
     await apiClient.setBaseUrl(apiUrl.trim());
     alertCross('URL del backend guardada.');
-  };
-
-  const doLogin = async () => {
-    try {
-      await apiClient.login(email.trim(), password);
-      setAuthed(true);
-      alertCross('Sesión iniciada.');
-    } catch (e) {
-      alertCross(`Error: ${(e as Error).message}`);
-    }
-  };
-
-  const doRegister = async () => {
-    try {
-      await apiClient.register(email.trim(), password);
-      setAuthed(true);
-      alertCross('Cuenta creada.');
-    } catch (e) {
-      alertCross(`Error: ${(e as Error).message}`);
-    }
-  };
-
-  const doLogout = async () => {
-    await apiClient.logout();
-    setAuthed(false);
   };
 
   const doExport = async () => {
@@ -100,8 +71,10 @@ export default function Settings() {
         Backend
       </Text>
       <Text muted style={{ marginBottom: spacing.sm }}>
-        Si no configuras backend, todo funciona offline-only. Ver{' '}
-        <Text style={{ color: theme.accent }}>BACKEND_API.md</Text> para el contrato REST.
+        La app funciona entera sin conexión y sin cuenta. Este campo es solo para
+        apuntar a un backend propio de sincronización si algún día lo montas; el
+        contrato REST está en{' '}
+        <Text style={{ color: theme.accent }}>BACKEND_API.md</Text>.
       </Text>
 
       <TextInput
@@ -116,34 +89,6 @@ export default function Settings() {
       <Button title="Guardar URL" variant="secondary" onPress={saveApi} />
 
       <View style={{ height: spacing.lg }} />
-
-      {!authed ? (
-        <>
-          <TextInput
-            value={email}
-            onChangeText={setEmail}
-            placeholder="email"
-            keyboardType="email-address"
-            autoCapitalize="none"
-            placeholderTextColor={theme.muted}
-            style={[styles.input, { borderColor: theme.border, color: theme.fg, backgroundColor: theme.card }]}
-          />
-          <TextInput
-            value={password}
-            onChangeText={setPassword}
-            placeholder="contraseña"
-            secureTextEntry
-            placeholderTextColor={theme.muted}
-            style={[styles.input, { borderColor: theme.border, color: theme.fg, backgroundColor: theme.card }]}
-          />
-          <View style={{ flexDirection: 'row', gap: spacing.sm }}>
-            <Button title="Iniciar sesión" onPress={doLogin} style={{ flex: 1 }} />
-            <Button title="Registrarse" variant="secondary" onPress={doRegister} style={{ flex: 1 }} />
-          </View>
-        </>
-      ) : (
-        <Button title="Cerrar sesión" variant="secondary" onPress={doLogout} />
-      )}
 
       <Text variant="h2" style={{ marginTop: spacing.xl }}>
         Tus datos

@@ -33,12 +33,14 @@
 <main>
 
 <h1>Política de privacidad</h1>
-<p class="updated">Tutor Inglés IA · Actualizada el 31 de julio de 2026</p>
+<p class="updated">Tutor Inglés IA · Actualizada el 10 de agosto de 2026</p>
 
 <p class="lede">
-  La app no tiene cuentas ni registro. Tu progreso de estudio se guarda solo en tu
-  dispositivo y nunca se envía a ningún servidor. Lo único que sale del dispositivo
-  son los mensajes que tú escribes al tutor, y se envían sin identificarte.
+  No hay cuentas ni registro en ningún sitio. <strong>La app de iPhone funciona
+  entera sin conexión y no envía nada a ningún servidor.</strong> El tutor
+  conversacional solo existe en la web (<code>ingles.nexocloud.co</code>): ahí, lo
+  que escribes al tutor se guarda hasta 30 días para mantener el contexto, sin tu
+  nombre ni tu correo, y después se borra.
 </p>
 
 <h2>Qué se guarda en tu dispositivo</h2>
@@ -63,29 +65,50 @@
   antes desde los ajustes de la app.
 </p>
 
-<h2>Qué sale del dispositivo</h2>
+<h2>La app de iPhone no envía nada</h2>
 <p>
-  Solo cuando usas la pestaña <strong>Coach</strong> para conversar con el tutor. En
-  ese momento se envía a nuestro servidor <code>tutor.apicloud.lat</code>:
+  Conviene decirlo aparte porque es lo que más se pregunta: la app de iOS lleva
+  todo el contenido de estudio dentro del propio binario y funciona sin conexión.
+  No tiene login, no sincroniza y no hace ninguna llamada con datos tuyos. El
+  tutor conversacional <strong>no está en la app</strong>; su pestaña «Coach» es el
+  coach de escritura y shadowing, que se calcula en el dispositivo.
+</p>
+
+<h2>Qué sale del dispositivo (solo en la web)</h2>
+<p>
+  Únicamente al usar el <strong>Tutor IA</strong> de la versión web. En ese momento
+  se envía a nuestro servidor <code>tutor.apicloud.lat</code>:
 </p>
 <ul>
   <li>El texto que has escrito en ese turno de conversación.</li>
   <li>Tu nivel CEFR seleccionado, para que el tutor ajuste su respuesta.</li>
 </ul>
 <p>
-  No se envía tu nombre, correo, identificador de dispositivo, dirección IP
-  asociada a un perfil, ubicación, contactos ni ningún otro dato personal. No hay
-  identificador de usuario porque no hay usuarios: no existen las cuentas.
+  No se envía tu nombre, correo, ubicación, contactos ni identificador
+  publicitario. No hay cuentas, así que no hay nombre de usuario.
 </p>
 <p>
   El modelo de lenguaje que genera las respuestas se ejecuta en nuestra propia
   infraestructura. <strong>Tus mensajes no se envían a OpenAI, Google, Anthropic ni
   a ningún tercero</strong>, y no se usan para entrenar ningún modelo.
 </p>
+
+<h2>Cuánto se guarda la conversación</h2>
 <p>
-  El servidor mantiene el hilo de la conversación en memoria durante la sesión para
-  poder responder con contexto, y lo descarta al terminar. No se conserva un
-  historial vinculado a ninguna persona.
+  Con claridad, porque es lo único que sí se almacena fuera de tu dispositivo:
+  <strong>la conversación con el tutor se guarda en nuestro servidor hasta 30
+  días</strong> y después se borra automáticamente. Se guarda para que el tutor
+  recuerde el contexto entre turnos y para que puedas retomar una conversación.
+</p>
+<p>
+  Junto a la conversación se guarda un <strong>hash de tu dirección IP</strong>
+  (SHA-256 con sal, truncado). No sirve para identificarte ni para perfilarte:
+  su única función es comprobar que quien pide continuar una conversación es el
+  mismo de antes, para que nadie más pueda leerla. No guardamos la IP en claro.
+</p>
+<p>
+  Puedes borrar una conversación en cualquier momento desde la propia web; se
+  elimina del servidor de inmediato, sin esperar los 30 días.
 </p>
 
 <h2>Lo que no hacemos</h2>
@@ -107,16 +130,22 @@
 
 <h2>Menores</h2>
 <p>
-  La app está clasificada 4+ y no recopila datos personales de nadie, con
-  independencia de su edad. No pide fecha de nacimiento porque no la necesita.
+  La app está clasificada 4+, no pide fecha de nacimiento y no recopila ningún
+  dato, con independencia de la edad. El tutor de la web, que sí guarda los
+  mensajes 30 días, no es parte de la app.
 </p>
 
 <h2>Tus derechos</h2>
 <p>
-  Como no almacenamos datos asociados a ti, no hay ningún archivo tuyo que
-  solicitar, rectificar o eliminar en nuestro lado. El control es directo: los
-  datos están en tu dispositivo y los borras desinstalando la app o desde sus
-  ajustes.
+  Tu progreso está en tu dispositivo: lo borras desinstalando la app o desde sus
+  ajustes, sin pedirnos permiso.
+</p>
+<p>
+  De las conversaciones con el tutor de la web: puedes borrar cualquiera desde la
+  propia web y desaparece del servidor al instante; si no, se borran solas a los 30 días. No
+  guardamos tu nombre ni tu correo, así que no podemos buscar «tus» datos por
+  identidad — si quieres que eliminemos algo concreto, escríbenos con el
+  identificador de la conversación y lo hacemos.
 </p>
 
 <h2>Cambios</h2>

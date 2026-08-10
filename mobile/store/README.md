@@ -78,25 +78,45 @@ exige capturas de iPad.
 > *Distribución → Información de revisión de la app*: Apple lo usa para
 > contactar si tienen dudas durante la revisión.
 
+## App Privacy: «No se recopilan datos»
+
+Respondido y guardado en *Distribución → Privacidad de la app*. La respuesta es
+**«No, no recopilamos datos de esta app»**, y es exacta — pero solo después de
+quitar código que la habría hecho falsa. Ver la sección siguiente.
+
+Queda pulsar **«Publicar»** en esa pantalla. No se pulsó todavía a propósito: el
+diálogo de confirmación pide atestiguar que las respuestas son precisas, y en ese
+momento el build subido (build 1) aún contenía la pantalla de login. Publicar la
+declaración antes de subir un build que coincida sería atestiguar algo falso.
+
+## Por qué la app no recopila datos (y por qué antes sí)
+
+Auditando el código para responder el cuestionario aparecieron tres cosas:
+
+1. **`mobile/lib/tutorApi.ts` está huérfano**: ninguna pantalla lo importa. El
+   tutor conversacional **no existe en la app**; la pestaña «Coach» es el coach
+   local de escritura y shadowing. El tutor solo está en la web.
+2. **`app/settings.tsx` tenía login y registro** que hacían `POST {email,
+   password}` a `https://ingles.apicloud.lat/auth/login`. Ese endpoint devuelve
+   **404**: la función nunca funcionó. Pero la petición se enviaba, así que la app
+   sí transmitía credenciales fuera del dispositivo — y además una función que
+   siempre falla es riesgo de rechazo por la guideline 2.1.
+3. **`extra.apiBaseUrl`** apuntaba a ese mismo host sin endpoints.
+
+Se retiró la UI de auth y se vació `apiBaseUrl`. Ahora la app es genuinamente
+offline-only: todo el contenido va en el binario y no hace ninguna llamada con
+datos del usuario.
+
 ## Lo que falta para poder enviar
 
-Dos cosas, y **ninguna la puede hacer un script**: las dos son declaraciones que
-corresponden al titular de la cuenta.
-
-1. **Cuestionario de App Privacy.** En *Distribución → Privacidad de la app*.
-   Los endpoints de la API (`/v1/appDataUsages`, `/v1/appDataUsagePublishState`)
-   responden 404 en esta cuenta, así que es solo web — y además es una
-   declaración legal sobre qué datos recoges. Las respuestas exactas, ya
-   razonadas, están en [`ficha-app-store.md`](ficha-app-store.md#cuestionario-de-app-privacy):
-   en resumen, «Otros datos de usuario» → funcionalidad, **no** vinculado a
-   identidad, **no** usado para seguimiento; el resto todo «no».
-
+1. **Publicar la declaración de privacidad** una vez el build 2 esté procesado
+   (ver arriba).
 2. **Condición de comerciante (DSA).** En *Negocio → Información de comerciante*.
-   App Store Connect avisa en portada que sin declararla las apps nuevas no se
-   pueden enviar para la Unión Europea.
-
-Con esas dos hechas, el botón **«Añadir para revisión»** de la versión 1.0 ya
-tiene todo lo demás relleno y el build asociado.
+   Sin ella no se pueden enviar apps nuevas para la Unión Europea. Es una
+   autoclasificación legal con implicaciones de obligaciones frente a
+   consumidores, y requiere datos de contacto y dirección: **la tiene que hacer
+   el titular de la cuenta**, no un script ni un asistente.
+3. **Corregir el teléfono de contacto de revisión**, que es un relleno.
 
 ## Idioma principal
 
