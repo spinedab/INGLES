@@ -32,3 +32,7 @@ android/
 # Editors
 .idea/
 .vscode/
+
+# Firma de Android — el keystore vive en ~/.android-signing/, nunca aquí
+*.jks
+*.keystore

@@ -14,7 +14,7 @@ Implementación de siete subproyectos derivados del tratado enciclopédico sobre
 | 3 | App web rápida (vanilla) | [`webapp/`](webapp/) | SPA vanilla JS/PWA con SRS, flashcards, lecturas, listening, grammar, coach, búsqueda global y cuaderno léxico — cero build. Es la que sirve GitHub Pages |
 | 4 | Tutor IA conversacional (CLI) | [`tutor-ia/`](tutor-ia/) | CLI Python con Claude API aplicando principios pedagógicos |
 | 5 | **App móvil + web (Expo + RN)** | [`mobile/`](mobile/) | TypeScript, iOS / Android / web desde un único codebase: tabs, onboarding con placement test, design system propio. Pipeline de Apple en [`mobile/IOS.md`](mobile/IOS.md) |
-| 6 | App Android nativa (wrap) | [`native/`](native/) | Capacitor 6 empaqueta el export web de `mobile/` → AAB firmado `com.spinedab.ingles` |
+| 6 | ~~App Android (wrap Capacitor)~~ | [`native/`](native/) | **Superseded**: Android se compila desde `mobile/` con Expo. Se conserva solo como documentación del wrap |
 | 7 | API del tutor (servicio) | [`api/`](api/) | FastAPI que expone el tutor IA por HTTP para integrarlo en las apps |
 
 ## Documentos clave
@@ -58,18 +58,27 @@ python tutor.py
 | Abrir y usar en 5 segundos sin instalar nada | `webapp/` (vanilla JS, doble-click al `index.html`) — es la web pública |
 | App nativa iOS/Android para tu bolsillo | `mobile/` (`npm run ios` o `android`) |
 | IPA / TestFlight / App Store | `mobile/` con EAS — ver [`mobile/IOS.md`](mobile/IOS.md) |
-| AAB para Google Play | `native/` (Capacitor): `mobile/dist` → `native/www` → `gradlew bundleRelease` |
+| AAB para Google Play | `mobile/` con Gradle — ver [`mobile/ANDROID.md`](mobile/ANDROID.md) |
 | Web "de producto" para subir a tu hosting | `mobile/` con `npm run build:web` → genera estático en `dist/` |
 | Sincronización entre dispositivos / tutor IA en apps | [`api/`](api/) (FastAPI) + contrato en [`mobile/BACKEND_API.md`](mobile/BACKEND_API.md) |
 
 ## Pipeline Android (resumen)
 
+Se construye desde `mobile/` con Expo, igual que iOS — **no** con el wrap de
+Capacitor de `native/`, que quedó superseded.
+
 ```bash
-cd mobile && npm run build:web          # 1. export web
-rsync -a --delete dist/ ../native/www/  # 2. sync al wrap
-cd ../native && npx cap sync android    # 3. capacitor sync
-cd android && ./gradlew bundleRelease   # 4. AAB firmado
+export JAVA_HOME=/opt/homebrew/Cellar/openjdk@17/17.0.19/libexec/openjdk.jdk/Contents/Home
+export ANDROID_HOME=$HOME/Library/Android/sdk
+cd mobile
+npx expo prebuild --platform android --clean   # genera android/ (no versionado)
+cd android && source ~/.android-signing/ingles.env
+export INGLES_KEYSTORE INGLES_KEY_ALIAS INGLES_KEYSTORE_PASSWORD
+./gradlew bundleRelease                        # AAB firmado
 ```
+
+Detalle, requisitos del entorno y qué falta para publicar en Play:
+[`mobile/ANDROID.md`](mobile/ANDROID.md).
 
 ## Pipeline Apple (resumen)
 

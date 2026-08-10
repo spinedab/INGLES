@@ -13,7 +13,8 @@ F1  Plan personal                             [HECHO]
 F2  Sitio de documentación del tratado        [HECHO]
 F3  App web de aprendizaje                    [HECHO]
 F4  Tutor IA conversacional                   [HECHO]
-F5  App móvil + web (Expo + React Native)     [HECHO — mobile/, iOS y Android]
+F5  App móvil + web (Expo + React Native)     [HECHO — mobile/, iOS y Android
+                                                nativos desde el mismo codebase]
 F6  API del tutor como servicio               [HECHO — api/, FastAPI, en producción]
 F7  Publicación                               [HECHO — web; iOS a falta de dos
                                                 declaraciones del titular]
@@ -269,6 +270,8 @@ Abiertos:
 - Ampliar vocabulario hasta 2.000 por nivel (van 300+; ver `content/vocab/`).
 - Más lecturas — objetivo 50 por nivel para lectura extensiva real (van 15).
 - Sincronización entre dispositivos: hoy el progreso es local por diseño.
-- Publicar la app de Android en Play: el AAB existe pero nunca se subió, y
-  `native/android/` no está versionado, así que el wrap no es reproducible desde
-  el repo.
+- Publicar la app de Android en Play. El build ya es reproducible desde el repo
+  (`mobile/` con Expo + Gradle, ver [`mobile/ANDROID.md`](mobile/ANDROID.md)) y el
+  AAB va firmado con un keystore de subida guardado fuera del repo. Lo que falta
+  es del lado de la tienda: no consta cuenta de Google Play Developer, y
+  `com.spinedab.ingles` devuelve 404 en Play.
