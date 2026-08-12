@@ -7,7 +7,7 @@ superseded — ver [`native/README.md`](../native/README.md).
 | Dato | Valor |
 |------|-------|
 | applicationId | `com.spinedab.ingles` (el mismo que el bundle id de iOS) |
-| versionCode / versionName | `2` / `1.0.0` (`app.json`) |
+| versionCode / versionName | `3` / `1.0.0` (`app.json`) — el `2` ya está subido a Play |
 | targetSdk | 35 |
 | Nombre visible | Tutor Inglés IA |
 
@@ -17,7 +17,7 @@ Ninguno viene configurado por defecto en esta Mac, así que hay que exportar las
 variables en cada shell (o añadirlas al perfil):
 
 ```bash
-export JAVA_HOME=/opt/homebrew/Cellar/openjdk@17/17.0.19/libexec/openjdk.jdk/Contents/Home
+export JAVA_HOME=/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH="$JAVA_HOME/bin:$ANDROID_HOME/platform-tools:$PATH"
 ```
@@ -95,31 +95,75 @@ manual, con el bundle de Hermes dentro y el contenido de la app comprobado
 
 ## Publicar en Google Play
 
-**Esto todavía no se ha hecho y no está empezado del lado de la tienda.** Hace
-falta:
+> **Corrección importante.** Una versión anterior de este documento afirmaba que
+> «no está empezado del lado de la tienda» y que la cuenta no constaba, porque
+> `com.spinedab.ingles` devolvía **404** en Play. Esa inferencia era falsa: un 404
+> solo significa que la app **no es pública**, no que no exista. La app sí existe.
 
-1. **Cuenta de Google Play Developer** — 25 USD, pago único (a diferencia de
-   Apple, que son 99 USD/año). No consta que exista: `com.spinedab.ingles`
-   devuelve 404 en Play.
-2. **Crear la ficha** en Play Console y activar **Play App Signing** al subir el
-   primer AAB.
-3. **Ficha de tienda**: los textos de [`store/ficha-app-store.md`](store/ficha-app-store.md)
-   sirven casi tal cual, pero Play tiene límites distintos — descripción corta de
-   80 caracteres y larga de 4.000, sin campo de keywords (Play indexa la
-   descripción).
-4. **Capturas**: las de `store/capturas/ios-6.9/` son de iPhone. Play pide
-   mínimo 2 capturas de teléfono, entre 320 y 3840 px de lado. Se regeneran con
-   un emulador Android por el mismo método que las de iOS.
-5. **Cuestionario de contenido y Data safety** — el equivalente al App Privacy de
-   Apple. Las respuestas razonadas de
-   [`store/ficha-app-store.md`](store/ficha-app-store.md#cuestionario-de-app-privacy)
-   aplican igual: el progreso no sale del dispositivo y lo único que se envía son
-   los mensajes al tutor, sin identificadores.
-6. **Política de privacidad**: la misma URL, https://ingles.nexocloud.co/privacidad.html
+Estado real en Play Console (verificado el 12 ago 2026):
 
-Con la cuenta creada, la subida se puede automatizar con la Google Play
-Developer API y una cuenta de servicio, igual que se hizo con la clave `.p8` de
-Apple.
+| Dato | Valor |
+|------|-------|
+| Cuenta | DreamLabsTech, personal, ID `8501044510791725431` |
+| App | «INGLES: aprende con IA», id `4972652599663596483` |
+| Ficha de tienda | **En directo** — nombre, icono, capturas, Data safety y clasificación ya resueltos |
+| Segmento activo | **Prueba cerrada «alpha»**, versión 1.0, 177/177 países |
+| Producción | Inactivo |
+| App bundles subidos | versionCode **1** (9 jun 2026) y **2** (30 jul 2026) |
+| Play App Signing | Activo |
+
+Por eso `app.json` va con `versionCode: 3`: el 2 ya está ocupado.
+
+### Bloqueo 1 — la clave de carga no es la de este Mac
+
+`~/.android-signing/ingles-upload.jks` **no** es la clave con la que se subieron
+los builds de junio y julio, así que un AAB firmado con ella lo **rechaza** Play:
+
+| Clave | SHA-256 |
+|-------|---------|
+| Registrada en Play como clave de carga | `FF:41:A1:DC:A0:24:83:01:DB:90:92:0C:...` |
+| `ingles-upload.jks` (este Mac) | `3C:2D:DD:62:CE:D7:DB:5B:53:40:70:B8:AF:46:12:A0:3E:30:B7:BB:75:F9:9E:FA:B8:FF:B1:07:50:10:6A:AD` |
+
+La original no está en este Mac: no aparece en `~/.android-signing/`, ni en
+`~/.android/debug.keystore`, ni en `dream-admin/.secrets/`, ni en el historial del
+shell. Se generó en otra máquina o en un pipeline cuyos secretos no están aquí.
+
+Dos salidas, y **la elección no es técnica**:
+
+1. **Recuperar el keystore original** de donde se firmó el build del 30 jul. Es la
+   opción limpia: no cambia nada en Play.
+2. **Pedir el restablecimiento de la clave de carga** en Play Console → Firma de
+   apps → «Cómo solicitar que se restablezca la clave de carga», adjuntando
+   `~/.android-signing/ingles-upload-cert.pem` (ya exportado). Google tarda unos
+   días. **Ojo:** esto invalida la clave anterior, así que rompería la máquina o
+   el pipeline que todavía la use. No se ha hecho, precisamente por eso.
+
+La clave de firma **real** la guarda Google (Play App Signing), así que en ningún
+caso se pierde la app ni las instalaciones existentes.
+
+### Bloqueo 2 — producción exige 12 verificadores y 14 días
+
+Las cuentas personales nuevas no pueden lanzar a producción directamente. Play
+pide, y lo muestra en el panel de la app:
+
+- ✅ Publicar una versión de prueba cerrada — *hecho*
+- ⬜ **12 verificadores que acepten** participar — *actualmente 0*
+- ⬜ Mantener la prueba cerrada con esos 12 durante **14 días**
+
+Esto no es trabajo de código: son 12 personas reales aceptando una invitación.
+Hasta que se cumpla, «Producción» seguirá inactivo por diseño de Google.
+
+### Lo que sí queda listo desde el repo
+
+- `bundleRelease` reproducible y firmado (ver arriba).
+- Textos de ficha en [`store/ficha-app-store.md`](store/ficha-app-store.md). Play
+  usa descripción corta de 80 caracteres y larga de 4.000, sin campo de keywords.
+- Capturas: las de `store/capturas/ios-6.9/` son de iPhone. Play acepta capturas
+  de teléfono de 320–3840 px, y la ficha ya tiene las suyas publicadas.
+- Política de privacidad: https://ingles.nexocloud.co/privacidad.html
+
+Cuando la clave esté resuelta, la subida se puede automatizar con la Google Play
+Developer API y una cuenta de servicio, igual que se hizo con la `.p8` de Apple.
 
 ## Iconos: por qué son SVG y no @expo/vector-icons
 
