@@ -1,12 +1,11 @@
 import { Tabs } from 'expo-router';
-import { Ionicons } from '@expo/vector-icons';
+import { Icon, type IconName } from '@/components/Icon';
 import { Platform } from 'react-native';
 import { useTheme, spacing, layout } from '@/lib/theme';
 
-type IconName = keyof typeof Ionicons.glyphMap;
 
 function TabIcon({ name, color, size }: { name: IconName; color: string; size: number }) {
-  return <Ionicons name={name} size={size} color={color} />;
+  return <Icon name={name} size={size} color={color} />;
 }
 
 export default function TabsLayout() {

@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { Link, Stack } from 'expo-router';
-import { Ionicons } from '@expo/vector-icons';
+import { Icon, type IconName } from '@/components/Icon';
 import { Screen } from '@/components/Screen';
 import { Text } from '@/components/Text';
 import { Card } from '@/components/Card';
@@ -15,7 +15,6 @@ import { loadVocab, READING_INDEX, LISTENING_INDEX, GRAMMAR_TOPICS } from '@/lib
 import { statsForDeck, type DeckStats } from '@/lib/srs';
 import { spacing, skillColors, radius, useTheme } from '@/lib/theme';
 
-type IconName = keyof typeof Ionicons.glyphMap;
 
 interface SkillCardProps {
   href: string;
@@ -33,7 +32,7 @@ function SkillCard({ href, icon, color, title, subtitle, badge }: SkillCardProps
       <Card variant="elevated" onPress={() => {}}>
         <View style={styles.skillRow}>
           <View style={[styles.iconBox, { backgroundColor: color + '18' }]}>
-            <Ionicons name={icon} size={22} color={color} />
+            <Icon name={icon} size={22} color={color} />
           </View>
           <View style={{ flex: 1 }}>
             <Text variant="bodyBold">{title}</Text>
@@ -44,7 +43,7 @@ function SkillCard({ href, icon, color, title, subtitle, badge }: SkillCardProps
               <Text variant="smallBold" style={{ color }}>{String(badge)}</Text>
             </View>
           )}
-          <Ionicons name="chevron-forward" size={18} color={theme.muted} />
+          <Icon name="chevron-forward" size={18} color={theme.muted} />
         </View>
       </Card>
     </Link>
@@ -123,7 +122,7 @@ export default function LearnHub() {
         <Link href="/search" asChild>
           <Card variant="accent" onPress={() => {}}>
             <View style={styles.skillRow}>
-              <Ionicons name="search" size={22} color={skillColors.coach} />
+              <Icon name="search" size={22} color={skillColors.coach} />
               <View style={{ flex: 1, marginLeft: spacing.sm }}>
                 <Text variant="bodyBold" accent>Busqueda global</Text>
                 <Text variant="small" muted>Vocab, lecturas, listening, gramatica</Text>

@@ -12,7 +12,7 @@ import Animated, {
   SlideOutLeft,
 } from 'react-native-reanimated';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Ionicons } from '@expo/vector-icons';
+import { Icon } from '@/components/Icon';
 import { Text } from '@/components/Text';
 import { Button } from '@/components/Button';
 import { Card } from '@/components/Card';
@@ -104,7 +104,7 @@ export default function OnboardingScreen() {
       {step === 'welcome' && (
         <Animated.View entering={FadeIn.duration(400)} style={styles.center}>
           <View style={[styles.logoBox, { backgroundColor: theme.accentSoft }]}>
-            <Ionicons name="language" size={48} color={theme.accent} />
+            <Icon name="language" size={48} color={theme.accent} />
           </View>
           <Text variant="hero" style={[styles.textCenter, { marginTop: spacing.xxl }]}>
             INGLES
@@ -125,7 +125,7 @@ export default function OnboardingScreen() {
       {/* ── Daily goal ── */}
       {step === 'goal' && (
         <Animated.View entering={SlideInRight.duration(300)} exiting={SlideOutLeft.duration(200)} style={styles.center}>
-          <Ionicons name="time-outline" size={48} color={theme.accent} />
+          <Icon name="time" size={48} color={theme.accent} />
           <Text variant="h1" style={[styles.textCenter, { marginTop: spacing.xl }]}>
             Cuanto tiempo al dia?
           </Text>

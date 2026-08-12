@@ -121,72 +121,31 @@ Con la cuenta creada, la subida se puede automatizar con la Google Play
 Developer API y una cuenta de servicio, igual que se hizo con la clave `.p8` de
 Apple.
 
-## Bug abierto: los iconos de Ionicons no se renderizan en Android
+## Iconos: por qué son SVG y no @expo/vector-icons
 
-**Estado: sin resolver.** La app arranca, navega y es usable, pero **ningún
-glifo de `@expo/vector-icons` se dibuja en Android**: ni el del onboarding ni los
-del tab bar, que quedan invisibles. En iOS se renderizan bien.
+`components/Icon.tsx` dibuja los 14 iconos de la app con `react-native-svg`.
+No es una preferencia estética: **los glifos de `@expo/vector-icons` no se
+renderizaban en Android**, ni en el onboarding ni en el tab bar, que salía con
+sus cinco iconos invisibles. En iOS sí funcionaban.
 
-Se detectó ejecutando el APK de release en un emulador (Pixel 7, Android 15).
-No se habría visto de otra forma: el build es correcto y no da ningún error.
+Tres hipótesis se probaron y se descartaron por medición, no por suposición:
 
-### Lo que se comprobó
+1. **Carga en runtime** — `useFonts(Ionicons.font)` explícito. No lo arregló.
+2. **Fuente no embebida** — embeberla como recurso nativo con el plugin
+   `expo-font`. La fuente aparecía en `assets/fonts/Ionicons.ttf`. No lo arregló.
+3. **New Architecture** — compilado con `newArchEnabled: false`. Los iconos
+   seguían ausentes, así que no era bridgeless.
 
-- Las 20 fuentes TTF **sí están** dentro del APK. No es empaquetado.
-- `enableProguardInReleaseBuilds` y `shrinkResources` están en **false**, así que
-  **no es minificación** de R8 quitando recursos.
-- `adb shell uiautomator dump` muestra **0 nodos con glifo** y solo 4 nodos de
-  texto en el onboarding. El componente `<Ionicons>` **no emite ningún nodo** —
-  no es que pinte un cuadro vacío. `@expo/vector-icons` devuelve `null` mientras
-  su fuente no está lista, así que la fuente nunca llega a estarlo.
-- No aparece ningún error en `logcat`.
+Datos que orientaron el diagnóstico: las 20 TTF **sí** estaban en el APK,
+`minifyEnabled`/`shrinkResources` estaban en **false** (no era R8), y `logcat` no
+mostraba ningún error. Los codepoints del área privada de Unicode se dibujan como
+**nada** al caer al font por defecto, así que el texto se renderizaba sin la
+fuente aplicada, sin dejar rastro visible.
 
-### Tres hipótesis probadas y refutadas
+Con SVG no hay fuente que cargar: el trazo se dibuja siempre. `react-native-svg`
+ya era dependencia, así que no añade peso. La API de `Icon` imita la de Ionicons
+(`name`, `size`, `color`) para que la sustitución fuera mecánica.
 
-1. **Carga en runtime**: `useFonts(Ionicons.font)` explícito en
-   `app/_layout.tsx`. No lo arregla.
-2. **Fuente no embebida**: embeber `Ionicons.ttf` como recurso nativo con el
-   plugin `expo-font`. La fuente aparece en `assets/fonts/Ionicons.ttf`, pero no
-   lo arregla.
-3. **New Architecture**: se compiló con `newArchEnabled: false` para descartar un
-   problema de bridgeless en la carga de fuentes. **Los iconos siguen ausentes**,
-   así que no es eso. El flag se restauró a `true` porque el build 2 de iOS ya
-   subido a App Store Connect se compiló con New Architecture, y dejarlo en false
-   desalinearía el repo del binario en revisión.
+**Verificado en el emulador**: los 14 iconos se renderizan, incluidos los cinco
+del tab bar.
 
-Los cambios 1 y 2 se conservan porque son la práctica recomendada y no hacen
-daño, pero **ninguno resolvió el síntoma**.
-
-### Lo que sí se arregló de camino
-
-El primer intento dejó el **splash colgado para siempre** cuando la fuente no
-cargaba. `app/_layout.tsx` ahora cierra el splash cuando la fuente carga, falla
-**o pasan 3 segundos**, de modo que un problema de fuentes degrada a «app sin
-iconos» y nunca a «app que no abre».
-
-### Por dónde seguir — la vía recomendada
-
-**Sustituir `@expo/vector-icons` por SVG.** `react-native-svg` ya es dependencia,
-así que no añade peso, y elimina la clase de problema entera: no hay fuente que
-cargar, el trazo se dibuja siempre. Son ~12 iconos en 5 ficheros
-(`app/onboarding.tsx`, `app/(tabs)/_layout.tsx`, `app/(tabs)/learn.tsx`,
-`app/(tabs)/profile.tsx`): `language`, `time-outline`, `person`, `person-circle`,
-`home`, `book`, `fitness`, `journal`, `chevron-forward`, `search` y los de
-destreza. Es un refactor acotado y determinista.
-
-Alternativas menos fiables: probar en un móvil físico (podría ser específico del
-emulador) o revisar incompatibilidades conocidas de `expo-font` con RN 0.76.
-
-**No bloquea iOS**, que no está afectado y renderiza los iconos bien.
-
-## Por qué la app NO se ha subido a Play todavía
-
-La cuenta existe y está accesible: **DreamLabsTech**, cuenta personal, ID
-`8501044510791725431`, con 88 apps. El AAB está firmado y listo.
-
-No se ha subido **a propósito**: con este bug, el tab bar se publicaría con los
-cinco iconos invisibles. Es la navegación principal de la app. Publicarlo sería
-peor que esperar, y una vez en Play la primera impresión ya está dada.
-
-Orden recomendado: arreglar los iconos → verificar en el emulador (`ingles_test`)
-→ crear la app en Play Console → subir el AAB.

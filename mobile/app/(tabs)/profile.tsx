@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, StyleSheet, Alert, Platform, TextInput } from 'react-native';
 import { Stack } from 'expo-router';
-import { Ionicons } from '@expo/vector-icons';
+import { Icon } from '@/components/Icon';
 import { Screen } from '@/components/Screen';
 import { Text } from '@/components/Text';
 import { Card } from '@/components/Card';
@@ -88,7 +88,7 @@ export default function ProfileScreen() {
         {/* Header */}
         <View style={styles.header}>
           <View style={[styles.avatar, { backgroundColor: theme.accentSoft }]}>
-            <Ionicons name="person" size={32} color={theme.accent} />
+            <Icon name="person" size={32} color={theme.accent} />
           </View>
           <View style={{ flex: 1 }}>
             <Text variant="h2">Estudiante</Text>
