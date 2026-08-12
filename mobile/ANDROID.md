@@ -118,3 +118,50 @@ falta:
 Con la cuenta creada, la subida se puede automatizar con la Google Play
 Developer API y una cuenta de servicio, igual que se hizo con la clave `.p8` de
 Apple.
+
+## Bug abierto: los iconos de Ionicons no se renderizan en Android
+
+**Estado: sin resolver.** La app arranca, navega y es usable, pero **ningún
+glifo de `@expo/vector-icons` se dibuja en Android**: ni el del onboarding ni los
+del tab bar, que quedan invisibles. En iOS se renderizan bien.
+
+Se detectó ejecutando el APK de release en un emulador (Pixel 7, Android 15).
+No se habría visto de otra forma: el build es correcto y no da ningún error.
+
+### Lo que se comprobó
+
+- Las 20 fuentes TTF **sí están** dentro del APK. No es empaquetado.
+- `enableProguardInReleaseBuilds` y `shrinkResources` están en **false**, así que
+  **no es minificación** de R8 quitando recursos.
+- `adb shell uiautomator dump` muestra **0 nodos con glifo** y solo 4 nodos de
+  texto en el onboarding. El componente `<Ionicons>` **no emite ningún nodo** —
+  no es que pinte un cuadro vacío. `@expo/vector-icons` devuelve `null` mientras
+  su fuente no está lista, así que la fuente nunca llega a estarlo.
+- No aparece ningún error en `logcat`.
+
+### Lo que se intentó y NO lo arregló
+
+1. `useFonts(Ionicons.font)` explícito en `app/_layout.tsx`.
+2. Embeber `Ionicons.ttf` como recurso nativo con el plugin `expo-font`
+   (`assets/fonts/Ionicons.ttf` se genera correctamente).
+
+Ambos cambios se conservan porque son la práctica recomendada y no hacen daño,
+pero conviene saber que ninguno resolvió el síntoma.
+
+### Lo que sí se arregló de camino
+
+El primer intento dejó el **splash colgado para siempre** cuando la fuente no
+cargaba. `app/_layout.tsx` ahora cierra el splash cuando la fuente carga, falla
+**o pasan 3 segundos**, de modo que un problema de fuentes degrada a «app sin
+iconos» y nunca a «app que no abre».
+
+### Por dónde seguir
+
+- Probar en un dispositivo Android físico: puede ser específico del emulador.
+- Sustituir `@expo/vector-icons` por SVG (`react-native-svg` ya es dependencia),
+  que elimina la clase de problema entera.
+- Revisar si `expo-font` v13 + RN 0.76 + New Architecture tienen una
+  incompatibilidad conocida en la carga de fuentes de iconos.
+
+**No bloquea el envío a iOS**, que no está afectado. Sí conviene resolverlo antes
+de publicar en Play.

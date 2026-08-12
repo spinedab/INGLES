@@ -3,7 +3,9 @@ import { StatusBar } from 'expo-status-bar';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import * as SplashScreen from 'expo-splash-screen';
-import { useEffect } from 'react';
+import { useFonts } from 'expo-font';
+import { Ionicons } from '@expo/vector-icons';
+import { useEffect, useState } from 'react';
 import { LevelProvider, useLevel } from '@/lib/levelContext';
 import { apiClient } from '@/lib/api';
 import { useTheme } from '@/lib/theme';
@@ -18,9 +20,26 @@ function StackNavigator() {
   const theme = useTheme();
   const { ready } = useLevel();
 
+  // La fuente de Ionicons se carga explícitamente. En el build de release de
+  // Android, la carga automática de @expo/vector-icons no llegaba a tiempo y
+  // NINGÚN icono se dibujaba: ni el del onboarding ni los del tab bar, que
+  // quedaban invisibles. En iOS colaba por casualidad de timing.
+  const [fontsLoaded, fontError] = useFonts(Ionicons.font);
+
+  // Red de seguridad: si la fuente ni carga ni falla, el splash se quedaría
+  // colgado para siempre y la app sería inusable. Pasado el plazo se sigue
+  // adelante — es preferible arrancar sin iconos que no arrancar.
+  const [fontTimeout, setFontTimeout] = useState(false);
   useEffect(() => {
-    if (ready) void SplashScreen.hideAsync();
-  }, [ready]);
+    const t = setTimeout(() => setFontTimeout(true), 3000);
+    return () => clearTimeout(t);
+  }, []);
+
+  const fontsSettled = fontsLoaded || !!fontError || fontTimeout;
+
+  useEffect(() => {
+    if (ready && fontsSettled) void SplashScreen.hideAsync();
+  }, [ready, fontsSettled]);
 
   return (
     <Stack
