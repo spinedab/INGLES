@@ -25,10 +25,12 @@ export PATH="$JAVA_HOME/bin:$ANDROID_HOME/platform-tools:$PATH"
 - **JDK 17.** Hay también `openjdk` y `openjdk@21` en Homebrew; RN 0.76 va con 17.
 - **SDK de Android** en `~/Library/Android/sdk` con platform 35 y build-tools 35.
 - Android Studio **no** está instalado y no hace falta: todo va por Gradle.
-- No hay ningún AVD creado, así que para probar en emulador habría que crearlo
-  primero. El AAB se compiló y se verificó firmado, pero **la app no se ha
-  ejecutado nunca en un dispositivo o emulador Android** — a diferencia de iOS,
-  que sí se probó en el simulador.
+- **Ya está todo configurado de forma persistente** en `~/.zshrc`: `JAVA_HOME`,
+  `ANDROID_HOME`, el PATH con `adb`/`emulator`/`cmdline-tools` y la carga
+  automática del keystore. Un shell nuevo funciona sin exportar nada.
+- Emulador y una imagen `android-35;google_apis;arm64-v8a` instalados, con un AVD
+  llamado `ingles_test` (Pixel 7). Arrancarlo:
+  `emulator -avd ingles_test -no-snapshot -no-audio -no-boot-anim -gpu swiftshader_indirect`
 
 ## Generar el proyecto nativo
 
@@ -139,14 +141,21 @@ No se habría visto de otra forma: el build es correcto y no da ningún error.
   su fuente no está lista, así que la fuente nunca llega a estarlo.
 - No aparece ningún error en `logcat`.
 
-### Lo que se intentó y NO lo arregló
+### Tres hipótesis probadas y refutadas
 
-1. `useFonts(Ionicons.font)` explícito en `app/_layout.tsx`.
-2. Embeber `Ionicons.ttf` como recurso nativo con el plugin `expo-font`
-   (`assets/fonts/Ionicons.ttf` se genera correctamente).
+1. **Carga en runtime**: `useFonts(Ionicons.font)` explícito en
+   `app/_layout.tsx`. No lo arregla.
+2. **Fuente no embebida**: embeber `Ionicons.ttf` como recurso nativo con el
+   plugin `expo-font`. La fuente aparece en `assets/fonts/Ionicons.ttf`, pero no
+   lo arregla.
+3. **New Architecture**: se compiló con `newArchEnabled: false` para descartar un
+   problema de bridgeless en la carga de fuentes. **Los iconos siguen ausentes**,
+   así que no es eso. El flag se restauró a `true` porque el build 2 de iOS ya
+   subido a App Store Connect se compiló con New Architecture, y dejarlo en false
+   desalinearía el repo del binario en revisión.
 
-Ambos cambios se conservan porque son la práctica recomendada y no hacen daño,
-pero conviene saber que ninguno resolvió el síntoma.
+Los cambios 1 y 2 se conservan porque son la práctica recomendada y no hacen
+daño, pero **ninguno resolvió el síntoma**.
 
 ### Lo que sí se arregló de camino
 
@@ -155,13 +164,29 @@ cargaba. `app/_layout.tsx` ahora cierra el splash cuando la fuente carga, falla
 **o pasan 3 segundos**, de modo que un problema de fuentes degrada a «app sin
 iconos» y nunca a «app que no abre».
 
-### Por dónde seguir
+### Por dónde seguir — la vía recomendada
 
-- Probar en un dispositivo Android físico: puede ser específico del emulador.
-- Sustituir `@expo/vector-icons` por SVG (`react-native-svg` ya es dependencia),
-  que elimina la clase de problema entera.
-- Revisar si `expo-font` v13 + RN 0.76 + New Architecture tienen una
-  incompatibilidad conocida en la carga de fuentes de iconos.
+**Sustituir `@expo/vector-icons` por SVG.** `react-native-svg` ya es dependencia,
+así que no añade peso, y elimina la clase de problema entera: no hay fuente que
+cargar, el trazo se dibuja siempre. Son ~12 iconos en 5 ficheros
+(`app/onboarding.tsx`, `app/(tabs)/_layout.tsx`, `app/(tabs)/learn.tsx`,
+`app/(tabs)/profile.tsx`): `language`, `time-outline`, `person`, `person-circle`,
+`home`, `book`, `fitness`, `journal`, `chevron-forward`, `search` y los de
+destreza. Es un refactor acotado y determinista.
 
-**No bloquea el envío a iOS**, que no está afectado. Sí conviene resolverlo antes
-de publicar en Play.
+Alternativas menos fiables: probar en un móvil físico (podría ser específico del
+emulador) o revisar incompatibilidades conocidas de `expo-font` con RN 0.76.
+
+**No bloquea iOS**, que no está afectado y renderiza los iconos bien.
+
+## Por qué la app NO se ha subido a Play todavía
+
+La cuenta existe y está accesible: **DreamLabsTech**, cuenta personal, ID
+`8501044510791725431`, con 88 apps. El AAB está firmado y listo.
+
+No se ha subido **a propósito**: con este bug, el tab bar se publicaría con los
+cinco iconos invisibles. Es la navegación principal de la app. Publicarlo sería
+peor que esperar, y una vez en Play la primera impresión ya está dada.
+
+Orden recomendado: arreglar los iconos → verificar en el emulador (`ingles_test`)
+→ crear la app en Play Console → subir el AAB.
