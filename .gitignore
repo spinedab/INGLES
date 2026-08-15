@@ -36,3 +36,6 @@ android/
 # Firma de Android — el keystore vive en ~/.android-signing/, nunca aquí
 *.jks
 *.keystore
+
+# Permisos locales de Claude Code (por equipo, no del repo)
+.claude/settings.local.json
