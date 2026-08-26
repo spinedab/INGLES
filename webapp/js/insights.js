@@ -53,11 +53,30 @@ export function summarizeActivity(now = Date.now()) {
   const last7Keys = Array.from({ length: 7 }, (_, i) => localDayKey(now - (6 - i) * DAY));
   const daySet = new Set(events.map(e => e.day));
 
+  // Racha con dos concesiones deliberadas frente al contador estricto.
+  //
+  // 1. No empieza a contar en hoy sino en ayer si hoy aún no hay actividad.
+  //    Antes, a las 00:00 una racha de 30 dias se mostraba como 0 hasta que
+  //    el alumno estudiara: castigaba por no haber estudiado todavia.
+  // 2. Tolera un dia suelto de ausencia. La evidencia sobre motivacion
+  //    (autodeterminacion) es que el reseteo a cero por una interrupcion
+  //    normal de la vida adulta produce abandono, no constancia.
   let streak = 0;
-  for (let i = 0; i < 365; i++) {
-    const key = localDayKey(now - i * DAY);
-    if (!daySet.has(key)) break;
-    streak++;
+  let misses = 0;
+  const startedToday = daySet.has(today);
+  for (let i = startedToday ? 0 : 1; i < 365; i++) {
+    if (daySet.has(localDayKey(now - i * DAY))) {
+      streak++;
+    } else if (++misses > 1) {
+      break;
+    }
+  }
+
+  // Dias activos en el ultimo mes: metrica acumulativa que nunca retrocede
+  // por una pausa, pensada para acompañar a la racha en la interfaz.
+  let activeDays30 = 0;
+  for (let i = 0; i < 30; i++) {
+    if (daySet.has(localDayKey(now - i * DAY))) activeDays30++;
   }
 
   const totals = {
@@ -87,6 +106,7 @@ export function summarizeActivity(now = Date.now()) {
   return {
     goal,
     streak,
+    activeDays30,
     totals,
     week,
     lastEvents: events.slice(-8).reverse(),

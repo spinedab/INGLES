@@ -1,28 +1,120 @@
+/* ==========================================================================
+   SISTEMA DE DISEÑO
+   Color en OKLCH: a diferencia de HSL, la luminosidad es perceptualmente
+   uniforme, así que un mismo valor de L se ve igual de claro en cualquier
+   matiz. Eso permite construir escalas y garantizar contraste AA sin ir
+   comprobando pareja por pareja.
+
+   Los neutros son cálidos (matiz 85) a propósito, no fríos: la app se usa
+   para leer textos largos en una segunda lengua y el tono papel cansa menos
+   que el gris azulado. El acento sí es frío (258), y ese contraste
+   cálido/frío es el que da carácter.
+
+   Los nombres antiguos (--bg, --fg, --accent…) se conservan como alias
+   semánticos: el resto del archivo sigue funcionando sin tocarse.
+   ========================================================================== */
 :root {
-  --bg: #fafaf7;
-  --fg: #1a1a1a;
-  --muted: #666;
-  --accent: #2d6cdf;
-  --accent-soft: #e3edff;
-  --border: #e1e1de;
-  --card-bg: #fff;
-  --good: #2d7a3f;
-  --bad: #b73225;
-  --warn: #b87a1a;
-  --shadow: 0 2px 8px rgba(0,0,0,0.06);
+  /* Acento — matiz 258, el azul de marca (#2d6cdf ≈ accent-500) */
+  --accent-50:  oklch(97% 0.018 258);
+  --accent-100: oklch(93% 0.040 258);
+  --accent-200: oklch(86% 0.075 258);
+  --accent-300: oklch(76% 0.115 258);
+  --accent-400: oklch(65% 0.150 258);
+  --accent-500: oklch(55% 0.170 258);
+  --accent-600: oklch(47% 0.145 258);
+  --accent-700: oklch(39% 0.115 258);
+  --accent-800: oklch(30% 0.085 258);
+  --accent-900: oklch(22% 0.060 258);
+
+  /* Neutros cálidos — matiz 85, croma mínimo */
+  --neutral-0:   oklch(100% 0 0);
+  --neutral-50:  oklch(98%  0.004 85);
+  --neutral-100: oklch(95%  0.005 85);
+  --neutral-200: oklch(90%  0.006 85);
+  --neutral-300: oklch(82%  0.007 85);
+  --neutral-400: oklch(68%  0.008 85);
+  --neutral-500: oklch(54%  0.008 85);
+  --neutral-600: oklch(44%  0.008 85);
+  --neutral-700: oklch(33%  0.007 85);
+  --neutral-800: oklch(24%  0.006 85);
+  --neutral-900: oklch(17%  0.005 85);
+  --neutral-950: oklch(12%  0.005 85);
+
+  /* Retroalimentación. Verde y rojo llevan matices separados >100° para que
+     sigan siendo distinguibles en deuteranopía, donde el eje rojo-verde es
+     justo el que falla; el brillo distinto es la señal de respaldo. */
+  --success: oklch(52% 0.135 150);
+  --warning: oklch(58% 0.130 70);
+  --danger:  oklch(53% 0.170 27);
+
+  /* ---- Alias semánticos (los que usa el resto del archivo) ---- */
+  --bg: var(--neutral-50);
+  --fg: var(--neutral-900);
+  --muted: var(--neutral-600);
+  --accent: var(--accent-500);
+  --accent-soft: var(--accent-50);
+  --border: var(--neutral-200);
+  --card-bg: var(--neutral-0);
+  --good: var(--success);
+  --bad: var(--danger);
+  --warn: var(--warning);
+  --ring: var(--accent-500);
+  --shadow: 0 1px 2px oklch(0% 0 0 / 0.04), 0 2px 8px oklch(0% 0 0 / 0.06);
+  --shadow-lg: 0 4px 12px oklch(0% 0 0 / 0.08), 0 12px 28px oklch(0% 0 0 / 0.10);
+
+  /* ---- Tipografía fluida ----
+     clamp() interpola entre 320px y 1200px de ancho, así que no hacen falta
+     media queries para el tamaño de letra. */
+  --text-xs:   clamp(0.75rem,  0.72rem + 0.15vw, 0.8125rem);
+  --text-sm:   clamp(0.875rem, 0.85rem + 0.15vw, 0.9375rem);
+  --text-base: clamp(1rem,     0.97rem + 0.16vw, 1.0625rem);
+  --text-lg:   clamp(1.125rem, 1.08rem + 0.24vw, 1.25rem);
+  --text-xl:   clamp(1.25rem,  1.17rem + 0.40vw, 1.5rem);
+  --text-2xl:  clamp(1.5rem,   1.37rem + 0.65vw, 1.875rem);
+  --text-3xl:  clamp(1.875rem, 1.65rem + 1.10vw, 2.5rem);
+
+  --leading-tight: 1.2;
+  --leading-ui: 1.5;
+  --leading-reading: 1.7;   /* textos en L2: interlineado holgado */
+
+  /* ---- Ritmo espacial, escala de 4px ---- */
+  --space-1: 0.25rem;  --space-2: 0.5rem;   --space-3: 0.75rem;
+  --space-4: 1rem;     --space-5: 1.25rem;  --space-6: 1.5rem;
+  --space-8: 2rem;     --space-10: 2.5rem;  --space-12: 3rem;  --space-16: 4rem;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 9999px;
+
+  /* ---- Movimiento ---- */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-spring: cubic-bezier(0.34, 1.4, 0.64, 1);
+  --dur-fast: 140ms;
+  --dur: 220ms;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #14171a;
-    --fg: #ebe9e5;
-    --muted: #9a948c;
-    --accent: #5b8def;
-    --accent-soft: #1d2a44;
-    --border: #2a2e33;
-    --card-bg: #1d2125;
-    --shadow: 0 2px 12px rgba(0,0,0,0.4);
+    --bg: var(--neutral-950);
+    --fg: var(--neutral-100);
+    --muted: var(--neutral-400);
+    /* En oscuro sube el acento a 400: el 500 no llega a 3:1 sobre fondo
+       casi negro y los bordes de foco dejarían de cumplir AA. */
+    --accent: var(--accent-400);
+    --accent-soft: var(--accent-900);
+    --border: var(--neutral-800);
+    --card-bg: var(--neutral-900);
+    --ring: var(--accent-400);
+    /* Sobre fondo oscuro los colores saturados vibran; se bajan de croma
+       y se suben de luminosidad para que descansen la vista. */
+    --good: oklch(72% 0.115 150);
+    --bad:  oklch(70% 0.140 27);
+    --warn: oklch(78% 0.115 70);
+    --shadow: 0 2px 12px oklch(0% 0 0 / 0.5);
+    --shadow-lg: 0 12px 32px oklch(0% 0 0 / 0.6);
   }
+}
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -34,8 +126,9 @@
 body {
   background: var(--bg);
   color: var(--fg);
-  font: 16px -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  font-size: var(--text-base);
+  line-height: var(--leading-ui);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -1012,4 +1105,61 @@ kbd {
 @media (max-width: 520px) {
   .tutor-msg { max-width: 95%; }
   .tutor-chat { max-height: 60vh; }
+}
+
+/* ==========================================================================
+   ACCESIBILIDAD Y MOVIMIENTO (WCAG 2.2 AA)
+
+   Antes de esto el archivo no definía ni un solo estilo de foco ni respetaba
+   la preferencia de movimiento reducido del sistema.
+   ========================================================================== */
+
+/* 2.4.11 / 2.4.13 — Apariencia del foco.
+   :focus-visible y no :focus para que el anillo salga al navegar con teclado
+   pero no al hacer clic con el ratón. Grosor 2px y offset 2px: el offset
+   separa el anillo del propio componente, que es lo que garantiza el 3:1
+   incluso cuando el elemento tiene el color del acento de fondo. */
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* 2.5.8 — Tamaño mínimo del objetivo táctil: 24×24 px CSS.
+   Se aplica solo a controles reales; los enlaces dentro de un párrafo están
+   exentos por la propia norma y estirarlos rompería el interlineado. */
+button, .btn, .rating-btn, .utility-btn, [role="button"] {
+  min-height: 24px;
+  min-width: 24px;
+}
+
+/* Transiciones coherentes en los elementos interactivos. */
+a, button, .btn, .rating-btn, .utility-btn, .module-card {
+  transition: background-color var(--dur-fast) var(--ease),
+              border-color var(--dur-fast) var(--ease),
+              color var(--dur-fast) var(--ease),
+              box-shadow var(--dur) var(--ease),
+              transform var(--dur) var(--ease);
+}
+
+/* Textos largos en segunda lengua: interlineado holgado y medida de línea
+   limitada. Más de ~75 caracteres por línea obliga al ojo a buscar el
+   siguiente renglón, y eso penaliza más al leer en L2 que en la lengua
+   materna. */
+.text-block, .script {
+  line-height: var(--leading-reading);
+  max-width: 68ch;
+  text-wrap: pretty;
+}
+
+/* Respeta la preferencia del sistema. No se desactiva del todo (eso puede
+   romper animaciones que comunican estado) sino que se reduce a un valor
+   imperceptible, que es la recomendación habitual. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

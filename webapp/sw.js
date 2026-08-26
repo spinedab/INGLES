@@ -69,10 +69,15 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
-  // En producción esta webapp se sirve en la raíz de ingles.nawibox.com y el
-  // export web de Expo vive en /app/. El scope del SW es "/", así que sin esta
-  // salida se tragaría también /app/ con estrategia cache-first y dejaría esa
-  // otra app congelada en la primera versión vista.
+  // Salvaguarda heredada. Cuando la webapp se servia en la raiz, el scope del
+  // SW era "/" y sin esta salida se tragaba tambien /app/ (el export web de
+  // Expo) con estrategia cache-first, dejando esa otra app congelada en la
+  // primera version vista.
+  //
+  // Hoy la webapp se publica en https://ingles.nexocloud.co/webapp/ y el SW se
+  // registra con ruta relativa, asi que su scope ya es /webapp/ y nunca ve
+  // /app/. Se mantiene porque los navegadores que instalaron la version con
+  // scope "/" la conservan hasta que se desregistre.
   if (new URL(event.request.url).pathname.startsWith('/app/')) return;
   event.respondWith(cacheFirst(event.request));
 });
