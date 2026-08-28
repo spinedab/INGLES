@@ -68,11 +68,29 @@ export async function summarizeActivity(now: number = Date.now()): Promise<Activ
   const last7Keys = Array.from({ length: 7 }, (_, i) => localDayKey(now - (6 - i) * DAY_MS));
   const daySet = new Set(events.map((e) => e.day));
 
+  // Racha con dos concesiones deliberadas frente al contador estricto,
+  // idénticas a webapp/js/insights.js (mantener ambos en sintonía):
+  //
+  // 1. No empieza a contar en hoy sino en ayer si hoy aún no hay actividad.
+  //    Antes, a las 00:00 una racha de 30 días se mostraba como 0 hasta que
+  //    el alumno estudiara: castigaba por no haber estudiado todavía.
+  // 2. Tolera un día suelto de ausencia. El reseteo a cero por una
+  //    interrupción normal de la vida adulta produce abandono, no constancia.
   let streak = 0;
-  for (let i = 0; i < 365; i++) {
-    const key = localDayKey(now - i * DAY_MS);
-    if (!daySet.has(key)) break;
-    streak++;
+  let misses = 0;
+  const startedToday = daySet.has(today);
+  for (let i = startedToday ? 0 : 1; i < 365; i++) {
+    if (daySet.has(localDayKey(now - i * DAY_MS))) {
+      streak++;
+    } else if (++misses > 1) {
+      break;
+    }
+  }
+
+  // Días activos en el último mes: métrica acumulativa que nunca retrocede.
+  let activeDays30 = 0;
+  for (let i = 0; i < 30; i++) {
+    if (daySet.has(localDayKey(now - i * DAY_MS))) activeDays30 += 1;
   }
 
   const skills: Record<Skill, number> = {
@@ -112,6 +130,7 @@ export async function summarizeActivity(now: number = Date.now()): Promise<Activ
   return {
     goal,
     streak,
+    activeDays30,
     totals,
     week,
     lastEvents: events.slice(-8).reverse(),

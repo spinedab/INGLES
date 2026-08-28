@@ -120,6 +120,8 @@ export interface DailyMissionItem {
 export interface ActivitySummary {
   goal: number;
   streak: number;
+  /** Días con actividad en los últimos 30: acumulativo, nunca retrocede. */
+  activeDays30: number;
   completion: number;
   totals: {
     todayMinutes: number;
