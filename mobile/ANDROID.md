@@ -8,7 +8,7 @@ superseded — ver [`native/README.md`](../native/README.md).
 |------|-------|
 | applicationId | `com.spinedab.ingles` (el mismo que el bundle id de iOS) |
 | versionCode / versionName | `3` / `1.0.0` (`app.json`) — el `2` ya está subido a Play |
-| targetSdk | 35 |
+| targetSdk | 36 — Play lo exige desde 2026; se fija con `expo-build-properties`, no a mano |
 | Nombre visible | Tutor Inglés IA |
 
 ## Requisitos del entorno
@@ -114,32 +114,33 @@ Estado real en Play Console (verificado el 12 ago 2026):
 
 Por eso `app.json` va con `versionCode: 3`: el 2 ya está ocupado.
 
-### Bloqueo 1 — la clave de carga no es la de este Mac
+### ~~Bloqueo 1~~ — resuelto: la clave de carga se restableció
 
-`~/.android-signing/ingles-upload.jks` **no** es la clave con la que se subieron
-los builds de junio y julio, así que un AAB firmado con ella lo **rechaza** Play:
+La clave original de los builds de junio/julio no estaba en este Mac. Se pidió
+el restablecimiento en Play Console adjuntando el certificado de
+`ingles-upload.jks` y Google lo aprobó: la clave de carga registrada es ahora
+la de esta máquina (SHA-256 `3C:2D:DD:62:...`). Los AAB locales se aceptan.
 
-| Clave | SHA-256 |
-|-------|---------|
-| Registrada en Play como clave de carga | `FF:41:A1:DC:A0:24:83:01:DB:90:92:0C:...` |
-| `ingles-upload.jks` (este Mac) | `3C:2D:DD:62:CE:D7:DB:5B:53:40:70:B8:AF:46:12:A0:3E:30:B7:BB:75:F9:9E:FA:B8:FF:B1:07:50:10:6A:AD` |
+### Subida por API (sin navegador)
 
-La original no está en este Mac: no aparece en `~/.android-signing/`, ni en
-`~/.android/debug.keystore`, ni en `dream-admin/.secrets/`, ni en el historial del
-shell. Se generó en otra máquina o en un pipeline cuyos secretos no están aquí.
+`tools/play.py` sube el AAB por la Google Play Developer API con la service
+account `play-uploader@spinedab-play-api` (la misma de MANDO; llave en
+`~/.android-signing/play-service-account.json`, ya invitada en Play Console):
 
-Dos salidas, y **la elección no es técnica**:
+```bash
+python3 tools/play.py check                # ¿acceso a la app?
+python3 tools/play.py upload <ruta.aab>    # deja BORRADOR en alpha
+python3 tools/play.py upload <ruta.aab> --release   # y publica a testers
+```
 
-1. **Recuperar el keystore original** de donde se firmó el build del 30 jul. Es la
-   opción limpia: no cambia nada en Play.
-2. **Pedir el restablecimiento de la clave de carga** en Play Console → Firma de
-   apps → «Cómo solicitar que se restablezca la clave de carga», adjuntando
-   `~/.android-signing/ingles-upload-cert.pem` (ya exportado). Google tarda unos
-   días. **Ojo:** esto invalida la clave anterior, así que rompería la máquina o
-   el pipeline que todavía la use. No se ha hecho, precisamente por eso.
+Existe porque las dos vías manuales fallan por límites ajenos al proyecto: el
+puente del navegador tope las subidas en 10 MB (el AAB pesa 54) y la sesión
+web caduca. Con esto, la versionCode 3 (targetSdk 36) quedó publicada en la
+prueba cerrada Alpha el 28 ago 2026.
 
-La clave de firma **real** la guarda Google (Play App Signing), así que en ningún
-caso se pierde la app ni las instalaciones existentes.
+> Play rechaza el commit de una release cuyo targetSdk no cumpla su política
+> vigente (en 2026, API 36) con un críptico `Target SDK of artifact is too
+> low`. La subida del bundle en sí no falla: falla el commit del edit.
 
 ### Bloqueo 2 — producción exige 12 verificadores y 14 días
 
