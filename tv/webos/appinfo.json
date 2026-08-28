@@ -1,0 +1,17 @@
+{
+  "id": "com.spinedab.ingles",
+  "version": "1.0.0",
+  "vendor": "DreamLabsTech",
+  "type": "web",
+  "main": "index.html",
+  "title": "Tutor Inglés IA",
+  "appDescription": "Vocabulario con repetición espaciada, lectura graduada, listening y gramática. Tu progreso se queda en el televisor.",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "iconColor": "#276ed2",
+  "bgColor": "#060604",
+  "resolution": "1920x1080",
+  "supportTouchMode": "none",
+  "disableBackHistoryAPI": true,
+  "requiredPermissions": []
+}
