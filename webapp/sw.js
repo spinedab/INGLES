@@ -1,4 +1,8 @@
-const CACHE_NAME = 'ingles-webapp-v9';
+// Sube la versión SIEMPRE que cambie css/js/contenido: la estrategia es
+// cache-first, así que sin esto los visitantes recurrentes se quedan
+// congelados en la versión que cachearon (pasó con el rediseño OKLCH,
+// desplegado con v9 y servido viejo a quien ya tenía la app).
+const CACHE_NAME = 'ingles-webapp-v10';
 
 const CORE_ASSETS = [
   './',
