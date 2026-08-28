@@ -119,9 +119,32 @@ npm run submit:ios               # eas submit --platform ios --profile productio
 - **Localizaciones**: `CFBundleLocalizations: ["es", "en"]`. UI en español,
   contenido en inglés.
 
-### Lo que falta para publicar de verdad
+### Estado del envío (28 ago 2026)
 
-Nada de esto lo puede hacer el repo por ti:
+**La versión 1.0 (build 2) está ENVIADA A REVISIÓN**: `WAITING_FOR_REVIEW`,
+confirmado por la App Store Connect API. Todo se hizo por API con la clave
+`.p8` (`tools/asc.py`), sin sesión de navegador:
+
+- Teléfono del contacto de revisión corregido: el placeholder `+57 300 0000000`
+  se sustituyó por el número real y verificado que consta como contacto de
+  desarrollador en Google Play (+57 315 7218085).
+- `contentRightsDeclaration: DOES_NOT_USE_THIRD_PARTY_CONTENT` — todo el
+  contenido (vocabulario, lecturas, listening, gramática) se genera en este
+  repo.
+- Precio: gratis, territorio base USA, todos los países. Sin esto Apple
+  rechaza el envío con «App is not eligible for submission until pricing has
+  been set», un requisito que la UI no señalaba en la página de la versión.
+- La condición de comerciante (DSA) quedó declarada antes («no soy
+  comerciante»), requisito para distribuir en la UE.
+
+El flujo por API para futuras versiones: crear `reviewSubmissions` (plataforma
+IOS) → añadir la `appStoreVersion` como `reviewSubmissionItem` → `PATCH` con
+`submitted: true`. Los errores 409 del segundo paso traen la lista real de lo
+que falta en `meta.associatedErrors`, que es más fiable que la UI.
+
+### Lo que hizo falta para llegar aquí
+
+Contexto histórico de la ficha (ya resuelto, se deja como referencia):
 
 1. Cuenta de Apple Developer activa.
 2. Crear la ficha de la app en App Store Connect (nombre, categoría, precio) y
