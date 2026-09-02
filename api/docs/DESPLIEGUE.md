@@ -259,3 +259,53 @@ modo `conversation`).
 
 Para consumir este servicio desde `webapp/` y `mobile/`, ver
 [USO-CLIENTES.md](USO-CLIENTES.md).
+
+## Arranque automático tras un reinicio (corregido el 2026-08-28)
+
+El LaunchAgent `com.apps.ingles-api` **no arrancaba** desde su creación. Dos
+causas encadenadas, ambas verificadas en los logs de
+`~/Library/Logs/apps-ingles-api.{log,err.log}`:
+
+1. **`exit code 126` — TCC.** El plist ejecutaba
+   `~/Documents/INGLES/api/deploy/start.sh`, y macOS no permite a los procesos
+   lanzados por `launchd` leer dentro de Documentos. El agente moría antes de
+   correr una sola línea.
+
+2. **`Docker no responde tras 5 minutos` — PATH.** Al mover el arranque fuera de
+   Documentos apareció la segunda causa: `launchd` no hereda el `PATH` de la
+   sesión interactiva, así que `docker` no se encontraba y el bucle de espera
+   agotaba los cinco minutos en cada intento.
+
+### Cómo quedó
+
+- `deploy/boot.sh` — nuevo. Vive en `~/.local/share/apps/ingles-api/` y levanta
+  el stack **sin construir** (`up -d --no-build`): construir exige el código
+  fuente, que está justo donde `launchd` no puede entrar.
+- `deploy/start.sh` — al final de cada despliegue deja el espejo de arranque en
+  `~/.local/share/apps/ingles-api/`: `runtime.yml` (las dos capas de compose y
+  las variables ya resueltas con `docker compose config`), `env.production`
+  (chmod 600) y `boot.sh`.
+- `deploy/com.apps.ingles-api.plist` — apunta al espejo y añade el bloque
+  `EnvironmentVariables` con
+  `PATH=/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin`.
+
+Es el mismo patrón que ya usaban `emoji-generator`, `ai-studio`, `media-host` y
+`gemma-proxy`.
+
+### Verificado en frío
+
+Se tiró el stack a propósito (`docker compose -p api down`, con el 8817 sin
+responder) y se cargó solo el agente:
+
+```
+Esperando el runtime de Docker…
+Levantando el stack (sin build)…
+Esperando que la API responda…
+ingles-api listo en http://127.0.0.1:8817
+```
+
+`last exit code = 0` y `/health` devolviendo
+`{"status":"ok","provider":"gemma","model":"gemma4:e4b","scenarios_loaded":8}`.
+
+**Importante:** tras cambiar código hay que ejecutar `deploy/start.sh` a mano
+(construye y refresca el espejo). `boot.sh` solo levanta lo ya construido.

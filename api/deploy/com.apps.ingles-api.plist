@@ -10,13 +10,23 @@
     </array>
     <key>WorkingDirectory</key>
     <string>/Users/macstudio/.local/share/apps/ingles-api</string>
+    <!-- Sin esto el agente no encuentra `docker`: launchd no hereda el PATH de
+         la sesión interactiva, así que boot.sh esperaba en vano al runtime y
+         moría con «Docker no responde tras 5 minutos» en cada reinicio.
+         Mismo bloque que com.apps.emoji-generator. -->
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    </dict>
     <key>RunAtLoad</key>
     <true/>
-    <!-- Reintenta si boot.sh falla. Sin esto, si colima tarda más que la espera
-         de boot.sh (pasó el 28 ago 2026: «Docker no responde tras 5 minutos»,
-         exit 1) el tutor se queda caído hasta que alguien entra a mano.
-         SuccessfulExit=false relanza SOLO en salida con error, así que cuando
-         el stack por fin sube, launchd deja de insistir. -->
+    <!-- Red de seguridad: reintenta si boot.sh sale con error (p. ej. si algún
+         día el runtime de Docker tarda más que su espera). La avería del 28 ago
+         2026 («Docker no responde tras 5 minutos») NO era eso sino el PATH de
+         arriba; esto queda para que un fallo transitorio no deje el tutor caído
+         hasta que alguien entre a mano. SuccessfulExit=false relanza SOLO en
+         salida con error, así que cuando el stack sube, launchd deja de insistir. -->
     <key>KeepAlive</key>
     <dict>
         <key>SuccessfulExit</key>
