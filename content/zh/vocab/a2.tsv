@@ -1,0 +1,101 @@
+id	front	definition	example	translation	tags
+zh-a2-001	因为 (yīnwèi)	表示原因	因为下雨，我们没去。(Yīnwèi xià yǔ, wǒmen méi qù.)	porque	a2 conj hsk2 top500
+zh-a2-002	所以 (suǒyǐ)	表示结果，常和"因为"一起	下雨了，所以我在家。(Xià yǔ le, suǒyǐ wǒ zài jiā.)	por eso	a2 conj hsk2 top500
+zh-a2-003	但是 (dànshì)	表示相反	我想去，但是没时间。(Wǒ xiǎng qù, dànshì méi shíjiān.)	pero	a2 conj hsk2 top500
+zh-a2-004	虽然 (suīrán)	让步，后面常用"但是"	虽然很贵，但是很好。(Suīrán hěn guì, dànshì hěn hǎo.)	aunque	a2 conj hsk2 grammar
+zh-a2-005	还是 (háishi)	选择疑问；或者"仍然"	喝茶还是喝咖啡？(Hē chá háishi hē kāfēi?)	o (en preguntas)	a2 conj hsk2 grammar
+zh-a2-006	或者 (huòzhě)	在陈述句里表示选择	我喝茶或者咖啡。(Wǒ hē chá huòzhě kāfēi.)	o (en afirmativas)	a2 conj hsk2 grammar
+zh-a2-007	比 (bǐ)	比较两个东西	他比我高。(Tā bǐ wǒ gāo.)	más… que (comparativo)	a2 prep hsk2 grammar
+zh-a2-008	最 (zuì)	程度最高	这个最好。(Zhège zuì hǎo.)	el más (superlativo)	a2 adv hsk2 grammar
+zh-a2-009	更 (gèng)	程度更高	这个更便宜。(Zhège gèng piányi.)	más, aún más	a2 adv hsk2
+zh-a2-010	一样 (yíyàng)	相同	这两个一样。(Zhè liǎng ge yíyàng.)	igual	a2 adj hsk2
+zh-a2-011	正在 (zhèngzài)	动作进行中	我正在吃饭。(Wǒ zhèngzài chī fàn.)	estar + gerundio	a2 adv hsk2 grammar
+zh-a2-012	过 (guo)	表示有过这个经历	我去过中国。(Wǒ qù guo Zhōngguó.)	(experiencia pasada)	a2 particle hsk2 grammar
+zh-a2-013	已经 (yǐjīng)	事情做完了	他已经走了。(Tā yǐjīng zǒu le.)	ya	a2 adv hsk2 top500
+zh-a2-014	还 (hái)	仍然；另外	我还没吃饭。(Wǒ hái méi chī fàn.)	todavía; además	a2 adv hsk2 top500
+zh-a2-015	就 (jiù)	表示紧接着、正是	我马上就来。(Wǒ mǎshàng jiù lái.)	enseguida, justamente	a2 adv hsk2 top500
+zh-a2-016	才 (cái)	比预想的晚；只有	他八点才到。(Tā bā diǎn cái dào.)	no… hasta; solo	a2 adv hsk2 grammar
+zh-a2-017	再 (zài)	又一次（将来）	再说一次。(Zài shuō yí cì.)	otra vez (futuro)	a2 adv hsk2
+zh-a2-018	又 (yòu)	又一次（过去）	他又来了。(Tā yòu lái le.)	otra vez (pasado)	a2 adv hsk2
+zh-a2-019	一定 (yídìng)	肯定，没有疑问	我一定去。(Wǒ yídìng qù.)	seguramente, sin duda	a2 adv hsk2
+zh-a2-020	可能 (kěnéng)	也许	明天可能下雨。(Míngtiān kěnéng xià yǔ.)	posiblemente	a2 adv hsk2
+zh-a2-021	应该 (yīnggāi)	表示义务或推测	你应该休息。(Nǐ yīnggāi xiūxi.)	deber	a2 verb hsk2
+zh-a2-022	需要 (xūyào)	必须有	我需要帮助。(Wǒ xūyào bāngzhù.)	necesitar	a2 verb hsk2
+zh-a2-023	希望 (xīwàng)	想要发生	我希望你来。(Wǒ xīwàng nǐ lái.)	esperar (desear)	a2 verb hsk2
+zh-a2-024	决定 (juédìng)	做出选择	我决定去上海。(Wǒ juédìng qù Shànghǎi.)	decidir	a2 verb hsk2
+zh-a2-025	帮助 (bāngzhù)	给别人支持	谢谢你的帮助。(Xièxie nǐ de bāngzhù.)	ayudar; ayuda	a2 verb hsk2
+zh-a2-026	介绍 (jièshào)	让别人认识	我介绍一下。(Wǒ jièshào yíxià.)	presentar	a2 verb hsk2
+zh-a2-027	准备 (zhǔnbèi)	做好安排	我在准备考试。(Wǒ zài zhǔnbèi kǎoshì.)	preparar	a2 verb hsk2
+zh-a2-028	开始 (kāishǐ)	进入第一步	电影开始了。(Diànyǐng kāishǐ le.)	empezar	a2 verb hsk2
+zh-a2-029	结束 (jiéshù)	到最后	会议结束了。(Huìyì jiéshù le.)	terminar	a2 verb hsk2
+zh-a2-030	完成 (wánchéng)	做完	我完成了工作。(Wǒ wánchéng le gōngzuò.)	completar	a2 verb hsk2
+zh-a2-031	找 (zhǎo)	寻找；也是"找钱"	我在找工作。(Wǒ zài zhǎo gōngzuò.)	buscar	a2 verb hsk2 top500
+zh-a2-032	带 (dài)	携带；带领	我带了雨伞。(Wǒ dài le yǔsǎn.)	llevar, traer	a2 verb hsk2
+zh-a2-033	送 (sòng)	赠送；送人到某处	我送你回家。(Wǒ sòng nǐ huí jiā.)	regalar; acompañar	a2 verb hsk2 keyverb
+zh-a2-034	借 (jiè)	借入或借出	我借了一本书。(Wǒ jiè le yì běn shū.)	prestar, pedir prestado	a2 verb hsk2 keyverb
+zh-a2-035	还 (huán)	归还（和"hái"同字不同音）	我要还书。(Wǒ yào huán shū.)	devolver	a2 verb hsk2 keyword
+zh-a2-036	忘 (wàng)	失去记忆	我忘了他的名字。(Wǒ wàng le tā de míngzi.)	olvidar	a2 verb hsk2
+zh-a2-037	记得 (jìde)	保留在记忆里	我记得你。(Wǒ jìde nǐ.)	recordar	a2 verb hsk2
+zh-a2-038	相信 (xiāngxìn)	认为是真的	我相信他。(Wǒ xiāngxìn tā.)	creer	a2 verb hsk2
+zh-a2-039	怀疑 (huáiyí)	不太相信，觉得可能不真	我怀疑他说的话。(Wǒ huáiyí tā shuō de huà.)	dudar, sospechar	a2 verb hsk2
+zh-a2-040	换 (huàn)	替换	我想换房间。(Wǒ xiǎng huàn fángjiān.)	cambiar	a2 verb hsk2
+zh-a2-041	搬 (bān)	移动重的东西；搬家	下个月搬家。(Xià ge yuè bān jiā.)	mudarse, trasladar	a2 verb hsk2
+zh-a2-042	洗 (xǐ)	用水弄干净	我洗手。(Wǒ xǐ shǒu.)	lavar	a2 verb hsk2
+zh-a2-043	穿 (chuān)	把衣服放到身上	今天穿什么？(Jīntiān chuān shénme?)	ponerse (ropa)	a2 verb hsk2
+zh-a2-044	戴 (dài)	戴帽子、眼镜、手表	我戴眼镜。(Wǒ dài yǎnjìng.)	llevar (gafas, sombrero)	a2 verb hsk2
+zh-a2-045	跑 (pǎo)	快速移动	我每天早上跑步。(Wǒ měitiān zǎoshang pǎobù.)	correr	a2 verb hsk2
+zh-a2-046	走 (zǒu)	用脚移动；离开	我们走吧。(Wǒmen zǒu ba.)	caminar; irse	a2 verb hsk2 keyverb
+zh-a2-047	站 (zhàn)	用脚立着	别站在门口。(Bié zhàn zài ménkǒu.)	estar de pie	a2 verb hsk2
+zh-a2-048	休息 (xiūxi)	停下来放松	我们休息十分钟。(Wǒmen xiūxi shí fēnzhōng.)	descansar	a2 verb hsk2
+zh-a2-049	运动 (yùndòng)	体育活动	我喜欢运动。(Wǒ xǐhuan yùndòng.)	hacer deporte; deporte	a2 verb hsk2 sport
+zh-a2-050	旅行 (lǚxíng)	去别的地方玩	我们去旅行。(Wǒmen qù lǚxíng.)	viajar	a2 verb hsk2
+zh-a2-051	考试 (kǎoshì)	检验学习的结果	明天有考试。(Míngtiān yǒu kǎoshì.)	examen; examinarse	a2 noun hsk2 school
+zh-a2-052	问题 (wèntí)	疑问；困难	我有一个问题。(Wǒ yǒu yí ge wèntí.)	pregunta; problema	a2 noun hsk2 top500
+zh-a2-053	办法 (bànfǎ)	解决的方式	没有别的办法。(Méiyǒu bié de bànfǎ.)	manera, solución	a2 noun hsk2
+zh-a2-054	意思 (yìsi)	含义	这是什么意思？(Zhè shì shénme yìsi?)	significado	a2 noun hsk2 top500
+zh-a2-055	事情 (shìqing)	要做或发生的事	我有事情要做。(Wǒ yǒu shìqing yào zuò.)	asunto, cosa	a2 noun hsk2
+zh-a2-056	时间 (shíjiān)	可以用的时段	我没有时间。(Wǒ méiyǒu shíjiān.)	tiempo	a2 noun hsk2 top500
+zh-a2-057	机会 (jīhuì)	合适的时机	这是个好机会。(Zhè shì ge hǎo jīhuì.)	oportunidad	a2 noun hsk2
+zh-a2-058	身体 (shēntǐ)	人的躯体	注意身体。(Zhùyì shēntǐ.)	cuerpo, salud	a2 noun hsk2 body
+zh-a2-059	头 (tóu)	身体最上面的部分	我头疼。(Wǒ tóu téng.)	cabeza	a2 noun hsk2 body
+zh-a2-060	手 (shǒu)	胳膊末端	洗手了吗？(Xǐ shǒu le ma?)	mano	a2 noun hsk2 body
+zh-a2-061	脚 (jiǎo)	腿的末端	我脚很疼。(Wǒ jiǎo hěn téng.)	pie	a2 noun hsk2 body
+zh-a2-062	眼睛 (yǎnjing)	看东西的器官	她的眼睛很大。(Tā de yǎnjing hěn dà.)	ojos	a2 noun hsk2 body
+zh-a2-063	疼 (téng)	不舒服的感觉	嗓子疼。(Sǎngzi téng.)	doler	a2 adj hsk2 health
+zh-a2-064	病 (bìng)	身体不健康	他生病了。(Tā shēng bìng le.)	enfermedad; enfermarse	a2 noun hsk2 health
+zh-a2-065	药 (yào)	治病的东西	别忘了吃药。(Bié wàng le chī yào.)	medicina	a2 noun hsk2 health
+zh-a2-066	公司 (gōngsī)	做生意的机构	我在一家公司工作。(Wǒ zài yì jiā gōngsī gōngzuò.)	empresa	a2 noun hsk2 work
+zh-a2-067	经理 (jīnglǐ)	管理的人	他是我们的经理。(Tā shì wǒmen de jīnglǐ.)	gerente	a2 noun hsk2 work
+zh-a2-068	会议 (huìyì)	一起讨论的活动	会议十点开始。(Huìyì shí diǎn kāishǐ.)	reunión	a2 noun hsk2 work
+zh-a2-069	工资 (gōngzī)	工作得到的钱	工资不高。(Gōngzī bù gāo.)	salario	a2 noun hsk2 work
+zh-a2-070	房子 (fángzi)	住的建筑	他们买了房子。(Tāmen mǎi le fángzi.)	casa	a2 noun hsk2 home
+zh-a2-071	房间 (fángjiān)	屋子里的一个空间	房间很干净。(Fángjiān hěn gānjìng.)	habitación	a2 noun hsk2 home
+zh-a2-072	厨房 (chúfáng)	做饭的地方	厨房在左边。(Chúfáng zài zuǒbian.)	cocina	a2 noun hsk2 home
+zh-a2-073	洗手间 (xǐshǒujiān)	上厕所的地方	洗手间在哪儿？(Xǐshǒujiān zài nǎr?)	baño	a2 noun hsk2 home
+zh-a2-074	票 (piào)	进场或坐车的凭证	我买了两张票。(Wǒ mǎi le liǎng zhāng piào.)	billete, entrada	a2 noun hsk2 transport
+zh-a2-075	张 (zhāng)	纸、票、桌子的量词	三张票。(sān zhāng piào)	(clasificador plano)	a2 measure hsk2 grammar
+zh-a2-076	件 (jiàn)	衣服、事情的量词	一件衣服，一件事。(yí jiàn yīfu)	(clasificador de prendas)	a2 measure hsk2 grammar
+zh-a2-077	公共汽车 (gōnggòng qìchē)	大家一起坐的车	坐公共汽车去。(Zuò gōnggòng qìchē qù.)	autobús	a2 noun hsk2 transport
+zh-a2-078	地铁 (dìtiě)	地下的火车	我坐地铁上班。(Wǒ zuò dìtiě shàngbān.)	metro	a2 noun hsk2 transport
+zh-a2-079	自行车 (zìxíngchē)	两个轮子，用脚踩	我骑自行车。(Wǒ qí zìxíngchē.)	bicicleta	a2 noun hsk2 transport
+zh-a2-080	机场 (jīchǎng)	飞机起飞的地方	去机场要多久？(Qù jīchǎng yào duōjiǔ?)	aeropuerto	a2 noun hsk2 transport
+zh-a2-081	咖啡 (kāfēi)	一种黑色饮料	一杯咖啡。(yì bēi kāfēi)	café	a2 noun hsk2 food
+zh-a2-082	牛奶 (niúnǎi)	牛产的白色饮料	我喝牛奶。(Wǒ hē niúnǎi.)	leche	a2 noun hsk2 food
+zh-a2-083	鸡蛋 (jīdàn)	鸡生的	早饭吃鸡蛋。(Zǎofàn chī jīdàn.)	huevo	a2 noun hsk2 food
+zh-a2-084	羊肉 (yángròu)	羊的肉	我不吃羊肉。(Wǒ bù chī yángròu.)	cordero	a2 noun hsk2 food
+zh-a2-085	鱼 (yú)	水里的动物，可以吃	这鱼很新鲜。(Zhè yú hěn xīnxiān.)	pescado, pez	a2 noun hsk2 food
+zh-a2-086	西瓜 (xīguā)	夏天吃的大水果	夏天吃西瓜。(Xiàtiān chī xīguā.)	sandía	a2 noun hsk2 food
+zh-a2-087	颜色 (yánsè)	红、蓝、绿…	你喜欢什么颜色？(Nǐ xǐhuan shénme yánsè?)	color	a2 noun hsk2
+zh-a2-088	红 (hóng)	血的颜色	红色的车。(hóngsè de chē)	rojo	a2 adj hsk2
+zh-a2-089	白 (bái)	雪的颜色	白色的衬衫。(báisè de chènshān)	blanco	a2 adj hsk2
+zh-a2-090	黑 (hēi)	夜里的颜色	黑色的鞋。(hēisè de xié)	negro	a2 adj hsk2
+zh-a2-091	长 (cháng)	不短	这条路很长。(Zhè tiáo lù hěn cháng.)	largo	a2 adj hsk2
+zh-a2-092	短 (duǎn)	不长	时间太短了。(Shíjiān tài duǎn le.)	corto	a2 adj hsk2
+zh-a2-093	快 (kuài)	速度高；也表示"快要"	他走得很快。(Tā zǒu de hěn kuài.)	rápido	a2 adj hsk2
+zh-a2-094	慢 (màn)	速度低	请说慢一点。(Qǐng shuō màn yìdiǎn.)	lento	a2 adj hsk2
+zh-a2-095	干净 (gānjìng)	没有脏东西	房间很干净。(Fángjiān hěn gānjìng.)	limpio	a2 adj hsk2
+zh-a2-096	舒服 (shūfu)	感觉好	这个椅子很舒服。(Zhège yǐzi hěn shūfu.)	cómodo	a2 adj hsk2
+zh-a2-097	重要 (zhòngyào)	有很大意义	这件事很重要。(Zhè jiàn shì hěn zhòngyào.)	importante	a2 adj hsk2
+zh-a2-098	有意思 (yǒu yìsi)	让人感兴趣	这本书很有意思。(Zhè běn shū hěn yǒu yìsi.)	interesante	a2 adj hsk2 chunk
+zh-a2-099	别 (bié)	表示禁止	别忘了！(Bié wàng le!)	no (imperativo negativo)	a2 adv hsk2 grammar
+zh-a2-100	刚才 (gāngcái)	不久以前，刚刚过去	他刚才走了。(Tā gāngcái zǒu le.)	hace un momento	a2 adv hsk2 time

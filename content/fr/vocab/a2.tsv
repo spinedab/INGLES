@@ -1,0 +1,101 @@
+id	front	definition	example	translation	tags
+fr-a2-001	réussir (v.)	arriver à faire (réussir À)	J'ai réussi à le convaincre.	lograr, conseguir	a2 verb top500 preposition
+fr-a2-002	arriver (v.)	venir à un lieu ; se produire	Qu'est-ce qui est arrivé ?	llegar; pasar	a2 verb top500 keyverb
+fr-a2-003	laisser (v.)	permettre ; abandonner	Laisse-moi voir. J'ai laissé mes clés.	dejar	a2 verb top500 keyverb
+fr-a2-004	emmener / apporter (v.)	emmener une personne, apporter une chose	Je t'emmène. J'apporte le dessert.	llevar	a2 verb top500 keyword
+fr-a2-005	perdre (v.)	ne plus avoir ; manquer	J'ai perdu mes clés. J'ai perdu le bus.	perder	a2 verb top500
+fr-a2-006	gagner (v.)	recevoir de l'argent ; vaincre	Je gagne deux mille euros par mois.	ganar	a2 verb work
+fr-a2-007	garder (v.)	conserver ; surveiller	Gardez la monnaie.	guardar; cuidar	a2 verb
+fr-a2-008	changer (v.)	rendre différent ; déménager	Nous avons changé d'appartement.	cambiar	a2 verb
+fr-a2-009	améliorer (v.)	rendre meilleur	Mon français s'est amélioré.	mejorar	a2 verb
+fr-a2-010	essayer (v.)	faire un effort pour (essayer DE)	J'ai essayé de t'appeler.	intentar	a2 verb preposition
+fr-a2-011	sembler (v.)	donner l'impression	Il semble qu'il va pleuvoir.	parecer	a2 verb top500
+fr-a2-012	se souvenir (v.)	garder en mémoire (se souvenir DE)	Je me souviens de toi.	recordar, acordarse	a2 verb preposition reflexive
+fr-a2-013	oublier (v.)	perdre de la mémoire	J'ai oublié son nom.	olvidar	a2 verb
+fr-a2-014	sentir (v.)	percevoir ; avoir une odeur	Je sens le froid. Ça sent bon.	sentir; oler	a2 verb keyverb
+fr-a2-015	grandir (v.)	devenir plus grand	Les enfants grandissent vite.	crecer	a2 verb
+fr-a2-016	naître (v.)	venir au monde	Je suis né à Medellín.	nacer	a2 verb irregular
+fr-a2-017	mourir (v.)	cesser de vivre	Mon grand-père est mort l'an dernier.	morir	a2 verb irregular
+fr-a2-018	vivre (v.)	être en vie ; habiter	Je vis bien ici.	vivir	a2 verb irregular
+fr-a2-019	recevoir (v.)	obtenir ce qu'on envoie	J'ai reçu ton message.	recibir	a2 verb irregular
+fr-a2-020	envoyer (v.)	faire parvenir	Je vais envoyer un mail.	enviar	a2 verb
+fr-a2-021	utiliser (v.)	employer	J'utilise des lunettes pour lire.	usar	a2 verb
+fr-a2-022	porter (v.)	tenir ; avoir sur soi (vêtement)	Elle porte une robe bleue.	llevar (puesto)	a2 verb keyverb
+fr-a2-023	enlever (v.)	retirer	Enlève ta veste, il fait chaud.	quitar	a2 verb
+fr-a2-024	mettre (v.)	placer ; mettre un vêtement	J'ai mis le livre sur la table.	poner	a2 verb irregular keyverb
+fr-a2-025	marcher (v.)	aller à pied ; fonctionner	Ça ne marche pas.	andar; funcionar	a2 verb keyverb
+fr-a2-026	courir (v.)	se déplacer vite	Je cours au parc le matin.	correr	a2 verb irregular sport
+fr-a2-027	monter (v.)	aller vers le haut ; monter dans un bus	Je monte les escaliers.	subir	a2 verb
+fr-a2-028	descendre (v.)	aller vers le bas ; descendre du bus	Je descends au prochain arrêt.	bajar	a2 verb transport
+fr-a2-029	entrer (v.)	passer à l'intérieur	Je suis entré doucement.	entrar	a2 verb
+fr-a2-030	sortir (v.)	aller dehors	Je sors du travail à six heures.	salir	a2 verb irregular
+fr-a2-031	rentrer (v.)	revenir chez soi	Je rentre à huit heures.	volver a casa	a2 verb keyword
+fr-a2-032	avoir envie de (loc.)	désirer	J'ai envie d'un café.	tener ganas de	a2 verb chunk
+fr-a2-033	avoir l'air (loc.)	sembler	Tu as l'air fatigué.	tener pinta de, parecer	a2 verb chunk
+fr-a2-034	avoir mal à (loc.)	ressentir une douleur	J'ai mal à la tête.	dolerle algo	a2 verb chunk health
+fr-a2-035	être en train de (loc.)	action en cours	Je suis en train de manger.	estar + gerundio	a2 verb chunk grammar
+fr-a2-036	valoir la peine (loc.)	mériter l'effort	Ça vaut la peine de visiter Lyon.	valer la pena	a2 verb chunk
+fr-a2-037	faire attention (loc.)	être prudent (faire attention À)	Fais attention à la marche !	tener cuidado	a2 verb chunk
+fr-a2-038	se rendre compte (loc.)	percevoir (se rendre compte DE)	Je me suis rendu compte de l'erreur.	darse cuenta	a2 verb chunk
+fr-a2-039	être pressé (loc.)	avoir peu de temps	Je suis pressé, désolé.	tener prisa	a2 verb chunk
+fr-a2-040	avoir faim / soif (loc.)	besoin de manger / boire	J'ai faim et j'ai soif.	tener hambre / sed	a2 verb chunk
+fr-a2-041	santé (n.f.)	état du corps	Je prends soin de ma santé.	salud	a2 noun health
+fr-a2-042	maladie (n.f.)	problème de santé	Il a eu une maladie grave.	enfermedad	a2 noun health
+fr-a2-043	douleur (n.f.)	sensation physique pénible	La douleur a disparu.	dolor	a2 noun health
+fr-a2-044	médicament (n.m.)	produit pour soigner	J'ai pris le médicament à huit heures.	medicamento	a2 noun health
+fr-a2-045	rendez-vous (n.m.)	heure convenue	J'ai un rendez-vous mardi.	cita	a2 noun health
+fr-a2-046	ordonnance (n.f.)	prescription du médecin	Le médecin m'a fait une ordonnance.	receta médica	a2 noun health
+fr-a2-047	corps (n.m.)	organisme physique	Le sport est bon pour le corps.	cuerpo	a2 noun body
+fr-a2-048	tête (n.f.)	partie haute du corps	J'ai mal à la tête.	cabeza	a2 noun body
+fr-a2-049	jambe (n.f.)	membre inférieur	Je me suis fait mal à la jambe.	pierna	a2 noun body
+fr-a2-050	bras (n.m.)	membre supérieur	Il s'est cassé le bras.	brazo	a2 noun body
+fr-a2-051	dos (n.m.)	partie arrière du tronc	J'ai mal au dos.	espalda	a2 noun body
+fr-a2-052	gorge (n.f.)	intérieur du cou	J'ai mal à la gorge.	garganta	a2 noun body
+fr-a2-053	emploi (n.m.)	poste de travail	J'ai trouvé un nouvel emploi.	empleo	a2 noun work
+fr-a2-054	entreprise (n.f.)	organisation économique	Je travaille dans une petite entreprise.	empresa	a2 noun work
+fr-a2-055	patron / patronne (n.)	celui qui dirige	Mon patron est exigeant.	jefe	a2 noun work
+fr-a2-056	réunion (n.f.)	rencontre de travail	La réunion est à dix heures.	reunión	a2 noun work
+fr-a2-057	salaire (n.m.)	paiement du travail	Le salaire est correct.	salario	a2 noun work
+fr-a2-058	CV (n.m.)	document avec l'expérience	J'ai envoyé mon CV hier.	currículum	a2 noun work
+fr-a2-059	entretien (n.m.)	conversation d'évaluation ; aussi l'entretien du matériel	J'ai un entretien d'embauche.	entrevista; mantenimiento	a2 noun work keyword
+fr-a2-060	délai (n.m.)	temps accordé	Le délai est vendredi.	plazo	a2 noun work falsefriend
+fr-a2-061	horaire (n.m.)	organisation du temps	Mon horaire est flexible.	horario	a2 noun work
+fr-a2-062	vacances (n.f.pl.)	période de repos (toujours pluriel)	Je prends mes vacances en janvier.	vacaciones	a2 noun work
+fr-a2-063	jour férié (loc.)	jour de congé officiel	Lundi est un jour férié.	día festivo	a2 noun time chunk
+fr-a2-064	anniversaire (n.m.)	date de naissance	Mon anniversaire est en mars.	cumpleaños	a2 noun time
+fr-a2-065	fête (n.f.)	célébration	La fête était géniale.	fiesta	a2 noun social
+fr-a2-066	invitation (n.f.)	demande de participer	J'ai reçu une invitation au mariage.	invitación	a2 noun social
+fr-a2-067	cadeau (n.m.)	objet offert	J'ai acheté un cadeau pour elle.	regalo	a2 noun social
+fr-a2-068	copain / copine (n.)	ami ; petit ami	Mon copain est professeur.	amigo; novio	a2 noun social keyword
+fr-a2-069	mariage (n.m.)	union ; la cérémonie	Le mariage est samedi.	boda	a2 noun social
+fr-a2-070	voisin / voisine (n.)	celui qui habite à côté	Mes voisins sont sympas.	vecino	a2 noun people
+fr-a2-071	facture (n.f.)	document de paiement	La facture est arrivée.	factura	a2 noun money
+fr-a2-072	impôt (n.m.)	argent versé à l'État	Les impôts sont élevés.	impuesto	a2 noun money
+fr-a2-073	loyer (n.m.)	paiement mensuel du logement	Le loyer a augmenté.	alquiler	a2 noun money
+fr-a2-074	réduction (n.f.)	baisse du prix	Il y a une réduction pour les étudiants ?	descuento	a2 noun shopping
+fr-a2-075	compte (n.m.)	compte bancaire ; calcul	J'ai ouvert un compte.	cuenta	a2 noun money
+fr-a2-076	économies (n.f.pl.)	argent mis de côté	J'ai utilisé mes économies.	ahorros	a2 noun money
+fr-a2-077	dette (n.f.)	ce qu'on doit	Il a beaucoup de dettes.	deuda	a2 noun money
+fr-a2-078	nouvelle (n.f.)	information sur un fait	J'ai vu la nouvelle au journal.	noticia	a2 noun media
+fr-a2-079	journal (n.m.)	publication ; le journal télévisé	Je lis le journal le matin.	periódico; telediario	a2 noun media
+fr-a2-080	revue (n.f.)	publication périodique	J'ai acheté une revue.	revista	a2 noun media
+fr-a2-081	site (n.m.)	page internet	Je l'ai vu sur le site.	sitio web	a2 noun tech
+fr-a2-082	mot de passe (loc.)	code d'accès	J'ai oublié mon mot de passe.	contraseña	a2 noun tech chunk
+fr-a2-083	fichier (n.m.)	document numérique	J'ai envoyé le fichier par mail.	archivo	a2 noun tech
+fr-a2-084	écran (n.m.)	surface d'affichage	L'écran est cassé.	pantalla	a2 noun tech
+fr-a2-085	réseau (n.m.)	connexion ; réseaux sociaux	Le réseau est lent aujourd'hui.	red	a2 noun tech
+fr-a2-086	lent / lente (adj.)	qui prend du temps	La connexion est très lente.	lento	a2 adj
+fr-a2-087	rapide (adj.)	qui va vite	Il parle trop rapidement.	rápido	a2 adj
+fr-a2-088	plein / pleine (adj.)	sans place libre	Le bus était plein.	lleno	a2 adj
+fr-a2-089	vide (adj.)	sans rien dedans	Le frigo est vide.	vacío	a2 adj
+fr-a2-090	propre (adj.)	sans saleté ; aussi « son propre »	La chambre est propre. Mon propre livre.	limpio; propio	a2 adj keyword
+fr-a2-091	sale (adj.)	avec de la saleté	Mes chaussures sont sales.	sucio	a2 adj
+fr-a2-092	fort / forte (adj.)	qui a de la force ; intense	Le café est trop fort.	fuerte	a2 adj
+fr-a2-093	faible (adj.)	sans force	Je me sens faible.	débil	a2 adj
+fr-a2-094	occupé / occupée (adj.)	pris par des tâches	Je suis occupé maintenant.	ocupado	a2 adj
+fr-a2-095	libre (adj.)	disponible	Tu es libre demain ?	libre	a2 adj
+fr-a2-096	drôle (adj.)	qui fait rire ; aussi « bizarre »	Il est très drôle. C'est drôle, ça.	graciosos; raro	a2 adj feelings keyword
+fr-a2-097	ennuyeux / ennuyeuse (adj.)	qui n'intéresse pas	Ce film est ennuyeux.	aburrido	a2 adj feelings
+fr-a2-098	sympa (adj.)	agréable (familier)	Tes voisins sont sympas.	simpático, agradable	a2 adj feelings
+fr-a2-099	mauvais / mauvaise (adj.)	de qualité négative	Il fait mauvais aujourd'hui.	malo	a2 adj
+fr-a2-100	prêt / prête (adj.)	préparé	Le dîner est prêt.	listo	a2 adj

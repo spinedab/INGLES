@@ -1,0 +1,1181 @@
+[
+  {
+    "id": "pt-a2-001",
+    "front": "conseguir (v.)",
+    "definition": "obter; ser capaz de fazer algo",
+    "example": "Não consegui dormir ontem.",
+    "translation": "lograr, conseguir; poder",
+    "tags": [
+      "a2",
+      "verb",
+      "top500",
+      "keyverb"
+    ]
+  },
+  {
+    "id": "pt-a2-002",
+    "front": "acontecer (v.)",
+    "definition": "ocorrer, passar-se",
+    "example": "O que aconteceu com você?",
+    "translation": "pasar, ocurrir",
+    "tags": [
+      "a2",
+      "verb",
+      "top500"
+    ]
+  },
+  {
+    "id": "pt-a2-003",
+    "front": "deixar (v.)",
+    "definition": "permitir; abandonar; parar de",
+    "example": "Deixa eu ver. Deixei o livro em casa.",
+    "translation": "dejar",
+    "tags": [
+      "a2",
+      "verb",
+      "top500",
+      "keyverb"
+    ]
+  },
+  {
+    "id": "pt-a2-004",
+    "front": "levar (v.)",
+    "definition": "transportar para outro lugar; demorar",
+    "example": "Levo você em casa. Leva duas horas.",
+    "translation": "llevar; tardar",
+    "tags": [
+      "a2",
+      "verb",
+      "top500",
+      "keyverb"
+    ]
+  },
+  {
+    "id": "pt-a2-005",
+    "front": "trazer (v.)",
+    "definition": "transportar para cá",
+    "example": "Pode me trazer a conta?",
+    "translation": "traer",
+    "tags": [
+      "a2",
+      "verb",
+      "top500",
+      "irregular"
+    ]
+  },
+  {
+    "id": "pt-a2-006",
+    "front": "perder (v.)",
+    "definition": "deixar de ter; não chegar a tempo",
+    "example": "Perdi as chaves. Perdi o ônibus.",
+    "translation": "perder",
+    "tags": [
+      "a2",
+      "verb",
+      "top500"
+    ]
+  },
+  {
+    "id": "pt-a2-007",
+    "front": "ganhar (v.)",
+    "definition": "receber; vencer",
+    "example": "Ganho três mil por mês.",
+    "translation": "ganar",
+    "tags": [
+      "a2",
+      "verb",
+      "top500",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-a2-008",
+    "front": "guardar (v.)",
+    "definition": "pôr em lugar seguro; conservar",
+    "example": "Guardei o dinheiro no banco.",
+    "translation": "guardar",
+    "tags": [
+      "a2",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-a2-009",
+    "front": "mudar (v.)",
+    "definition": "trocar; mudar de casa",
+    "example": "Mudamos de apartamento.",
+    "translation": "cambiar; mudarse",
+    "tags": [
+      "a2",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-a2-010",
+    "front": "melhorar (v.)",
+    "definition": "ficar melhor",
+    "example": "Meu português melhorou muito.",
+    "translation": "mejorar",
+    "tags": [
+      "a2",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-a2-011",
+    "front": "piorar (v.)",
+    "definition": "ficar pior",
+    "example": "O tempo piorou de tarde.",
+    "translation": "empeorar",
+    "tags": [
+      "a2",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-a2-012",
+    "front": "tentar (v.)",
+    "definition": "fazer um esforço para",
+    "example": "Tentei ligar, mas não atendeu.",
+    "translation": "intentar",
+    "tags": [
+      "a2",
+      "verb",
+      "top500"
+    ]
+  },
+  {
+    "id": "pt-a2-013",
+    "front": "parecer (v.)",
+    "definition": "dar impressão de",
+    "example": "Parece que vai chover.",
+    "translation": "parecer",
+    "tags": [
+      "a2",
+      "verb",
+      "top500"
+    ]
+  },
+  {
+    "id": "pt-a2-014",
+    "front": "lembrar (v.)",
+    "definition": "trazer à memória (lembrar DE)",
+    "example": "Lembrei de você ontem.",
+    "translation": "recordar, acordarse",
+    "tags": [
+      "a2",
+      "verb",
+      "preposition"
+    ]
+  },
+  {
+    "id": "pt-a2-015",
+    "front": "esquecer (v.)",
+    "definition": "perder da memória",
+    "example": "Esqueci o nome dele.",
+    "translation": "olvidar",
+    "tags": [
+      "a2",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-a2-016",
+    "front": "sentir (v.)",
+    "definition": "perceber com os sentidos ou emoções",
+    "example": "Sinto muito frio aqui.",
+    "translation": "sentir",
+    "tags": [
+      "a2",
+      "verb",
+      "feelings"
+    ]
+  },
+  {
+    "id": "pt-a2-017",
+    "front": "crescer (v.)",
+    "definition": "ficar maior",
+    "example": "As crianças crescem rápido.",
+    "translation": "crecer",
+    "tags": [
+      "a2",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-a2-018",
+    "front": "nascer (v.)",
+    "definition": "vir ao mundo",
+    "example": "Nasci em Medellín.",
+    "translation": "nacer",
+    "tags": [
+      "a2",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-a2-019",
+    "front": "morrer (v.)",
+    "definition": "deixar de viver",
+    "example": "Meu avô morreu no ano passado.",
+    "translation": "morir",
+    "tags": [
+      "a2",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-a2-020",
+    "front": "viver (v.)",
+    "definition": "estar vivo; morar",
+    "example": "Vivo bem aqui.",
+    "translation": "vivir",
+    "tags": [
+      "a2",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-a2-021",
+    "front": "receber (v.)",
+    "definition": "obter algo que alguém envia",
+    "example": "Recebi seu e-mail.",
+    "translation": "recibir",
+    "tags": [
+      "a2",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-a2-022",
+    "front": "enviar / mandar (v.)",
+    "definition": "fazer chegar a alguém",
+    "example": "Vou mandar uma mensagem.",
+    "translation": "enviar, mandar",
+    "tags": [
+      "a2",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-a2-023",
+    "front": "usar (v.)",
+    "definition": "empregar; vestir",
+    "example": "Uso óculos para ler.",
+    "translation": "usar; llevar (ropa)",
+    "tags": [
+      "a2",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-a2-024",
+    "front": "tirar (v.)",
+    "definition": "retirar; sacar (foto)",
+    "example": "Tirei uma foto do prédio.",
+    "translation": "quitar; sacar",
+    "tags": [
+      "a2",
+      "verb",
+      "keyverb"
+    ]
+  },
+  {
+    "id": "pt-a2-025",
+    "front": "colocar / pôr (v.)",
+    "definition": "situar em algum lugar",
+    "example": "Coloquei o livro na mesa.",
+    "translation": "poner, colocar",
+    "tags": [
+      "a2",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-a2-026",
+    "front": "andar (v.)",
+    "definition": "caminhar; ir de veículo",
+    "example": "Ando muito no centro.",
+    "translation": "andar, caminar",
+    "tags": [
+      "a2",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-a2-027",
+    "front": "correr (v.)",
+    "definition": "deslocar-se rápido",
+    "example": "Corro no parque de manhã.",
+    "translation": "correr",
+    "tags": [
+      "a2",
+      "verb",
+      "sport"
+    ]
+  },
+  {
+    "id": "pt-a2-028",
+    "front": "subir (v.)",
+    "definition": "ir para cima",
+    "example": "Subi as escadas correndo.",
+    "translation": "subir",
+    "tags": [
+      "a2",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-a2-029",
+    "front": "descer (v.)",
+    "definition": "ir para baixo; sair do ônibus",
+    "example": "Desço na próxima parada.",
+    "translation": "bajar",
+    "tags": [
+      "a2",
+      "verb",
+      "transport"
+    ]
+  },
+  {
+    "id": "pt-a2-030",
+    "front": "entrar (v.)",
+    "definition": "passar para dentro",
+    "example": "Entrei na sala devagar.",
+    "translation": "entrar",
+    "tags": [
+      "a2",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-a2-031",
+    "front": "sair (v.)",
+    "definition": "ir para fora",
+    "example": "Saio do trabalho às seis.",
+    "translation": "salir",
+    "tags": [
+      "a2",
+      "verb",
+      "irregular"
+    ]
+  },
+  {
+    "id": "pt-a2-032",
+    "front": "voltar (v.)",
+    "definition": "regressar",
+    "example": "Volto amanhã de manhã.",
+    "translation": "volver",
+    "tags": [
+      "a2",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-a2-033",
+    "front": "ficar de (loc.)",
+    "definition": "comprometer-se a",
+    "example": "Ficamos de nos encontrar às oito.",
+    "translation": "quedar en",
+    "tags": [
+      "a2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "pt-a2-034",
+    "front": "dar certo (loc.)",
+    "definition": "funcionar, resultar bem",
+    "example": "Espero que dê certo.",
+    "translation": "salir bien, funcionar",
+    "tags": [
+      "a2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "pt-a2-035",
+    "front": "dar uma olhada (loc.)",
+    "definition": "examinar rapidamente",
+    "example": "Dá uma olhada nisso.",
+    "translation": "echar un ojo",
+    "tags": [
+      "a2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "pt-a2-036",
+    "front": "valer a pena (loc.)",
+    "definition": "compensar o esforço",
+    "example": "Vale a pena visitar Ouro Preto.",
+    "translation": "valer la pena",
+    "tags": [
+      "a2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "pt-a2-037",
+    "front": "tomar conta (loc.)",
+    "definition": "cuidar de",
+    "example": "Ela toma conta dos netos.",
+    "translation": "cuidar de",
+    "tags": [
+      "a2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "pt-a2-038",
+    "front": "fazer falta (loc.)",
+    "definition": "ser sentido pela ausência",
+    "example": "Você me faz falta.",
+    "translation": "echar de menos",
+    "tags": [
+      "a2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "pt-a2-039",
+    "front": "estar com pressa (loc.)",
+    "definition": "ter urgência",
+    "example": "Estou com pressa, desculpe.",
+    "translation": "tener prisa",
+    "tags": [
+      "a2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "pt-a2-040",
+    "front": "estar com fome (loc.)",
+    "definition": "sentir necessidade de comer",
+    "example": "Estou com fome.",
+    "translation": "tener hambre",
+    "tags": [
+      "a2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "pt-a2-041",
+    "front": "saúde (s.f.)",
+    "definition": "estado do corpo",
+    "example": "Cuido da minha saúde.",
+    "translation": "salud",
+    "tags": [
+      "a2",
+      "noun",
+      "health"
+    ]
+  },
+  {
+    "id": "pt-a2-042",
+    "front": "doença (s.f.)",
+    "definition": "problema de saúde",
+    "example": "Ele teve uma doença grave.",
+    "translation": "enfermedad",
+    "tags": [
+      "a2",
+      "noun",
+      "health"
+    ]
+  },
+  {
+    "id": "pt-a2-043",
+    "front": "dor (s.f.)",
+    "definition": "sensação física ruim",
+    "example": "Estou com dor de cabeça.",
+    "translation": "dolor",
+    "tags": [
+      "a2",
+      "noun",
+      "health"
+    ]
+  },
+  {
+    "id": "pt-a2-044",
+    "front": "remédio (s.m.)",
+    "definition": "substância para curar",
+    "example": "Tomei o remédio às oito.",
+    "translation": "medicina, remedio",
+    "tags": [
+      "a2",
+      "noun",
+      "health"
+    ]
+  },
+  {
+    "id": "pt-a2-045",
+    "front": "consulta (s.f.)",
+    "definition": "visita ao médico",
+    "example": "Marquei consulta para terça.",
+    "translation": "consulta, cita",
+    "tags": [
+      "a2",
+      "noun",
+      "health"
+    ]
+  },
+  {
+    "id": "pt-a2-046",
+    "front": "receita (s.f.)",
+    "definition": "prescrição médica; instrução de cozinha",
+    "example": "O médico me deu uma receita.",
+    "translation": "receta",
+    "tags": [
+      "a2",
+      "noun",
+      "health"
+    ]
+  },
+  {
+    "id": "pt-a2-047",
+    "front": "corpo (s.m.)",
+    "definition": "organismo físico",
+    "example": "Faço exercício para o corpo e a mente.",
+    "translation": "cuerpo",
+    "tags": [
+      "a2",
+      "noun",
+      "body"
+    ]
+  },
+  {
+    "id": "pt-a2-048",
+    "front": "cabeça (s.f.)",
+    "definition": "parte superior do corpo",
+    "example": "Bati a cabeça na porta.",
+    "translation": "cabeza",
+    "tags": [
+      "a2",
+      "noun",
+      "body"
+    ]
+  },
+  {
+    "id": "pt-a2-049",
+    "front": "perna (s.f.)",
+    "definition": "membro inferior",
+    "example": "Machuquei a perna jogando bola.",
+    "translation": "pierna",
+    "tags": [
+      "a2",
+      "noun",
+      "body"
+    ]
+  },
+  {
+    "id": "pt-a2-050",
+    "front": "braço (s.m.)",
+    "definition": "membro superior",
+    "example": "Quebrei o braço quando era criança.",
+    "translation": "brazo",
+    "tags": [
+      "a2",
+      "noun",
+      "body"
+    ]
+  },
+  {
+    "id": "pt-a2-051",
+    "front": "costas (s.f.pl.)",
+    "definition": "parte de trás do tronco (sempre plural)",
+    "example": "Minhas costas doem.",
+    "translation": "espalda",
+    "tags": [
+      "a2",
+      "noun",
+      "body",
+      "gender"
+    ]
+  },
+  {
+    "id": "pt-a2-052",
+    "front": "garganta (s.f.)",
+    "definition": "parte interna do pescoço",
+    "example": "Estou com dor de garganta.",
+    "translation": "garganta",
+    "tags": [
+      "a2",
+      "noun",
+      "body"
+    ]
+  },
+  {
+    "id": "pt-a2-053",
+    "front": "emprego (s.m.)",
+    "definition": "posto de trabalho",
+    "example": "Consegui um emprego novo.",
+    "translation": "empleo",
+    "tags": [
+      "a2",
+      "noun",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-a2-054",
+    "front": "empresa (s.f.)",
+    "definition": "organização de negócios",
+    "example": "Trabalho numa empresa pequena.",
+    "translation": "empresa",
+    "tags": [
+      "a2",
+      "noun",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-a2-055",
+    "front": "chefe (s.m./f.)",
+    "definition": "quem manda no trabalho",
+    "example": "Meu chefe é muito exigente.",
+    "translation": "jefe",
+    "tags": [
+      "a2",
+      "noun",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-a2-056",
+    "front": "reunião (s.f.)",
+    "definition": "encontro de trabalho",
+    "example": "A reunião é às dez.",
+    "translation": "reunión",
+    "tags": [
+      "a2",
+      "noun",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-a2-057",
+    "front": "salário (s.m.)",
+    "definition": "pagamento mensal",
+    "example": "O salário é bom, mas o horário é ruim.",
+    "translation": "salario, sueldo",
+    "tags": [
+      "a2",
+      "noun",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-a2-058",
+    "front": "currículo (s.m.)",
+    "definition": "documento com a experiência",
+    "example": "Mandei meu currículo ontem.",
+    "translation": "currículum",
+    "tags": [
+      "a2",
+      "noun",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-a2-059",
+    "front": "entrevista (s.f.)",
+    "definition": "conversa para avaliar alguém",
+    "example": "Tive uma entrevista de emprego.",
+    "translation": "entrevista",
+    "tags": [
+      "a2",
+      "noun",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-a2-060",
+    "front": "prazo (s.m.)",
+    "definition": "tempo limite",
+    "example": "O prazo termina na sexta.",
+    "translation": "plazo",
+    "tags": [
+      "a2",
+      "noun",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-a2-061",
+    "front": "horário (s.m.)",
+    "definition": "organização do tempo",
+    "example": "Meu horário é flexível.",
+    "translation": "horario",
+    "tags": [
+      "a2",
+      "noun",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-a2-062",
+    "front": "férias (s.f.pl.)",
+    "definition": "período de descanso (sempre plural)",
+    "example": "Vou tirar férias em janeiro.",
+    "translation": "vacaciones",
+    "tags": [
+      "a2",
+      "noun",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-a2-063",
+    "front": "feriado (s.m.)",
+    "definition": "dia de folga oficial",
+    "example": "Segunda é feriado.",
+    "translation": "festivo, feriado",
+    "tags": [
+      "a2",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": "pt-a2-064",
+    "front": "aniversário (s.m.)",
+    "definition": "data de nascimento; também de casamento",
+    "example": "Meu aniversário é em março.",
+    "translation": "cumpleaños; aniversario",
+    "tags": [
+      "a2",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": "pt-a2-065",
+    "front": "festa (s.f.)",
+    "definition": "celebração",
+    "example": "A festa foi ótima.",
+    "translation": "fiesta",
+    "tags": [
+      "a2",
+      "noun",
+      "social"
+    ]
+  },
+  {
+    "id": "pt-a2-066",
+    "front": "convite (s.m.)",
+    "definition": "pedido para participar",
+    "example": "Recebi um convite para o casamento.",
+    "translation": "invitación",
+    "tags": [
+      "a2",
+      "noun",
+      "social"
+    ]
+  },
+  {
+    "id": "pt-a2-067",
+    "front": "presente (s.m./adj.)",
+    "definition": "objeto dado; também \"que está aqui\"",
+    "example": "Comprei um presente para ela.",
+    "translation": "regalo; presente",
+    "tags": [
+      "a2",
+      "noun",
+      "social"
+    ]
+  },
+  {
+    "id": "pt-a2-068",
+    "front": "namorado (s.m.)",
+    "definition": "parceiro romântico",
+    "example": "Meu namorado é professor.",
+    "translation": "novio",
+    "tags": [
+      "a2",
+      "noun",
+      "social"
+    ]
+  },
+  {
+    "id": "pt-a2-069",
+    "front": "casamento (s.m.)",
+    "definition": "união matrimonial; a cerimônia",
+    "example": "O casamento é no sábado.",
+    "translation": "boda, matrimonio",
+    "tags": [
+      "a2",
+      "noun",
+      "social"
+    ]
+  },
+  {
+    "id": "pt-a2-070",
+    "front": "vizinho (s.m.)",
+    "definition": "quem mora ao lado",
+    "example": "Meus vizinhos são simpáticos.",
+    "translation": "vecino",
+    "tags": [
+      "a2",
+      "noun",
+      "people"
+    ]
+  },
+  {
+    "id": "pt-a2-071",
+    "front": "fatura (s.f.)",
+    "definition": "documento de cobrança mensal",
+    "example": "A fatura do cartão chegou.",
+    "translation": "factura",
+    "tags": [
+      "a2",
+      "noun",
+      "money"
+    ]
+  },
+  {
+    "id": "pt-a2-072",
+    "front": "imposto (s.m.)",
+    "definition": "dinheiro pago ao Estado",
+    "example": "Os impostos são altos aqui.",
+    "translation": "impuesto",
+    "tags": [
+      "a2",
+      "noun",
+      "money"
+    ]
+  },
+  {
+    "id": "pt-a2-073",
+    "front": "aluguel (s.m.)",
+    "definition": "pagamento mensal pela moradia",
+    "example": "O aluguel aumentou este ano.",
+    "translation": "alquiler",
+    "tags": [
+      "a2",
+      "noun",
+      "money"
+    ]
+  },
+  {
+    "id": "pt-a2-074",
+    "front": "desconto (s.m.)",
+    "definition": "redução no preço",
+    "example": "Tem desconto para estudante?",
+    "translation": "descuento",
+    "tags": [
+      "a2",
+      "noun",
+      "shopping"
+    ]
+  },
+  {
+    "id": "pt-a2-075",
+    "front": "parcela (s.f.)",
+    "definition": "pagamento dividido",
+    "example": "Paguei em três parcelas.",
+    "translation": "cuota, plazo",
+    "tags": [
+      "a2",
+      "noun",
+      "money"
+    ]
+  },
+  {
+    "id": "pt-a2-076",
+    "front": "poupança (s.f.)",
+    "definition": "dinheiro guardado",
+    "example": "Coloquei na poupança.",
+    "translation": "ahorros",
+    "tags": [
+      "a2",
+      "noun",
+      "money"
+    ]
+  },
+  {
+    "id": "pt-a2-077",
+    "front": "dívida (s.f.)",
+    "definition": "o que se deve",
+    "example": "Ele tem muitas dívidas.",
+    "translation": "deuda",
+    "tags": [
+      "a2",
+      "noun",
+      "money"
+    ]
+  },
+  {
+    "id": "pt-a2-078",
+    "front": "notícia (s.f.)",
+    "definition": "informação sobre um fato",
+    "example": "Vi a notícia no jornal.",
+    "translation": "noticia",
+    "tags": [
+      "a2",
+      "noun",
+      "media"
+    ]
+  },
+  {
+    "id": "pt-a2-079",
+    "front": "jornal (s.m.)",
+    "definition": "publicação de notícias; o telejornal",
+    "example": "Leio o jornal de manhã.",
+    "translation": "periódico; noticiero",
+    "tags": [
+      "a2",
+      "noun",
+      "media"
+    ]
+  },
+  {
+    "id": "pt-a2-080",
+    "front": "revista (s.f.)",
+    "definition": "publicação periódica",
+    "example": "Comprei uma revista no aeroporto.",
+    "translation": "revista",
+    "tags": [
+      "a2",
+      "noun",
+      "media"
+    ]
+  },
+  {
+    "id": "pt-a2-081",
+    "front": "site (s.m.)",
+    "definition": "página de internet",
+    "example": "Vi no site da empresa.",
+    "translation": "sitio web",
+    "tags": [
+      "a2",
+      "noun",
+      "tech"
+    ]
+  },
+  {
+    "id": "pt-a2-082",
+    "front": "senha (s.f.)",
+    "definition": "código de acesso; também número de fila",
+    "example": "Esqueci minha senha.",
+    "translation": "contraseña",
+    "tags": [
+      "a2",
+      "noun",
+      "tech"
+    ]
+  },
+  {
+    "id": "pt-a2-083",
+    "front": "arquivo (s.m.)",
+    "definition": "documento digital",
+    "example": "Mandei o arquivo por e-mail.",
+    "translation": "archivo",
+    "tags": [
+      "a2",
+      "noun",
+      "tech"
+    ]
+  },
+  {
+    "id": "pt-a2-084",
+    "front": "tela (s.f.)",
+    "definition": "superfície de exibição",
+    "example": "A tela do celular quebrou.",
+    "translation": "pantalla",
+    "tags": [
+      "a2",
+      "noun",
+      "tech"
+    ]
+  },
+  {
+    "id": "pt-a2-085",
+    "front": "rede (s.f.)",
+    "definition": "conexão; redes sociais",
+    "example": "A rede está lenta hoje.",
+    "translation": "red",
+    "tags": [
+      "a2",
+      "noun",
+      "tech"
+    ]
+  },
+  {
+    "id": "pt-a2-086",
+    "front": "lento (adj.)",
+    "definition": "que demora",
+    "example": "A internet está muito lenta.",
+    "translation": "lento",
+    "tags": [
+      "a2",
+      "adj"
+    ]
+  },
+  {
+    "id": "pt-a2-087",
+    "front": "rápido (adj./adv.)",
+    "definition": "que se faz em pouco tempo",
+    "example": "Ele fala muito rápido.",
+    "translation": "rápido",
+    "tags": [
+      "a2",
+      "adj"
+    ]
+  },
+  {
+    "id": "pt-a2-088",
+    "front": "cheio (adj.)",
+    "definition": "sem espaço livre",
+    "example": "O ônibus estava cheio.",
+    "translation": "lleno",
+    "tags": [
+      "a2",
+      "adj"
+    ]
+  },
+  {
+    "id": "pt-a2-089",
+    "front": "vazio (adj.)",
+    "definition": "sem nada dentro",
+    "example": "A geladeira está vazia.",
+    "translation": "vacío",
+    "tags": [
+      "a2",
+      "adj"
+    ]
+  },
+  {
+    "id": "pt-a2-090",
+    "front": "limpo (adj.)",
+    "definition": "sem sujeira",
+    "example": "O quarto está limpo.",
+    "translation": "limpio",
+    "tags": [
+      "a2",
+      "adj"
+    ]
+  },
+  {
+    "id": "pt-a2-091",
+    "front": "sujo (adj.)",
+    "definition": "com sujeira",
+    "example": "Meus sapatos estão sujos.",
+    "translation": "sucio",
+    "tags": [
+      "a2",
+      "adj"
+    ]
+  },
+  {
+    "id": "pt-a2-092",
+    "front": "forte (adj.)",
+    "definition": "com força; intenso",
+    "example": "O café está muito forte.",
+    "translation": "fuerte",
+    "tags": [
+      "a2",
+      "adj"
+    ]
+  },
+  {
+    "id": "pt-a2-093",
+    "front": "fraco (adj.)",
+    "definition": "sem força",
+    "example": "Estou me sentindo fraco.",
+    "translation": "débil, flojo",
+    "tags": [
+      "a2",
+      "adj"
+    ]
+  },
+  {
+    "id": "pt-a2-094",
+    "front": "ocupado (adj.)",
+    "definition": "com muitas tarefas; não livre",
+    "example": "Estou ocupado agora.",
+    "translation": "ocupado",
+    "tags": [
+      "a2",
+      "adj"
+    ]
+  },
+  {
+    "id": "pt-a2-095",
+    "front": "livre (adj.)",
+    "definition": "disponível; sem restrição",
+    "example": "Você está livre amanhã?",
+    "translation": "libre",
+    "tags": [
+      "a2",
+      "adj"
+    ]
+  },
+  {
+    "id": "pt-a2-096",
+    "front": "engraçado (adj.)",
+    "definition": "que faz rir",
+    "example": "Ele é muito engraçado.",
+    "translation": "graciosos, divertido",
+    "tags": [
+      "a2",
+      "adj",
+      "feelings"
+    ]
+  },
+  {
+    "id": "pt-a2-097",
+    "front": "chato (adj.)",
+    "definition": "aborrecido; irritante",
+    "example": "Esse filme é chato.",
+    "translation": "aburrido; pesado",
+    "tags": [
+      "a2",
+      "adj",
+      "feelings",
+      "keyword"
+    ]
+  },
+  {
+    "id": "pt-a2-098",
+    "front": "legal (adj.)",
+    "definition": "agradável, bacana (gíria muito usada)",
+    "example": "Que legal! Achei muito legal.",
+    "translation": "guay, chévere",
+    "tags": [
+      "a2",
+      "adj",
+      "feelings",
+      "keyword"
+    ]
+  },
+  {
+    "id": "pt-a2-099",
+    "front": "ruim (adj.)",
+    "definition": "de má qualidade",
+    "example": "O tempo está ruim.",
+    "translation": "malo",
+    "tags": [
+      "a2",
+      "adj"
+    ]
+  },
+  {
+    "id": "pt-a2-100",
+    "front": "pronto (adj./interj.)",
+    "definition": "preparado; \"ya está\"",
+    "example": "Está pronto! Pronto, acabei.",
+    "translation": "listo",
+    "tags": [
+      "a2",
+      "adj"
+    ]
+  }
+]

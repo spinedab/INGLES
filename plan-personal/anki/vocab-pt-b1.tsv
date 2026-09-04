@@ -1,0 +1,100 @@
+desenvolver (v.)	fazer crescer, elaborar	A empresa desenvolveu um novo aplicativo.	desarrollar	b1 verb work
+estabelecer (v.)	fixar, criar formalmente	Estabelecemos novas regras.	establecer	b1 verb
+apresentar (v.)	mostrar; introduzir alguém	Vou apresentar o projeto amanhã.	presentar	b1 verb work
+permitir (v.)	dar permissão; tornar possível	Isso permite economizar tempo.	permitir	b1 verb
+exigir (v.)	demandar como obrigatório	O cargo exige inglês fluente.	exigir	b1 verb work
+garantir (v.)	assegurar	Garanto que vai dar certo.	garantizar	b1 verb
+evitar (v.)	impedir que aconteça	Evito sair no horário de pico.	evitar	b1 verb
+enfrentar (v.)	lidar com algo difícil	Precisamos enfrentar o problema.	enfrentar	b1 verb
+superar (v.)	vencer uma dificuldade	Ele superou as expectativas.	superar	b1 verb
+alcançar (v.)	chegar a; conseguir	Alcançamos a meta do mês.	alcanzar	b1 verb work
+destacar (v.)	dar relevo, sobressair	Vale destacar dois pontos.	destacar	b1 verb
+ressaltar (v.)	enfatizar	O relatório ressalta os riscos.	resaltar	b1 verb
+sugerir (v.)	propor uma ideia	Sugiro que a gente adie.	sugerir	b1 verb
+propor (v.)	apresentar como proposta	Propuseram uma solução simples.	proponer	b1 verb irregular
+recusar (v.)	não aceitar	Recusei a oferta.	rechazar	b1 verb
+admitir (v.)	reconhecer; aceitar	Admito que errei.	admitir	b1 verb
+perceber (v.)	notar, dar-se conta	Percebi que ele estava nervoso.	darse cuenta	b1 verb falsefriend
+reparar (v.)	notar; consertar	Repare no detalhe da foto.	fijarse; reparar	b1 verb keyword
+surgir (v.)	aparecer	Surgiu um problema de última hora.	surgir	b1 verb
+desistir (v.)	abandonar uma intenção (desistir DE)	Não desista agora.	desistir, rendirse	b1 verb preposition
+insistir (v.)	repetir com persistência (insistir EM)	Ele insistiu em pagar.	insistir	b1 verb preposition
+depender (v.)	estar condicionado (depender DE)	Depende do horário.	depender	b1 verb preposition
+concordar (v.)	ter a mesma opinião (concordar COM)	Concordo com você.	estar de acuerdo	b1 verb preposition
+discordar (v.)	ter opinião contrária	Discordo dessa análise.	discrepar	b1 verb
+reclamar (v.)	expressar insatisfação	Reclamei do serviço.	quejarse, reclamar	b1 verb
+agradecer (v.)	expressar gratidão	Agradeço a ajuda de todos.	agradecer	b1 verb
+desculpar (v.)	perdoar; pedir perdão	Desculpe o atraso.	disculpar	b1 verb
+aproveitar (v.)	usar bem uma oportunidade	Aproveitei o feriado para descansar.	aprovechar	b1 verb
+investir (v.)	aplicar recursos	Investiram em tecnologia.	invertir	b1 verb money
+economizar (v.)	gastar menos	Economizo para viajar.	ahorrar	b1 verb money
+gastar (v.)	usar dinheiro ou tempo	Gastei muito no fim de semana.	gastar	b1 verb money
+cobrar (v.)	pedir pagamento	Cobraram taxa de serviço.	cobrar	b1 verb money
+devolver (v.)	dar de volta	Devolvi o produto na loja.	devolver	b1 verb shopping
+trocar (v.)	substituir; intercambiar	Quero trocar de tamanho.	cambiar	b1 verb shopping
+entregar (v.)	dar em mãos; fazer chegar	Entreguei o relatório no prazo.	entregar	b1 verb work
+adiar (v.)	transferir para depois	Adiamos a reunião.	posponer, aplazar	b1 verb work
+cancelar (v.)	desfazer algo agendado	Cancelaram o voo.	cancelar	b1 verb
+marcar (v.)	agendar; assinalar	Vamos marcar um café.	quedar; marcar	b1 verb keyword
+demorar (v.)	levar muito tempo	Demorou duas horas.	tardar	b1 verb
+pressa (s.f.)	necessidade de rapidez	Não tenha pressa.	prisa	b1 noun
+desafio (s.m.)	tarefa difícil e estimulante	Aprender português foi um desafio.	desafío, reto	b1 noun
+objetivo (s.m.)	o que se quer alcançar	Meu objetivo é morar no Brasil.	objetivo	b1 noun
+meta (s.f.)	alvo concreto a atingir	Batemos a meta do trimestre.	meta	b1 noun work
+resultado (s.m.)	o que se obtém	Os resultados foram positivos.	resultado	b1 noun
+consequência (s.f.)	efeito de algo	Sofremos as consequências.	consecuencia	b1 noun
+vantagem (s.f.)	ponto favorável	A vantagem é a flexibilidade.	ventaja	b1 noun
+desvantagem (s.f.)	ponto desfavorável	A desvantagem é o custo.	desventaja	b1 noun
+risco (s.m.)	possibilidade de dano	Existe risco de atraso.	riesgo	b1 noun
+solução (s.f.)	resposta a um problema	Encontramos uma solução.	solución	b1 noun
+proposta (s.f.)	sugestão formal	A proposta foi aprovada.	propuesta	b1 noun work
+prova (s.f.)	exame; evidência	Tenho prova de português amanhã.	examen; prueba	b1 noun school
+pesquisa (s.f.)	investigação; enquete	Fiz uma pesquisa sobre o tema.	investigación; encuesta	b1 noun
+dados (s.m.pl.)	informações, números	Os dados mostram uma queda.	datos	b1 noun
+relatório (s.m.)	documento com resultados	Escrevi o relatório mensal.	informe	b1 noun work
+prazo de entrega (loc.)	data limite para entregar	O prazo de entrega é sexta.	plazo de entrega	b1 noun chunk work
+ponto de vista (loc.)	perspectiva	Do meu ponto de vista, faz sentido.	punto de vista	b1 noun chunk
+mão de obra (loc.)	trabalho humano disponível	Falta mão de obra qualificada.	mano de obra	b1 noun chunk work
+custo de vida (loc.)	quanto custa viver num lugar	O custo de vida subiu.	coste de vida	b1 noun chunk money
+horário de pico (loc.)	hora de maior movimento	Evito o horário de pico.	hora punta	b1 noun chunk transport
+trânsito (s.m.)	circulação de veículos	O trânsito estava horrível.	tráfico	b1 noun transport falsefriend
+engarrafamento (s.m.)	trânsito parado	Fiquei duas horas no engarrafamento.	atasco, trancón	b1 noun transport
+multa (s.f.)	pena em dinheiro	Levei uma multa por velocidade.	multa	b1 noun transport
+prefeitura (s.f.)	governo da cidade	A prefeitura anunciou obras.	ayuntamiento, alcaldía	b1 noun civic
+governo (s.m.)	quem administra o país	O governo aprovou a lei.	gobierno	b1 noun civic
+lei (s.f.)	norma jurídica	A lei entra em vigor em janeiro.	ley	b1 noun civic
+direito (s.m.)	prerrogativa legal; a área do Direito	Todos têm direito à saúde.	derecho	b1 noun civic
+dever (s.m./v.)	obrigação; ter obrigação de	É nosso dever votar. Devo sair.	deber	b1 noun civic
+imprensa (s.f.)	conjunto dos meios de comunicação	A imprensa cobriu o caso.	prensa	b1 noun media
+entrevistado (s.m.)	quem responde à entrevista	O entrevistado evitou a pergunta.	entrevistado	b1 noun media
+desigualdade (s.f.)	diferença injusta	A desigualdade aumentou.	desigualdad	b1 noun social
+moradia (s.f.)	lugar onde se vive	O problema da moradia é grave.	vivienda	b1 noun social
+bairro (s.m.)	parte de uma cidade	Moro num bairro tranquilo.	barrio	b1 noun places
+periferia (s.f.)	áreas afastadas do centro	Ele mora na periferia.	periferia	b1 noun places
+obra (s.f.)	construção; trabalho artístico	Tem obra na rua há meses.	obra	b1 noun
+meio ambiente (loc.)	natureza e entorno	Precisamos proteger o meio ambiente.	medio ambiente	b1 noun chunk
+lixo (s.m.)	resíduos	Separo o lixo reciclável.	basura	b1 noun
+seca (s.f.)	falta prolongada de chuva	A seca afetou a colheita.	sequía	b1 noun weather
+enchente (s.f.)	inundação por chuva	A enchente alagou o centro.	inundación	b1 noun weather
+previsão (s.f.)	estimativa do que vai acontecer	A previsão é de chuva.	pronóstico, previsión	b1 noun weather
+de repente (loc.)	subitamente	De repente começou a chover.	de repente	b1 adv chunk
+aos poucos (loc.)	gradualmente	Aos poucos fui entendendo.	poco a poco	b1 adv chunk
+na verdade (loc.)	de fato, corrigindo	Na verdade, foi diferente.	en realidad	b1 adv chunk
+além disso (loc.)	adicionalmente	Além disso, é mais barato.	además	b1 adv chunk
+no entanto (loc.)	contudo	No entanto, existem riscos.	sin embargo	b1 conj chunk
+portanto (conj.)	por essa razão	Chove; portanto, ficamos em casa.	por lo tanto	b1 conj
+apesar de (loc.)	mesmo com	Apesar do frio, saímos.	a pesar de	b1 conj chunk
+embora (conj.)	ainda que (exige subjuntivo)	Embora esteja cansado, vou.	aunque	b1 conj grammar
+caso (conj.)	se (exige subjuntivo)	Caso precise, me avise.	en caso de que	b1 conj grammar
+desde que (conj.)	com a condição de que	Vou, desde que você venha.	siempre que	b1 conj grammar
+a fim de (loc.)	com o objetivo de	Estudo a fim de melhorar.	con el fin de	b1 conj chunk
+ou seja (loc.)	isto é, reformulando	Vem amanhã, ou seja, terça.	o sea	b1 conj chunk
+inclusive (adv.)	até mesmo	Inclusive ele veio.	incluso	b1 adv
+sobretudo (adv.)	principalmente	Gosto de música, sobretudo samba.	sobre todo	b1 adv
+dificilmente (adv.)	é pouco provável que	Dificilmente chego antes das oito.	difícilmente	b1 adv
+provavelmente (adv.)	com probabilidade	Provavelmente vai atrasar.	probablemente	b1 adv
+atual (adj.)	do momento presente	Na situação atual, é difícil.	actual	b1 adj
+disponível (adj.)	que pode ser usado	O quarto está disponível.	disponible	b1 adj
+necessário (adj.)	indispensável	É necessário confirmar antes.	necesario	b1 adj
+suficiente (adj.)	que basta	O tempo não foi suficiente.	suficiente	b1 adj
+capaz (adj.)	que tem capacidade (capaz DE)	Ele é capaz de resolver isso.	capaz	b1 adj

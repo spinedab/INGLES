@@ -1,0 +1,1258 @@
+[
+  {
+    "id": "zh-a2-001",
+    "front": "因为 (yīnwèi)",
+    "definition": "表示原因",
+    "example": "因为下雨，我们没去。(Yīnwèi xià yǔ, wǒmen méi qù.)",
+    "translation": "porque",
+    "tags": [
+      "a2",
+      "conj",
+      "hsk2",
+      "top500"
+    ]
+  },
+  {
+    "id": "zh-a2-002",
+    "front": "所以 (suǒyǐ)",
+    "definition": "表示结果，常和\"因为\"一起",
+    "example": "下雨了，所以我在家。(Xià yǔ le, suǒyǐ wǒ zài jiā.)",
+    "translation": "por eso",
+    "tags": [
+      "a2",
+      "conj",
+      "hsk2",
+      "top500"
+    ]
+  },
+  {
+    "id": "zh-a2-003",
+    "front": "但是 (dànshì)",
+    "definition": "表示相反",
+    "example": "我想去，但是没时间。(Wǒ xiǎng qù, dànshì méi shíjiān.)",
+    "translation": "pero",
+    "tags": [
+      "a2",
+      "conj",
+      "hsk2",
+      "top500"
+    ]
+  },
+  {
+    "id": "zh-a2-004",
+    "front": "虽然 (suīrán)",
+    "definition": "让步，后面常用\"但是\"",
+    "example": "虽然很贵，但是很好。(Suīrán hěn guì, dànshì hěn hǎo.)",
+    "translation": "aunque",
+    "tags": [
+      "a2",
+      "conj",
+      "hsk2",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a2-005",
+    "front": "还是 (háishi)",
+    "definition": "选择疑问；或者\"仍然\"",
+    "example": "喝茶还是喝咖啡？(Hē chá háishi hē kāfēi?)",
+    "translation": "o (en preguntas)",
+    "tags": [
+      "a2",
+      "conj",
+      "hsk2",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a2-006",
+    "front": "或者 (huòzhě)",
+    "definition": "在陈述句里表示选择",
+    "example": "我喝茶或者咖啡。(Wǒ hē chá huòzhě kāfēi.)",
+    "translation": "o (en afirmativas)",
+    "tags": [
+      "a2",
+      "conj",
+      "hsk2",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a2-007",
+    "front": "比 (bǐ)",
+    "definition": "比较两个东西",
+    "example": "他比我高。(Tā bǐ wǒ gāo.)",
+    "translation": "más… que (comparativo)",
+    "tags": [
+      "a2",
+      "prep",
+      "hsk2",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a2-008",
+    "front": "最 (zuì)",
+    "definition": "程度最高",
+    "example": "这个最好。(Zhège zuì hǎo.)",
+    "translation": "el más (superlativo)",
+    "tags": [
+      "a2",
+      "adv",
+      "hsk2",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a2-009",
+    "front": "更 (gèng)",
+    "definition": "程度更高",
+    "example": "这个更便宜。(Zhège gèng piányi.)",
+    "translation": "más, aún más",
+    "tags": [
+      "a2",
+      "adv",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-010",
+    "front": "一样 (yíyàng)",
+    "definition": "相同",
+    "example": "这两个一样。(Zhè liǎng ge yíyàng.)",
+    "translation": "igual",
+    "tags": [
+      "a2",
+      "adj",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-011",
+    "front": "正在 (zhèngzài)",
+    "definition": "动作进行中",
+    "example": "我正在吃饭。(Wǒ zhèngzài chī fàn.)",
+    "translation": "estar + gerundio",
+    "tags": [
+      "a2",
+      "adv",
+      "hsk2",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a2-012",
+    "front": "过 (guo)",
+    "definition": "表示有过这个经历",
+    "example": "我去过中国。(Wǒ qù guo Zhōngguó.)",
+    "translation": "(experiencia pasada)",
+    "tags": [
+      "a2",
+      "particle",
+      "hsk2",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a2-013",
+    "front": "已经 (yǐjīng)",
+    "definition": "事情做完了",
+    "example": "他已经走了。(Tā yǐjīng zǒu le.)",
+    "translation": "ya",
+    "tags": [
+      "a2",
+      "adv",
+      "hsk2",
+      "top500"
+    ]
+  },
+  {
+    "id": "zh-a2-014",
+    "front": "还 (hái)",
+    "definition": "仍然；另外",
+    "example": "我还没吃饭。(Wǒ hái méi chī fàn.)",
+    "translation": "todavía; además",
+    "tags": [
+      "a2",
+      "adv",
+      "hsk2",
+      "top500"
+    ]
+  },
+  {
+    "id": "zh-a2-015",
+    "front": "就 (jiù)",
+    "definition": "表示紧接着、正是",
+    "example": "我马上就来。(Wǒ mǎshàng jiù lái.)",
+    "translation": "enseguida, justamente",
+    "tags": [
+      "a2",
+      "adv",
+      "hsk2",
+      "top500"
+    ]
+  },
+  {
+    "id": "zh-a2-016",
+    "front": "才 (cái)",
+    "definition": "比预想的晚；只有",
+    "example": "他八点才到。(Tā bā diǎn cái dào.)",
+    "translation": "no… hasta; solo",
+    "tags": [
+      "a2",
+      "adv",
+      "hsk2",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a2-017",
+    "front": "再 (zài)",
+    "definition": "又一次（将来）",
+    "example": "再说一次。(Zài shuō yí cì.)",
+    "translation": "otra vez (futuro)",
+    "tags": [
+      "a2",
+      "adv",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-018",
+    "front": "又 (yòu)",
+    "definition": "又一次（过去）",
+    "example": "他又来了。(Tā yòu lái le.)",
+    "translation": "otra vez (pasado)",
+    "tags": [
+      "a2",
+      "adv",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-019",
+    "front": "一定 (yídìng)",
+    "definition": "肯定，没有疑问",
+    "example": "我一定去。(Wǒ yídìng qù.)",
+    "translation": "seguramente, sin duda",
+    "tags": [
+      "a2",
+      "adv",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-020",
+    "front": "可能 (kěnéng)",
+    "definition": "也许",
+    "example": "明天可能下雨。(Míngtiān kěnéng xià yǔ.)",
+    "translation": "posiblemente",
+    "tags": [
+      "a2",
+      "adv",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-021",
+    "front": "应该 (yīnggāi)",
+    "definition": "表示义务或推测",
+    "example": "你应该休息。(Nǐ yīnggāi xiūxi.)",
+    "translation": "deber",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-022",
+    "front": "需要 (xūyào)",
+    "definition": "必须有",
+    "example": "我需要帮助。(Wǒ xūyào bāngzhù.)",
+    "translation": "necesitar",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-023",
+    "front": "希望 (xīwàng)",
+    "definition": "想要发生",
+    "example": "我希望你来。(Wǒ xīwàng nǐ lái.)",
+    "translation": "esperar (desear)",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-024",
+    "front": "决定 (juédìng)",
+    "definition": "做出选择",
+    "example": "我决定去上海。(Wǒ juédìng qù Shànghǎi.)",
+    "translation": "decidir",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-025",
+    "front": "帮助 (bāngzhù)",
+    "definition": "给别人支持",
+    "example": "谢谢你的帮助。(Xièxie nǐ de bāngzhù.)",
+    "translation": "ayudar; ayuda",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-026",
+    "front": "介绍 (jièshào)",
+    "definition": "让别人认识",
+    "example": "我介绍一下。(Wǒ jièshào yíxià.)",
+    "translation": "presentar",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-027",
+    "front": "准备 (zhǔnbèi)",
+    "definition": "做好安排",
+    "example": "我在准备考试。(Wǒ zài zhǔnbèi kǎoshì.)",
+    "translation": "preparar",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-028",
+    "front": "开始 (kāishǐ)",
+    "definition": "进入第一步",
+    "example": "电影开始了。(Diànyǐng kāishǐ le.)",
+    "translation": "empezar",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-029",
+    "front": "结束 (jiéshù)",
+    "definition": "到最后",
+    "example": "会议结束了。(Huìyì jiéshù le.)",
+    "translation": "terminar",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-030",
+    "front": "完成 (wánchéng)",
+    "definition": "做完",
+    "example": "我完成了工作。(Wǒ wánchéng le gōngzuò.)",
+    "translation": "completar",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-031",
+    "front": "找 (zhǎo)",
+    "definition": "寻找；也是\"找钱\"",
+    "example": "我在找工作。(Wǒ zài zhǎo gōngzuò.)",
+    "translation": "buscar",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2",
+      "top500"
+    ]
+  },
+  {
+    "id": "zh-a2-032",
+    "front": "带 (dài)",
+    "definition": "携带；带领",
+    "example": "我带了雨伞。(Wǒ dài le yǔsǎn.)",
+    "translation": "llevar, traer",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-033",
+    "front": "送 (sòng)",
+    "definition": "赠送；送人到某处",
+    "example": "我送你回家。(Wǒ sòng nǐ huí jiā.)",
+    "translation": "regalar; acompañar",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2",
+      "keyverb"
+    ]
+  },
+  {
+    "id": "zh-a2-034",
+    "front": "借 (jiè)",
+    "definition": "借入或借出",
+    "example": "我借了一本书。(Wǒ jiè le yì běn shū.)",
+    "translation": "prestar, pedir prestado",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2",
+      "keyverb"
+    ]
+  },
+  {
+    "id": "zh-a2-035",
+    "front": "还 (huán)",
+    "definition": "归还（和\"hái\"同字不同音）",
+    "example": "我要还书。(Wǒ yào huán shū.)",
+    "translation": "devolver",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2",
+      "keyword"
+    ]
+  },
+  {
+    "id": "zh-a2-036",
+    "front": "忘 (wàng)",
+    "definition": "失去记忆",
+    "example": "我忘了他的名字。(Wǒ wàng le tā de míngzi.)",
+    "translation": "olvidar",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-037",
+    "front": "记得 (jìde)",
+    "definition": "保留在记忆里",
+    "example": "我记得你。(Wǒ jìde nǐ.)",
+    "translation": "recordar",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-038",
+    "front": "相信 (xiāngxìn)",
+    "definition": "认为是真的",
+    "example": "我相信他。(Wǒ xiāngxìn tā.)",
+    "translation": "creer",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-039",
+    "front": "怀疑 (huáiyí)",
+    "definition": "不太相信，觉得可能不真",
+    "example": "我怀疑他说的话。(Wǒ huáiyí tā shuō de huà.)",
+    "translation": "dudar, sospechar",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-040",
+    "front": "换 (huàn)",
+    "definition": "替换",
+    "example": "我想换房间。(Wǒ xiǎng huàn fángjiān.)",
+    "translation": "cambiar",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-041",
+    "front": "搬 (bān)",
+    "definition": "移动重的东西；搬家",
+    "example": "下个月搬家。(Xià ge yuè bān jiā.)",
+    "translation": "mudarse, trasladar",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-042",
+    "front": "洗 (xǐ)",
+    "definition": "用水弄干净",
+    "example": "我洗手。(Wǒ xǐ shǒu.)",
+    "translation": "lavar",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-043",
+    "front": "穿 (chuān)",
+    "definition": "把衣服放到身上",
+    "example": "今天穿什么？(Jīntiān chuān shénme?)",
+    "translation": "ponerse (ropa)",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-044",
+    "front": "戴 (dài)",
+    "definition": "戴帽子、眼镜、手表",
+    "example": "我戴眼镜。(Wǒ dài yǎnjìng.)",
+    "translation": "llevar (gafas, sombrero)",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-045",
+    "front": "跑 (pǎo)",
+    "definition": "快速移动",
+    "example": "我每天早上跑步。(Wǒ měitiān zǎoshang pǎobù.)",
+    "translation": "correr",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-046",
+    "front": "走 (zǒu)",
+    "definition": "用脚移动；离开",
+    "example": "我们走吧。(Wǒmen zǒu ba.)",
+    "translation": "caminar; irse",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2",
+      "keyverb"
+    ]
+  },
+  {
+    "id": "zh-a2-047",
+    "front": "站 (zhàn)",
+    "definition": "用脚立着",
+    "example": "别站在门口。(Bié zhàn zài ménkǒu.)",
+    "translation": "estar de pie",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-048",
+    "front": "休息 (xiūxi)",
+    "definition": "停下来放松",
+    "example": "我们休息十分钟。(Wǒmen xiūxi shí fēnzhōng.)",
+    "translation": "descansar",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-049",
+    "front": "运动 (yùndòng)",
+    "definition": "体育活动",
+    "example": "我喜欢运动。(Wǒ xǐhuan yùndòng.)",
+    "translation": "hacer deporte; deporte",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2",
+      "sport"
+    ]
+  },
+  {
+    "id": "zh-a2-050",
+    "front": "旅行 (lǚxíng)",
+    "definition": "去别的地方玩",
+    "example": "我们去旅行。(Wǒmen qù lǚxíng.)",
+    "translation": "viajar",
+    "tags": [
+      "a2",
+      "verb",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-051",
+    "front": "考试 (kǎoshì)",
+    "definition": "检验学习的结果",
+    "example": "明天有考试。(Míngtiān yǒu kǎoshì.)",
+    "translation": "examen; examinarse",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "school"
+    ]
+  },
+  {
+    "id": "zh-a2-052",
+    "front": "问题 (wèntí)",
+    "definition": "疑问；困难",
+    "example": "我有一个问题。(Wǒ yǒu yí ge wèntí.)",
+    "translation": "pregunta; problema",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "top500"
+    ]
+  },
+  {
+    "id": "zh-a2-053",
+    "front": "办法 (bànfǎ)",
+    "definition": "解决的方式",
+    "example": "没有别的办法。(Méiyǒu bié de bànfǎ.)",
+    "translation": "manera, solución",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-054",
+    "front": "意思 (yìsi)",
+    "definition": "含义",
+    "example": "这是什么意思？(Zhè shì shénme yìsi?)",
+    "translation": "significado",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "top500"
+    ]
+  },
+  {
+    "id": "zh-a2-055",
+    "front": "事情 (shìqing)",
+    "definition": "要做或发生的事",
+    "example": "我有事情要做。(Wǒ yǒu shìqing yào zuò.)",
+    "translation": "asunto, cosa",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-056",
+    "front": "时间 (shíjiān)",
+    "definition": "可以用的时段",
+    "example": "我没有时间。(Wǒ méiyǒu shíjiān.)",
+    "translation": "tiempo",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "top500"
+    ]
+  },
+  {
+    "id": "zh-a2-057",
+    "front": "机会 (jīhuì)",
+    "definition": "合适的时机",
+    "example": "这是个好机会。(Zhè shì ge hǎo jīhuì.)",
+    "translation": "oportunidad",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-058",
+    "front": "身体 (shēntǐ)",
+    "definition": "人的躯体",
+    "example": "注意身体。(Zhùyì shēntǐ.)",
+    "translation": "cuerpo, salud",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "body"
+    ]
+  },
+  {
+    "id": "zh-a2-059",
+    "front": "头 (tóu)",
+    "definition": "身体最上面的部分",
+    "example": "我头疼。(Wǒ tóu téng.)",
+    "translation": "cabeza",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "body"
+    ]
+  },
+  {
+    "id": "zh-a2-060",
+    "front": "手 (shǒu)",
+    "definition": "胳膊末端",
+    "example": "洗手了吗？(Xǐ shǒu le ma?)",
+    "translation": "mano",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "body"
+    ]
+  },
+  {
+    "id": "zh-a2-061",
+    "front": "脚 (jiǎo)",
+    "definition": "腿的末端",
+    "example": "我脚很疼。(Wǒ jiǎo hěn téng.)",
+    "translation": "pie",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "body"
+    ]
+  },
+  {
+    "id": "zh-a2-062",
+    "front": "眼睛 (yǎnjing)",
+    "definition": "看东西的器官",
+    "example": "她的眼睛很大。(Tā de yǎnjing hěn dà.)",
+    "translation": "ojos",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "body"
+    ]
+  },
+  {
+    "id": "zh-a2-063",
+    "front": "疼 (téng)",
+    "definition": "不舒服的感觉",
+    "example": "嗓子疼。(Sǎngzi téng.)",
+    "translation": "doler",
+    "tags": [
+      "a2",
+      "adj",
+      "hsk2",
+      "health"
+    ]
+  },
+  {
+    "id": "zh-a2-064",
+    "front": "病 (bìng)",
+    "definition": "身体不健康",
+    "example": "他生病了。(Tā shēng bìng le.)",
+    "translation": "enfermedad; enfermarse",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "health"
+    ]
+  },
+  {
+    "id": "zh-a2-065",
+    "front": "药 (yào)",
+    "definition": "治病的东西",
+    "example": "别忘了吃药。(Bié wàng le chī yào.)",
+    "translation": "medicina",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "health"
+    ]
+  },
+  {
+    "id": "zh-a2-066",
+    "front": "公司 (gōngsī)",
+    "definition": "做生意的机构",
+    "example": "我在一家公司工作。(Wǒ zài yì jiā gōngsī gōngzuò.)",
+    "translation": "empresa",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "work"
+    ]
+  },
+  {
+    "id": "zh-a2-067",
+    "front": "经理 (jīnglǐ)",
+    "definition": "管理的人",
+    "example": "他是我们的经理。(Tā shì wǒmen de jīnglǐ.)",
+    "translation": "gerente",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "work"
+    ]
+  },
+  {
+    "id": "zh-a2-068",
+    "front": "会议 (huìyì)",
+    "definition": "一起讨论的活动",
+    "example": "会议十点开始。(Huìyì shí diǎn kāishǐ.)",
+    "translation": "reunión",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "work"
+    ]
+  },
+  {
+    "id": "zh-a2-069",
+    "front": "工资 (gōngzī)",
+    "definition": "工作得到的钱",
+    "example": "工资不高。(Gōngzī bù gāo.)",
+    "translation": "salario",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "work"
+    ]
+  },
+  {
+    "id": "zh-a2-070",
+    "front": "房子 (fángzi)",
+    "definition": "住的建筑",
+    "example": "他们买了房子。(Tāmen mǎi le fángzi.)",
+    "translation": "casa",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "home"
+    ]
+  },
+  {
+    "id": "zh-a2-071",
+    "front": "房间 (fángjiān)",
+    "definition": "屋子里的一个空间",
+    "example": "房间很干净。(Fángjiān hěn gānjìng.)",
+    "translation": "habitación",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "home"
+    ]
+  },
+  {
+    "id": "zh-a2-072",
+    "front": "厨房 (chúfáng)",
+    "definition": "做饭的地方",
+    "example": "厨房在左边。(Chúfáng zài zuǒbian.)",
+    "translation": "cocina",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "home"
+    ]
+  },
+  {
+    "id": "zh-a2-073",
+    "front": "洗手间 (xǐshǒujiān)",
+    "definition": "上厕所的地方",
+    "example": "洗手间在哪儿？(Xǐshǒujiān zài nǎr?)",
+    "translation": "baño",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "home"
+    ]
+  },
+  {
+    "id": "zh-a2-074",
+    "front": "票 (piào)",
+    "definition": "进场或坐车的凭证",
+    "example": "我买了两张票。(Wǒ mǎi le liǎng zhāng piào.)",
+    "translation": "billete, entrada",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "transport"
+    ]
+  },
+  {
+    "id": "zh-a2-075",
+    "front": "张 (zhāng)",
+    "definition": "纸、票、桌子的量词",
+    "example": "三张票。(sān zhāng piào)",
+    "translation": "(clasificador plano)",
+    "tags": [
+      "a2",
+      "measure",
+      "hsk2",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a2-076",
+    "front": "件 (jiàn)",
+    "definition": "衣服、事情的量词",
+    "example": "一件衣服，一件事。(yí jiàn yīfu)",
+    "translation": "(clasificador de prendas)",
+    "tags": [
+      "a2",
+      "measure",
+      "hsk2",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a2-077",
+    "front": "公共汽车 (gōnggòng qìchē)",
+    "definition": "大家一起坐的车",
+    "example": "坐公共汽车去。(Zuò gōnggòng qìchē qù.)",
+    "translation": "autobús",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "transport"
+    ]
+  },
+  {
+    "id": "zh-a2-078",
+    "front": "地铁 (dìtiě)",
+    "definition": "地下的火车",
+    "example": "我坐地铁上班。(Wǒ zuò dìtiě shàngbān.)",
+    "translation": "metro",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "transport"
+    ]
+  },
+  {
+    "id": "zh-a2-079",
+    "front": "自行车 (zìxíngchē)",
+    "definition": "两个轮子，用脚踩",
+    "example": "我骑自行车。(Wǒ qí zìxíngchē.)",
+    "translation": "bicicleta",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "transport"
+    ]
+  },
+  {
+    "id": "zh-a2-080",
+    "front": "机场 (jīchǎng)",
+    "definition": "飞机起飞的地方",
+    "example": "去机场要多久？(Qù jīchǎng yào duōjiǔ?)",
+    "translation": "aeropuerto",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "transport"
+    ]
+  },
+  {
+    "id": "zh-a2-081",
+    "front": "咖啡 (kāfēi)",
+    "definition": "一种黑色饮料",
+    "example": "一杯咖啡。(yì bēi kāfēi)",
+    "translation": "café",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "food"
+    ]
+  },
+  {
+    "id": "zh-a2-082",
+    "front": "牛奶 (niúnǎi)",
+    "definition": "牛产的白色饮料",
+    "example": "我喝牛奶。(Wǒ hē niúnǎi.)",
+    "translation": "leche",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "food"
+    ]
+  },
+  {
+    "id": "zh-a2-083",
+    "front": "鸡蛋 (jīdàn)",
+    "definition": "鸡生的",
+    "example": "早饭吃鸡蛋。(Zǎofàn chī jīdàn.)",
+    "translation": "huevo",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "food"
+    ]
+  },
+  {
+    "id": "zh-a2-084",
+    "front": "羊肉 (yángròu)",
+    "definition": "羊的肉",
+    "example": "我不吃羊肉。(Wǒ bù chī yángròu.)",
+    "translation": "cordero",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "food"
+    ]
+  },
+  {
+    "id": "zh-a2-085",
+    "front": "鱼 (yú)",
+    "definition": "水里的动物，可以吃",
+    "example": "这鱼很新鲜。(Zhè yú hěn xīnxiān.)",
+    "translation": "pescado, pez",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "food"
+    ]
+  },
+  {
+    "id": "zh-a2-086",
+    "front": "西瓜 (xīguā)",
+    "definition": "夏天吃的大水果",
+    "example": "夏天吃西瓜。(Xiàtiān chī xīguā.)",
+    "translation": "sandía",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2",
+      "food"
+    ]
+  },
+  {
+    "id": "zh-a2-087",
+    "front": "颜色 (yánsè)",
+    "definition": "红、蓝、绿…",
+    "example": "你喜欢什么颜色？(Nǐ xǐhuan shénme yánsè?)",
+    "translation": "color",
+    "tags": [
+      "a2",
+      "noun",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-088",
+    "front": "红 (hóng)",
+    "definition": "血的颜色",
+    "example": "红色的车。(hóngsè de chē)",
+    "translation": "rojo",
+    "tags": [
+      "a2",
+      "adj",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-089",
+    "front": "白 (bái)",
+    "definition": "雪的颜色",
+    "example": "白色的衬衫。(báisè de chènshān)",
+    "translation": "blanco",
+    "tags": [
+      "a2",
+      "adj",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-090",
+    "front": "黑 (hēi)",
+    "definition": "夜里的颜色",
+    "example": "黑色的鞋。(hēisè de xié)",
+    "translation": "negro",
+    "tags": [
+      "a2",
+      "adj",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-091",
+    "front": "长 (cháng)",
+    "definition": "不短",
+    "example": "这条路很长。(Zhè tiáo lù hěn cháng.)",
+    "translation": "largo",
+    "tags": [
+      "a2",
+      "adj",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-092",
+    "front": "短 (duǎn)",
+    "definition": "不长",
+    "example": "时间太短了。(Shíjiān tài duǎn le.)",
+    "translation": "corto",
+    "tags": [
+      "a2",
+      "adj",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-093",
+    "front": "快 (kuài)",
+    "definition": "速度高；也表示\"快要\"",
+    "example": "他走得很快。(Tā zǒu de hěn kuài.)",
+    "translation": "rápido",
+    "tags": [
+      "a2",
+      "adj",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-094",
+    "front": "慢 (màn)",
+    "definition": "速度低",
+    "example": "请说慢一点。(Qǐng shuō màn yìdiǎn.)",
+    "translation": "lento",
+    "tags": [
+      "a2",
+      "adj",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-095",
+    "front": "干净 (gānjìng)",
+    "definition": "没有脏东西",
+    "example": "房间很干净。(Fángjiān hěn gānjìng.)",
+    "translation": "limpio",
+    "tags": [
+      "a2",
+      "adj",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-096",
+    "front": "舒服 (shūfu)",
+    "definition": "感觉好",
+    "example": "这个椅子很舒服。(Zhège yǐzi hěn shūfu.)",
+    "translation": "cómodo",
+    "tags": [
+      "a2",
+      "adj",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-097",
+    "front": "重要 (zhòngyào)",
+    "definition": "有很大意义",
+    "example": "这件事很重要。(Zhè jiàn shì hěn zhòngyào.)",
+    "translation": "importante",
+    "tags": [
+      "a2",
+      "adj",
+      "hsk2"
+    ]
+  },
+  {
+    "id": "zh-a2-098",
+    "front": "有意思 (yǒu yìsi)",
+    "definition": "让人感兴趣",
+    "example": "这本书很有意思。(Zhè běn shū hěn yǒu yìsi.)",
+    "translation": "interesante",
+    "tags": [
+      "a2",
+      "adj",
+      "hsk2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-a2-099",
+    "front": "别 (bié)",
+    "definition": "表示禁止",
+    "example": "别忘了！(Bié wàng le!)",
+    "translation": "no (imperativo negativo)",
+    "tags": [
+      "a2",
+      "adv",
+      "hsk2",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a2-100",
+    "front": "刚才 (gāngcái)",
+    "definition": "不久以前，刚刚过去",
+    "example": "他刚才走了。(Tā gāngcái zǒu le.)",
+    "translation": "hace un momento",
+    "tags": [
+      "a2",
+      "adv",
+      "hsk2",
+      "time"
+    ]
+  }
+]

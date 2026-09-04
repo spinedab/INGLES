@@ -1,0 +1,1169 @@
+[
+  {
+    "id": "it-b2-001",
+    "front": "pertinente (adj.)",
+    "definition": "adeguato all'argomento",
+    "example": "Ha fatto una domanda pertinente.",
+    "translation": "pertinente",
+    "tags": [
+      "b2",
+      "adj",
+      "awl"
+    ]
+  },
+  {
+    "id": "it-b2-002",
+    "front": "praticabile (adj.)",
+    "definition": "realizzabile",
+    "example": "La proposta non è praticabile.",
+    "translation": "viable",
+    "tags": [
+      "b2",
+      "adj",
+      "awl"
+    ]
+  },
+  {
+    "id": "it-b2-003",
+    "front": "inevitabile (adj.)",
+    "definition": "che non si può evitare",
+    "example": "Lo scontro era inevitabile.",
+    "translation": "inevitable",
+    "tags": [
+      "b2",
+      "adj"
+    ]
+  },
+  {
+    "id": "it-b2-004",
+    "front": "imprescindibile (adj.)",
+    "definition": "assolutamente necessario",
+    "example": "La sua presenza è imprescindibile.",
+    "translation": "imprescindible",
+    "tags": [
+      "b2",
+      "adj"
+    ]
+  },
+  {
+    "id": "it-b2-005",
+    "front": "rilevante (adj.)",
+    "definition": "importante per il caso",
+    "example": "Il dato non è rilevante qui.",
+    "translation": "relevante",
+    "tags": [
+      "b2",
+      "adj",
+      "awl"
+    ]
+  },
+  {
+    "id": "it-b2-006",
+    "front": "controverso / controversa (adj.)",
+    "definition": "che genera discussione",
+    "example": "La decisione è stata controversa.",
+    "translation": "polémico",
+    "tags": [
+      "b2",
+      "adj"
+    ]
+  },
+  {
+    "id": "it-b2-007",
+    "front": "sottile (adj.)",
+    "definition": "poco percepibile; fine",
+    "example": "C'è una differenza sottile.",
+    "translation": "sutil",
+    "tags": [
+      "b2",
+      "adj"
+    ]
+  },
+  {
+    "id": "it-b2-008",
+    "front": "ambiguo / ambigua (adj.)",
+    "definition": "con più di un senso",
+    "example": "La risposta era ambigua.",
+    "translation": "ambiguo",
+    "tags": [
+      "b2",
+      "adj",
+      "awl"
+    ]
+  },
+  {
+    "id": "it-b2-009",
+    "front": "coerente (adj.)",
+    "definition": "senza contraddizioni",
+    "example": "L'argomento è coerente.",
+    "translation": "coherente",
+    "tags": [
+      "b2",
+      "adj",
+      "awl"
+    ]
+  },
+  {
+    "id": "it-b2-010",
+    "front": "sottostante (adj.)",
+    "definition": "che sta sotto, implicito",
+    "example": "C'è un problema sottostante.",
+    "translation": "subyacente",
+    "tags": [
+      "b2",
+      "adj",
+      "awl"
+    ]
+  },
+  {
+    "id": "it-b2-011",
+    "front": "radicato / radicata (adj.)",
+    "definition": "fissato profondamente",
+    "example": "È un'abitudine radicata.",
+    "translation": "arraigado",
+    "tags": [
+      "b2",
+      "adj"
+    ]
+  },
+  {
+    "id": "it-b2-012",
+    "front": "nascente (adj.)",
+    "definition": "che comincia",
+    "example": "Un mercato nascente.",
+    "translation": "incipiente",
+    "tags": [
+      "b2",
+      "adj"
+    ]
+  },
+  {
+    "id": "it-b2-013",
+    "front": "consolidare (v.)",
+    "definition": "rendere solido e durevole",
+    "example": "L'azienda ha consolidato la sua posizione.",
+    "translation": "consolidar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "it-b2-014",
+    "front": "attribuire (v.)",
+    "definition": "dare come causa o merito",
+    "example": "Attribuiscono l'errore alla fretta.",
+    "translation": "atribuir",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "it-b2-015",
+    "front": "comportare (v.)",
+    "definition": "avere come conseguenza",
+    "example": "Il cambiamento ha comportato dei costi.",
+    "translation": "conllevar",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "it-b2-016",
+    "front": "scatenare (v.)",
+    "definition": "provocare una serie di effetti",
+    "example": "La notizia ha scatenato proteste.",
+    "translation": "desencadenar",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "it-b2-017",
+    "front": "attenuare (v.)",
+    "definition": "ridurre l'intensità",
+    "example": "Misure per attenuare l'impatto.",
+    "translation": "mitigar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "it-b2-018",
+    "front": "fare a meno di (loc.)",
+    "definition": "rinunciare a",
+    "example": "Non possiamo fare a meno di lei.",
+    "translation": "prescindir de",
+    "tags": [
+      "b2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-019",
+    "front": "incorrere (v.)",
+    "definition": "cadere in (errore, spesa)",
+    "example": "Siamo incorsi in spese extra.",
+    "translation": "incurrir",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "it-b2-020",
+    "front": "entrare in vigore (loc.)",
+    "definition": "diventare applicabile",
+    "example": "La norma è entrata in vigore nel 2024.",
+    "translation": "entrar en vigor",
+    "tags": [
+      "b2",
+      "verb",
+      "chunk",
+      "civic"
+    ]
+  },
+  {
+    "id": "it-b2-021",
+    "front": "presupporre (v.)",
+    "definition": "dare per condizione",
+    "example": "Questo presuppone la buona fede.",
+    "translation": "presuponer",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "it-b2-022",
+    "front": "constatare (v.)",
+    "definition": "verificare come un fatto",
+    "example": "Constatiamo un miglioramento.",
+    "translation": "constatar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "it-b2-023",
+    "front": "scartare (v.)",
+    "definition": "eliminare una possibilità",
+    "example": "Abbiamo scartato quell'ipotesi.",
+    "translation": "descartar",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "it-b2-024",
+    "front": "privilegiare (v.)",
+    "definition": "dare la preferenza",
+    "example": "Il testo privilegia la chiarezza.",
+    "translation": "privilegiar",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "it-b2-025",
+    "front": "sostenere (v.)",
+    "definition": "appoggiare; affermare",
+    "example": "I dati sostengono la tesi.",
+    "translation": "sostener, respaldar",
+    "tags": [
+      "b2",
+      "verb",
+      "irregular"
+    ]
+  },
+  {
+    "id": "it-b2-026",
+    "front": "mettere in discussione (loc.)",
+    "definition": "dubitare di",
+    "example": "Questo mette in discussione le scelte.",
+    "translation": "poner en cuestión",
+    "tags": [
+      "b2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-027",
+    "front": "approccio (s.m.)",
+    "definition": "modo di affrontare un tema",
+    "example": "L'approccio è stato innovativo.",
+    "translation": "enfoque",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "it-b2-028",
+    "front": "ambito (s.m.)",
+    "definition": "sfera di competenza",
+    "example": "In ambito giuridico è diverso.",
+    "translation": "ámbito",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "it-b2-029",
+    "front": "distorsione (s.f.)",
+    "definition": "deformazione",
+    "example": "C'è una distorsione nel campione.",
+    "translation": "sesgo, distorsión",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "it-b2-030",
+    "front": "lacuna (s.f.)",
+    "definition": "spazio vuoto, mancanza",
+    "example": "Esiste una lacuna nella legge.",
+    "translation": "laguna, vacío",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "it-b2-031",
+    "front": "riserva (s.f.)",
+    "definition": "restrizione, eccezione",
+    "example": "Approvo, con una riserva.",
+    "translation": "reserva, salvedad",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b2-032",
+    "front": "presupposto (s.m.)",
+    "definition": "condizione data per assunta",
+    "example": "Il presupposto è falso.",
+    "translation": "premisa",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "it-b2-033",
+    "front": "portata (s.f.)",
+    "definition": "estensione dell'effetto; anche un piatto",
+    "example": "La portata della misura è limitata.",
+    "translation": "alcance",
+    "tags": [
+      "b2",
+      "noun",
+      "awl",
+      "keyword"
+    ]
+  },
+  {
+    "id": "it-b2-034",
+    "front": "ostacolo (s.m.)",
+    "definition": "ciò che impedisce",
+    "example": "La burocrazia è un ostacolo.",
+    "translation": "obstáculo",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b2-035",
+    "front": "quadro (s.m.)",
+    "definition": "visione d'insieme; anche il dipinto",
+    "example": "Il quadro economico è migliorato.",
+    "translation": "panorama; cuadro",
+    "tags": [
+      "b2",
+      "noun",
+      "keyword"
+    ]
+  },
+  {
+    "id": "it-b2-036",
+    "front": "tendenza (s.f.)",
+    "definition": "direzione probabile",
+    "example": "La tendenza è al calo.",
+    "translation": "tendencia",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "it-b2-037",
+    "front": "indizio (s.m.)",
+    "definition": "segno che suggerisce",
+    "example": "Ci sono indizi di frode.",
+    "translation": "indicio",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b2-038",
+    "front": "pratica (s.f.)",
+    "definition": "iter burocratico; l'esercizio",
+    "example": "La pratica è in corso.",
+    "translation": "trámite; práctica",
+    "tags": [
+      "b2",
+      "noun",
+      "civic",
+      "keyword"
+    ]
+  },
+  {
+    "id": "it-b2-039",
+    "front": "parere (s.m.)",
+    "definition": "opinione; parere tecnico",
+    "example": "A mio parere è rischioso.",
+    "translation": "opinión; dictamen",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b2-040",
+    "front": "posta in gioco (loc.)",
+    "definition": "ciò che si rischia",
+    "example": "La posta in gioco è alta.",
+    "translation": "lo que está en juego",
+    "tags": [
+      "b2",
+      "noun",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-041",
+    "front": "slancio (s.m.)",
+    "definition": "impulso, crescita rapida",
+    "example": "Lo slancio del lavoro da remoto.",
+    "translation": "impulso, auge",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b2-042",
+    "front": "a dire il vero (loc.)",
+    "definition": "con franchezza",
+    "example": "A dire il vero, non ci credo.",
+    "translation": "a decir verdad",
+    "tags": [
+      "b2",
+      "adv",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-043",
+    "front": "in sintesi (loc.)",
+    "definition": "riassumendo",
+    "example": "In sintesi, il piano ha funzionato.",
+    "translation": "en resumen",
+    "tags": [
+      "b2",
+      "adv",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-044",
+    "front": "da parte sua (loc.)",
+    "definition": "introducendo un altro elemento",
+    "example": "Lui, da parte sua, non era d'accordo.",
+    "translation": "por su parte",
+    "tags": [
+      "b2",
+      "adv",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-045",
+    "front": "mentre (conj.)",
+    "definition": "nel frattempo; invece",
+    "example": "Uno è cresciuto, mentre l'altro è calato.",
+    "translation": "mientras que",
+    "tags": [
+      "b2",
+      "conj"
+    ]
+  },
+  {
+    "id": "it-b2-046",
+    "front": "nella misura in cui (loc.)",
+    "definition": "dato che, in proporzione a",
+    "example": "Nella misura in cui è possibile, lo facciamo.",
+    "translation": "en la medida en que",
+    "tags": [
+      "b2",
+      "conj",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-047",
+    "front": "tenuto conto di (loc.)",
+    "definition": "considerando",
+    "example": "Tenuto conto della scadenza, abbiamo deciso.",
+    "translation": "teniendo en cuenta",
+    "tags": [
+      "b2",
+      "conj",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-048",
+    "front": "dato che (conj.)",
+    "definition": "poiché",
+    "example": "Dato che sei qui, aiutami.",
+    "translation": "dado que",
+    "tags": [
+      "b2",
+      "conj"
+    ]
+  },
+  {
+    "id": "it-b2-049",
+    "front": "fermo restando che (loc.)",
+    "definition": "senza che ciò impedisca",
+    "example": "Approvo, fermo restando che si rivedrà.",
+    "translation": "sin perjuicio de que",
+    "tags": [
+      "b2",
+      "conj",
+      "chunk",
+      "civic"
+    ]
+  },
+  {
+    "id": "it-b2-050",
+    "front": "alla luce di (loc.)",
+    "definition": "sulla base di",
+    "example": "Alla luce dei fatti, cambiamo.",
+    "translation": "a la luz de",
+    "tags": [
+      "b2",
+      "conj",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-051",
+    "front": "in modo che (loc.)",
+    "definition": "così che (risultato)",
+    "example": "Ho parlato piano, in modo che capissero.",
+    "translation": "de modo que",
+    "tags": [
+      "b2",
+      "conj",
+      "chunk",
+      "grammar"
+    ]
+  },
+  {
+    "id": "it-b2-052",
+    "front": "altrimenti (adv.)",
+    "definition": "in caso contrario",
+    "example": "Confermа, altrimenti annullo.",
+    "translation": "si no",
+    "tags": [
+      "b2",
+      "adv"
+    ]
+  },
+  {
+    "id": "it-b2-053",
+    "front": "d'altra parte (loc.)",
+    "definition": "presentando il contrasto",
+    "example": "D'altra parte, il costo aumenta.",
+    "translation": "por otra parte",
+    "tags": [
+      "b2",
+      "conj",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-054",
+    "front": "sebbene (conj.)",
+    "definition": "benché (registro alto)",
+    "example": "Sebbene sia difficile, è possibile.",
+    "translation": "si bien",
+    "tags": [
+      "b2",
+      "conj",
+      "grammar"
+    ]
+  },
+  {
+    "id": "it-b2-055",
+    "front": "a meno che (conj.)",
+    "definition": "tranne se (esige congiuntivo)",
+    "example": "Vengo, a meno che non piova.",
+    "translation": "a menos que",
+    "tags": [
+      "b2",
+      "conj",
+      "grammar"
+    ]
+  },
+  {
+    "id": "it-b2-056",
+    "front": "purché (conj.)",
+    "definition": "a condizione che",
+    "example": "Vengo, purché tu ci sia.",
+    "translation": "siempre que",
+    "tags": [
+      "b2",
+      "conj",
+      "grammar"
+    ]
+  },
+  {
+    "id": "it-b2-057",
+    "front": "tenere conto di (loc.)",
+    "definition": "considerare",
+    "example": "Tieni conto del contesto.",
+    "translation": "tener en cuenta",
+    "tags": [
+      "b2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-058",
+    "front": "mettere in pratica (loc.)",
+    "definition": "eseguire",
+    "example": "Hanno messo in pratica il piano.",
+    "translation": "poner en práctica",
+    "tags": [
+      "b2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-059",
+    "front": "lasciare a desiderare (loc.)",
+    "definition": "essere deludente",
+    "example": "Il servizio lascia a desiderare.",
+    "translation": "dejar que desear",
+    "tags": [
+      "b2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-060",
+    "front": "tenere a mente (loc.)",
+    "definition": "non dimenticare",
+    "example": "Tieni a mente la scadenza.",
+    "translation": "tener en mente",
+    "tags": [
+      "b2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-061",
+    "front": "essere oggetto di (loc.)",
+    "definition": "essere sottoposto a",
+    "example": "Il caso è oggetto di indagine.",
+    "translation": "ser objeto de",
+    "tags": [
+      "b2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-062",
+    "front": "dare luogo a (loc.)",
+    "definition": "provocare",
+    "example": "Il testo dà luogo a dubbi.",
+    "translation": "dar lugar a",
+    "tags": [
+      "b2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-063",
+    "front": "correre il rischio di (loc.)",
+    "definition": "esporsi a",
+    "example": "Corriamo il rischio di perdere tutto.",
+    "translation": "correr el riesgo de",
+    "tags": [
+      "b2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-064",
+    "front": "prendere i provvedimenti (loc.)",
+    "definition": "agire formalmente",
+    "example": "L'azienda ha preso i provvedimenti necessari.",
+    "translation": "tomar las medidas",
+    "tags": [
+      "b2",
+      "verb",
+      "chunk",
+      "civic"
+    ]
+  },
+  {
+    "id": "it-b2-065",
+    "front": "andare in fumo (loc.)",
+    "definition": "fallire",
+    "example": "Il progetto è andato in fumo.",
+    "translation": "irse al agua",
+    "tags": [
+      "b2",
+      "idiom"
+    ]
+  },
+  {
+    "id": "it-b2-066",
+    "front": "fare una gaffe (loc.)",
+    "definition": "dire qualcosa di inopportuno",
+    "example": "Ha fatto una gaffe davanti a tutti.",
+    "translation": "meter la pata",
+    "tags": [
+      "b2",
+      "idiom"
+    ]
+  },
+  {
+    "id": "it-b2-067",
+    "front": "camminare sulle uova (loc.)",
+    "definition": "agire con grande cautela",
+    "example": "Su questo tema si cammina sulle uova.",
+    "translation": "andar con pies de plomo",
+    "tags": [
+      "b2",
+      "idiom"
+    ]
+  },
+  {
+    "id": "it-b2-068",
+    "front": "chiudere un occhio (loc.)",
+    "definition": "ignorare volutamente",
+    "example": "Il controllo ha chiuso un occhio.",
+    "translation": "hacer la vista gorda",
+    "tags": [
+      "b2",
+      "idiom"
+    ]
+  },
+  {
+    "id": "it-b2-069",
+    "front": "costare un occhio della testa (loc.)",
+    "definition": "essere molto caro",
+    "example": "L'affitto costa un occhio della testa.",
+    "translation": "costar un ojo de la cara",
+    "tags": [
+      "b2",
+      "idiom"
+    ]
+  },
+  {
+    "id": "it-b2-070",
+    "front": "cadere dalle nuvole (loc.)",
+    "definition": "essere del tutto sorpreso",
+    "example": "Sono caduto dalle nuvole.",
+    "translation": "quedarse de piedra",
+    "tags": [
+      "b2",
+      "idiom"
+    ]
+  },
+  {
+    "id": "it-b2-071",
+    "front": "avere le mani in pasta (loc.)",
+    "definition": "essere coinvolto e influente",
+    "example": "Ha le mani in pasta in quel settore.",
+    "translation": "tener mano",
+    "tags": [
+      "b2",
+      "idiom"
+    ]
+  },
+  {
+    "id": "it-b2-072",
+    "front": "darsi da fare (loc.)",
+    "definition": "impegnarsi attivamente",
+    "example": "Tutti si sono dati da fare.",
+    "translation": "poner manos a la obra",
+    "tags": [
+      "b2",
+      "idiom"
+    ]
+  },
+  {
+    "id": "it-b2-073",
+    "front": "farsi coraggio (loc.)",
+    "definition": "decidersi malgrado la paura",
+    "example": "Mi sono fatto coraggio e ho parlato.",
+    "translation": "armarse de valor",
+    "tags": [
+      "b2",
+      "idiom"
+    ]
+  },
+  {
+    "id": "it-b2-074",
+    "front": "tornare su (loc.)",
+    "definition": "riconsiderare",
+    "example": "Torno sulla mia decisione.",
+    "translation": "volver sobre",
+    "tags": [
+      "b2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-075",
+    "front": "sostanza (s.f.)",
+    "definition": "essenza, nocciolo",
+    "example": "Nella sostanza sono d'accordo.",
+    "translation": "fondo, sustancia",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b2-076",
+    "front": "appoggio (s.m.)",
+    "definition": "sostegno",
+    "example": "La tesi ha l'appoggio dei dati.",
+    "translation": "apoyo",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b2-077",
+    "front": "sfumatura (s.f.)",
+    "definition": "differenza fine",
+    "example": "La sfumatura si è persa nella traduzione.",
+    "translation": "matiz",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b2-078",
+    "front": "inasprimento (s.m.)",
+    "definition": "intensificazione",
+    "example": "Un inasprimento del dibattito.",
+    "translation": "endurecimiento",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b2-079",
+    "front": "lentezza (s.f.)",
+    "definition": "l'essere lento",
+    "example": "La lentezza della procedura irrita.",
+    "translation": "lentitud",
+    "tags": [
+      "b2",
+      "noun",
+      "civic"
+    ]
+  },
+  {
+    "id": "it-b2-080",
+    "front": "competenza (s.f.)",
+    "definition": "capacità; sfera di autorità",
+    "example": "Non è di mia competenza.",
+    "translation": "competencia",
+    "tags": [
+      "b2",
+      "noun",
+      "civic"
+    ]
+  },
+  {
+    "id": "it-b2-081",
+    "front": "controparte (s.f.)",
+    "definition": "l'altra parte; ciò che si dà in cambio",
+    "example": "Ha chiesto una controparte.",
+    "translation": "contrapartida",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b2-082",
+    "front": "risarcimento (s.m.)",
+    "definition": "compensazione di un danno",
+    "example": "Chiediamo il risarcimento dei danni.",
+    "translation": "indemnización",
+    "tags": [
+      "b2",
+      "noun",
+      "civic"
+    ]
+  },
+  {
+    "id": "it-b2-083",
+    "front": "insolvenza (s.f.)",
+    "definition": "mancato pagamento",
+    "example": "L'insolvenza è aumentata.",
+    "translation": "impago, insolvencia",
+    "tags": [
+      "b2",
+      "noun",
+      "money"
+    ]
+  },
+  {
+    "id": "it-b2-084",
+    "front": "scarto (s.m.)",
+    "definition": "differenza, divario",
+    "example": "C'è uno scarto tra salario e inflazione.",
+    "translation": "desfase, brecha",
+    "tags": [
+      "b2",
+      "noun",
+      "money"
+    ]
+  },
+  {
+    "id": "it-b2-085",
+    "front": "nondimeno (adv.)",
+    "definition": "tuttavia (registro alto)",
+    "example": "Nondimeno, bisogna essere prudenti.",
+    "translation": "no obstante",
+    "tags": [
+      "b2",
+      "adv"
+    ]
+  },
+  {
+    "id": "it-b2-086",
+    "front": "anzi (adv.)",
+    "definition": "al contrario; o meglio",
+    "example": "Non è brutto, anzi.",
+    "translation": "al contrario, más bien",
+    "tags": [
+      "b2",
+      "adv"
+    ]
+  },
+  {
+    "id": "it-b2-087",
+    "front": "persino (adv.)",
+    "definition": "perfino, addirittura",
+    "example": "È difficile, persino impossibile.",
+    "translation": "incluso",
+    "tags": [
+      "b2",
+      "adv"
+    ]
+  },
+  {
+    "id": "it-b2-088",
+    "front": "certamente (adv.)",
+    "definition": "ammettendo prima di obiettare",
+    "example": "Certamente è costoso, ma necessario.",
+    "translation": "ciertamente",
+    "tags": [
+      "b2",
+      "adv"
+    ]
+  },
+  {
+    "id": "it-b2-089",
+    "front": "d'ora in poi (loc.)",
+    "definition": "da adesso",
+    "example": "D'ora in poi l'accesso è limitato.",
+    "translation": "de ahora en adelante",
+    "tags": [
+      "b2",
+      "adv",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-090",
+    "front": "in particolare (loc.)",
+    "definition": "specialmente",
+    "example": "In particolare nei casi gravi.",
+    "translation": "en particular",
+    "tags": [
+      "b2",
+      "adv",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-091",
+    "front": "a stento (loc.)",
+    "definition": "con difficoltà",
+    "example": "Si regge a stento.",
+    "translation": "a duras penas",
+    "tags": [
+      "b2",
+      "adv",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-092",
+    "front": "quanto a (loc.)",
+    "definition": "per ciò che riguarda",
+    "example": "Quanto al budget, va rivisto.",
+    "translation": "en cuanto a",
+    "tags": [
+      "b2",
+      "prep",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-093",
+    "front": "man mano (loc.)",
+    "definition": "progressivamente",
+    "example": "Man mano migliora.",
+    "translation": "a medida que",
+    "tags": [
+      "b2",
+      "adv",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-094",
+    "front": "di primo impatto (loc.)",
+    "definition": "al primo momento",
+    "example": "Di primo impatto ha rifiutato.",
+    "translation": "de entrada",
+    "tags": [
+      "b2",
+      "adv",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-095",
+    "front": "malgrado (prep.)",
+    "definition": "nonostante (registro alto)",
+    "example": "Malgrado gli sforzi, è fallito.",
+    "translation": "a pesar de",
+    "tags": [
+      "b2",
+      "prep"
+    ]
+  },
+  {
+    "id": "it-b2-096",
+    "front": "per mancanza di (loc.)",
+    "definition": "per assenza di",
+    "example": "Per mancanza di tempo, abbiamo abbreviato.",
+    "translation": "por falta de",
+    "tags": [
+      "b2",
+      "prep",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-097",
+    "front": "del resto (loc.)",
+    "definition": "d'altronde",
+    "example": "Del resto, la questione resta aperta.",
+    "translation": "por lo demás",
+    "tags": [
+      "b2",
+      "adv",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-098",
+    "front": "al pari di (loc.)",
+    "definition": "come, allo stesso modo di",
+    "example": "Al pari dei vicini, il paese ha reagito.",
+    "translation": "al igual que",
+    "tags": [
+      "b2",
+      "prep",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-099",
+    "front": "con riserva di (loc.)",
+    "definition": "a condizione di",
+    "example": "Accordo dato, con riserva di verifica.",
+    "translation": "a reserva de",
+    "tags": [
+      "b2",
+      "prep",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b2-100",
+    "front": "caso (s.m.)",
+    "definition": "circostanza; casualità",
+    "example": "È stato un puro caso.",
+    "translation": "caso; azar",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  }
+]

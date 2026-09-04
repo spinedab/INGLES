@@ -1,0 +1,101 @@
+id	front	definition	example	translation	tags
+fr-b1-001	développer (v.)	faire croître, élaborer	L'entreprise a développé une application.	desarrollar	b1 verb work
+fr-b1-002	établir (v.)	fixer, créer formellement	Nous avons établi de nouvelles règles.	establecer	b1 verb
+fr-b1-003	présenter (v.)	montrer ; introduire quelqu'un	Je présente le projet demain.	presentar	b1 verb work
+fr-b1-004	permettre (v.)	autoriser ; rendre possible	Cela permet de gagner du temps.	permitir	b1 verb
+fr-b1-005	exiger (v.)	demander comme obligatoire	Le poste exige un bon anglais.	exigir	b1 verb work
+fr-b1-006	garantir (v.)	assurer	Je garantis que ça marchera.	garantizar	b1 verb
+fr-b1-007	éviter (v.)	empêcher que ça arrive	J'évite les heures de pointe.	evitar	b1 verb
+fr-b1-008	affronter (v.)	faire face à	Il faut affronter le problème.	enfrentar	b1 verb
+fr-b1-009	dépasser (v.)	aller au-delà ; doubler	Les résultats ont dépassé nos attentes.	superar	b1 verb
+fr-b1-010	atteindre (v.)	arriver à ; obtenir	Nous avons atteint l'objectif.	alcanzar	b1 verb irregular
+fr-b1-011	souligner (v.)	mettre en évidence	Je souligne deux points.	subrayar, destacar	b1 verb
+fr-b1-012	suggérer (v.)	proposer une idée	Je suggère de reporter.	sugerir	b1 verb
+fr-b1-013	proposer (v.)	présenter comme proposition	Ils ont proposé une solution.	proponer	b1 verb
+fr-b1-014	refuser (v.)	ne pas accepter	J'ai refusé l'offre.	rechazar	b1 verb
+fr-b1-015	admettre (v.)	reconnaître	J'admets que j'ai eu tort.	admitir	b1 verb irregular
+fr-b1-016	remarquer (v.)	noter, apercevoir	J'ai remarqué qu'il était nerveux.	notar, fijarse	b1 verb
+fr-b1-017	apparaître (v.)	devenir visible	Un problème est apparu.	aparecer	b1 verb irregular
+fr-b1-018	renoncer (v.)	abandonner (renoncer À)	Il a renoncé à son poste.	renunciar	b1 verb preposition
+fr-b1-019	insister (v.)	répéter avec persistance	Il a insisté pour payer.	insistir	b1 verb
+fr-b1-020	dépendre (v.)	être conditionné (dépendre DE)	Ça dépend de l'horaire.	depender	b1 verb preposition
+fr-b1-021	être d'accord (loc.)	partager l'opinion	Je suis d'accord avec toi.	estar de acuerdo	b1 verb chunk
+fr-b1-022	se plaindre (v.)	exprimer son mécontentement	Je me suis plaint du service.	quejarse	b1 verb reflexive
+fr-b1-023	remercier (v.)	exprimer sa gratitude	Je remercie tout le monde.	agradecer	b1 verb
+fr-b1-024	profiter (v.)	tirer avantage (profiter DE)	J'ai profité du week-end pour me reposer.	aprovechar	b1 verb preposition
+fr-b1-025	investir (v.)	placer des ressources	Ils ont investi dans la technologie.	invertir	b1 verb money
+fr-b1-026	économiser (v.)	dépenser moins	J'économise pour voyager.	ahorrar	b1 verb money
+fr-b1-027	dépenser (v.)	utiliser de l'argent	J'ai trop dépensé ce mois-ci.	gastar	b1 verb money
+fr-b1-028	rembourser (v.)	rendre l'argent	Ils m'ont remboursé le billet.	reembolsar	b1 verb money
+fr-b1-029	rendre (v.)	restituer ; rendre + adjectif	J'ai rendu le livre. Ça me rend fou.	devolver; volver (a alguien)	b1 verb keyverb
+fr-b1-030	échanger (v.)	troquer	Je voudrais échanger cette taille.	cambiar	b1 verb shopping
+fr-b1-031	livrer (v.)	remettre une commande	Ils livrent en 48 heures.	entregar	b1 verb work
+fr-b1-032	reporter (v.)	transférer à plus tard	Nous avons reporté la réunion.	posponer	b1 verb work
+fr-b1-033	annuler (v.)	supprimer ce qui était prévu	Le vol a été annulé.	cancelar	b1 verb
+fr-b1-034	prendre rendez-vous (loc.)	fixer une rencontre	J'ai pris rendez-vous chez le médecin.	pedir cita	b1 verb chunk
+fr-b1-035	mettre du temps (loc.)	être long	Ça a mis deux heures.	tardar	b1 verb chunk
+fr-b1-036	défi (n.m.)	tâche difficile et stimulante	Apprendre le français était un défi.	desafío, reto	b1 noun
+fr-b1-037	objectif (n.m.)	ce qu'on veut atteindre	Mon objectif est de vivre à Paris.	objetivo	b1 noun
+fr-b1-038	résultat (n.m.)	ce qu'on obtient	Les résultats sont positifs.	resultado	b1 noun
+fr-b1-039	conséquence (n.f.)	effet de quelque chose	Nous en subissons les conséquences.	consecuencia	b1 noun
+fr-b1-040	avantage (n.m.)	point favorable	L'avantage, c'est la souplesse.	ventaja	b1 noun
+fr-b1-041	inconvénient (n.m.)	point défavorable	L'inconvénient, c'est le coût.	inconveniente, desventaja	b1 noun
+fr-b1-042	risque (n.m.)	possibilité de dommage	Il y a un risque de retard.	riesgo	b1 noun
+fr-b1-043	solution (n.f.)	réponse à un problème	Nous avons trouvé une solution.	solución	b1 noun
+fr-b1-044	proposition (n.f.)	suggestion formelle	La proposition a été approuvée.	propuesta	b1 noun work
+fr-b1-045	examen (n.m.)	épreuve d'évaluation	J'ai un examen demain.	examen	b1 noun school
+fr-b1-046	enquête (n.f.)	investigation ; sondage	J'ai fait une enquête sur le sujet.	investigación; encuesta	b1 noun
+fr-b1-047	données (n.f.pl.)	informations, chiffres	Les données montrent une baisse.	datos	b1 noun
+fr-b1-048	rapport (n.m.)	document de résultats ; aussi la relation	J'ai écrit le rapport mensuel.	informe; relación	b1 noun work keyword
+fr-b1-049	point de vue (loc.)	perspective	De mon point de vue, c'est logique.	punto de vista	b1 noun chunk
+fr-b1-050	main-d'œuvre (n.f.)	travail humain disponible	La main-d'œuvre qualifiée manque.	mano de obra	b1 noun chunk work
+fr-b1-051	coût de la vie (loc.)	prix pour vivre quelque part	Le coût de la vie a augmenté.	coste de vida	b1 noun chunk money
+fr-b1-052	heure de pointe (loc.)	moment de forte affluence	J'évite les heures de pointe.	hora punta	b1 noun chunk transport
+fr-b1-053	circulation (n.f.)	mouvement des véhicules	La circulation était horrible.	tráfico	b1 noun transport
+fr-b1-054	embouteillage (n.m.)	circulation arrêtée	Je suis resté deux heures dans un embouteillage.	atasco	b1 noun transport
+fr-b1-055	amende (n.f.)	sanction financière	J'ai eu une amende pour excès de vitesse.	multa	b1 noun transport
+fr-b1-056	mairie (n.f.)	administration municipale	La mairie a annoncé des travaux.	ayuntamiento	b1 noun civic
+fr-b1-057	gouvernement (n.m.)	ceux qui dirigent le pays	Le gouvernement a voté la loi.	gobierno	b1 noun civic
+fr-b1-058	loi (n.f.)	norme juridique	La loi entre en vigueur en janvier.	ley	b1 noun civic
+fr-b1-059	droit (n.m.)	prérogative légale ; le Droit	Tous ont droit à la santé.	derecho	b1 noun civic
+fr-b1-060	devoir (n.m.)	obligation ; aussi les devoirs scolaires	C'est notre devoir de voter.	deber	b1 noun civic
+fr-b1-061	presse (n.f.)	ensemble des médias	La presse a couvert l'affaire.	prensa	b1 noun media
+fr-b1-062	inégalité (n.f.)	différence injuste	Les inégalités ont augmenté.	desigualdad	b1 noun social
+fr-b1-063	logement (n.m.)	lieu où on habite	Le problème du logement est grave.	vivienda	b1 noun social
+fr-b1-064	quartier (n.m.)	partie d'une ville	J'habite dans un quartier calme.	barrio	b1 noun places
+fr-b1-065	banlieue (n.f.)	zone autour de la ville	Il habite en banlieue.	periferia, suburbios	b1 noun places
+fr-b1-066	travaux (n.m.pl.)	chantier de construction	Il y a des travaux dans la rue.	obras	b1 noun
+fr-b1-067	environnement (n.m.)	milieu naturel	Il faut protéger l'environnement.	medio ambiente	b1 noun
+fr-b1-068	déchets (n.m.pl.)	ordures	Je trie mes déchets.	residuos, basura	b1 noun
+fr-b1-069	sécheresse (n.f.)	manque prolongé de pluie	La sécheresse a touché les récoltes.	sequía	b1 noun weather
+fr-b1-070	inondation (n.f.)	débordement d'eau	L'inondation a touché le centre.	inundación	b1 noun weather
+fr-b1-071	prévision (n.f.)	estimation de l'avenir	La prévision annonce de la pluie.	pronóstico	b1 noun weather
+fr-b1-072	tout à coup (loc.)	soudainement	Tout à coup, il a commencé à pleuvoir.	de repente	b1 adv chunk
+fr-b1-073	petit à petit (loc.)	graduellement	Petit à petit, j'ai compris.	poco a poco	b1 adv chunk
+fr-b1-074	en fait (loc.)	en réalité, rectifiant	En fait, c'était différent.	en realidad	b1 adv chunk
+fr-b1-075	en revanche (loc.)	par contre	En revanche, il y a des risques.	en cambio	b1 conj chunk
+fr-b1-076	donc (conj.)	pour cette raison	Il pleut, donc on reste.	por lo tanto	b1 conj
+fr-b1-077	malgré (prép.)	en dépit de	Malgré le froid, nous sommes sortis.	a pesar de	b1 prep
+fr-b1-078	bien que (conj.)	même si (exige le subjonctif)	Bien que ce soit tard, je continue.	aunque	b1 conj grammar
+fr-b1-079	afin de (loc.)	dans le but de	J'étudie afin de progresser.	con el fin de	b1 conj chunk
+fr-b1-080	c'est-à-dire (loc.)	autrement dit	Demain, c'est-à-dire mardi.	es decir	b1 conj chunk
+fr-b1-081	même (adv./adj.)	y compris ; identique	Même lui est venu. Le même livre.	incluso; mismo	b1 adv keyword
+fr-b1-082	surtout (adv.)	principalement	J'aime la musique, surtout le jazz.	sobre todo	b1 adv
+fr-b1-083	probablement (adv.)	avec probabilité	Ça va probablement prendre du retard.	probablemente	b1 adv
+fr-b1-084	actuel / actuelle (adj.)	du moment présent	Dans la situation actuelle, c'est dur.	actual	b1 adj falsefriend
+fr-b1-085	disponible (adj.)	qui peut être utilisé	La chambre est disponible.	disponible	b1 adj
+fr-b1-086	nécessaire (adj.)	indispensable	Il est nécessaire de confirmer.	necesario	b1 adj
+fr-b1-087	suffisant / suffisante (adj.)	qui suffit	Le temps n'a pas été suffisant.	suficiente	b1 adj
+fr-b1-088	capable (adj.)	qui a la capacité (capable DE)	Il est capable de résoudre ça.	capaz	b1 adj
+fr-b1-089	quotidien / quotidienne (adj.)	de chaque jour	C'est une tâche quotidienne.	cotidiano, diario	b1 adj
+fr-b1-090	hebdomadaire (adj.)	de chaque semaine	Une réunion hebdomadaire.	semanal	b1 adj
+fr-b1-091	mensuel / mensuelle (adj.)	de chaque mois	Un rapport mensuel.	mensual	b1 adj
+fr-b1-092	efficace (adj.)	qui produit l'effet voulu	La méthode est efficace.	eficaz	b1 adj
+fr-b1-093	inquiet / inquiète (adj.)	préoccupé	Je suis inquiet pour lui.	preocupado	b1 adj feelings
+fr-b1-094	déçu / déçue (adj.)	qui a perdu ses illusions	J'ai été déçu du résultat.	decepcionado	b1 adj feelings
+fr-b1-095	étonné / étonnée (adj.)	surpris	J'ai été étonné de le voir.	sorprendido	b1 adj feelings
+fr-b1-096	méfiant / méfiante (adj.)	qui n'a pas confiance	Il est méfiant envers les inconnus.	desconfiado	b1 adj feelings
+fr-b1-097	franchement (adv.)	sincèrement	Franchement, je ne sais pas.	francamente	b1 adv
+fr-b1-098	à peine (loc.)	très peu ; juste	J'ai à peine dormi.	apenas	b1 adv chunk
+fr-b1-099	désormais (adv.)	à partir de maintenant	Désormais, l'accès est limité.	de ahora en adelante	b1 adv
+fr-b1-100	auparavant (adv.)	avant cela	Auparavant, il travaillait ici.	anteriormente	b1 adv

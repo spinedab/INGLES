@@ -1,0 +1,101 @@
+id	front	definition	example	translation	tags
+fr-b2-001	pertinent / pertinente (adj.)	adapté au sujet	Il a posé une question pertinente.	pertinente	b2 adj awl
+fr-b2-002	viable (adj.)	réalisable	La proposition n'est pas viable.	viable	b2 adj awl
+fr-b2-003	inéluctable (adj.)	inévitable	L'affrontement était inéluctable.	ineludible	b2 adj
+fr-b2-004	incontournable (adj.)	qu'on ne peut éviter ; essentiel	C'est une référence incontournable.	imprescindible	b2 adj
+fr-b2-005	sensible (adj.)	qui perçoit facilement ; délicat	C'est un sujet sensible.	sensible; delicado	b2 adj keyword
+fr-b2-006	subtil / subtile (adj.)	peu perceptible	Il y a une différence subtile.	sutil	b2 adj
+fr-b2-007	ambigu / ambiguë (adj.)	à double sens	La réponse était ambiguë.	ambiguo	b2 adj awl
+fr-b2-008	cohérent / cohérente (adj.)	sans contradiction	L'argument est cohérent.	coherente	b2 adj awl
+fr-b2-009	sous-jacent / sous-jacente (adj.)	implicite, en dessous	Il y a un problème sous-jacent.	subyacente	b2 adj awl
+fr-b2-010	ancré / ancrée (adj.)	fixé profondément	C'est une habitude ancrée.	arraigado	b2 adj
+fr-b2-011	naissant / naissante (adj.)	qui commence	Un marché naissant.	incipiente	b2 adj
+fr-b2-012	consolider (v.)	rendre solide et durable	L'entreprise a consolidé sa position.	consolidar	b2 verb awl
+fr-b2-013	attribuer (v.)	donner comme cause ou mérite	On attribue l'erreur à la précipitation.	atribuir	b2 verb awl
+fr-b2-014	entraîner (v.)	avoir pour conséquence ; entraîner quelqu'un	Le changement a entraîné des coûts.	conllevar; entrenar	b2 verb keyverb
+fr-b2-015	déclencher (v.)	provoquer une série d'effets	La nouvelle a déclenché des protestations.	desencadenar	b2 verb
+fr-b2-016	atténuer (v.)	réduire l'intensité	Des mesures pour atténuer l'impact.	mitigar	b2 verb awl
+fr-b2-017	se passer de (loc.)	renoncer à, faire sans	On ne peut pas se passer d'elle.	prescindir de	b2 verb chunk
+fr-b2-018	encourir (v.)	s'exposer à	Nous encourons des frais supplémentaires.	incurrir	b2 verb
+fr-b2-019	entrer en vigueur (loc.)	devenir applicable	La norme est entrée en vigueur en 2024.	entrar en vigor	b2 verb chunk civic
+fr-b2-020	présupposer (v.)	admettre comme condition	Cela présuppose la bonne foi.	presuponer	b2 verb awl
+fr-b2-021	constater (v.)	vérifier comme un fait	Nous constatons une amélioration.	constatar	b2 verb awl
+fr-b2-022	écarter (v.)	éliminer une possibilité	Nous avons écarté cette hypothèse.	descartar	b2 verb
+fr-b2-023	privilégier (v.)	donner la préférence	Le texte privilégie la clarté.	privilegiar	b2 verb
+fr-b2-024	étayer (v.)	appuyer par des preuves	Les données étayent la thèse.	respaldar, sustentar	b2 verb
+fr-b2-025	remettre en question (loc.)	mettre en doute	Cela remet en question nos choix.	poner en cuestión	b2 verb chunk
+fr-b2-026	approche (n.f.)	manière d'aborder	L'approche était innovante.	enfoque	b2 noun awl
+fr-b2-027	cadre (n.m.)	structure, contexte ; aussi un employé qualifié	Dans le cadre juridique, c'est différent.	marco; directivo	b2 noun awl keyword
+fr-b2-028	biais (n.m.)	inclinaison qui déforme	Il y a un biais dans l'échantillon.	sesgo	b2 noun awl
+fr-b2-029	lacune (n.f.)	espace vide, manque	Il existe une lacune dans la loi.	laguna, vacío	b2 noun awl
+fr-b2-030	réserve (n.f.)	restriction, nuance	J'approuve, avec une réserve.	reserva, salvedad	b2 noun
+fr-b2-031	présupposé (n.m.)	condition admise d'avance	Le présupposé est faux.	presupuesto (premisa)	b2 noun awl
+fr-b2-032	portée (n.f.)	étendue de l'effet	La portée de la mesure est limitée.	alcance	b2 noun awl
+fr-b2-033	obstacle (n.m.)	ce qui empêche	La bureaucratie est un obstacle.	obstáculo	b2 noun
+fr-b2-034	panorama (n.m.)	vue d'ensemble	Le panorama économique s'est amélioré.	panorama	b2 noun
+fr-b2-035	tendance (n.f.)	direction probable	La tendance est à la baisse.	tendencia	b2 noun awl
+fr-b2-036	indice (n.m.)	signe qui suggère	Il y a des indices de fraude.	indicio	b2 noun
+fr-b2-037	démarche (n.f.)	étape administrative ; manière de procéder	Les démarches sont longues.	trámite; enfoque	b2 noun civic keyword
+fr-b2-038	avis (n.m.)	opinion ; avis officiel	À mon avis, c'est risqué.	opinión; dictamen	b2 noun
+fr-b2-039	enjeu (n.m.)	ce qui est en jeu	L'enjeu est considérable.	lo que está en juego	b2 noun awl
+fr-b2-040	essor (n.m.)	développement rapide	L'essor du télétravail.	auge	b2 noun
+fr-b2-041	à vrai dire (loc.)	en toute franchise	À vrai dire, je n'y crois pas.	a decir verdad	b2 adv chunk
+fr-b2-042	en somme (loc.)	en résumé	En somme, le plan a marché.	en suma	b2 adv chunk
+fr-b2-043	pour sa part (loc.)	introduisant un autre élément	Lui, pour sa part, n'était pas d'accord.	por su parte	b2 adv chunk
+fr-b2-044	tandis que (conj.)	pendant que ; alors que	L'un a monté, tandis que l'autre a chuté.	mientras que	b2 conj
+fr-b2-045	dans la mesure où (loc.)	étant donné que	Dans la mesure où c'est possible, on le fait.	en la medida en que	b2 conj chunk
+fr-b2-046	compte tenu de (loc.)	en considérant	Compte tenu du délai, nous avons décidé.	teniendo en cuenta	b2 conj chunk
+fr-b2-047	étant donné que (loc.)	puisque	Étant donné que tu es là, aide-moi.	dado que	b2 conj chunk
+fr-b2-048	sans préjudice de (loc.)	sans que cela empêche	J'approuve, sans préjudice de révision.	sin perjuicio de	b2 conj chunk civic
+fr-b2-049	à la lumière de (loc.)	en se fondant sur	À la lumière des faits, nous changeons.	a la luz de	b2 conj chunk
+fr-b2-050	de sorte que (loc.)	de manière que	J'ai parlé lentement, de sorte qu'ils comprennent.	de modo que	b2 conj chunk
+fr-b2-051	sinon (conj.)	dans le cas contraire	Confirme, sinon j'annule.	si no	b2 conj
+fr-b2-052	par ailleurs (loc.)	d'autre part	Par ailleurs, le coût augmente.	por otra parte	b2 conj chunk
+fr-b2-053	quoique (conj.)	bien que (soutenu)	Quoiqu'il soit tard, continuons.	si bien	b2 conj grammar
+fr-b2-054	à moins que (conj.)	sauf si (exige le subjonctif)	J'irai, à moins qu'il ne pleuve.	a menos que	b2 conj grammar
+fr-b2-055	pour peu que (conj.)	à condition que	Pour peu qu'on l'aide, il réussira.	con solo que	b2 conj grammar
+fr-b2-056	tenir compte de (loc.)	considérer	Tenez compte du contexte.	tener en cuenta	b2 verb chunk
+fr-b2-057	mettre en pratique (loc.)	exécuter	Ils ont mis le plan en pratique.	poner en práctica	b2 verb chunk
+fr-b2-058	laisser à désirer (loc.)	être décevant	Le service laisse à désirer.	dejar que desear	b2 verb chunk
+fr-b2-059	garder à l'esprit (loc.)	ne pas oublier	Gardez à l'esprit le délai.	tener en mente	b2 verb chunk
+fr-b2-060	faire l'objet de (loc.)	être soumis à	Le dossier fait l'objet d'une enquête.	ser objeto de	b2 verb chunk
+fr-b2-061	donner lieu à (loc.)	provoquer	Le texte donne lieu à des doutes.	dar lugar a	b2 verb chunk
+fr-b2-062	courir le risque de (loc.)	s'exposer à	Nous courons le risque de tout perdre.	correr el riesgo de	b2 verb chunk
+fr-b2-063	prendre les mesures nécessaires (loc.)	agir formellement	L'entreprise a pris les mesures nécessaires.	tomar las medidas oportunas	b2 verb chunk civic
+fr-b2-064	renoncer à (loc.)	abandonner un droit	Il a renoncé à son poste.	renunciar a	b2 verb chunk
+fr-b2-065	tomber à l'eau (loc.)	échouer	Le projet est tombé à l'eau.	irse al agua	b2 idiom
+fr-b2-066	mettre les pieds dans le plat (loc.)	aborder un sujet gênant sans tact	Il a mis les pieds dans le plat.	meter la pata	b2 idiom
+fr-b2-067	marcher sur des œufs (loc.)	agir avec beaucoup de prudence	Sur ce sujet, il faut marcher sur des œufs.	andar con pies de plomo	b2 idiom
+fr-b2-068	fermer les yeux sur (loc.)	ignorer volontairement	Le contrôle a fermé les yeux sur l'erreur.	hacer la vista gorda	b2 idiom
+fr-b2-069	coûter les yeux de la tête (loc.)	être très cher	Le loyer coûte les yeux de la tête.	costar un ojo de la cara	b2 idiom
+fr-b2-070	tomber des nues (loc.)	être stupéfait	Je suis tombé des nues en l'apprenant.	quedarse de piedra	b2 idiom
+fr-b2-071	avoir le bras long (loc.)	avoir de l'influence	Il a le bras long dans ce milieu.	tener enchufe	b2 idiom
+fr-b2-072	mettre la main à la pâte (loc.)	participer au travail	Tout le monde a mis la main à la pâte.	poner manos a la obra	b2 idiom
+fr-b2-073	prendre son courage à deux mains (loc.)	se décider malgré la peur	J'ai pris mon courage à deux mains.	armarse de valor	b2 idiom
+fr-b2-074	revenir sur (loc.)	reconsidérer ; reparler de	Je reviens sur ma décision.	volver sobre	b2 verb chunk
+fr-b2-075	fond (n.m.)	essence, substance ; le fond d'un lieu	Sur le fond, je suis d'accord.	fondo	b2 noun
+fr-b2-076	appui (n.m.)	soutien	La thèse a l'appui des données.	apoyo	b2 noun
+fr-b2-077	nuance (n.f.)	différence fine	La nuance s'est perdue à la traduction.	matiz	b2 noun
+fr-b2-078	durcissement (n.m.)	intensification, raidissement	Un durcissement du débat.	endurecimiento	b2 noun
+fr-b2-079	lenteur (n.f.)	fait d'être lent	La lenteur de la procédure irrite.	lentitud	b2 noun civic
+fr-b2-080	compétence (n.f.)	capacité ; domaine d'autorité	Ce n'est pas de ma compétence.	competencia	b2 noun civic
+fr-b2-081	contrepartie (n.f.)	ce qu'on donne en échange	Il a demandé une contrepartie.	contrapartida	b2 noun
+fr-b2-082	indemnisation (n.f.)	compensation d'un dommage	Nous demandons une indemnisation.	indemnización	b2 noun civic
+fr-b2-083	impayé (n.m.)	facture non réglée	Les impayés ont augmenté.	impago	b2 noun money
+fr-b2-084	décalage (n.m.)	écart, désajustement	Il y a un décalage entre salaire et inflation.	desfase	b2 noun money
+fr-b2-085	néanmoins (adv.)	cependant (soutenu)	Néanmoins, il faut rester prudent.	no obstante	b2 adv
+fr-b2-086	toutefois (adv.)	cependant	Toutefois, les risques persistent.	sin embargo	b2 adv
+fr-b2-087	voire (adv.)	et même	C'est difficile, voire impossible.	incluso, o incluso	b2 adv
+fr-b2-088	certes (adv.)	admettant un point avant d'objecter	Certes, c'est coûteux, mais nécessaire.	ciertamente, sí	b2 adv
+fr-b2-089	dorénavant (adv.)	à partir de maintenant	Dorénavant, l'accès est restreint.	de ahora en adelante	b2 adv
+fr-b2-090	notamment (adv.)	en particulier	Notamment dans les cas graves.	en particular	b2 adv
+fr-b2-091	guère (adv.)	pas beaucoup (avec ne)	Il n'y a guère de solutions.	apenas	b2 adv
+fr-b2-092	quant à (loc.)	en ce qui concerne	Quant au budget, il faudra revoir.	en cuanto a	b2 prep chunk
+fr-b2-093	au fur et à mesure (loc.)	progressivement, à mesure que	Au fur et à mesure, ça s'améliore.	a medida que	b2 adv chunk
+fr-b2-094	d'emblée (loc.)	dès le début	D'emblée, il a refusé.	de entrada	b2 adv chunk
+fr-b2-095	en dépit de (loc.)	malgré (soutenu)	En dépit des efforts, ça a échoué.	a pesar de	b2 prep chunk
+fr-b2-096	faute de (loc.)	par manque de	Faute de temps, nous avons abrégé.	por falta de	b2 prep chunk
+fr-b2-097	au demeurant (loc.)	par ailleurs (très soutenu)	Au demeurant, la question reste ouverte.	por lo demás	b2 adv chunk
+fr-b2-098	à l'instar de (loc.)	à l'exemple de	À l'instar de ses voisins, le pays a réagi.	al igual que	b2 prep chunk
+fr-b2-099	sous réserve de (loc.)	à condition de	Accord donné, sous réserve de vérification.	a reserva de	b2 prep chunk
+fr-b2-100	hasard (n.m.)	ce qui arrive sans cause prévue	C'était un pur hasard.	azar, casualidad	b2 noun

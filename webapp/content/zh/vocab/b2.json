@@ -1,0 +1,1150 @@
+[
+  {
+    "id": "zh-b2-001",
+    "front": "相关 (xiāngguān)",
+    "definition": "有关系的",
+    "example": "这个数据不相关。(Zhège shùjù bù xiāngguān.)",
+    "translation": "relacionado, pertinente",
+    "tags": [
+      "b2",
+      "adj",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-002",
+    "front": "可行 (kěxíng)",
+    "definition": "能够实行",
+    "example": "这个方案不可行。(Zhège fāng'àn bù kěxíng.)",
+    "translation": "viable",
+    "tags": [
+      "b2",
+      "adj",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-003",
+    "front": "不可避免 (bùkě bìmiǎn)",
+    "definition": "一定会发生",
+    "example": "冲突不可避免。(Chōngtū bùkě bìmiǎn.)",
+    "translation": "inevitable",
+    "tags": [
+      "b2",
+      "adj",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-004",
+    "front": "不可缺少 (bùkě quēshǎo)",
+    "definition": "绝对必要",
+    "example": "你的参与不可缺少。(Nǐ de cānyù bùkě quēshǎo.)",
+    "translation": "imprescindible",
+    "tags": [
+      "b2",
+      "adj",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-005",
+    "front": "有争议 (yǒu zhēngyì)",
+    "definition": "引起不同意见",
+    "example": "这个决定很有争议。(Zhège juédìng hěn yǒu zhēngyì.)",
+    "translation": "polémico",
+    "tags": [
+      "b2",
+      "adj",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-006",
+    "front": "微妙 (wēimiào)",
+    "definition": "细小而难说清",
+    "example": "两者有微妙的差别。(Liǎngzhě yǒu wēimiào de chābié.)",
+    "translation": "sutil",
+    "tags": [
+      "b2",
+      "adj"
+    ]
+  },
+  {
+    "id": "zh-b2-007",
+    "front": "模糊 (móhu)",
+    "definition": "不清楚，有多种理解",
+    "example": "回答很模糊。(Huídá hěn móhu.)",
+    "translation": "ambiguo, vago",
+    "tags": [
+      "b2",
+      "adj",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-008",
+    "front": "一致 (yízhì)",
+    "definition": "没有矛盾",
+    "example": "论点前后一致。(Lùndiǎn qiánhòu yízhì.)",
+    "translation": "coherente, unánime",
+    "tags": [
+      "b2",
+      "adj",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-009",
+    "front": "潜在 (qiánzài)",
+    "definition": "存在但没显出来",
+    "example": "有潜在的问题。(Yǒu qiánzài de wèntí.)",
+    "translation": "subyacente, potencial",
+    "tags": [
+      "b2",
+      "adj",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-010",
+    "front": "根深蒂固 (gēnshēn-dìgù)",
+    "definition": "扎得很深，难改变",
+    "example": "这是根深蒂固的习惯。(Zhè shì gēnshēn-dìgù de xíguàn.)",
+    "translation": "arraigado",
+    "tags": [
+      "b2",
+      "idiom"
+    ]
+  },
+  {
+    "id": "zh-b2-011",
+    "front": "初步 (chūbù)",
+    "definition": "刚开始的阶段",
+    "example": "这只是初步结果。(Zhè zhǐ shì chūbù jiéguǒ.)",
+    "translation": "inicial, preliminar",
+    "tags": [
+      "b2",
+      "adj",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-012",
+    "front": "巩固 (gǒnggù)",
+    "definition": "使更稳定",
+    "example": "公司巩固了地位。(Gōngsī gǒnggù le dìwèi.)",
+    "translation": "consolidar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-013",
+    "front": "归因于 (guīyīn yú)",
+    "definition": "认为是某个原因造成",
+    "example": "他们把错误归因于匆忙。(Tāmen bǎ cuòwù guīyīn yú cōngmáng.)",
+    "translation": "atribuir a",
+    "tags": [
+      "b2",
+      "verb",
+      "awl",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-014",
+    "front": "导致 (dǎozhì)",
+    "definition": "带来某个结果",
+    "example": "改动导致了成本上升。(Gǎidòng dǎozhì le chéngběn shàngshēng.)",
+    "translation": "provocar, conllevar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-015",
+    "front": "触发 (chūfā)",
+    "definition": "引起一连串反应",
+    "example": "消息触发了抗议。(Xiāoxi chūfā le kàngyì.)",
+    "translation": "desencadenar",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "zh-b2-016",
+    "front": "缓解 (huǎnjiě)",
+    "definition": "使程度减轻",
+    "example": "采取措施缓解影响。(Cǎiqǔ cuòshī huǎnjiě yǐngxiǎng.)",
+    "translation": "mitigar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-017",
+    "front": "离不开 (lí bu kāi)",
+    "definition": "不能没有",
+    "example": "我们离不开她。(Wǒmen lí bu kāi tā.)",
+    "translation": "no poder prescindir de",
+    "tags": [
+      "b2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-018",
+    "front": "生效 (shēngxiào)",
+    "definition": "开始有法律效力",
+    "example": "新规二〇二四年生效。(Xīn guī 2024 nián shēngxiào.)",
+    "translation": "entrar en vigor",
+    "tags": [
+      "b2",
+      "verb",
+      "civic"
+    ]
+  },
+  {
+    "id": "zh-b2-019",
+    "front": "前提 (qiántí)",
+    "definition": "先要成立的条件",
+    "example": "这个前提是错的。(Zhège qiántí shì cuò de.)",
+    "translation": "premisa, presupuesto",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-020",
+    "front": "证实 (zhèngshí)",
+    "definition": "确认是事实",
+    "example": "我们证实了改善。(Wǒmen zhèngshí le gǎishàn.)",
+    "translation": "constatar, confirmar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-021",
+    "front": "排除 (páichú)",
+    "definition": "去掉一种可能",
+    "example": "我们排除了这个假设。(Wǒmen páichú le zhège jiǎshè.)",
+    "translation": "descartar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-022",
+    "front": "优先 (yōuxiān)",
+    "definition": "放在前面考虑",
+    "example": "文章优先考虑清晰。(Wénzhāng yōuxiān kǎolǜ qīngxī.)",
+    "translation": "priorizar",
+    "tags": [
+      "b2",
+      "verb",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-023",
+    "front": "支撑 (zhīchēng)",
+    "definition": "给以支持",
+    "example": "数据支撑这个论点。(Shùjù zhīchēng zhège lùndiǎn.)",
+    "translation": "respaldar",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "zh-b2-024",
+    "front": "质疑 (zhìyí)",
+    "definition": "提出怀疑",
+    "example": "这让人质疑我们的选择。(Zhè ràng rén zhìyí wǒmen de xuǎnzé.)",
+    "translation": "poner en cuestión",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "zh-b2-025",
+    "front": "方式 (fāngshì)",
+    "definition": "做事的办法",
+    "example": "这种方式很创新。(Zhè zhǒng fāngshì hěn chuàngxīn.)",
+    "translation": "enfoque, modo",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-026",
+    "front": "领域 (lǐngyù)",
+    "definition": "活动的范围",
+    "example": "在法律领域不一样。(Zài fǎlǜ lǐngyù bù yíyàng.)",
+    "translation": "ámbito, campo",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-027",
+    "front": "偏差 (piānchā)",
+    "definition": "和标准不一致",
+    "example": "样本有偏差。(Yàngběn yǒu piānchā.)",
+    "translation": "sesgo, desviación",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-028",
+    "front": "空白 (kòngbái)",
+    "definition": "没有填上的地方",
+    "example": "法律上有空白。(Fǎlǜ shang yǒu kòngbái.)",
+    "translation": "laguna, vacío",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-029",
+    "front": "保留 (bǎoliú)",
+    "definition": "留下不改；有条件同意",
+    "example": "我同意，但有保留。(Wǒ tóngyì, dàn yǒu bǎoliú.)",
+    "translation": "reserva; reservar",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "zh-b2-030",
+    "front": "范围 (fànwéi)",
+    "definition": "所能到的界限",
+    "example": "措施的范围有限。(Cuòshī de fànwéi yǒuxiàn.)",
+    "translation": "alcance",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-031",
+    "front": "障碍 (zhàng'ài)",
+    "definition": "阻挡的东西",
+    "example": "官僚是一个障碍。(Guānliáo shì yí ge zhàng'ài.)",
+    "translation": "obstáculo",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "zh-b2-032",
+    "front": "局面 (júmiàn)",
+    "definition": "整体的状况",
+    "example": "经济局面好转了。(Jīngjì júmiàn hǎozhuǎn le.)",
+    "translation": "panorama, situación",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "zh-b2-033",
+    "front": "趋势 (qūshì)",
+    "definition": "可能的走向",
+    "example": "趋势是下降。(Qūshì shì xiàjiàng.)",
+    "translation": "tendencia",
+    "tags": [
+      "b2",
+      "noun",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-034",
+    "front": "迹象 (jìxiàng)",
+    "definition": "可以看出的痕迹",
+    "example": "有欺诈的迹象。(Yǒu qīzhà de jìxiàng.)",
+    "translation": "indicio",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "zh-b2-035",
+    "front": "手续 (shǒuxù)",
+    "definition": "办事要走的步骤",
+    "example": "手续很复杂。(Shǒuxù hěn fùzá.)",
+    "translation": "trámite",
+    "tags": [
+      "b2",
+      "noun",
+      "civic"
+    ]
+  },
+  {
+    "id": "zh-b2-036",
+    "front": "意见 (yìjiàn)",
+    "definition": "看法；正式的意见",
+    "example": "依我的意见，风险太大。(Yī wǒ de yìjiàn…)",
+    "translation": "opinión; dictamen",
+    "tags": [
+      "b2",
+      "noun",
+      "hsk4"
+    ]
+  },
+  {
+    "id": "zh-b2-037",
+    "front": "利害关系 (lìhài guānxi)",
+    "definition": "所牵涉的得失",
+    "example": "利害关系很大。(Lìhài guānxi hěn dà.)",
+    "translation": "lo que está en juego",
+    "tags": [
+      "b2",
+      "noun",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-038",
+    "front": "兴起 (xīngqǐ)",
+    "definition": "快速发展起来",
+    "example": "远程办公的兴起。(Yuǎnchéng bàngōng de xīngqǐ.)",
+    "translation": "auge",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "zh-b2-039",
+    "front": "说实话 (shuō shíhuà)",
+    "definition": "坦率地说",
+    "example": "说实话，我不相信。(Shuō shíhuà, wǒ bù xiāngxìn.)",
+    "translation": "a decir verdad",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-040",
+    "front": "总之 (zǒngzhī)",
+    "definition": "概括起来说",
+    "example": "总之，计划成功了。(Zǒngzhī, jìhuà chénggōng le.)",
+    "translation": "en resumen",
+    "tags": [
+      "b2",
+      "conj"
+    ]
+  },
+  {
+    "id": "zh-b2-041",
+    "front": "至于 (zhìyú)",
+    "definition": "谈到另一方面",
+    "example": "至于预算，还要再看。(Zhìyú yùsuàn, hái yào zài kàn.)",
+    "translation": "en cuanto a",
+    "tags": [
+      "b2",
+      "prep"
+    ]
+  },
+  {
+    "id": "zh-b2-042",
+    "front": "而 (ér)",
+    "definition": "表示对比或连接（书面）",
+    "example": "一个上升，而另一个下降。(Yí ge shàngshēng, ér lìng yí ge xiàjiàng.)",
+    "translation": "mientras que; y",
+    "tags": [
+      "b2",
+      "conj",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-b2-043",
+    "front": "鉴于 (jiànyú)",
+    "definition": "考虑到",
+    "example": "鉴于时间紧，我们决定了。(Jiànyú shíjiān jǐn…)",
+    "translation": "teniendo en cuenta",
+    "tags": [
+      "b2",
+      "conj"
+    ]
+  },
+  {
+    "id": "zh-b2-044",
+    "front": "由于 (yóuyú)",
+    "definition": "因为（书面）",
+    "example": "由于下雨，比赛取消。(Yóuyú xià yǔ, bǐsài qǔxiāo.)",
+    "translation": "debido a",
+    "tags": [
+      "b2",
+      "conj"
+    ]
+  },
+  {
+    "id": "zh-b2-045",
+    "front": "根据 (gēnjù)",
+    "definition": "以某个为基础",
+    "example": "根据事实，我们改了。(Gēnjù shìshí, wǒmen gǎi le.)",
+    "translation": "según, a la luz de",
+    "tags": [
+      "b2",
+      "prep",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b2-046",
+    "front": "以便 (yǐbiàn)",
+    "definition": "为了使…方便",
+    "example": "我说慢些，以便大家听懂。(Wǒ shuō màn xiē, yǐbiàn dàjiā tīngdǒng.)",
+    "translation": "de modo que",
+    "tags": [
+      "b2",
+      "conj",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-b2-047",
+    "front": "否则 (fǒuzé)",
+    "definition": "如果不这样",
+    "example": "请确认，否则我取消。(Qǐng quèrèn, fǒuzé wǒ qǔxiāo.)",
+    "translation": "de lo contrario",
+    "tags": [
+      "b2",
+      "conj"
+    ]
+  },
+  {
+    "id": "zh-b2-048",
+    "front": "另一方面 (lìng yì fāngmiàn)",
+    "definition": "提出相反的角度",
+    "example": "另一方面，成本增加了。(Lìng yì fāngmiàn…)",
+    "translation": "por otro lado",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-049",
+    "front": "即使 (jíshǐ)",
+    "definition": "就算（后面常用\"也\"）",
+    "example": "即使很难，也要试。(Jíshǐ hěn nán, yě yào shì.)",
+    "translation": "aunque, incluso si",
+    "tags": [
+      "b2",
+      "conj",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-b2-050",
+    "front": "除非 (chúfēi)",
+    "definition": "只有在…的条件下",
+    "example": "我去，除非下雨。(Wǒ qù, chúfēi xià yǔ.)",
+    "translation": "a menos que",
+    "tags": [
+      "b2",
+      "conj",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-b2-051",
+    "front": "只要 (zhǐyào)",
+    "definition": "有这个条件就够",
+    "example": "只要你来，我就去。(Zhǐyào nǐ lái, wǒ jiù qù.)",
+    "translation": "siempre que",
+    "tags": [
+      "b2",
+      "conj",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-b2-052",
+    "front": "考虑到 (kǎolǜ dào)",
+    "definition": "把某点算进去",
+    "example": "要考虑到背景。(Yào kǎolǜ dào bèijǐng.)",
+    "translation": "tener en cuenta",
+    "tags": [
+      "b2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-053",
+    "front": "落实 (luòshí)",
+    "definition": "把计划变成行动",
+    "example": "他们落实了计划。(Tāmen luòshí le jìhuà.)",
+    "translation": "poner en práctica",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "zh-b2-054",
+    "front": "有待改进 (yǒu dài gǎijìn)",
+    "definition": "还不够好",
+    "example": "服务有待改进。(Fúwù yǒu dài gǎijìn.)",
+    "translation": "deja que desear",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-055",
+    "front": "牢记 (láojì)",
+    "definition": "一直记住",
+    "example": "牢记截止日期。(Láojì jiézhǐ rìqī.)",
+    "translation": "tener en mente",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "zh-b2-056",
+    "front": "受到 (shòudào)",
+    "definition": "承受某种作用",
+    "example": "这件事受到调查。(Zhè jiàn shì shòudào diàochá.)",
+    "translation": "ser objeto de",
+    "tags": [
+      "b2",
+      "verb",
+      "hsk4"
+    ]
+  },
+  {
+    "id": "zh-b2-057",
+    "front": "留下 (liúxià)",
+    "definition": "使剩下；留出",
+    "example": "文字留下了疑问。(Wénzì liúxià le yíwèn.)",
+    "translation": "dejar (lugar a)",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "zh-b2-058",
+    "front": "冒风险 (mào fēngxiǎn)",
+    "definition": "让自己面对危险",
+    "example": "我们冒了失去一切的风险。(Wǒmen mào le shīqù yíqiè de fēngxiǎn.)",
+    "translation": "correr el riesgo",
+    "tags": [
+      "b2",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-059",
+    "front": "采取措施 (cǎiqǔ cuòshī)",
+    "definition": "正式行动",
+    "example": "公司采取了必要措施。(Gōngsī cǎiqǔ le bìyào cuòshī.)",
+    "translation": "tomar medidas",
+    "tags": [
+      "b2",
+      "verb",
+      "chunk",
+      "civic"
+    ]
+  },
+  {
+    "id": "zh-b2-060",
+    "front": "放弃权利 (fàngqì quánlì)",
+    "definition": "不再主张某个资格",
+    "example": "他放弃了这个权利。(Tā fàngqì le zhège quánlì.)",
+    "translation": "renunciar a un derecho",
+    "tags": [
+      "b2",
+      "chunk",
+      "civic"
+    ]
+  },
+  {
+    "id": "zh-b2-061",
+    "front": "泡汤 (pào tāng)",
+    "definition": "计划失败（口语）",
+    "example": "项目泡汤了。(Xiàngmù pào tāng le.)",
+    "translation": "irse al agua",
+    "tags": [
+      "b2",
+      "idiom"
+    ]
+  },
+  {
+    "id": "zh-b2-062",
+    "front": "说错话 (shuō cuò huà)",
+    "definition": "说了不该说的",
+    "example": "他在大家面前说错话了。(Tā zài dàjiā miànqián shuō cuò huà le.)",
+    "translation": "meter la pata",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-063",
+    "front": "小心谨慎 (xiǎoxīn jǐnshèn)",
+    "definition": "非常谨慎",
+    "example": "这个话题要小心谨慎。(Zhège huàtí yào xiǎoxīn jǐnshèn.)",
+    "translation": "andar con pies de plomo",
+    "tags": [
+      "b2",
+      "idiom"
+    ]
+  },
+  {
+    "id": "zh-b2-064",
+    "front": "睁一只眼闭一只眼 (zhēng yì zhī yǎn bì yì zhī yǎn)",
+    "definition": "故意不管",
+    "example": "检查时睁一只眼闭一只眼。(Jiǎnchá shí…)",
+    "translation": "hacer la vista gorda",
+    "tags": [
+      "b2",
+      "idiom"
+    ]
+  },
+  {
+    "id": "zh-b2-065",
+    "front": "贵得离谱 (guì de lípǔ)",
+    "definition": "价格高得不合理",
+    "example": "房租贵得离谱。(Fángzū guì de lípǔ.)",
+    "translation": "costar un ojo de la cara",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-066",
+    "front": "大吃一惊 (dà chī yì jīng)",
+    "definition": "非常意外",
+    "example": "听到这个我大吃一惊。(Tīngdào zhège wǒ dà chī yì jīng.)",
+    "translation": "quedarse de piedra",
+    "tags": [
+      "b2",
+      "idiom"
+    ]
+  },
+  {
+    "id": "zh-b2-067",
+    "front": "有人脉 (yǒu rénmài)",
+    "definition": "有关系和影响",
+    "example": "他在这行有人脉。(Tā zài zhè háng yǒu rénmài.)",
+    "translation": "tener contactos",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-068",
+    "front": "动手 (dòngshǒu)",
+    "definition": "开始做",
+    "example": "大家都动手了。(Dàjiā dōu dòngshǒu le.)",
+    "translation": "poner manos a la obra",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "zh-b2-069",
+    "front": "鼓起勇气 (gǔqǐ yǒngqì)",
+    "definition": "让自己有胆量",
+    "example": "我鼓起勇气说了出来。(Wǒ gǔqǐ yǒngqì shuō le chūlái.)",
+    "translation": "armarse de valor",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-070",
+    "front": "重新考虑 (chóngxīn kǎolǜ)",
+    "definition": "再想一次",
+    "example": "我重新考虑了决定。(Wǒ chóngxīn kǎolǜ le juédìng.)",
+    "translation": "reconsiderar",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-071",
+    "front": "实质 (shízhì)",
+    "definition": "最根本的部分",
+    "example": "从实质上说我同意。(Cóng shízhì shang shuō wǒ tóngyì.)",
+    "translation": "esencia, fondo",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "zh-b2-072",
+    "front": "支持 (zhīchí)",
+    "definition": "赞同并帮助",
+    "example": "论文得到数据支持。(Lùnwén dédào shùjù zhīchí.)",
+    "translation": "apoyo; apoyar",
+    "tags": [
+      "b2",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b2-073",
+    "front": "细微差别 (xìwēi chābié)",
+    "definition": "很小的不同",
+    "example": "翻译中细微差别丢了。(Fānyì zhōng xìwēi chābié diū le.)",
+    "translation": "matiz",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-074",
+    "front": "加剧 (jiājù)",
+    "definition": "变得更严重",
+    "example": "争论加剧了。(Zhēnglùn jiājù le.)",
+    "translation": "recrudecer",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "zh-b2-075",
+    "front": "拖延 (tuōyán)",
+    "definition": "进行得太慢",
+    "example": "手续拖延让人生气。(Shǒuxù tuōyán ràng rén shēngqì.)",
+    "translation": "demora, lentitud",
+    "tags": [
+      "b2",
+      "noun",
+      "civic"
+    ]
+  },
+  {
+    "id": "zh-b2-076",
+    "front": "职权 (zhíquán)",
+    "definition": "职务上的权限",
+    "example": "这不在我的职权内。(Zhè bú zài wǒ de zhíquán nèi.)",
+    "translation": "competencia",
+    "tags": [
+      "b2",
+      "noun",
+      "civic"
+    ]
+  },
+  {
+    "id": "zh-b2-077",
+    "front": "对价 (duìjià)",
+    "definition": "交换中给出的东西",
+    "example": "他要求对价。(Tā yāoqiú duìjià.)",
+    "translation": "contrapartida",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "zh-b2-078",
+    "front": "欠款 (qiànkuǎn)",
+    "definition": "没有付的钱",
+    "example": "欠款增加了。(Qiànkuǎn zēngjiā le.)",
+    "translation": "impago, deuda",
+    "tags": [
+      "b2",
+      "noun",
+      "money"
+    ]
+  },
+  {
+    "id": "zh-b2-079",
+    "front": "落差 (luòchā)",
+    "definition": "两者之间的差距",
+    "example": "工资和通胀有落差。(Gōngzī hé tōngzhàng yǒu luòchā.)",
+    "translation": "desfase",
+    "tags": [
+      "b2",
+      "noun",
+      "money"
+    ]
+  },
+  {
+    "id": "zh-b2-080",
+    "front": "然而 (rán'ér)",
+    "definition": "但是（书面）",
+    "example": "然而，还要谨慎。(Rán'ér, hái yào jǐnshèn.)",
+    "translation": "no obstante",
+    "tags": [
+      "b2",
+      "conj"
+    ]
+  },
+  {
+    "id": "zh-b2-081",
+    "front": "反之 (fǎnzhī)",
+    "definition": "相反地",
+    "example": "反之，成本会下降。(Fǎnzhī, chéngběn huì xiàjiàng.)",
+    "translation": "por el contrario",
+    "tags": [
+      "b2",
+      "conj"
+    ]
+  },
+  {
+    "id": "zh-b2-082",
+    "front": "固然 (gùrán)",
+    "definition": "承认一点再转折",
+    "example": "固然贵，但是必要。(Gùrán guì, dànshì bìyào.)",
+    "translation": "ciertamente, si bien",
+    "tags": [
+      "b2",
+      "conj"
+    ]
+  },
+  {
+    "id": "zh-b2-083",
+    "front": "今后 (jīnhòu)",
+    "definition": "从现在起以后",
+    "example": "今后进入受限。(Jīnhòu jìnrù shòuxiàn.)",
+    "translation": "de ahora en adelante",
+    "tags": [
+      "b2",
+      "noun"
+    ]
+  },
+  {
+    "id": "zh-b2-084",
+    "front": "特别是 (tèbié shì)",
+    "definition": "尤其",
+    "example": "特别是在严重的情况下。(Tèbié shì zài yánzhòng de qíngkuàng xià.)",
+    "translation": "en particular",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-085",
+    "front": "勉强 (miǎnqiǎng)",
+    "definition": "很吃力才做到",
+    "example": "他勉强及格。(Tā miǎnqiǎng jígé.)",
+    "translation": "a duras penas",
+    "tags": [
+      "b2",
+      "adv"
+    ]
+  },
+  {
+    "id": "zh-b2-086",
+    "front": "逐步 (zhúbù)",
+    "definition": "一步一步地",
+    "example": "情况逐步好转。(Qíngkuàng zhúbù hǎozhuǎn.)",
+    "translation": "progresivamente",
+    "tags": [
+      "b2",
+      "adv"
+    ]
+  },
+  {
+    "id": "zh-b2-087",
+    "front": "一开始 (yì kāishǐ)",
+    "definition": "最初",
+    "example": "一开始他就拒绝了。(Yì kāishǐ tā jiù jùjué le.)",
+    "translation": "de entrada",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-088",
+    "front": "尽管如此 (jǐnguǎn rúcǐ)",
+    "definition": "虽然这样",
+    "example": "尽管如此，还是失败了。(Jǐnguǎn rúcǐ, háishi shībài le.)",
+    "translation": "a pesar de ello",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-089",
+    "front": "由于缺乏 (yóuyú quēfá)",
+    "definition": "因为没有足够的",
+    "example": "由于缺乏时间，我们简化了。(Yóuyú quēfá shíjiān…)",
+    "translation": "por falta de",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-090",
+    "front": "此外 (cǐwài)",
+    "definition": "除此以外（书面）",
+    "example": "此外，问题依然存在。(Cǐwài, wèntí yīrán cúnzài.)",
+    "translation": "por lo demás, además",
+    "tags": [
+      "b2",
+      "conj"
+    ]
+  },
+  {
+    "id": "zh-b2-091",
+    "front": "与…一样 (yǔ… yíyàng)",
+    "definition": "和某者相同",
+    "example": "与邻国一样，这个国家也反应了。(Yǔ línguó yíyàng…)",
+    "translation": "al igual que",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-092",
+    "front": "有待核实 (yǒu dài héshí)",
+    "definition": "还要确认",
+    "example": "同意，但有待核实。(Tóngyì, dàn yǒu dài héshí.)",
+    "translation": "a reserva de verificación",
+    "tags": [
+      "b2",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b2-093",
+    "front": "偶然 (ǒurán)",
+    "definition": "没有计划地发生",
+    "example": "这纯属偶然。(Zhè chún shǔ ǒurán.)",
+    "translation": "casualidad, azar",
+    "tags": [
+      "b2",
+      "adj"
+    ]
+  },
+  {
+    "id": "zh-b2-094",
+    "front": "依然 (yīrán)",
+    "definition": "还是那样（书面）",
+    "example": "问题依然严重。(Wèntí yīrán yánzhòng.)",
+    "translation": "todavía, sigue siendo",
+    "tags": [
+      "b2",
+      "adv"
+    ]
+  },
+  {
+    "id": "zh-b2-095",
+    "front": "显著 (xiǎnzhù)",
+    "definition": "很明显",
+    "example": "有显著的进步。(Yǒu xiǎnzhù de jìnbù.)",
+    "translation": "notable, significativo",
+    "tags": [
+      "b2",
+      "adj",
+      "awl"
+    ]
+  },
+  {
+    "id": "zh-b2-096",
+    "front": "若干 (ruògān)",
+    "definition": "一些，数量不定（书面）",
+    "example": "提出了若干建议。(Tíchū le ruògān jiànyì.)",
+    "translation": "varios, algunos",
+    "tags": [
+      "b2",
+      "adj"
+    ]
+  },
+  {
+    "id": "zh-b2-097",
+    "front": "予以 (yǔyǐ)",
+    "definition": "给予（书面）",
+    "example": "对此予以说明。(Duì cǐ yǔyǐ shuōmíng.)",
+    "translation": "dar, otorgar",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "zh-b2-098",
+    "front": "致使 (zhìshǐ)",
+    "definition": "导致（书面）",
+    "example": "疏忽致使损失扩大。(Shūhu zhìshǐ sǔnshī kuòdà.)",
+    "translation": "causar que",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "zh-b2-099",
+    "front": "权衡 (quánhéng)",
+    "definition": "比较得失后决定",
+    "example": "要权衡利弊。(Yào quánhéng lìbì.)",
+    "translation": "ponderar, sopesar",
+    "tags": [
+      "b2",
+      "verb"
+    ]
+  },
+  {
+    "id": "zh-b2-100",
+    "front": "赔偿 (péicháng)",
+    "definition": "因造成损失而付钱",
+    "example": "我们要求赔偿损失。(Wǒmen yāoqiú péicháng sǔnshī.)",
+    "translation": "indemnización",
+    "tags": [
+      "b2",
+      "noun",
+      "civic"
+    ]
+  }
+]

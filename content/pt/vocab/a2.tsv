@@ -1,0 +1,101 @@
+id	front	definition	example	translation	tags
+pt-a2-001	conseguir (v.)	obter; ser capaz de fazer algo	Não consegui dormir ontem.	lograr, conseguir; poder	a2 verb top500 keyverb
+pt-a2-002	acontecer (v.)	ocorrer, passar-se	O que aconteceu com você?	pasar, ocurrir	a2 verb top500
+pt-a2-003	deixar (v.)	permitir; abandonar; parar de	Deixa eu ver. Deixei o livro em casa.	dejar	a2 verb top500 keyverb
+pt-a2-004	levar (v.)	transportar para outro lugar; demorar	Levo você em casa. Leva duas horas.	llevar; tardar	a2 verb top500 keyverb
+pt-a2-005	trazer (v.)	transportar para cá	Pode me trazer a conta?	traer	a2 verb top500 irregular
+pt-a2-006	perder (v.)	deixar de ter; não chegar a tempo	Perdi as chaves. Perdi o ônibus.	perder	a2 verb top500
+pt-a2-007	ganhar (v.)	receber; vencer	Ganho três mil por mês.	ganar	a2 verb top500 work
+pt-a2-008	guardar (v.)	pôr em lugar seguro; conservar	Guardei o dinheiro no banco.	guardar	a2 verb
+pt-a2-009	mudar (v.)	trocar; mudar de casa	Mudamos de apartamento.	cambiar; mudarse	a2 verb
+pt-a2-010	melhorar (v.)	ficar melhor	Meu português melhorou muito.	mejorar	a2 verb
+pt-a2-011	piorar (v.)	ficar pior	O tempo piorou de tarde.	empeorar	a2 verb
+pt-a2-012	tentar (v.)	fazer um esforço para	Tentei ligar, mas não atendeu.	intentar	a2 verb top500
+pt-a2-013	parecer (v.)	dar impressão de	Parece que vai chover.	parecer	a2 verb top500
+pt-a2-014	lembrar (v.)	trazer à memória (lembrar DE)	Lembrei de você ontem.	recordar, acordarse	a2 verb preposition
+pt-a2-015	esquecer (v.)	perder da memória	Esqueci o nome dele.	olvidar	a2 verb
+pt-a2-016	sentir (v.)	perceber com os sentidos ou emoções	Sinto muito frio aqui.	sentir	a2 verb feelings
+pt-a2-017	crescer (v.)	ficar maior	As crianças crescem rápido.	crecer	a2 verb
+pt-a2-018	nascer (v.)	vir ao mundo	Nasci em Medellín.	nacer	a2 verb
+pt-a2-019	morrer (v.)	deixar de viver	Meu avô morreu no ano passado.	morir	a2 verb
+pt-a2-020	viver (v.)	estar vivo; morar	Vivo bem aqui.	vivir	a2 verb
+pt-a2-021	receber (v.)	obter algo que alguém envia	Recebi seu e-mail.	recibir	a2 verb
+pt-a2-022	enviar / mandar (v.)	fazer chegar a alguém	Vou mandar uma mensagem.	enviar, mandar	a2 verb
+pt-a2-023	usar (v.)	empregar; vestir	Uso óculos para ler.	usar; llevar (ropa)	a2 verb
+pt-a2-024	tirar (v.)	retirar; sacar (foto)	Tirei uma foto do prédio.	quitar; sacar	a2 verb keyverb
+pt-a2-025	colocar / pôr (v.)	situar em algum lugar	Coloquei o livro na mesa.	poner, colocar	a2 verb
+pt-a2-026	andar (v.)	caminhar; ir de veículo	Ando muito no centro.	andar, caminar	a2 verb
+pt-a2-027	correr (v.)	deslocar-se rápido	Corro no parque de manhã.	correr	a2 verb sport
+pt-a2-028	subir (v.)	ir para cima	Subi as escadas correndo.	subir	a2 verb
+pt-a2-029	descer (v.)	ir para baixo; sair do ônibus	Desço na próxima parada.	bajar	a2 verb transport
+pt-a2-030	entrar (v.)	passar para dentro	Entrei na sala devagar.	entrar	a2 verb
+pt-a2-031	sair (v.)	ir para fora	Saio do trabalho às seis.	salir	a2 verb irregular
+pt-a2-032	voltar (v.)	regressar	Volto amanhã de manhã.	volver	a2 verb
+pt-a2-033	ficar de (loc.)	comprometer-se a	Ficamos de nos encontrar às oito.	quedar en	a2 verb chunk
+pt-a2-034	dar certo (loc.)	funcionar, resultar bem	Espero que dê certo.	salir bien, funcionar	a2 verb chunk
+pt-a2-035	dar uma olhada (loc.)	examinar rapidamente	Dá uma olhada nisso.	echar un ojo	a2 verb chunk
+pt-a2-036	valer a pena (loc.)	compensar o esforço	Vale a pena visitar Ouro Preto.	valer la pena	a2 verb chunk
+pt-a2-037	tomar conta (loc.)	cuidar de	Ela toma conta dos netos.	cuidar de	a2 verb chunk
+pt-a2-038	fazer falta (loc.)	ser sentido pela ausência	Você me faz falta.	echar de menos	a2 verb chunk
+pt-a2-039	estar com pressa (loc.)	ter urgência	Estou com pressa, desculpe.	tener prisa	a2 verb chunk
+pt-a2-040	estar com fome (loc.)	sentir necessidade de comer	Estou com fome.	tener hambre	a2 verb chunk
+pt-a2-041	saúde (s.f.)	estado do corpo	Cuido da minha saúde.	salud	a2 noun health
+pt-a2-042	doença (s.f.)	problema de saúde	Ele teve uma doença grave.	enfermedad	a2 noun health
+pt-a2-043	dor (s.f.)	sensação física ruim	Estou com dor de cabeça.	dolor	a2 noun health
+pt-a2-044	remédio (s.m.)	substância para curar	Tomei o remédio às oito.	medicina, remedio	a2 noun health
+pt-a2-045	consulta (s.f.)	visita ao médico	Marquei consulta para terça.	consulta, cita	a2 noun health
+pt-a2-046	receita (s.f.)	prescrição médica; instrução de cozinha	O médico me deu uma receita.	receta	a2 noun health
+pt-a2-047	corpo (s.m.)	organismo físico	Faço exercício para o corpo e a mente.	cuerpo	a2 noun body
+pt-a2-048	cabeça (s.f.)	parte superior do corpo	Bati a cabeça na porta.	cabeza	a2 noun body
+pt-a2-049	perna (s.f.)	membro inferior	Machuquei a perna jogando bola.	pierna	a2 noun body
+pt-a2-050	braço (s.m.)	membro superior	Quebrei o braço quando era criança.	brazo	a2 noun body
+pt-a2-051	costas (s.f.pl.)	parte de trás do tronco (sempre plural)	Minhas costas doem.	espalda	a2 noun body gender
+pt-a2-052	garganta (s.f.)	parte interna do pescoço	Estou com dor de garganta.	garganta	a2 noun body
+pt-a2-053	emprego (s.m.)	posto de trabalho	Consegui um emprego novo.	empleo	a2 noun work
+pt-a2-054	empresa (s.f.)	organização de negócios	Trabalho numa empresa pequena.	empresa	a2 noun work
+pt-a2-055	chefe (s.m./f.)	quem manda no trabalho	Meu chefe é muito exigente.	jefe	a2 noun work
+pt-a2-056	reunião (s.f.)	encontro de trabalho	A reunião é às dez.	reunión	a2 noun work
+pt-a2-057	salário (s.m.)	pagamento mensal	O salário é bom, mas o horário é ruim.	salario, sueldo	a2 noun work
+pt-a2-058	currículo (s.m.)	documento com a experiência	Mandei meu currículo ontem.	currículum	a2 noun work
+pt-a2-059	entrevista (s.f.)	conversa para avaliar alguém	Tive uma entrevista de emprego.	entrevista	a2 noun work
+pt-a2-060	prazo (s.m.)	tempo limite	O prazo termina na sexta.	plazo	a2 noun work
+pt-a2-061	horário (s.m.)	organização do tempo	Meu horário é flexível.	horario	a2 noun work
+pt-a2-062	férias (s.f.pl.)	período de descanso (sempre plural)	Vou tirar férias em janeiro.	vacaciones	a2 noun work
+pt-a2-063	feriado (s.m.)	dia de folga oficial	Segunda é feriado.	festivo, feriado	a2 noun time
+pt-a2-064	aniversário (s.m.)	data de nascimento; também de casamento	Meu aniversário é em março.	cumpleaños; aniversario	a2 noun time
+pt-a2-065	festa (s.f.)	celebração	A festa foi ótima.	fiesta	a2 noun social
+pt-a2-066	convite (s.m.)	pedido para participar	Recebi um convite para o casamento.	invitación	a2 noun social
+pt-a2-067	presente (s.m./adj.)	objeto dado; também "que está aqui"	Comprei um presente para ela.	regalo; presente	a2 noun social
+pt-a2-068	namorado (s.m.)	parceiro romântico	Meu namorado é professor.	novio	a2 noun social
+pt-a2-069	casamento (s.m.)	união matrimonial; a cerimônia	O casamento é no sábado.	boda, matrimonio	a2 noun social
+pt-a2-070	vizinho (s.m.)	quem mora ao lado	Meus vizinhos são simpáticos.	vecino	a2 noun people
+pt-a2-071	fatura (s.f.)	documento de cobrança mensal	A fatura do cartão chegou.	factura	a2 noun money
+pt-a2-072	imposto (s.m.)	dinheiro pago ao Estado	Os impostos são altos aqui.	impuesto	a2 noun money
+pt-a2-073	aluguel (s.m.)	pagamento mensal pela moradia	O aluguel aumentou este ano.	alquiler	a2 noun money
+pt-a2-074	desconto (s.m.)	redução no preço	Tem desconto para estudante?	descuento	a2 noun shopping
+pt-a2-075	parcela (s.f.)	pagamento dividido	Paguei em três parcelas.	cuota, plazo	a2 noun money
+pt-a2-076	poupança (s.f.)	dinheiro guardado	Coloquei na poupança.	ahorros	a2 noun money
+pt-a2-077	dívida (s.f.)	o que se deve	Ele tem muitas dívidas.	deuda	a2 noun money
+pt-a2-078	notícia (s.f.)	informação sobre um fato	Vi a notícia no jornal.	noticia	a2 noun media
+pt-a2-079	jornal (s.m.)	publicação de notícias; o telejornal	Leio o jornal de manhã.	periódico; noticiero	a2 noun media
+pt-a2-080	revista (s.f.)	publicação periódica	Comprei uma revista no aeroporto.	revista	a2 noun media
+pt-a2-081	site (s.m.)	página de internet	Vi no site da empresa.	sitio web	a2 noun tech
+pt-a2-082	senha (s.f.)	código de acesso; também número de fila	Esqueci minha senha.	contraseña	a2 noun tech
+pt-a2-083	arquivo (s.m.)	documento digital	Mandei o arquivo por e-mail.	archivo	a2 noun tech
+pt-a2-084	tela (s.f.)	superfície de exibição	A tela do celular quebrou.	pantalla	a2 noun tech
+pt-a2-085	rede (s.f.)	conexão; redes sociais	A rede está lenta hoje.	red	a2 noun tech
+pt-a2-086	lento (adj.)	que demora	A internet está muito lenta.	lento	a2 adj
+pt-a2-087	rápido (adj./adv.)	que se faz em pouco tempo	Ele fala muito rápido.	rápido	a2 adj
+pt-a2-088	cheio (adj.)	sem espaço livre	O ônibus estava cheio.	lleno	a2 adj
+pt-a2-089	vazio (adj.)	sem nada dentro	A geladeira está vazia.	vacío	a2 adj
+pt-a2-090	limpo (adj.)	sem sujeira	O quarto está limpo.	limpio	a2 adj
+pt-a2-091	sujo (adj.)	com sujeira	Meus sapatos estão sujos.	sucio	a2 adj
+pt-a2-092	forte (adj.)	com força; intenso	O café está muito forte.	fuerte	a2 adj
+pt-a2-093	fraco (adj.)	sem força	Estou me sentindo fraco.	débil, flojo	a2 adj
+pt-a2-094	ocupado (adj.)	com muitas tarefas; não livre	Estou ocupado agora.	ocupado	a2 adj
+pt-a2-095	livre (adj.)	disponível; sem restrição	Você está livre amanhã?	libre	a2 adj
+pt-a2-096	engraçado (adj.)	que faz rir	Ele é muito engraçado.	graciosos, divertido	a2 adj feelings
+pt-a2-097	chato (adj.)	aborrecido; irritante	Esse filme é chato.	aburrido; pesado	a2 adj feelings keyword
+pt-a2-098	legal (adj.)	agradável, bacana (gíria muito usada)	Que legal! Achei muito legal.	guay, chévere	a2 adj feelings keyword
+pt-a2-099	ruim (adj.)	de má qualidade	O tempo está ruim.	malo	a2 adj
+pt-a2-100	pronto (adj./interj.)	preparado; "ya está"	Está pronto! Pronto, acabei.	listo	a2 adj

@@ -1,0 +1,1163 @@
+[
+  {
+    "id": "it-b1-001",
+    "front": "sviluppare (v.)",
+    "definition": "far crescere, elaborare",
+    "example": "L'azienda ha sviluppato un'applicazione.",
+    "translation": "desarrollar",
+    "tags": [
+      "b1",
+      "verb",
+      "work"
+    ]
+  },
+  {
+    "id": "it-b1-002",
+    "front": "stabilire (v.)",
+    "definition": "fissare, creare formalmente",
+    "example": "Abbiamo stabilito nuove regole.",
+    "translation": "establecer",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "it-b1-003",
+    "front": "presentare (v.)",
+    "definition": "mostrare; introdurre qualcuno",
+    "example": "Presento il progetto domani.",
+    "translation": "presentar",
+    "tags": [
+      "b1",
+      "verb",
+      "work"
+    ]
+  },
+  {
+    "id": "it-b1-004",
+    "front": "permettere (v.)",
+    "definition": "consentire; rendere possibile",
+    "example": "Questo permette di risparmiare tempo.",
+    "translation": "permitir",
+    "tags": [
+      "b1",
+      "verb",
+      "irregular"
+    ]
+  },
+  {
+    "id": "it-b1-005",
+    "front": "richiedere (v.)",
+    "definition": "esigere come necessario",
+    "example": "Il posto richiede un buon inglese.",
+    "translation": "requerir, exigir",
+    "tags": [
+      "b1",
+      "verb",
+      "work"
+    ]
+  },
+  {
+    "id": "it-b1-006",
+    "front": "garantire (v.)",
+    "definition": "assicurare",
+    "example": "Garantisco che funzionerà.",
+    "translation": "garantizar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "it-b1-007",
+    "front": "evitare (v.)",
+    "definition": "impedire che accada",
+    "example": "Evito le ore di punta.",
+    "translation": "evitar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "it-b1-008",
+    "front": "affrontare (v.)",
+    "definition": "far fronte a",
+    "example": "Bisogna affrontare il problema.",
+    "translation": "afrontar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "it-b1-009",
+    "front": "superare (v.)",
+    "definition": "andare oltre; vincere",
+    "example": "I risultati hanno superato le attese.",
+    "translation": "superar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "it-b1-010",
+    "front": "raggiungere (v.)",
+    "definition": "arrivare a; ottenere",
+    "example": "Abbiamo raggiunto l'obiettivo.",
+    "translation": "alcanzar",
+    "tags": [
+      "b1",
+      "verb",
+      "irregular"
+    ]
+  },
+  {
+    "id": "it-b1-011",
+    "front": "sottolineare (v.)",
+    "definition": "mettere in evidenza",
+    "example": "Sottolineo due punti.",
+    "translation": "subrayar, destacar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "it-b1-012",
+    "front": "suggerire (v.)",
+    "definition": "proporre un'idea",
+    "example": "Suggerisco di rinviare.",
+    "translation": "sugerir",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "it-b1-013",
+    "front": "proporre (v.)",
+    "definition": "presentare come proposta",
+    "example": "Hanno proposto una soluzione.",
+    "translation": "proponer",
+    "tags": [
+      "b1",
+      "verb",
+      "irregular"
+    ]
+  },
+  {
+    "id": "it-b1-014",
+    "front": "rifiutare (v.)",
+    "definition": "non accettare",
+    "example": "Ho rifiutato l'offerta.",
+    "translation": "rechazar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "it-b1-015",
+    "front": "ammettere (v.)",
+    "definition": "riconoscere",
+    "example": "Ammetto di aver sbagliato.",
+    "translation": "admitir",
+    "tags": [
+      "b1",
+      "verb",
+      "irregular"
+    ]
+  },
+  {
+    "id": "it-b1-016",
+    "front": "notare (v.)",
+    "definition": "accorgersi di",
+    "example": "Ho notato che era nervoso.",
+    "translation": "notar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "it-b1-017",
+    "front": "comparire (v.)",
+    "definition": "diventare visibile",
+    "example": "È comparso un problema.",
+    "translation": "aparecer",
+    "tags": [
+      "b1",
+      "verb",
+      "irregular"
+    ]
+  },
+  {
+    "id": "it-b1-018",
+    "front": "rinunciare (v.)",
+    "definition": "abbandonare (rinunciare A)",
+    "example": "Ha rinunciato al posto.",
+    "translation": "renunciar",
+    "tags": [
+      "b1",
+      "verb",
+      "preposition"
+    ]
+  },
+  {
+    "id": "it-b1-019",
+    "front": "insistere (v.)",
+    "definition": "ripetere con costanza",
+    "example": "Ha insistito per pagare.",
+    "translation": "insistir",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "it-b1-020",
+    "front": "dipendere (v.)",
+    "definition": "essere condizionato (dipendere DA)",
+    "example": "Dipende dall'orario.",
+    "translation": "depender",
+    "tags": [
+      "b1",
+      "verb",
+      "preposition"
+    ]
+  },
+  {
+    "id": "it-b1-021",
+    "front": "essere d'accordo (loc.)",
+    "definition": "condividere l'opinione",
+    "example": "Sono d'accordo con te.",
+    "translation": "estar de acuerdo",
+    "tags": [
+      "b1",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b1-022",
+    "front": "lamentarsi (v.)",
+    "definition": "esprimere insoddisfazione",
+    "example": "Mi sono lamentato del servizio.",
+    "translation": "quejarse",
+    "tags": [
+      "b1",
+      "verb",
+      "reflexive"
+    ]
+  },
+  {
+    "id": "it-b1-023",
+    "front": "ringraziare (v.)",
+    "definition": "esprimere gratitudine",
+    "example": "Ringrazio tutti.",
+    "translation": "agradecer",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "it-b1-024",
+    "front": "approfittare (v.)",
+    "definition": "trarre vantaggio (approfittare DI)",
+    "example": "Ho approfittato del ponte per riposare.",
+    "translation": "aprovechar",
+    "tags": [
+      "b1",
+      "verb",
+      "preposition"
+    ]
+  },
+  {
+    "id": "it-b1-025",
+    "front": "investire (v.)",
+    "definition": "impiegare risorse",
+    "example": "Hanno investito nella tecnologia.",
+    "translation": "invertir",
+    "tags": [
+      "b1",
+      "verb",
+      "money"
+    ]
+  },
+  {
+    "id": "it-b1-026",
+    "front": "risparmiare (v.)",
+    "definition": "spendere meno",
+    "example": "Risparmio per viaggiare.",
+    "translation": "ahorrar",
+    "tags": [
+      "b1",
+      "verb",
+      "money"
+    ]
+  },
+  {
+    "id": "it-b1-027",
+    "front": "spendere (v.)",
+    "definition": "usare denaro",
+    "example": "Ho speso troppo questo mese.",
+    "translation": "gastar",
+    "tags": [
+      "b1",
+      "verb",
+      "irregular",
+      "money"
+    ]
+  },
+  {
+    "id": "it-b1-028",
+    "front": "rimborsare (v.)",
+    "definition": "restituire il denaro",
+    "example": "Mi hanno rimborsato il biglietto.",
+    "translation": "reembolsar",
+    "tags": [
+      "b1",
+      "verb",
+      "money"
+    ]
+  },
+  {
+    "id": "it-b1-029",
+    "front": "restituire (v.)",
+    "definition": "dare indietro",
+    "example": "Ho restituito il libro.",
+    "translation": "devolver",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "it-b1-030",
+    "front": "consegnare (v.)",
+    "definition": "dare in mano; far arrivare",
+    "example": "Ho consegnato la relazione in tempo.",
+    "translation": "entregar",
+    "tags": [
+      "b1",
+      "verb",
+      "work"
+    ]
+  },
+  {
+    "id": "it-b1-031",
+    "front": "rinviare (v.)",
+    "definition": "spostare a più tardi",
+    "example": "Abbiamo rinviato la riunione.",
+    "translation": "posponer",
+    "tags": [
+      "b1",
+      "verb",
+      "work"
+    ]
+  },
+  {
+    "id": "it-b1-032",
+    "front": "annullare (v.)",
+    "definition": "cancellare ciò che era previsto",
+    "example": "Il volo è stato annullato.",
+    "translation": "cancelar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "it-b1-033",
+    "front": "prendere appuntamento (loc.)",
+    "definition": "fissare un incontro",
+    "example": "Ho preso appuntamento dal medico.",
+    "translation": "pedir cita",
+    "tags": [
+      "b1",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b1-034",
+    "front": "metterci (v.)",
+    "definition": "impiegare tempo",
+    "example": "Ci ho messo due ore.",
+    "translation": "tardar",
+    "tags": [
+      "b1",
+      "verb",
+      "chunk",
+      "keyverb"
+    ]
+  },
+  {
+    "id": "it-b1-035",
+    "front": "sfida (s.f.)",
+    "definition": "compito difficile e stimolante",
+    "example": "Imparare l'italiano è stata una sfida.",
+    "translation": "desafío, reto",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b1-036",
+    "front": "obiettivo (s.m.)",
+    "definition": "ciò che si vuole raggiungere",
+    "example": "Il mio obiettivo è vivere in Italia.",
+    "translation": "objetivo",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b1-037",
+    "front": "risultato (s.m.)",
+    "definition": "ciò che si ottiene",
+    "example": "I risultati sono positivi.",
+    "translation": "resultado",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b1-038",
+    "front": "conseguenza (s.f.)",
+    "definition": "effetto di qualcosa",
+    "example": "Ne subiamo le conseguenze.",
+    "translation": "consecuencia",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b1-039",
+    "front": "vantaggio (s.m.)",
+    "definition": "punto favorevole",
+    "example": "Il vantaggio è la flessibilità.",
+    "translation": "ventaja",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b1-040",
+    "front": "svantaggio (s.m.)",
+    "definition": "punto sfavorevole",
+    "example": "Lo svantaggio è il costo.",
+    "translation": "desventaja",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b1-041",
+    "front": "rischio (s.m.)",
+    "definition": "possibilità di danno",
+    "example": "C'è il rischio di un ritardo.",
+    "translation": "riesgo",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b1-042",
+    "front": "soluzione (s.f.)",
+    "definition": "risposta a un problema",
+    "example": "Abbiamo trovato una soluzione.",
+    "translation": "solución",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b1-043",
+    "front": "proposta (s.f.)",
+    "definition": "suggerimento formale",
+    "example": "La proposta è stata approvata.",
+    "translation": "propuesta",
+    "tags": [
+      "b1",
+      "noun",
+      "work"
+    ]
+  },
+  {
+    "id": "it-b1-044",
+    "front": "esame (s.m.)",
+    "definition": "prova di valutazione",
+    "example": "Ho un esame domani.",
+    "translation": "examen",
+    "tags": [
+      "b1",
+      "noun",
+      "school"
+    ]
+  },
+  {
+    "id": "it-b1-045",
+    "front": "indagine (s.f.)",
+    "definition": "investigazione; sondaggio",
+    "example": "Ho fatto un'indagine sul tema.",
+    "translation": "investigación; encuesta",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b1-046",
+    "front": "dati (s.m.pl.)",
+    "definition": "informazioni, numeri",
+    "example": "I dati mostrano un calo.",
+    "translation": "datos",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b1-047",
+    "front": "relazione (s.f.)",
+    "definition": "documento di risultati; anche il rapporto",
+    "example": "Ho scritto la relazione mensile.",
+    "translation": "informe; relación",
+    "tags": [
+      "b1",
+      "noun",
+      "work",
+      "keyword"
+    ]
+  },
+  {
+    "id": "it-b1-048",
+    "front": "punto di vista (loc.)",
+    "definition": "prospettiva",
+    "example": "Dal mio punto di vista, ha senso.",
+    "translation": "punto de vista",
+    "tags": [
+      "b1",
+      "noun",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b1-049",
+    "front": "manodopera (s.f.)",
+    "definition": "lavoro umano disponibile",
+    "example": "Manca manodopera qualificata.",
+    "translation": "mano de obra",
+    "tags": [
+      "b1",
+      "noun",
+      "work"
+    ]
+  },
+  {
+    "id": "it-b1-050",
+    "front": "costo della vita (loc.)",
+    "definition": "quanto costa vivere in un luogo",
+    "example": "Il costo della vita è salito.",
+    "translation": "coste de vida",
+    "tags": [
+      "b1",
+      "noun",
+      "chunk",
+      "money"
+    ]
+  },
+  {
+    "id": "it-b1-051",
+    "front": "ora di punta (loc.)",
+    "definition": "momento di maggior traffico",
+    "example": "Evito le ore di punta.",
+    "translation": "hora punta",
+    "tags": [
+      "b1",
+      "noun",
+      "chunk",
+      "transport"
+    ]
+  },
+  {
+    "id": "it-b1-052",
+    "front": "traffico (s.m.)",
+    "definition": "circolazione dei veicoli",
+    "example": "Il traffico era terribile.",
+    "translation": "tráfico",
+    "tags": [
+      "b1",
+      "noun",
+      "transport"
+    ]
+  },
+  {
+    "id": "it-b1-053",
+    "front": "ingorgo (s.m.)",
+    "definition": "traffico bloccato",
+    "example": "Sono rimasto due ore nell'ingorgo.",
+    "translation": "atasco",
+    "tags": [
+      "b1",
+      "noun",
+      "transport"
+    ]
+  },
+  {
+    "id": "it-b1-054",
+    "front": "multa (s.f.)",
+    "definition": "sanzione in denaro",
+    "example": "Ho preso una multa per velocità.",
+    "translation": "multa",
+    "tags": [
+      "b1",
+      "noun",
+      "transport"
+    ]
+  },
+  {
+    "id": "it-b1-055",
+    "front": "comune (s.m.)",
+    "definition": "amministrazione della città",
+    "example": "Il Comune ha annunciato dei lavori.",
+    "translation": "ayuntamiento",
+    "tags": [
+      "b1",
+      "noun",
+      "civic",
+      "keyword"
+    ]
+  },
+  {
+    "id": "it-b1-056",
+    "front": "governo (s.m.)",
+    "definition": "chi guida il paese",
+    "example": "Il governo ha approvato la legge.",
+    "translation": "gobierno",
+    "tags": [
+      "b1",
+      "noun",
+      "civic"
+    ]
+  },
+  {
+    "id": "it-b1-057",
+    "front": "legge (s.f.)",
+    "definition": "norma giuridica",
+    "example": "La legge entra in vigore a gennaio.",
+    "translation": "ley",
+    "tags": [
+      "b1",
+      "noun",
+      "civic"
+    ]
+  },
+  {
+    "id": "it-b1-058",
+    "front": "diritto (s.m.)",
+    "definition": "prerogativa legale; la materia",
+    "example": "Tutti hanno diritto alla salute.",
+    "translation": "derecho",
+    "tags": [
+      "b1",
+      "noun",
+      "civic"
+    ]
+  },
+  {
+    "id": "it-b1-059",
+    "front": "dovere (s.m.)",
+    "definition": "obbligo",
+    "example": "È nostro dovere votare.",
+    "translation": "deber",
+    "tags": [
+      "b1",
+      "noun",
+      "civic"
+    ]
+  },
+  {
+    "id": "it-b1-060",
+    "front": "stampa (s.f.)",
+    "definition": "insieme dei media",
+    "example": "La stampa ha seguito il caso.",
+    "translation": "prensa",
+    "tags": [
+      "b1",
+      "noun",
+      "media"
+    ]
+  },
+  {
+    "id": "it-b1-061",
+    "front": "disuguaglianza (s.f.)",
+    "definition": "differenza ingiusta",
+    "example": "Le disuguaglianze sono aumentate.",
+    "translation": "desigualdad",
+    "tags": [
+      "b1",
+      "noun",
+      "social"
+    ]
+  },
+  {
+    "id": "it-b1-062",
+    "front": "alloggio (s.m.)",
+    "definition": "luogo dove si abita",
+    "example": "Il problema dell'alloggio è grave.",
+    "translation": "vivienda",
+    "tags": [
+      "b1",
+      "noun",
+      "social"
+    ]
+  },
+  {
+    "id": "it-b1-063",
+    "front": "quartiere (s.m.)",
+    "definition": "parte di una città",
+    "example": "Abito in un quartiere tranquillo.",
+    "translation": "barrio",
+    "tags": [
+      "b1",
+      "noun",
+      "places"
+    ]
+  },
+  {
+    "id": "it-b1-064",
+    "front": "periferia (s.f.)",
+    "definition": "zona esterna della città",
+    "example": "Abita in periferia.",
+    "translation": "periferia",
+    "tags": [
+      "b1",
+      "noun",
+      "places"
+    ]
+  },
+  {
+    "id": "it-b1-065",
+    "front": "lavori (s.m.pl.)",
+    "definition": "cantiere, opere",
+    "example": "Ci sono lavori nella strada.",
+    "translation": "obras",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b1-066",
+    "front": "ambiente (s.m.)",
+    "definition": "milieu naturale; anche una stanza",
+    "example": "Bisogna proteggere l'ambiente.",
+    "translation": "medio ambiente",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b1-067",
+    "front": "rifiuti (s.m.pl.)",
+    "definition": "spazzatura",
+    "example": "Faccio la raccolta differenziata dei rifiuti.",
+    "translation": "residuos, basura",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "it-b1-068",
+    "front": "siccità (s.f.)",
+    "definition": "mancanza prolungata di pioggia",
+    "example": "La siccità ha colpito i raccolti.",
+    "translation": "sequía",
+    "tags": [
+      "b1",
+      "noun",
+      "weather"
+    ]
+  },
+  {
+    "id": "it-b1-069",
+    "front": "alluvione (s.f.)",
+    "definition": "inondazione",
+    "example": "L'alluvione ha colpito il centro.",
+    "translation": "inundación",
+    "tags": [
+      "b1",
+      "noun",
+      "weather"
+    ]
+  },
+  {
+    "id": "it-b1-070",
+    "front": "previsione (s.f.)",
+    "definition": "stima del futuro",
+    "example": "Le previsioni danno pioggia.",
+    "translation": "pronóstico",
+    "tags": [
+      "b1",
+      "noun",
+      "weather"
+    ]
+  },
+  {
+    "id": "it-b1-071",
+    "front": "all'improvviso (loc.)",
+    "definition": "improvvisamente",
+    "example": "All'improvviso ha iniziato a piovere.",
+    "translation": "de repente",
+    "tags": [
+      "b1",
+      "adv",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b1-072",
+    "front": "poco a poco (loc.)",
+    "definition": "gradualmente",
+    "example": "Poco a poco ho capito.",
+    "translation": "poco a poco",
+    "tags": [
+      "b1",
+      "adv",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b1-073",
+    "front": "in realtà (loc.)",
+    "definition": "rettificando",
+    "example": "In realtà è andata diversamente.",
+    "translation": "en realidad",
+    "tags": [
+      "b1",
+      "adv",
+      "chunk"
+    ]
+  },
+  {
+    "id": "it-b1-074",
+    "front": "inoltre (adv.)",
+    "definition": "in aggiunta",
+    "example": "Inoltre costa meno.",
+    "translation": "además",
+    "tags": [
+      "b1",
+      "adv"
+    ]
+  },
+  {
+    "id": "it-b1-075",
+    "front": "tuttavia (conj.)",
+    "definition": "però",
+    "example": "Tuttavia esistono dei rischi.",
+    "translation": "sin embargo",
+    "tags": [
+      "b1",
+      "conj"
+    ]
+  },
+  {
+    "id": "it-b1-076",
+    "front": "quindi (conj.)",
+    "definition": "per questa ragione",
+    "example": "Piove, quindi restiamo.",
+    "translation": "por lo tanto",
+    "tags": [
+      "b1",
+      "conj"
+    ]
+  },
+  {
+    "id": "it-b1-077",
+    "front": "nonostante (prep./conj.)",
+    "definition": "malgrado",
+    "example": "Nonostante il freddo, siamo usciti.",
+    "translation": "a pesar de",
+    "tags": [
+      "b1",
+      "prep",
+      "grammar"
+    ]
+  },
+  {
+    "id": "it-b1-078",
+    "front": "benché (conj.)",
+    "definition": "sebbene (esige congiuntivo)",
+    "example": "Benché sia tardi, continuo.",
+    "translation": "aunque",
+    "tags": [
+      "b1",
+      "conj",
+      "grammar"
+    ]
+  },
+  {
+    "id": "it-b1-079",
+    "front": "affinché (conj.)",
+    "definition": "perché, con lo scopo che",
+    "example": "Parlo piano affinché capiscano.",
+    "translation": "para que",
+    "tags": [
+      "b1",
+      "conj",
+      "grammar"
+    ]
+  },
+  {
+    "id": "it-b1-080",
+    "front": "cioè (conj.)",
+    "definition": "ovvero",
+    "example": "Domani, cioè martedì.",
+    "translation": "es decir",
+    "tags": [
+      "b1",
+      "conj"
+    ]
+  },
+  {
+    "id": "it-b1-081",
+    "front": "perfino / addirittura (adv.)",
+    "definition": "anche, incluso",
+    "example": "Perfino lui è venuto.",
+    "translation": "incluso",
+    "tags": [
+      "b1",
+      "adv"
+    ]
+  },
+  {
+    "id": "it-b1-082",
+    "front": "soprattutto (adv.)",
+    "definition": "principalmente",
+    "example": "Mi piace la musica, soprattutto il jazz.",
+    "translation": "sobre todo",
+    "tags": [
+      "b1",
+      "adv"
+    ]
+  },
+  {
+    "id": "it-b1-083",
+    "front": "probabilmente (adv.)",
+    "definition": "con probabilità",
+    "example": "Probabilmente sarà in ritardo.",
+    "translation": "probablemente",
+    "tags": [
+      "b1",
+      "adv"
+    ]
+  },
+  {
+    "id": "it-b1-084",
+    "front": "attuale (adj.)",
+    "definition": "del momento presente",
+    "example": "Nella situazione attuale è difficile.",
+    "translation": "actual",
+    "tags": [
+      "b1",
+      "adj"
+    ]
+  },
+  {
+    "id": "it-b1-085",
+    "front": "disponibile (adj.)",
+    "definition": "che si può usare",
+    "example": "La camera è disponibile.",
+    "translation": "disponible",
+    "tags": [
+      "b1",
+      "adj"
+    ]
+  },
+  {
+    "id": "it-b1-086",
+    "front": "necessario / necessaria (adj.)",
+    "definition": "indispensabile",
+    "example": "È necessario confermare prima.",
+    "translation": "necesario",
+    "tags": [
+      "b1",
+      "adj"
+    ]
+  },
+  {
+    "id": "it-b1-087",
+    "front": "sufficiente (adj.)",
+    "definition": "che basta",
+    "example": "Il tempo non è stato sufficiente.",
+    "translation": "suficiente",
+    "tags": [
+      "b1",
+      "adj"
+    ]
+  },
+  {
+    "id": "it-b1-088",
+    "front": "capace (adj.)",
+    "definition": "che ha la capacità (capace DI)",
+    "example": "È capace di risolverlo.",
+    "translation": "capaz",
+    "tags": [
+      "b1",
+      "adj"
+    ]
+  },
+  {
+    "id": "it-b1-089",
+    "front": "quotidiano / quotidiana (adj.)",
+    "definition": "di ogni giorno",
+    "example": "È un compito quotidiano.",
+    "translation": "cotidiano",
+    "tags": [
+      "b1",
+      "adj"
+    ]
+  },
+  {
+    "id": "it-b1-090",
+    "front": "settimanale (adj.)",
+    "definition": "di ogni settimana",
+    "example": "Una riunione settimanale.",
+    "translation": "semanal",
+    "tags": [
+      "b1",
+      "adj"
+    ]
+  },
+  {
+    "id": "it-b1-091",
+    "front": "mensile (adj.)",
+    "definition": "di ogni mese",
+    "example": "Una relazione mensile.",
+    "translation": "mensual",
+    "tags": [
+      "b1",
+      "adj"
+    ]
+  },
+  {
+    "id": "it-b1-092",
+    "front": "efficace (adj.)",
+    "definition": "che produce l'effetto voluto",
+    "example": "Il metodo è efficace.",
+    "translation": "eficaz",
+    "tags": [
+      "b1",
+      "adj"
+    ]
+  },
+  {
+    "id": "it-b1-093",
+    "front": "preoccupato / preoccupata (adj.)",
+    "definition": "in ansia",
+    "example": "Sono preoccupato per lui.",
+    "translation": "preocupado",
+    "tags": [
+      "b1",
+      "adj",
+      "feelings"
+    ]
+  },
+  {
+    "id": "it-b1-094",
+    "front": "deluso / delusa (adj.)",
+    "definition": "che ha perso le illusioni",
+    "example": "Sono deluso dal risultato.",
+    "translation": "decepcionado",
+    "tags": [
+      "b1",
+      "adj",
+      "feelings"
+    ]
+  },
+  {
+    "id": "it-b1-095",
+    "front": "stupito / stupita (adj.)",
+    "definition": "sorpreso",
+    "example": "Sono stupito di vederti.",
+    "translation": "sorprendido",
+    "tags": [
+      "b1",
+      "adj",
+      "feelings"
+    ]
+  },
+  {
+    "id": "it-b1-096",
+    "front": "diffidente (adj.)",
+    "definition": "che non si fida",
+    "example": "È diffidente verso gli estranei.",
+    "translation": "desconfiado",
+    "tags": [
+      "b1",
+      "adj",
+      "feelings"
+    ]
+  },
+  {
+    "id": "it-b1-097",
+    "front": "sinceramente (adv.)",
+    "definition": "con franchezza",
+    "example": "Sinceramente, non lo so.",
+    "translation": "sinceramente",
+    "tags": [
+      "b1",
+      "adv"
+    ]
+  },
+  {
+    "id": "it-b1-098",
+    "front": "appena (adv.)",
+    "definition": "a stento; proprio adesso",
+    "example": "Ho appena dormito. È appena arrivato.",
+    "translation": "apenas; recién",
+    "tags": [
+      "b1",
+      "adv",
+      "keyword"
+    ]
+  },
+  {
+    "id": "it-b1-099",
+    "front": "ormai (adv.)",
+    "definition": "a questo punto, già",
+    "example": "Ormai è troppo tardi.",
+    "translation": "ya, a estas alturas",
+    "tags": [
+      "b1",
+      "adv"
+    ]
+  },
+  {
+    "id": "it-b1-100",
+    "front": "prima (adv.)",
+    "definition": "precedentemente",
+    "example": "Prima lavorava qui.",
+    "translation": "antes",
+    "tags": [
+      "b1",
+      "adv"
+    ]
+  }
+]

@@ -65,7 +65,17 @@ def dump(obj) -> str:
 
 
 def headword(front: str) -> str:
-    return re.sub(r"\s*\(.*?\)", "", front).strip().lower()
+    """Clave para detectar la misma palabra repetida entre niveles.
+
+    Conserva la marca de categoría gramatical, porque los homógrafos NO son
+    duplicados: «parecer (v.)» y «parecer (s.m.)» son dos entradas legítimas
+    (parecer algo / un dictamen), igual que «trabajo» nombre y verbo. Sin
+    esto, el validador avisaba de duplicados inexistentes y el aviso real se
+    perdía entre el ruido."""
+    m = re.search(r"\(([^)]*)\)", front)
+    pos = m.group(1).strip().lower() if m else ""
+    base = re.sub(r"\s*\(.*?\)", "", front).strip().lower()
+    return f"{base}|{pos}"
 
 
 def id_prefix(lang: str) -> str:

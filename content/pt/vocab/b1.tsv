@@ -1,0 +1,101 @@
+id	front	definition	example	translation	tags
+pt-b1-001	desenvolver (v.)	fazer crescer, elaborar	A empresa desenvolveu um novo aplicativo.	desarrollar	b1 verb work
+pt-b1-002	estabelecer (v.)	fixar, criar formalmente	Estabelecemos novas regras.	establecer	b1 verb
+pt-b1-003	apresentar (v.)	mostrar; introduzir alguém	Vou apresentar o projeto amanhã.	presentar	b1 verb work
+pt-b1-004	permitir (v.)	dar permissão; tornar possível	Isso permite economizar tempo.	permitir	b1 verb
+pt-b1-005	exigir (v.)	demandar como obrigatório	O cargo exige inglês fluente.	exigir	b1 verb work
+pt-b1-006	garantir (v.)	assegurar	Garanto que vai dar certo.	garantizar	b1 verb
+pt-b1-007	evitar (v.)	impedir que aconteça	Evito sair no horário de pico.	evitar	b1 verb
+pt-b1-008	enfrentar (v.)	lidar com algo difícil	Precisamos enfrentar o problema.	enfrentar	b1 verb
+pt-b1-009	superar (v.)	vencer uma dificuldade	Ele superou as expectativas.	superar	b1 verb
+pt-b1-010	alcançar (v.)	chegar a; conseguir	Alcançamos a meta do mês.	alcanzar	b1 verb work
+pt-b1-011	destacar (v.)	dar relevo, sobressair	Vale destacar dois pontos.	destacar	b1 verb
+pt-b1-012	ressaltar (v.)	enfatizar	O relatório ressalta os riscos.	resaltar	b1 verb
+pt-b1-013	sugerir (v.)	propor uma ideia	Sugiro que a gente adie.	sugerir	b1 verb
+pt-b1-014	propor (v.)	apresentar como proposta	Propuseram uma solução simples.	proponer	b1 verb irregular
+pt-b1-015	recusar (v.)	não aceitar	Recusei a oferta.	rechazar	b1 verb
+pt-b1-016	admitir (v.)	reconhecer; aceitar	Admito que errei.	admitir	b1 verb
+pt-b1-017	perceber (v.)	notar, dar-se conta	Percebi que ele estava nervoso.	darse cuenta	b1 verb falsefriend
+pt-b1-018	reparar (v.)	notar; consertar	Repare no detalhe da foto.	fijarse; reparar	b1 verb keyword
+pt-b1-019	surgir (v.)	aparecer	Surgiu um problema de última hora.	surgir	b1 verb
+pt-b1-020	desistir (v.)	abandonar uma intenção (desistir DE)	Não desista agora.	desistir, rendirse	b1 verb preposition
+pt-b1-021	insistir (v.)	repetir com persistência (insistir EM)	Ele insistiu em pagar.	insistir	b1 verb preposition
+pt-b1-022	depender (v.)	estar condicionado (depender DE)	Depende do horário.	depender	b1 verb preposition
+pt-b1-023	concordar (v.)	ter a mesma opinião (concordar COM)	Concordo com você.	estar de acuerdo	b1 verb preposition
+pt-b1-024	discordar (v.)	ter opinião contrária	Discordo dessa análise.	discrepar	b1 verb
+pt-b1-025	reclamar (v.)	expressar insatisfação	Reclamei do serviço.	quejarse, reclamar	b1 verb
+pt-b1-026	agradecer (v.)	expressar gratidão	Agradeço a ajuda de todos.	agradecer	b1 verb
+pt-b1-027	desculpar (v.)	perdoar; pedir perdão	Desculpe o atraso.	disculpar	b1 verb
+pt-b1-028	aproveitar (v.)	usar bem uma oportunidade	Aproveitei o feriado para descansar.	aprovechar	b1 verb
+pt-b1-029	investir (v.)	aplicar recursos	Investiram em tecnologia.	invertir	b1 verb money
+pt-b1-030	economizar (v.)	gastar menos	Economizo para viajar.	ahorrar	b1 verb money
+pt-b1-031	gastar (v.)	usar dinheiro ou tempo	Gastei muito no fim de semana.	gastar	b1 verb money
+pt-b1-032	cobrar (v.)	pedir pagamento	Cobraram taxa de serviço.	cobrar	b1 verb money
+pt-b1-033	devolver (v.)	dar de volta	Devolvi o produto na loja.	devolver	b1 verb shopping
+pt-b1-034	trocar (v.)	substituir; intercambiar	Quero trocar de tamanho.	cambiar	b1 verb shopping
+pt-b1-035	entregar (v.)	dar em mãos; fazer chegar	Entreguei o relatório no prazo.	entregar	b1 verb work
+pt-b1-036	adiar (v.)	transferir para depois	Adiamos a reunião.	posponer, aplazar	b1 verb work
+pt-b1-037	cancelar (v.)	desfazer algo agendado	Cancelaram o voo.	cancelar	b1 verb
+pt-b1-038	marcar (v.)	agendar; assinalar	Vamos marcar um café.	quedar; marcar	b1 verb keyword
+pt-b1-039	demorar (v.)	levar muito tempo	Demorou duas horas.	tardar	b1 verb
+pt-b1-040	pressa (s.f.)	necessidade de rapidez	Não tenha pressa.	prisa	b1 noun
+pt-b1-041	desafio (s.m.)	tarefa difícil e estimulante	Aprender português foi um desafio.	desafío, reto	b1 noun
+pt-b1-042	objetivo (s.m.)	o que se quer alcançar	Meu objetivo é morar no Brasil.	objetivo	b1 noun
+pt-b1-043	meta (s.f.)	alvo concreto a atingir	Batemos a meta do trimestre.	meta	b1 noun work
+pt-b1-044	resultado (s.m.)	o que se obtém	Os resultados foram positivos.	resultado	b1 noun
+pt-b1-045	consequência (s.f.)	efeito de algo	Sofremos as consequências.	consecuencia	b1 noun
+pt-b1-046	vantagem (s.f.)	ponto favorável	A vantagem é a flexibilidade.	ventaja	b1 noun
+pt-b1-047	desvantagem (s.f.)	ponto desfavorável	A desvantagem é o custo.	desventaja	b1 noun
+pt-b1-048	risco (s.m.)	possibilidade de dano	Existe risco de atraso.	riesgo	b1 noun
+pt-b1-049	solução (s.f.)	resposta a um problema	Encontramos uma solução.	solución	b1 noun
+pt-b1-050	proposta (s.f.)	sugestão formal	A proposta foi aprovada.	propuesta	b1 noun work
+pt-b1-051	prova (s.f.)	exame; evidência	Tenho prova de português amanhã.	examen; prueba	b1 noun school
+pt-b1-052	pesquisa (s.f.)	investigação; enquete	Fiz uma pesquisa sobre o tema.	investigación; encuesta	b1 noun
+pt-b1-053	dados (s.m.pl.)	informações, números	Os dados mostram uma queda.	datos	b1 noun
+pt-b1-054	relatório (s.m.)	documento com resultados	Escrevi o relatório mensal.	informe	b1 noun work
+pt-b1-055	prazo de entrega (loc.)	data limite para entregar	O prazo de entrega é sexta.	plazo de entrega	b1 noun chunk work
+pt-b1-056	ponto de vista (loc.)	perspectiva	Do meu ponto de vista, faz sentido.	punto de vista	b1 noun chunk
+pt-b1-057	mão de obra (loc.)	trabalho humano disponível	Falta mão de obra qualificada.	mano de obra	b1 noun chunk work
+pt-b1-058	custo de vida (loc.)	quanto custa viver num lugar	O custo de vida subiu.	coste de vida	b1 noun chunk money
+pt-b1-059	horário de pico (loc.)	hora de maior movimento	Evito o horário de pico.	hora punta	b1 noun chunk transport
+pt-b1-060	trânsito (s.m.)	circulação de veículos	O trânsito estava horrível.	tráfico	b1 noun transport falsefriend
+pt-b1-061	engarrafamento (s.m.)	trânsito parado	Fiquei duas horas no engarrafamento.	atasco, trancón	b1 noun transport
+pt-b1-062	multa (s.f.)	pena em dinheiro	Levei uma multa por velocidade.	multa	b1 noun transport
+pt-b1-063	prefeitura (s.f.)	governo da cidade	A prefeitura anunciou obras.	ayuntamiento, alcaldía	b1 noun civic
+pt-b1-064	governo (s.m.)	quem administra o país	O governo aprovou a lei.	gobierno	b1 noun civic
+pt-b1-065	lei (s.f.)	norma jurídica	A lei entra em vigor em janeiro.	ley	b1 noun civic
+pt-b1-066	direito (s.m.)	prerrogativa legal; a área do Direito	Todos têm direito à saúde.	derecho	b1 noun civic
+pt-b1-067	dever (s.m./v.)	obrigação; ter obrigação de	É nosso dever votar. Devo sair.	deber	b1 noun civic
+pt-b1-068	imprensa (s.f.)	conjunto dos meios de comunicação	A imprensa cobriu o caso.	prensa	b1 noun media
+pt-b1-069	entrevistado (s.m.)	quem responde à entrevista	O entrevistado evitou a pergunta.	entrevistado	b1 noun media
+pt-b1-070	desigualdade (s.f.)	diferença injusta	A desigualdade aumentou.	desigualdad	b1 noun social
+pt-b1-071	moradia (s.f.)	lugar onde se vive	O problema da moradia é grave.	vivienda	b1 noun social
+pt-b1-072	bairro (s.m.)	parte de uma cidade	Moro num bairro tranquilo.	barrio	b1 noun places
+pt-b1-073	periferia (s.f.)	áreas afastadas do centro	Ele mora na periferia.	periferia	b1 noun places
+pt-b1-074	obra (s.f.)	construção; trabalho artístico	Tem obra na rua há meses.	obra	b1 noun
+pt-b1-075	meio ambiente (loc.)	natureza e entorno	Precisamos proteger o meio ambiente.	medio ambiente	b1 noun chunk
+pt-b1-076	lixo (s.m.)	resíduos	Separo o lixo reciclável.	basura	b1 noun
+pt-b1-077	seca (s.f.)	falta prolongada de chuva	A seca afetou a colheita.	sequía	b1 noun weather
+pt-b1-078	enchente (s.f.)	inundação por chuva	A enchente alagou o centro.	inundación	b1 noun weather
+pt-b1-079	previsão (s.f.)	estimativa do que vai acontecer	A previsão é de chuva.	pronóstico, previsión	b1 noun weather
+pt-b1-080	de repente (loc.)	subitamente	De repente começou a chover.	de repente	b1 adv chunk
+pt-b1-081	aos poucos (loc.)	gradualmente	Aos poucos fui entendendo.	poco a poco	b1 adv chunk
+pt-b1-082	na verdade (loc.)	de fato, corrigindo	Na verdade, foi diferente.	en realidad	b1 adv chunk
+pt-b1-083	além disso (loc.)	adicionalmente	Além disso, é mais barato.	además	b1 adv chunk
+pt-b1-084	no entanto (loc.)	contudo	No entanto, existem riscos.	sin embargo	b1 conj chunk
+pt-b1-085	portanto (conj.)	por essa razão	Chove; portanto, ficamos em casa.	por lo tanto	b1 conj
+pt-b1-086	apesar de (loc.)	mesmo com	Apesar do frio, saímos.	a pesar de	b1 conj chunk
+pt-b1-087	embora (conj.)	ainda que (exige subjuntivo)	Embora esteja cansado, vou.	aunque	b1 conj grammar
+pt-b1-088	caso (conj.)	se (exige subjuntivo)	Caso precise, me avise.	en caso de que	b1 conj grammar
+pt-b1-089	desde que (conj.)	com a condição de que	Vou, desde que você venha.	siempre que	b1 conj grammar
+pt-b1-090	a fim de (loc.)	com o objetivo de	Estudo a fim de melhorar.	con el fin de	b1 conj chunk
+pt-b1-091	ou seja (loc.)	isto é, reformulando	Vem amanhã, ou seja, terça.	o sea	b1 conj chunk
+pt-b1-092	inclusive (adv.)	até mesmo	Inclusive ele veio.	incluso	b1 adv
+pt-b1-093	sobretudo (adv.)	principalmente	Gosto de música, sobretudo samba.	sobre todo	b1 adv
+pt-b1-094	dificilmente (adv.)	é pouco provável que	Dificilmente chego antes das oito.	difícilmente	b1 adv
+pt-b1-095	provavelmente (adv.)	com probabilidade	Provavelmente vai atrasar.	probablemente	b1 adv
+pt-b1-096	atual (adj.)	do momento presente	Na situação atual, é difícil.	actual	b1 adj
+pt-b1-097	disponível (adj.)	que pode ser usado	O quarto está disponível.	disponible	b1 adj
+pt-b1-098	necessário (adj.)	indispensável	É necessário confirmar antes.	necesario	b1 adj
+pt-b1-099	suficiente (adj.)	que basta	O tempo não foi suficiente.	suficiente	b1 adj
+pt-b1-100	capaz (adj.)	que tem capacidade (capaz DE)	Ele é capaz de resolver isso.	capaz	b1 adj

@@ -1,0 +1,100 @@
+riuscire (v.)	arrivare a fare (riuscire A)	Non sono riuscito a dormire.	lograr, conseguir	a2 verb top500 preposition
+succedere (v.)	accadere	Che cosa è successo?	pasar, suceder	a2 verb top500
+lasciare (v.)	permettere; abbandonare	Lasciami vedere. Ho lasciato le chiavi a casa.	dejar	a2 verb top500 keyverb
+portare (v.)	trasportare; indossare	Ti porto a casa. Porta gli occhiali.	llevar	a2 verb top500 keyverb
+perdere (v.)	non avere più; non arrivare in tempo	Ho perso le chiavi. Ho perso l'autobus.	perder	a2 verb top500 irregular
+guadagnare (v.)	ricevere denaro	Guadagno duemila euro al mese.	ganar	a2 verb work
+tenere (v.)	mantenere in mano; conservare	Tieni il resto.	tener, guardar	a2 verb irregular keyverb
+cambiare (v.)	rendere diverso; traslocare	Abbiamo cambiato casa.	cambiar	a2 verb
+migliorare (v.)	diventare migliore	Il mio italiano è migliorato.	mejorar	a2 verb
+peggiorare (v.)	diventare peggiore	Il tempo è peggiorato.	empeorar	a2 verb
+provare (v.)	tentare; assaggiare; provare un vestito	Ho provato a chiamarti.	intentar; probar	a2 verb keyverb
+sembrare (v.)	dare l'impressione	Sembra che piova.	parecer	a2 verb top500
+ricordare (v.)	tenere in memoria	Mi ricordo di te.	recordar	a2 verb
+dimenticare (v.)	perdere dalla memoria	Ho dimenticato il suo nome.	olvidar	a2 verb
+crescere (v.)	diventare più grande	I bambini crescono in fretta.	crecer	a2 verb
+nascere (v.)	venire al mondo	Sono nato a Medellín.	nacer	a2 verb irregular
+morire (v.)	cessare di vivere	Mio nonno è morto l'anno scorso.	morir	a2 verb irregular
+ricevere (v.)	ottenere ciò che è inviato	Ho ricevuto il tuo messaggio.	recibir	a2 verb
+mandare (v.)	far arrivare	Ti mando una mail.	enviar, mandar	a2 verb
+usare (v.)	impiegare	Uso gli occhiali per leggere.	usar	a2 verb
+togliere (v.)	rimuovere	Togli la giacca, fa caldo.	quitar	a2 verb irregular
+mettere (v.)	collocare; indossare	Ho messo il libro sul tavolo.	poner	a2 verb irregular keyverb
+funzionare (v.)	andare bene, operare	Non funziona.	funcionar	a2 verb
+camminare (v.)	andare a piedi	Cammino molto in centro.	caminar	a2 verb
+correre (v.)	spostarsi in fretta	Corro al parco la mattina.	correr	a2 verb sport
+salire (v.)	andare verso l'alto; salire sull'autobus	Salgo le scale.	subir	a2 verb falsefriend
+scendere (v.)	andare verso il basso; scendere dall'autobus	Scendo alla prossima fermata.	bajar	a2 verb transport
+entrare (v.)	passare dentro	Sono entrato piano.	entrar	a2 verb
+uscire (v.)	andare fuori	Esco dal lavoro alle sei.	salir	a2 verb irregular
+tornare (v.)	rientrare	Torno domani mattina.	volver	a2 verb
+avere voglia di (loc.)	desiderare	Ho voglia di un caffè.	tener ganas de	a2 verb chunk
+avere mal di (loc.)	sentire dolore	Ho mal di testa.	dolerle algo	a2 verb chunk health
+stare per (loc.)	essere sul punto di	Sto per uscire.	estar a punto de	a2 verb chunk grammar
+valere la pena (loc.)	meritare lo sforzo	Vale la pena visitare Firenze.	valer la pena	a2 verb chunk
+fare attenzione (loc.)	essere prudenti	Fai attenzione al gradino!	tener cuidado	a2 verb chunk
+accorgersi (v.)	percepire (accorgersi DI)	Mi sono accorto dell'errore.	darse cuenta	a2 verb reflexive preposition
+avere fretta (loc.)	avere poco tempo	Ho fretta, scusa.	tener prisa	a2 verb chunk
+avere fame / sete (loc.)	bisogno di mangiare / bere	Ho fame e ho sete.	tener hambre / sed	a2 verb chunk
+dare una mano (loc.)	aiutare	Mi dai una mano?	echar una mano	a2 verb chunk
+fare un giro (loc.)	andare a passeggio	Facciamo un giro in centro?	dar una vuelta	a2 verb chunk
+salute (s.f.)	stato del corpo	Mi prendo cura della salute.	salud	a2 noun health
+malattia (s.f.)	problema di salute	Ha avuto una malattia grave.	enfermedad	a2 noun health
+dolore (s.m.)	sensazione fisica sgradevole	Il dolore è passato.	dolor	a2 noun health
+medicina (s.f.)	sostanza per curare; la disciplina	Ho preso la medicina alle otto.	medicina	a2 noun health
+appuntamento (s.m.)	ora concordata	Ho un appuntamento martedì.	cita	a2 noun health
+ricetta (s.f.)	prescrizione; ricetta di cucina	Il medico mi ha fatto una ricetta.	receta	a2 noun health
+corpo (s.m.)	organismo fisico	Lo sport fa bene al corpo.	cuerpo	a2 noun body
+testa (s.f.)	parte alta del corpo	Ho sbattuto la testa.	cabeza	a2 noun body
+gamba (s.f.)	arto inferiore	Mi sono fatto male alla gamba.	pierna	a2 noun body
+braccio / braccia (s.m.)	arto superiore (plurale femminile: le braccia)	Si è rotto il braccio.	brazo	a2 noun body irregular
+schiena (s.f.)	parte posteriore del tronco	Mi fa male la schiena.	espalda	a2 noun body
+gola (s.f.)	interno del collo	Ho mal di gola.	garganta	a2 noun body
+impiego (s.m.)	posto di lavoro retribuito	Ho trovato un nuovo impiego.	empleo	a2 noun work
+azienda (s.f.)	organizzazione economica	Lavoro in una piccola azienda.	empresa	a2 noun work
+capo (s.m.)	chi dirige; anche un capo di vestiario	Il mio capo è esigente.	jefe	a2 noun work keyword
+riunione (s.f.)	incontro di lavoro	La riunione è alle dieci.	reunión	a2 noun work
+stipendio (s.m.)	pagamento mensile	Lo stipendio è discreto.	sueldo	a2 noun work
+curriculum (s.m.)	documento con l'esperienza	Ho mandato il curriculum ieri.	currículum	a2 noun work
+colloquio (s.m.)	conversazione di valutazione	Ho un colloquio di lavoro.	entrevista	a2 noun work falsefriend
+scadenza (s.f.)	data limite	La scadenza è venerdì.	plazo, vencimiento	a2 noun work
+orario (s.m.)	organizzazione del tempo	Il mio orario è flessibile.	horario	a2 noun work
+ferie (s.f.pl.)	periodo di riposo dal lavoro	Prendo le ferie a gennaio.	vacaciones	a2 noun work
+festivo (s.m./adj.)	giorno non lavorativo	Lunedì è festivo.	festivo	a2 noun time
+compleanno (s.m.)	data di nascita	Il mio compleanno è a marzo.	cumpleaños	a2 noun time
+festa (s.f.)	celebrazione	La festa è stata bellissima.	fiesta	a2 noun social
+invito (s.m.)	richiesta di partecipare	Ho ricevuto un invito al matrimonio.	invitación	a2 noun social
+regalo (s.m.)	oggetto donato	Ho comprato un regalo per lei.	regalo	a2 noun social
+fidanzato / fidanzata (s.)	partner romantico	Il mio fidanzato è insegnante.	novio	a2 noun social
+matrimonio (s.m.)	unione; la cerimonia	Il matrimonio è sabato.	boda, matrimonio	a2 noun social
+vicino / vicina (s.)	chi abita accanto	I miei vicini sono simpatici.	vecino	a2 noun people
+bolletta (s.f.)	documento di pagamento (luce, gas)	È arrivata la bolletta della luce.	factura	a2 noun money
+tassa (s.f.)	denaro versato allo Stato	Le tasse sono alte.	impuesto	a2 noun money
+affitto (s.m.)	pagamento mensile della casa	L'affitto è aumentato.	alquiler	a2 noun money
+sconto (s.m.)	riduzione del prezzo	C'è lo sconto per studenti?	descuento	a2 noun shopping
+risparmi (s.m.pl.)	denaro messo da parte	Ho usato i risparmi.	ahorros	a2 noun money
+debito (s.m.)	ciò che si deve	Ha molti debiti.	deuda	a2 noun money
+notizia (s.f.)	informazione su un fatto	Ho visto la notizia al telegiornale.	noticia	a2 noun media
+giornale (s.m.)	pubblicazione di notizie	Leggo il giornale la mattina.	periódico	a2 noun media
+rivista (s.f.)	pubblicazione periodica	Ho comprato una rivista.	revista	a2 noun media
+sito (s.m.)	pagina internet	L'ho visto sul sito.	sitio web	a2 noun tech
+password (s.f.)	codice di accesso	Ho dimenticato la password.	contraseña	a2 noun tech
+file (s.m.)	documento digitale	Ti mando il file per mail.	archivo	a2 noun tech
+schermo (s.m.)	superficie di visualizzazione	Lo schermo si è rotto.	pantalla	a2 noun tech
+rete (s.f.)	connessione; reti sociali	La rete è lenta oggi.	red	a2 noun tech
+lento / lenta (adj.)	che richiede tempo	La connessione è molto lenta.	lento	a2 adj
+veloce (adj.)	rapido	Parla troppo veloce.	rápido	a2 adj
+pieno / piena (adj.)	senza spazio libero	L'autobus era pieno.	lleno	a2 adj
+vuoto / vuota (adj.)	senza niente dentro	Il frigo è vuoto.	vacío	a2 adj
+pulito / pulita (adj.)	senza sporco	La camera è pulita.	limpio	a2 adj
+sporco / sporca (adj.)	con sporcizia	Le scarpe sono sporche.	sucio	a2 adj
+forte (adj.)	con forza; intenso	Il caffè è troppo forte.	fuerte	a2 adj
+debole (adj.)	senza forza	Mi sento debole.	débil	a2 adj
+occupato / occupata (adj.)	con molti impegni	Sono occupato adesso.	ocupado	a2 adj
+libero / libera (adj.)	disponibile	Sei libero domani?	libre	a2 adj
+divertente (adj.)	che fa divertire	È una persona divertente.	divertido	a2 adj feelings
+noioso / noiosa (adj.)	che annoia	Questo film è noioso.	aburrido	a2 adj feelings
+simpatico / simpatica (adj.)	gradevole nei modi	I tuoi vicini sono simpatici.	simpático	a2 adj feelings
+cattivo / cattiva (adj.)	di qualità negativa; malvagio	Il tempo è cattivo oggi.	malo	a2 adj
+pronto / pronta (adj.)	preparato; «pronto?» al telefono	La cena è pronta.	listo	a2 adj
+stesso / stessa (adj.)	identico	Abbiamo lo stesso problema.	mismo	a2 adj

@@ -1,0 +1,101 @@
+id	front	definition	example	translation	tags
+pt-b2-001	abrangente (adj.)	que cobre muitos aspectos	Fizemos uma análise abrangente.	amplio, exhaustivo	b2 adj awl
+pt-b2-002	viável (adj.)	que pode ser realizado	A proposta não é viável.	viable	b2 adj awl
+pt-b2-003	inevitável (adj.)	que não se pode evitar	O confronto era inevitável.	inevitable	b2 adj
+pt-b2-004	imprescindível (adj.)	absolutamente necessário	Sua presença é imprescindível.	imprescindible	b2 adj
+pt-b2-005	relevante (adj.)	importante para o caso	O dado não é relevante aqui.	relevante	b2 adj awl
+pt-b2-006	polêmico (adj.)	que gera discussão	A decisão foi polêmica.	polémico	b2 adj
+pt-b2-007	sutil (adj.)	pouco perceptível, delicado	Há uma diferença sutil entre os dois.	sutil	b2 adj
+pt-b2-008	ambíguo (adj.)	com mais de um sentido	A resposta foi ambígua.	ambiguo	b2 adj awl
+pt-b2-009	coerente (adj.)	sem contradição interna	O argumento é coerente.	coherente	b2 adj awl
+pt-b2-010	pertinente (adj.)	adequado ao assunto	Fez uma pergunta pertinente.	pertinente	b2 adj awl
+pt-b2-011	subjacente (adj.)	que está por baixo, implícito	Existe um problema subjacente.	subyacente	b2 adj awl
+pt-b2-012	arraigado (adj.)	fixado profundamente	É um hábito arraigado na cultura.	arraigado	b2 adj
+pt-b2-013	incipiente (adj.)	que está no início	O mercado é ainda incipiente.	incipiente	b2 adj
+pt-b2-014	consolidar (v.)	tornar firme e duradouro	A empresa consolidou sua posição.	consolidar	b2 verb awl
+pt-b2-015	ressalvar (v.)	fazer uma exceção ou reserva	Ressalvo que os dados são parciais.	salvar, matizar	b2 verb
+pt-b2-016	atribuir (v.)	dar como causa ou mérito	Atribuem o erro à pressa.	atribuir	b2 verb awl
+pt-b2-017	acarretar (v.)	trazer como consequência	A mudança acarretou custos.	acarrear, conllevar	b2 verb
+pt-b2-018	desencadear (v.)	provocar uma série de efeitos	A notícia desencadeou protestos.	desencadenar	b2 verb
+pt-b2-019	mitigar (v.)	reduzir a intensidade	Medidas para mitigar o impacto.	mitigar	b2 verb awl
+pt-b2-020	prescindir (v.)	dispensar (prescindir DE)	Não podemos prescindir dela.	prescindir	b2 verb preposition
+pt-b2-021	incorrer (v.)	cair em (erro, custo)	Incorremos em despesas extras.	incurrir	b2 verb
+pt-b2-022	vigorar (v.)	estar em vigor	A norma vigora desde 2024.	estar en vigor	b2 verb civic
+pt-b2-023	vislumbrar (v.)	perceber vagamente; entrever	Vislumbra-se uma saída.	vislumbrar	b2 verb
+pt-b2-024	pressupor (v.)	assumir como condição prévia	Isso pressupõe boa-fé.	presuponer	b2 verb awl
+pt-b2-025	constatar (v.)	verificar como fato	Constatamos uma melhora.	constatar	b2 verb awl
+pt-b2-026	averiguar (v.)	investigar para saber	Vamos averiguar as causas.	averiguar	b2 verb
+pt-b2-027	sanar (v.)	corrigir, resolver	Precisamos sanar as dúvidas.	sanar, resolver	b2 verb
+pt-b2-028	descartar (v.)	eliminar uma possibilidade	Descartamos essa hipótese.	descartar	b2 verb
+pt-b2-029	privilegiar (v.)	dar preferência	O texto privilegia a clareza.	privilegiar	b2 verb
+pt-b2-030	respaldar (v.)	dar apoio ou sustentação	Os dados respaldam a tese.	respaldar	b2 verb
+pt-b2-031	abordagem (s.f.)	forma de tratar um assunto	A abordagem foi inovadora.	enfoque	b2 noun awl
+pt-b2-032	âmbito (s.m.)	esfera de atuação	No âmbito jurídico, é diferente.	ámbito	b2 noun awl
+pt-b2-033	viés (s.m.)	inclinação que distorce	Há um viés na amostra.	sesgo	b2 noun awl
+pt-b2-034	lacuna (s.f.)	espaço vazio, falta	Existe uma lacuna na lei.	laguna, vacío	b2 noun awl
+pt-b2-035	ressalva (s.f.)	reserva, exceção	Aprovo, com uma ressalva.	reserva, salvedad	b2 noun
+pt-b2-036	pressuposto (s.m.)	condição assumida de antemão	O pressuposto é falso.	presupuesto (premisa)	b2 noun awl falsefriend
+pt-b2-037	desdobramento (s.m.)	consequência que se ramifica	Os desdobramentos foram graves.	derivación, consecuencia	b2 noun
+pt-b2-038	alcance (s.m.)	extensão do efeito	O alcance da medida é limitado.	alcance	b2 noun awl
+pt-b2-039	entrave (s.m.)	obstáculo	A burocracia é um entrave.	traba, obstáculo	b2 noun
+pt-b2-040	empecilho (s.m.)	impedimento	O custo é o maior empecilho.	impedimento	b2 noun
+pt-b2-041	arcabouço (s.m.)	estrutura, marco	O arcabouço legal mudou.	marco	b2 noun awl
+pt-b2-042	panorama (s.m.)	visão geral	O panorama econômico melhorou.	panorama	b2 noun
+pt-b2-043	tendência (s.f.)	direção provável	A tendência é de queda.	tendencia	b2 noun awl
+pt-b2-044	indício (s.m.)	sinal que sugere algo	Há indícios de fraude.	indicio	b2 noun
+pt-b2-045	acervo (s.m.)	coleção reunida	O acervo do museu é enorme.	acervo, fondos	b2 noun
+pt-b2-046	trâmite (s.m.)	etapa de um processo burocrático	O processo está em trâmite.	trámite	b2 noun civic
+pt-b2-047	parecer (s.m.)	opinião técnica formal	O parecer foi favorável.	dictamen	b2 noun civic keyword
+pt-b2-048	prazo prescricional (loc.)	tempo após o qual se perde o direito	O prazo prescricional já venceu.	plazo de prescripción	b2 noun chunk civic
+pt-b2-049	a rigor (loc.)	falando com precisão	A rigor, isso não é correto.	en rigor	b2 adv chunk
+pt-b2-050	em suma (loc.)	resumindo	Em suma, o plano funcionou.	en suma	b2 adv chunk
+pt-b2-051	por sua vez (loc.)	introduzindo outro elemento	Ele, por sua vez, discordou.	por su parte	b2 adv chunk
+pt-b2-052	ao passo que (loc.)	enquanto, em contraste	Um cresceu, ao passo que o outro caiu.	mientras que	b2 conj chunk
+pt-b2-053	na medida em que (loc.)	à proporção que; porque	Na medida em que avança, melhora.	en la medida en que	b2 conj chunk
+pt-b2-054	tendo em vista (loc.)	considerando	Tendo em vista o prazo, decidimos.	teniendo en cuenta	b2 conj chunk
+pt-b2-055	haja vista (loc.)	dado que	Haja vista os dados, é claro.	dado que	b2 conj chunk
+pt-b2-056	sem prejuízo de (loc.)	sem que isso impeça	Aprovo, sem prejuízo de revisão.	sin perjuicio de	b2 conj chunk civic
+pt-b2-057	à luz de (loc.)	com base em	À luz dos fatos, mudamos.	a la luz de	b2 conj chunk
+pt-b2-058	de modo que (loc.)	de forma que (resultado)	Falei devagar, de modo que entendessem.	de modo que	b2 conj chunk
+pt-b2-059	caso contrário (loc.)	se não for assim	Confirme; caso contrário, cancelo.	de lo contrario	b2 conj chunk
+pt-b2-060	por outro lado (loc.)	apresentando o contraste	Por outro lado, o custo aumenta.	por otro lado	b2 conj chunk
+pt-b2-061	dar-se conta (loc.)	perceber	Deu-se conta do erro tarde.	darse cuenta	b2 verb chunk
+pt-b2-062	levar em conta (loc.)	considerar	Leve em conta o contexto.	tener en cuenta	b2 verb chunk
+pt-b2-063	pôr em prática (loc.)	executar	Puseram o plano em prática.	poner en práctica	b2 verb chunk
+pt-b2-064	deixar a desejar (loc.)	ficar abaixo do esperado	O atendimento deixou a desejar.	dejar que desear	b2 verb chunk
+pt-b2-065	ter em mente (loc.)	não esquecer	Tenha em mente o prazo.	tener en mente	b2 verb chunk
+pt-b2-066	fazer jus a (loc.)	ser merecedor de	O filme faz jus à fama.	hacer honor a	b2 verb chunk
+pt-b2-067	dar margem a (loc.)	permitir que surja	O texto dá margem a dúvidas.	dar lugar a	b2 verb chunk
+pt-b2-068	correr o risco de (loc.)	expor-se a	Corremos o risco de perder tudo.	correr el riesgo de	b2 verb chunk
+pt-b2-069	tomar as devidas providências (loc.)	agir formalmente	A empresa tomou as devidas providências.	tomar las medidas oportunas	b2 verb chunk civic
+pt-b2-070	abrir mão de (loc.)	renunciar a	Abriu mão do cargo.	renunciar a	b2 verb chunk
+pt-b2-071	tirar de letra (loc.)	resolver com facilidade (informal)	Tirou a prova de letra.	hacerlo sin esfuerzo	b2 idiom
+pt-b2-072	dar com os burros n'água (loc.)	fracassar	Tentou e deu com os burros n'água.	fracasar	b2 idiom
+pt-b2-073	quebrar o galho (loc.)	resolver provisoriamente	Isso quebra o galho por enquanto.	sacar del apuro	b2 idiom
+pt-b2-074	pisar em ovos (loc.)	agir com muito cuidado	Nesse tema é preciso pisar em ovos.	andar con pies de plomo	b2 idiom
+pt-b2-075	dar o braço a torcer (loc.)	admitir que errou	Ele não dá o braço a torcer.	dar su brazo a torcer	b2 idiom
+pt-b2-076	fazer vista grossa (loc.)	ignorar de propósito	A fiscalização fez vista grossa.	hacer la vista gorda	b2 idiom
+pt-b2-077	custar os olhos da cara (loc.)	ser muito caro	O aluguel custa os olhos da cara.	costar un ojo de la cara	b2 idiom
+pt-b2-078	cair a ficha (loc.)	entender de repente	Só depois caiu a ficha.	caer en la cuenta	b2 idiom
+pt-b2-079	de mão beijada (loc.)	sem esforço, de graça	Recebeu o cargo de mão beijada.	en bandeja	b2 idiom
+pt-b2-080	a torto e a direito (loc.)	sem critério	Contrata a torto e a direito.	a diestro y siniestro	b2 idiom
+pt-b2-081	âmago (s.m.)	parte mais íntima, essência	No âmago da questão está o custo.	núcleo, esencia	b2 noun
+pt-b2-082	respaldo (s.m.)	apoio, sustentação	A tese tem respaldo empírico.	respaldo	b2 noun
+pt-b2-083	nuance (s.f.)	matiz	Perdeu-se a nuance na tradução.	matiz	b2 noun
+pt-b2-084	acirramento (s.m.)	intensificação de um conflito	Houve acirramento do debate.	recrudecimiento	b2 noun
+pt-b2-085	morosidade (s.f.)	lentidão excessiva	A morosidade do processo irrita.	morosidad, lentitud	b2 noun civic
+pt-b2-086	alçada (s.f.)	âmbito de competência	Não é da minha alçada.	competencia	b2 noun civic
+pt-b2-087	contrapartida (s.f.)	o que se dá em troca	Pediu uma contrapartida.	contrapartida	b2 noun
+pt-b2-088	ressarcimento (s.m.)	compensação por prejuízo	Pedimos ressarcimento dos danos.	indemnización	b2 noun civic
+pt-b2-089	inadimplência (s.f.)	falta de pagamento	A inadimplência cresceu.	morosidad (impago)	b2 noun money
+pt-b2-090	defasagem (s.f.)	desajuste, atraso relativo	Há defasagem entre salário e inflação.	desfase	b2 noun money
+pt-b2-091	ainda que (conj.)	mesmo se (exige subjuntivo)	Ainda que chova, vamos.	aunque	b2 conj grammar
+pt-b2-092	por mais que (conj.)	não importa quanto	Por mais que tente, não consigo.	por más que	b2 conj grammar
+pt-b2-093	a menos que (conj.)	exceto se	Vou, a menos que chova.	a menos que	b2 conj grammar
+pt-b2-094	conquanto (conj.)	embora (registro formal)	Conquanto seja difícil, é possível.	si bien	b2 conj grammar
+pt-b2-095	tampouco (adv.)	também não	Ele não veio, tampouco avisou.	tampoco	b2 adv
+pt-b2-096	outrossim (adv.)	além disso (muito formal)	Outrossim, cabe destacar o prazo.	asimismo	b2 adv
+pt-b2-097	mormente (adv.)	principalmente (formal)	Mormente nos casos graves.	mayormente	b2 adv
+pt-b2-098	doravante (adv.)	de agora em diante	Doravante o acesso é restrito.	de ahora en adelante	b2 adv
+pt-b2-099	porquanto (conj.)	pois, já que (formal)	Recusou, porquanto não havia provas.	puesto que	b2 conj
+pt-b2-100	acaso (s.m./adv.)	casualidade; por casualidade	Foi puro acaso. Acaso você sabe?	azar; acaso	b2 noun

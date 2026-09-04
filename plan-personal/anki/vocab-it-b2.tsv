@@ -1,0 +1,100 @@
+pertinente (adj.)	adeguato all'argomento	Ha fatto una domanda pertinente.	pertinente	b2 adj awl
+praticabile (adj.)	realizzabile	La proposta non è praticabile.	viable	b2 adj awl
+inevitabile (adj.)	che non si può evitare	Lo scontro era inevitabile.	inevitable	b2 adj
+imprescindibile (adj.)	assolutamente necessario	La sua presenza è imprescindibile.	imprescindible	b2 adj
+rilevante (adj.)	importante per il caso	Il dato non è rilevante qui.	relevante	b2 adj awl
+controverso / controversa (adj.)	che genera discussione	La decisione è stata controversa.	polémico	b2 adj
+sottile (adj.)	poco percepibile; fine	C'è una differenza sottile.	sutil	b2 adj
+ambiguo / ambigua (adj.)	con più di un senso	La risposta era ambigua.	ambiguo	b2 adj awl
+coerente (adj.)	senza contraddizioni	L'argomento è coerente.	coherente	b2 adj awl
+sottostante (adj.)	che sta sotto, implicito	C'è un problema sottostante.	subyacente	b2 adj awl
+radicato / radicata (adj.)	fissato profondamente	È un'abitudine radicata.	arraigado	b2 adj
+nascente (adj.)	che comincia	Un mercato nascente.	incipiente	b2 adj
+consolidare (v.)	rendere solido e durevole	L'azienda ha consolidato la sua posizione.	consolidar	b2 verb awl
+attribuire (v.)	dare come causa o merito	Attribuiscono l'errore alla fretta.	atribuir	b2 verb awl
+comportare (v.)	avere come conseguenza	Il cambiamento ha comportato dei costi.	conllevar	b2 verb
+scatenare (v.)	provocare una serie di effetti	La notizia ha scatenato proteste.	desencadenar	b2 verb
+attenuare (v.)	ridurre l'intensità	Misure per attenuare l'impatto.	mitigar	b2 verb awl
+fare a meno di (loc.)	rinunciare a	Non possiamo fare a meno di lei.	prescindir de	b2 verb chunk
+incorrere (v.)	cadere in (errore, spesa)	Siamo incorsi in spese extra.	incurrir	b2 verb
+entrare in vigore (loc.)	diventare applicabile	La norma è entrata in vigore nel 2024.	entrar en vigor	b2 verb chunk civic
+presupporre (v.)	dare per condizione	Questo presuppone la buona fede.	presuponer	b2 verb awl
+constatare (v.)	verificare come un fatto	Constatiamo un miglioramento.	constatar	b2 verb awl
+scartare (v.)	eliminare una possibilità	Abbiamo scartato quell'ipotesi.	descartar	b2 verb
+privilegiare (v.)	dare la preferenza	Il testo privilegia la chiarezza.	privilegiar	b2 verb
+sostenere (v.)	appoggiare; affermare	I dati sostengono la tesi.	sostener, respaldar	b2 verb irregular
+mettere in discussione (loc.)	dubitare di	Questo mette in discussione le scelte.	poner en cuestión	b2 verb chunk
+approccio (s.m.)	modo di affrontare un tema	L'approccio è stato innovativo.	enfoque	b2 noun awl
+ambito (s.m.)	sfera di competenza	In ambito giuridico è diverso.	ámbito	b2 noun awl
+distorsione (s.f.)	deformazione	C'è una distorsione nel campione.	sesgo, distorsión	b2 noun awl
+lacuna (s.f.)	spazio vuoto, mancanza	Esiste una lacuna nella legge.	laguna, vacío	b2 noun awl
+riserva (s.f.)	restrizione, eccezione	Approvo, con una riserva.	reserva, salvedad	b2 noun
+presupposto (s.m.)	condizione data per assunta	Il presupposto è falso.	premisa	b2 noun awl
+portata (s.f.)	estensione dell'effetto; anche un piatto	La portata della misura è limitata.	alcance	b2 noun awl keyword
+ostacolo (s.m.)	ciò che impedisce	La burocrazia è un ostacolo.	obstáculo	b2 noun
+quadro (s.m.)	visione d'insieme; anche il dipinto	Il quadro economico è migliorato.	panorama; cuadro	b2 noun keyword
+tendenza (s.f.)	direzione probabile	La tendenza è al calo.	tendencia	b2 noun awl
+indizio (s.m.)	segno che suggerisce	Ci sono indizi di frode.	indicio	b2 noun
+pratica (s.f.)	iter burocratico; l'esercizio	La pratica è in corso.	trámite; práctica	b2 noun civic keyword
+parere (s.m.)	opinione; parere tecnico	A mio parere è rischioso.	opinión; dictamen	b2 noun
+posta in gioco (loc.)	ciò che si rischia	La posta in gioco è alta.	lo que está en juego	b2 noun chunk
+slancio (s.m.)	impulso, crescita rapida	Lo slancio del lavoro da remoto.	impulso, auge	b2 noun
+a dire il vero (loc.)	con franchezza	A dire il vero, non ci credo.	a decir verdad	b2 adv chunk
+in sintesi (loc.)	riassumendo	In sintesi, il piano ha funzionato.	en resumen	b2 adv chunk
+da parte sua (loc.)	introducendo un altro elemento	Lui, da parte sua, non era d'accordo.	por su parte	b2 adv chunk
+mentre (conj.)	nel frattempo; invece	Uno è cresciuto, mentre l'altro è calato.	mientras que	b2 conj
+nella misura in cui (loc.)	dato che, in proporzione a	Nella misura in cui è possibile, lo facciamo.	en la medida en que	b2 conj chunk
+tenuto conto di (loc.)	considerando	Tenuto conto della scadenza, abbiamo deciso.	teniendo en cuenta	b2 conj chunk
+dato che (conj.)	poiché	Dato che sei qui, aiutami.	dado que	b2 conj
+fermo restando che (loc.)	senza che ciò impedisca	Approvo, fermo restando che si rivedrà.	sin perjuicio de que	b2 conj chunk civic
+alla luce di (loc.)	sulla base di	Alla luce dei fatti, cambiamo.	a la luz de	b2 conj chunk
+in modo che (loc.)	così che (risultato)	Ho parlato piano, in modo che capissero.	de modo que	b2 conj chunk grammar
+altrimenti (adv.)	in caso contrario	Confermа, altrimenti annullo.	si no	b2 adv
+d'altra parte (loc.)	presentando il contrasto	D'altra parte, il costo aumenta.	por otra parte	b2 conj chunk
+sebbene (conj.)	benché (registro alto)	Sebbene sia difficile, è possibile.	si bien	b2 conj grammar
+a meno che (conj.)	tranne se (esige congiuntivo)	Vengo, a meno che non piova.	a menos que	b2 conj grammar
+purché (conj.)	a condizione che	Vengo, purché tu ci sia.	siempre que	b2 conj grammar
+tenere conto di (loc.)	considerare	Tieni conto del contesto.	tener en cuenta	b2 verb chunk
+mettere in pratica (loc.)	eseguire	Hanno messo in pratica il piano.	poner en práctica	b2 verb chunk
+lasciare a desiderare (loc.)	essere deludente	Il servizio lascia a desiderare.	dejar que desear	b2 verb chunk
+tenere a mente (loc.)	non dimenticare	Tieni a mente la scadenza.	tener en mente	b2 verb chunk
+essere oggetto di (loc.)	essere sottoposto a	Il caso è oggetto di indagine.	ser objeto de	b2 verb chunk
+dare luogo a (loc.)	provocare	Il testo dà luogo a dubbi.	dar lugar a	b2 verb chunk
+correre il rischio di (loc.)	esporsi a	Corriamo il rischio di perdere tutto.	correr el riesgo de	b2 verb chunk
+prendere i provvedimenti (loc.)	agire formalmente	L'azienda ha preso i provvedimenti necessari.	tomar las medidas	b2 verb chunk civic
+andare in fumo (loc.)	fallire	Il progetto è andato in fumo.	irse al agua	b2 idiom
+fare una gaffe (loc.)	dire qualcosa di inopportuno	Ha fatto una gaffe davanti a tutti.	meter la pata	b2 idiom
+camminare sulle uova (loc.)	agire con grande cautela	Su questo tema si cammina sulle uova.	andar con pies de plomo	b2 idiom
+chiudere un occhio (loc.)	ignorare volutamente	Il controllo ha chiuso un occhio.	hacer la vista gorda	b2 idiom
+costare un occhio della testa (loc.)	essere molto caro	L'affitto costa un occhio della testa.	costar un ojo de la cara	b2 idiom
+cadere dalle nuvole (loc.)	essere del tutto sorpreso	Sono caduto dalle nuvole.	quedarse de piedra	b2 idiom
+avere le mani in pasta (loc.)	essere coinvolto e influente	Ha le mani in pasta in quel settore.	tener mano	b2 idiom
+darsi da fare (loc.)	impegnarsi attivamente	Tutti si sono dati da fare.	poner manos a la obra	b2 idiom
+farsi coraggio (loc.)	decidersi malgrado la paura	Mi sono fatto coraggio e ho parlato.	armarse de valor	b2 idiom
+tornare su (loc.)	riconsiderare	Torno sulla mia decisione.	volver sobre	b2 verb chunk
+sostanza (s.f.)	essenza, nocciolo	Nella sostanza sono d'accordo.	fondo, sustancia	b2 noun
+appoggio (s.m.)	sostegno	La tesi ha l'appoggio dei dati.	apoyo	b2 noun
+sfumatura (s.f.)	differenza fine	La sfumatura si è persa nella traduzione.	matiz	b2 noun
+inasprimento (s.m.)	intensificazione	Un inasprimento del dibattito.	endurecimiento	b2 noun
+lentezza (s.f.)	l'essere lento	La lentezza della procedura irrita.	lentitud	b2 noun civic
+competenza (s.f.)	capacità; sfera di autorità	Non è di mia competenza.	competencia	b2 noun civic
+controparte (s.f.)	l'altra parte; ciò che si dà in cambio	Ha chiesto una controparte.	contrapartida	b2 noun
+risarcimento (s.m.)	compensazione di un danno	Chiediamo il risarcimento dei danni.	indemnización	b2 noun civic
+insolvenza (s.f.)	mancato pagamento	L'insolvenza è aumentata.	impago, insolvencia	b2 noun money
+scarto (s.m.)	differenza, divario	C'è uno scarto tra salario e inflazione.	desfase, brecha	b2 noun money
+nondimeno (adv.)	tuttavia (registro alto)	Nondimeno, bisogna essere prudenti.	no obstante	b2 adv
+anzi (adv.)	al contrario; o meglio	Non è brutto, anzi.	al contrario, más bien	b2 adv
+persino (adv.)	perfino, addirittura	È difficile, persino impossibile.	incluso	b2 adv
+certamente (adv.)	ammettendo prima di obiettare	Certamente è costoso, ma necessario.	ciertamente	b2 adv
+d'ora in poi (loc.)	da adesso	D'ora in poi l'accesso è limitato.	de ahora en adelante	b2 adv chunk
+in particolare (loc.)	specialmente	In particolare nei casi gravi.	en particular	b2 adv chunk
+a stento (loc.)	con difficoltà	Si regge a stento.	a duras penas	b2 adv chunk
+quanto a (loc.)	per ciò che riguarda	Quanto al budget, va rivisto.	en cuanto a	b2 prep chunk
+man mano (loc.)	progressivamente	Man mano migliora.	a medida que	b2 adv chunk
+di primo impatto (loc.)	al primo momento	Di primo impatto ha rifiutato.	de entrada	b2 adv chunk
+malgrado (prep.)	nonostante (registro alto)	Malgrado gli sforzi, è fallito.	a pesar de	b2 prep
+per mancanza di (loc.)	per assenza di	Per mancanza di tempo, abbiamo abbreviato.	por falta de	b2 prep chunk
+del resto (loc.)	d'altronde	Del resto, la questione resta aperta.	por lo demás	b2 adv chunk
+al pari di (loc.)	come, allo stesso modo di	Al pari dei vicini, il paese ha reagito.	al igual que	b2 prep chunk
+con riserva di (loc.)	a condizione di	Accordo dato, con riserva di verifica.	a reserva de	b2 prep chunk
+caso (s.m.)	circostanza; casualità	È stato un puro caso.	caso; azar	b2 noun

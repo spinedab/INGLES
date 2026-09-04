@@ -67,6 +67,9 @@ export const CONTENT: Record<string, LangContent> = {
     grammar: grammar_fr as unknown as GrammarTopic[],
     vocab: {
       a1: async () => (await import('../assets/content/fr/vocab/a1.json')).default as VocabCard[],
+      a2: async () => (await import('../assets/content/fr/vocab/a2.json')).default as VocabCard[],
+      b1: async () => (await import('../assets/content/fr/vocab/b1.json')).default as VocabCard[],
+      b2: async () => (await import('../assets/content/fr/vocab/b2.json')).default as VocabCard[],
     },
     readings: {"a1": ["fr-a1-01"], "a2": ["fr-a2-01"], "b1": ["fr-b1-01"], "b2": ["fr-b2-01"]},
     listening: {"a1": ["fr-a1-listen-01"], "a2": [], "b1": ["fr-b1-listen-01"], "b2": []},
@@ -86,6 +89,9 @@ export const CONTENT: Record<string, LangContent> = {
     grammar: grammar_it as unknown as GrammarTopic[],
     vocab: {
       a1: async () => (await import('../assets/content/it/vocab/a1.json')).default as VocabCard[],
+      a2: async () => (await import('../assets/content/it/vocab/a2.json')).default as VocabCard[],
+      b1: async () => (await import('../assets/content/it/vocab/b1.json')).default as VocabCard[],
+      b2: async () => (await import('../assets/content/it/vocab/b2.json')).default as VocabCard[],
     },
     readings: {"a1": ["it-a1-01"], "a2": ["it-a2-01"], "b1": ["it-b1-01"], "b2": ["it-b2-01"]},
     listening: {"a1": ["it-a1-listen-01"], "a2": [], "b1": ["it-b1-listen-01"], "b2": []},
@@ -105,6 +111,9 @@ export const CONTENT: Record<string, LangContent> = {
     grammar: grammar_pt as unknown as GrammarTopic[],
     vocab: {
       a1: async () => (await import('../assets/content/pt/vocab/a1.json')).default as VocabCard[],
+      a2: async () => (await import('../assets/content/pt/vocab/a2.json')).default as VocabCard[],
+      b1: async () => (await import('../assets/content/pt/vocab/b1.json')).default as VocabCard[],
+      b2: async () => (await import('../assets/content/pt/vocab/b2.json')).default as VocabCard[],
     },
     readings: {"a1": ["pt-a1-01"], "a2": ["pt-a2-01"], "b1": ["pt-b1-01"], "b2": ["pt-b2-01"]},
     listening: {"a1": ["pt-a1-listen-01"], "a2": [], "b1": ["pt-b1-listen-01"], "b2": []},
@@ -124,6 +133,9 @@ export const CONTENT: Record<string, LangContent> = {
     grammar: grammar_zh as unknown as GrammarTopic[],
     vocab: {
       a1: async () => (await import('../assets/content/zh/vocab/a1.json')).default as VocabCard[],
+      a2: async () => (await import('../assets/content/zh/vocab/a2.json')).default as VocabCard[],
+      b1: async () => (await import('../assets/content/zh/vocab/b1.json')).default as VocabCard[],
+      b2: async () => (await import('../assets/content/zh/vocab/b2.json')).default as VocabCard[],
     },
     readings: {"a1": ["zh-a1-01"], "a2": ["zh-a2-01"], "b1": ["zh-b1-01"], "b2": ["zh-b2-01"]},
     listening: {"a1": ["zh-a1-listen-01"], "a2": [], "b1": ["zh-b1-listen-01"], "b2": []},
