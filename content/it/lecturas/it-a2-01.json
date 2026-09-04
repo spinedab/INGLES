@@ -1,0 +1,72 @@
+{
+  "title": "Un viaggio andato male (e finito bene)",
+  "summary": "Racconto al passato — passato prossimo e imperfetto a confronto.",
+  "text": "<p>L'anno scorso ho deciso di andare a Napoli con due amici. Abbiamo comprato i biglietti tre mesi prima perché costavano meno. Eravamo molto contenti.</p><p>Il giorno della partenza siamo arrivati in stazione alle cinque del mattino. C'era molta gente e la fila era lunghissima. Quando siamo arrivati allo sportello, l'impiegata ci ha detto che il treno era in ritardo di quattro ore. Ci siamo arrabbiati, ma abbiamo aspettato.</p><p>Quando siamo arrivati a Napoli era già sera. L'albergo era nel centro storico. Le strade erano strette, i palazzi avevano i panni stesi alle finestre e c'era odore di pizza da tutte le parti.</p><p>Alla fine il ritardo non è stato importante. Abbiamo passato cinque giorni al mare, abbiamo mangiato la pizza ogni giorno e abbiamo imparato qualche parola in napoletano. È stato il viaggio più bello della mia vita.</p>",
+  "glosses": [
+    {
+      "word": "l'anno scorso",
+      "tip": "el año pasado"
+    },
+    {
+      "word": "sportello",
+      "tip": "ventanilla, mostrador"
+    },
+    {
+      "word": "in ritardo",
+      "tip": "con retraso"
+    },
+    {
+      "word": "ci siamo arrabbiati",
+      "tip": "nos enfadamos"
+    },
+    {
+      "word": "panni stesi",
+      "tip": "ropa tendida"
+    }
+  ],
+  "collocations": [
+    "l'anno scorso",
+    "comprare i biglietti",
+    "essere in ritardo",
+    "alla fine",
+    "il viaggio più bello della mia vita"
+  ],
+  "questions": [
+    {
+      "q": "Perché hanno comprato i biglietti tre mesi prima?",
+      "options": [
+        "Costavano meno",
+        "Era obbligatorio",
+        "Non c'erano altri"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Che cosa è successo in stazione?",
+      "options": [
+        "Hanno perso il treno",
+        "Il treno era in ritardo di quattro ore",
+        "Hanno cambiato città"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Dov'era l'albergo?",
+      "options": [
+        "Al mare",
+        "Nel centro storico",
+        "In stazione"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Come giudica il viaggio il narratore?",
+      "options": [
+        "Il più bello della sua vita",
+        "Un disastro",
+        "Preferisce non parlarne"
+      ],
+      "answer": 0
+    }
+  ]
+}

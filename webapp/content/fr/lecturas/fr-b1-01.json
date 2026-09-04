@@ -1,0 +1,72 @@
+{
+  "title": "Le télétravail : liberté ou piège ?",
+  "summary": "Texte argumentatif — subjonctif, connecteurs, lexique du travail.",
+  "text": "<p>Quand beaucoup d'entreprises françaises ont adopté le télétravail à grande échelle, nombreux sont ceux qui ont cru que c'était la solution à tout. Ne plus avoir à affronter les transports parisiens pendant deux heures par jour semblait, à lui seul, une révolution.</p><p>Les avantages existent, et il est inutile de le nier. Celui qui travaille chez lui économise du temps et de l'argent, peut déjeuner avec sa famille et organise sa journée avec plus d'autonomie. Pour ceux qui ont de jeunes enfants, cela change tout.</p><p>Cependant, des problèmes que personne n'avait prévus sont apparus. Sans séparation physique entre la maison et le bureau, beaucoup ont fini par travailler plus qu'avant : si l'ordinateur est toujours là, il est difficile de dire que la journée est terminée. De plus, l'isolement pèse. Les conversations de couloir, qui semblaient du temps perdu, étaient justement là où naissaient les idées.</p><p>La réponse n'est peut-être pas de choisir entre les deux modèles, mais de les combiner. Quand les entreprises comprendront que le problème n'est pas le lieu mais la culture du travail, le débat deviendra plus honnête.</p>",
+  "glosses": [
+    {
+      "word": "à grande échelle",
+      "tip": "a gran escala"
+    },
+    {
+      "word": "il est inutile de le nier",
+      "tip": "es inútil negarlo"
+    },
+    {
+      "word": "cependant",
+      "tip": "sin embargo"
+    },
+    {
+      "word": "ont fini par",
+      "tip": "acabaron por"
+    },
+    {
+      "word": "pèse",
+      "tip": "pesa, resulta duro"
+    }
+  ],
+  "collocations": [
+    "à grande échelle",
+    "il est inutile de",
+    "cependant",
+    "de plus",
+    "finir par + infinitif"
+  ],
+  "questions": [
+    {
+      "q": "Quel avantage est cité en premier ?",
+      "options": [
+        "Économiser du temps et de l'argent",
+        "Gagner plus",
+        "Travailler moins d'heures"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Quel problème inattendu est apparu ?",
+      "options": [
+        "Travailler plus qu'avant",
+        "Le manque d'ordinateurs",
+        "Des salaires plus bas"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Pourquoi les conversations de couloir comptaient-elles ?",
+      "options": [
+        "Les idées y naissaient",
+        "Elles étaient obligatoires",
+        "Elles réduisaient les transports"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Quelle est la conclusion de l'auteur ?",
+      "options": [
+        "Combiner les deux modèles",
+        "Revenir au bureau",
+        "Fermer les bureaux"
+      ],
+      "answer": 0
+    }
+  ]
+}

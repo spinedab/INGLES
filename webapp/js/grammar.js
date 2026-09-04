@@ -1,18 +1,21 @@
 import * as storage from './storage.js';
+import * as lang from './lang.js';
 import { logActivity } from './insights.js';
 
 // Tópicos gramaticales focalizados en errores recurrentes de hispanohablantes.
 // Los temas se cargan de content/grammar.json, generado por
 // tools/build_grammar.py desde content/grammar.json (la fuente canónica).
 // Antes estaban escritos aquí a mano Y otra vez en mobile/lib/content.ts.
-let _topics = null;
+const _topics = new Map();
 
 export async function loadTopics() {
-  if (_topics) return _topics;
-  const r = await fetch('content/grammar.json');
+  const code = lang.current();
+  if (_topics.has(code)) return _topics.get(code);
+  const r = await fetch(lang.path('grammar.json'));
   if (!r.ok) throw new Error(`No se pudo cargar la gramática (HTTP ${r.status})`);
-  _topics = await r.json();
-  return _topics;
+  const data = await r.json();
+  _topics.set(code, data);
+  return data;
 }
 
 export async function renderGrammar(view, level) {

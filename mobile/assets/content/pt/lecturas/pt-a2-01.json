@@ -1,0 +1,72 @@
+{
+  "title": "Uma viagem que não saiu como o planejado",
+  "summary": "Relato en pasado — perfeito e imperfeito contrastados.",
+  "text": "<p>No ano passado eu decidi viajar para Salvador com dois amigos. Compramos as passagens com três meses de antecedência porque eram mais baratas. Estávamos muito animados.</p><p>No dia da viagem, chegamos ao aeroporto às cinco da manhã. Havia muita gente e a fila era enorme. Quando finalmente chegamos ao balcão, a funcionária disse que o voo estava atrasado quatro horas. Ficamos frustrados, mas esperamos.</p><p>Quando chegamos a Salvador já era noite. O hotel ficava no Pelourinho, no centro histórico. As ruas eram de pedra e as casas tinham cores fortes: amarelo, azul, rosa. Havia música por todos os lados.</p><p>No fim, o atraso não importou. Passamos cinco dias na praia, comemos acarajé todos os dias e aprendemos a dançar um pouco. Foi a melhor viagem da minha vida.</p>",
+  "glosses": [
+    {
+      "word": "com antecedência",
+      "tip": "con anticipación"
+    },
+    {
+      "word": "fila",
+      "tip": "cola, fila de espera"
+    },
+    {
+      "word": "atrasado",
+      "tip": "retrasado"
+    },
+    {
+      "word": "balcão",
+      "tip": "mostrador"
+    },
+    {
+      "word": "acarajé",
+      "tip": "comida típica de Bahía"
+    }
+  ],
+  "collocations": [
+    "comprar as passagens",
+    "estar atrasado",
+    "ficar frustrado",
+    "no fim de semana",
+    "a melhor viagem da minha vida"
+  ],
+  "questions": [
+    {
+      "q": "Por que compraram as passagens com antecedência?",
+      "options": [
+        "Eram mais baratas",
+        "Era obrigatório",
+        "Não havia outras"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "O que aconteceu no aeroporto?",
+      "options": [
+        "Perderam o voo",
+        "O voo atrasou quatro horas",
+        "Cancelaram a viagem"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Onde ficava o hotel?",
+      "options": [
+        "Na praia",
+        "No Pelourinho",
+        "No aeroporto"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Como o narrador avalia a viagem?",
+      "options": [
+        "Foi a melhor da vida dele",
+        "Foi um desastre",
+        "Prefere não falar"
+      ],
+      "answer": 0
+    }
+  ]
+}

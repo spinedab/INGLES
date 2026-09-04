@@ -7,7 +7,7 @@ import { Text } from '@/components/Text';
 import { Button } from '@/components/Button';
 import { ProgressBar } from '@/components/ProgressBar';
 import { useLevel } from '@/lib/levelContext';
-import { loadVocab } from '@/lib/content';
+import { loadVocab, deckName } from '@/lib/content';
 import { review, saveCardState, selectQueue, type QueueEntry } from '@/lib/srs';
 import { logActivity } from '@/lib/insights';
 import { radius, spacing, useTheme } from '@/lib/theme';
@@ -23,7 +23,7 @@ export default function FlashcardsSession() {
   const [done, setDone] = useState(false);
   const [stats, setStats] = useState<SessionStats>({ again: 0, hard: 0, good: 0, easy: 0 });
 
-  const deck = `vocab-${level}`;
+  const deck = deckName(level);
   const current = queue[idx];
 
   useEffect(() => {

@@ -1,0 +1,200 @@
+temps (n.m.)	ce qui passe en heures et en jours ; aussi la météo	Je n'ai pas le temps de parler maintenant.	tiempo	a1 noun top100
+personne (n.f.)	un être humain	C'est une personne très gentille.	persona	a1 noun top100
+an / année (n.)	période de douze mois	J'habite ici depuis deux ans.	año	a1 noun top100
+jour (n.m.)	période de vingt-quatre heures	Quel jour sommes-nous ?	día	a1 noun top100
+chose (n.f.)	un objet ou un sujet quelconque	J'ai une chose à te dire.	cosa	a1 noun top100
+homme (n.m.)	personne adulte de sexe masculin	Cet homme est mon père.	hombre	a1 noun top100
+femme (n.f.)	personne adulte de sexe féminin ; aussi l'épouse	La femme au chapeau est ma tante.	mujer; esposa	a1 noun top100
+maison (n.f.)	bâtiment où on habite	Ma maison est près de la mer.	casa	a1 noun top100
+travail (n.m.)	activité qu'on fait pour gagner de l'argent	Je vais au travail en bus.	trabajo	a1 noun top100
+vie (n.f.)	le temps pendant lequel quelqu'un vit	La vie à Paris est chère.	vida	a1 noun top100
+main (n.f.)	partie du corps au bout du bras	Lave-toi les mains avant de manger.	mano	a1 noun body
+enfant (n.)	personne très jeune, garçon ou fille	Les enfants jouent dans le parc.	niño, niña	a1 noun family
+œil / yeux (n.m.)	organe de la vue (pluriel irrégulier : yeux)	Elle a les yeux verts.	ojo	a1 noun body
+endroit (n.m.)	un lieu, une place	C'est un bon endroit pour manger.	lugar	a1 noun top100
+semaine (n.f.)	période de sept jours	Je travaille cinq jours par semaine.	semana	a1 noun time
+famille (n.f.)	parents, enfants et proches	Ma famille est grande.	familia	a1 noun family
+problème (n.m.)	une difficulté (attention : masculin)	Pas de problème, j'attends.	problema	a1 noun top100 gender
+ami / amie (n.)	personne qu'on aime bien et en qui on a confiance	Mon ami habite à Lyon.	amigo, amiga	a1 noun people
+argent (n.m.)	pièces et billets pour acheter	Je n'ai pas assez d'argent.	dinero	a1 noun top100 falsefriend
+eau (n.f.)	liquide transparent qu'on boit	Un verre d'eau, s'il vous plaît.	agua	a1 noun food
+nourriture (n.f.)	ce qu'on mange	La nourriture française est délicieuse.	comida	a1 noun food
+ville (n.f.)	grand lieu avec beaucoup de maisons et de gens	Marseille est une grande ville.	ciudad	a1 noun places
+rue (n.f.)	voie avec des maisons des deux côtés	J'habite rue des Fleurs.	calle	a1 noun places
+voiture (n.f.)	véhicule à quatre roues	Ma voiture est au garage.	coche	a1 noun transport
+bus (n.m.)	grand véhicule pour beaucoup de passagers	Le bus passe à huit heures.	autobús	a1 noun transport
+école (n.f.)	lieu où les enfants apprennent	L'école commence à huit heures et demie.	escuela	a1 noun places
+livre (n.m.)	pages avec du texte à lire	Je lis un livre en français.	libro	a1 noun objects
+nom (n.m.)	mot qui identifie une personne	Quel est votre nom ?	nombre; apellido	a1 noun top100
+heure (n.f.)	soixante minutes ; aussi le moment de la journée	Quelle heure est-il ? Il est deux heures.	hora	a1 noun time
+nuit (n.f.)	période sombre de la journée	Bonne nuit ! À demain.	noche	a1 noun time
+matin (n.m.)	première partie de la journée	Je me lève à six heures du matin.	mañana (parte del día)	a1 noun time
+après-midi (n.m.)	partie de la journée entre midi et le soir	Cet après-midi, je travaille.	tarde	a1 noun time
+soir (n.m.)	fin de la journée, avant la nuit	Bonsoir ! Ce soir, on mange dehors.	tarde-noche	a1 noun time
+mois (n.m.)	période d'environ quatre semaines	Je voyage le mois prochain.	mes	a1 noun time
+père (n.m.)	homme qui a des enfants	Mon père est médecin.	padre	a1 noun family
+mère (n.f.)	femme qui a des enfants	Ma mère cuisine très bien.	madre	a1 noun family
+fils (n.m.)	enfant garçon par rapport à ses parents (le s ne se prononce pas)	Ils ont deux fils.	hijo	a1 noun family
+frère (n.m.)	garçon des mêmes parents	Mon frère est plus âgé que moi.	hermano	a1 noun family
+pays (n.m.)	nation, territoire avec son gouvernement	La France est un pays d'Europe.	país	a1 noun places
+gens (n.m.pl.)	les personnes en général (toujours au pluriel)	Il y a beaucoup de gens dans la rue.	gente	a1 noun top100
+être (v.)	exister ; avoir une qualité	Je suis colombien. Elle est professeure.	ser, estar	a1 verb top100 irregular
+avoir (v.)	posséder ; aussi l'âge	J'ai un frère. J'ai trente ans.	tener	a1 verb top100 irregular
+faire (v.)	réaliser une action	Qu'est-ce que tu fais ce week-end ?	hacer	a1 verb top100 irregular
+aller (v.)	se déplacer vers un lieu	Je vais au marché.	ir	a1 verb top100 irregular
+pouvoir (v.)	avoir la permission ou la capacité	Je peux entrer ?	poder	a1 verb top100 irregular
+dire (v.)	exprimer avec des mots	Qu'est-ce que tu as dit ?	decir	a1 verb top100 irregular
+voir (v.)	percevoir avec les yeux	Tu as vu le film ?	ver	a1 verb top100 irregular
+donner (v.)	remettre quelque chose à quelqu'un	Elle m'a donné un cadeau.	dar	a1 verb top100
+savoir (v.)	avoir une connaissance	Je ne sais pas la réponse.	saber	a1 verb top100 irregular
+vouloir (v.)	désirer	Je voudrais un café, s'il vous plaît.	querer	a1 verb top100 irregular
+venir (v.)	se déplacer vers ici	Tu viens avec nous ?	venir	a1 verb top100 irregular
+prendre (v.)	saisir ; utiliser un transport ; consommer	Je prends le bus. Je prends un café.	tomar, coger	a1 verb top100 irregular keyverb
+parler (v.)	utiliser la voix pour dire quelque chose	Vous parlez très bien français.	hablar	a1 verb top100
+manger (v.)	prendre de la nourriture	On mange une pizza ce soir ?	comer	a1 verb food
+boire (v.)	prendre un liquide	Je bois du café tous les matins.	beber	a1 verb food irregular
+habiter (v.)	vivre dans un lieu	Où est-ce que tu habites ?	vivir (en un lugar)	a1 verb top100
+aimer (v.)	avoir du plaisir avec quelque chose ; aimer quelqu'un	J'aime la musique française.	gustar; amar	a1 verb top100
+travailler (v.)	exercer une activité professionnelle	Je travaille dans une banque.	trabajar	a1 verb work
+étudier (v.)	apprendre	J'étudie le français le soir.	estudiar	a1 verb school
+ouvrir (v.)	faire qu'une chose ne soit plus fermée	Tu peux ouvrir la fenêtre ?	abrir	a1 verb irregular
+fermer (v.)	le contraire d'ouvrir	Le magasin ferme à six heures.	cerrar	a1 verb
+acheter (v.)	obtenir en payant	Je dois acheter du pain.	comprar	a1 verb shopping
+payer (v.)	donner de l'argent pour quelque chose	Je peux payer par carte ?	pagar	a1 verb shopping
+avoir besoin de (loc.)	nécessiter	J'ai besoin d'aide.	necesitar	a1 verb top100 chunk
+trouver (v.)	découvrir ce qu'on cherchait ; avoir une opinion	J'ai trouvé la clé. Je trouve ça bien.	encontrar; parecer (opinión)	a1 verb top100 keyverb
+comprendre (v.)	saisir le sens	Pardon, je n'ai pas compris.	entender	a1 verb top100 irregular
+attendre (v.)	rester jusqu'à ce que quelque chose arrive	Attendez une minute, s'il vous plaît.	esperar (aguardar)	a1 verb falsefriend
+aider (v.)	apporter son soutien	Vous pouvez m'aider ?	ayudar	a1 verb
+se lever (v.)	sortir du lit	Je me lève tôt tous les jours.	levantarse	a1 verb routine reflexive
+dormir (v.)	se reposer les yeux fermés	Je dors huit heures par nuit.	dormir	a1 verb routine irregular
+chercher (v.)	essayer de trouver	Je cherche la gare.	buscar	a1 verb top100
+demander (v.)	poser une question ; solliciter	Je peux vous demander quelque chose ?	preguntar; pedir	a1 verb top100
+appeler (v.)	téléphoner ; donner un nom (s'appeler)	Je m'appelle Ana. Je t'appelle ce soir.	llamar(se)	a1 verb top100
+bon / bonne (adj.)	de qualité positive	C'est un bon restaurant.	bueno	a1 adj top100
+grand / grande (adj.)	de taille supérieure ; aussi haut	Ils habitent dans une grande maison.	grande; alto	a1 adj top100
+petit / petite (adj.)	de taille inférieure	C'est un petit appartement mais joli.	pequeño	a1 adj top100
+nouveau / nouvelle (adj.)	récent	J'ai acheté un nouveau téléphone.	nuevo	a1 adj top100
+vieux / vieille (adj.)	qui a beaucoup d'années	Cet immeuble est très vieux.	viejo	a1 adj top100
+beau / belle (adj.)	agréable à regarder	Quelle belle plage !	bonito, guapo	a1 adj
+cher / chère (adj.)	qui coûte beaucoup ; aussi « estimé » dans une lettre	Cet hôtel est très cher.	caro; querido	a1 adj shopping
+pas cher (loc.adj.)	qui coûte peu (le français n'a pas de mot courant pour « barato »)	J'ai trouvé un restaurant pas cher.	barato	a1 adj shopping chunk
+chaud / chaude (adj.)	de température élevée	Le café est chaud.	caliente	a1 adj weather
+froid / froide (adj.)	de température basse	Il fait froid aujourd'hui.	frío	a1 adj weather
+fatigué / fatiguée (adj.)	sans énergie	Je suis très fatiguée aujourd'hui.	cansado	a1 adj feelings
+content / contente (adj.)	qui ressent de la joie	Elle est contente de son nouveau travail.	contento	a1 adj feelings
+facile (adj.)	qui n'est pas difficile	Le français est facile pour toi ?	fácil	a1 adj
+difficile (adj.)	qui demande un effort	L'examen était difficile.	difícil	a1 adj
+vrai / vraie (adj.)	conforme à la réalité	C'est vrai ? Oui, c'est vrai.	verdadero, cierto	a1 adj top100
+faux / fausse (adj.)	incorrect	Ce numéro est faux.	falso, equivocado	a1 adj
+très (adv.)	à un haut degré (devant un adjectif)	Je suis très fatigué.	muy	a1 adv top100
+beaucoup (adv.)	en grande quantité (après un verbe ; beaucoup DE + nom)	Merci beaucoup. Il y a beaucoup de monde.	mucho	a1 adv top100
+peu (adv.)	en petite quantité	Je parle peu anglais.	poco	a1 adv top100
+aussi (adv.)	également	Moi aussi, je veux venir.	también	a1 adv top100
+maintenant (adv.)	à ce moment	Maintenant je ne peux pas, je suis occupé.	ahora	a1 adv time
+aujourd'hui (adv.)	ce jour-ci	Aujourd'hui c'est vendredi.	hoy	a1 adv time
+demain (adv.)	le jour après aujourd'hui	À demain !	mañana (día siguiente)	a1 adv time
+hier (adv.)	le jour avant aujourd'hui	Hier il a beaucoup plu.	ayer	a1 adv time
+toujours (adv.)	à chaque fois ; encore	Je prends toujours un petit-déjeuner.	siempre; todavía	a1 adv time
+jamais (adv.)	à aucun moment (avec ne)	Je ne suis jamais allé à Nice.	nunca	a1 adv time
+ici (adv.)	dans ce lieu	Asseyez-vous ici, s'il vous plaît.	aquí	a1 adv place
+là / là-bas (adv.)	dans ce lieu-là	Les toilettes sont là, à droite.	allí	a1 adv place
+où (adv.)	dans quel lieu	Où est-ce que tu habites ?	dónde	a1 adv question
+quand (adv.)	à quel moment	Quand est-ce que tu arrives ?	cuándo	a1 adv question
+comment (adv.)	de quelle manière	Comment tu t'appelles ? Comment ça va ?	cómo	a1 adv question
+pourquoi (adv.)	pour quelle raison	Pourquoi tu étudies le français ?	por qué	a1 adv question
+parce que (conj.)	introduit la raison	Parce que je veux travailler à Paris.	porque	a1 conj top100
+combien (adv.)	quelle quantité	Ça coûte combien ? Tu as combien d'enfants ?	cuánto	a1 adv question
+qui (pron.)	quelle personne	Qui est-ce ? C'est qui ?	quién	a1 pron question
+quoi / que (pron.)	quelle chose	C'est quoi ? Qu'est-ce que c'est ?	qué	a1 pron top100 question
+oui (adv.)	réponse affirmative	Oui, je veux bien.	sí	a1 adv top100
+non (adv.)	réponse négative	Non, merci.	no	a1 adv top100
+ne … pas (adv.)	négation du verbe (deux mots autour du verbe)	Je ne sais pas. Je ne comprends pas.	no (negación verbal)	a1 adv top100 grammar
+merci (interj.)	remerciement	Merci beaucoup !	gracias	a1 phrase top100
+s'il vous plaît (loc.)	demande polie (s'il te plaît avec tu)	Une eau, s'il vous plaît.	por favor	a1 phrase top100
+pardon / excusez-moi (interj.)	pour s'excuser ou attirer l'attention	Pardon, je n'ai pas compris. Excusez-moi, monsieur.	perdón, disculpe	a1 phrase top100
+bonjour (interj.)	salutation de la journée	Bonjour, madame !	hola, buenos días	a1 phrase top100
+salut (interj.)	salutation informelle, pour dire bonjour ou au revoir	Salut, ça va ?	hola / chao (informal)	a1 phrase top100
+au revoir (interj.)	pour prendre congé	Au revoir, à demain !	adiós	a1 phrase top100
+ça va (loc.)	question et réponse de politesse	— Ça va ? — Ça va bien, et toi ?	¿qué tal? / bien	a1 phrase chunk
+de rien (loc.)	réponse à « merci »	— Merci ! — De rien.	de nada	a1 phrase chunk
+je (pron.)	première personne du singulier (j' devant voyelle)	Je suis de Bogotá. J'habite ici.	yo	a1 pron top100
+tu (pron.)	deuxième personne, informelle	Tu es français ?	tú	a1 pron top100
+vous (pron.)	pluriel, et singulier de politesse	Vous êtes professeur ? Vous venez ?	usted, ustedes, vosotros	a1 pron top100 grammar
+il / elle (pron.)	troisième personne	Il travaille ici. Elle est médecin.	él / ella	a1 pron top100
+nous / on (pron.)	première personne du pluriel (« on » à l'oral, verbe au singulier)	Nous allons au cinéma. On y va ?	nosotros	a1 pron top100 grammar
+ils / elles (pron.)	troisième personne du pluriel	Ils habitent à Lille.	ellos / ellas	a1 pron top100
+mon / ma / mes (adj.)	possessif de la première personne	Mon frère, ma sœur, mes parents.	mi, mis	a1 pron possessive
+ton / ta / tes (adj.)	possessif de « tu »	C'est ton livre ?	tu, tus	a1 pron possessive
+votre / vos (adj.)	possessif de « vous »	Quel est votre nom ?	su, sus (de usted)	a1 pron possessive
+ce / cette / ces (adj.)	démonstratif	Ce livre est bon. Cette maison est belle.	este / esta / estos	a1 pron demonstrative
+ça (pron.)	cela, cette chose (oral)	C'est quoi, ça ? Ça va ?	eso, esto	a1 pron top100
+un / une (art.)	article indéfini (pluriel : des)	Un café et une eau, s'il vous plaît.	un / una	a1 article grammar
+le / la / les (art.)	article défini (l' devant voyelle)	Le livre, la maison, les enfants, l'école.	el / la / los	a1 article grammar
+du / de la / des (art.)	article partitif : une quantité non précise	Je mange du pain et de la salade.	(sin equivalente: «como pan»)	a1 article grammar
+de (prép.)	origine, possession (de + le = du)	Je suis de Medellín. Le livre du professeur.	de	a1 prep top100 grammar
+à (prép.)	lieu, direction, heure (à + le = au, à + les = aux)	J'habite à Paris. Je vais au marché. À huit heures.	a, en	a1 prep top100 grammar
+en (prép.)	dans un pays féminin ; moyen de transport ; matière	J'habite en France. Je viens en bus.	en	a1 prep top100
+dans (prép.)	à l'intérieur de	Le livre est dans mon sac.	en, dentro de	a1 prep top100
+pour (prép.)	destination, but	C'est pour toi. Un billet pour Lyon.	para	a1 prep top100
+avec (prép.)	compagnie, instrument	Je viens avec toi. Un café avec du lait.	con	a1 prep top100
+sans (prép.)	absence de quelque chose	Un café sans sucre.	sin	a1 prep
+chez (prép.)	dans la maison ou le commerce de quelqu'un	Je rentre chez moi. Je vais chez le médecin.	a casa de, en casa de	a1 prep keyword
+et (conj.)	relie des mots ou des phrases	Du pain et du beurre.	y	a1 conj top100
+ou (conj.)	alternative	Café ou thé ?	o	a1 conj top100
+mais (conj.)	opposition	Je veux venir, mais je ne peux pas.	pero	a1 conj top100
+lundi (n.m.)	premier jour de la semaine (les jours sont masculins et sans majuscule)	Lundi, je retourne au travail.	lunes	a1 noun time days
+mardi (n.m.)	jour après lundi	Mardi, j'ai cours.	martes	a1 noun time days
+mercredi (n.m.)	jour du milieu de la semaine	Le mercredi, les enfants n'ont pas école.	miércoles	a1 noun time days
+jeudi (n.m.)	jour avant vendredi	Jeudi soir, on sort.	jueves	a1 noun time days
+vendredi (n.m.)	dernier jour de travail	Vendredi ! Enfin le week-end !	viernes	a1 noun time days
+samedi (n.m.)	premier jour du week-end	Samedi, je vais à la plage.	sábado	a1 noun time days
+dimanche (n.m.)	jour de repos	Le dimanche, on déjeune en famille.	domingo	a1 noun time days
+week-end (n.m.)	samedi et dimanche	Qu'est-ce que tu fais ce week-end ?	fin de semana	a1 noun time
+petit-déjeuner (n.m.)	premier repas de la journée	Je prends mon petit-déjeuner à sept heures.	desayuno	a1 noun food
+déjeuner (n.m./v.)	repas de midi ; aussi le verbe	On déjeune à midi et demi.	almuerzo; almorzar	a1 noun food falsefriend
+dîner (n.m./v.)	repas du soir ; aussi le verbe	On dîne au restaurant ce soir ?	cena; cenar	a1 noun food
+pain (n.m.)	aliment fait de farine	Du pain frais de la boulangerie.	pan	a1 noun food
+lait (n.m.)	liquide blanc	Un café au lait, s'il vous plaît.	leche	a1 noun food
+café (n.m.)	boisson chaude ; aussi le lieu	Un café, s'il vous plaît.	café	a1 noun food
+jus (n.m.)	boisson de fruit (le s ne se prononce pas)	Un jus d'orange pressé.	jugo, zumo	a1 noun food
+viande (n.f.)	aliment d'origine animale	Je ne mange pas de viande.	carne	a1 noun food
+poulet (n.m.)	viande de volaille	Du poulet avec du riz.	pollo	a1 noun food
+poisson (n.m.)	animal qui vit dans l'eau, qu'on mange	Le poisson est frais.	pescado, pez	a1 noun food
+légumes (n.m.pl.)	aliments végétaux (carottes, tomates…)	Il faut manger des légumes.	verduras	a1 noun food falsefriend
+fruit (n.m.)	aliment sucré des plantes	Je mange un fruit au petit-déjeuner.	fruta	a1 noun food
+fromage (n.m.)	aliment fait avec du lait	La France a des centaines de fromages.	queso	a1 noun food
+dessert (n.m.)	plat sucré à la fin du repas	Comme dessert, une tarte aux pommes.	postre	a1 noun food
+addition (n.f.)	ce qu'on paie au restaurant	L'addition, s'il vous plaît.	cuenta (restaurante)	a1 noun food shopping keyword
+carte / menu (n.)	liste des plats (la carte) ; le menu est une formule à prix fixe	La carte, s'il vous plaît. Le menu du jour.	carta; menú	a1 noun food falsefriend
+serveur / serveuse (n.)	personne qui sert au restaurant	Le serveur apporte l'eau.	camarero, mesero	a1 noun people food
+magasin (n.m.)	lieu où on achète	Le magasin ouvre à neuf heures.	tienda	a1 noun shopping
+marché (n.m.)	lieu d'achat en plein air ; aussi supermarché	Je vais au marché acheter des fruits.	mercado	a1 noun shopping
+prix (n.m.)	combien ça coûte	Quel est le prix ? C'est quel prix ?	precio	a1 noun shopping
+carte bancaire (n.f.)	moyen de paiement	Vous acceptez la carte ?	tarjeta	a1 noun shopping chunk
+monnaie (n.f.)	l'argent qu'on rend ; les pièces	Gardez la monnaie. Vous avez de la monnaie ?	cambio, vuelto; suelto	a1 noun shopping falsefriend
+euro (n.m.)	monnaie de la France	Ça coûte vingt euros.	euro	a1 noun shopping
+vêtements (n.m.pl.)	ce qu'on porte sur le corps	J'ai besoin de nouveaux vêtements.	ropa	a1 noun shopping
+chaussures (n.f.pl.)	ce qu'on met aux pieds	Quelles belles chaussures !	zapatos	a1 noun shopping
+téléphone / portable (n.m.)	appareil pour appeler ; le portable est le mobile	Mon portable n'a plus de batterie.	teléfono; móvil, celular	a1 noun objects
+clé (n.f.)	ouvre la porte	Où est la clé ?	llave	a1 noun objects
+table (n.f.)	meuble pour manger ou travailler	Une table pour deux, s'il vous plaît.	mesa	a1 noun objects
+chaise (n.f.)	meuble pour s'asseoir	Assieds-toi sur cette chaise.	silla	a1 noun objects
+porte (n.f.)	par où on entre	Ferme la porte, s'il te plaît.	puerta	a1 noun objects
+fenêtre (n.f.)	ouverture dans le mur avec une vitre	Ouvre la fenêtre, il fait chaud.	ventana	a1 noun objects
+chambre (n.f.)	pièce où on dort	Ma chambre est petite.	habitación, dormitorio	a1 noun home
+salle de bain (n.f.)	pièce avec la douche ; les toilettes sont souvent à part	La salle de bain est à gauche. Où sont les toilettes ?	baño	a1 noun home keyword
+cuisine (n.f.)	pièce où on prépare les repas ; aussi la manière de cuisiner	La cuisine est grande. J'aime la cuisine française.	cocina	a1 noun home
+salon (n.m.)	pièce principale de la maison	La télé est dans le salon.	sala, salón	a1 noun home
+appartement (n.m.)	logement dans un immeuble	J'habite dans un appartement au centre.	apartamento, piso	a1 noun home
+immeuble (n.m.)	bâtiment à plusieurs étages	Je travaille dans cet immeuble.	edificio	a1 noun places
+plage (n.f.)	bord de mer avec du sable	On va à la plage dimanche ?	playa	a1 noun places
+parc (n.m.)	espace vert en ville	Les enfants jouent au parc.	parque	a1 noun places
+restaurant (n.m.)	lieu pour manger dehors	Tu connais un bon restaurant ?	restaurante	a1 noun places
+hôtel (n.m.)	lieu pour dormir en voyage	L'hôtel est près du centre.	hotel	a1 noun places
+aéroport (n.m.)	d'où partent les avions	Je viens te chercher à l'aéroport.	aeropuerto	a1 noun transport
+métro (n.m.)	train urbain souterrain	Je prends le métro tous les jours.	metro	a1 noun transport
+gare (n.f.)	d'où partent les trains	La gare est loin d'ici ?	estación (de tren)	a1 noun transport
+train (n.m.)	transport sur rails	Le train part à dix heures.	tren	a1 noun transport
+billet (n.m.)	ce qu'on achète pour voyager ou entrer	J'ai acheté un billet pour Marseille.	billete, boleto	a1 noun transport
+gauche / droite (n.f.)	les deux côtés	Tournez à gauche, puis à droite.	izquierda / derecha	a1 noun directions

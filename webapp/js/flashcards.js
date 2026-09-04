@@ -1,20 +1,22 @@
 import * as srs from './srs.js';
+import * as lang from './lang.js';
 import { logActivity } from './insights.js';
 
 const cache = new Map();
 
 export async function loadVocab(level) {
-  if (cache.has(level)) return cache.get(level);
-  const r = await fetch(`content/vocab/${level}.json`);
+  const key = `${lang.current()}:${level}`;
+  if (cache.has(key)) return cache.get(key);
+  const r = await fetch(lang.path(`vocab/${level}.json`));
   if (!r.ok) throw new Error(`No vocab for ${level}`);
   const data = await r.json();
-  cache.set(level, data);
+  cache.set(key, data);
   return data;
 }
 
 export async function renderFlashcards(view, level) {
   const vocab = await loadVocab(level);
-  const deck = `vocab-${level}`;
+  const deck = lang.deck(level);
   let queue = srs.selectQueue(deck, vocab, { newPerDay: 20 });
   let idx = 0;
   let revealed = false;

@@ -1,0 +1,67 @@
+{
+  "title": "给网络客服打电话",
+  "summary": "Llamada al servicio técnico — explicar la avería y concertar la visita.",
+  "duration": "2 min",
+  "audio": null,
+  "script": "客服：您好，网络客服中心。请问怎么称呼？\n顾客：您好，我姓孟。\n客服：请问您的客户号是多少？\n顾客：我马上告诉您。不过我打电话是因为昨天晚上网断了，到现在还没好。\n客服：明白了。您重启过路由器吗？\n顾客：重启过好几次。我把插头拔下来，等了一分钟又插上，还是不行。\n客服：那路由器上哪个灯亮着？\n顾客：电源的灯是绿的，但是网络的灯是红的，一直在闪。\n客服：这说明线路有问题。我需要给您安排师傅上门。星期四上午八点到十二点有时间。\n顾客：星期四上午可以。不过我要上班，师傅能不能来之前先打电话？\n客服：可以，他会提前半个小时打给您。已经约好了，您会收到确认短信。",
+  "vocabulary": [
+    {
+      "word": "怎么称呼 (zěnme chēnghu)",
+      "meaning": "¿cómo se llama? (cortés al teléfono)"
+    },
+    {
+      "word": "网断了 (wǎng duàn le)",
+      "meaning": "se cortó internet"
+    },
+    {
+      "word": "重启 (chóngqǐ)",
+      "meaning": "reiniciar"
+    },
+    {
+      "word": "把插头拔下来",
+      "meaning": "desenchufar (construcción con 把)"
+    },
+    {
+      "word": "上门 (shàngmén)",
+      "meaning": "ir a domicilio"
+    }
+  ],
+  "questions": [
+    {
+      "q": "顾客有什么问题？",
+      "options": [
+        "网断了还没好",
+        "路由器被偷了",
+        "账单错了"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "她已经试过什么？",
+      "options": [
+        "重启路由器好几次",
+        "换公司",
+        "什么都没做"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "哪个灯说明有问题？",
+      "options": [
+        "网络的灯，红的在闪",
+        "电源的灯，绿的",
+        "都正常"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "师傅什么时候上门？",
+      "options": [
+        "星期四上午",
+        "今天晚上",
+        "星期五下午"
+      ],
+      "answer": 0
+    }
+  ]
+}

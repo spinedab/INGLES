@@ -1,0 +1,533 @@
+[
+  {
+    "id": "zh-tonos",
+    "title": "Los cuatro tonos cambian la palabra",
+    "level": "a1",
+    "why": "En español el tono solo transmite emoción. En chino es parte de la palabra: «mā» y «mà» no son variantes de pronunciación, son «mamá» y «regañar». Ignorar el tono no produce acento extranjero, produce otra palabra.",
+    "rule": "1º alto y plano (mā 妈), 2º ascendente (má 麻), 3º baja y sube (mǎ 马), 4º descendente brusco (mà 骂). El tono neutro es corto y sin marca (ma 吗). Dos terceros tonos seguidos: el primero se pronuncia como segundo (nǐ hǎo → ní hǎo).",
+    "examples": [
+      [
+        "妈 mā (mamá) / 马 mǎ (caballo)",
+        "1º vs 3º: palabras distintas"
+      ],
+      [
+        "买 mǎi (comprar) / 卖 mài (vender)",
+        "3º vs 4º: significados opuestos"
+      ],
+      [
+        "你好 nǐ hǎo → se dice «ní hǎo»",
+        "Dos 3º seguidos: el primero cambia"
+      ],
+      [
+        "不 bù → bú antes de 4º tono: 不是 bú shì",
+        "El 不 cambia de tono"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "«Caballo» se escribe 马. Su tono es:",
+        "options": [
+          "3º (mǎ)",
+          "1º (mā)",
+          "4º (mà)"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "买 (comprar) y 卖 (vender) se diferencian por:",
+        "options": [
+          "el tono",
+          "el carácter solamente",
+          "la consonante"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "En 你好, el primer tono se pronuncia como:",
+        "options": [
+          "segundo",
+          "tercero",
+          "cuarto"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "¿Cómo se pronuncia 不 en 不是?",
+        "options": [
+          "bú (2º)",
+          "bù (4º)",
+          "bu (neutro)"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "zh-shi-hen",
+    "title": "是 (shì) y 很 (hěn): cuándo NO usar «ser»",
+    "level": "a1",
+    "why": "El hispanohablante traduce «ella es guapa» como «她是漂亮», copiando el verbo ser. En chino los adjetivos ya funcionan como verbos y 是 sobra: hay que poner 很.",
+    "rule": "是 solo une dos SUSTANTIVOS (A 是 B): 我是学生. Con ADJETIVOS no se usa 是, se pone 很 delante: 她很漂亮. Aquí 很 no significa «muy», es un soporte gramatical. Para negar el adjetivo: 不 + adjetivo (她不漂亮).",
+    "examples": [
+      [
+        "我是老师。(Wǒ shì lǎoshī.)",
+        "Sustantivo + 是 + sustantivo"
+      ],
+      [
+        "她很漂亮。(Tā hěn piàoliang.)",
+        "Adjetivo → 很, NO 是"
+      ],
+      [
+        "今天很热。(Jīntiān hěn rè.)",
+        "«Hoy hace calor», sin 是"
+      ],
+      [
+        "这个不贵。(Zhège bú guì.)",
+        "Negación del adjetivo: solo 不"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "«Ella es profesora»: 她 _____ 老师。",
+        "options": [
+          "是",
+          "很",
+          "不"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«El café está caliente»: 咖啡 _____ 热。",
+        "options": [
+          "很",
+          "是",
+          "有"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Hoy no hace frío»: 今天 _____ 冷。",
+        "options": [
+          "不",
+          "不是",
+          "没"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "¿Cuál es correcta?",
+        "options": [
+          "我很忙。",
+          "我是忙。",
+          "我有忙。"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Esto es un libro»: 这 _____ 一本书。",
+        "options": [
+          "是",
+          "很",
+          "在"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "zh-liangci",
+    "title": "Clasificadores: 一个人, 三本书",
+    "level": "a1",
+    "why": "El español cuenta directamente: «tres libros». El chino exige una palabra entre el número y el sustantivo, y elegir la equivocada (o omitirla) marca inmediatamente al principiante.",
+    "rule": "Número + CLASIFICADOR + sustantivo. El general es 个 (ge), válido para personas y muchas cosas. Específicos frecuentes: 本 libros, 杯 tazas/vasos, 张 hojas y mesas, 件 ropa y asuntos, 只 animales pequeños, 条 cosas largas (calles, ríos). Con 两 (liǎng) y no 二 al contar: 两个人.",
+    "examples": [
+      [
+        "三个人 (sān ge rén)",
+        "个 general: tres personas"
+      ],
+      [
+        "两本书 (liǎng běn shū)",
+        "本 para libros; 两 no 二"
+      ],
+      [
+        "一杯咖啡 (yì bēi kāfēi)",
+        "杯 para bebidas"
+      ],
+      [
+        "这条路 (zhè tiáo lù)",
+        "条 para cosas alargadas"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "«Dos personas»: _____ 人。",
+        "options": [
+          "两个",
+          "二个",
+          "两"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Tres libros»: 三 _____ 书。",
+        "options": [
+          "本",
+          "个",
+          "杯"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Un vaso de agua»: 一 _____ 水。",
+        "options": [
+          "杯",
+          "本",
+          "个"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Este gato»: 这 _____ 猫。",
+        "options": [
+          "只",
+          "本",
+          "条"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "El clasificador general es:",
+        "options": [
+          "个",
+          "本",
+          "张"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "zh-le-aspecto",
+    "title": "了 (le): acción completada",
+    "level": "a2",
+    "why": "El hispanohablante busca conjugar el verbo en pasado y no lo encuentra: los verbos chinos no cambian. El tiempo se marca con partículas y con expresiones temporales, y 了 es la principal.",
+    "rule": "了 tras el verbo indica que la acción se completó: 我吃了饭. Al final de la frase indica cambio de situación: 他来了 («ya llegó»). NO se usa con estados ni con costumbres del pasado. Negación: 没(有) + verbo, y entonces 了 desaparece: 我没吃饭.",
+    "examples": [
+      [
+        "我买了三本书。(Wǒ mǎi le sān běn shū.)",
+        "Acción completada con objeto cuantificado"
+      ],
+      [
+        "他来了。(Tā lái le.)",
+        "Cambio: ya está aquí"
+      ],
+      [
+        "我没吃饭。(Wǒ méi chī fàn.)",
+        "Negación: 没, y sin 了"
+      ],
+      [
+        "以前我每天跑步。(Yǐqián wǒ měitiān pǎobù.)",
+        "Costumbre pasada: sin 了"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "«Comí»: 我吃 _____ 饭。",
+        "options": [
+          "了",
+          "过",
+          "着"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«No comí»: 我 _____ 吃饭。",
+        "options": [
+          "没",
+          "不",
+          "没了"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Ya llegó el autobús»: 车 _____ 。",
+        "options": [
+          "来了",
+          "来过",
+          "在来"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Antes iba a la escuela todos los días» lleva 了?",
+        "options": [
+          "No, es costumbre",
+          "Sí, es pasado",
+          "Solo al final"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Compré dos»: 我买 _____ 两个。",
+        "options": [
+          "了",
+          "过",
+          "着"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "zh-orden-tiempo-lugar",
+    "title": "Orden: tiempo → lugar → verbo",
+    "level": "a2",
+    "why": "El español pone los complementos después del verbo: «Trabajo en Bogotá los lunes». El chino los pone antes, y en un orden fijo. Poner el lugar detrás del verbo es uno de los errores más persistentes.",
+    "rule": "Sujeto + TIEMPO + 在 LUGAR + VERBO + objeto. El tiempo puede ir también antes del sujeto para enfatizarlo. Nunca «我工作在北京»: el lugar precede al verbo → 我在北京工作.",
+    "examples": [
+      [
+        "我在北京工作。(Wǒ zài Běijīng gōngzuò.)",
+        "Lugar ANTES del verbo"
+      ],
+      [
+        "我明天在家看书。",
+        "Sujeto + tiempo + lugar + verbo"
+      ],
+      [
+        "明天我们八点见。",
+        "El tiempo puede abrir la frase"
+      ],
+      [
+        "他每天在公司吃午饭。",
+        "Frecuencia + lugar + verbo"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "«Trabajo en Shanghái»:",
+        "options": [
+          "我在上海工作。",
+          "我工作在上海。",
+          "我上海在工作。"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Mañana como en casa»:",
+        "options": [
+          "我明天在家吃饭。",
+          "我吃饭明天在家。",
+          "我在家明天吃饭。"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "El lugar con 在 va:",
+        "options": [
+          "antes del verbo",
+          "después del verbo",
+          "al final"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Estudio chino todos los días»:",
+        "options": [
+          "我每天学习汉语。",
+          "我学习汉语每天。",
+          "每天学习我汉语。"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "zh-ba-construccion",
+    "title": "La construcción 把 (bǎ)",
+    "level": "b1",
+    "why": "No existe nada equivalente en español. Sirve para decir qué le pasó a un objeto concreto, y sin ella muchas frases sobre manipular cosas resultan imposibles o suenan forzadas.",
+    "rule": "Sujeto + 把 + objeto DEFINIDO + verbo + resultado. El objeto tiene que ser conocido y el verbo debe llevar un complemento de resultado (了, 完, 好, dirección). No se usa con verbos de percepción ni con objetos indefinidos.",
+    "examples": [
+      [
+        "我把书放在桌子上。",
+        "«Puse el libro sobre la mesa»: objeto definido + resultado"
+      ],
+      [
+        "请把门关上。",
+        "«Cierra la puerta»: 关上 lleva resultado"
+      ],
+      [
+        "他把饭吃完了。",
+        "«Se terminó la comida»"
+      ],
+      [
+        "我把钱花了。",
+        "«Me gasté el dinero»"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "«Cierra la ventana»: 请 _____ 窗户关上。",
+        "options": [
+          "把",
+          "被",
+          "给"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "El objeto de 把 tiene que ser:",
+        "options": [
+          "definido y conocido",
+          "indefinido",
+          "siempre plural"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Me terminé el café»: 我 _____ 咖啡喝完了。",
+        "options": [
+          "把",
+          "被",
+          "在"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "¿Cuál es correcta?",
+        "options": [
+          "我把书看完了。",
+          "我把书看。",
+          "我把一本书看完了。"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "zh-de-tres",
+    "title": "Los tres 的 / 得 / 地",
+    "level": "b1",
+    "why": "Suenan igual (de) y el aprendiz los confunde al escribir. Cada uno tiene una función distinta y confundirlos es el error escrito más visible en niveles intermedios.",
+    "rule": "的 = posesión y adjetivo antes del sustantivo (我的书, 漂亮的花). 得 = une verbo con su complemento de grado (说得很好 «habla muy bien»). 地 = convierte un adjetivo en adverbio antes del verbo (慢慢地走 «caminar despacio»).",
+    "examples": [
+      [
+        "这是我的手机。",
+        "的: posesión"
+      ],
+      [
+        "他汉语说得很好。",
+        "得: grado del verbo"
+      ],
+      [
+        "她高兴地笑了。",
+        "地: adverbio de manera"
+      ],
+      [
+        "漂亮的房子",
+        "的: adjetivo + sustantivo"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "«Habla chino muy bien»: 他汉语说 _____ 很好。",
+        "options": [
+          "得",
+          "的",
+          "地"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Mi casa»: 我 _____ 家。",
+        "options": [
+          "的",
+          "得",
+          "地"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Caminó despacio»: 他慢慢 _____ 走。",
+        "options": [
+          "地",
+          "的",
+          "得"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Una película interesante»: 有意思 _____ 电影。",
+        "options": [
+          "的",
+          "得",
+          "地"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "zh-bei-pasiva",
+    "title": "La pasiva con 被 (bèi)",
+    "level": "b2",
+    "why": "El español usa la pasiva con naturalidad («fue roto»). En chino 被 tiene además un matiz de algo desafortunado, así que usarla donde no toca cambia el tono de la frase.",
+    "rule": "Objeto + 被 + agente + verbo + resultado. Tradicionalmente marca sucesos negativos o no deseados. El agente puede omitirse: 我的手机被偷了. Para hechos neutros el chino prefiere la voz activa o la construcción con 是…的.",
+    "examples": [
+      [
+        "我的手机被偷了。",
+        "«Me robaron el móvil»: agente omitido"
+      ],
+      [
+        "杯子被他打破了。",
+        "«Él rompió el vaso» con matiz de accidente"
+      ],
+      [
+        "他被老师批评了。",
+        "«El profesor lo regañó»: negativo"
+      ],
+      [
+        "这本书是他写的。",
+        "Neutro: se evita 被"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "«Me robaron la bici»: 我的自行车 _____ 偷了。",
+        "options": [
+          "被",
+          "把",
+          "给"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "被 suele marcar sucesos:",
+        "options": [
+          "desafortunados",
+          "alegres",
+          "neutros"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«El vaso fue roto por él»: 杯子 _____ 他打破了。",
+        "options": [
+          "被",
+          "把",
+          "在"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Para un hecho neutro es mejor:",
+        "options": [
+          "voz activa o 是…的",
+          "siempre 被",
+          "siempre 把"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "title": "Un voyage qui a mal commencé",
+  "summary": "Récit au passé — passé composé et imparfait en contraste.",
+  "text": "<p>L'année dernière, j'ai décidé de partir à Marseille avec deux amis. Nous avons acheté les billets trois mois avant parce qu'ils coûtaient moins cher. Nous étions très contents.</p><p>Le jour du départ, nous sommes arrivés à la gare à cinq heures du matin. Il y avait beaucoup de monde et la queue était énorme. Quand nous sommes arrivés au guichet, l'employée nous a dit que le train avait quatre heures de retard. Nous étions en colère, mais nous avons attendu.</p><p>Quand nous sommes arrivés à Marseille, il faisait déjà nuit. L'hôtel était dans le Vieux-Port. Les rues étaient étroites, il y avait des terrasses partout et ça sentait le poisson grillé.</p><p>Finalement, le retard n'a pas eu d'importance. Nous avons passé cinq jours à la mer, nous avons mangé de la bouillabaisse et nous avons appris quelques mots en provençal. C'était le plus beau voyage de ma vie.</p>",
+  "glosses": [
+    {
+      "word": "l'année dernière",
+      "tip": "el año pasado"
+    },
+    {
+      "word": "la queue",
+      "tip": "la cola, la fila"
+    },
+    {
+      "word": "guichet",
+      "tip": "ventanilla"
+    },
+    {
+      "word": "en colère",
+      "tip": "enfadados"
+    },
+    {
+      "word": "ça sentait",
+      "tip": "olía a"
+    }
+  ],
+  "collocations": [
+    "l'année dernière",
+    "acheter les billets",
+    "avoir du retard",
+    "finalement",
+    "le plus beau voyage de ma vie"
+  ],
+  "questions": [
+    {
+      "q": "Pourquoi ont-ils acheté les billets trois mois avant ?",
+      "options": [
+        "Ils coûtaient moins cher",
+        "C'était obligatoire",
+        "Il n'y en avait plus"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Que s'est-il passé à la gare ?",
+      "options": [
+        "Ils ont raté le train",
+        "Le train avait quatre heures de retard",
+        "Ils ont changé de ville"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Où était l'hôtel ?",
+      "options": [
+        "À la plage",
+        "Dans le Vieux-Port",
+        "À la gare"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Comment le narrateur juge-t-il le voyage ?",
+      "options": [
+        "Le plus beau de sa vie",
+        "Un désastre",
+        "Il préfère ne pas en parler"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "title": "Trabalhar de casa: liberdade ou armadilha?",
+  "summary": "Texto argumentativo — subjuntivo, conectores e vocabulário de trabalho.",
+  "text": "<p>Quando as empresas brasileiras adotaram o trabalho remoto em larga escala, muita gente achou que seria a solução para tudo. Não precisar enfrentar o trânsito de São Paulo durante duas horas por dia parecia, por si só, uma revolução.</p><p>De fato, há vantagens claras. Quem trabalha de casa economiza tempo e dinheiro, pode almoçar com a família e organiza o dia com mais autonomia. Para quem tem filhos pequenos, isso muda tudo.</p><p>No entanto, surgiram problemas que ninguém previu. Sem a separação física entre casa e escritório, muitos passaram a trabalhar mais horas do que antes. Se o computador está sempre ali, é difícil dizer que o dia acabou. Além disso, o isolamento pesa: as conversas de corredor, que pareciam perda de tempo, eram justamente onde as ideias apareciam.</p><p>Talvez a resposta não seja escolher entre os dois modelos, mas combiná-los. Quando as empresas entenderem que o problema não é o lugar e sim a cultura de trabalho, o debate ficará mais honesto.</p>",
+  "glosses": [
+    {
+      "word": "em larga escala",
+      "tip": "a gran escala"
+    },
+    {
+      "word": "enfrentar o trânsito",
+      "tip": "lidiar con el tráfico"
+    },
+    {
+      "word": "previu",
+      "tip": "previó (prever)"
+    },
+    {
+      "word": "pesa",
+      "tip": "resulta duro, cuesta"
+    },
+    {
+      "word": "e sim",
+      "tip": "sino"
+    }
+  ],
+  "collocations": [
+    "em larga escala",
+    "de fato",
+    "no entanto",
+    "além disso",
+    "talvez a resposta não seja"
+  ],
+  "questions": [
+    {
+      "q": "Qual vantagem o texto destaca primeiro?",
+      "options": [
+        "Economizar tempo e dinheiro",
+        "Ganhar mais",
+        "Trabalhar menos horas"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Qual problema inesperado apareceu?",
+      "options": [
+        "Trabalhar mais horas do que antes",
+        "Falta de computadores",
+        "Salários menores"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Por que as conversas de corredor eram importantes?",
+      "options": [
+        "Era onde surgiam as ideias",
+        "Eram obrigatórias",
+        "Reduziam o trânsito"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Qual é a conclusão do autor?",
+      "options": [
+        "Combinar os dois modelos",
+        "Voltar ao escritório",
+        "Acabar com o escritório"
+      ],
+      "answer": 0
+    }
+  ]
+}

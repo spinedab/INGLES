@@ -11,7 +11,7 @@ import { ProgressRing } from '@/components/ProgressRing';
 import { MissionList } from '@/components/MissionList';
 import { SectionHeader } from '@/components/SectionHeader';
 import { useLevel } from '@/lib/levelContext';
-import { loadVocab } from '@/lib/content';
+import { loadVocab, deckName, langMeta } from '@/lib/content';
 import { statsForDeck, type DeckStats } from '@/lib/srs';
 import { buildDailyMission, eventTitle, summarizeActivity } from '@/lib/insights';
 import { spacing, skillColors, useTheme } from '@/lib/theme';
@@ -30,7 +30,7 @@ export default function HomeScreen() {
       let cancelled = false;
       (async () => {
         const cards = await loadVocab(level);
-        const s = await statsForDeck(`vocab-${level}`, cards);
+        const s = await statsForDeck(deckName(level), cards);
         const sum = await summarizeActivity();
         const m = buildDailyMission({ level, srsStats: s, summary: sum });
         if (cancelled) return;
@@ -50,7 +50,7 @@ export default function HomeScreen() {
       {/* Hero */}
       <Text variant="small" muted>{greeting}</Text>
       <Text variant="hero" style={{ marginBottom: spacing.xs }}>
-        Tu inglés,{'\n'}
+        Tu {langMeta().name},{'\n'}
         <Text variant="hero" accent>hoy.</Text>
       </Text>
       <Text variant="small" muted style={{ marginBottom: spacing.xl }}>

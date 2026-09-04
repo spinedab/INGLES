@@ -110,16 +110,16 @@ class ApiClient {
   }
 
   // ── Content ────────────────────────────────────────────────────────────
-  getVocab(level: CefrLevel): Promise<VocabCard[]> {
-    return this.req<VocabCard[]>(`/content/vocab/${level}`);
+  getVocab(level: CefrLevel, lang = 'en'): Promise<VocabCard[]> {
+    return this.req<VocabCard[]>(`/content/${lang}/vocab/${level}`);
   }
 
-  getReading(id: string): Promise<ReadingText> {
-    return this.req<ReadingText>(`/content/lectura/${id}`);
+  getReading(id: string, lang = 'en'): Promise<ReadingText> {
+    return this.req<ReadingText>(`/content/${lang}/lectura/${id}`);
   }
 
-  getListening(id: string): Promise<ListeningItem> {
-    return this.req<ListeningItem>(`/content/listening/${id}`);
+  getListening(id: string, lang = 'en'): Promise<ListeningItem> {
+    return this.req<ListeningItem>(`/content/${lang}/listening/${id}`);
   }
 }
 

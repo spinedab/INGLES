@@ -1,6 +1,7 @@
 import { loadVocab } from './flashcards.js';
-import { READING_INDEX, countWords, loadText } from './reading.js';
-import { LISTENING_INDEX, loadListen } from './listening.js';
+import { readingIndex, countWords, loadText } from './reading.js';
+import { listeningIndex, loadListen } from './listening.js';
+import * as lang from './lang.js';
 import { loadTopics } from './grammar.js';
 import { addLexiconEntry, isSaved } from './notebook.js';
 
@@ -67,14 +68,14 @@ async function buildSearchIndex() {
           term,
           meaning: card.translation || card.definition,
           example: card.example,
-          source: `vocab-${level}`,
+          source: lang.deck(level),
           level,
           tags: card.tags || [],
         },
       });
     }
 
-    for (const id of READING_INDEX[level] || []) {
+    for (const id of (await readingIndex())[level] || []) {
       const text = await loadText(id).catch(() => null);
       if (!text) continue;
       items.push({
@@ -105,7 +106,7 @@ async function buildSearchIndex() {
       }
     }
 
-    for (const id of LISTENING_INDEX[level] || []) {
+    for (const id of (await listeningIndex())[level] || []) {
       const item = await loadListen(id).catch(() => null);
       if (!item) continue;
       items.push({

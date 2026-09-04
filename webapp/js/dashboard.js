@@ -1,18 +1,20 @@
 import * as srs from './srs.js';
 import { buildDailyMission, eventTitle, summarizeActivity } from './insights.js';
 import { loadVocab } from './flashcards.js';
+import * as lang from './lang.js';
 
 export async function renderDashboard(view, level) {
   let vocab = [];
   try { vocab = await loadVocab(level); } catch {}
-  const stats = srs.statsForDeck(`vocab-${level}`, vocab);
+  const stats = srs.statsForDeck(lang.deck(level), vocab);
+  const headline = (await lang.meta()).headline;
   const summary = summarizeActivity();
   const mission = buildDailyMission({ level, srsStats: stats, summary });
 
   view.innerHTML = `
     <div class="dashboard-top">
       <div>
-        <h1>Aprende inglés, basado en evidencia.</h1>
+        <h1>${escapeHtml(headline)}</h1>
         <p class="muted">Plan adaptativo, SRS, input graduado, output guiado y progreso privado en este navegador.</p>
       </div>
       <a class="btn btn-primary" href="${mission[0]?.href || '#/flashcards'}">Continuar sesión</a>

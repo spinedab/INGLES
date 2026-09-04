@@ -8,7 +8,7 @@ import { Text } from '@/components/Text';
 import { Button } from '@/components/Button';
 import { QuestionBlock } from '@/components/QuestionBlock';
 import { StatBlock } from '@/components/StatBlock';
-import { loadListening } from '@/lib/content';
+import { loadListening, ttsLocale } from '@/lib/content';
 import { set } from '@/lib/storage';
 import { logActivity } from '@/lib/insights';
 import { radius, spacing, useTheme } from '@/lib/theme';
@@ -84,7 +84,7 @@ export default function ListeningDetail() {
       .join('. ');
     setSpeaking(true);
     Speech.speak(text, {
-      language: 'en-US',
+      language: ttsLocale(),
       rate,
       onDone: () => setSpeaking(false),
       onStopped: () => setSpeaking(false),

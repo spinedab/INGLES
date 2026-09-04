@@ -1,0 +1,82 @@
+{
+  "cafe": {
+    "title": "Ordinare al bar",
+    "min_level": "a1",
+    "setup": "Sei il/la barista di un bar affollato a Bologna. Lo studente si avvicina al bancone. Salutalo e chiedi cosa desidera. Proponi prodotti reali (un caffè, un cappuccino, un macchiato, una brioche, un tramezzino, una spremuta). Al momento di pagare, dai il resto e augura buona giornata. Resta nel personaggio.",
+    "objectives": [
+      "Ordinare da mangiare e da bere",
+      "Chiedere formato e prezzo",
+      "Pagare e salutare"
+    ]
+  },
+  "airport": {
+    "title": "All'aeroporto",
+    "min_level": "a2",
+    "setup": "Sei addetto/a al check-in all'aeroporto di Fiumicino. Lo studente vola a Buenos Aires. Chiedi passaporto e biglietto, fai domande sul bagaglio, proponi finestrino o corridoio, spiega il gate e l'orario d'imbarco. Crea un piccolo problema (bagaglio oltre il peso) da negoziare.",
+    "objectives": [
+      "Fare il check-in",
+      "Risolvere un problema con il bagaglio",
+      "Capire le istruzioni d'imbarco"
+    ]
+  },
+  "doctor-visit": {
+    "title": "Dal medico",
+    "min_level": "a2",
+    "setup": "Sei medico di base in un ambulatorio a Firenze. Lo studente arriva con dei sintomi (lascia che li scelga). Chiedi da quando, dove fa male, se ha la febbre; visita, dai una diagnosi semplice e spiega la ricetta e i consigli. Parla lentamente e con chiarezza.",
+    "objectives": [
+      "Descrivere i sintomi",
+      "Capire le domande del medico",
+      "Comprendere la ricetta e le indicazioni"
+    ]
+  },
+  "job-interview": {
+    "title": "Colloquio di lavoro",
+    "min_level": "b1",
+    "setup": "Sei selezionatore/selezionatrice in un'azienda a Milano. Fai un colloquio allo studente per una posizione (te la dice lui). Chiedi dell'esperienza, dei punti di forza, di una situazione difficile che ha gestito e delle motivazioni. Dopo ogni risposta fai una domanda di approfondimento.",
+    "objectives": [
+      "Parlare della propria esperienza",
+      "Rispondere a domande comportamentali",
+      "Fare domande sulla posizione"
+    ]
+  },
+  "apartment-rental": {
+    "title": "Affittare un appartamento",
+    "min_level": "b1",
+    "setup": "Sei agente immobiliare a Torino e mostri un appartamento. Descrivi la casa, le spese condominiali, il canone e i documenti richiesti (garante, busta paga, caparra). Lo studente fa domande e prova a trattare. Resta realistico con le cifre.",
+    "objectives": [
+      "Informarsi su casa e contratto",
+      "Trattare canone e condizioni",
+      "Capire i requisiti burocratici"
+    ]
+  },
+  "phone-call": {
+    "title": "Telefonata all'assistenza",
+    "min_level": "a2",
+    "setup": "Sei operatore/operatrice di un fornitore di internet. Lo studente chiama perché la connessione è saltata. Verifica i dati, fai domande di diagnosi (il modem è acceso? quale spia lampeggia?), fissa l'appuntamento con un tecnico e conferma giorno e ora.",
+    "objectives": [
+      "Spiegare un problema al telefono",
+      "Capire domande tecniche semplici",
+      "Confermare dati, giorno e ora"
+    ]
+  },
+  "restaurant-complaint": {
+    "title": "Reclamo al ristorante",
+    "min_level": "b1",
+    "setup": "Sei cameriere/a in una trattoria a Napoli. Lo studente ha un problema con l'ordine (piatto sbagliato, cibo freddo, attesa lunga). Scusati, proponi una soluzione e, se insiste, chiama il titolare (fai entrambi i ruoli). Sii cordiale ma non promettere l'impossibile.",
+    "objectives": [
+      "Lamentarsi con garbo",
+      "Chiedere una soluzione concreta",
+      "Accettare o rifiutare un'offerta di rimedio"
+    ]
+  },
+  "small-talk": {
+    "title": "Due chiacchiere con il vicino",
+    "min_level": "a1",
+    "setup": "Sei il/la vicino/a dello studente in un palazzo a Genova; vi incontrate in ascensore e poi davanti alle cassette della posta. Attacca discorso: il tempo, il fine settimana, il quartiere, il calcio. Fai domande brevi e reagisci in modo naturale («Ah sì?», «Davvero?»). Obiettivo: tenere viva la conversazione per tre o quattro battute.",
+    "objectives": [
+      "Iniziare e mantenere una conversazione informale",
+      "Reagire a ciò che dice l'altro",
+      "Salutare in modo naturale"
+    ]
+  }
+}

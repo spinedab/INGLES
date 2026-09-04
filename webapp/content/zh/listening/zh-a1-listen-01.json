@@ -1,0 +1,58 @@
+{
+  "title": "在咖啡店点单 (Zài kāfēidiàn diǎndān)",
+  "summary": "Diálogo breve con pinyin — saludo, pedido y pago.",
+  "duration": "1 min",
+  "audio": null,
+  "script": "服务员：您好！要点什么？(Fúwùyuán: Nín hǎo! Yào diǎn shénme?)\n顾客：您好。我要一杯咖啡。(Gùkè: Nín hǎo. Wǒ yào yì bēi kāfēi.)\n服务员：大杯还是小杯？(Dà bēi háishi xiǎo bēi?)\n顾客：大杯，加牛奶。(Dà bēi, jiā niúnǎi.)\n服务员：还要别的吗？(Hái yào bié de ma?)\n顾客：要一个包子。(Yào yí ge bāozi.)\n服务员：一共二十五块。(Yígòng èrshíwǔ kuài.)\n顾客：给您三十。(Gěi nín sānshí.)\n服务员：谢谢。找您五块。祝您愉快！(Xièxie. Zhǎo nín wǔ kuài.)\n顾客：谢谢，再见！(Xièxie, zàijiàn!)",
+  "vocabulary": [
+    {
+      "word": "要点什么？(Yào diǎn shénme?)",
+      "meaning": "¿qué va a pedir?"
+    },
+    {
+      "word": "还是 (háishi)",
+      "meaning": "o (en preguntas de elección)"
+    },
+    {
+      "word": "一共 (yígòng)",
+      "meaning": "en total"
+    },
+    {
+      "word": "找 (zhǎo)",
+      "meaning": "dar el cambio"
+    },
+    {
+      "word": "块 (kuài)",
+      "meaning": "yuan (coloquial)"
+    }
+  ],
+  "questions": [
+    {
+      "q": "顾客要什么喝的？",
+      "options": [
+        "一杯大咖啡加牛奶",
+        "一杯茶",
+        "一瓶水"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "一共多少钱？",
+      "options": [
+        "二十五块",
+        "三十块",
+        "五块"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "服务员找多少钱？",
+      "options": [
+        "五块",
+        "十块",
+        "没找"
+      ],
+      "answer": 0
+    }
+  ]
+}

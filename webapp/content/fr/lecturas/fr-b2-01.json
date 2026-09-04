@@ -1,0 +1,72 @@
+{
+  "title": "La langue qui bouge sous nos pieds",
+  "summary": "Essai sur la variation — subjonctif, mise en relief, registre soutenu.",
+  "text": "<p>Chaque fois que quelqu'un affirme que le français se dégrade à cause des jeunes, il convient de rappeler que la même plainte est attestée au XIXe siècle, au XVIIIe, et probablement chez quelque Romain agacé par le latin qu'il entendait dans la rue.</p><p>Ce que nous appelons faute n'est souvent qu'un changement en cours. Le cas de la négation est le plus parlant : la grammaire scolaire exige « je ne sais pas », mais presque aucun locuteur ne prononce le « ne » dans une conversation ordinaire. On dit « j'sais pas », et cette forme, loin d'être un relâchement, suit une logique rythmique propre au français parlé.</p><p>Cela ne signifie pas que n'importe quoi convienne dans n'importe quel contexte. Pour qu'un locuteur soit réellement compétent, il faut qu'il maîtrise plusieurs registres et qu'il sache quand employer chacun. Rédiger un rapport professionnel comme s'il s'agissait d'un message instantané est aussi inadéquat que l'inverse.</p><p>Le problème ne réside donc pas dans le changement lui-même, mais dans l'idée qu'il existerait une seule manière légitime de parler. C'est souvent le prestige d'un groupe social précis que défend, sans s'en rendre compte, celui qui soutient cette idée. Dès lors que nous le reconnaissons, la discussion cesse de porter sur la grammaire et commence à porter sur le pouvoir.</p>",
+  "glosses": [
+    {
+      "word": "il convient de",
+      "tip": "conviene, es oportuno"
+    },
+    {
+      "word": "plainte",
+      "tip": "queja"
+    },
+    {
+      "word": "agacé",
+      "tip": "molesto, irritado"
+    },
+    {
+      "word": "relâchement",
+      "tip": "relajación, descuido"
+    },
+    {
+      "word": "dès lors que",
+      "tip": "desde el momento en que"
+    }
+  ],
+  "collocations": [
+    "il convient de rappeler",
+    "un changement en cours",
+    "loin d'être",
+    "il faut que",
+    "cesser de… et commencer à…"
+  ],
+  "questions": [
+    {
+      "q": "Quel argument l'auteur oppose-t-il à l'idée de dégradation ?",
+      "options": [
+        "La même plainte se répète depuis des siècles",
+        "Les jeunes lisent plus",
+        "Le français est récent"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Pourquoi « j'sais pas » n'est-il pas un relâchement ?",
+      "options": [
+        "Il suit une logique rythmique du français parlé",
+        "C'est la norme écrite",
+        "Il vient du latin"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Que faut-il pour être un locuteur compétent ?",
+      "options": [
+        "Maîtriser plusieurs registres et savoir les choisir",
+        "Parler toujours formellement",
+        "Éviter l'argot"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Quelle est la thèse finale ?",
+      "options": [
+        "La discussion porte sur le pouvoir, non la grammaire",
+        "La grammaire doit disparaître",
+        "Seule la norme est légitime"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "title": "Ordinare al bar",
+  "summary": "Dialogo breve al bar — saluti, ordine e prezzo.",
+  "duration": "1 min",
+  "audio": null,
+  "script": "Barista: Buongiorno! Mi dica.\nCliente: Buongiorno. Vorrei un caffè, per favore.\nBarista: Un espresso o un cappuccino?\nCliente: Un cappuccino, grazie.\nBarista: Qualcosa da mangiare?\nCliente: Sì, un cornetto.\nBarista: Sono tre euro e cinquanta.\nCliente: Ecco cinque euro.\nBarista: Grazie. Il resto, un euro e cinquanta. Buona giornata!\nCliente: Altrettanto. Grazie!",
+  "vocabulary": [
+    {
+      "word": "Mi dica",
+      "meaning": "dígame (fórmula de servicio, cortés)"
+    },
+    {
+      "word": "Vorrei…",
+      "meaning": "querría… (condicional de cortesía)"
+    },
+    {
+      "word": "cornetto",
+      "meaning": "cruasán (en Italia)"
+    },
+    {
+      "word": "il resto",
+      "meaning": "el cambio, la vuelta"
+    },
+    {
+      "word": "Altrettanto",
+      "meaning": "igualmente"
+    }
+  ],
+  "questions": [
+    {
+      "q": "Che cosa ordina il cliente?",
+      "options": [
+        "Un cappuccino",
+        "Un tè",
+        "Una spremuta"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Quanto costa in tutto?",
+      "options": [
+        "Tre euro e cinquanta",
+        "Cinque euro",
+        "Un euro e cinquanta"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Quanto resto riceve?",
+      "options": [
+        "Un euro e cinquanta",
+        "Cinquanta centesimi",
+        "Niente"
+      ],
+      "answer": 0
+    }
+  ]
+}

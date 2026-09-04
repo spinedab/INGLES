@@ -1,5 +1,6 @@
 // Router y bootstrap de la SPA.
 import * as storage from './storage.js';
+import * as lang from './lang.js';
 import { renderDashboard } from './dashboard.js';
 import { renderFlashcards } from './flashcards.js';
 import { renderReading } from './reading.js';
@@ -70,16 +71,33 @@ async function render() {
 }
 
 window.addEventListener('hashchange', render);
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
   const select = document.getElementById('level-select');
   select.value = storage.level();
   select.addEventListener('change', () => {
     storage.setLevel(select.value);
     render();
   });
+  await setupLanguageSelect();
   setupAppShell();
   render();
 });
+
+// El idioma que se estudia. Si la lista no carga (offline en la primera
+// visita) se deja el inglés, que es el que hay precacheado.
+async function setupLanguageSelect() {
+  const sel = document.getElementById('lang-select');
+  if (!sel) return;
+  let list = [];
+  try { list = await lang.languages(); } catch { list = [{ code: 'en', name: 'inglés' }]; }
+  sel.innerHTML = list.map(l => `<option value="${l.code}">${l.name}</option>`).join('');
+  sel.value = list.some(l => l.code === lang.current()) ? lang.current() : 'en';
+  sel.addEventListener('change', () => {
+    lang.setCurrent(sel.value);
+    document.title = `${document.title.split(' — ')[0]} — ${sel.options[sel.selectedIndex].text}`;
+    render();
+  });
+}
 
 function setupAppShell() {
   setupInstallPrompt();

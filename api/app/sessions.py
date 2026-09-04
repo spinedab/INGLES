@@ -46,6 +46,7 @@ class Session:
     level: str = "b1"
     mode: str = "conversation"     # conversation | roleplay | grammar
     scenario: str | None = None    # solo para mode=roleplay
+    lang: str = "en"               # idioma que se estudia (en, pt, fr, it, zh)
     learner_turns: int = 0          # cuenta para el noticing block cada 6
     turns: list[Turn] = field(default_factory=list)
 
@@ -58,6 +59,7 @@ class Session:
             "level": self.level,
             "mode": self.mode,
             "scenario": self.scenario,
+            "lang": self.lang,
             "learner_turns": self.learner_turns,
             "turns": [t.to_dict() for t in self.turns],
         }
@@ -72,6 +74,7 @@ class Session:
             level=str(d.get("level", "b1")),
             mode=str(d.get("mode", "conversation")),
             scenario=d.get("scenario"),
+            lang=str(d.get("lang", "en")),
             learner_turns=int(d.get("learner_turns", 0)),
             turns=[Turn.from_dict(t) for t in d.get("turns", [])],
         )
@@ -122,6 +125,7 @@ def create_session(
     level: str = "b1",
     mode: str = "conversation",
     scenario: str | None = None,
+    lang: str = "en",
 ) -> Session:
     session_id = secrets.token_urlsafe(16)
     now = time.time()
@@ -133,6 +137,7 @@ def create_session(
         level=level,
         mode=mode,
         scenario=scenario,
+        lang=lang,
     )
     _save(s)
     return s

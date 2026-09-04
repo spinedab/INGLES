@@ -2,6 +2,7 @@
 // Sigue el patrón del resto de vistas: export render*(view, level) que pinta
 // dentro de #view y engancha listeners; reutiliza el CSS existente.
 import * as storage from './storage.js';
+import * as lang from './lang.js';
 import { logActivity } from './insights.js';
 import * as tutorApi from './tutor-client.js';
 
@@ -79,7 +80,7 @@ export async function renderTutor(view, level) {
       </div>
       <div class="tutor-chat" id="tutor-chat"></div>
       <textarea id="tutor-input" class="coach-textarea small"
-        placeholder="Escribe en inglés y pulsa Enter (Shift+Enter = salto de línea)."></textarea>
+        placeholder="Escribe en el idioma que estudias y pulsa Enter (Shift+Enter = salto de línea)."></textarea>
       <div class="button-row">
         <button class="btn btn-primary" id="tutor-send">Enviar</button>
         <button class="btn" id="tutor-stop" hidden>Detener</button>
@@ -122,7 +123,7 @@ export async function renderTutor(view, level) {
   // ── Escenarios ──
   async function loadScenarios() {
     try {
-      allScenarios = await tutorApi.scenarios();
+      allScenarios = await tutorApi.scenarios(lang.current());
     } catch (e) {
       allScenarios = {};
       setStatus(`No se pudieron cargar los escenarios: ${e.message}`, 'danger');
@@ -209,7 +210,7 @@ export async function renderTutor(view, level) {
     chatEl.innerHTML = '';
     (turns || []).forEach(t => bubble(t.role, t.content));
     if (!turns || !turns.length) {
-      chatEl.innerHTML = '<div class="empty">Escribe tu primer mensaje en inglés para empezar.</div>';
+      chatEl.innerHTML = '<div class="empty">Escribe tu primer mensaje en el idioma que estudias para empezar.</div>';
     }
   }
 
@@ -227,7 +228,7 @@ export async function renderTutor(view, level) {
       const mode = modeSel.value;
       const scenario = mode === 'roleplay' ? scenarioSel.value : null;
       if (mode === 'roleplay' && !scenario) throw new Error('Elige un escenario para el roleplay.');
-      session = await tutorApi.startSession({ level: levelSel.value, mode, scenario });
+      session = await tutorApi.startSession({ level: levelSel.value, mode, scenario, lang: lang.current() });
       chatPanel.hidden = false;
       endBtn.hidden = false;
       paintTurns([]);

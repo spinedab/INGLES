@@ -1,0 +1,551 @@
+[
+  {
+    "id": "it-articoli",
+    "title": "Los artículos: «il», «lo», «la», «gli»",
+    "level": "a1",
+    "why": "El italiano tiene formas que el español no distingue. «Lo studente» y «gli amici» no tienen equivalente, y elegir mal el artículo es lo primero que delata a un hispanohablante.",
+    "rule": "Masculino singular: IL ante consonante (il libro), LO ante s+consonante, z, gn, ps, y (lo studente, lo zio), L' ante vocal (l'amico). Plural: I (i libri), GLI (gli studenti, gli amici). Femenino: LA / L' / LE.",
+    "examples": [
+      [
+        "il libro → i libri",
+        "Consonante normal"
+      ],
+      [
+        "lo studente → gli studenti",
+        "s + consonante → lo / gli"
+      ],
+      [
+        "l'amico → gli amici",
+        "Vocal → l' / gli"
+      ],
+      [
+        "la casa → le case",
+        "Femenino regular"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "_____ zio di Marco abita a Roma.",
+        "options": [
+          "Lo",
+          "Il",
+          "L'"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Plural de «l'amico»:",
+        "options": [
+          "gli amici",
+          "i amici",
+          "le amici"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "_____ spagnolo è facile per gli italiani.",
+        "options": [
+          "Lo",
+          "Il",
+          "L'"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "_____ studenti sono in classe.",
+        "options": [
+          "Gli",
+          "I",
+          "Le"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "_____ acqua è fredda.",
+        "options": [
+          "L'",
+          "La",
+          "Lo"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "it-piacere",
+    "title": "«Mi piace» / «mi piacciono»",
+    "level": "a1",
+    "why": "Funciona como el «gustar» español, así que la lógica se transfiere bien, pero el hispanohablante olvida que el verbo concuerda con lo que gusta y dice «mi piace i gatti».",
+    "rule": "El sujeto es lo que gusta, no la persona. Singular → PIACE; plural → PIACCIONO. La persona va en pronombre indirecto: mi, ti, gli/le, ci, vi, gli. En pasado usa ESSERE: «mi è piaciuto».",
+    "examples": [
+      [
+        "Mi piace la pizza.",
+        "Singular → piace"
+      ],
+      [
+        "Mi piacciono i gatti.",
+        "Plural → piacciono"
+      ],
+      [
+        "Ti piace viaggiare?",
+        "Infinitivo cuenta como singular"
+      ],
+      [
+        "Il film mi è piaciuto molto.",
+        "Pasado con essere + concordancia"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "Mi _____ i film italiani.",
+        "options": [
+          "piacciono",
+          "piace",
+          "piaccio"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Ti _____ la musica classica?",
+        "options": [
+          "piace",
+          "piacciono",
+          "piaci"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Ci _____ molto questo ristorante.",
+        "options": [
+          "piace",
+          "piacciono",
+          "piacere"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Il concerto mi _____ piaciuto.",
+        "options": [
+          "è",
+          "ha",
+          "era"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "it-passato-prossimo",
+    "title": "Passato prossimo: «essere» o «avere»",
+    "level": "a2",
+    "why": "El español usa siempre «haber». El italiano reparte, y con «essere» el participio concuerda: «siamo andati», «è andata». Decir «ho andato» es el error más común.",
+    "rule": "AVERE con verbos transitivos (ho mangiato la pizza). ESSERE con verbos de movimiento y cambio (andare, venire, arrivare, partire, uscire, entrare, nascere, morire, restare, stare, essere) y con reflexivos. Con essere el participio concuerda en género y número.",
+    "examples": [
+      [
+        "Ho mangiato una pizza.",
+        "Transitivo → avere"
+      ],
+      [
+        "Sono andato al mercato.",
+        "andare → essere (andata si es mujer)"
+      ],
+      [
+        "Siamo arrivati ieri.",
+        "Plural masculino → arrivati"
+      ],
+      [
+        "Mi sono alzato presto.",
+        "Reflexivo → essere"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "Ieri _____ mangiato al ristorante.",
+        "options": [
+          "ho",
+          "sono",
+          "era"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Maria _____ partita alle otto.",
+        "options": [
+          "è",
+          "ha",
+          "era"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Noi _____ andati al cinema.",
+        "options": [
+          "siamo",
+          "abbiamo",
+          "eravamo"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Mi _____ svegliato tardi.",
+        "options": [
+          "sono",
+          "ho",
+          "era"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Loro _____ visto il film.",
+        "options": [
+          "hanno",
+          "sono",
+          "erano"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "it-preposizioni-articolate",
+    "title": "Preposiciones articuladas: «nel», «della», «al»",
+    "level": "a1",
+    "why": "El español solo contrae «a + el = al» y «de + el = del». El italiano contrae casi todas las combinaciones, y no hacerlo suena a traducción literal.",
+    "rule": "Se fusionan a, da, di, in, su + artículo: a+il=al, a+la=alla, di+il=del, di+la=della, in+il=nel, in+la=nella, da+il=dal, su+il=sul. «Con» y «per» normalmente no se contraen.",
+    "examples": [
+      [
+        "Vado al mercato.",
+        "a + il = al"
+      ],
+      [
+        "Il libro della professoressa.",
+        "di + la = della"
+      ],
+      [
+        "Abito nel centro.",
+        "in + il = nel"
+      ],
+      [
+        "Vengo dal medico.",
+        "da + il = dal"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "Vado _____ stazione.",
+        "options": [
+          "alla",
+          "a la",
+          "al"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Il colore _____ macchina è rosso.",
+        "options": [
+          "della",
+          "di la",
+          "del"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "I libri sono _____ tavolo.",
+        "options": [
+          "sul",
+          "su il",
+          "nel"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Torno _____ ufficio alle sei.",
+        "options": [
+          "dall'",
+          "da l'",
+          "del"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Abito _____ Italia da due anni.",
+        "options": [
+          "in",
+          "nella",
+          "all'"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "it-congiuntivo",
+    "title": "Congiuntivo: «penso che sia»",
+    "level": "b1",
+    "why": "El hispanohablante tiene subjuntivo, pero los disparadores difieren: «creo que es» lleva indicativo en español y congiuntivo en italiano («penso che sia»). Es la diferencia que más marca el nivel.",
+    "rule": "Congiuntivo tras opinión, duda, deseo y emoción: penso che, credo che, spero che, voglio che, è possibile che, bisogna che, benché, affinché. Ojo: en italiano «penso che» y «credo che» SÍ llevan congiuntivo, al contrario del español.",
+    "examples": [
+      [
+        "Penso che sia una buona idea.",
+        "penso che → sia, NO «è»"
+      ],
+      [
+        "Credo che lui abbia ragione.",
+        "credo che → abbia"
+      ],
+      [
+        "Spero che tu stia bene.",
+        "spero che → stia"
+      ],
+      [
+        "Benché faccia freddo, esco.",
+        "benché → faccia"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "Penso che Maria _____ a casa.",
+        "options": [
+          "sia",
+          "è",
+          "era"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Credo che loro _____ ragione.",
+        "options": [
+          "abbiano",
+          "hanno",
+          "avevano"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Spero che tu _____ venire.",
+        "options": [
+          "possa",
+          "puoi",
+          "potrai"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "È possibile che _____ domani.",
+        "options": [
+          "piova",
+          "piove",
+          "pioverà"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Voglio che tu _____ attenzione.",
+        "options": [
+          "faccia",
+          "fai",
+          "farai"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "it-doppie-consonanti",
+    "title": "Consonantes dobles: cambian la palabra",
+    "level": "a1",
+    "why": "El español solo dobla la r y la l con valor distintivo. En italiano la doble consonante se pronuncia más larga y distingue palabras completamente diferentes: «ano» y «anno» no son variantes, son dos palabras.",
+    "rule": "La doble consonante se sostiene al pronunciarla. Pares críticos: anno (año) / ano, casa / cassa (caja), pena / penna (pluma), sono (soy) / sonno (sueño), caro / carro, note / notte (noche), fato / fatto (hecho), copia / coppia (pareja).",
+    "examples": [
+      [
+        "Ho ventisette anni.",
+        "anno con doble n = año"
+      ],
+      [
+        "Prendi la penna.",
+        "penna = pluma; pena = pena"
+      ],
+      [
+        "Buona notte!",
+        "notte = noche; note = notas"
+      ],
+      [
+        "Ho sonno.",
+        "sonno = sueño; sono = yo soy"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "«Tengo treinta años»: Ho trent'_____.",
+        "options": [
+          "anni",
+          "ani",
+          "annos"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Buenas noches»: Buona _____.",
+        "options": [
+          "notte",
+          "note",
+          "noté"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Tengo sueño»: Ho _____.",
+        "options": [
+          "sonno",
+          "sono",
+          "suono"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Una pareja de novios»: una _____ di fidanzati.",
+        "options": [
+          "coppia",
+          "copia",
+          "copa"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "it-pronomi-combinati",
+    "title": "Pronombres combinados: «glielo dico»",
+    "level": "b2",
+    "why": "El español combina «se lo digo» de forma parecida, pero el italiano fusiona las formas en una sola palabra y cambia la vocal (mi + lo = me lo, gli + lo = glielo), lo que el hispanohablante no anticipa.",
+    "rule": "El indirecto va primero y su -i final se vuelve -e: mi+lo = me lo, ti+lo = te lo, ci+lo = ce lo, vi+lo = ve lo. Con gli y le se fusiona en una palabra: GLIELO, GLIELA, GLIELI, GLIELE (sirve para él, ella y usted).",
+    "examples": [
+      [
+        "Me lo dai?",
+        "mi + lo = me lo"
+      ],
+      [
+        "Glielo dico domani.",
+        "gli/le + lo = glielo, una sola palabra"
+      ],
+      [
+        "Te ne parlo dopo.",
+        "ti + ne = te ne"
+      ],
+      [
+        "Ce li ha portati lui.",
+        "ci + li = ce li"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "Il libro? _____ do subito. (a te)",
+        "options": [
+          "Te lo",
+          "Ti lo",
+          "Te il"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "La notizia? _____ ho detta ieri. (a lui)",
+        "options": [
+          "Gliel'",
+          "Gli l'",
+          "Le l'"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "I documenti? _____ mando per email. (a voi)",
+        "options": [
+          "Ve li",
+          "Vi li",
+          "Ve le"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Il regalo? _____ compro io. (a lei)",
+        "options": [
+          "Glielo",
+          "Le lo",
+          "Gli lo"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "it-falsi-amici",
+    "title": "Falsos amigos italiano-español",
+    "level": "a2",
+    "why": "La cercanía entre los dos idiomas hace que el hispanohablante confíe demasiado. Estas palabras existen en ambos con sentidos distintos, así que la frase resultante es gramatical pero significa otra cosa.",
+    "rule": "Aprende el par completo. Los más costosos: burro = mantequilla (asno = asino), salire = subir (salir = uscire), guardare = mirar (guardar = tenere), aceto = vinagre (aceite = olio), imbarazzata = avergonzada, pronto = ¿diga? al teléfono, negozio = tienda, camera = habitación, largo = ancho (largo = lungo).",
+    "examples": [
+      [
+        "Pane, burro e marmellata.",
+        "burro = mantequilla"
+      ],
+      [
+        "Salgo le scale.",
+        "salire = subir; para «salir» → uscire"
+      ],
+      [
+        "Guarda che bello!",
+        "guardare = mirar"
+      ],
+      [
+        "Pronto? Chi parla?",
+        "Al teléfono: «¿diga?»"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "«Voy a salir de casa»: _____ di casa.",
+        "options": [
+          "Esco",
+          "Salgo",
+          "Guardo"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Pan con mantequilla»: pane e _____.",
+        "options": [
+          "burro",
+          "olio",
+          "aceto"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Mira la foto»: _____ la foto.",
+        "options": [
+          "Guarda",
+          "Salva",
+          "Tieni"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Una habitación doble»: una _____ doppia.",
+        "options": [
+          "camera",
+          "stanza da letto",
+          "cameriera"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Una calle ancha»: una strada _____.",
+        "options": [
+          "larga",
+          "lunga",
+          "grande"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

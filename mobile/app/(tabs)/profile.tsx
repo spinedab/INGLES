@@ -10,6 +10,7 @@ import { Card } from '@/components/Card';
 import { Button } from '@/components/Button';
 import { StatBlock } from '@/components/StatBlock';
 import { LevelPicker } from '@/components/LevelPicker';
+import { LanguagePicker } from '@/components/LanguagePicker';
 import { ProgressRing } from '@/components/ProgressRing';
 import { WeekBars } from '@/components/WeekBars';
 import { SectionHeader } from '@/components/SectionHeader';
@@ -142,6 +143,7 @@ export default function ProfileScreen() {
         <SectionHeader title="Ajustes" />
 
         <Text variant="smallBold" style={{ marginBottom: spacing.xs }}>Nivel CEFR</Text>
+        <LanguagePicker />
         <LevelPicker />
 
         <View style={[styles.settingRow, { marginTop: spacing.lg }]}>

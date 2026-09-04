@@ -92,8 +92,8 @@ export function health(signal = null) {
 }
 
 /** GET /v1/scenarios -> { [id]: {title, min_level, setup, objectives[]} } */
-export function scenarios(signal = null) {
-  return request('/v1/scenarios', { signal });
+export function scenarios(lang = 'en', signal = null) {
+  return request(`/v1/scenarios?lang=${encodeURIComponent(lang)}`, { signal });
 }
 
 /**
@@ -101,10 +101,10 @@ export function scenarios(signal = null) {
  * @param {{level?:string, mode?:'conversation'|'roleplay'|'grammar', scenario?:string|null}} opts
  * @returns {Promise<{sessionId:string, level:string, mode:string, scenario:string|null, createdAt:number}>}
  */
-export function startSession({ level = 'b1', mode = 'conversation', scenario = null } = {}, signal = null) {
+export function startSession({ level = 'b1', mode = 'conversation', scenario = null, lang = 'en' } = {}, signal = null) {
   return request('/v1/sessions/start', {
     method: 'POST',
-    body: { level: String(level).toLowerCase(), mode, scenario: scenario || null },
+    body: { level: String(level).toLowerCase(), mode, scenario: scenario || null, lang },
     signal,
   });
 }

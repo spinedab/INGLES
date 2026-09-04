@@ -1,0 +1,542 @@
+[
+  {
+    "id": "fr-articles-partitifs",
+    "title": "Artículos partitivos: «du pain», «de la salade»",
+    "level": "a1",
+    "why": "El español dice «como pan» sin artículo. El francés obliga a poner uno: «je mange DU pain». Omitirlo es el error más frecuente y más audible del hispanohablante en francés.",
+    "rule": "Ante una cantidad no precisada hace falta partitivo: DU (masc.), DE LA (fem.), DE L' (ante vocal), DES (plural). En frase negativa todos se convierten en DE: «je ne mange pas de pain».",
+    "examples": [
+      [
+        "Je mange du pain et de la confiture.",
+        "Nunca «je mange pain»"
+      ],
+      [
+        "Il boit de l'eau.",
+        "de l' ante vocal"
+      ],
+      [
+        "Nous achetons des légumes.",
+        "des = plural indeterminado"
+      ],
+      [
+        "Je ne bois pas de café.",
+        "En negativa: du → de"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "Je voudrais _____ eau, s'il vous plaît.",
+        "options": [
+          "de l'",
+          "du",
+          "de la"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Elle mange _____ viande.",
+        "options": [
+          "de la",
+          "du",
+          "des"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Nous prenons _____ croissants.",
+        "options": [
+          "des",
+          "de la",
+          "du"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Je ne veux pas _____ sucre.",
+        "options": [
+          "de",
+          "du",
+          "le"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Il achète _____ fromage au marché.",
+        "options": [
+          "du",
+          "de la",
+          "des"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "fr-pronoms-sujets",
+    "title": "El sujeto es obligatorio",
+    "level": "a1",
+    "why": "En español el sujeto se omite porque la terminación verbal lo indica. En francés las terminaciones se pronuncian igual (parle, parles, parlent suenan idénticas), así que el pronombre es lo único que distingue quién habla: quitarlo hace la frase incomprensible.",
+    "rule": "Todo verbo conjugado lleva sujeto expreso: je, tu, il/elle/on, nous, vous, ils/elles. Incluso con verbos impersonales: «il pleut», «il faut», «il y a». No existe el equivalente a «Llueve» sin sujeto.",
+    "examples": [
+      [
+        "Je parle français.",
+        "NO: «*Parle français»"
+      ],
+      [
+        "Il pleut aujourd'hui.",
+        "«il» obligatorio aunque no haya sujeto real"
+      ],
+      [
+        "Il faut partir maintenant.",
+        "«Hay que irse» → il faut"
+      ],
+      [
+        "On mange à midi.",
+        "«on» = se / nosotros, muy frecuente en el habla"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "«Hablo español» se dice:",
+        "options": [
+          "Je parle espagnol",
+          "Parle espagnol",
+          "Moi parle espagnol"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Llueve mucho»:",
+        "options": [
+          "Il pleut beaucoup",
+          "Pleut beaucoup",
+          "Ça pleut beaucoup"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Hay que estudiar»:",
+        "options": [
+          "Il faut étudier",
+          "Faut que étudier",
+          "Y a étudier"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Hay tres libros»:",
+        "options": [
+          "Il y a trois livres",
+          "Y a trois livres",
+          "Ont trois livres"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "fr-passe-compose-auxiliaires",
+    "title": "Passé composé: «avoir» o «être»",
+    "level": "a2",
+    "why": "El español usa siempre «haber». El francés reparte entre «avoir» y «être», y con «être» el participio concuerda en género y número, algo que el español no hace nunca.",
+    "rule": "La mayoría de verbos usan AVOIR. Con ÊTRE: los verbos de movimiento y cambio de estado (aller, venir, arriver, partir, entrer, sortir, monter, descendre, naître, mourir, rester, tomber, devenir) y TODOS los pronominales. Con être, el participio concuerda: «elle est allée», «ils sont partis».",
+    "examples": [
+      [
+        "J'ai mangé une pomme.",
+        "avoir: sin concordancia"
+      ],
+      [
+        "Elle est allée au marché.",
+        "être + concordancia femenina: allée"
+      ],
+      [
+        "Nous sommes arrivés hier.",
+        "arriver → être, plural: arrivés"
+      ],
+      [
+        "Je me suis levé tôt.",
+        "Pronominal → être siempre"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "Hier, je _____ mangé au restaurant.",
+        "options": [
+          "ai",
+          "suis",
+          "était"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Marie _____ partie à huit heures.",
+        "options": [
+          "est",
+          "a",
+          "était"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Nous _____ allés à la plage.",
+        "options": [
+          "sommes",
+          "avons",
+          "étions"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Elle s'_____ couchée tard.",
+        "options": [
+          "est",
+          "a",
+          "avait"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Ils ont _____ le film hier soir.",
+        "options": [
+          "vu",
+          "vus",
+          "vues"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "fr-passe-imparfait",
+    "title": "Passé composé vs. imparfait",
+    "level": "b1",
+    "why": "El reparto se parece al español (perfecto vs. imperfecto), pero el francés usa el imparfait para el decorado de la escena mucho más que el español, y confundirlos cambia lo que el oyente entiende que pasó.",
+    "rule": "PASSÉ COMPOSÉ = acción puntual que hace avanzar el relato. IMPARFAIT = decorado: descripción, costumbre, acción en curso, estado mental. Prueba: si puedes preguntar «¿y luego qué?», es passé composé; si describe cómo era todo, es imparfait.",
+    "examples": [
+      [
+        "Il pleuvait quand je suis sorti.",
+        "Decorado (imparfait) + acción (passé composé)"
+      ],
+      [
+        "Quand j'étais petit, j'allais à la mer chaque été.",
+        "Costumbre → imparfait"
+      ],
+      [
+        "Hier, j'ai rencontré Paul.",
+        "Puntual → passé composé"
+      ],
+      [
+        "Elle était fatiguée, alors elle est rentrée.",
+        "Estado + acción"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "Quand j'_____ enfant, je jouais au foot.",
+        "options": [
+          "étais",
+          "ai été",
+          "serai"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Hier soir, nous _____ un très bon film.",
+        "options": [
+          "avons vu",
+          "voyions",
+          "verrons"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Il _____ beau, alors nous sommes sortis.",
+        "options": [
+          "faisait",
+          "a fait",
+          "fera"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Je lisais quand le téléphone _____.",
+        "options": [
+          "a sonné",
+          "sonnait",
+          "sonnera"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Tous les jours, elle _____ le bus de sept heures.",
+        "options": [
+          "prenait",
+          "a pris",
+          "prendra"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "fr-subjonctif-present",
+    "title": "Subjonctif: «il faut que je fasse»",
+    "level": "b1",
+    "why": "El hispanohablante ya tiene subjuntivo, lo cual ayuda, pero los disparadores no coinciden: «espero que vienes» es imposible en ambos, sin embargo «je pense que» lleva indicativo en francés donde el español a veces duda.",
+    "rule": "Subjonctif tras necesidad, voluntad, emoción y duda: il faut que, vouloir que, aimer que, avoir peur que, bien que, pour que, avant que. Con indicativo: penser que, croire que, espérer que (en afirmativa), il est probable que.",
+    "examples": [
+      [
+        "Il faut que je fasse mes devoirs.",
+        "il faut que → subjonctif"
+      ],
+      [
+        "Je veux qu'il vienne avec nous.",
+        "vouloir que → vienne"
+      ],
+      [
+        "J'espère qu'il vient demain.",
+        "espérer que → INDICATIVO en francés"
+      ],
+      [
+        "Bien qu'il soit tard, je continue.",
+        "bien que → soit"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "Il faut que tu _____ maintenant.",
+        "options": [
+          "partes",
+          "pars",
+          "partiras"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Je veux que vous _____ attention.",
+        "options": [
+          "fassiez",
+          "faites",
+          "ferez"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "J'espère qu'elle _____ contente.",
+        "options": [
+          "est",
+          "soit",
+          "serait"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Avant que tu _____, dis-moi la vérité.",
+        "options": [
+          "partes",
+          "pars",
+          "partais"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Je ne pense pas qu'il _____ raison.",
+        "options": [
+          "ait",
+          "a",
+          "aura"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "fr-pronoms-y-en",
+    "title": "Los pronombres «y» y «en»",
+    "level": "a2",
+    "why": "El español no tiene equivalente directo. El hispanohablante repite el complemento («je vais à Paris, je vais à Paris») donde el francés exige un pronombre, y la frase suena redundante e infantil.",
+    "rule": "Y sustituye un lugar o un complemento con À: «Tu vas à Paris ? — Oui, j'y vais». EN sustituye un complemento con DE o una cantidad: «Tu veux du café ? — Oui, j'en veux». Van SIEMPRE antes del verbo.",
+    "examples": [
+      [
+        "— Tu vas au marché ? — Oui, j'y vais.",
+        "y = au marché"
+      ],
+      [
+        "— Tu as des enfants ? — Oui, j'en ai deux.",
+        "en = des enfants (cantidad)"
+      ],
+      [
+        "Je pense à mon travail. → J'y pense.",
+        "penser à → y"
+      ],
+      [
+        "Elle parle de son livre. → Elle en parle.",
+        "parler de → en"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "— Tu vas à la gare ? — Oui, j'_____ vais.",
+        "options": [
+          "y",
+          "en",
+          "le"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "— Tu veux du pain ? — Oui, j'_____ veux.",
+        "options": [
+          "en",
+          "y",
+          "le"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "— Combien de frères as-tu ? — J'_____ ai trois.",
+        "options": [
+          "en",
+          "y",
+          "les"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "— Tu penses à l'examen ? — Oui, j'_____ pense.",
+        "options": [
+          "y",
+          "en",
+          "le"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "fr-negation",
+    "title": "La negación en dos piezas",
+    "level": "a1",
+    "why": "El español niega con una sola palabra delante del verbo. El francés parte la negación en dos y coloca el verbo en medio; además en el habla real se cae el «ne», lo que despista al escuchar.",
+    "rule": "NE + verbo + PAS. Otras: ne… jamais (nunca), ne… rien (nada), ne… personne (nadie), ne… plus (ya no), ne… que (solo). En el habla informal el «ne» desaparece: «je sais pas». En passé composé rodea el auxiliar: «je n'ai pas mangé».",
+    "examples": [
+      [
+        "Je ne comprends pas.",
+        "ne + verbo + pas"
+      ],
+      [
+        "Je n'ai rien mangé.",
+        "rien ocupa el lugar de pas"
+      ],
+      [
+        "Il ne vient jamais.",
+        "jamais = nunca"
+      ],
+      [
+        "J'sais pas.",
+        "Habla real: el ne desaparece"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "«No entiendo» en francés estándar:",
+        "options": [
+          "Je ne comprends pas",
+          "Je comprends non",
+          "Je ne comprends"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Nunca voy al cine»: Je _____ vais _____ au cinéma.",
+        "options": [
+          "ne / jamais",
+          "ne / pas",
+          "non / jamais"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«No he visto nada»: Je n'ai _____ vu.",
+        "options": [
+          "rien",
+          "pas rien",
+          "personne"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Ya no fumo»: Je ne fume _____.",
+        "options": [
+          "plus",
+          "pas plus",
+          "jamais plus"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "fr-mise-en-relief",
+    "title": "«C'est… qui/que» para destacar",
+    "level": "b2",
+    "why": "El español destaca cambiando el orden de palabras («A Juan lo vi ayer»). El francés tiene un orden mucho más fijo, así que para enfatizar usa una estructura fija que el hispanohablante no produce de forma espontánea.",
+    "rule": "C'EST + elemento destacado + QUI (si es sujeto) o QUE (si es complemento). «C'est Paul qui a téléphoné» (Paul es el sujeto). «C'est Paul que j'ai vu» (Paul es el objeto). Para plural formal: «Ce sont».",
+    "examples": [
+      [
+        "C'est moi qui ai fait ça.",
+        "Sujeto destacado → qui, verbo en 1ª persona"
+      ],
+      [
+        "C'est ce livre que je cherche.",
+        "Objeto → que"
+      ],
+      [
+        "C'est à Paris que je l'ai rencontrée.",
+        "Destaca el lugar"
+      ],
+      [
+        "Ce sont mes parents qui arrivent.",
+        "Plural → ce sont"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "C'est Marie _____ a apporté le gâteau.",
+        "options": [
+          "qui",
+          "que",
+          "dont"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "C'est ce film _____ je veux voir.",
+        "options": [
+          "que",
+          "qui",
+          "dont"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "C'est moi _____ ai raison.",
+        "options": [
+          "qui",
+          "que",
+          "qu'"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "_____ mes amis qui organisent la fête.",
+        "options": [
+          "Ce sont",
+          "C'est",
+          "Il sont"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

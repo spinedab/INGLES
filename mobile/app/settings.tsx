@@ -4,6 +4,7 @@ import { Screen } from '@/components/Screen';
 import { Text } from '@/components/Text';
 import { Button } from '@/components/Button';
 import { LevelPicker } from '@/components/LevelPicker';
+import { LanguagePicker } from '@/components/LanguagePicker';
 import { apiClient } from '@/lib/api';
 import { clear, exportAll, importAll } from '@/lib/storage';
 import { radius, spacing, useTheme } from '@/lib/theme';
@@ -61,6 +62,11 @@ export default function Settings() {
   return (
     <Screen>
       <Text variant="h1">Ajustes</Text>
+
+      <Text variant="h2" style={{ marginTop: spacing.lg }}>
+        Idioma
+      </Text>
+      <LanguagePicker />
 
       <Text variant="h2" style={{ marginTop: spacing.lg }}>
         Nivel

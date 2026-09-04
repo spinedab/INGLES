@@ -4,7 +4,7 @@ import { Screen } from '@/components/Screen';
 import { Text } from '@/components/Text';
 import { Card } from '@/components/Card';
 import { useLevel } from '@/lib/levelContext';
-import { READING_INDEX, loadReading } from '@/lib/content';
+import { loadReading, readingIndex } from '@/lib/content';
 import { spacing } from '@/lib/theme';
 import type { ReadingText } from '@/lib/types';
 
@@ -15,7 +15,7 @@ export default function ReadingIndex() {
   useEffect(() => {
     let cancelled = false;
     (async () => {
-      const ids = READING_INDEX[level] || [];
+      const ids = readingIndex(level);
       const loaded = await Promise.all(
         ids.map((id) => loadReading(id).catch(() => null)),
       );
@@ -37,10 +37,10 @@ export default function ReadingIndex() {
         <Text muted>Sin lecturas en {level.toUpperCase()} todavía.</Text>
       ) : (
         items.map((t, i) => (
-          <Link key={t.id ?? READING_INDEX[level][i]} href={`/reading/${READING_INDEX[level][i]}`} asChild>
+          <Link key={t.id ?? readingIndex(level)[i]} href={`/reading/${readingIndex(level)[i]}`} asChild>
             <Card>
               <Text variant="caption" muted style={{ textTransform: 'uppercase' }}>
-                {READING_INDEX[level][i]}
+                {readingIndex(level)[i]}
               </Text>
               <Text variant="h3" style={{ marginTop: spacing.xs }}>
                 {t.title}

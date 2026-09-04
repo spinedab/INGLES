@@ -1,0 +1,67 @@
+{
+  "title": "Appel au service client",
+  "summary": "Appel à l'assistance — expliquer une panne et fixer un rendez-vous.",
+  "duration": "2 min",
+  "audio": null,
+  "script": "Conseiller : Service client, bonsoir. À qui ai-je l'honneur ?\nCliente : Bonsoir. Je m'appelle Carla Mendes.\nConseiller : Vous pouvez me confirmer votre numéro de client ?\nCliente : Oui, je vous le donne. Mais je vous appelle parce que ma connexion est coupée depuis hier soir et elle n'est toujours pas revenue.\nConseiller : Je comprends. Avez-vous essayé de redémarrer la box ?\nCliente : Oui, plusieurs fois. Je l'ai débranchée, j'ai attendu une minute et je l'ai rebranchée. Ça n'a rien changé.\nConseiller : Et quel voyant est allumé sur l'appareil ?\nCliente : Celui de l'alimentation est vert, mais celui d'internet est rouge et il clignote.\nConseiller : Cela indique une panne sur la ligne. Je dois programmer l'intervention d'un technicien. J'ai une disponibilité jeudi, entre huit heures et midi.\nCliente : Jeudi matin, ça me va. Mais je travaille : est-ce que le technicien peut appeler avant de venir ?\nConseiller : Bien sûr, il appelle une demi-heure avant. C'est programmé, et vous allez recevoir un SMS de confirmation.",
+  "vocabulary": [
+    {
+      "word": "À qui ai-je l'honneur ?",
+      "meaning": "¿con quién hablo? (muy formal)"
+    },
+    {
+      "word": "est coupée",
+      "meaning": "está cortada (la conexión)"
+    },
+    {
+      "word": "la box",
+      "meaning": "el router (así se le llama en Francia)"
+    },
+    {
+      "word": "voyant",
+      "meaning": "luz indicadora"
+    },
+    {
+      "word": "clignote",
+      "meaning": "parpadea"
+    }
+  ],
+  "questions": [
+    {
+      "q": "Quel est le problème de la cliente ?",
+      "options": [
+        "Sa connexion est coupée",
+        "Sa box a été volée",
+        "Sa facture est fausse"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Qu'a-t-elle déjà essayé ?",
+      "options": [
+        "Redémarrer la box plusieurs fois",
+        "Changer d'opérateur",
+        "Rien"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Quel voyant signale la panne ?",
+      "options": [
+        "Celui d'internet, rouge et clignotant",
+        "Celui de l'alimentation, vert",
+        "Aucun"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Quand aura lieu l'intervention ?",
+      "options": [
+        "Jeudi matin",
+        "Ce soir",
+        "Vendredi après-midi"
+      ],
+      "answer": 0
+    }
+  ]
+}

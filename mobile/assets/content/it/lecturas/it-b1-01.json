@@ -1,0 +1,72 @@
+{
+  "title": "Lavorare da casa: libertà o trappola?",
+  "summary": "Testo argomentativo — congiuntivo, connettivi e lessico del lavoro.",
+  "text": "<p>Quando molte aziende italiane hanno adottato il lavoro da remoto su larga scala, in tanti hanno pensato che fosse la soluzione a ogni problema. Non dover affrontare il traffico di Milano per due ore al giorno sembrava, da solo, una rivoluzione.</p><p>I vantaggi ci sono, ed è inutile negarlo. Chi lavora da casa risparmia tempo e denaro, può pranzare con la famiglia e organizza la giornata con più autonomia. Per chi ha figli piccoli, questo cambia tutto.</p><p>Tuttavia sono comparsi problemi che nessuno aveva previsto. Senza la separazione fisica tra casa e ufficio, molti hanno finito per lavorare più ore di prima: se il computer è sempre lì, è difficile dire che la giornata è finita. Inoltre l'isolamento pesa. Le chiacchiere in corridoio, che sembravano tempo perso, erano proprio il luogo in cui nascevano le idee.</p><p>Forse la risposta non è scegliere tra i due modelli, ma combinarli. Quando le aziende capiranno che il problema non è il luogo ma la cultura del lavoro, il dibattito diventerà più onesto.</p>",
+  "glosses": [
+    {
+      "word": "su larga scala",
+      "tip": "a gran escala"
+    },
+    {
+      "word": "affrontare il traffico",
+      "tip": "enfrentarse al tráfico"
+    },
+    {
+      "word": "tuttavia",
+      "tip": "sin embargo"
+    },
+    {
+      "word": "hanno finito per",
+      "tip": "acabaron por"
+    },
+    {
+      "word": "chiacchiere",
+      "tip": "charlas, cotilleo"
+    }
+  ],
+  "collocations": [
+    "su larga scala",
+    "è inutile negarlo",
+    "tuttavia",
+    "inoltre",
+    "finire per + infinito"
+  ],
+  "questions": [
+    {
+      "q": "Quale vantaggio viene citato per primo?",
+      "options": [
+        "Risparmiare tempo e denaro",
+        "Guadagnare di più",
+        "Lavorare meno ore"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Quale problema inatteso è comparso?",
+      "options": [
+        "Lavorare più ore di prima",
+        "Mancanza di computer",
+        "Stipendi più bassi"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Perché erano importanti le chiacchiere in corridoio?",
+      "options": [
+        "Lì nascevano le idee",
+        "Erano obbligatorie",
+        "Riducevano il traffico"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Qual è la conclusione dell'autore?",
+      "options": [
+        "Combinare i due modelli",
+        "Tornare in ufficio",
+        "Chiudere gli uffici"
+      ],
+      "answer": 0
+    }
+  ]
+}

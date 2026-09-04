@@ -1,15 +1,13 @@
 import * as storage from './storage.js';
+import * as lang from './lang.js';
 import { logActivity } from './insights.js';
 
-export const LISTENING_INDEX = {
-  a1: ['a1-listen-01', 'a1-listen-02'],
-  a2: ['a2-listen-01', 'a2-listen-02'],
-  b1: ['b1-listen-01', 'b1-listen-02'],
-  b2: ['b2-listen-01', 'b2-listen-02'],
-};
+export async function listeningIndex() {
+  return (await lang.index()).listening;
+}
 
 export async function loadListen(id) {
-  const r = await fetch(`content/listening/${id}.json`);
+  const r = await fetch(lang.path(`listening/${id}.json`));
   return r.json();
 }
 
@@ -20,7 +18,7 @@ export async function renderListening(view, level) {
 }
 
 async function renderIndex(view, level) {
-  const ids = LISTENING_INDEX[level] || [];
+  const ids = (await listeningIndex())[level] || [];
   const items = await Promise.all(ids.map(async id => {
     const it = await loadListen(id).catch(() => null);
     return { id, it };
@@ -145,10 +143,12 @@ function wireTts(it) {
     .map(l => l.replace(/^\s*[A-Z][A-Za-z ]{0,18}:\s*/, ''))
     .join('. ');
 
-  const speak = (rate) => {
+  const speak = async (rate) => {
     if (speechSynthesis.speaking) { speechSynthesis.cancel(); return; }
     const u = new SpeechSynthesisUtterance(text);
-    u.lang = 'en-US';
+    // El locale decide qué voz elige el navegador: con en-US un texto en
+    // portugués suena a un anglófono leyendo fonéticamente.
+    u.lang = await lang.ttsLocale();
     u.rate = rate;
     u.onend = () => { play.textContent = 'Escuchar'; };
     play.textContent = 'Detener';

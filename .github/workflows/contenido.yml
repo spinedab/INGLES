@@ -4,6 +4,17 @@ name: Contenido
 # hay, y el fallo real de este proyecto nunca ha sido la lógica sino el
 # contenido — dos veces se encontró el mismo material escrito por duplicado en
 # dos sitios, divergiendo en silencio. Esto lo impide.
+#
+# Un solo generador (tools/build_content.py) cubre todos los idiomas y todos
+# los tipos de contenido, y en modo --check falla si:
+#   - un id de tarjeta se reasignó o duplicó (rompería el progreso SRS, que
+#     vive en localStorage['srs:<deck>:<id>']),
+#   - un 'answer' cae fuera del rango de opciones (ejercicio imposible),
+#   - a una lectura o listening le falta un campo,
+#   - lo generado para webapp y mobile no coincide con la fuente canónica, o
+#     queda un fichero huérfano cuya fuente se borró.
+# El índice de lecturas/listening se deriva de los ficheros, así que ya no hay
+# lista que olvidar actualizar.
 
 on:
   push:
@@ -15,111 +26,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
-      - name: Vocabulario — validar y comprobar sincronía
-        # Falla si un id se reasignó (rompería el progreso SRS de quien ya
-        # estudia, guardado en localStorage['srs:<id>']), si falta un campo, o
-        # si los decks generados no coinciden con content/vocab/*.tsv.
-        run: python3 tools/build_vocab.py --check
-
-      - name: Gramática — validar y comprobar sincronía
-        # Falla si un 'answer' cae fuera del rango de opciones: dejaría un
-        # ejercicio que el aprendiz no puede acertar nunca.
-        run: python3 tools/build_grammar.py --check
-
-      - name: Lecturas y listening — JSON válido y respuestas en rango
-        run: |
-          python3 - <<'PY'
-          import json, pathlib, sys
-
-          errores = []
-          for carpeta in ('webapp/content/lecturas', 'webapp/content/listening'):
-              for f in sorted(pathlib.Path(carpeta).glob('*.json')):
-                  try:
-                      d = json.loads(f.read_text())
-                  except json.JSONDecodeError as e:
-                      errores.append(f'{f}: JSON inválido — {e}')
-                      continue
-                  for campo in ('title', 'summary', 'questions'):
-                      if not d.get(campo):
-                          errores.append(f'{f}: falta «{campo}»')
-                  for i, q in enumerate(d.get('questions', [])):
-                      opts = q.get('options') or []
-                      if len(opts) < 2:
-                          errores.append(f'{f} q{i}: menos de 2 opciones')
-                          continue
-                      if len(set(opts)) != len(opts):
-                          errores.append(f'{f} q{i}: opciones repetidas')
-                      a = q.get('answer')
-                      if not isinstance(a, int) or not (0 <= a < len(opts)):
-                          errores.append(f'{f} q{i}: answer={a!r} fuera de rango')
-
-          if errores:
-              print(f'✗ {len(errores)} problema(s):')
-              for e in errores:
-                  print('  -', e)
-              sys.exit(1)
-          print('✓ lecturas y listening válidos')
-          PY
-
-      - name: webapp y mobile sirven el mismo contenido
-        # Los dos consumen copias generadas; si divergen, un aprendiz ve cosas
-        # distintas según el dispositivo.
-        run: |
-          python3 - <<'PY'
-          import pathlib, sys
-
-          fallos = []
-          for sub in ('vocab', 'lecturas', 'listening'):
-              w = pathlib.Path('webapp/content') / sub
-              m = pathlib.Path('mobile/assets/content') / sub
-              nw = {p.name for p in w.glob('*.json')}
-              nm = {p.name for p in m.glob('*.json')}
-              if nw != nm:
-                  fallos.append(f'{sub}: solo en webapp {sorted(nw - nm)}, solo en mobile {sorted(nm - nw)}')
-                  continue
-              for n in sorted(nw):
-                  if (w / n).read_text() != (m / n).read_text():
-                      fallos.append(f'{sub}/{n}: el contenido difiere entre webapp y mobile')
-
-          if fallos:
-              print('✗ contenido desincronizado:')
-              for f in fallos:
-                  print('  -', f)
-              sys.exit(1)
-          print('✓ webapp y mobile sincronizados')
-          PY
-
-      - name: Todo el contenido está declarado en los índices
-        # Añadir un fichero sin registrarlo lo deja invisible en la app. Pasó.
-        run: |
-          python3 - <<'PY'
-          import pathlib, sys
-
-          declaradores = {
-              'lecturas': ['webapp/js/reading.js', 'mobile/lib/content.ts', 'webapp/sw.js'],
-              'listening': ['webapp/js/listening.js', 'mobile/lib/content.ts', 'webapp/sw.js'],
-          }
-          fallos = []
-          for sub, ficheros in declaradores.items():
-              ids = [p.stem for p in sorted(pathlib.Path('webapp/content', sub).glob('*.json'))]
-              for f in ficheros:
-                  txt = pathlib.Path(f).read_text()
-                  faltan = [i for i in ids if i not in txt]
-                  if faltan:
-                      fallos.append(f'{f}: no declara {faltan}')
-
-          if fallos:
-              print('✗ contenido sin declarar:')
-              for f in fallos:
-                  print('  -', f)
-              sys.exit(1)
-          print('✓ todo el contenido está declarado')
-          PY
+      - name: Contenido de todos los idiomas — validar y comprobar sincronía
+        run: python3 tools/build_content.py --check
 
   typecheck:
     runs-on: ubuntu-latest

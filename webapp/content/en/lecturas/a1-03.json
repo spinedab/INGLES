@@ -1,0 +1,81 @@
+{
+  "title": "At the Supermarket",
+  "summary": "Shopping for food — countable/uncountable nouns, prices, some/any.",
+  "text": "<p>It is Saturday morning. Omar goes to the supermarket near his flat. He takes a list from his pocket. On the list there are five things: milk, eggs, rice, apples and soap.</p><p>First he goes to the fruit section. The apples are cheap today, so he takes six. Then he looks for milk. There is no milk on the shelf. Omar asks a worker: \"Excuse me, do you have any milk?\" The worker says, \"Yes, we have some in the back. One moment, please.\"</p><p>Omar waits two minutes. The worker comes back with two bottles of milk. Omar says thank you and puts one bottle in his basket.</p><p>At the checkout, the total is fourteen dollars and twenty cents. Omar pays with his card. The cashier gives him a receipt. \"Do you need a bag?\" she asks. \"No, thank you,\" says Omar. He has a bag in his backpack. He always brings his own bag because plastic bags are bad for the planet.</p>",
+  "glosses": [
+    {
+      "word": "shelf",
+      "tip": "estante"
+    },
+    {
+      "word": "basket",
+      "tip": "cesta de la compra"
+    },
+    {
+      "word": "checkout",
+      "tip": "caja (donde se paga)"
+    },
+    {
+      "word": "receipt",
+      "tip": "recibo, tiquete"
+    },
+    {
+      "word": "his own bag",
+      "tip": "su propia bolsa"
+    }
+  ],
+  "collocations": [
+    "go to the supermarket",
+    "do you have any…?",
+    "at the checkout",
+    "pay with a card",
+    "one moment, please"
+  ],
+  "questions": [
+    {
+      "q": "How many things are on Omar's list?",
+      "options": [
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Why does Omar take six apples?",
+      "options": [
+        "They are cheap today",
+        "He likes only apples",
+        "There is nothing else"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Where is the milk at first?",
+      "options": [
+        "On the shelf",
+        "In the back",
+        "At the checkout"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "How does Omar pay?",
+      "options": [
+        "With cash",
+        "With his card",
+        "With a coupon"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Why does Omar say no to a bag?",
+      "options": [
+        "Bags cost money",
+        "He has his own bag",
+        "He has few things"
+      ],
+      "answer": 1
+    }
+  ]
+}

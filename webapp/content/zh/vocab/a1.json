@@ -1,0 +1,2567 @@
+[
+  {
+    "id": "zh-a1-001",
+    "front": "你 (nǐ)",
+    "definition": "第二人称，说话的对象 (dì-èr rénchēng)",
+    "example": "你好！你是老师吗？(Nǐ hǎo! Nǐ shì lǎoshī ma?)",
+    "translation": "tú",
+    "tags": [
+      "a1",
+      "pronoun",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-002",
+    "front": "我 (wǒ)",
+    "definition": "第一人称，说话的人",
+    "example": "我是学生。(Wǒ shì xuésheng.)",
+    "translation": "yo",
+    "tags": [
+      "a1",
+      "pronoun",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-003",
+    "front": "他 (tā)",
+    "definition": "第三人称，男的",
+    "example": "他是我朋友。(Tā shì wǒ péngyou.)",
+    "translation": "él",
+    "tags": [
+      "a1",
+      "pronoun",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-004",
+    "front": "她 (tā)",
+    "definition": "第三人称，女的（发音和\"他\"一样）",
+    "example": "她是我妈妈。(Tā shì wǒ māma.)",
+    "translation": "ella",
+    "tags": [
+      "a1",
+      "pronoun",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-005",
+    "front": "我们 (wǒmen)",
+    "definition": "我和别人，复数",
+    "example": "我们是同学。(Wǒmen shì tóngxué.)",
+    "translation": "nosotros",
+    "tags": [
+      "a1",
+      "pronoun",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-006",
+    "front": "好 (hǎo)",
+    "definition": "不坏，让人满意；也用来打招呼",
+    "example": "你好！今天天气很好。(Nǐ hǎo! Jīntiān tiānqì hěn hǎo.)",
+    "translation": "bueno, bien",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-007",
+    "front": "是 (shì)",
+    "definition": "表示\"等于\"、\"属于\"（A 是 B）",
+    "example": "我是哥伦比亚人。(Wǒ shì Gēlúnbǐyà rén.)",
+    "translation": "ser (A es B)",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "top100",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a1-008",
+    "front": "不 (bù)",
+    "definition": "否定词，放在动词或形容词前面",
+    "example": "我不是老师。我不忙。(Wǒ bú shì lǎoshī. Wǒ bù máng.)",
+    "translation": "no (negación)",
+    "tags": [
+      "a1",
+      "adv",
+      "hsk1",
+      "top100",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a1-009",
+    "front": "吗 (ma)",
+    "definition": "放在句子最后，把句子变成问题",
+    "example": "你是学生吗？(Nǐ shì xuésheng ma?)",
+    "translation": "¿…? (partícula interrogativa)",
+    "tags": [
+      "a1",
+      "particle",
+      "hsk1",
+      "top100",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a1-010",
+    "front": "的 (de)",
+    "definition": "表示\"…的\"，连接所有者和东西",
+    "example": "这是我的书。(Zhè shì wǒ de shū.)",
+    "translation": "de (posesivo)",
+    "tags": [
+      "a1",
+      "particle",
+      "hsk1",
+      "top100",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a1-011",
+    "front": "人 (rén)",
+    "definition": "人类；也表示国籍：\"中国人\"",
+    "example": "他是中国人。(Tā shì Zhōngguó rén.)",
+    "translation": "persona; gente",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-012",
+    "front": "名字 (míngzi)",
+    "definition": "一个人叫什么",
+    "example": "你叫什么名字？(Nǐ jiào shénme míngzi?)",
+    "translation": "nombre",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-013",
+    "front": "叫 (jiào)",
+    "definition": "有…的名字；喊",
+    "example": "我叫李华。(Wǒ jiào Lǐ Huá.)",
+    "translation": "llamarse",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-014",
+    "front": "什么 (shénme)",
+    "definition": "问东西是哪个",
+    "example": "这是什么？(Zhè shì shénme?)",
+    "translation": "qué",
+    "tags": [
+      "a1",
+      "pronoun",
+      "hsk1",
+      "top100",
+      "question"
+    ]
+  },
+  {
+    "id": "zh-a1-015",
+    "front": "谁 (shéi)",
+    "definition": "问人是哪个",
+    "example": "他是谁？(Tā shì shéi?)",
+    "translation": "quién",
+    "tags": [
+      "a1",
+      "pronoun",
+      "hsk1",
+      "question"
+    ]
+  },
+  {
+    "id": "zh-a1-016",
+    "front": "哪儿 (nǎr)",
+    "definition": "问地方在哪个位置",
+    "example": "你在哪儿？(Nǐ zài nǎr?)",
+    "translation": "dónde",
+    "tags": [
+      "a1",
+      "pronoun",
+      "hsk1",
+      "question"
+    ]
+  },
+  {
+    "id": "zh-a1-017",
+    "front": "这 (zhè)",
+    "definition": "近的那个东西或人",
+    "example": "这是我的老师。(Zhè shì wǒ de lǎoshī.)",
+    "translation": "esto, este",
+    "tags": [
+      "a1",
+      "pronoun",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-018",
+    "front": "那 (nà)",
+    "definition": "远的那个东西或人",
+    "example": "那是他的车。(Nà shì tā de chē.)",
+    "translation": "eso, aquel",
+    "tags": [
+      "a1",
+      "pronoun",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-019",
+    "front": "有 (yǒu)",
+    "definition": "拥有；存在（否定用\"没\"）",
+    "example": "我有一个哥哥。(Wǒ yǒu yí ge gēge.)",
+    "translation": "tener; haber",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "top100",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a1-020",
+    "front": "没有 (méiyǒu)",
+    "definition": "有的否定",
+    "example": "我没有钱。(Wǒ méiyǒu qián.)",
+    "translation": "no tener; no haber",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "top100",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a1-021",
+    "front": "在 (zài)",
+    "definition": "位置在某个地方；正在做",
+    "example": "他在家。我在北京工作。(Tā zài jiā. Wǒ zài Běijīng gōngzuò.)",
+    "translation": "estar (en un lugar); en",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "top100",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a1-022",
+    "front": "很 (hěn)",
+    "definition": "程度高；形容词前面常常要有它",
+    "example": "她很漂亮。(Tā hěn piàoliang.)",
+    "translation": "muy (a menudo no se traduce)",
+    "tags": [
+      "a1",
+      "adv",
+      "hsk1",
+      "top100",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a1-023",
+    "front": "也 (yě)",
+    "definition": "同样",
+    "example": "我也是学生。(Wǒ yě shì xuésheng.)",
+    "translation": "también",
+    "tags": [
+      "a1",
+      "adv",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-024",
+    "front": "都 (dōu)",
+    "definition": "全部，所有",
+    "example": "我们都是老师。(Wǒmen dōu shì lǎoshī.)",
+    "translation": "todos, ambos",
+    "tags": [
+      "a1",
+      "adv",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-025",
+    "front": "一 (yī)",
+    "definition": "数字 1",
+    "example": "一个人。(yí ge rén)",
+    "translation": "uno",
+    "tags": [
+      "a1",
+      "number",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-026",
+    "front": "二 (èr)",
+    "definition": "数字 2（数数用；量词前用\"两\"）",
+    "example": "二、三、四。两个人。(èr, sān, sì. liǎng ge rén)",
+    "translation": "dos",
+    "tags": [
+      "a1",
+      "number",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-027",
+    "front": "三 (sān)",
+    "definition": "数字 3",
+    "example": "我有三本书。(Wǒ yǒu sān běn shū.)",
+    "translation": "tres",
+    "tags": [
+      "a1",
+      "number",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-028",
+    "front": "四 (sì)",
+    "definition": "数字 4",
+    "example": "四个苹果。(sì ge píngguǒ)",
+    "translation": "cuatro",
+    "tags": [
+      "a1",
+      "number",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-029",
+    "front": "五 (wǔ)",
+    "definition": "数字 5",
+    "example": "五点。(wǔ diǎn)",
+    "translation": "cinco",
+    "tags": [
+      "a1",
+      "number",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-030",
+    "front": "六 (liù)",
+    "definition": "数字 6",
+    "example": "六月。(liù yuè)",
+    "translation": "seis",
+    "tags": [
+      "a1",
+      "number",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-031",
+    "front": "七 (qī)",
+    "definition": "数字 7",
+    "example": "七天。(qī tiān)",
+    "translation": "siete",
+    "tags": [
+      "a1",
+      "number",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-032",
+    "front": "八 (bā)",
+    "definition": "数字 8",
+    "example": "八块钱。(bā kuài qián)",
+    "translation": "ocho",
+    "tags": [
+      "a1",
+      "number",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-033",
+    "front": "九 (jiǔ)",
+    "definition": "数字 9",
+    "example": "九点半。(jiǔ diǎn bàn)",
+    "translation": "nueve",
+    "tags": [
+      "a1",
+      "number",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-034",
+    "front": "十 (shí)",
+    "definition": "数字 10",
+    "example": "十个人。(shí ge rén)",
+    "translation": "diez",
+    "tags": [
+      "a1",
+      "number",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-035",
+    "front": "个 (gè)",
+    "definition": "最常用的量词，数东西或人时用",
+    "example": "一个人，三个苹果。(yí ge rén, sān ge píngguǒ)",
+    "translation": "(clasificador general)",
+    "tags": [
+      "a1",
+      "measure",
+      "hsk1",
+      "top100",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a1-036",
+    "front": "今天 (jīntiān)",
+    "definition": "现在的这一天",
+    "example": "今天星期一。(Jīntiān xīngqīyī.)",
+    "translation": "hoy",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-037",
+    "front": "明天 (míngtiān)",
+    "definition": "今天的后一天",
+    "example": "明天见！(Míngtiān jiàn!)",
+    "translation": "mañana (día siguiente)",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-038",
+    "front": "昨天 (zuótiān)",
+    "definition": "今天的前一天",
+    "example": "昨天很冷。(Zuótiān hěn lěng.)",
+    "translation": "ayer",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-039",
+    "front": "现在 (xiànzài)",
+    "definition": "这个时候",
+    "example": "现在几点？(Xiànzài jǐ diǎn?)",
+    "translation": "ahora",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-040",
+    "front": "年 (nián)",
+    "definition": "十二个月",
+    "example": "二〇二六年。(èr líng èr liù nián)",
+    "translation": "año",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-041",
+    "front": "月 (yuè)",
+    "definition": "一年有十二个月",
+    "example": "我五月去中国。(Wǒ wǔ yuè qù Zhōngguó.)",
+    "translation": "mes",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-042",
+    "front": "星期 (xīngqī)",
+    "definition": "七天",
+    "example": "星期天我不工作。(Xīngqītiān wǒ bù gōngzuò.)",
+    "translation": "semana",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-043",
+    "front": "点 (diǎn)",
+    "definition": "钟点，几点",
+    "example": "现在三点。(Xiànzài sān diǎn.)",
+    "translation": "hora (en punto)",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-044",
+    "front": "家 (jiā)",
+    "definition": "住的地方；家人",
+    "example": "我回家。我家有四个人。(Wǒ huí jiā. Wǒ jiā yǒu sì ge rén.)",
+    "translation": "casa; familia",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-045",
+    "front": "学校 (xuéxiào)",
+    "definition": "学习的地方",
+    "example": "学校很大。(Xuéxiào hěn dà.)",
+    "translation": "escuela",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "places"
+    ]
+  },
+  {
+    "id": "zh-a1-046",
+    "front": "老师 (lǎoshī)",
+    "definition": "教书的人",
+    "example": "王老师很好。(Wáng lǎoshī hěn hǎo.)",
+    "translation": "profesor",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "people"
+    ]
+  },
+  {
+    "id": "zh-a1-047",
+    "front": "学生 (xuésheng)",
+    "definition": "学习的人",
+    "example": "我是大学生。(Wǒ shì dàxuésheng.)",
+    "translation": "estudiante",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "people"
+    ]
+  },
+  {
+    "id": "zh-a1-048",
+    "front": "朋友 (péngyou)",
+    "definition": "关系好的人",
+    "example": "他是我的好朋友。(Tā shì wǒ de hǎo péngyou.)",
+    "translation": "amigo",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "people"
+    ]
+  },
+  {
+    "id": "zh-a1-049",
+    "front": "妈妈 (māma)",
+    "definition": "母亲",
+    "example": "我妈妈是医生。(Wǒ māma shì yīshēng.)",
+    "translation": "mamá",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "family"
+    ]
+  },
+  {
+    "id": "zh-a1-050",
+    "front": "爸爸 (bàba)",
+    "definition": "父亲",
+    "example": "爸爸在工作。(Bàba zài gōngzuò.)",
+    "translation": "papá",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "family"
+    ]
+  },
+  {
+    "id": "zh-a1-051",
+    "front": "中国 (Zhōngguó)",
+    "definition": "国家名",
+    "example": "我想去中国。(Wǒ xiǎng qù Zhōngguó.)",
+    "translation": "China",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "places"
+    ]
+  },
+  {
+    "id": "zh-a1-052",
+    "front": "汉语 (Hànyǔ)",
+    "definition": "中国人说的语言",
+    "example": "我学汉语。(Wǒ xué Hànyǔ.)",
+    "translation": "chino (idioma)",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "school"
+    ]
+  },
+  {
+    "id": "zh-a1-053",
+    "front": "字 (zì)",
+    "definition": "汉字，一个一个的",
+    "example": "这个字怎么读？(Zhège zì zěnme dú?)",
+    "translation": "carácter",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "school"
+    ]
+  },
+  {
+    "id": "zh-a1-054",
+    "front": "书 (shū)",
+    "definition": "看的东西，有很多页",
+    "example": "我看书。(Wǒ kàn shū.)",
+    "translation": "libro",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "objects"
+    ]
+  },
+  {
+    "id": "zh-a1-055",
+    "front": "水 (shuǐ)",
+    "definition": "喝的，没有颜色",
+    "example": "我要喝水。(Wǒ yào hē shuǐ.)",
+    "translation": "agua",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "food"
+    ]
+  },
+  {
+    "id": "zh-a1-056",
+    "front": "茶 (chá)",
+    "definition": "热的饮料，中国人常喝",
+    "example": "你喝茶吗？(Nǐ hē chá ma?)",
+    "translation": "té",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "food"
+    ]
+  },
+  {
+    "id": "zh-a1-057",
+    "front": "饭 (fàn)",
+    "definition": "米饭；也指一顿饭",
+    "example": "我们吃饭吧。(Wǒmen chī fàn ba.)",
+    "translation": "arroz; comida",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "food"
+    ]
+  },
+  {
+    "id": "zh-a1-058",
+    "front": "菜 (cài)",
+    "definition": "蔬菜；饭店里点的一个个菜",
+    "example": "这个菜很好吃。(Zhège cài hěn hǎochī.)",
+    "translation": "verdura; plato",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "food"
+    ]
+  },
+  {
+    "id": "zh-a1-059",
+    "front": "苹果 (píngguǒ)",
+    "definition": "一种水果，红的或绿的",
+    "example": "我喜欢吃苹果。(Wǒ xǐhuan chī píngguǒ.)",
+    "translation": "manzana",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "food"
+    ]
+  },
+  {
+    "id": "zh-a1-060",
+    "front": "钱 (qián)",
+    "definition": "买东西用的",
+    "example": "多少钱？(Duōshao qián?)",
+    "translation": "dinero",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "shopping"
+    ]
+  },
+  {
+    "id": "zh-a1-061",
+    "front": "块 (kuài)",
+    "definition": "钱的单位（口语，= 元）",
+    "example": "十块钱。(shí kuài qián)",
+    "translation": "yuan (coloquial)",
+    "tags": [
+      "a1",
+      "measure",
+      "hsk1",
+      "shopping"
+    ]
+  },
+  {
+    "id": "zh-a1-062",
+    "front": "东西 (dōngxi)",
+    "definition": "物品，不说清楚是什么",
+    "example": "我要买东西。(Wǒ yào mǎi dōngxi.)",
+    "translation": "cosa(s)",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-063",
+    "front": "商店 (shāngdiàn)",
+    "definition": "买东西的地方",
+    "example": "商店几点开？(Shāngdiàn jǐ diǎn kāi?)",
+    "translation": "tienda",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "places"
+    ]
+  },
+  {
+    "id": "zh-a1-064",
+    "front": "医院 (yīyuàn)",
+    "definition": "看病的地方",
+    "example": "医院在哪儿？(Yīyuàn zài nǎr?)",
+    "translation": "hospital",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "places"
+    ]
+  },
+  {
+    "id": "zh-a1-065",
+    "front": "医生 (yīshēng)",
+    "definition": "看病的人",
+    "example": "他是医生。(Tā shì yīshēng.)",
+    "translation": "médico",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "people"
+    ]
+  },
+  {
+    "id": "zh-a1-066",
+    "front": "天气 (tiānqì)",
+    "definition": "冷、热、下雨…",
+    "example": "今天天气怎么样？(Jīntiān tiānqì zěnmeyàng?)",
+    "translation": "tiempo (clima)",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "weather"
+    ]
+  },
+  {
+    "id": "zh-a1-067",
+    "front": "大 (dà)",
+    "definition": "不小",
+    "example": "这个很大。(Zhège hěn dà.)",
+    "translation": "grande",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-068",
+    "front": "小 (xiǎo)",
+    "definition": "不大",
+    "example": "小猫。(xiǎo māo)",
+    "translation": "pequeño",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-069",
+    "front": "多 (duō)",
+    "definition": "数量大",
+    "example": "人很多。(Rén hěn duō.)",
+    "translation": "mucho(s)",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-070",
+    "front": "少 (shǎo)",
+    "definition": "数量小",
+    "example": "钱太少了。(Qián tài shǎo le.)",
+    "translation": "poco(s)",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-071",
+    "front": "冷 (lěng)",
+    "definition": "温度低",
+    "example": "今天很冷。(Jīntiān hěn lěng.)",
+    "translation": "frío",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1",
+      "weather"
+    ]
+  },
+  {
+    "id": "zh-a1-072",
+    "front": "热 (rè)",
+    "definition": "温度高",
+    "example": "北京的夏天很热。(Běijīng de xiàtiān hěn rè.)",
+    "translation": "calor, caliente",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1",
+      "weather"
+    ]
+  },
+  {
+    "id": "zh-a1-073",
+    "front": "高兴 (gāoxìng)",
+    "definition": "开心，快乐",
+    "example": "认识你很高兴。(Rènshi nǐ hěn gāoxìng.)",
+    "translation": "contento, encantado",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1",
+      "feelings"
+    ]
+  },
+  {
+    "id": "zh-a1-074",
+    "front": "漂亮 (piàoliang)",
+    "definition": "好看",
+    "example": "她很漂亮。(Tā hěn piàoliang.)",
+    "translation": "bonito, guapa",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-075",
+    "front": "吃 (chī)",
+    "definition": "把食物放进嘴里",
+    "example": "你吃什么？(Nǐ chī shénme?)",
+    "translation": "comer",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "food"
+    ]
+  },
+  {
+    "id": "zh-a1-076",
+    "front": "喝 (hē)",
+    "definition": "把液体放进嘴里",
+    "example": "我喝咖啡。(Wǒ hē kāfēi.)",
+    "translation": "beber",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "food"
+    ]
+  },
+  {
+    "id": "zh-a1-077",
+    "front": "看 (kàn)",
+    "definition": "用眼睛；也指看书、看电影",
+    "example": "我看电视。(Wǒ kàn diànshì.)",
+    "translation": "ver, mirar, leer",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-078",
+    "front": "听 (tīng)",
+    "definition": "用耳朵",
+    "example": "我听音乐。(Wǒ tīng yīnyuè.)",
+    "translation": "escuchar",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-079",
+    "front": "说 (shuō)",
+    "definition": "用嘴表达",
+    "example": "他说汉语。(Tā shuō Hànyǔ.)",
+    "translation": "hablar, decir",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-080",
+    "front": "读 (dú)",
+    "definition": "看着文字念出来；学习",
+    "example": "请读这个字。(Qǐng dú zhège zì.)",
+    "translation": "leer (en voz alta)",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "school"
+    ]
+  },
+  {
+    "id": "zh-a1-081",
+    "front": "写 (xiě)",
+    "definition": "用笔造字",
+    "example": "我写汉字。(Wǒ xiě Hànzì.)",
+    "translation": "escribir",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "school"
+    ]
+  },
+  {
+    "id": "zh-a1-082",
+    "front": "学习 (xuéxí)",
+    "definition": "上课、看书，得到知识",
+    "example": "我学习汉语。(Wǒ xuéxí Hànyǔ.)",
+    "translation": "estudiar, aprender",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "school"
+    ]
+  },
+  {
+    "id": "zh-a1-083",
+    "front": "工作 (gōngzuò)",
+    "definition": "做事赚钱；也是名词",
+    "example": "我在医院工作。(Wǒ zài yīyuàn gōngzuò.)",
+    "translation": "trabajar; trabajo",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "work"
+    ]
+  },
+  {
+    "id": "zh-a1-084",
+    "front": "去 (qù)",
+    "definition": "到别的地方",
+    "example": "我去学校。(Wǒ qù xuéxiào.)",
+    "translation": "ir",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-085",
+    "front": "来 (lái)",
+    "definition": "到说话的人这里",
+    "example": "你来我家吧。(Nǐ lái wǒ jiā ba.)",
+    "translation": "venir",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-086",
+    "front": "回 (huí)",
+    "definition": "去原来的地方",
+    "example": "我回家。(Wǒ huí jiā.)",
+    "translation": "volver",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-087",
+    "front": "买 (mǎi)",
+    "definition": "用钱换东西",
+    "example": "我买苹果。(Wǒ mǎi píngguǒ.)",
+    "translation": "comprar",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "shopping"
+    ]
+  },
+  {
+    "id": "zh-a1-088",
+    "front": "想 (xiǎng)",
+    "definition": "愿意、打算；思考",
+    "example": "我想喝茶。(Wǒ xiǎng hē chá.)",
+    "translation": "querer (desear); pensar",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-089",
+    "front": "要 (yào)",
+    "definition": "需要，想要；将要",
+    "example": "我要一杯咖啡。(Wǒ yào yì bēi kāfēi.)",
+    "translation": "querer, necesitar",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-090",
+    "front": "喜欢 (xǐhuan)",
+    "definition": "对…有好感",
+    "example": "我喜欢中国菜。(Wǒ xǐhuan Zhōngguó cài.)",
+    "translation": "gustar",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-091",
+    "front": "会 (huì)",
+    "definition": "学过所以能做",
+    "example": "我会说一点汉语。(Wǒ huì shuō yìdiǎn Hànyǔ.)",
+    "translation": "saber (hacer)",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a1-092",
+    "front": "能 (néng)",
+    "definition": "有能力或条件做",
+    "example": "你能帮我吗？(Nǐ néng bāng wǒ ma?)",
+    "translation": "poder",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a1-093",
+    "front": "认识 (rènshi)",
+    "definition": "知道是谁，见过",
+    "example": "我认识他。认识你很高兴。(Wǒ rènshi tā.)",
+    "translation": "conocer",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-094",
+    "front": "住 (zhù)",
+    "definition": "生活在某个地方",
+    "example": "你住在哪儿？(Nǐ zhù zài nǎr?)",
+    "translation": "vivir (en un lugar)",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-095",
+    "front": "睡觉 (shuìjiào)",
+    "definition": "晚上闭眼休息",
+    "example": "我十一点睡觉。(Wǒ shíyī diǎn shuìjiào.)",
+    "translation": "dormir",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "routine"
+    ]
+  },
+  {
+    "id": "zh-a1-096",
+    "front": "谢谢 (xièxie)",
+    "definition": "表示感谢的话",
+    "example": "谢谢你！不客气。(Xièxie nǐ! Bú kèqi.)",
+    "translation": "gracias",
+    "tags": [
+      "a1",
+      "phrase",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-097",
+    "front": "再见 (zàijiàn)",
+    "definition": "分开时说的话",
+    "example": "再见！明天见。(Zàijiàn! Míngtiān jiàn.)",
+    "translation": "adiós",
+    "tags": [
+      "a1",
+      "phrase",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-098",
+    "front": "对不起 (duìbuqǐ)",
+    "definition": "道歉的话",
+    "example": "对不起，我来晚了。(Duìbuqǐ, wǒ lái wǎn le.)",
+    "translation": "perdón, lo siento",
+    "tags": [
+      "a1",
+      "phrase",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-099",
+    "front": "请 (qǐng)",
+    "definition": "客气地要别人做什么",
+    "example": "请坐。请喝茶。(Qǐng zuò. Qǐng hē chá.)",
+    "translation": "por favor",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-100",
+    "front": "多少 (duōshao)",
+    "definition": "问数量（大数字）",
+    "example": "多少钱？你们有多少人？(Duōshao qián?)",
+    "translation": "cuánto(s)",
+    "tags": [
+      "a1",
+      "pronoun",
+      "hsk1",
+      "question"
+    ]
+  },
+  {
+    "id": "zh-a1-101",
+    "front": "几 (jǐ)",
+    "definition": "问数量（小数字，十以下）",
+    "example": "你有几个孩子？现在几点？(Nǐ yǒu jǐ ge háizi?)",
+    "translation": "cuántos (pocos)",
+    "tags": [
+      "a1",
+      "pronoun",
+      "hsk1",
+      "question"
+    ]
+  },
+  {
+    "id": "zh-a1-102",
+    "front": "怎么 (zěnme)",
+    "definition": "问方法或原因",
+    "example": "这个字怎么写？(Zhège zì zěnme xiě?)",
+    "translation": "cómo",
+    "tags": [
+      "a1",
+      "pronoun",
+      "hsk1",
+      "question"
+    ]
+  },
+  {
+    "id": "zh-a1-103",
+    "front": "怎么样 (zěnmeyàng)",
+    "definition": "问情况、意见",
+    "example": "你觉得怎么样？(Nǐ juéde zěnmeyàng?)",
+    "translation": "qué tal, cómo es",
+    "tags": [
+      "a1",
+      "pronoun",
+      "hsk1",
+      "question"
+    ]
+  },
+  {
+    "id": "zh-a1-104",
+    "front": "呢 (ne)",
+    "definition": "句末，反问同一个问题：\"你呢？\"",
+    "example": "我很好，你呢？(Wǒ hěn hǎo, nǐ ne?)",
+    "translation": "¿y…? (partícula)",
+    "tags": [
+      "a1",
+      "particle",
+      "hsk1",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a1-105",
+    "front": "了 (le)",
+    "definition": "表示动作完成或情况变化",
+    "example": "我吃饭了。他来了。(Wǒ chī fàn le. Tā lái le.)",
+    "translation": "(aspecto: ya, completado)",
+    "tags": [
+      "a1",
+      "particle",
+      "hsk1",
+      "top100",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a1-106",
+    "front": "和 (hé)",
+    "definition": "连接两个名词",
+    "example": "我和你。爸爸和妈妈。(Wǒ hé nǐ.)",
+    "translation": "y (une sustantivos)",
+    "tags": [
+      "a1",
+      "conj",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-107",
+    "front": "太 (tài)",
+    "definition": "程度太高，常和\"了\"一起",
+    "example": "太贵了！太好了！(Tài guì le!)",
+    "translation": "demasiado",
+    "tags": [
+      "a1",
+      "adv",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-108",
+    "front": "一点儿 (yìdiǎnr)",
+    "definition": "少量",
+    "example": "我会说一点儿汉语。(Wǒ huì shuō yìdiǎnr Hànyǔ.)",
+    "translation": "un poco",
+    "tags": [
+      "a1",
+      "adv",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-109",
+    "front": "一起 (yìqǐ)",
+    "definition": "一同，一块儿",
+    "example": "我们一起吃饭吧。(Wǒmen yìqǐ chī fàn ba.)",
+    "translation": "juntos",
+    "tags": [
+      "a1",
+      "adv",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-110",
+    "front": "岁 (suì)",
+    "definition": "年龄的单位",
+    "example": "你几岁？我三十岁。(Nǐ jǐ suì? Wǒ sānshí suì.)",
+    "translation": "años (de edad)",
+    "tags": [
+      "a1",
+      "measure",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-111",
+    "front": "本 (běn)",
+    "definition": "书的量词",
+    "example": "三本书。(sān běn shū)",
+    "translation": "(clasificador de libros)",
+    "tags": [
+      "a1",
+      "measure",
+      "hsk1",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a1-112",
+    "front": "杯 (bēi)",
+    "definition": "杯子的量词，一杯水",
+    "example": "一杯茶。(yì bēi chá)",
+    "translation": "taza, vaso (clasificador)",
+    "tags": [
+      "a1",
+      "measure",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-113",
+    "front": "些 (xiē)",
+    "definition": "不确定的数量，\"一些\"",
+    "example": "我买了一些东西。(Wǒ mǎi le yìxiē dōngxi.)",
+    "translation": "algunos",
+    "tags": [
+      "a1",
+      "measure",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-114",
+    "front": "零 (líng)",
+    "definition": "数字 0",
+    "example": "二〇二六年。(èr líng èr liù nián)",
+    "translation": "cero",
+    "tags": [
+      "a1",
+      "number",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-115",
+    "front": "百 (bǎi)",
+    "definition": "数字 100",
+    "example": "一百块。(yìbǎi kuài)",
+    "translation": "cien",
+    "tags": [
+      "a1",
+      "number",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-116",
+    "front": "号 (hào)",
+    "definition": "日期的\"日\"（口语）；号码",
+    "example": "今天几号？五月十号。(Jīntiān jǐ hào?)",
+    "translation": "día (del mes); número",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-117",
+    "front": "分钟 (fēnzhōng)",
+    "definition": "时间单位，六十分钟是一小时",
+    "example": "等五分钟。(Děng wǔ fēnzhōng.)",
+    "translation": "minuto",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-118",
+    "front": "小时 (xiǎoshí)",
+    "definition": "六十分钟",
+    "example": "我睡了八个小时。(Wǒ shuì le bā ge xiǎoshí.)",
+    "translation": "hora (duración)",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-119",
+    "front": "上午 (shàngwǔ)",
+    "definition": "早上到中午",
+    "example": "上午我有课。(Shàngwǔ wǒ yǒu kè.)",
+    "translation": "mañana (parte del día)",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-120",
+    "front": "中午 (zhōngwǔ)",
+    "definition": "十二点左右",
+    "example": "中午吃什么？(Zhōngwǔ chī shénme?)",
+    "translation": "mediodía",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-121",
+    "front": "下午 (xiàwǔ)",
+    "definition": "中午到晚上",
+    "example": "下午三点见。(Xiàwǔ sān diǎn jiàn.)",
+    "translation": "tarde",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-122",
+    "front": "晚上 (wǎnshang)",
+    "definition": "天黑以后",
+    "example": "晚上好！(Wǎnshang hǎo!)",
+    "translation": "noche",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-123",
+    "front": "时候 (shíhou)",
+    "definition": "时间，\"…的时候\"",
+    "example": "你什么时候来？(Nǐ shénme shíhou lái?)",
+    "translation": "momento; cuando",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-124",
+    "front": "星期一 (xīngqīyī)",
+    "definition": "一周的第一天（星期二、三…到星期六；星期天/星期日）",
+    "example": "星期一上班。(Xīngqīyī shàngbān.)",
+    "translation": "lunes",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time",
+      "days"
+    ]
+  },
+  {
+    "id": "zh-a1-125",
+    "front": "星期天 (xīngqītiān)",
+    "definition": "一周的最后一天，休息",
+    "example": "星期天我在家。(Xīngqītiān wǒ zài jiā.)",
+    "translation": "domingo",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time",
+      "days"
+    ]
+  },
+  {
+    "id": "zh-a1-126",
+    "front": "儿子 (érzi)",
+    "definition": "男孩子（对父母说）",
+    "example": "我有一个儿子。(Wǒ yǒu yí ge érzi.)",
+    "translation": "hijo",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "family"
+    ]
+  },
+  {
+    "id": "zh-a1-127",
+    "front": "女儿 (nǚ'ér)",
+    "definition": "女孩子（对父母说）",
+    "example": "她的女儿五岁。(Tā de nǚ'ér wǔ suì.)",
+    "translation": "hija",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "family"
+    ]
+  },
+  {
+    "id": "zh-a1-128",
+    "front": "哥哥 (gēge)",
+    "definition": "比我大的兄弟",
+    "example": "我哥哥是老师。(Wǒ gēge shì lǎoshī.)",
+    "translation": "hermano mayor",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "family"
+    ]
+  },
+  {
+    "id": "zh-a1-129",
+    "front": "姐姐 (jiějie)",
+    "definition": "比我大的姊妹",
+    "example": "姐姐在北京工作。(Jiějie zài Běijīng gōngzuò.)",
+    "translation": "hermana mayor",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "family"
+    ]
+  },
+  {
+    "id": "zh-a1-130",
+    "front": "弟弟 (dìdi)",
+    "definition": "比我小的兄弟",
+    "example": "弟弟是学生。(Dìdi shì xuésheng.)",
+    "translation": "hermano menor",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "family"
+    ]
+  },
+  {
+    "id": "zh-a1-131",
+    "front": "妹妹 (mèimei)",
+    "definition": "比我小的姊妹",
+    "example": "妹妹很漂亮。(Mèimei hěn piàoliang.)",
+    "translation": "hermana menor",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "family"
+    ]
+  },
+  {
+    "id": "zh-a1-132",
+    "front": "孩子 (háizi)",
+    "definition": "小孩儿；儿女",
+    "example": "他们有两个孩子。(Tāmen yǒu liǎng ge háizi.)",
+    "translation": "niño; hijo",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "family"
+    ]
+  },
+  {
+    "id": "zh-a1-133",
+    "front": "先生 (xiānsheng)",
+    "definition": "对男人的尊称；丈夫",
+    "example": "王先生，您好！(Wáng xiānsheng, nín hǎo!)",
+    "translation": "señor; esposo",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "people"
+    ]
+  },
+  {
+    "id": "zh-a1-134",
+    "front": "小姐 (xiǎojiě)",
+    "definition": "对年轻女人的称呼",
+    "example": "李小姐是医生。(Lǐ xiǎojiě shì yīshēng.)",
+    "translation": "señorita",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "people"
+    ]
+  },
+  {
+    "id": "zh-a1-135",
+    "front": "您 (nín)",
+    "definition": "你的尊称",
+    "example": "您好！您是王老师吗？(Nín hǎo!)",
+    "translation": "usted",
+    "tags": [
+      "a1",
+      "pronoun",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-136",
+    "front": "他们 (tāmen)",
+    "definition": "他的复数",
+    "example": "他们是我朋友。(Tāmen shì wǒ péngyou.)",
+    "translation": "ellos",
+    "tags": [
+      "a1",
+      "pronoun",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-137",
+    "front": "同学 (tóngxué)",
+    "definition": "一起学习的人",
+    "example": "他是我同学。(Tā shì wǒ tóngxué.)",
+    "translation": "compañero de clase",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "people"
+    ]
+  },
+  {
+    "id": "zh-a1-138",
+    "front": "北京 (Běijīng)",
+    "definition": "中国的首都",
+    "example": "我住在北京。(Wǒ zhù zài Běijīng.)",
+    "translation": "Pekín",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "places"
+    ]
+  },
+  {
+    "id": "zh-a1-139",
+    "front": "饭店 (fàndiàn)",
+    "definition": "吃饭的地方；也指宾馆",
+    "example": "我们去饭店吃饭。(Wǒmen qù fàndiàn chī fàn.)",
+    "translation": "restaurante; hotel",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "places"
+    ]
+  },
+  {
+    "id": "zh-a1-140",
+    "front": "火车站 (huǒchēzhàn)",
+    "definition": "坐火车的地方",
+    "example": "火车站远吗？(Huǒchēzhàn yuǎn ma?)",
+    "translation": "estación de tren",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "transport"
+    ]
+  },
+  {
+    "id": "zh-a1-141",
+    "front": "出租车 (chūzūchē)",
+    "definition": "付钱坐的车",
+    "example": "我们坐出租车去。(Wǒmen zuò chūzūchē qù.)",
+    "translation": "taxi",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "transport"
+    ]
+  },
+  {
+    "id": "zh-a1-142",
+    "front": "飞机 (fēijī)",
+    "definition": "天上飞的交通工具",
+    "example": "我坐飞机去中国。(Wǒ zuò fēijī qù Zhōngguó.)",
+    "translation": "avión",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "transport"
+    ]
+  },
+  {
+    "id": "zh-a1-143",
+    "front": "坐 (zuò)",
+    "definition": "坐下；坐车、坐飞机",
+    "example": "请坐。我坐地铁。(Qǐng zuò. Wǒ zuò dìtiě.)",
+    "translation": "sentarse; tomar (transporte)",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-144",
+    "front": "开 (kāi)",
+    "definition": "打开；开车；商店开门",
+    "example": "开门。他会开车。(Kāi mén. Tā huì kāi chē.)",
+    "translation": "abrir; conducir",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-145",
+    "front": "电脑 (diànnǎo)",
+    "definition": "计算机",
+    "example": "我的电脑很新。(Wǒ de diànnǎo hěn xīn.)",
+    "translation": "computadora",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "objects"
+    ]
+  },
+  {
+    "id": "zh-a1-146",
+    "front": "电视 (diànshì)",
+    "definition": "看节目的机器",
+    "example": "晚上我看电视。(Wǎnshang wǒ kàn diànshì.)",
+    "translation": "televisión",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "objects"
+    ]
+  },
+  {
+    "id": "zh-a1-147",
+    "front": "电影 (diànyǐng)",
+    "definition": "在电影院看的",
+    "example": "我们去看电影吧。(Wǒmen qù kàn diànyǐng ba.)",
+    "translation": "película",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-148",
+    "front": "桌子 (zhuōzi)",
+    "definition": "放东西、吃饭的家具",
+    "example": "书在桌子上。(Shū zài zhuōzi shang.)",
+    "translation": "mesa",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "objects"
+    ]
+  },
+  {
+    "id": "zh-a1-149",
+    "front": "椅子 (yǐzi)",
+    "definition": "坐的家具",
+    "example": "这个椅子很舒服。(Zhège yǐzi hěn shūfu.)",
+    "translation": "silla",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "objects"
+    ]
+  },
+  {
+    "id": "zh-a1-150",
+    "front": "杯子 (bēizi)",
+    "definition": "喝水用的",
+    "example": "一个杯子。(yí ge bēizi)",
+    "translation": "vaso, taza",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "objects"
+    ]
+  },
+  {
+    "id": "zh-a1-151",
+    "front": "衣服 (yīfu)",
+    "definition": "穿的东西",
+    "example": "我想买衣服。(Wǒ xiǎng mǎi yīfu.)",
+    "translation": "ropa",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "shopping"
+    ]
+  },
+  {
+    "id": "zh-a1-152",
+    "front": "猫 (māo)",
+    "definition": "一种小动物，喵喵叫",
+    "example": "我有一只猫。(Wǒ yǒu yì zhī māo.)",
+    "translation": "gato",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-153",
+    "front": "狗 (gǒu)",
+    "definition": "一种动物，汪汪叫",
+    "example": "那只狗很大。(Nà zhī gǒu hěn dà.)",
+    "translation": "perro",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-154",
+    "front": "上 (shàng)",
+    "definition": "高的位置；表面（在…上）",
+    "example": "书在桌子上。(Shū zài zhuōzi shang.)",
+    "translation": "arriba; sobre",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a1-155",
+    "front": "下 (xià)",
+    "definition": "低的位置（在…下）",
+    "example": "猫在椅子下。(Māo zài yǐzi xià.)",
+    "translation": "abajo; debajo",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a1-156",
+    "front": "里 (lǐ)",
+    "definition": "内部（在…里）",
+    "example": "钱在包里。(Qián zài bāo lǐ.)",
+    "translation": "dentro",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a1-157",
+    "front": "前面 (qiánmiàn)",
+    "definition": "前边的位置",
+    "example": "学校在前面。(Xuéxiào zài qiánmiàn.)",
+    "translation": "delante",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "directions"
+    ]
+  },
+  {
+    "id": "zh-a1-158",
+    "front": "后面 (hòumiàn)",
+    "definition": "后边的位置",
+    "example": "医院在商店后面。(Yīyuàn zài shāngdiàn hòumiàn.)",
+    "translation": "detrás",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "directions"
+    ]
+  },
+  {
+    "id": "zh-a1-159",
+    "front": "下雨 (xià yǔ)",
+    "definition": "天上掉水",
+    "example": "今天下雨。(Jīntiān xià yǔ.)",
+    "translation": "llover",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "weather"
+    ]
+  },
+  {
+    "id": "zh-a1-160",
+    "front": "高 (gāo)",
+    "definition": "不矮；也指高度",
+    "example": "他很高。(Tā hěn gāo.)",
+    "translation": "alto",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-161",
+    "front": "新 (xīn)",
+    "definition": "不旧",
+    "example": "我买了一个新手机。(Wǒ mǎi le yí ge xīn shǒujī.)",
+    "translation": "nuevo",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-162",
+    "front": "忙 (máng)",
+    "definition": "事情很多",
+    "example": "我今天很忙。(Wǒ jīntiān hěn máng.)",
+    "translation": "ocupado",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-163",
+    "front": "好吃 (hǎochī)",
+    "definition": "味道好",
+    "example": "这个菜很好吃。(Zhège cài hěn hǎochī.)",
+    "translation": "rico, sabroso",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1",
+      "food"
+    ]
+  },
+  {
+    "id": "zh-a1-164",
+    "front": "对 (duì)",
+    "definition": "正确；也表示同意",
+    "example": "对，你说得对。(Duì, nǐ shuō de duì.)",
+    "translation": "correcto; sí",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-165",
+    "front": "爱 (ài)",
+    "definition": "很喜欢，有深的感情",
+    "example": "我爱你。我爱吃饺子。(Wǒ ài nǐ.)",
+    "translation": "amar; encantar",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-166",
+    "front": "做 (zuò)",
+    "definition": "进行某个动作；制作",
+    "example": "你做什么工作？我做饭。(Nǐ zuò shénme gōngzuò?)",
+    "translation": "hacer",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-167",
+    "front": "打电话 (dǎ diànhuà)",
+    "definition": "用电话联系",
+    "example": "我给妈妈打电话。(Wǒ gěi māma dǎ diànhuà.)",
+    "translation": "llamar por teléfono",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-a1-168",
+    "front": "给 (gěi)",
+    "definition": "交给某人；也是介词\"对、向\"",
+    "example": "给你。我给他一本书。(Gěi nǐ.)",
+    "translation": "dar; a, para",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-169",
+    "front": "觉得 (juéde)",
+    "definition": "有某种看法或感觉",
+    "example": "我觉得很好。(Wǒ juéde hěn hǎo.)",
+    "translation": "pensar que, parecer",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-170",
+    "front": "知道 (zhīdào)",
+    "definition": "了解一件事",
+    "example": "我不知道。(Wǒ bù zhīdào.)",
+    "translation": "saber",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "top100"
+    ]
+  },
+  {
+    "id": "zh-a1-171",
+    "front": "等 (děng)",
+    "definition": "停下来，直到某事发生",
+    "example": "请等一下。(Qǐng děng yíxià.)",
+    "translation": "esperar",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-172",
+    "front": "谢 (xiè)",
+    "definition": "感谢（多用\"谢谢\"）",
+    "example": "不用谢。(Bú yòng xiè.)",
+    "translation": "agradecer",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-173",
+    "front": "没关系 (méi guānxi)",
+    "definition": "回答\"对不起\"",
+    "example": "— 对不起。— 没关系。(Méi guānxi.)",
+    "translation": "no pasa nada",
+    "tags": [
+      "a1",
+      "phrase",
+      "hsk1",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-a1-174",
+    "front": "不客气 (bú kèqi)",
+    "definition": "回答\"谢谢\"",
+    "example": "— 谢谢！— 不客气。(Bú kèqi.)",
+    "translation": "de nada",
+    "tags": [
+      "a1",
+      "phrase",
+      "hsk1",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-a1-175",
+    "front": "喂 (wèi)",
+    "definition": "打电话时的第一句话",
+    "example": "喂，你好，请问是王老师吗？(Wèi, nǐ hǎo.)",
+    "translation": "¿aló?, ¿diga?",
+    "tags": [
+      "a1",
+      "phrase",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-176",
+    "front": "请问 (qǐngwèn)",
+    "definition": "客气地开始一个问题",
+    "example": "请问，火车站在哪儿？(Qǐngwèn, huǒchēzhàn zài nǎr?)",
+    "translation": "disculpe, ¿…?",
+    "tags": [
+      "a1",
+      "phrase",
+      "hsk1",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-a1-177",
+    "front": "吧 (ba)",
+    "definition": "句末，表示建议或猜测",
+    "example": "我们走吧。你是学生吧？(Wǒmen zǒu ba.)",
+    "translation": "(sugerencia: ¿vamos?)",
+    "tags": [
+      "a1",
+      "particle",
+      "hsk1",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-a1-178",
+    "front": "啊 (a)",
+    "definition": "句末，表示感叹",
+    "example": "好啊！是啊。(Hǎo a!)",
+    "translation": "(exclamación)",
+    "tags": [
+      "a1",
+      "particle",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-179",
+    "front": "前 (qián)",
+    "definition": "以前；前面",
+    "example": "三天前。(sān tiān qián)",
+    "translation": "antes; delante",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-180",
+    "front": "后 (hòu)",
+    "definition": "以后；后面",
+    "example": "一年后。(yì nián hòu)",
+    "translation": "después; detrás",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-181",
+    "front": "去年 (qùnián)",
+    "definition": "上一年",
+    "example": "去年我在上海。(Qùnián wǒ zài Shànghǎi.)",
+    "translation": "el año pasado",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-182",
+    "front": "天 (tiān)",
+    "definition": "一日；天空",
+    "example": "三天。今天天气好。(sān tiān)",
+    "translation": "día; cielo",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-a1-183",
+    "front": "说话 (shuōhuà)",
+    "definition": "用嘴说",
+    "example": "他不爱说话。(Tā bú ài shuōhuà.)",
+    "translation": "hablar",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-184",
+    "front": "上班 (shàngbān)",
+    "definition": "去工作",
+    "example": "我八点上班。(Wǒ bā diǎn shàngbān.)",
+    "translation": "ir a trabajar",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "work"
+    ]
+  },
+  {
+    "id": "zh-a1-185",
+    "front": "上课 (shàngkè)",
+    "definition": "去上课；老师讲课",
+    "example": "九点上课。(Jiǔ diǎn shàngkè.)",
+    "translation": "tener clase",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "school"
+    ]
+  },
+  {
+    "id": "zh-a1-186",
+    "front": "下课 (xiàkè)",
+    "definition": "课结束",
+    "example": "十点下课。(Shí diǎn xiàkè.)",
+    "translation": "terminar la clase",
+    "tags": [
+      "a1",
+      "verb",
+      "hsk1",
+      "school"
+    ]
+  },
+  {
+    "id": "zh-a1-187",
+    "front": "同意 (tóngyì)",
+    "definition": "说\"对，可以\"",
+    "example": "我同意。(Wǒ tóngyì.)",
+    "translation": "estar de acuerdo",
+    "tags": [
+      "a1",
+      "verb"
+    ]
+  },
+  {
+    "id": "zh-a1-188",
+    "front": "汉字 (Hànzì)",
+    "definition": "中国的文字",
+    "example": "汉字很难。(Hànzì hěn nán.)",
+    "translation": "carácter chino",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "school"
+    ]
+  },
+  {
+    "id": "zh-a1-189",
+    "front": "难 (nán)",
+    "definition": "不容易",
+    "example": "汉语难不难？(Hànyǔ nán bù nán?)",
+    "translation": "difícil",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-190",
+    "front": "容易 (róngyì)",
+    "definition": "不难",
+    "example": "这个很容易。(Zhège hěn róngyì.)",
+    "translation": "fácil",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-191",
+    "front": "贵 (guì)",
+    "definition": "价钱高",
+    "example": "太贵了！(Tài guì le!)",
+    "translation": "caro",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1",
+      "shopping"
+    ]
+  },
+  {
+    "id": "zh-a1-192",
+    "front": "便宜 (piányi)",
+    "definition": "价钱低",
+    "example": "这个很便宜。(Zhège hěn piányi.)",
+    "translation": "barato",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1",
+      "shopping"
+    ]
+  },
+  {
+    "id": "zh-a1-193",
+    "front": "远 (yuǎn)",
+    "definition": "距离大",
+    "example": "学校很远。(Xuéxiào hěn yuǎn.)",
+    "translation": "lejos",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-194",
+    "front": "近 (jìn)",
+    "definition": "距离小",
+    "example": "医院很近。(Yīyuàn hěn jìn.)",
+    "translation": "cerca",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1"
+    ]
+  },
+  {
+    "id": "zh-a1-195",
+    "front": "累 (lèi)",
+    "definition": "没有力气",
+    "example": "我很累。(Wǒ hěn lèi.)",
+    "translation": "cansado",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1",
+      "feelings"
+    ]
+  },
+  {
+    "id": "zh-a1-196",
+    "front": "饿 (è)",
+    "definition": "想吃东西",
+    "example": "我饿了。(Wǒ è le.)",
+    "translation": "hambriento (tener hambre)",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1",
+      "feelings"
+    ]
+  },
+  {
+    "id": "zh-a1-197",
+    "front": "渴 (kě)",
+    "definition": "想喝水",
+    "example": "我渴了，要喝水。(Wǒ kě le.)",
+    "translation": "sediento (tener sed)",
+    "tags": [
+      "a1",
+      "adj",
+      "hsk1",
+      "feelings"
+    ]
+  },
+  {
+    "id": "zh-a1-198",
+    "front": "手机 (shǒujī)",
+    "definition": "可以带着走的电话",
+    "example": "你的手机号是多少？(Nǐ de shǒujī hào shì duōshao?)",
+    "translation": "celular, móvil",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "objects"
+    ]
+  },
+  {
+    "id": "zh-a1-199",
+    "front": "路 (lù)",
+    "definition": "走的地方",
+    "example": "这条路很长。(Zhè tiáo lù hěn cháng.)",
+    "translation": "camino, calle",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "places"
+    ]
+  },
+  {
+    "id": "zh-a1-200",
+    "front": "地图 (dìtú)",
+    "definition": "画着地方的纸",
+    "example": "我有北京地图。(Wǒ yǒu Běijīng dìtú.)",
+    "translation": "mapa",
+    "tags": [
+      "a1",
+      "noun",
+      "hsk1",
+      "objects"
+    ]
+  }
+]

@@ -6,7 +6,7 @@ import { Text } from '@/components/Text';
 import { Button } from '@/components/Button';
 import { StatBlock } from '@/components/StatBlock';
 import { useLevel } from '@/lib/levelContext';
-import { loadVocab } from '@/lib/content';
+import { loadVocab, deckName } from '@/lib/content';
 import { statsForDeck, type DeckStats } from '@/lib/srs';
 import { spacing } from '@/lib/theme';
 
@@ -20,7 +20,7 @@ export default function FlashcardsIndex() {
       let cancelled = false;
       (async () => {
         const cards = await loadVocab(level);
-        const s = await statsForDeck(`vocab-${level}`, cards);
+        const s = await statsForDeck(deckName(level), cards);
         if (cancelled) return;
         setStats(s);
         setTotal(cards.length);

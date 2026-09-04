@@ -1,0 +1,58 @@
+{
+  "title": "Commander au café",
+  "summary": "Dialogue court au café — salutations, commande et prix.",
+  "duration": "1 min",
+  "audio": null,
+  "script": "Serveur : Bonjour ! Vous désirez ?\nCliente : Bonjour. Je voudrais un café, s'il vous plaît.\nServeur : Un express ou un crème ?\nCliente : Un crème, s'il vous plaît.\nServeur : Quelque chose à manger ?\nCliente : Oui, un croissant.\nServeur : Ça fait quatre euros cinquante.\nCliente : Voilà cinq euros.\nServeur : Merci. Votre monnaie, cinquante centimes. Bonne journée !\nCliente : Vous aussi. Merci !",
+  "vocabulary": [
+    {
+      "word": "Vous désirez ?",
+      "meaning": "¿qué desea? (fórmula de servicio)"
+    },
+    {
+      "word": "Je voudrais…",
+      "meaning": "querría… (condicional de cortesía)"
+    },
+    {
+      "word": "un crème",
+      "meaning": "café con leche (en un café francés)"
+    },
+    {
+      "word": "Ça fait…",
+      "meaning": "son… (para dar el total)"
+    },
+    {
+      "word": "monnaie",
+      "meaning": "cambio, vuelto"
+    }
+  ],
+  "questions": [
+    {
+      "q": "Que commande la cliente ?",
+      "options": [
+        "Un crème",
+        "Un thé",
+        "Un jus"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Combien ça coûte ?",
+      "options": [
+        "Quatre euros cinquante",
+        "Cinq euros",
+        "Cinquante centimes"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Combien de monnaie reçoit-elle ?",
+      "options": [
+        "Cinquante centimes",
+        "Un euro",
+        "Rien"
+      ],
+      "answer": 0
+    }
+  ]
+}

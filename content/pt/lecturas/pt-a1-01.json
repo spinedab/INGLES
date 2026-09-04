@@ -1,0 +1,72 @@
+{
+  "title": "Minha rotina de manhã",
+  "summary": "Rotina diária — presente do indicativo e horas.",
+  "text": "<p>Meu nome é Sara. Eu sou professora. Todos os dias eu acordo às seis horas. Bebo um copo de água e tomo café da manhã: pão, queijo e café. Eu adoro café.</p><p>Vou para o trabalho de ônibus. A escola fica perto da minha casa. Eu ensino português para crianças. Elas têm oito ou nove anos. Gosto dos meus alunos porque são engraçados.</p><p>À uma hora eu almoço com os colegas. De tarde tenho mais duas aulas. Chego em casa às seis e faço o jantar. À noite leio um livro ou assisto televisão. Durmo às onze horas.</p><p>No fim de semana é diferente. No sábado eu acordo tarde e vou à praia com uma amiga. No domingo almoço com a minha família.</p>",
+  "glosses": [
+    {
+      "word": "acordar",
+      "tip": "despertarse (¡no «acordar»!)"
+    },
+    {
+      "word": "tomar café da manhã",
+      "tip": "desayunar"
+    },
+    {
+      "word": "fica",
+      "tip": "queda, está situada"
+    },
+    {
+      "word": "colegas",
+      "tip": "compañeros de trabajo"
+    },
+    {
+      "word": "engraçados",
+      "tip": "graciosos, divertidos"
+    }
+  ],
+  "collocations": [
+    "acordar às seis",
+    "tomar café da manhã",
+    "ir para o trabalho",
+    "chegar em casa",
+    "no fim de semana"
+  ],
+  "questions": [
+    {
+      "q": "A que horas Sara acorda?",
+      "options": [
+        "Às seis",
+        "Às oito",
+        "Às onze"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Como Sara vai para o trabalho?",
+      "options": [
+        "De carro",
+        "De ônibus",
+        "A pé"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "O que Sara ensina?",
+      "options": [
+        "Matemática",
+        "Português",
+        "História"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "O que ela faz no sábado?",
+      "options": [
+        "Vai à praia",
+        "Trabalha",
+        "Almoça com a família"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "title": "Ligando para o suporte da internet",
+  "summary": "Chamada de atendimento — explicar um problema e agendar visita técnica.",
+  "duration": "2 min",
+  "audio": null,
+  "script": "Atendente: Central de atendimento, boa tarde. Com quem eu falo?\nCliente: Boa tarde. Meu nome é Carla Mendes.\nAtendente: Pode confirmar o CPF, por favor?\nCliente: Claro. Mas o motivo da ligação é que minha internet caiu ontem à noite e até agora não voltou.\nAtendente: Entendi. A senhora chegou a reiniciar o modem?\nCliente: Sim, várias vezes. Desliguei da tomada, esperei um minuto e liguei de novo. Não resolveu.\nAtendente: E qual luz está acesa no aparelho?\nCliente: A luz de energia está verde, mas a de internet está vermelha e piscando.\nAtendente: Isso indica falha no sinal. Vou precisar agendar uma visita técnica. Tenho horário na quinta-feira, entre oito e meio-dia.\nCliente: Quinta de manhã está bom. Mas eu trabalho, tem como o técnico ligar antes de vir?\nAtendente: Sim, ele liga uns trinta minutos antes. Está agendado, e a senhora vai receber um SMS de confirmação.",
+  "vocabulary": [
+    {
+      "word": "Com quem eu falo?",
+      "meaning": "¿con quién hablo? (fórmula de atención)"
+    },
+    {
+      "word": "caiu",
+      "meaning": "se cayó, se cortó (la conexión)"
+    },
+    {
+      "word": "chegou a reiniciar",
+      "meaning": "¿llegó a reiniciar? (perífrasis frecuente)"
+    },
+    {
+      "word": "piscando",
+      "meaning": "parpadeando"
+    },
+    {
+      "word": "tem como",
+      "meaning": "¿se puede…? (muy usado en Brasil)"
+    }
+  ],
+  "questions": [
+    {
+      "q": "Qual é o problema da cliente?",
+      "options": [
+        "A internet caiu e não voltou",
+        "O modem foi roubado",
+        "A conta está errada"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "O que ela já tentou?",
+      "options": [
+        "Reiniciar o modem várias vezes",
+        "Trocar de operadora",
+        "Nada"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Que luz indica o problema?",
+      "options": [
+        "A de internet, vermelha e piscando",
+        "A de energia, verde",
+        "Nenhuma"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Quando será a visita técnica?",
+      "options": [
+        "Quinta-feira de manhã",
+        "Hoje à noite",
+        "Sexta à tarde"
+      ],
+      "answer": 0
+    }
+  ]
+}

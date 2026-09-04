@@ -1,0 +1,67 @@
+{
+  "title": "Telefonata all'assistenza internet",
+  "summary": "Chiamata al servizio clienti — spiegare un problema e fissare un intervento.",
+  "duration": "2 min",
+  "audio": null,
+  "script": "Operatore: Assistenza clienti, buonasera. Con chi parlo?\nCliente: Buonasera. Mi chiamo Carla Mendes.\nOperatore: Mi conferma il codice cliente, per favore?\nCliente: Sì, glielo dico subito. Però il motivo della chiamata è che la connessione è saltata ieri sera e non è più tornata.\nOperatore: Ho capito. Ha provato a riavviare il modem?\nCliente: Sì, diverse volte. L'ho staccato dalla presa, ho aspettato un minuto e l'ho riattaccato. Non è servito.\nOperatore: E quale spia è accesa sull'apparecchio?\nCliente: Quella dell'alimentazione è verde, ma quella di internet è rossa e lampeggia.\nOperatore: Questo indica un guasto sulla linea. Devo fissare un intervento tecnico. Ho disponibilità giovedì, tra le otto e mezzogiorno.\nCliente: Giovedì mattina va bene. Però io lavoro: c'è modo che il tecnico chiami prima di venire?\nOperatore: Certo, chiama una mezz'ora prima. L'intervento è fissato e riceverà un SMS di conferma.",
+  "vocabulary": [
+    {
+      "word": "Con chi parlo?",
+      "meaning": "¿con quién hablo?"
+    },
+    {
+      "word": "è saltata",
+      "meaning": "se cortó (la conexión)"
+    },
+    {
+      "word": "spia",
+      "meaning": "luz indicadora (del aparato)"
+    },
+    {
+      "word": "guasto",
+      "meaning": "avería"
+    },
+    {
+      "word": "c'è modo che…",
+      "meaning": "¿hay manera de que…?"
+    }
+  ],
+  "questions": [
+    {
+      "q": "Qual è il problema della cliente?",
+      "options": [
+        "La connessione è saltata e non torna",
+        "Il modem è stato rubato",
+        "La bolletta è sbagliata"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Che cosa ha già provato?",
+      "options": [
+        "Riavviare il modem più volte",
+        "Cambiare operatore",
+        "Niente"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Quale spia segnala il guasto?",
+      "options": [
+        "Quella di internet, rossa e lampeggiante",
+        "Quella dell'alimentazione, verde",
+        "Nessuna"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Quando è fissato l'intervento?",
+      "options": [
+        "Giovedì mattina",
+        "Stasera",
+        "Venerdì pomeriggio"
+      ],
+      "answer": 0
+    }
+  ]
+}

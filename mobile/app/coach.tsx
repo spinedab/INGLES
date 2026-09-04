@@ -10,7 +10,7 @@ import { WeekBars } from '@/components/WeekBars';
 import { Chip } from '@/components/Chip';
 import { MissionList } from '@/components/MissionList';
 import { useLevel } from '@/lib/levelContext';
-import { loadVocab } from '@/lib/content';
+import { loadVocab, deckName } from '@/lib/content';
 import { statsForDeck, type DeckStats } from '@/lib/srs';
 import {
   buildDailyMission,
@@ -76,7 +76,7 @@ export default function Coach() {
     (async () => {
       const cards = await loadVocab(level);
       setVocab(cards);
-      const s = await statsForDeck(`vocab-${level}`, cards);
+      const s = await statsForDeck(deckName(level), cards);
       const sum = await summarizeActivity();
       setStats(s);
       setSummary(sum);

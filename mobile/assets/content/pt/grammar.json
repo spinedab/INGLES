@@ -1,0 +1,542 @@
+[
+  {
+    "id": "pt-ser-estar-ficar",
+    "title": "«ser», «estar» e «ficar»",
+    "level": "a1",
+    "why": "El español tiene dos verbos; el portugués tiene tres. «Ficar» cubre ubicación permanente y cambio de estado, y usar «estar» donde va «ficar» suena a extranjero de inmediato.",
+    "rule": "SER = identidad y cualidad permanente. ESTAR = estado momentáneo. FICAR = (1) ubicación fija de algo que no se mueve, (2) volverse/quedarse. Regla práctica: si en español dirías «queda» o «se pone», en portugués es «fica».",
+    "examples": [
+      [
+        "A farmácia fica na esquina.",
+        "Ubicación fija → ficar, NO «está na esquina»"
+      ],
+      [
+        "Eu sou colombiano, mas estou no Brasil.",
+        "Identidad → ser; situación → estar"
+      ],
+      [
+        "Fiquei muito feliz com a notícia.",
+        "Cambio de estado → «me puse muy feliz»"
+      ],
+      [
+        "Fica calmo!",
+        "«Quédate tranquilo» → ficar, no estar"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "O banheiro _____ no fim do corredor.",
+        "options": [
+          "fica",
+          "está",
+          "é"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Ela _____ professora de português.",
+        "options": [
+          "é",
+          "está",
+          "fica"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Quando ouvi isso, eu _____ triste.",
+        "options": [
+          "fiquei",
+          "fui",
+          "estive"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Onde _____ a estação de metrô?",
+        "options": [
+          "fica",
+          "está",
+          "é"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Hoje eu _____ cansado, não vou sair.",
+        "options": [
+          "estou",
+          "sou",
+          "fico"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "pt-falsos-amigos",
+    "title": "Falsos amigos que cambian el sentido",
+    "level": "a1",
+    "why": "El portugués y el español comparten tanto léxico que el cerebro asume equivalencia. Estas palabras existen en ambos idiomas con significados distintos, así que el error no produce confusión: produce una frase que significa otra cosa.",
+    "rule": "Memoriza el par, no la palabra sola. Las más costosas: esquisito = raro (no «exquisito»), apelido = apodo (apellido = sobrenome), rato = un rato de tiempo... y también ratón; embaraçada = avergonzada (¡no embarazada = grávida!), pelado = desnudo, molho = salsa.",
+    "examples": [
+      [
+        "Esse gosto é esquisito.",
+        "= raro, extraño. Para «exquisito» → delicioso"
+      ],
+      [
+        "Meu sobrenome é Botero.",
+        "apellido = sobrenome; apelido = apodo"
+      ],
+      [
+        "Ela está grávida de três meses.",
+        "embarazada = grávida. «Embaraçada» = avergonzada"
+      ],
+      [
+        "Vou tomar café da manhã.",
+        "desayunar = tomar café da manhã, no «desayunar»"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "«Mi apellido es Silva» en portugués es: Meu _____ é Silva.",
+        "options": [
+          "sobrenome",
+          "apelido",
+          "nome"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Mi hermana está embarazada»: Minha irmã está _____.",
+        "options": [
+          "grávida",
+          "embaraçada",
+          "embarazada"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Esse restaurante tem um cheiro _____ (= raro).",
+        "options": [
+          "esquisito",
+          "exquisito",
+          "delicioso"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Espérame un rato»: Espera um _____.",
+        "options": [
+          "pouco",
+          "rato",
+          "momento"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "pt-pretérito-imperfeito",
+    "title": "Pretérito perfeito vs. imperfeito",
+    "level": "a2",
+    "why": "El reparto es casi igual al español, pero las formas engañan: «falei» se parece a «hablé» y «falava» a «hablaba», sin embargo el portugués usa el imperfeito para cortesía y para acciones simultáneas mucho más que el español.",
+    "rule": "PERFEITO = acción acabada y puntual (falei, comi, fui). IMPERFEITO = costumbre, descripción, acción en curso en el pasado (falava, comia, ia). El imperfeito también suaviza peticiones: «Eu queria um café» = «Quería un café» (más educado que «quero»).",
+    "examples": [
+      [
+        "Ontem eu falei com ele.",
+        "Puntual y acabado → perfeito"
+      ],
+      [
+        "Quando eu era criança, falava espanhol em casa.",
+        "Costumbre → imperfeito"
+      ],
+      [
+        "Eu queria pedir uma informação.",
+        "Cortesía: imperfeito, no «quero»"
+      ],
+      [
+        "Eu estava jantando quando ele chegou.",
+        "Curso + interrupción: imperfeito + perfeito"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "Quando eu _____ pequeno, morava em Cali.",
+        "options": [
+          "era",
+          "fui",
+          "seria"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Ontem nós _____ ao cinema.",
+        "options": [
+          "fomos",
+          "íamos",
+          "vamos"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Pedido educado num restaurante: «Eu _____ a conta, por favor.»",
+        "options": [
+          "queria",
+          "quero",
+          "quis"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Eu _____ TV quando o telefone tocou.",
+        "options": [
+          "assistia",
+          "assisti",
+          "assistirei"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Todos os dias ele _____ café às sete.",
+        "options": [
+          "tomava",
+          "tomou",
+          "toma"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "pt-subjuntivo-futuro",
+    "title": "Futuro do subjuntivo: «quando eu for»",
+    "level": "b1",
+    "why": "El español no tiene esta forma viva, así que el hispanohablante dice «quando eu vou» y suena mal. Es una de las marcas más claras entre hablar portugués y hablar portuñol.",
+    "rule": "Después de QUANDO, SE, ENQUANTO, DEPOIS QUE con sentido de futuro, el portugués exige futuro do subjuntivo, no presente de indicativo. Se forma con la 3ª persona del plural del pretérito perfeito menos «-ram»: falaram → falar, fizeram → fizer, forem → for.",
+    "examples": [
+      [
+        "Quando eu for ao Brasil, vou visitar Salvador.",
+        "NO: «quando eu vou»"
+      ],
+      [
+        "Se você quiser, eu ajudo.",
+        "quiseram → quiser"
+      ],
+      [
+        "Depois que ele chegar, começamos.",
+        "chegaram → chegar"
+      ],
+      [
+        "Enquanto tivermos tempo, estudamos.",
+        "tiveram → tiver(mos)"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "Quando eu _____ tempo, te ligo.",
+        "options": [
+          "tiver",
+          "tenho",
+          "terei"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Se você _____ com a gente, será ótimo.",
+        "options": [
+          "vier",
+          "vem",
+          "virá"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Depois que nós _____ o trabalho, descansamos.",
+        "options": [
+          "terminarmos",
+          "terminamos",
+          "terminaremos"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Quando ela _____ o e-mail, responde logo.",
+        "options": [
+          "ler",
+          "lê",
+          "lerá"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Se eu _____ dinheiro, compro a passagem.",
+        "options": [
+          "ganhar",
+          "ganho",
+          "ganharei"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "pt-gerundio",
+    "title": "Gerúndio: «estou fazendo», no «estou a fazer»",
+    "level": "a2",
+    "why": "En Brasil la acción en curso se dice con gerundio, igual que en español. La forma «estar a + infinitivo» es portuguesa de Portugal y suena extraña en Brasil, y quien aprende con material europeo la arrastra.",
+    "rule": "Brasil: ESTAR + gerúndio (-ndo). Portugal: ESTAR A + infinitivo. Ambas son correctas en su variedad, pero no se mezclan. El gerúndio brasileño se usa además con «ir», «vir», «continuar», «ficar».",
+    "examples": [
+      [
+        "Estou trabalhando agora.",
+        "Brasil. En Portugal: «Estou a trabalhar»"
+      ],
+      [
+        "Ela continua estudando português.",
+        "continuar + gerúndio"
+      ],
+      [
+        "Fiquei esperando duas horas.",
+        "ficar + gerúndio = «me quedé esperando»"
+      ],
+      [
+        "Vamos indo, depois a gente conversa.",
+        "«ir indo» = ir avanzando"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "Forma brasileña de «Estoy comiendo»:",
+        "options": [
+          "Estou comendo",
+          "Estou a comer",
+          "Estou come"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Ele _____ falando ao telefone há uma hora.",
+        "options": [
+          "está",
+          "é",
+          "tem"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "«Me quedé mirando»: _____ olhando.",
+        "options": [
+          "Fiquei",
+          "Estive",
+          "Fui"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Ela _____ morando no Rio desde 2020.",
+        "options": [
+          "está",
+          "é",
+          "fica"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "pt-pronomes-colocacao",
+    "title": "Colocación de los pronombres oblicuos",
+    "level": "b1",
+    "why": "El portugués brasileño hablado pone el pronombre antes del verbo casi siempre, al revés de la norma escrita clásica y del español en imperativo. Un «dê-me» en conversación suena a documento legal.",
+    "rule": "Brasil hablado: pronombre ANTES del verbo (próclise): «me dá», «te ligo», «se chama». La norma escrita usa guion después (ênclise) al inicio de frase: «Chamo-me Ana». Nunca empieces una frase con pronombre en un texto formal, pero en el habla es lo normal.",
+    "examples": [
+      [
+        "Me passa o sal, por favor.",
+        "Habla brasileña. Formal escrito: «Passa-me»"
+      ],
+      [
+        "Como você se chama?",
+        "se antes del verbo"
+      ],
+      [
+        "Eu te ligo mais tarde.",
+        "te antes, no «ligo-te»"
+      ],
+      [
+        "Chamo-me Ana Silva.",
+        "Registro formal escrito"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "Forma natural en Brasil hablado:",
+        "options": [
+          "Me ajuda aqui",
+          "Ajuda-me aqui",
+          "Ajudar-me aqui"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Como você _____ chama?",
+        "options": [
+          "se",
+          "te",
+          "le"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Eu _____ ligo amanhã.",
+        "options": [
+          "te",
+          "ti",
+          "lhe te"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "En un documento formal, al inicio de la frase:",
+        "options": [
+          "Chamo-me João",
+          "Me chamo João",
+          "Eu me chamar João"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "pt-infinitivo-pessoal",
+    "title": "Infinitivo pessoal: «para nós fazermos»",
+    "level": "b2",
+    "why": "El español no tiene infinitivo conjugado. El hispanohablante dice «para nós fazer» y pierde una estructura que en portugués es obligatoria y muy frecuente.",
+    "rule": "El infinitivo se conjuga cuando tiene sujeto propio: eu fazer, tu fazeres, ele fazer, nós fazermos, vocês fazerem, eles fazerem. Aparece tras preposición (para, antes de, depois de, sem) y en construcciones impersonales («é preciso»).",
+    "examples": [
+      [
+        "É importante vocês chegarem cedo.",
+        "chegarem, no «chegar»"
+      ],
+      [
+        "Antes de nós sairmos, feche a janela.",
+        "sairmos con sujeto «nós»"
+      ],
+      [
+        "Sem eles saberem, organizamos a festa.",
+        "saberem"
+      ],
+      [
+        "Para eu entender, explique de novo.",
+        "«para eu», no «para mim entender»"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "É bom vocês _____ o documento.",
+        "options": [
+          "lerem",
+          "ler",
+          "leram"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Antes de nós _____, vamos combinar tudo.",
+        "options": [
+          "viajarmos",
+          "viajar",
+          "viajamos"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Para eu _____ te ajudar, preciso dos dados.",
+        "options": [
+          "poder",
+          "posso",
+          "puder"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Depois de eles _____, o trabalho ficou pronto.",
+        "options": [
+          "terminarem",
+          "terminar",
+          "terminaram"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "pt-preposicoes-regencia",
+    "title": "Regencia: «gostar DE», «precisar DE», «chegar EM»",
+    "level": "a2",
+    "why": "Las preposiciones no se traducen una a una. «Gusto la música» es imposible en portugués y «llegar a casa» se dice «chegar EM casa», que a un hispanohablante le suena incorrecto pero es lo correcto en Brasil.",
+    "rule": "Verbos que exigen DE: gostar de, precisar de, lembrar de, depender de, sentir falta de. Verbos con EM: chegar em, entrar em, morar em, acreditar em. Con A: assistir a (formal), obedecer a. «Ir a/para» según duración: ir A (breve), ir PARA (definitivo).",
+    "examples": [
+      [
+        "Eu gosto de música brasileira.",
+        "gostar SIEMPRE con de"
+      ],
+      [
+        "Preciso de ajuda.",
+        "precisar de + sustantivo"
+      ],
+      [
+        "Cheguei em casa às oito.",
+        "Brasil: chegar EM, no «chegar a»"
+      ],
+      [
+        "Vou para o Brasil morar.",
+        "para = mudanza definitiva; «vou ao Brasil» = viaje"
+      ]
+    ],
+    "exercises": [
+      {
+        "q": "Eu gosto _____ café sem açúcar.",
+        "options": [
+          "de",
+          "o",
+          "a"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Ela precisa _____ mais tempo.",
+        "options": [
+          "de",
+          "-",
+          "a"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Que horas você chegou _____ casa?",
+        "options": [
+          "em",
+          "a",
+          "na"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Eu moro _____ São Paulo.",
+        "options": [
+          "em",
+          "a",
+          "de"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Sinto falta _____ minha família.",
+        "options": [
+          "da",
+          "a",
+          "à"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

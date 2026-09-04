@@ -1,0 +1,54 @@
+{
+  "title": "Pedindo um café",
+  "summary": "Diálogo curto num café — saudações, pedido e preço.",
+  "duration": "1 min",
+  "audio": null,
+  "script": "Atendente: Bom dia! Pois não?\nCliente: Bom dia. Eu queria um café, por favor.\nAtendente: Café pequeno ou grande?\nCliente: Grande, com leite.\nAtendente: Alguma coisa para comer?\nCliente: Sim, um pão de queijo.\nAtendente: São nove reais e cinquenta.\nCliente: Aqui está, dez reais.\nAtendente: Obrigada. Seu troco, cinquenta centavos. Bom dia!\nCliente: Igualmente. Obrigado!",
+  "vocabulary": [
+    {
+      "word": "Pois não?",
+      "meaning": "¿en qué puedo ayudarle? (fórmula de servicio)"
+    },
+    {
+      "word": "Eu queria…",
+      "meaning": "quería… (imperfecto de cortesía, más educado que «quero»)"
+    },
+    {
+      "word": "pão de queijo",
+      "meaning": "panecillo de queso típico brasileño"
+    },
+    {
+      "word": "troco",
+      "meaning": "vuelto, cambio"
+    }
+  ],
+  "questions": [
+    {
+      "q": "O que o cliente pede para beber?",
+      "options": [
+        "Um café grande com leite",
+        "Um chá",
+        "Um suco"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Quanto custa o pedido?",
+      "options": [
+        "Nove reais e cinquenta",
+        "Dez reais",
+        "Cinquenta centavos"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Quanto de troco ele recebe?",
+      "options": [
+        "Cinquenta centavos",
+        "Um real",
+        "Nada"
+      ],
+      "answer": 0
+    }
+  ]
+}

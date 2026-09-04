@@ -8,10 +8,11 @@ import { Screen } from '@/components/Screen';
 import { Text } from '@/components/Text';
 import { Card } from '@/components/Card';
 import { LevelPicker } from '@/components/LevelPicker';
+import { LanguagePicker } from '@/components/LanguagePicker';
 import { SectionHeader } from '@/components/SectionHeader';
 import { StatBlock } from '@/components/StatBlock';
 import { useLevel } from '@/lib/levelContext';
-import { loadVocab, READING_INDEX, LISTENING_INDEX, GRAMMAR_TOPICS } from '@/lib/content';
+import { loadVocab, deckName, readingIndex, listeningIndex, grammarTopics } from '@/lib/content';
 import { statsForDeck, type DeckStats } from '@/lib/srs';
 import { spacing, skillColors, radius, useTheme } from '@/lib/theme';
 
@@ -57,14 +58,14 @@ export default function LearnHub() {
   useEffect(() => {
     (async () => {
       const cards = await loadVocab(level);
-      const s = await statsForDeck(`vocab-${level}`, cards);
+      const s = await statsForDeck(deckName(level), cards);
       setStats(s);
     })();
   }, [level]);
 
-  const readingCount = (READING_INDEX[level] || []).length;
-  const listeningCount = (LISTENING_INDEX[level] || []).length;
-  const grammarCount = GRAMMAR_TOPICS.length;
+  const readingCount = (readingIndex(level)).length;
+  const listeningCount = (listeningIndex(level)).length;
+  const grammarCount = grammarTopics().length;
 
   return (
     <>
@@ -73,6 +74,7 @@ export default function LearnHub() {
         <Text variant="h1" style={{ marginBottom: spacing.lg }}>Aprender</Text>
 
         <Text variant="small" muted style={{ marginBottom: spacing.sm }}>Tu nivel</Text>
+        <LanguagePicker />
         <LevelPicker />
 
         {stats && (

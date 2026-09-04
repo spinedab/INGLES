@@ -1,5 +1,6 @@
 import * as storage from './storage.js';
 import * as srs from './srs.js';
+import * as lang from './lang.js';
 import {
   buildDailyMission,
   eventTitle,
@@ -90,7 +91,7 @@ const WRITING_RULES = [
 
 export async function renderCoach(view, level) {
   const vocab = await loadVocab(level);
-  const stats = srs.statsForDeck(`vocab-${level}`, vocab);
+  const stats = srs.statsForDeck(lang.deck(level), vocab);
   const summary = summarizeActivity();
   const mission = buildDailyMission({ level, srsStats: stats, summary });
   const draft = storage.get('coach:writingDraft', '');

@@ -1,7 +1,7 @@
 // Búsqueda global: vocabulario, lecturas, listening, gramática.
 // Port de webapp/js/search.js (lógica pura, sin UI).
 import type { CefrLevel, SearchItem } from './types';
-import { loadVocab, loadReading, loadListening, READING_INDEX, LISTENING_INDEX, GRAMMAR_TOPICS } from './content';
+import { loadVocab, loadReading, loadListening, deckName, readingIndex, listeningIndex, grammarTopics } from './content';
 
 const LEVELS: CefrLevel[] = ['a1', 'a2', 'b1', 'b2'];
 
@@ -64,14 +64,14 @@ export async function buildSearchIndex(): Promise<SearchItem[]> {
           term,
           meaning: card.translation || card.definition,
           example: card.example,
-          source: `vocab-${level}`,
+          source: deckName(level),
           level,
           tags: card.tags || [],
         },
       });
     }
 
-    for (const id of READING_INDEX[level] || []) {
+    for (const id of readingIndex(level)) {
       const text = await loadReading(id).catch(() => null);
       if (!text) continue;
       items.push({
@@ -102,7 +102,7 @@ export async function buildSearchIndex(): Promise<SearchItem[]> {
       }
     }
 
-    for (const id of LISTENING_INDEX[level] || []) {
+    for (const id of listeningIndex(level)) {
       const item = await loadListening(id).catch(() => null);
       if (!item) continue;
       items.push({
@@ -134,7 +134,7 @@ export async function buildSearchIndex(): Promise<SearchItem[]> {
     }
   }
 
-  for (const topic of GRAMMAR_TOPICS) {
+  for (const topic of grammarTopics()) {
     items.push({
       type: 'grammar',
       level: topic.level,

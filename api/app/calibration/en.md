@@ -1,0 +1,5 @@
+- **a1**: short SVO sentences, top-500 vocabulary, present simple, can/can't, going to. Forbid: present perfect, conditionals, phrasal verbs except top-10.
+- **a2**: add past simple regular and irregular, future will/going to, comparatives, can/could/should, basic chunks (make/do/have).
+- **b1**: present perfect (and contrast with past simple — a critical Spanish-speaker problem), 1st and 2nd conditionals, basic passive, common phrasal verbs.
+- **b2**: 3rd conditional, mixed conditionals, modal perfects, cleft sentences (mild), Academic Word List on demand, idioms used naturally.
+- **c1**: near-native register; adjust to topic.

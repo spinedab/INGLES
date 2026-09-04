@@ -1,0 +1,72 @@
+{
+  "title": "Ma matinée",
+  "summary": "Routine quotidienne — présent, heures, articles partitifs.",
+  "text": "<p>Je m'appelle Sara et je suis professeure. Chaque jour je me lève à six heures. Je bois un verre d'eau et je prends mon petit-déjeuner : du pain, de la confiture et un café. J'adore le café.</p><p>Je vais au travail en bus. L'école est près de chez moi. J'enseigne le français à des enfants de huit ou neuf ans. J'aime bien mes élèves parce qu'ils sont drôles.</p><p>À une heure, je déjeune avec mes collègues. L'après-midi, j'ai encore deux cours. Je rentre chez moi à six heures et je prépare le dîner. Le soir, je lis un livre ou je regarde la télévision. Je me couche à onze heures.</p><p>Le week-end, c'est différent. Le samedi, je me lève tard et je vais à la plage avec une amie. Le dimanche, je déjeune avec ma famille.</p>",
+  "glosses": [
+    {
+      "word": "je me lève",
+      "tip": "me levanto (se lever)"
+    },
+    {
+      "word": "du pain, de la confiture",
+      "tip": "partitivos: pan, mermelada"
+    },
+    {
+      "word": "chez moi",
+      "tip": "en mi casa"
+    },
+    {
+      "word": "drôles",
+      "tip": "graciosos, divertidos"
+    },
+    {
+      "word": "je me couche",
+      "tip": "me acuesto"
+    }
+  ],
+  "collocations": [
+    "se lever à six heures",
+    "prendre le petit-déjeuner",
+    "aller au travail",
+    "rentrer chez moi",
+    "le week-end"
+  ],
+  "questions": [
+    {
+      "q": "À quelle heure Sara se lève-t-elle ?",
+      "options": [
+        "À six heures",
+        "À huit heures",
+        "À onze heures"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Comment va-t-elle au travail ?",
+      "options": [
+        "En voiture",
+        "En bus",
+        "À pied"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Qu'est-ce qu'elle enseigne ?",
+      "options": [
+        "Les maths",
+        "Le français",
+        "L'histoire"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Que fait-elle le samedi ?",
+      "options": [
+        "Elle va à la plage",
+        "Elle travaille",
+        "Elle déjeune en famille"
+      ],
+      "answer": 0
+    }
+  ]
+}

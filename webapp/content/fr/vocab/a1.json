@@ -1,0 +1,2438 @@
+[
+  {
+    "id": "fr-a1-001",
+    "front": "temps (n.m.)",
+    "definition": "ce qui passe en heures et en jours ; aussi la météo",
+    "example": "Je n'ai pas le temps de parler maintenant.",
+    "translation": "tiempo",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-002",
+    "front": "personne (n.f.)",
+    "definition": "un être humain",
+    "example": "C'est une personne très gentille.",
+    "translation": "persona",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-003",
+    "front": "an / année (n.)",
+    "definition": "période de douze mois",
+    "example": "J'habite ici depuis deux ans.",
+    "translation": "año",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-004",
+    "front": "jour (n.m.)",
+    "definition": "période de vingt-quatre heures",
+    "example": "Quel jour sommes-nous ?",
+    "translation": "día",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-005",
+    "front": "chose (n.f.)",
+    "definition": "un objet ou un sujet quelconque",
+    "example": "J'ai une chose à te dire.",
+    "translation": "cosa",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-006",
+    "front": "homme (n.m.)",
+    "definition": "personne adulte de sexe masculin",
+    "example": "Cet homme est mon père.",
+    "translation": "hombre",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-007",
+    "front": "femme (n.f.)",
+    "definition": "personne adulte de sexe féminin ; aussi l'épouse",
+    "example": "La femme au chapeau est ma tante.",
+    "translation": "mujer; esposa",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-008",
+    "front": "maison (n.f.)",
+    "definition": "bâtiment où on habite",
+    "example": "Ma maison est près de la mer.",
+    "translation": "casa",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-009",
+    "front": "travail (n.m.)",
+    "definition": "activité qu'on fait pour gagner de l'argent",
+    "example": "Je vais au travail en bus.",
+    "translation": "trabajo",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-010",
+    "front": "vie (n.f.)",
+    "definition": "le temps pendant lequel quelqu'un vit",
+    "example": "La vie à Paris est chère.",
+    "translation": "vida",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-011",
+    "front": "main (n.f.)",
+    "definition": "partie du corps au bout du bras",
+    "example": "Lave-toi les mains avant de manger.",
+    "translation": "mano",
+    "tags": [
+      "a1",
+      "noun",
+      "body"
+    ]
+  },
+  {
+    "id": "fr-a1-012",
+    "front": "enfant (n.)",
+    "definition": "personne très jeune, garçon ou fille",
+    "example": "Les enfants jouent dans le parc.",
+    "translation": "niño, niña",
+    "tags": [
+      "a1",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": "fr-a1-013",
+    "front": "œil / yeux (n.m.)",
+    "definition": "organe de la vue (pluriel irrégulier : yeux)",
+    "example": "Elle a les yeux verts.",
+    "translation": "ojo",
+    "tags": [
+      "a1",
+      "noun",
+      "body"
+    ]
+  },
+  {
+    "id": "fr-a1-014",
+    "front": "endroit (n.m.)",
+    "definition": "un lieu, une place",
+    "example": "C'est un bon endroit pour manger.",
+    "translation": "lugar",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-015",
+    "front": "semaine (n.f.)",
+    "definition": "période de sept jours",
+    "example": "Je travaille cinq jours par semaine.",
+    "translation": "semana",
+    "tags": [
+      "a1",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-a1-016",
+    "front": "famille (n.f.)",
+    "definition": "parents, enfants et proches",
+    "example": "Ma famille est grande.",
+    "translation": "familia",
+    "tags": [
+      "a1",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": "fr-a1-017",
+    "front": "problème (n.m.)",
+    "definition": "une difficulté (attention : masculin)",
+    "example": "Pas de problème, j'attends.",
+    "translation": "problema",
+    "tags": [
+      "a1",
+      "noun",
+      "top100",
+      "gender"
+    ]
+  },
+  {
+    "id": "fr-a1-018",
+    "front": "ami / amie (n.)",
+    "definition": "personne qu'on aime bien et en qui on a confiance",
+    "example": "Mon ami habite à Lyon.",
+    "translation": "amigo, amiga",
+    "tags": [
+      "a1",
+      "noun",
+      "people"
+    ]
+  },
+  {
+    "id": "fr-a1-019",
+    "front": "argent (n.m.)",
+    "definition": "pièces et billets pour acheter",
+    "example": "Je n'ai pas assez d'argent.",
+    "translation": "dinero",
+    "tags": [
+      "a1",
+      "noun",
+      "top100",
+      "falsefriend"
+    ]
+  },
+  {
+    "id": "fr-a1-020",
+    "front": "eau (n.f.)",
+    "definition": "liquide transparent qu'on boit",
+    "example": "Un verre d'eau, s'il vous plaît.",
+    "translation": "agua",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "fr-a1-021",
+    "front": "nourriture (n.f.)",
+    "definition": "ce qu'on mange",
+    "example": "La nourriture française est délicieuse.",
+    "translation": "comida",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "fr-a1-022",
+    "front": "ville (n.f.)",
+    "definition": "grand lieu avec beaucoup de maisons et de gens",
+    "example": "Marseille est une grande ville.",
+    "translation": "ciudad",
+    "tags": [
+      "a1",
+      "noun",
+      "places"
+    ]
+  },
+  {
+    "id": "fr-a1-023",
+    "front": "rue (n.f.)",
+    "definition": "voie avec des maisons des deux côtés",
+    "example": "J'habite rue des Fleurs.",
+    "translation": "calle",
+    "tags": [
+      "a1",
+      "noun",
+      "places"
+    ]
+  },
+  {
+    "id": "fr-a1-024",
+    "front": "voiture (n.f.)",
+    "definition": "véhicule à quatre roues",
+    "example": "Ma voiture est au garage.",
+    "translation": "coche",
+    "tags": [
+      "a1",
+      "noun",
+      "transport"
+    ]
+  },
+  {
+    "id": "fr-a1-025",
+    "front": "bus (n.m.)",
+    "definition": "grand véhicule pour beaucoup de passagers",
+    "example": "Le bus passe à huit heures.",
+    "translation": "autobús",
+    "tags": [
+      "a1",
+      "noun",
+      "transport"
+    ]
+  },
+  {
+    "id": "fr-a1-026",
+    "front": "école (n.f.)",
+    "definition": "lieu où les enfants apprennent",
+    "example": "L'école commence à huit heures et demie.",
+    "translation": "escuela",
+    "tags": [
+      "a1",
+      "noun",
+      "places"
+    ]
+  },
+  {
+    "id": "fr-a1-027",
+    "front": "livre (n.m.)",
+    "definition": "pages avec du texte à lire",
+    "example": "Je lis un livre en français.",
+    "translation": "libro",
+    "tags": [
+      "a1",
+      "noun",
+      "objects"
+    ]
+  },
+  {
+    "id": "fr-a1-028",
+    "front": "nom (n.m.)",
+    "definition": "mot qui identifie une personne",
+    "example": "Quel est votre nom ?",
+    "translation": "nombre; apellido",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-029",
+    "front": "heure (n.f.)",
+    "definition": "soixante minutes ; aussi le moment de la journée",
+    "example": "Quelle heure est-il ? Il est deux heures.",
+    "translation": "hora",
+    "tags": [
+      "a1",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-a1-030",
+    "front": "nuit (n.f.)",
+    "definition": "période sombre de la journée",
+    "example": "Bonne nuit ! À demain.",
+    "translation": "noche",
+    "tags": [
+      "a1",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-a1-031",
+    "front": "matin (n.m.)",
+    "definition": "première partie de la journée",
+    "example": "Je me lève à six heures du matin.",
+    "translation": "mañana (parte del día)",
+    "tags": [
+      "a1",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-a1-032",
+    "front": "après-midi (n.m.)",
+    "definition": "partie de la journée entre midi et le soir",
+    "example": "Cet après-midi, je travaille.",
+    "translation": "tarde",
+    "tags": [
+      "a1",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-a1-033",
+    "front": "soir (n.m.)",
+    "definition": "fin de la journée, avant la nuit",
+    "example": "Bonsoir ! Ce soir, on mange dehors.",
+    "translation": "tarde-noche",
+    "tags": [
+      "a1",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-a1-034",
+    "front": "mois (n.m.)",
+    "definition": "période d'environ quatre semaines",
+    "example": "Je voyage le mois prochain.",
+    "translation": "mes",
+    "tags": [
+      "a1",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-a1-035",
+    "front": "père (n.m.)",
+    "definition": "homme qui a des enfants",
+    "example": "Mon père est médecin.",
+    "translation": "padre",
+    "tags": [
+      "a1",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": "fr-a1-036",
+    "front": "mère (n.f.)",
+    "definition": "femme qui a des enfants",
+    "example": "Ma mère cuisine très bien.",
+    "translation": "madre",
+    "tags": [
+      "a1",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": "fr-a1-037",
+    "front": "fils (n.m.)",
+    "definition": "enfant garçon par rapport à ses parents (le s ne se prononce pas)",
+    "example": "Ils ont deux fils.",
+    "translation": "hijo",
+    "tags": [
+      "a1",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": "fr-a1-038",
+    "front": "frère (n.m.)",
+    "definition": "garçon des mêmes parents",
+    "example": "Mon frère est plus âgé que moi.",
+    "translation": "hermano",
+    "tags": [
+      "a1",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": "fr-a1-039",
+    "front": "pays (n.m.)",
+    "definition": "nation, territoire avec son gouvernement",
+    "example": "La France est un pays d'Europe.",
+    "translation": "país",
+    "tags": [
+      "a1",
+      "noun",
+      "places"
+    ]
+  },
+  {
+    "id": "fr-a1-040",
+    "front": "gens (n.m.pl.)",
+    "definition": "les personnes en général (toujours au pluriel)",
+    "example": "Il y a beaucoup de gens dans la rue.",
+    "translation": "gente",
+    "tags": [
+      "a1",
+      "noun",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-041",
+    "front": "être (v.)",
+    "definition": "exister ; avoir une qualité",
+    "example": "Je suis colombien. Elle est professeure.",
+    "translation": "ser, estar",
+    "tags": [
+      "a1",
+      "verb",
+      "top100",
+      "irregular"
+    ]
+  },
+  {
+    "id": "fr-a1-042",
+    "front": "avoir (v.)",
+    "definition": "posséder ; aussi l'âge",
+    "example": "J'ai un frère. J'ai trente ans.",
+    "translation": "tener",
+    "tags": [
+      "a1",
+      "verb",
+      "top100",
+      "irregular"
+    ]
+  },
+  {
+    "id": "fr-a1-043",
+    "front": "faire (v.)",
+    "definition": "réaliser une action",
+    "example": "Qu'est-ce que tu fais ce week-end ?",
+    "translation": "hacer",
+    "tags": [
+      "a1",
+      "verb",
+      "top100",
+      "irregular"
+    ]
+  },
+  {
+    "id": "fr-a1-044",
+    "front": "aller (v.)",
+    "definition": "se déplacer vers un lieu",
+    "example": "Je vais au marché.",
+    "translation": "ir",
+    "tags": [
+      "a1",
+      "verb",
+      "top100",
+      "irregular"
+    ]
+  },
+  {
+    "id": "fr-a1-045",
+    "front": "pouvoir (v.)",
+    "definition": "avoir la permission ou la capacité",
+    "example": "Je peux entrer ?",
+    "translation": "poder",
+    "tags": [
+      "a1",
+      "verb",
+      "top100",
+      "irregular"
+    ]
+  },
+  {
+    "id": "fr-a1-046",
+    "front": "dire (v.)",
+    "definition": "exprimer avec des mots",
+    "example": "Qu'est-ce que tu as dit ?",
+    "translation": "decir",
+    "tags": [
+      "a1",
+      "verb",
+      "top100",
+      "irregular"
+    ]
+  },
+  {
+    "id": "fr-a1-047",
+    "front": "voir (v.)",
+    "definition": "percevoir avec les yeux",
+    "example": "Tu as vu le film ?",
+    "translation": "ver",
+    "tags": [
+      "a1",
+      "verb",
+      "top100",
+      "irregular"
+    ]
+  },
+  {
+    "id": "fr-a1-048",
+    "front": "donner (v.)",
+    "definition": "remettre quelque chose à quelqu'un",
+    "example": "Elle m'a donné un cadeau.",
+    "translation": "dar",
+    "tags": [
+      "a1",
+      "verb",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-049",
+    "front": "savoir (v.)",
+    "definition": "avoir une connaissance",
+    "example": "Je ne sais pas la réponse.",
+    "translation": "saber",
+    "tags": [
+      "a1",
+      "verb",
+      "top100",
+      "irregular"
+    ]
+  },
+  {
+    "id": "fr-a1-050",
+    "front": "vouloir (v.)",
+    "definition": "désirer",
+    "example": "Je voudrais un café, s'il vous plaît.",
+    "translation": "querer",
+    "tags": [
+      "a1",
+      "verb",
+      "top100",
+      "irregular"
+    ]
+  },
+  {
+    "id": "fr-a1-051",
+    "front": "venir (v.)",
+    "definition": "se déplacer vers ici",
+    "example": "Tu viens avec nous ?",
+    "translation": "venir",
+    "tags": [
+      "a1",
+      "verb",
+      "top100",
+      "irregular"
+    ]
+  },
+  {
+    "id": "fr-a1-052",
+    "front": "prendre (v.)",
+    "definition": "saisir ; utiliser un transport ; consommer",
+    "example": "Je prends le bus. Je prends un café.",
+    "translation": "tomar, coger",
+    "tags": [
+      "a1",
+      "verb",
+      "top100",
+      "irregular",
+      "keyverb"
+    ]
+  },
+  {
+    "id": "fr-a1-053",
+    "front": "parler (v.)",
+    "definition": "utiliser la voix pour dire quelque chose",
+    "example": "Vous parlez très bien français.",
+    "translation": "hablar",
+    "tags": [
+      "a1",
+      "verb",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-054",
+    "front": "manger (v.)",
+    "definition": "prendre de la nourriture",
+    "example": "On mange une pizza ce soir ?",
+    "translation": "comer",
+    "tags": [
+      "a1",
+      "verb",
+      "food"
+    ]
+  },
+  {
+    "id": "fr-a1-055",
+    "front": "boire (v.)",
+    "definition": "prendre un liquide",
+    "example": "Je bois du café tous les matins.",
+    "translation": "beber",
+    "tags": [
+      "a1",
+      "verb",
+      "food",
+      "irregular"
+    ]
+  },
+  {
+    "id": "fr-a1-056",
+    "front": "habiter (v.)",
+    "definition": "vivre dans un lieu",
+    "example": "Où est-ce que tu habites ?",
+    "translation": "vivir (en un lugar)",
+    "tags": [
+      "a1",
+      "verb",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-057",
+    "front": "aimer (v.)",
+    "definition": "avoir du plaisir avec quelque chose ; aimer quelqu'un",
+    "example": "J'aime la musique française.",
+    "translation": "gustar; amar",
+    "tags": [
+      "a1",
+      "verb",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-058",
+    "front": "travailler (v.)",
+    "definition": "exercer une activité professionnelle",
+    "example": "Je travaille dans une banque.",
+    "translation": "trabajar",
+    "tags": [
+      "a1",
+      "verb",
+      "work"
+    ]
+  },
+  {
+    "id": "fr-a1-059",
+    "front": "étudier (v.)",
+    "definition": "apprendre",
+    "example": "J'étudie le français le soir.",
+    "translation": "estudiar",
+    "tags": [
+      "a1",
+      "verb",
+      "school"
+    ]
+  },
+  {
+    "id": "fr-a1-060",
+    "front": "ouvrir (v.)",
+    "definition": "faire qu'une chose ne soit plus fermée",
+    "example": "Tu peux ouvrir la fenêtre ?",
+    "translation": "abrir",
+    "tags": [
+      "a1",
+      "verb",
+      "irregular"
+    ]
+  },
+  {
+    "id": "fr-a1-061",
+    "front": "fermer (v.)",
+    "definition": "le contraire d'ouvrir",
+    "example": "Le magasin ferme à six heures.",
+    "translation": "cerrar",
+    "tags": [
+      "a1",
+      "verb"
+    ]
+  },
+  {
+    "id": "fr-a1-062",
+    "front": "acheter (v.)",
+    "definition": "obtenir en payant",
+    "example": "Je dois acheter du pain.",
+    "translation": "comprar",
+    "tags": [
+      "a1",
+      "verb",
+      "shopping"
+    ]
+  },
+  {
+    "id": "fr-a1-063",
+    "front": "payer (v.)",
+    "definition": "donner de l'argent pour quelque chose",
+    "example": "Je peux payer par carte ?",
+    "translation": "pagar",
+    "tags": [
+      "a1",
+      "verb",
+      "shopping"
+    ]
+  },
+  {
+    "id": "fr-a1-064",
+    "front": "avoir besoin de (loc.)",
+    "definition": "nécessiter",
+    "example": "J'ai besoin d'aide.",
+    "translation": "necesitar",
+    "tags": [
+      "a1",
+      "verb",
+      "top100",
+      "chunk"
+    ]
+  },
+  {
+    "id": "fr-a1-065",
+    "front": "trouver (v.)",
+    "definition": "découvrir ce qu'on cherchait ; avoir une opinion",
+    "example": "J'ai trouvé la clé. Je trouve ça bien.",
+    "translation": "encontrar; parecer (opinión)",
+    "tags": [
+      "a1",
+      "verb",
+      "top100",
+      "keyverb"
+    ]
+  },
+  {
+    "id": "fr-a1-066",
+    "front": "comprendre (v.)",
+    "definition": "saisir le sens",
+    "example": "Pardon, je n'ai pas compris.",
+    "translation": "entender",
+    "tags": [
+      "a1",
+      "verb",
+      "top100",
+      "irregular"
+    ]
+  },
+  {
+    "id": "fr-a1-067",
+    "front": "attendre (v.)",
+    "definition": "rester jusqu'à ce que quelque chose arrive",
+    "example": "Attendez une minute, s'il vous plaît.",
+    "translation": "esperar (aguardar)",
+    "tags": [
+      "a1",
+      "verb",
+      "falsefriend"
+    ]
+  },
+  {
+    "id": "fr-a1-068",
+    "front": "aider (v.)",
+    "definition": "apporter son soutien",
+    "example": "Vous pouvez m'aider ?",
+    "translation": "ayudar",
+    "tags": [
+      "a1",
+      "verb"
+    ]
+  },
+  {
+    "id": "fr-a1-069",
+    "front": "se lever (v.)",
+    "definition": "sortir du lit",
+    "example": "Je me lève tôt tous les jours.",
+    "translation": "levantarse",
+    "tags": [
+      "a1",
+      "verb",
+      "routine",
+      "reflexive"
+    ]
+  },
+  {
+    "id": "fr-a1-070",
+    "front": "dormir (v.)",
+    "definition": "se reposer les yeux fermés",
+    "example": "Je dors huit heures par nuit.",
+    "translation": "dormir",
+    "tags": [
+      "a1",
+      "verb",
+      "routine",
+      "irregular"
+    ]
+  },
+  {
+    "id": "fr-a1-071",
+    "front": "chercher (v.)",
+    "definition": "essayer de trouver",
+    "example": "Je cherche la gare.",
+    "translation": "buscar",
+    "tags": [
+      "a1",
+      "verb",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-072",
+    "front": "demander (v.)",
+    "definition": "poser une question ; solliciter",
+    "example": "Je peux vous demander quelque chose ?",
+    "translation": "preguntar; pedir",
+    "tags": [
+      "a1",
+      "verb",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-073",
+    "front": "appeler (v.)",
+    "definition": "téléphoner ; donner un nom (s'appeler)",
+    "example": "Je m'appelle Ana. Je t'appelle ce soir.",
+    "translation": "llamar(se)",
+    "tags": [
+      "a1",
+      "verb",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-074",
+    "front": "bon / bonne (adj.)",
+    "definition": "de qualité positive",
+    "example": "C'est un bon restaurant.",
+    "translation": "bueno",
+    "tags": [
+      "a1",
+      "adj",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-075",
+    "front": "grand / grande (adj.)",
+    "definition": "de taille supérieure ; aussi haut",
+    "example": "Ils habitent dans une grande maison.",
+    "translation": "grande; alto",
+    "tags": [
+      "a1",
+      "adj",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-076",
+    "front": "petit / petite (adj.)",
+    "definition": "de taille inférieure",
+    "example": "C'est un petit appartement mais joli.",
+    "translation": "pequeño",
+    "tags": [
+      "a1",
+      "adj",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-077",
+    "front": "nouveau / nouvelle (adj.)",
+    "definition": "récent",
+    "example": "J'ai acheté un nouveau téléphone.",
+    "translation": "nuevo",
+    "tags": [
+      "a1",
+      "adj",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-078",
+    "front": "vieux / vieille (adj.)",
+    "definition": "qui a beaucoup d'années",
+    "example": "Cet immeuble est très vieux.",
+    "translation": "viejo",
+    "tags": [
+      "a1",
+      "adj",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-079",
+    "front": "beau / belle (adj.)",
+    "definition": "agréable à regarder",
+    "example": "Quelle belle plage !",
+    "translation": "bonito, guapo",
+    "tags": [
+      "a1",
+      "adj"
+    ]
+  },
+  {
+    "id": "fr-a1-080",
+    "front": "cher / chère (adj.)",
+    "definition": "qui coûte beaucoup ; aussi « estimé » dans une lettre",
+    "example": "Cet hôtel est très cher.",
+    "translation": "caro; querido",
+    "tags": [
+      "a1",
+      "adj",
+      "shopping"
+    ]
+  },
+  {
+    "id": "fr-a1-081",
+    "front": "pas cher (loc.adj.)",
+    "definition": "qui coûte peu (le français n'a pas de mot courant pour « barato »)",
+    "example": "J'ai trouvé un restaurant pas cher.",
+    "translation": "barato",
+    "tags": [
+      "a1",
+      "adj",
+      "shopping",
+      "chunk"
+    ]
+  },
+  {
+    "id": "fr-a1-082",
+    "front": "chaud / chaude (adj.)",
+    "definition": "de température élevée",
+    "example": "Le café est chaud.",
+    "translation": "caliente",
+    "tags": [
+      "a1",
+      "adj",
+      "weather"
+    ]
+  },
+  {
+    "id": "fr-a1-083",
+    "front": "froid / froide (adj.)",
+    "definition": "de température basse",
+    "example": "Il fait froid aujourd'hui.",
+    "translation": "frío",
+    "tags": [
+      "a1",
+      "adj",
+      "weather"
+    ]
+  },
+  {
+    "id": "fr-a1-084",
+    "front": "fatigué / fatiguée (adj.)",
+    "definition": "sans énergie",
+    "example": "Je suis très fatiguée aujourd'hui.",
+    "translation": "cansado",
+    "tags": [
+      "a1",
+      "adj",
+      "feelings"
+    ]
+  },
+  {
+    "id": "fr-a1-085",
+    "front": "content / contente (adj.)",
+    "definition": "qui ressent de la joie",
+    "example": "Elle est contente de son nouveau travail.",
+    "translation": "contento",
+    "tags": [
+      "a1",
+      "adj",
+      "feelings"
+    ]
+  },
+  {
+    "id": "fr-a1-086",
+    "front": "facile (adj.)",
+    "definition": "qui n'est pas difficile",
+    "example": "Le français est facile pour toi ?",
+    "translation": "fácil",
+    "tags": [
+      "a1",
+      "adj"
+    ]
+  },
+  {
+    "id": "fr-a1-087",
+    "front": "difficile (adj.)",
+    "definition": "qui demande un effort",
+    "example": "L'examen était difficile.",
+    "translation": "difícil",
+    "tags": [
+      "a1",
+      "adj"
+    ]
+  },
+  {
+    "id": "fr-a1-088",
+    "front": "vrai / vraie (adj.)",
+    "definition": "conforme à la réalité",
+    "example": "C'est vrai ? Oui, c'est vrai.",
+    "translation": "verdadero, cierto",
+    "tags": [
+      "a1",
+      "adj",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-089",
+    "front": "faux / fausse (adj.)",
+    "definition": "incorrect",
+    "example": "Ce numéro est faux.",
+    "translation": "falso, equivocado",
+    "tags": [
+      "a1",
+      "adj"
+    ]
+  },
+  {
+    "id": "fr-a1-090",
+    "front": "très (adv.)",
+    "definition": "à un haut degré (devant un adjectif)",
+    "example": "Je suis très fatigué.",
+    "translation": "muy",
+    "tags": [
+      "a1",
+      "adv",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-091",
+    "front": "beaucoup (adv.)",
+    "definition": "en grande quantité (après un verbe ; beaucoup DE + nom)",
+    "example": "Merci beaucoup. Il y a beaucoup de monde.",
+    "translation": "mucho",
+    "tags": [
+      "a1",
+      "adv",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-092",
+    "front": "peu (adv.)",
+    "definition": "en petite quantité",
+    "example": "Je parle peu anglais.",
+    "translation": "poco",
+    "tags": [
+      "a1",
+      "adv",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-093",
+    "front": "aussi (adv.)",
+    "definition": "également",
+    "example": "Moi aussi, je veux venir.",
+    "translation": "también",
+    "tags": [
+      "a1",
+      "adv",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-094",
+    "front": "maintenant (adv.)",
+    "definition": "à ce moment",
+    "example": "Maintenant je ne peux pas, je suis occupé.",
+    "translation": "ahora",
+    "tags": [
+      "a1",
+      "adv",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-a1-095",
+    "front": "aujourd'hui (adv.)",
+    "definition": "ce jour-ci",
+    "example": "Aujourd'hui c'est vendredi.",
+    "translation": "hoy",
+    "tags": [
+      "a1",
+      "adv",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-a1-096",
+    "front": "demain (adv.)",
+    "definition": "le jour après aujourd'hui",
+    "example": "À demain !",
+    "translation": "mañana (día siguiente)",
+    "tags": [
+      "a1",
+      "adv",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-a1-097",
+    "front": "hier (adv.)",
+    "definition": "le jour avant aujourd'hui",
+    "example": "Hier il a beaucoup plu.",
+    "translation": "ayer",
+    "tags": [
+      "a1",
+      "adv",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-a1-098",
+    "front": "toujours (adv.)",
+    "definition": "à chaque fois ; encore",
+    "example": "Je prends toujours un petit-déjeuner.",
+    "translation": "siempre; todavía",
+    "tags": [
+      "a1",
+      "adv",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-a1-099",
+    "front": "jamais (adv.)",
+    "definition": "à aucun moment (avec ne)",
+    "example": "Je ne suis jamais allé à Nice.",
+    "translation": "nunca",
+    "tags": [
+      "a1",
+      "adv",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-a1-100",
+    "front": "ici (adv.)",
+    "definition": "dans ce lieu",
+    "example": "Asseyez-vous ici, s'il vous plaît.",
+    "translation": "aquí",
+    "tags": [
+      "a1",
+      "adv",
+      "place"
+    ]
+  },
+  {
+    "id": "fr-a1-101",
+    "front": "là / là-bas (adv.)",
+    "definition": "dans ce lieu-là",
+    "example": "Les toilettes sont là, à droite.",
+    "translation": "allí",
+    "tags": [
+      "a1",
+      "adv",
+      "place"
+    ]
+  },
+  {
+    "id": "fr-a1-102",
+    "front": "où (adv.)",
+    "definition": "dans quel lieu",
+    "example": "Où est-ce que tu habites ?",
+    "translation": "dónde",
+    "tags": [
+      "a1",
+      "adv",
+      "question"
+    ]
+  },
+  {
+    "id": "fr-a1-103",
+    "front": "quand (adv.)",
+    "definition": "à quel moment",
+    "example": "Quand est-ce que tu arrives ?",
+    "translation": "cuándo",
+    "tags": [
+      "a1",
+      "adv",
+      "question"
+    ]
+  },
+  {
+    "id": "fr-a1-104",
+    "front": "comment (adv.)",
+    "definition": "de quelle manière",
+    "example": "Comment tu t'appelles ? Comment ça va ?",
+    "translation": "cómo",
+    "tags": [
+      "a1",
+      "adv",
+      "question"
+    ]
+  },
+  {
+    "id": "fr-a1-105",
+    "front": "pourquoi (adv.)",
+    "definition": "pour quelle raison",
+    "example": "Pourquoi tu étudies le français ?",
+    "translation": "por qué",
+    "tags": [
+      "a1",
+      "adv",
+      "question"
+    ]
+  },
+  {
+    "id": "fr-a1-106",
+    "front": "parce que (conj.)",
+    "definition": "introduit la raison",
+    "example": "Parce que je veux travailler à Paris.",
+    "translation": "porque",
+    "tags": [
+      "a1",
+      "conj",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-107",
+    "front": "combien (adv.)",
+    "definition": "quelle quantité",
+    "example": "Ça coûte combien ? Tu as combien d'enfants ?",
+    "translation": "cuánto",
+    "tags": [
+      "a1",
+      "adv",
+      "question"
+    ]
+  },
+  {
+    "id": "fr-a1-108",
+    "front": "qui (pron.)",
+    "definition": "quelle personne",
+    "example": "Qui est-ce ? C'est qui ?",
+    "translation": "quién",
+    "tags": [
+      "a1",
+      "pron",
+      "question"
+    ]
+  },
+  {
+    "id": "fr-a1-109",
+    "front": "quoi / que (pron.)",
+    "definition": "quelle chose",
+    "example": "C'est quoi ? Qu'est-ce que c'est ?",
+    "translation": "qué",
+    "tags": [
+      "a1",
+      "pron",
+      "top100",
+      "question"
+    ]
+  },
+  {
+    "id": "fr-a1-110",
+    "front": "oui (adv.)",
+    "definition": "réponse affirmative",
+    "example": "Oui, je veux bien.",
+    "translation": "sí",
+    "tags": [
+      "a1",
+      "adv",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-111",
+    "front": "non (adv.)",
+    "definition": "réponse négative",
+    "example": "Non, merci.",
+    "translation": "no",
+    "tags": [
+      "a1",
+      "adv",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-112",
+    "front": "ne … pas (adv.)",
+    "definition": "négation du verbe (deux mots autour du verbe)",
+    "example": "Je ne sais pas. Je ne comprends pas.",
+    "translation": "no (negación verbal)",
+    "tags": [
+      "a1",
+      "adv",
+      "top100",
+      "grammar"
+    ]
+  },
+  {
+    "id": "fr-a1-113",
+    "front": "merci (interj.)",
+    "definition": "remerciement",
+    "example": "Merci beaucoup !",
+    "translation": "gracias",
+    "tags": [
+      "a1",
+      "phrase",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-114",
+    "front": "s'il vous plaît (loc.)",
+    "definition": "demande polie (s'il te plaît avec tu)",
+    "example": "Une eau, s'il vous plaît.",
+    "translation": "por favor",
+    "tags": [
+      "a1",
+      "phrase",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-115",
+    "front": "pardon / excusez-moi (interj.)",
+    "definition": "pour s'excuser ou attirer l'attention",
+    "example": "Pardon, je n'ai pas compris. Excusez-moi, monsieur.",
+    "translation": "perdón, disculpe",
+    "tags": [
+      "a1",
+      "phrase",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-116",
+    "front": "bonjour (interj.)",
+    "definition": "salutation de la journée",
+    "example": "Bonjour, madame !",
+    "translation": "hola, buenos días",
+    "tags": [
+      "a1",
+      "phrase",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-117",
+    "front": "salut (interj.)",
+    "definition": "salutation informelle, pour dire bonjour ou au revoir",
+    "example": "Salut, ça va ?",
+    "translation": "hola / chao (informal)",
+    "tags": [
+      "a1",
+      "phrase",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-118",
+    "front": "au revoir (interj.)",
+    "definition": "pour prendre congé",
+    "example": "Au revoir, à demain !",
+    "translation": "adiós",
+    "tags": [
+      "a1",
+      "phrase",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-119",
+    "front": "ça va (loc.)",
+    "definition": "question et réponse de politesse",
+    "example": "— Ça va ? — Ça va bien, et toi ?",
+    "translation": "¿qué tal? / bien",
+    "tags": [
+      "a1",
+      "phrase",
+      "chunk"
+    ]
+  },
+  {
+    "id": "fr-a1-120",
+    "front": "de rien (loc.)",
+    "definition": "réponse à « merci »",
+    "example": "— Merci ! — De rien.",
+    "translation": "de nada",
+    "tags": [
+      "a1",
+      "phrase",
+      "chunk"
+    ]
+  },
+  {
+    "id": "fr-a1-121",
+    "front": "je (pron.)",
+    "definition": "première personne du singulier (j' devant voyelle)",
+    "example": "Je suis de Bogotá. J'habite ici.",
+    "translation": "yo",
+    "tags": [
+      "a1",
+      "pron",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-122",
+    "front": "tu (pron.)",
+    "definition": "deuxième personne, informelle",
+    "example": "Tu es français ?",
+    "translation": "tú",
+    "tags": [
+      "a1",
+      "pron",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-123",
+    "front": "vous (pron.)",
+    "definition": "pluriel, et singulier de politesse",
+    "example": "Vous êtes professeur ? Vous venez ?",
+    "translation": "usted, ustedes, vosotros",
+    "tags": [
+      "a1",
+      "pron",
+      "top100",
+      "grammar"
+    ]
+  },
+  {
+    "id": "fr-a1-124",
+    "front": "il / elle (pron.)",
+    "definition": "troisième personne",
+    "example": "Il travaille ici. Elle est médecin.",
+    "translation": "él / ella",
+    "tags": [
+      "a1",
+      "pron",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-125",
+    "front": "nous / on (pron.)",
+    "definition": "première personne du pluriel (« on » à l'oral, verbe au singulier)",
+    "example": "Nous allons au cinéma. On y va ?",
+    "translation": "nosotros",
+    "tags": [
+      "a1",
+      "pron",
+      "top100",
+      "grammar"
+    ]
+  },
+  {
+    "id": "fr-a1-126",
+    "front": "ils / elles (pron.)",
+    "definition": "troisième personne du pluriel",
+    "example": "Ils habitent à Lille.",
+    "translation": "ellos / ellas",
+    "tags": [
+      "a1",
+      "pron",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-127",
+    "front": "mon / ma / mes (adj.)",
+    "definition": "possessif de la première personne",
+    "example": "Mon frère, ma sœur, mes parents.",
+    "translation": "mi, mis",
+    "tags": [
+      "a1",
+      "pron",
+      "possessive"
+    ]
+  },
+  {
+    "id": "fr-a1-128",
+    "front": "ton / ta / tes (adj.)",
+    "definition": "possessif de « tu »",
+    "example": "C'est ton livre ?",
+    "translation": "tu, tus",
+    "tags": [
+      "a1",
+      "pron",
+      "possessive"
+    ]
+  },
+  {
+    "id": "fr-a1-129",
+    "front": "votre / vos (adj.)",
+    "definition": "possessif de « vous »",
+    "example": "Quel est votre nom ?",
+    "translation": "su, sus (de usted)",
+    "tags": [
+      "a1",
+      "pron",
+      "possessive"
+    ]
+  },
+  {
+    "id": "fr-a1-130",
+    "front": "ce / cette / ces (adj.)",
+    "definition": "démonstratif",
+    "example": "Ce livre est bon. Cette maison est belle.",
+    "translation": "este / esta / estos",
+    "tags": [
+      "a1",
+      "pron",
+      "demonstrative"
+    ]
+  },
+  {
+    "id": "fr-a1-131",
+    "front": "ça (pron.)",
+    "definition": "cela, cette chose (oral)",
+    "example": "C'est quoi, ça ? Ça va ?",
+    "translation": "eso, esto",
+    "tags": [
+      "a1",
+      "pron",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-132",
+    "front": "un / une (art.)",
+    "definition": "article indéfini (pluriel : des)",
+    "example": "Un café et une eau, s'il vous plaît.",
+    "translation": "un / una",
+    "tags": [
+      "a1",
+      "article",
+      "grammar"
+    ]
+  },
+  {
+    "id": "fr-a1-133",
+    "front": "le / la / les (art.)",
+    "definition": "article défini (l' devant voyelle)",
+    "example": "Le livre, la maison, les enfants, l'école.",
+    "translation": "el / la / los",
+    "tags": [
+      "a1",
+      "article",
+      "grammar"
+    ]
+  },
+  {
+    "id": "fr-a1-134",
+    "front": "du / de la / des (art.)",
+    "definition": "article partitif : une quantité non précise",
+    "example": "Je mange du pain et de la salade.",
+    "translation": "(sin equivalente: «como pan»)",
+    "tags": [
+      "a1",
+      "article",
+      "grammar"
+    ]
+  },
+  {
+    "id": "fr-a1-135",
+    "front": "de (prép.)",
+    "definition": "origine, possession (de + le = du)",
+    "example": "Je suis de Medellín. Le livre du professeur.",
+    "translation": "de",
+    "tags": [
+      "a1",
+      "prep",
+      "top100",
+      "grammar"
+    ]
+  },
+  {
+    "id": "fr-a1-136",
+    "front": "à (prép.)",
+    "definition": "lieu, direction, heure (à + le = au, à + les = aux)",
+    "example": "J'habite à Paris. Je vais au marché. À huit heures.",
+    "translation": "a, en",
+    "tags": [
+      "a1",
+      "prep",
+      "top100",
+      "grammar"
+    ]
+  },
+  {
+    "id": "fr-a1-137",
+    "front": "en (prép.)",
+    "definition": "dans un pays féminin ; moyen de transport ; matière",
+    "example": "J'habite en France. Je viens en bus.",
+    "translation": "en",
+    "tags": [
+      "a1",
+      "prep",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-138",
+    "front": "dans (prép.)",
+    "definition": "à l'intérieur de",
+    "example": "Le livre est dans mon sac.",
+    "translation": "en, dentro de",
+    "tags": [
+      "a1",
+      "prep",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-139",
+    "front": "pour (prép.)",
+    "definition": "destination, but",
+    "example": "C'est pour toi. Un billet pour Lyon.",
+    "translation": "para",
+    "tags": [
+      "a1",
+      "prep",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-140",
+    "front": "avec (prép.)",
+    "definition": "compagnie, instrument",
+    "example": "Je viens avec toi. Un café avec du lait.",
+    "translation": "con",
+    "tags": [
+      "a1",
+      "prep",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-141",
+    "front": "sans (prép.)",
+    "definition": "absence de quelque chose",
+    "example": "Un café sans sucre.",
+    "translation": "sin",
+    "tags": [
+      "a1",
+      "prep"
+    ]
+  },
+  {
+    "id": "fr-a1-142",
+    "front": "chez (prép.)",
+    "definition": "dans la maison ou le commerce de quelqu'un",
+    "example": "Je rentre chez moi. Je vais chez le médecin.",
+    "translation": "a casa de, en casa de",
+    "tags": [
+      "a1",
+      "prep",
+      "keyword"
+    ]
+  },
+  {
+    "id": "fr-a1-143",
+    "front": "et (conj.)",
+    "definition": "relie des mots ou des phrases",
+    "example": "Du pain et du beurre.",
+    "translation": "y",
+    "tags": [
+      "a1",
+      "conj",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-144",
+    "front": "ou (conj.)",
+    "definition": "alternative",
+    "example": "Café ou thé ?",
+    "translation": "o",
+    "tags": [
+      "a1",
+      "conj",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-145",
+    "front": "mais (conj.)",
+    "definition": "opposition",
+    "example": "Je veux venir, mais je ne peux pas.",
+    "translation": "pero",
+    "tags": [
+      "a1",
+      "conj",
+      "top100"
+    ]
+  },
+  {
+    "id": "fr-a1-146",
+    "front": "lundi (n.m.)",
+    "definition": "premier jour de la semaine (les jours sont masculins et sans majuscule)",
+    "example": "Lundi, je retourne au travail.",
+    "translation": "lunes",
+    "tags": [
+      "a1",
+      "noun",
+      "time",
+      "days"
+    ]
+  },
+  {
+    "id": "fr-a1-147",
+    "front": "mardi (n.m.)",
+    "definition": "jour après lundi",
+    "example": "Mardi, j'ai cours.",
+    "translation": "martes",
+    "tags": [
+      "a1",
+      "noun",
+      "time",
+      "days"
+    ]
+  },
+  {
+    "id": "fr-a1-148",
+    "front": "mercredi (n.m.)",
+    "definition": "jour du milieu de la semaine",
+    "example": "Le mercredi, les enfants n'ont pas école.",
+    "translation": "miércoles",
+    "tags": [
+      "a1",
+      "noun",
+      "time",
+      "days"
+    ]
+  },
+  {
+    "id": "fr-a1-149",
+    "front": "jeudi (n.m.)",
+    "definition": "jour avant vendredi",
+    "example": "Jeudi soir, on sort.",
+    "translation": "jueves",
+    "tags": [
+      "a1",
+      "noun",
+      "time",
+      "days"
+    ]
+  },
+  {
+    "id": "fr-a1-150",
+    "front": "vendredi (n.m.)",
+    "definition": "dernier jour de travail",
+    "example": "Vendredi ! Enfin le week-end !",
+    "translation": "viernes",
+    "tags": [
+      "a1",
+      "noun",
+      "time",
+      "days"
+    ]
+  },
+  {
+    "id": "fr-a1-151",
+    "front": "samedi (n.m.)",
+    "definition": "premier jour du week-end",
+    "example": "Samedi, je vais à la plage.",
+    "translation": "sábado",
+    "tags": [
+      "a1",
+      "noun",
+      "time",
+      "days"
+    ]
+  },
+  {
+    "id": "fr-a1-152",
+    "front": "dimanche (n.m.)",
+    "definition": "jour de repos",
+    "example": "Le dimanche, on déjeune en famille.",
+    "translation": "domingo",
+    "tags": [
+      "a1",
+      "noun",
+      "time",
+      "days"
+    ]
+  },
+  {
+    "id": "fr-a1-153",
+    "front": "week-end (n.m.)",
+    "definition": "samedi et dimanche",
+    "example": "Qu'est-ce que tu fais ce week-end ?",
+    "translation": "fin de semana",
+    "tags": [
+      "a1",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": "fr-a1-154",
+    "front": "petit-déjeuner (n.m.)",
+    "definition": "premier repas de la journée",
+    "example": "Je prends mon petit-déjeuner à sept heures.",
+    "translation": "desayuno",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "fr-a1-155",
+    "front": "déjeuner (n.m./v.)",
+    "definition": "repas de midi ; aussi le verbe",
+    "example": "On déjeune à midi et demi.",
+    "translation": "almuerzo; almorzar",
+    "tags": [
+      "a1",
+      "noun",
+      "food",
+      "falsefriend"
+    ]
+  },
+  {
+    "id": "fr-a1-156",
+    "front": "dîner (n.m./v.)",
+    "definition": "repas du soir ; aussi le verbe",
+    "example": "On dîne au restaurant ce soir ?",
+    "translation": "cena; cenar",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "fr-a1-157",
+    "front": "pain (n.m.)",
+    "definition": "aliment fait de farine",
+    "example": "Du pain frais de la boulangerie.",
+    "translation": "pan",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "fr-a1-158",
+    "front": "lait (n.m.)",
+    "definition": "liquide blanc",
+    "example": "Un café au lait, s'il vous plaît.",
+    "translation": "leche",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "fr-a1-159",
+    "front": "café (n.m.)",
+    "definition": "boisson chaude ; aussi le lieu",
+    "example": "Un café, s'il vous plaît.",
+    "translation": "café",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "fr-a1-160",
+    "front": "jus (n.m.)",
+    "definition": "boisson de fruit (le s ne se prononce pas)",
+    "example": "Un jus d'orange pressé.",
+    "translation": "jugo, zumo",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "fr-a1-161",
+    "front": "viande (n.f.)",
+    "definition": "aliment d'origine animale",
+    "example": "Je ne mange pas de viande.",
+    "translation": "carne",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "fr-a1-162",
+    "front": "poulet (n.m.)",
+    "definition": "viande de volaille",
+    "example": "Du poulet avec du riz.",
+    "translation": "pollo",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "fr-a1-163",
+    "front": "poisson (n.m.)",
+    "definition": "animal qui vit dans l'eau, qu'on mange",
+    "example": "Le poisson est frais.",
+    "translation": "pescado, pez",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "fr-a1-164",
+    "front": "légumes (n.m.pl.)",
+    "definition": "aliments végétaux (carottes, tomates…)",
+    "example": "Il faut manger des légumes.",
+    "translation": "verduras",
+    "tags": [
+      "a1",
+      "noun",
+      "food",
+      "falsefriend"
+    ]
+  },
+  {
+    "id": "fr-a1-165",
+    "front": "fruit (n.m.)",
+    "definition": "aliment sucré des plantes",
+    "example": "Je mange un fruit au petit-déjeuner.",
+    "translation": "fruta",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "fr-a1-166",
+    "front": "fromage (n.m.)",
+    "definition": "aliment fait avec du lait",
+    "example": "La France a des centaines de fromages.",
+    "translation": "queso",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "fr-a1-167",
+    "front": "dessert (n.m.)",
+    "definition": "plat sucré à la fin du repas",
+    "example": "Comme dessert, une tarte aux pommes.",
+    "translation": "postre",
+    "tags": [
+      "a1",
+      "noun",
+      "food"
+    ]
+  },
+  {
+    "id": "fr-a1-168",
+    "front": "addition (n.f.)",
+    "definition": "ce qu'on paie au restaurant",
+    "example": "L'addition, s'il vous plaît.",
+    "translation": "cuenta (restaurante)",
+    "tags": [
+      "a1",
+      "noun",
+      "food",
+      "shopping",
+      "keyword"
+    ]
+  },
+  {
+    "id": "fr-a1-169",
+    "front": "carte / menu (n.)",
+    "definition": "liste des plats (la carte) ; le menu est une formule à prix fixe",
+    "example": "La carte, s'il vous plaît. Le menu du jour.",
+    "translation": "carta; menú",
+    "tags": [
+      "a1",
+      "noun",
+      "food",
+      "falsefriend"
+    ]
+  },
+  {
+    "id": "fr-a1-170",
+    "front": "serveur / serveuse (n.)",
+    "definition": "personne qui sert au restaurant",
+    "example": "Le serveur apporte l'eau.",
+    "translation": "camarero, mesero",
+    "tags": [
+      "a1",
+      "noun",
+      "people",
+      "food"
+    ]
+  },
+  {
+    "id": "fr-a1-171",
+    "front": "magasin (n.m.)",
+    "definition": "lieu où on achète",
+    "example": "Le magasin ouvre à neuf heures.",
+    "translation": "tienda",
+    "tags": [
+      "a1",
+      "noun",
+      "shopping"
+    ]
+  },
+  {
+    "id": "fr-a1-172",
+    "front": "marché (n.m.)",
+    "definition": "lieu d'achat en plein air ; aussi supermarché",
+    "example": "Je vais au marché acheter des fruits.",
+    "translation": "mercado",
+    "tags": [
+      "a1",
+      "noun",
+      "shopping"
+    ]
+  },
+  {
+    "id": "fr-a1-173",
+    "front": "prix (n.m.)",
+    "definition": "combien ça coûte",
+    "example": "Quel est le prix ? C'est quel prix ?",
+    "translation": "precio",
+    "tags": [
+      "a1",
+      "noun",
+      "shopping"
+    ]
+  },
+  {
+    "id": "fr-a1-174",
+    "front": "carte bancaire (n.f.)",
+    "definition": "moyen de paiement",
+    "example": "Vous acceptez la carte ?",
+    "translation": "tarjeta",
+    "tags": [
+      "a1",
+      "noun",
+      "shopping",
+      "chunk"
+    ]
+  },
+  {
+    "id": "fr-a1-175",
+    "front": "monnaie (n.f.)",
+    "definition": "l'argent qu'on rend ; les pièces",
+    "example": "Gardez la monnaie. Vous avez de la monnaie ?",
+    "translation": "cambio, vuelto; suelto",
+    "tags": [
+      "a1",
+      "noun",
+      "shopping",
+      "falsefriend"
+    ]
+  },
+  {
+    "id": "fr-a1-176",
+    "front": "euro (n.m.)",
+    "definition": "monnaie de la France",
+    "example": "Ça coûte vingt euros.",
+    "translation": "euro",
+    "tags": [
+      "a1",
+      "noun",
+      "shopping"
+    ]
+  },
+  {
+    "id": "fr-a1-177",
+    "front": "vêtements (n.m.pl.)",
+    "definition": "ce qu'on porte sur le corps",
+    "example": "J'ai besoin de nouveaux vêtements.",
+    "translation": "ropa",
+    "tags": [
+      "a1",
+      "noun",
+      "shopping"
+    ]
+  },
+  {
+    "id": "fr-a1-178",
+    "front": "chaussures (n.f.pl.)",
+    "definition": "ce qu'on met aux pieds",
+    "example": "Quelles belles chaussures !",
+    "translation": "zapatos",
+    "tags": [
+      "a1",
+      "noun",
+      "shopping"
+    ]
+  },
+  {
+    "id": "fr-a1-179",
+    "front": "téléphone / portable (n.m.)",
+    "definition": "appareil pour appeler ; le portable est le mobile",
+    "example": "Mon portable n'a plus de batterie.",
+    "translation": "teléfono; móvil, celular",
+    "tags": [
+      "a1",
+      "noun",
+      "objects"
+    ]
+  },
+  {
+    "id": "fr-a1-180",
+    "front": "clé (n.f.)",
+    "definition": "ouvre la porte",
+    "example": "Où est la clé ?",
+    "translation": "llave",
+    "tags": [
+      "a1",
+      "noun",
+      "objects"
+    ]
+  },
+  {
+    "id": "fr-a1-181",
+    "front": "table (n.f.)",
+    "definition": "meuble pour manger ou travailler",
+    "example": "Une table pour deux, s'il vous plaît.",
+    "translation": "mesa",
+    "tags": [
+      "a1",
+      "noun",
+      "objects"
+    ]
+  },
+  {
+    "id": "fr-a1-182",
+    "front": "chaise (n.f.)",
+    "definition": "meuble pour s'asseoir",
+    "example": "Assieds-toi sur cette chaise.",
+    "translation": "silla",
+    "tags": [
+      "a1",
+      "noun",
+      "objects"
+    ]
+  },
+  {
+    "id": "fr-a1-183",
+    "front": "porte (n.f.)",
+    "definition": "par où on entre",
+    "example": "Ferme la porte, s'il te plaît.",
+    "translation": "puerta",
+    "tags": [
+      "a1",
+      "noun",
+      "objects"
+    ]
+  },
+  {
+    "id": "fr-a1-184",
+    "front": "fenêtre (n.f.)",
+    "definition": "ouverture dans le mur avec une vitre",
+    "example": "Ouvre la fenêtre, il fait chaud.",
+    "translation": "ventana",
+    "tags": [
+      "a1",
+      "noun",
+      "objects"
+    ]
+  },
+  {
+    "id": "fr-a1-185",
+    "front": "chambre (n.f.)",
+    "definition": "pièce où on dort",
+    "example": "Ma chambre est petite.",
+    "translation": "habitación, dormitorio",
+    "tags": [
+      "a1",
+      "noun",
+      "home"
+    ]
+  },
+  {
+    "id": "fr-a1-186",
+    "front": "salle de bain (n.f.)",
+    "definition": "pièce avec la douche ; les toilettes sont souvent à part",
+    "example": "La salle de bain est à gauche. Où sont les toilettes ?",
+    "translation": "baño",
+    "tags": [
+      "a1",
+      "noun",
+      "home",
+      "keyword"
+    ]
+  },
+  {
+    "id": "fr-a1-187",
+    "front": "cuisine (n.f.)",
+    "definition": "pièce où on prépare les repas ; aussi la manière de cuisiner",
+    "example": "La cuisine est grande. J'aime la cuisine française.",
+    "translation": "cocina",
+    "tags": [
+      "a1",
+      "noun",
+      "home"
+    ]
+  },
+  {
+    "id": "fr-a1-188",
+    "front": "salon (n.m.)",
+    "definition": "pièce principale de la maison",
+    "example": "La télé est dans le salon.",
+    "translation": "sala, salón",
+    "tags": [
+      "a1",
+      "noun",
+      "home"
+    ]
+  },
+  {
+    "id": "fr-a1-189",
+    "front": "appartement (n.m.)",
+    "definition": "logement dans un immeuble",
+    "example": "J'habite dans un appartement au centre.",
+    "translation": "apartamento, piso",
+    "tags": [
+      "a1",
+      "noun",
+      "home"
+    ]
+  },
+  {
+    "id": "fr-a1-190",
+    "front": "immeuble (n.m.)",
+    "definition": "bâtiment à plusieurs étages",
+    "example": "Je travaille dans cet immeuble.",
+    "translation": "edificio",
+    "tags": [
+      "a1",
+      "noun",
+      "places"
+    ]
+  },
+  {
+    "id": "fr-a1-191",
+    "front": "plage (n.f.)",
+    "definition": "bord de mer avec du sable",
+    "example": "On va à la plage dimanche ?",
+    "translation": "playa",
+    "tags": [
+      "a1",
+      "noun",
+      "places"
+    ]
+  },
+  {
+    "id": "fr-a1-192",
+    "front": "parc (n.m.)",
+    "definition": "espace vert en ville",
+    "example": "Les enfants jouent au parc.",
+    "translation": "parque",
+    "tags": [
+      "a1",
+      "noun",
+      "places"
+    ]
+  },
+  {
+    "id": "fr-a1-193",
+    "front": "restaurant (n.m.)",
+    "definition": "lieu pour manger dehors",
+    "example": "Tu connais un bon restaurant ?",
+    "translation": "restaurante",
+    "tags": [
+      "a1",
+      "noun",
+      "places"
+    ]
+  },
+  {
+    "id": "fr-a1-194",
+    "front": "hôtel (n.m.)",
+    "definition": "lieu pour dormir en voyage",
+    "example": "L'hôtel est près du centre.",
+    "translation": "hotel",
+    "tags": [
+      "a1",
+      "noun",
+      "places"
+    ]
+  },
+  {
+    "id": "fr-a1-195",
+    "front": "aéroport (n.m.)",
+    "definition": "d'où partent les avions",
+    "example": "Je viens te chercher à l'aéroport.",
+    "translation": "aeropuerto",
+    "tags": [
+      "a1",
+      "noun",
+      "transport"
+    ]
+  },
+  {
+    "id": "fr-a1-196",
+    "front": "métro (n.m.)",
+    "definition": "train urbain souterrain",
+    "example": "Je prends le métro tous les jours.",
+    "translation": "metro",
+    "tags": [
+      "a1",
+      "noun",
+      "transport"
+    ]
+  },
+  {
+    "id": "fr-a1-197",
+    "front": "gare (n.f.)",
+    "definition": "d'où partent les trains",
+    "example": "La gare est loin d'ici ?",
+    "translation": "estación (de tren)",
+    "tags": [
+      "a1",
+      "noun",
+      "transport"
+    ]
+  },
+  {
+    "id": "fr-a1-198",
+    "front": "train (n.m.)",
+    "definition": "transport sur rails",
+    "example": "Le train part à dix heures.",
+    "translation": "tren",
+    "tags": [
+      "a1",
+      "noun",
+      "transport"
+    ]
+  },
+  {
+    "id": "fr-a1-199",
+    "front": "billet (n.m.)",
+    "definition": "ce qu'on achète pour voyager ou entrer",
+    "example": "J'ai acheté un billet pour Marseille.",
+    "translation": "billete, boleto",
+    "tags": [
+      "a1",
+      "noun",
+      "transport"
+    ]
+  },
+  {
+    "id": "fr-a1-200",
+    "front": "gauche / droite (n.f.)",
+    "definition": "les deux côtés",
+    "example": "Tournez à gauche, puis à droite.",
+    "translation": "izquierda / derecha",
+    "tags": [
+      "a1",
+      "noun",
+      "directions"
+    ]
+  }
+]

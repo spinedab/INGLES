@@ -1,0 +1,81 @@
+{
+  "title": "The Cost of a Cheap T-Shirt",
+  "summary": "Argumentative text on fast fashion — modals of deduction, linking words, AWL vocabulary.",
+  "text": "<p>A cotton T-shirt in a European high-street shop can cost less than a cup of coffee. That price seems like good news for the consumer, but it raises an obvious question: if the cotton had to be grown, harvested, spun, dyed, cut, sewn, packed and shipped across two continents, how can the final figure be so low?</p><p>Part of the answer is genuine efficiency. Global supply chains are extraordinarily well organised, and economies of scale are real. But a significant part of the answer is that some costs are simply not included in the price. They are paid by someone else, or later.</p><p>Water is the clearest example. Producing one kilogram of cotton requires roughly ten thousand litres of water, much of it in regions where water is already scarce. That cost does not appear on the label. Neither does the environmental cost of disposal: a large proportion of donated clothing is not resold but exported and eventually burned or buried.</p><p>Labour is the second example. Wages in garment factories are often legal in the country where they are paid and yet insufficient to live on. Defenders of the industry argue, not unreasonably, that these jobs are better than the alternatives available locally. Critics reply that \"better than nothing\" is a low standard for a trillion-dollar sector.</p><p>What should a consumer conclude? Probably not that buying clothes is immoral. A more defensible position is narrower: the price tag is not a measure of what something costs. It is a measure of what we have decided to count.</p>",
+  "glosses": [
+    {
+      "word": "harvested",
+      "tip": "cosechado"
+    },
+    {
+      "word": "supply chain",
+      "tip": "cadena de suministro"
+    },
+    {
+      "word": "scarce",
+      "tip": "escaso"
+    },
+    {
+      "word": "disposal",
+      "tip": "desecho, eliminación"
+    },
+    {
+      "word": "insufficient",
+      "tip": "insuficiente"
+    }
+  ],
+  "collocations": [
+    "raise a question",
+    "economies of scale",
+    "a large proportion of",
+    "not unreasonably",
+    "a low standard"
+  ],
+  "questions": [
+    {
+      "q": "What question does the low price raise?",
+      "options": [
+        "Why coffee is expensive",
+        "How so many steps can cost so little",
+        "Who buys the T-shirts"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "According to the text, part of the price is low because…",
+      "options": [
+        "Some costs are paid by someone else",
+        "Cotton is free",
+        "Shipping is subsidised"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "How much water does one kilogram of cotton need?",
+      "options": [
+        "About 1,000 litres",
+        "About 10,000 litres",
+        "About 100,000 litres"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What do defenders of the industry argue?",
+      "options": [
+        "Wages are generous",
+        "The jobs beat local alternatives",
+        "Water use is exaggerated"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What is the author's final position?",
+      "options": [
+        "Buying clothes is immoral",
+        "Price reflects what we choose to count",
+        "Consumers are to blame"
+      ],
+      "answer": 1
+    }
+  ]
+}

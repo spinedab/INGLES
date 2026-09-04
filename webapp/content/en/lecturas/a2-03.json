@@ -1,0 +1,81 @@
+{
+  "title": "The Job Interview",
+  "summary": "A first interview — present perfect for experience, going to for plans.",
+  "text": "<p>Daniel arrived twenty minutes early. He sat in the waiting room and read his notes again. He had never had a real job interview before, and his hands were cold.</p><p>At ten o'clock a woman opened the door. \"Daniel? I'm Marta, the manager. Come in.\"</p><p>They sat down and Marta looked at his CV. \"You've studied design for three years,\" she said. \"Have you ever worked with clients?\"</p><p>\"Not in a company,\" Daniel answered honestly. \"But I've made websites for two small shops in my neighbourhood, and I've learned a lot from that. I had to explain my ideas to people who don't know anything about design.\"</p><p>Marta wrote something down. \"That's useful. Most of our clients aren't designers either.\" Then she asked, \"What are you going to do if a client doesn't like your work?\"</p><p>Daniel thought for a moment. \"I'm going to ask questions until I understand what they really need. Usually the problem isn't the colour or the font. It's that we haven't agreed on the goal.\"</p><p>Marta smiled for the first time. \"Good answer. We'll call you on Friday.\"</p><p>They called on Thursday.</p>",
+  "glosses": [
+    {
+      "word": "waiting room",
+      "tip": "sala de espera"
+    },
+    {
+      "word": "CV",
+      "tip": "currículum (curriculum vitae)"
+    },
+    {
+      "word": "honestly",
+      "tip": "con sinceridad"
+    },
+    {
+      "word": "neighbourhood",
+      "tip": "barrio"
+    },
+    {
+      "word": "agreed on",
+      "tip": "nos pusimos de acuerdo en"
+    }
+  ],
+  "collocations": [
+    "arrive early",
+    "have you ever worked…?",
+    "write something down",
+    "for the first time",
+    "agree on a goal"
+  ],
+  "questions": [
+    {
+      "q": "How did Daniel feel before the interview?",
+      "options": [
+        "Confident",
+        "Nervous",
+        "Bored"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What experience does Daniel have with clients?",
+      "options": [
+        "None at all",
+        "Websites for two small shops",
+        "Three years in a company"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Why does Marta find his experience useful?",
+      "options": [
+        "Her clients aren't designers either",
+        "He worked for free",
+        "He studied for three years"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What does Daniel say the real problem usually is?",
+      "options": [
+        "The colour",
+        "The font",
+        "The goal isn't agreed"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "When did the company call him?",
+      "options": [
+        "On Thursday",
+        "On Friday",
+        "They didn't call"
+      ],
+      "answer": 0
+    }
+  ]
+}

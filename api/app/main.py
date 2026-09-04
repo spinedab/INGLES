@@ -102,6 +102,7 @@ class SessionStartRequest(BaseModel):
     level: str = Field(default="b1", min_length=2, max_length=2)
     mode: str = Field(default="conversation")
     scenario: str | None = Field(default=None)
+    lang: str = Field(default="en", min_length=2, max_length=2)
 
 
 class SessionStartResponse(BaseModel):
@@ -164,8 +165,15 @@ def health() -> dict[str, Any]:
 
 
 @app.get("/v1/scenarios")
-def get_scenarios() -> dict[str, Any]:
-    return tutor.list_scenarios()
+def get_scenarios(lang: str = "en") -> dict[str, Any]:
+    if lang not in tutor.LANGUAGES:
+        raise HTTPException(status_code=400, detail=f"lang debe ser uno de {sorted(tutor.LANGUAGES)}")
+    return tutor.list_scenarios(lang)
+
+
+@app.get("/v1/languages")
+def get_languages() -> dict[str, str]:
+    return tutor.LANGUAGES
 
 
 @app.post("/v1/sessions/start", response_model=SessionStartResponse)
@@ -180,16 +188,18 @@ def start_session(
         raise HTTPException(status_code=400, detail=f"mode debe ser uno de {tutor.VALID_MODES}")
     if payload.level.lower() not in tutor.VALID_LEVELS:
         raise HTTPException(status_code=400, detail=f"level debe ser uno de {tutor.VALID_LEVELS}")
+    if payload.lang not in tutor.LANGUAGES:
+        raise HTTPException(status_code=400, detail=f"lang debe ser uno de {sorted(tutor.LANGUAGES)}")
     if payload.mode == "roleplay" and not payload.scenario:
         raise HTTPException(status_code=400, detail="scenario es requerido cuando mode=roleplay")
-    if payload.mode == "roleplay" and payload.scenario not in tutor.list_scenarios():
+    if payload.mode == "roleplay" and payload.scenario not in tutor.list_scenarios(payload.lang):
         raise HTTPException(
             status_code=400,
-            detail=f"scenario inválido. Disponibles: {list(tutor.list_scenarios().keys())}",
+            detail=f"scenario inválido. Disponibles: {list(tutor.list_scenarios(payload.lang).keys())}",
         )
 
     session = sess.create_session(
-        ip=ip, level=payload.level.lower(), mode=payload.mode, scenario=payload.scenario
+        ip=ip, level=payload.level.lower(), mode=payload.mode, scenario=payload.scenario, lang=payload.lang
     )
     log.info("session_create ip=%s id=%s level=%s mode=%s", ip, session.id, session.level, session.mode)
     return SessionStartResponse(
@@ -218,6 +228,7 @@ def _prepare_turn(session_id: str, payload: SessionTurnRequest, ip: str) -> tupl
         scenario=session.scenario,
         learner_turns=session.learner_turns,
         grammar_topic=payload.grammar_topic,
+        lang=session.lang,
     )
     # historia previa al user_text recién agregado (lo excluimos para no duplicarlo).
     history = sess.history_for_llm(session)

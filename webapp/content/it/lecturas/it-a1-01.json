@@ -1,0 +1,72 @@
+{
+  "title": "La mia mattina",
+  "summary": "Routine quotidiana — presente indicativo e ore.",
+  "text": "<p>Mi chiamo Sara e sono insegnante. Ogni giorno mi alzo alle sei. Bevo un bicchiere d'acqua e faccio colazione: pane, marmellata e un caffè. Amo il caffè.</p><p>Vado al lavoro in autobus. La scuola è vicino a casa mia. Insegno italiano ai bambini di otto o nove anni. Mi piacciono i miei studenti perché sono simpatici.</p><p>All'una pranzo con i colleghi. Il pomeriggio ho altre due lezioni. Torno a casa alle sei e preparo la cena. La sera leggo un libro o guardo la televisione. Vado a letto alle undici.</p><p>Il fine settimana è diverso. Il sabato mi alzo tardi e vado al mare con un'amica. La domenica pranzo con la mia famiglia.</p>",
+  "glosses": [
+    {
+      "word": "mi alzo",
+      "tip": "me levanto (alzarsi)"
+    },
+    {
+      "word": "faccio colazione",
+      "tip": "desayuno"
+    },
+    {
+      "word": "pranzo",
+      "tip": "almuerzo / almuerzo (verbo)"
+    },
+    {
+      "word": "vado al mare",
+      "tip": "voy a la playa"
+    },
+    {
+      "word": "simpatici",
+      "tip": "agradables, simpáticos"
+    }
+  ],
+  "collocations": [
+    "mi alzo alle sei",
+    "fare colazione",
+    "andare al lavoro",
+    "tornare a casa",
+    "il fine settimana"
+  ],
+  "questions": [
+    {
+      "q": "A che ora si alza Sara?",
+      "options": [
+        "Alle sei",
+        "Alle otto",
+        "Alle undici"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Come va al lavoro?",
+      "options": [
+        "In macchina",
+        "In autobus",
+        "A piedi"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Che cosa insegna?",
+      "options": [
+        "Matematica",
+        "Italiano",
+        "Storia"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Che fa il sabato?",
+      "options": [
+        "Va al mare",
+        "Lavora",
+        "Pranza con la famiglia"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "title": "我的早上 (Wǒ de zǎoshang)",
+  "summary": "Rutina diaria con pinyin completo — horas, verbos, frases simples.",
+  "text": "<p>我叫莎拉，(Wǒ jiào Shālā,) 我是老师。(wǒ shì lǎoshī.) 我每天六点起床。(Wǒ měitiān liù diǎn qǐchuáng.) 我喝一杯水，(Wǒ hē yì bēi shuǐ,) 然后吃早饭：(ránhòu chī zǎofàn:) 面包、鸡蛋和咖啡。(miànbāo, jīdàn hé kāfēi.)</p><p>我坐公交车去上班。(Wǒ zuò gōngjiāochē qù shàngbān.) 学校离我家很近。(Xuéxiào lí wǒ jiā hěn jìn.) 我教中文，(Wǒ jiāo Zhōngwén,) 学生八九岁。(xuésheng bā-jiǔ suì.) 我很喜欢他们，(Wǒ hěn xǐhuan tāmen,) 因为他们很可爱。(yīnwèi tāmen hěn kě'ài.)</p><p>一点我和同事一起吃午饭。(Yì diǎn wǒ hé tóngshì yìqǐ chī wǔfàn.) 下午我有两节课。(Xiàwǔ wǒ yǒu liǎng jié kè.) 六点我回家做饭。(Liù diǎn wǒ huí jiā zuò fàn.) 晚上我看书或者看电视。(Wǎnshang wǒ kàn shū huòzhě kàn diànshì.) 十一点睡觉。(Shíyī diǎn shuìjiào.)</p><p>周末不一样。(Zhōumò bù yíyàng.) 星期六我起床很晚，(Xīngqīliù wǒ qǐchuáng hěn wǎn,) 和朋友去公园。(hé péngyou qù gōngyuán.) 星期天我和家人吃饭。(Xīngqītiān wǒ hé jiārén chī fàn.)</p>",
+  "glosses": [
+    {
+      "word": "起床 (qǐchuáng)",
+      "tip": "levantarse de la cama"
+    },
+    {
+      "word": "离…很近 (lí… hěn jìn)",
+      "tip": "estar cerca de"
+    },
+    {
+      "word": "节课 (jié kè)",
+      "tip": "clasificador para clases: 两节课 = dos clases"
+    },
+    {
+      "word": "或者 (huòzhě)",
+      "tip": "o (en afirmativa; en pregunta se usa 还是)"
+    },
+    {
+      "word": "周末 (zhōumò)",
+      "tip": "fin de semana"
+    }
+  ],
+  "collocations": [
+    "六点起床",
+    "坐公交车去",
+    "离…很近",
+    "和…一起",
+    "星期六"
+  ],
+  "questions": [
+    {
+      "q": "莎拉几点起床？(¿A qué hora se levanta?)",
+      "options": [
+        "六点",
+        "八点",
+        "十一点"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "她怎么去上班？(¿Cómo va al trabajo?)",
+      "options": [
+        "开车",
+        "坐公交车",
+        "走路"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "她教什么？(¿Qué enseña?)",
+      "options": [
+        "数学",
+        "中文",
+        "历史"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "星期六她做什么？(¿Qué hace el sábado?)",
+      "options": [
+        "去公园",
+        "上班",
+        "和家人吃饭"
+      ],
+      "answer": 0
+    }
+  ]
+}

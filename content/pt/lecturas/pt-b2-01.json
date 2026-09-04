@@ -1,0 +1,72 @@
+{
+  "title": "A língua que muda debaixo dos nossos pés",
+  "summary": "Ensaio sobre variação linguística — infinitivo pessoal, subjuntivo, registro culto.",
+  "text": "<p>Toda vez que alguém afirma que o português está sendo destruído pelos jovens, vale a pena lembrar que essa mesma queixa foi registrada no século XIX, e no XVIII, e provavelmente por algum romano incomodado com o latim que ouvia na rua.</p><p>O que chamamos de erro é, muitas vezes, apenas mudança em andamento. A colocação pronominal é o caso mais evidente: a gramática escolar exige «dê-me o livro», mas nenhum brasileiro diz isso ao pedir algo em casa. Dizemos «me dá o livro», e essa forma, longe de ser um descuido, segue um padrão rítmico próprio do português brasileiro.</p><p>Isso não significa que qualquer coisa sirva em qualquer contexto. Para que um falante seja realmente competente, é preciso que ele domine mais de um registro e saiba quando usar cada um. Escrever um parecer jurídico como se fosse uma mensagem de aplicativo é tão inadequado quanto o contrário.</p><p>O problema, portanto, não está na mudança em si, mas na ideia de que existe uma única forma legítima de falar. Quem defende essa ideia costuma defender, sem perceber, o prestígio de um grupo social específico. Assim que reconhecemos isso, a discussão deixa de ser sobre gramática e passa a ser sobre poder.</p>",
+  "glosses": [
+    {
+      "word": "vale a pena",
+      "tip": "merece la pena"
+    },
+    {
+      "word": "queixa",
+      "tip": "queja"
+    },
+    {
+      "word": "em andamento",
+      "tip": "en curso"
+    },
+    {
+      "word": "descuido",
+      "tip": "descuido, negligencia"
+    },
+    {
+      "word": "parecer jurídico",
+      "tip": "dictamen jurídico"
+    }
+  ],
+  "collocations": [
+    "vale a pena lembrar",
+    "mudança em andamento",
+    "longe de ser",
+    "é preciso que",
+    "deixa de ser… e passa a ser"
+  ],
+  "questions": [
+    {
+      "q": "Que argumento o autor usa contra a ideia de «destruição» da língua?",
+      "options": [
+        "A mesma queixa é repetida há séculos",
+        "Os jovens leem mais",
+        "O português é jovem"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Por que «me dá o livro» não é um descuido?",
+      "options": [
+        "Segue um padrão rítmico do português brasileiro",
+        "É a norma escrita",
+        "Vem do latim"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "O que caracteriza um falante competente segundo o texto?",
+      "options": [
+        "Dominar vários registros e saber quando usar cada um",
+        "Falar sempre formal",
+        "Evitar gírias"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Qual é a tese final do autor?",
+      "options": [
+        "A discussão é sobre poder, não gramática",
+        "A gramática deve desaparecer",
+        "Só a norma culta é legítima"
+      ],
+      "answer": 0
+    }
+  ]
+}

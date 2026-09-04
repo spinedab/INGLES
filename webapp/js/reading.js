@@ -1,15 +1,14 @@
 import * as storage from './storage.js';
+import * as lang from './lang.js';
 import { logActivity } from './insights.js';
 
-export const READING_INDEX = {
-  a1: ['a1-01', 'a1-02', 'a1-03', 'a1-04'],
-  a2: ['a2-01', 'a2-02', 'a2-03', 'a2-04'],
-  b1: ['b1-01', 'b1-02', 'b1-03', 'b1-04'],
-  b2: ['b2-01', 'b2-02', 'b2-03'],
-};
+// El índice lo genera tools/build_content.py: ya no hay lista a mano.
+export async function readingIndex() {
+  return (await lang.index()).readings;
+}
 
 export async function loadText(id) {
-  const r = await fetch(`content/lecturas/${id}.json`);
+  const r = await fetch(lang.path(`lecturas/${id}.json`));
   return r.json();
 }
 
@@ -20,7 +19,7 @@ export async function renderReading(view, level) {
 }
 
 async function renderIndex(view, level) {
-  const ids = READING_INDEX[level] || [];
+  const ids = (await readingIndex())[level] || [];
   const items = await Promise.all(ids.map(async id => {
     const t = await loadText(id).catch(() => null);
     return { id, t };
