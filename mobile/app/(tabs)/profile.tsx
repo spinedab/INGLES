@@ -11,6 +11,7 @@ import { Button } from '@/components/Button';
 import { StatBlock } from '@/components/StatBlock';
 import { LevelPicker } from '@/components/LevelPicker';
 import { LanguagePicker } from '@/components/LanguagePicker';
+import Constants from 'expo-constants';
 import { ProgressRing } from '@/components/ProgressRing';
 import { WeekBars } from '@/components/WeekBars';
 import { SectionHeader } from '@/components/SectionHeader';
@@ -22,6 +23,8 @@ import { spacing, radius, skillColors, useTheme } from '@/lib/theme';
 import type { ActivitySummary, Skill } from '@/lib/types';
 
 export default function ProfileScreen() {
+  // Se lee del bundle (app.json → expo.version) para que no se quede atrás.
+  const version = Constants.expoConfig?.version ?? '—';
   const { level } = useLevel();
   const theme = useTheme();
   const [summary, setSummary] = useState<ActivitySummary | null>(null);
@@ -180,7 +183,7 @@ export default function ProfileScreen() {
         </View>
 
         <Text variant="caption" muted style={{ marginTop: spacing.xxl, textAlign: 'center' }}>
-          INGLES v1.0 · Basado en evidencia{'\n'}
+          INGLES v{version} · Basado en evidencia{'\n'}
           Krashen · Swain · Long · Schmidt · Vygotsky
         </Text>
       </Screen>
