@@ -73,8 +73,10 @@ export default function LearnHub() {
       <Screen>
         <Text variant="h1" style={{ marginBottom: spacing.lg }}>Aprender</Text>
 
-        <Text variant="small" muted style={{ marginBottom: spacing.sm }}>Tu nivel</Text>
+        <Text variant="small" muted style={{ marginBottom: spacing.sm }}>Tu idioma</Text>
         <LanguagePicker />
+
+        <Text variant="small" muted style={{ marginTop: spacing.md, marginBottom: spacing.sm }}>Tu nivel</Text>
         <LevelPicker />
 
         {stats && (

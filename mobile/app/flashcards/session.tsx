@@ -235,7 +235,12 @@ const styles = StyleSheet.create({
     fontSize: 32,
     fontWeight: '600',
     textAlign: 'center',
-    letterSpacing: -0.5,
+    // lineHeight explícito y holgado (1.45) porque sin él iOS calcula la caja
+    // con las métricas de la fuente latina y recorta por arriba los glifos
+    // CJK y los macrones del pinyin: «相关 (xiāngguān)» salía cortado.
+    lineHeight: 46,
+    // Sin letterSpacing negativo: apretaba los caracteres chinos, que ya
+    // llevan su propio espaciado.
   },
   def: {
     fontSize: 18,

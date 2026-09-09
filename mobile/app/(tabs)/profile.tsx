@@ -142,8 +142,10 @@ export default function ProfileScreen() {
         {/* Settings */}
         <SectionHeader title="Ajustes" />
 
-        <Text variant="smallBold" style={{ marginBottom: spacing.xs }}>Nivel CEFR</Text>
+        <Text variant="smallBold" style={{ marginBottom: spacing.xs }}>Idioma</Text>
         <LanguagePicker />
+
+        <Text variant="smallBold" style={{ marginTop: spacing.md, marginBottom: spacing.xs }}>Nivel CEFR</Text>
         <LevelPicker />
 
         <View style={[styles.settingRow, { marginTop: spacing.lg }]}>
