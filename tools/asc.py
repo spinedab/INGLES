@@ -26,6 +26,20 @@ Notas de la API aprendidas a base de topársela:
 
 from __future__ import annotations  # el python3 del sistema es 3.9
 
+# PyJWT vive en el Python del sistema (3.9), no en el de Homebrew. Homebrew
+# suele ganar el PATH y está gestionado externamente (PEP 668), así que ahí un
+# `pip install` falla y el script moría con ModuleNotFoundError en mitad de un
+# despliegue. En vez de eso se reejecuta con el intérprete que sí tiene la
+# dependencia; si tampoco la tiene, se deja subir el error original.
+try:
+    import jwt  # noqa: F401
+except ModuleNotFoundError:  # pragma: no cover
+    import os as _os, sys as _sys
+    _FALLBACK = "/usr/bin/python3"
+    if _sys.executable != _FALLBACK and _os.path.exists(_FALLBACK):
+        _os.execv(_FALLBACK, [_FALLBACK, *_sys.argv])
+    raise
+
 import json
 import os
 import sys
