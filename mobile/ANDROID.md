@@ -142,17 +142,27 @@ prueba cerrada Alpha el 28 ago 2026.
 > vigente (en 2026, API 36) con un críptico `Target SDK of artifact is too
 > low`. La subida del bundle en sí no falla: falla el commit del edit.
 
-### Bloqueo 2 — producción exige 12 verificadores y 14 días
+### Bloqueo 2 — producción exige 12 verificadores que ACEPTEN y 14 días
 
-Las cuentas personales nuevas no pueden lanzar a producción directamente. Play
-pide, y lo muestra en el panel de la app:
+Estado verificado el 28 sep 2026 en el panel de Play Console:
 
-- ✅ Publicar una versión de prueba cerrada — *hecho*
-- ⬜ **12 verificadores que acepten** participar — *actualmente 0*
-- ⬜ Mantener la prueba cerrada con esos 12 durante **14 días**
+- ✅ Versión de prueba cerrada publicada: 1.1.0 (versionCode 4) en «alpha», 177 países.
+- ✅ Lista asignada: «DreamLabsTech Testers - 17 Verificadores», **64 correos invitados**.
+- ⬜ **Verificadores que aceptaron: 0.** Este es el bloqueo.
+- ⬜ 14 días seguidos con al menos 12 aceptados.
 
-Esto no es trabajo de código: son 12 personas reales aceptando una invitación.
-Hasta que se cumpla, «Producción» seguirá inactivo por diseño de Google.
+**Invitar no es lo mismo que aceptar.** Estar en la lista no cuenta: cada persona
+tiene que abrir el enlace de acceso, entrar con la misma cuenta de Google que
+está en la lista y pulsar «Convertirse en verificador». Hasta entonces Play la
+cuenta como 0.
+
+Enlace de acceso (el que hay que mandarles):
+
+    https://play.google.com/apps/testing/com.spinedab.ingles
+
+> Ojo al leer esto por API: `edits.testers.get` devuelve `{}` aunque haya una
+> lista de correo asignada, porque solo informa de Grupos de Google. Eso llevó a
+> concluir por error que no había verificadores. El panel web es la fuente.
 
 ### Lo que sí queda listo desde el repo
 
