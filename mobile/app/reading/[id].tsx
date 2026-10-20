@@ -20,20 +20,20 @@ const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
 // «离…很近» marca un hueco: en el texto aparece como «离公司很近».
 function gapPattern(word: string): string {
-  const gap = CJK.test(word) ? '[^。！？]{0,12}?' : '[^.!?]{0,40}?';
+  const gap = CJK.test(word) ? '[^。！？\\n]{0,12}?' : '[^.!?\\n]{0,40}?';
   return word.split('…').map((p) => escapeRe(p.trim())).join(gap);
 }
 
 // La glosa trae a veces la pronunciación entre paréntesis («起床 (qǐchuáng)»),
 // que no está en el texto. Y \b es ASCII: no casa ante «à» o «é», ni entre
 // hanzi, que no llevan espacios. Por eso el límite de palabra se hace a mano y
-// solo en escrituras con espacios.
+// solo en escrituras con espacios. Grupo 1: lo que precede; grupo 2: la palabra.
 function glossPattern(word: string): RegExp {
   const base = word.replace(/\s*\([^)]*\)\s*$/, '');
   const body = gapPattern(base);
   return CJK.test(base)
     ? new RegExp(`()(${body})`)
-    : new RegExp(`(^|[^${LETTER}])(${body})(?![${LETTER}])`);
+    : new RegExp(`(^|[^${LETTER}])(${body})(?![${LETTER}])`, 'i');
 }
 
 function glossTip(g: { word: string; tip: string }): string {
@@ -48,55 +48,40 @@ function stripTags(html: string): string {
     .replace(/<[^>]+>/g, '');
 }
 
+// Marca rangos sobre el texto original en vez de reescribirlo: el texto que lee
+// el aprendiz sale tal cual (sin reinyectar la forma del diccionario, que
+// convertía «On closer inspection» en «on closer inspection»), y una glosa
+// dentro de una colocación conserva las dos marcas. Antes, la glosa insertaba
+// marcadores que impedían casar la colocación que la contenía.
 function segmentText(plain: string, glosses: { word: string; tip: string }[], collocations: string[]): Segment[] {
-  // Sustituye tanto glosas (case-insensitive, palabra completa) como colocaciones por marcadores.
-  // Estrategia: ordena marcadores por longitud decreciente, escapa regex, sustituye, luego separa.
-  // El marcador envuelve el texto TAL CUAL aparece en la lectura, no la forma
-  // del diccionario: el regex es case-insensitive, así que reinyectar `g.word`
-  // convertía "On closer inspection" (inicio de frase) en "on closer
-  // inspection" y corrompía el texto que lee el aprendiz.
-  const markers: { token: string; replacement: (m: string, pre: string, w: string) => string }[] = [];
-  glosses.forEach((g, i) => {
-    markers.push({
-      token: glossPattern(g.word).source,
-      replacement: (_m, pre, w) => `${pre}[[G${i}]]${w}[[/G${i}]]`,
-    });
+  const n = plain.length;
+  const tipAt: (string | undefined)[] = new Array(n).fill(undefined);
+  const collAt: boolean[] = new Array(n).fill(false);
+
+  glosses.forEach((g) => {
+    const m = glossPattern(g.word).exec(plain);
+    if (!m) return;
+    const start = m.index + m[1].length;
+    const end = start + m[2].length;
+    if (tipAt.slice(start, end).some(Boolean)) return; // la primera glosa manda
+    const tip = glossTip(g);
+    for (let k = start; k < end; k++) tipAt[k] = tip;
   });
-  collocations.forEach((c, i) => {
-    markers.push({
-      token: `()(${gapPattern(c)})`,
-      replacement: (_m, pre, w) => `${pre}[[C${i}]]${w}[[/C${i}]]`,
-    });
+  collocations.forEach((c) => {
+    const m = new RegExp(gapPattern(c), 'i').exec(plain);
+    if (!m) return;
+    for (let k = m.index; k < m.index + m[0].length; k++) collAt[k] = true;
   });
 
-  let text = plain;
-  for (const m of markers) {
-    const re = new RegExp(m.token, 'i');
-    text = text.replace(re, m.replacement);
-  }
-
-  // Parser de marcadores → array de segmentos.
   const segments: Segment[] = [];
-  const re = /\[\[(G|C)(\d+)\]\]([\s\S]*?)\[\[\/\1\2\]\]/g;
-  let lastIdx = 0;
-  let match: RegExpExecArray | null;
-  while ((match = re.exec(text))) {
-    if (match.index > lastIdx) segments.push({ text: text.slice(lastIdx, match.index) });
-    const [, kind, idxStr, word] = match;
-    if (kind === 'G') {
-      const idx = parseInt(idxStr, 10);
-      segments.push({ text: word, tip: glossTip(glosses[idx]) });
-    } else {
-      segments.push({ text: word, collocation: true });
+  let start = 0;
+  for (let k = 1; k <= n; k++) {
+    if (k === n || tipAt[k] !== tipAt[start] || collAt[k] !== collAt[start]) {
+      segments.push({ text: plain.slice(start, k), tip: tipAt[start], collocation: collAt[start] || undefined });
+      start = k;
     }
-    lastIdx = match.index + match[0].length;
   }
-  if (lastIdx < text.length) segments.push({ text: text.slice(lastIdx) });
-  // Una glosa y una colocación pueden solaparse («离…很近» es las dos cosas):
-  // el marcador interior quedaría como texto literal, así que se limpia.
-  return segments
-    .map((seg) => ({ ...seg, text: seg.text.replace(/\[\[\/?[GC]\d+\]\]/g, '') }))
-    .filter((seg) => seg.text);
+  return segments;
 }
 
 export default function ReadingDetail() {
@@ -183,7 +168,11 @@ export default function ReadingDetail() {
                 <Text
                   key={i}
                   onPress={() => setActiveTip(s.tip!)}
-                  style={[styles.gloss, { color: theme.fg, borderBottomColor: theme.accent }]}
+                  style={[
+                    styles.gloss,
+                    { color: theme.fg, borderBottomColor: theme.accent },
+                    s.collocation && { backgroundColor: theme.accentSoft },
+                  ]}
                 >
                   {s.text}
                 </Text>

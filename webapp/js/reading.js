@@ -40,16 +40,7 @@ async function renderIndex(view, level) {
 
 async function renderText(view, level, id) {
   const t = await loadText(id);
-  let bodyHtml = t.text;
-  // Apply glosses (data-tip) and collocations.
-  for (const g of t.glosses || []) {
-    bodyHtml = bodyHtml.replace(glossPattern(g.word),
-      (m, pre, w) => `${pre}<span class="gloss" data-tip="${escapeAttr(glossTip(g))}">${w}</span>`);
-  }
-  for (const c of t.collocations || []) {
-    const re = new RegExp(`(${gapPattern(c)})`, 'i');
-    bodyHtml = bodyHtml.replace(re, `<span class="collocation">$1</span>`);
-  }
+  const bodyHtml = annotate(t.text, t.glosses || [], t.collocations || []);
 
   const progressKey = `reading:done:${id}`;
   const isDone = storage.get(progressKey, false);
@@ -141,17 +132,16 @@ function escapeRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
 const LETTER = 'A-Za-z\u00C0-\u024F';
 const CJK = /[\u3400-\u9FFF]/;
 
-// «离…很近» marca un hueco: en el texto aparece como «离公司很近». El hueco no
-// cruza etiquetas para no partir el HTML.
+// «离…很近» marca un hueco: en el texto aparece como «离公司很近».
 function gapPattern(word) {
-  const gap = CJK.test(word) ? '[^。！？<>]{0,12}?' : '[^.!?<>]{0,40}?';
+  const gap = CJK.test(word) ? '[^。！？\\n]{0,12}?' : '[^.!?\\n]{0,40}?';
   return word.split('…').map((p) => escapeRe(p.trim())).join(gap);
 }
 
 // La glosa trae a veces la pronunciación entre paréntesis («起床 (qǐchuáng)»),
 // que no está en el texto. Y \b es ASCII: no casa ante «à» o «é», ni entre
 // hanzi, que no llevan espacios. Por eso el límite de palabra se hace a mano y
-// solo en escrituras con espacios. Mismo criterio que mobile/app/reading/[id].tsx.
+// solo en escrituras con espacios. Grupo 1: lo que precede; grupo 2: la palabra.
 function glossPattern(word) {
   const base = word.replace(/\s*\([^)]*\)\s*$/, '');
   const body = gapPattern(base);
@@ -163,5 +153,53 @@ function glossPattern(word) {
 function glossTip(g) {
   const pron = g.word.match(/\(([^)]*)\)\s*$/);
   return pron ? `${pron[1]} · ${g.tip}` : g.tip;
+}
+
+// Marca rangos sobre el texto de los nodos, no sobre el HTML: una glosa ya no
+// puede casar dentro de una etiqueta ni de un data-tip, y una glosa dentro de
+// una colocación conserva las dos marcas (antes la glosa metía un <span> que
+// impedía casar la colocación). Mismo criterio que mobile/app/reading/[id].tsx.
+function annotate(html, glosses, collocations) {
+  const parts = html.split(/(<[^>]+>)/); // índices impares: etiquetas
+  const offset = [];
+  let plain = '';
+  parts.forEach((p, i) => {
+    if (i % 2) { plain += '\n'; return; } // una etiqueta separa palabras
+    offset[i] = plain.length;
+    plain += p;
+  });
+  const tipAt = new Array(plain.length).fill(undefined);
+  const collAt = new Array(plain.length).fill(false);
+  for (const g of glosses) {
+    const m = glossPattern(g.word).exec(plain);
+    if (!m) continue;
+    const start = m.index + m[1].length;
+    const end = start + m[2].length;
+    if (tipAt.slice(start, end).some(Boolean)) continue; // la primera glosa manda
+    const tip = glossTip(g);
+    for (let k = start; k < end; k++) tipAt[k] = tip;
+  }
+  for (const c of collocations) {
+    const m = new RegExp(gapPattern(c), 'i').exec(plain);
+    if (!m) continue;
+    for (let k = m.index; k < m.index + m[0].length; k++) collAt[k] = true;
+  }
+  return parts.map((p, i) => {
+    if (i % 2) return p;
+    const base = offset[i];
+    let out = '';
+    let from = 0;
+    for (let k = 1; k <= p.length; k++) {
+      const a = base + from;
+      const b = base + k;
+      if (k < p.length && tipAt[b] === tipAt[a] && collAt[b] === collAt[a]) continue;
+      let chunk = p.slice(from, k);
+      if (tipAt[a]) chunk = `<span class="gloss" data-tip="${escapeAttr(tipAt[a])}">${chunk}</span>`;
+      if (collAt[a]) chunk = `<span class="collocation">${chunk}</span>`;
+      out += chunk;
+      from = k;
+    }
+    return out;
+  }).join('');
 }
 export function countWords(s) { return s.replace(/<[^>]*>/g, '').split(/\s+/).filter(Boolean).length; }
