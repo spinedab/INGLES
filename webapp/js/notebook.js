@@ -19,19 +19,21 @@ export function addLexiconEntry(data) {
   const now = Date.now();
   const id = entryId(term);
   const entries = lexiconEntries();
+  // Sin `?.`: es ES2020 y los televisores (Chromium 76/79) no lo entienden.
   const current = entries.find(entry => entry.id === id);
+  const cur = current || {};
   const next = {
     id,
     term,
-    meaning: clean(data.meaning || data.definition || current?.meaning || ''),
-    example: clean(data.example || current?.example || ''),
-    notes: clean(data.notes || current?.notes || ''),
-    source: clean(data.source || current?.source || 'manual'),
-    level: clean(data.level || current?.level || ''),
-    tags: Array.isArray(data.tags) ? data.tags : current?.tags || [],
-    mastered: current?.mastered || false,
-    hits: (current?.hits || 0) + 1,
-    addedAt: current?.addedAt || now,
+    meaning: clean(data.meaning || data.definition || cur.meaning || ''),
+    example: clean(data.example || cur.example || ''),
+    notes: clean(data.notes || cur.notes || ''),
+    source: clean(data.source || cur.source || 'manual'),
+    level: clean(data.level || cur.level || ''),
+    tags: Array.isArray(data.tags) ? data.tags : cur.tags || [],
+    mastered: cur.mastered || false,
+    hits: (cur.hits || 0) + 1,
+    addedAt: cur.addedAt || now,
     updatedAt: now,
   };
 
@@ -228,8 +230,10 @@ function renderQuiz(entries) {
   }
   const entry = entries[Math.floor(Math.random() * entries.length)];
   const cloze = entry.example
-    ? entry.example.replace(new RegExp(escapeRe(entry.term), 'i'), '_____')
-    : `How would you use "${entry.term}" in a sentence?`;
+    ? entry.example.replace(/[\u3400-\u9FFF]/.test(entry.term)
+      ? new RegExp(`()${escapeRe(entry.term)}`)
+      : new RegExp(`(^|[^A-Za-z\u00C0-\u024F])${escapeRe(entry.term)}(?![A-Za-z\u00C0-\u024F])`, 'i'), '$1_____')
+    : `¿Cómo usarías «${entry.term}» en una frase?`;
   return `
     <div class="quiz-card">
       <div class="eyebrow">Recuperación activa</div>
@@ -255,8 +259,12 @@ function deleteEntry(id) {
   storage.set(KEY, lexiconEntries().filter(entry => entry.id !== id));
 }
 
+// Determinista también para escrituras sin letras latinas: con el antiguo
+// fallback a Date.now(), «你» recibía un id nuevo en cada guardado. Los ids
+// latinos no cambian. Mismo criterio que mobile/lib/notebook.ts.
 function entryId(term) {
-  return normalize(term).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || String(Date.now());
+  return normalize(term).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+    || 'u-' + Array.from(term.trim()).map(c => c.codePointAt(0).toString(16)).join('-');
 }
 
 function clean(value) {

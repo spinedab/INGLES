@@ -20,6 +20,10 @@
                      package="INGLESapp0"
                      required_version="6.0"/>
   <tizen:profile name="tv"/>
+  <!-- El Tutor IA llama a la API; sin esto la política WARP de Tizen bloquea la
+       petición y el privilegio internet es obligatorio para salir a la red. -->
+  <access origin="https://tutor.apicloud.lat" subdomains="false"/>
+  <tizen:privilege name="http://tizen.org/privilege/internet"/>
   <name>Tutor Inglés IA</name>
   <description>Vocabulario con repeticion espaciada, lectura graduada, listening y gramatica.</description>
   <author email="dnework.col@gmail.com">Santiago Pineda Botero</author>

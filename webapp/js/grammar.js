@@ -78,7 +78,7 @@ function renderTopic(view, topic) {
     el.className = 'question';
     el.innerHTML = `
       <div class="q-text">${i + 1}. ${escapeHtml(ex.q)}</div>
-      <div class="options">${ex.options.map((o, oi) => `<div class="opt" data-i="${oi}">${escapeHtml(o)}</div>`).join('')}</div>
+      <div class="options">${ex.options.map((o, oi) => `<button type="button" class="opt" data-i="${oi}">${escapeHtml(o)}</button>`).join('')}</div>
     `;
     el.querySelectorAll('.opt').forEach(o => {
       o.addEventListener('click', () => {

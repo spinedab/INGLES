@@ -52,7 +52,7 @@ async function readError(res) {
   let detail = '';
   try {
     const body = await res.json();
-    detail = typeof body?.detail === 'string' ? body.detail : JSON.stringify(body);
+    detail = body && typeof body.detail === 'string' ? body.detail : JSON.stringify(body);
   } catch {
     detail = await res.text().catch(() => '');
   }
@@ -70,7 +70,7 @@ async function request(path, { method = 'GET', body = null, signal = null } = {}
       signal,
     });
   } catch (e) {
-    if (e?.name === 'AbortError') throw e;
+    if (e && e.name === 'AbortError') throw e;
     throw new TutorApiError(`No se pudo conectar con el tutor (${url}): ${e.message}`);
   }
   if (!res.ok) {
@@ -161,7 +161,7 @@ export async function streamRespond(sessionId, text, {
       signal,
     });
   } catch (e) {
-    if (e?.name === 'AbortError') throw e;
+    if (e && e.name === 'AbortError') throw e;
     throw new TutorApiError(`No se pudo abrir el stream (${url}): ${e.message}`);
   }
   if (!res.ok) {
@@ -213,7 +213,7 @@ export async function streamRespond(sessionId, text, {
     if (done) break;
     buffer += decoder.decode(value, { stream: true });
     const lines = buffer.split('\n');
-    buffer = lines.pop() ?? '';
+    buffer = lines.pop(); // split() siempre devuelve al menos un elemento
     for (const line of lines) {
       const trimmed = line.trim();
       if (!trimmed) continue;

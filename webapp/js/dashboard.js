@@ -17,7 +17,7 @@ export async function renderDashboard(view, level) {
         <h1>${escapeHtml(headline)}</h1>
         <p class="muted">Plan adaptativo, SRS, input graduado, output guiado y progreso privado en este navegador.</p>
       </div>
-      <a class="btn btn-primary" href="${mission[0]?.href || '#/flashcards'}">Continuar sesión</a>
+      <a class="btn btn-primary" href="${(mission[0] && mission[0].href) || '#/flashcards'}">Continuar sesión</a>
     </div>
 
     <div class="coach-hero compact">

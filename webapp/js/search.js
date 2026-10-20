@@ -229,7 +229,7 @@ function wireSearch(results) {
     const button = event.target.closest('button[data-save]');
     if (!button) return;
     const item = results[Number(button.dataset.save)];
-    if (!item?.save) return;
+    if (!item || !item.save) return;
     const saved = addLexiconEntry(item.save);
     button.textContent = 'Guardado';
     status.textContent = saved ? `${saved.term} añadido al cuaderno.` : 'No se pudo guardar.';

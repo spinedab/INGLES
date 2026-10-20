@@ -63,6 +63,10 @@ html = html.replace(
 # una peticion 404 en cada arranque.
 html = re.sub(r'\s*<link rel="manifest"[^>]*>', '', html, count=1)
 
+# «el tratado» enlaza a ../docs/, que no va en el paquete: en el televisor abría
+# un fichero inexistente sin tv.js, y ATRÁS no tenía a dónde volver.
+html = re.sub(r'\s*<span>· Basado en <a href="\.\./docs/index\.html">el tratado</a></span>', '', html, count=1)
+
 html = html.replace(
     '<script type="module" src="js/app.js"></script>',
     '<script src="js/tv.js"></script>\n<script type="module" src="js/app.js"></script>',
@@ -90,6 +94,12 @@ PY
   # Un color OKLCH en TV descarta la declaracion entera y puede dejar texto
   # ilegible, asi que tv.css no debe contener ninguno.
   ! grep -q 'oklch' "$out/css/tv.css" || { echo "FALLO: tv.css contiene oklch"; exit 1; }
+  ! grep -q '\.\./docs/' "$out/index.html" || { echo "FALLO: enlace fuera del paquete"; exit 1; }
+  # `?.` y `??` son ES2020 (Chromium 80): un solo uso tumba el grafo de módulos
+  # entero en Tizen 6 (Chromium 76) y webOS 6 (79) y la app arranca en blanco.
+  if grep -nE '\?\.[A-Za-z_$[(]|\?\?' "$out"/js/*.js; then
+    echo "FALLO: sintaxis ES2020 (?. o ??) que Chromium 76/79 no entiende"; exit 1
+  fi
 
   log "  $(du -sh "$out" | cut -f1) en build/$platform"
 }

@@ -115,7 +115,6 @@
     --shadow-lg: 0 12px 32px oklch(0% 0 0 / 0.6);
   }
 }
-}
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -432,6 +431,13 @@ p { margin-bottom: 12px; }
 .question .q-text { font-weight: 600; margin-bottom: 10px; }
 .question .options { display: flex; flex-direction: column; gap: 8px; }
 .question .opt {
+  /* Es un <button> para que el mando de TV y el teclado puedan elegirla. */
+  display: block;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+  font: inherit;
+  color: inherit;
   padding: 8px 14px;
   border: 1px solid var(--border);
   border-radius: 6px;
@@ -623,6 +629,7 @@ kbd {
   --value: 0;
   position: relative;
   width: 150px;
+  height: 150px; /* aspect-ratio solo existe desde Chromium 88: en TV salía ovalado */
   aspect-ratio: 1;
   border-radius: 50%;
   display: grid;

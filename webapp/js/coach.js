@@ -98,6 +98,10 @@ export async function renderCoach(view, level) {
   const targetWords = pickTargetWords(vocab, 10);
   const savedWords = lexiconEntries().filter(entry => !entry.mastered).slice(0, 6);
   const promptIndex = storage.get(`coach:shadowPrompt:${level}`, 0);
+  // El coach de escritura y el shadowing solo tienen reglas, consignas y frases
+  // modelo en inglés: con otro idioma mezclaba la consigna «in English» con
+  // palabras del deck activo. Mismo criterio que mobile/app/coach.tsx.
+  const englishOnly = lang.current() === 'en';
   const shadowPrompt = promptFor(level, promptIndex);
   const timerMinutes = storage.get('coach:timerMinutes', 25);
 
@@ -156,6 +160,7 @@ export async function renderCoach(view, level) {
         <div id="timer-status" class="status-line"></div>
       </section>
 
+      ${englishOnly ? `
       <section class="tool-panel">
         <div class="panel-head">
           <div>
@@ -201,6 +206,12 @@ export async function renderCoach(view, level) {
         <div id="shadow-result" class="analysis-output"></div>
       </section>
 
+      ` : `
+      <section class="tool-panel">
+        <p class="muted">El coach de escritura y el shadowing están disponibles por ahora solo para inglés.</p>
+      </section>
+      `}
+
       <section class="tool-panel">
         <div class="panel-head">
           <div>
@@ -233,8 +244,10 @@ export async function renderCoach(view, level) {
   `;
 
   wireTimer(view, timerMinutes);
-  wireWriting(vocab, targetWords);
-  wireShadowing(level, promptIndex);
+  if (englishOnly) {
+    wireWriting(vocab, targetWords);
+    wireShadowing(level, promptIndex);
+  }
   wireAnalytics();
 }
 

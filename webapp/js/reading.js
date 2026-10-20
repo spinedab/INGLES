@@ -43,11 +43,11 @@ async function renderText(view, level, id) {
   let bodyHtml = t.text;
   // Apply glosses (data-tip) and collocations.
   for (const g of t.glosses || []) {
-    const re = new RegExp(`\\b(${escapeRe(g.word)})\\b`, 'i');
-    bodyHtml = bodyHtml.replace(re, `<span class="gloss" data-tip="${escapeAttr(g.tip)}">$1</span>`);
+    bodyHtml = bodyHtml.replace(glossPattern(g.word),
+      (m, pre, w) => `${pre}<span class="gloss" data-tip="${escapeAttr(glossTip(g))}">${w}</span>`);
   }
   for (const c of t.collocations || []) {
-    const re = new RegExp(`(${escapeRe(c)})`, 'i');
+    const re = new RegExp(`(${gapPattern(c)})`, 'i');
     bodyHtml = bodyHtml.replace(re, `<span class="collocation">$1</span>`);
   }
 
@@ -80,7 +80,7 @@ async function renderText(view, level, id) {
     el.innerHTML = `
       <div class="q-text">${qi + 1}. ${escapeHtml(q.q)}</div>
       <div class="options">
-        ${q.options.map((opt, oi) => `<div class="opt" data-i="${oi}">${escapeHtml(opt)}</div>`).join('')}
+        ${q.options.map((opt, oi) => `<button type="button" class="opt" data-i="${oi}">${escapeHtml(opt)}</button>`).join('')}
       </div>
     `;
     el.querySelectorAll('.opt').forEach(o => {
@@ -137,4 +137,31 @@ function escapeHtml(s) {
 }
 function escapeAttr(s) { return escapeHtml(s); }
 function escapeRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+
+const LETTER = 'A-Za-z\u00C0-\u024F';
+const CJK = /[\u3400-\u9FFF]/;
+
+// «离…很近» marca un hueco: en el texto aparece como «离公司很近». El hueco no
+// cruza etiquetas para no partir el HTML.
+function gapPattern(word) {
+  const gap = CJK.test(word) ? '[^。！？<>]{0,12}?' : '[^.!?<>]{0,40}?';
+  return word.split('…').map((p) => escapeRe(p.trim())).join(gap);
+}
+
+// La glosa trae a veces la pronunciación entre paréntesis («起床 (qǐchuáng)»),
+// que no está en el texto. Y \b es ASCII: no casa ante «à» o «é», ni entre
+// hanzi, que no llevan espacios. Por eso el límite de palabra se hace a mano y
+// solo en escrituras con espacios. Mismo criterio que mobile/app/reading/[id].tsx.
+function glossPattern(word) {
+  const base = word.replace(/\s*\([^)]*\)\s*$/, '');
+  const body = gapPattern(base);
+  return CJK.test(base)
+    ? new RegExp(`()(${body})`)
+    : new RegExp(`(^|[^${LETTER}])(${body})(?![${LETTER}])`, 'i');
+}
+
+function glossTip(g) {
+  const pron = g.word.match(/\(([^)]*)\)\s*$/);
+  return pron ? `${pron[1]} · ${g.tip}` : g.tip;
+}
 export function countWords(s) { return s.replace(/<[^>]*>/g, '').split(/\s+/).filter(Boolean).length; }

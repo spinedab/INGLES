@@ -1,4 +1,5 @@
 import { get, set } from './storage.js';
+import * as lang from './lang.js';
 
 const DAY = 86400000;
 const MAX_EVENTS = 700;
@@ -160,11 +161,18 @@ export function buildDailyMission({ level, srsStats, summary }) {
     skill: weakSkill === 'listening' ? 'listening' : 'reading',
   });
 
-  mission.push({
+  // El coach de escritura solo existe en inglés: en otros idiomas el tercer
+  // paso es gramática, que sí tiene contenido propio.
+  mission.push(lang.current() === 'en' ? {
     label: 'Output guiado',
     detail: '80-120 palabras usando vocabulario del deck actual',
     href: '#/coach',
     skill: 'writing',
+  } : {
+    label: 'Gramática',
+    detail: 'Un tema con ejercicios de los errores típicos de hispanohablantes',
+    href: '#/grammar',
+    skill: 'grammar',
   });
 
   return mission;

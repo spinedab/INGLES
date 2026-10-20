@@ -83,7 +83,7 @@ async function renderItem(view, id) {
     el.innerHTML = `
       <div class="q-text">${qi + 1}. ${escapeHtml(q.q)}</div>
       <div class="options">
-        ${q.options.map((opt, oi) => `<div class="opt" data-i="${oi}">${escapeHtml(opt)}</div>`).join('')}
+        ${q.options.map((opt, oi) => `<button type="button" class="opt" data-i="${oi}">${escapeHtml(opt)}</button>`).join('')}
       </div>
     `;
     el.querySelectorAll('.opt').forEach(o => {
@@ -138,9 +138,13 @@ function wireTts(it) {
     return;
   }
 
-  // Se quitan las etiquetas de hablante ("Server:", "Customer:") para que no las lea.
+  // Se quitan las etiquetas de hablante («Server:», «服务员：») para que no las
+  // lea, y en mandarín el pinyin entre paréntesis, que la voz china leería
+  // como una segunda frase. Mismo criterio que mobile/app/listening/[id].tsx.
   const text = it.script.split('\n')
-    .map(l => l.replace(/^\s*[A-Z][A-Za-z ]{0,18}:\s*/, ''))
+    .map(l => l.replace(/^\s*(?:[A-Z][A-Za-z ]{0,18}|[\u3400-\u9FFF]{1,6})\s?[:：]\s*/, ''))
+    .map(l => (/[\u3400-\u9FFF]/.test(l) ? l.replace(/\s*[(（][^)）]*[)）]/g, '') : l))
+    .filter(l => l.trim())
     .join('. ');
 
   const speak = async (rate) => {

@@ -9,7 +9,7 @@ y solo se le añaden dos archivos, igual que hace el despliegue web.
 | LG | webOS, paquete `.ipk`, `appinfo.json` |
 | Samsung | Tizen, paquete `.wgt`, `config.xml` |
 | Mínimo | Tizen 6.0 / webOS 6 (televisores de 2021 en adelante) |
-| App id | `com.spinedab.ingles` — el mismo que iOS y Android |
+| App id | LG: `com.spinedab.ingles` (el mismo que iOS y Android) · Samsung: `INGLESapp0.TutorIngles` (formato Tizen `package.nombre`, fijo de por vida) |
 
 ## Construir
 
@@ -46,6 +46,13 @@ y webOS 6 embarca Chromium 79. Eso descarta buena parte del CSS que usa
 | `:focus-visible` | 86 | no |
 | `gap` en flexbox | 84 | no (en grid sí, es de la 66) |
 | `:has()` | 105 | no |
+| `aspect-ratio` | 88 | no: fija también `height` |
+| `?.` y `??` en JS | 80 | **no: la app arranca en blanco** |
+
+Lo de JavaScript es peor que lo de CSS: una regla CSS inválida se descarta
+sola, pero un solo `?.` es un error de sintaxis que tumba el grafo de módulos
+entero, así que no se pinta ninguna vista. La webapp se escribe en ES2019 y
+`build-tv.sh` falla si encuentra esa sintaxis en el paquete.
 
 Un color inválido **no se ignora sin más**: se descarta la declaración
 completa, así que `background: var(--bg)` con `--bg` en OKLCH deja el fondo
@@ -61,8 +68,9 @@ lo que despista porque ese archivo está bien. El flag `-n` / `--no-minify`
 existe pero está oculto de `--help`. `build-tv.sh` ya lo pasa.
 
 **3. No hay síntesis de voz.** `speechSynthesis` no está disponible en estos
-televisores, así que los 8 listenings pierden el audio. El módulo ya lo
-detecta y degrada: deshabilita los botones, avisa y deja el guion visible, con
+televisores, así que los 16 listenings (8 de inglés y 2 por cada uno de pt, fr,
+it y zh) pierden el audio. El módulo ya lo detecta y degrada: deshabilita los
+botones de escucha y avisa; el guion sigue disponible con «Revelar script», con
 lo que el ejercicio se convierte en lectura. Es la limitación más visible de
 la versión de TV y la que habría que resolver con audio pregrabado.
 

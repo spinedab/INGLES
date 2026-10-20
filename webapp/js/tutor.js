@@ -308,7 +308,7 @@ export async function renderTutor(view, level) {
       });
     } catch (e) {
       reply.classList.remove('pending');
-      if (e?.name === 'AbortError') {
+      if (e && e.name === 'AbortError') {
         turnInfo.textContent = 'Respuesta detenida. El turno ya quedó registrado en el servidor.';
       } else {
         body.innerHTML = `<em>Error: ${escapeHtml(e.message)}</em>`;

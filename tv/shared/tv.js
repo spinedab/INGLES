@@ -145,6 +145,13 @@
   document.addEventListener('keydown', (event) => {
     const code = event.keyCode;
 
+    // Dentro de un campo de texto, Retroceso borra y Escape es del campo: con
+    // un teclado físico conectado al televisor, navegar aquí tiraba lo escrito.
+    // Solo ATRÁS del mando (461/10009) sale del campo.
+    const typing = document.activeElement;
+    if ((code === 8 || code === 27) && typing &&
+        (typing.tagName === 'INPUT' || typing.tagName === 'TEXTAREA')) return;
+
     if (BACK_KEYS.has(code)) {
       // En la raíz, ATRÁS cierra la app: es lo que espera el usuario de TV y
       // lo exigen ambas certificaciones. Fuera de la raíz, vuelve al inicio.
@@ -185,6 +192,16 @@
   // recolocar el foco en cada cambio de vista.
   window.addEventListener('hashchange', () => setTimeout(reseat, 60));
   window.addEventListener('load', () => setTimeout(reseat, 120));
+
+  // Flashcards y listening repintan #view u ocultan el botón enfocado sin
+  // cambiar el hash: el foco caía al <body> y OK dejaba de responder.
+  // reseat() no hace nada si ya hay un foco visible.
+  const view = document.getElementById('view');
+  if (view && typeof MutationObserver === 'function') {
+    new MutationObserver(() => setTimeout(reseat, 0)).observe(view, {
+      childList: true, subtree: true, attributes: true, attributeFilter: ['style', 'hidden', 'class'],
+    });
+  }
 
   // El paquete de TV no incluye sw.js: la app ya vive en local, así que
   // cachear no aporta nada y las actualizaciones pasan por la tienda, no por
