@@ -22,7 +22,7 @@
   "doctor-visit": {
     "title": "Consulta médica",
     "min_level": "a2",
-    "setup": "Você é médico(a) de família num posto de saúde no Rio de Janeiro. O aluno chega com sintomas (deixe que ele escolha). Pergunte desde quando, onde doi, se tem febre; examine, dê um diagnóstico simples e explique a receita e os cuidados. Fale devagar e com clareza.",
+    "setup": "Você é médico(a) de família num posto de saúde no Rio de Janeiro. O aluno chega com sintomas (deixe que ele escolha). Pergunte desde quando, onde dói, se tem febre; examine, dê um diagnóstico simples e explique a receita e os cuidados. Fale devagar e com clareza.",
     "objectives": [
       "Descrever sintomas",
       "Entender perguntas do médico",

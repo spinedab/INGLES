@@ -5,5 +5,5 @@ redis>=5.0.0
 pydantic>=2.9.0
 pydantic-settings>=2.5.0
 python-dotenv>=1.0.1
-# anthropic opcional, solo si CONFESSIO_PROVIDER=anthropic
+# anthropic opcional, solo si INGLES_PROVIDER=anthropic (o auto con ANTHROPIC_API_KEY)
 anthropic>=0.40.0

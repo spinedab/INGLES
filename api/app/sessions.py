@@ -168,6 +168,17 @@ def append_turn(session: Session, *, role: str, content: str) -> None:
     _save(session)
 
 
+def rollback_user_turn(session: Session) -> None:
+    """Deshace el turno del aprendiz cuando el modelo falla.
+
+    _prepare_turn lo guarda antes de llamar al LLM; sin esto, cada reintento deja
+    un mensaje huérfano duplicado y adelanta el bloque de noticing."""
+    if session.turns and session.turns[-1].role == "user":
+        session.turns.pop()
+        session.learner_turns = max(0, session.learner_turns - 1)
+        _save(session)
+
+
 def history_for_llm(session: Session) -> list[dict[str, str]]:
     return [
         {"role": t.role, "content": t.content}
@@ -184,5 +195,12 @@ def delete_session(session_id: str, *, ip: str) -> bool:
 
 
 def _save(session: Session) -> None:
+    # Plazo fijo desde la creación, no renovado en cada turno: privacidad.html
+    # promete que la conversación se borra a los 30 días, y con setex(TTL) en
+    # cada guardado una sesión activa no caducaba nunca.
+    ttl = int(session.created_at + SESSION_TTL_SECONDS - time.time())
+    if ttl <= 0:
+        _get_redis().delete(_key(session.id))
+        return
     payload = json.dumps(session.to_dict(), ensure_ascii=False)
-    _get_redis().setex(_key(session.id), SESSION_TTL_SECONDS, payload)
+    _get_redis().setex(_key(session.id), ttl, payload)

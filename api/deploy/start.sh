@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# Arranque en producción (Mac Studio). Invocado por el LaunchAgent al login,
-# o manualmente para levantar/actualizar el stack.
+# Despliegue manual en producción (Mac Studio): construye y levanta el stack y
+# refresca el espejo de arranque en ~/.local/share/apps/ingles-api. El LaunchAgent
+# ejecuta ese boot.sh, no este script (launchd no puede leer ~/Documents por TCC).
 set -euo pipefail
 
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -36,7 +37,7 @@ chmod 600 "$MIRROR/env.production"
 chmod +x "$MIRROR/boot.sh"
 echo "Espejo de arranque actualizado en $MIRROR"
 
-# Espera a que el health check pase antes de salir (LaunchAgent lo registra como éxito).
+# Espera a que el health check pase antes de salir (el código de salida dice si el stack quedó arriba).
 for i in $(seq 1 30); do
   curl -sf http://127.0.0.1:8817/health >/dev/null 2>&1 && { echo "ingles-api arriba"; exit 0; }
   sleep 2

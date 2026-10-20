@@ -117,7 +117,7 @@ def build_system_prompt(
         topic = grammar_topic or ("present-perfect-vs-past-simple" if lang == "en" else "a topic of the learner's choice")
         mode_block_parts.append(
             f"Grammar focus topic: **{topic}**\n"
-            "Present the rule in plain English (B1-equivalent metalanguage), "
+            f"Present the rule in plain {LANGUAGES[lang]} (B1-equivalent metalanguage), "
             "give 3 examples, then practice 5 items with immediate feedback."
         )
     else:  # conversation

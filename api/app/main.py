@@ -201,7 +201,9 @@ def start_session(
     session = sess.create_session(
         ip=ip, level=payload.level.lower(), mode=payload.mode, scenario=payload.scenario, lang=payload.lang
     )
-    log.info("session_create ip=%s id=%s level=%s mode=%s", ip, session.id, session.level, session.mode)
+    # Sin la IP: privacidad.html promete que no se guarda en claro, y los logs de
+    # Docker persisten mientras viva el contenedor.
+    log.info("session_create id=%s level=%s mode=%s lang=%s", session.id, session.level, session.mode, session.lang)
     return SessionStartResponse(
         session_id=session.id,
         level=session.level,
@@ -257,6 +259,7 @@ def session_respond(
         )
     except Exception as exc:
         log.exception("respond_failed session=%s err=%s", session_id, exc)
+        sess.rollback_user_turn(session)
         raise HTTPException(status_code=502, detail=f"upstream model error: {exc}") from exc
 
     sess.append_turn(session, role="assistant", content=generated.content)
@@ -299,6 +302,8 @@ def session_stream(
                 elif event_type == "done":
                     used_model = payload_chunk.get("model", "")
                 elif event_type == "error":
+                    # Antes del yield: si el cliente ya cortó, no se vuelve aquí.
+                    sess.rollback_user_turn(session)
                     yield "data: " + json.dumps(
                         {"event": "error", "message": payload_chunk.get("message", "")},
                         ensure_ascii=False,
@@ -307,6 +312,7 @@ def session_stream(
                     return
         except Exception as exc:  # noqa: BLE001
             log.exception("stream_failed session=%s err=%s", session_id, exc)
+            sess.rollback_user_turn(session)
             yield "data: " + json.dumps(
                 {"event": "error", "message": str(exc)}, ensure_ascii=False
             ) + "\n\n"
