@@ -16,11 +16,14 @@ F4  Tutor IA conversacional                   [HECHO]
 F5  App móvil + web (Expo + React Native)     [HECHO — mobile/, iOS y Android
                                                 nativos desde el mismo codebase]
 F6  API del tutor como servicio               [HECHO — api/, FastAPI, en producción]
-F7  Publicación                               [HECHO — web; iOS a falta de dos
-                                                declaraciones del titular]
+F7  Publicación                               [HECHO — web; iOS 1.1 a la venta en
+                                                App Store; Android 1.1.0 en prueba
+                                                cerrada «alpha» de Play]
 ```
 
-Estado actual del contenido, que es lo que más ha cambiado respecto al plan:
+Estado actual del contenido de inglés, que es lo que más ha cambiado respecto al
+plan (además hay portugués, francés, italiano y mandarín, con menos contenido;
+fuente en `content/<lang>/`):
 
 | Módulo | Plan original | Ahora |
 |---|---|---|
@@ -262,16 +265,16 @@ Hechos desde la versión anterior de esta lista:
   ejecución** (`expo-speech` en móvil, `speechSynthesis` en web) en vez de audio
   pregenerado: no pesa en el bundle, funciona sin conexión y no depende de
   enlaces externos, que es justo lo que estaba roto.
-- ~~Conectar tutor IA con webapp~~ → hecho. La webapp tiene la vista `#/tutor` y
-  el móvil `lib/tutorApi.ts`, ambos contra `tutor.apicloud.lat`.
+- ~~Conectar tutor IA con webapp~~ → hecho. La webapp tiene la vista `#/tutor`
+  contra `tutor.apicloud.lat`. El móvil tiene el cliente `lib/tutorApi.ts`, pero
+  ninguna pantalla lo usa todavía.
 
 Abiertos:
 
-- Ampliar vocabulario hasta 2.000 por nivel (van 300+; ver `content/vocab/`).
+- Ampliar vocabulario hasta 2.000 por nivel (en inglés van 300+; ver
+  `content/en/vocab/`).
 - Más lecturas — objetivo 50 por nivel para lectura extensiva real (van 15).
 - Sincronización entre dispositivos: hoy el progreso es local por diseño.
-- Publicar la app de Android en Play. El build ya es reproducible desde el repo
-  (`mobile/` con Expo + Gradle, ver [`mobile/ANDROID.md`](mobile/ANDROID.md)) y el
-  AAB va firmado con un keystore de subida guardado fuera del repo. Lo que falta
-  es del lado de la tienda: no consta cuenta de Google Play Developer, y
-  `com.spinedab.ingles` devuelve 404 en Play.
+- Pasar Android de la prueba cerrada «alpha» a producción en Play: requiere 12
+  verificadores aceptados durante 14 días seguidos (a 19 oct 2026: 64 invitados,
+  0 aceptados). Ver [`mobile/ANDROID.md`](mobile/ANDROID.md).

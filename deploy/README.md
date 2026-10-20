@@ -51,10 +51,13 @@ Se despliegan, no se usan en local:
 - **`experiments.baseUrl: "/app"`** en `mobile/app.json`. Sin eso, el export
   emite rutas absolutas `/_expo/...` que dan 404 al servirse bajo `/app/`. Solo
   afecta a web; iOS y Android lo ignoran.
-- **El service worker excluye `/app/`** (`webapp/sw.js`). Su scope es `/` y su
-  estrategia es cache-first, así que sin esa exclusión se tragaba el export de
-  Expo y lo dejaba congelado en la primera versión vista. Verificado: pasaba de
-  verdad, `/app/` servía una respuesta vacía hasta desregistrar el SW.
+- **El service worker excluye `/app/`** (`webapp/sw.js`). Hoy se registra con
+  ruta relativa desde `/webapp/`, así que su scope es `/webapp/` y no ve `/app/`.
+  La exclusión se conserva por los navegadores que instalaron la versión antigua
+  con scope `/` (cuando la webapp vivía en la raíz): con estrategia cache-first
+  se tragaba el export de Expo y lo dejaba congelado en la primera versión
+  vista. Verificado: pasaba de verdad, `/app/` servía una respuesta vacía hasta
+  desregistrar el SW.
 - **Subir la versión de `CACHE_NAME`** en `webapp/sw.js` cada vez que cambie
   contenido de `CORE_ASSETS`, o los clientes ya instalados no lo ven.
 

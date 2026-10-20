@@ -1,6 +1,6 @@
 # Contrato de la API del backend
 
-La app es **offline-first**. Si no configuras backend, todo funciona en local. Si configuras la URL en `Ajustes → Backend`, la app sincroniza progreso y descarga contenido remoto (si lo sirves).
+La app es **offline-first**. Si no configuras backend, todo funciona en local. Si configuras la URL en `Ajustes → Backend`, la app pide primero el contenido remoto (si lo sirves) y, si falla, usa el empaquetado. Los endpoints de auth y progreso están definidos en el contrato, pero la app aún no los invoca.
 
 Este documento describe el contrato REST que tu hosting debe implementar para integrarse.
 
@@ -88,7 +88,9 @@ Respuesta:
 
 Los endpoints de contenido son **opcionales**. La app trae copias empaquetadas en `assets/content/`. Si los implementas, la app prefiere lo remoto (permite actualizar contenido sin nueva versión de app).
 
-### `GET /content/vocab/{level}`
+`lang` ∈ `{en, pt, fr, it, zh}` (el idioma de estudio activo). Fuera del inglés los ids llevan el prefijo del idioma (`pt-a1-001` en vocabulario, `pt-a1-01` en lecturas).
+
+### `GET /content/{lang}/vocab/{level}`
 `level` ∈ `{a1, a2, b1, b2}`. Respuesta: array de `VocabCard`.
 ```json
 [
@@ -103,7 +105,7 @@ Los endpoints de contenido son **opcionales**. La app trae copias empaquetadas e
 ]
 ```
 
-### `GET /content/lectura/{id}`
+### `GET /content/{lang}/lectura/{id}`
 Respuesta: objeto `ReadingText`.
 ```json
 {
@@ -122,7 +124,7 @@ Respuesta: objeto `ReadingText`.
 }
 ```
 
-### `GET /content/listening/{id}`
+### `GET /content/{lang}/listening/{id}`
 Respuesta: objeto `ListeningItem`.
 ```json
 {

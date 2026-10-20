@@ -94,22 +94,25 @@ npm run submit:ios        # 5. subir a App Store Connect
 
 Bundle id `com.spinedab.ingles`, el mismo que el AAB de Android. Pasos 4-5
 requieren cuenta de Apple Developer. Detalle completo, requisitos de revisión y
-qué queda pendiente para publicar: [`mobile/IOS.md`](mobile/IOS.md).
+estado de la publicación (la 1.1 está a la venta): [`mobile/IOS.md`](mobile/IOS.md).
 
-## Contenido de vocabulario (una sola fuente)
+## Contenido de estudio (una sola fuente)
 
-Los decks de vocabulario se editan en un único sitio, `content/vocab/<nivel>.tsv`,
-y se propagan con:
+El contenido de los cinco idiomas (`en`, `pt`, `fr`, `it`, `zh`) se edita en un
+único sitio, `content/<lang>/` — los decks de vocabulario en
+`content/<lang>/vocab/<nivel>.tsv` — y se propaga con (detalles en
+[`content/README.md`](content/README.md)):
 
 ```bash
-python3 tools/build_vocab.py          # regenera; --check valida sin escribir
+python3 tools/build_content.py        # regenera; --check valida sin escribir
 ```
 
 De ahí salen los decks de la webapp, los de la app móvil y los TSV de import de
 Anki. Antes había dos bancos que se editaban por separado y habían divergido
 (505 palabras en total, solo 82 en común); ahora son consumidores generados. El
 script valida que ningún `id` cambie: el progreso SRS vive en
-`localStorage['srs:<id>']` y reasignar un id borraría el historial del aprendiz.
+`localStorage['srs:<deck>:<id>']` (en la webapp, con el prefijo `ingles:`) y
+reasignar un id borraría el historial del aprendiz.
 
 ## Producción
 
@@ -122,10 +125,11 @@ decisiones y gotchas en [`api/docs/DESPLIEGUE.md`](api/docs/DESPLIEGUE.md).
 curl -s https://tutor.apicloud.lat/health
 ```
 
-Las apps ya consumen el servicio: la webapp tiene la vista **Tutor IA** (`#/tutor`,
-cliente en `webapp/js/tutor-client.js`) y `mobile/` tiene el cliente tipado
-`mobile/lib/tutorApi.ts`. Cómo integrarlo, ejemplos copiables, configuración de
-base URL, token opcional y limitaciones en
+La webapp ya consume el servicio: tiene la vista **Tutor IA** (`#/tutor`,
+cliente en `webapp/js/tutor-client.js`). `mobile/` tiene el cliente tipado
+`mobile/lib/tutorApi.ts`, pero ninguna pantalla lo usa todavía. Cómo
+integrarlo, ejemplos copiables, configuración de base URL, token opcional y
+limitaciones en
 [`api/docs/USO-CLIENTES.md`](api/docs/USO-CLIENTES.md).
 
 ## Fundamento

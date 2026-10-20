@@ -21,8 +21,9 @@ Fuente de verdad: [`api/app/main.py`](../app/main.py). Resumen:
 | Método | Ruta | Cuerpo | Respuesta |
 |--------|------|--------|-----------|
 | `GET` | `/health` | — | `{"status","provider","model","scenarios_loaded"}` |
-| `GET` | `/v1/scenarios` | — | objeto indexado por id de escenario |
-| `POST` | `/v1/sessions/start` | `{"level","mode","scenario"}` | `{"sessionId","level","mode","scenario","createdAt"}` |
+| `GET` | `/v1/scenarios?lang=<code>` | — | objeto indexado por id de escenario del idioma pedido (`lang` opcional, por defecto `en`; 400 si no es válido) |
+| `GET` | `/v1/languages` | — | `{código: nombre}`: `{"en":"English","pt":"Brazilian Portuguese","fr":"French","it":"Italian","zh":"Mandarin Chinese"}` |
+| `POST` | `/v1/sessions/start` | `{"level","mode","scenario","lang"}` | `{"sessionId","level","mode","scenario","createdAt"}` |
 | `POST` | `/v1/sessions/{id}/respond` | `{"text","grammarTopic"}` | `{"sessionId","reply","model","provider","turnIndex","learnerTurns"}` |
 | `POST` | `/v1/sessions/{id}/stream` | `{"text","grammarTopic"}` | SSE (`text/event-stream`) |
 | `GET` | `/v1/sessions/{id}` | — | vista completa con `turns[]` |
@@ -30,10 +31,14 @@ Fuente de verdad: [`api/app/main.py`](../app/main.py). Resumen:
 
 Valores válidos:
 
-- `level`: `a1` \| `a2` \| `b1` \| `b2` (minúsculas, exactamente 2 caracteres).
+- `level`: `a1` \| `a2` \| `b1` \| `b2` \| `c1` (exactamente 2 caracteres; el
+  servidor lo pasa a minúsculas, los clientes envían minúsculas).
+- `lang`: `en` \| `pt` \| `fr` \| `it` \| `zh` (las claves de `/v1/languages`);
+  opcional, por defecto `en`.
 - `mode`: `conversation` \| `roleplay` \| `grammar`.
 - `scenario`: **obligatorio** si `mode=roleplay`, y debe ser una clave de
-  `/v1/scenarios`. En los otros modos, `null`.
+  `/v1/scenarios?lang=<lang>` (el mismo `lang` de la sesión). En los otros
+  modos, `null`.
 - `grammarTopic`: opcional, string libre; sólo tiene sentido con `mode=grammar`.
 - `text`: 1–4000 caracteres.
 
@@ -225,7 +230,8 @@ implementa `Response.body` / `ReadableStream`**: en web usa `fetch` +
 - **El historial vive sólo en el servidor.** Ningún cliente persiste los turnos
   en `localStorage`/`AsyncStorage`; al recargar la webapp la conversación se
   pierde. Es una decisión deliberada (privacidad, y las sesiones caducan en el
-  servidor de todos modos), no un bug.
+  servidor de todos modos: a los 30 días de crearse, plazo fijo que no se
+  renueva con cada turno), no un bug.
 - **Sin auth hoy.** El servicio es público y sin token. La única protección es un
   rate limit por IP en memoria (`INGLES_RATE_LIMIT_PER_MIN`), que se reinicia con
   el contenedor y no funciona bien con varias réplicas.

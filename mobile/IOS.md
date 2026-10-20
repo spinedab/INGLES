@@ -8,8 +8,8 @@ Mismo codebase que Android y web.
 | Bundle identifier | `com.spinedab.ingles` |
 | Nombre visible | Tutor Inglés (`ios.infoPlist.CFBundleDisplayName`) |
 | Nombre del proyecto Xcode | `TutorInglesIA` |
-| Versión / build | `1.0.0` / `1` (`app.json`) |
-| iPad | Soportado (`supportsTablet: true`) |
+| Versión / build | `1.1.0` / `3` (`app.json`; con `appVersionSource: "remote"` en `eas.json`, EAS lleva el build number en remoto) |
+| iPad | No: solo iPhone (`supportsTablet: false`, `TARGETED_DEVICE_FAMILY = 1`) |
 | Arquitectura | New Architecture activada (`newArchEnabled: true`) |
 
 > El `expo.name` es ASCII a propósito (`TutorInglesIA`, sin acento). El nombre
@@ -89,19 +89,10 @@ Perfiles en `eas.json`:
 - `preview` — build interno firmado, para repartir por enlace.
 - `production` — para App Store, con `autoIncrement` del build number.
 
-### Antes de subir
+### Subir
 
-`eas.json` tiene dos marcadores que hay que rellenar; `eas submit` falla si se
-dejan como están:
-
-```jsonc
-"submit": { "production": { "ios": {
-  "ascAppId":    "REEMPLAZAR_CON_APP_STORE_CONNECT_APP_ID",  // App Store Connect → App Information → Apple ID
-  "appleTeamId": "REEMPLAZAR_CON_APPLE_TEAM_ID"              // developer.apple.com → Membership
-}}}
-```
-
-Después:
+`eas.json` ya lleva los valores reales en `submit.production.ios`: `ascAppId`
+`6798352342` y `appleTeamId` `Y9A29F6TZL`.
 
 ```bash
 npm run submit:ios               # eas submit --platform ios --profile production
@@ -109,20 +100,27 @@ npm run submit:ios               # eas submit --platform ios --profile productio
 
 ### Cosas que Apple pide y ya están resueltas
 
-- **Cifrado**: `ITSAppUsesNonExemptEncryption: false`. La app solo hace HTTPS
-  estándar contra la API del tutor, así que no hay declaración de exportación.
+- **Cifrado**: `ITSAppUsesNonExemptEncryption: false`. Por defecto la app no
+  hace peticiones de red (solo HTTPS estándar si el usuario configura un backend
+  en `Ajustes → Backend`), así que no hay declaración de exportación. El tutor
+  solo existe en la web.
 - **Permisos**: la app no graba audio. Usa `expo-speech` (TTS, sin permiso) y
   `expo-av` solo para reproducir. El plugin de `expo-av` va con
   `microphonePermission: false` para que no se cuele un `NSMicrophoneUsageDescription`
   sin usar en el Info.plist — un permiso declarado y no usado es motivo de
   pregunta en revisión.
-- **Localizaciones**: `CFBundleLocalizations: ["es", "en"]`. UI en español,
-  contenido en inglés.
+- **Localizaciones**: `CFBundleLocalizations: ["es", "en"]`. UI en español;
+  contenido de inglés, portugués (pt-BR), francés, italiano y mandarín.
 
-### Estado del envío (28 ago 2026)
+### Estado (19 oct 2026)
 
-**La versión 1.0 (build 2) está ENVIADA A REVISIÓN**: `WAITING_FOR_REVIEW`,
-confirmado por la App Store Connect API. Todo se hizo por API con la clave
+La versión 1.1 (build 3) está **a la venta** (`READY_FOR_SALE`), gratis, en 175
+territorios. La 1.2 está en preparación.
+
+### Historial: envío de la 1.0 (28 ago 2026)
+
+La versión 1.0 (build 2) se envió a revisión (`WAITING_FOR_REVIEW`,
+confirmado por la App Store Connect API). Todo se hizo por API con la clave
 `.p8` (`tools/asc.py`), sin sesión de navegador:
 
 - Teléfono del contacto de revisión corregido: el placeholder `+57 300 0000000`
@@ -152,6 +150,7 @@ Contexto histórico de la ficha (ya resuelto, se deja como referencia):
 3. Capturas de pantalla en los tamaños que exige Apple, icono de marketing,
    descripción, keywords.
 4. Política de privacidad accesible por URL y el cuestionario de *App Privacy*.
-   La app guarda el progreso solo en el dispositivo (AsyncStorage); lo único que
-   sale del móvil son los mensajes que el usuario escribe al tutor, contra
-   `tutor.apicloud.lat`. Eso hay que declararlo.
+   La app guarda el progreso solo en el dispositivo (AsyncStorage) y no tiene
+   pantalla de tutor (`lib/tutorApi.ts` no lo usa nadie; el tutor solo existe en
+   la web), así que la respuesta es «No se recopilan datos» — ver
+   [`store/README.md`](store/README.md).

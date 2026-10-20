@@ -20,8 +20,9 @@ Creado el 31 de julio de 2026 con la clave de API de App Store Connect
 
 `mobile/eas.json` ya lleva el `ascAppId` y el `appleTeamId` reales.
 
-> El estado de la app es **«En preparación para el envío»**. Es un borrador
-> privado: no está publicada, no es visible para nadie y se puede borrar.
+> Estado actual (19 oct 2026): versión 1.1 (build 3) **`READY_FOR_SALE`** — a
+> la venta, gratis, 175 territorios. Detalle e historial del envío en
+> [`../IOS.md`](../IOS.md).
 
 ## Ficha
 
@@ -31,8 +32,9 @@ respuestas del cuestionario de App Privacy.
 
 ## Capturas
 
-`capturas/ios-6.9/` — 3 capturas a **1320×2868**, uno de los dos tamaños que
-Apple acepta para la clase de 6.9" (el otro es 1290×2796). Tomadas del build
+`capturas/ios-6.9/` — 4 capturas (inicio, idiomas, aprender, flashcards) a
+**1320×2868**, uno de los dos tamaños que Apple acepta para la clase de 6.9"
+(el otro es 1290×2796). Tomadas del build
 Release en el simulador de iPhone 17 Pro Max, así que no llevan banner de
 desarrollo.
 
@@ -73,10 +75,8 @@ una app estirada y es riesgo de rechazo por la guideline 4.0 (Design). En iPad
 sigue funcionando en modo compatibilidad. Como efecto secundario, Apple ya no
 exige capturas de iPad.
 
-> ⚠ **El teléfono de contacto de revisión es un relleno** (`+57 300 0000000`).
-> Es un campo obligatorio y no conozco el real. **Corrígelo** en
-> *Distribución → Información de revisión de la app*: Apple lo usa para
-> contactar si tienen dudas durante la revisión.
+> Resuelto: el teléfono de contacto de revisión era un relleno
+> (`+57 300 0000000`) y ya es el real (ver [`../IOS.md`](../IOS.md)).
 
 ## App Privacy: «No se recopilan datos»
 
@@ -84,10 +84,9 @@ Respondido y guardado en *Distribución → Privacidad de la app*. La respuesta 
 **«No, no recopilamos datos de esta app»**, y es exacta — pero solo después de
 quitar código que la habría hecho falsa. Ver la sección siguiente.
 
-Queda pulsar **«Publicar»** en esa pantalla. No se pulsó todavía a propósito: el
-diálogo de confirmación pide atestiguar que las respuestas son precisas, y en ese
-momento el build subido (build 1) aún contenía la pantalla de login. Publicar la
-declaración antes de subir un build que coincida sería atestiguar algo falso.
+**Publicada.** No se publicó al principio a propósito: el diálogo de
+confirmación pide atestiguar que las respuestas son precisas, y el build 1 aún
+contenía la pantalla de login. Se esperó a un build sin ella (el 2).
 
 ## Por qué la app no recopila datos (y por qué antes sí)
 
@@ -107,16 +106,16 @@ Se retiró la UI de auth y se vació `apiBaseUrl`. Ahora la app es genuinamente
 offline-only: todo el contenido va en el binario y no hace ninguna llamada con
 datos del usuario.
 
-## Lo que falta para poder enviar
+## Lo que faltaba para enviar (resuelto)
 
-1. **Publicar la declaración de privacidad** una vez el build 2 esté procesado
-   (ver arriba).
-2. **Condición de comerciante (DSA).** En *Negocio → Información de comerciante*.
-   Sin ella no se pueden enviar apps nuevas para la Unión Europea. Es una
-   autoclasificación legal con implicaciones de obligaciones frente a
-   consumidores, y requiere datos de contacto y dirección: **la tiene que hacer
-   el titular de la cuenta**, no un script ni un asistente.
-3. **Corregir el teléfono de contacto de revisión**, que es un relleno.
+Las tres cosas quedaron hechas antes del envío de la 1.0 (ver
+[`../IOS.md`](../IOS.md)):
+
+1. ✅ **Declaración de privacidad publicada** (ver arriba).
+2. ✅ **Condición de comerciante (DSA)** declarada por el titular («no soy
+   comerciante»), en *Negocio → Información de comerciante*. Sin ella no se
+   pueden enviar apps nuevas para la Unión Europea.
+3. ✅ **Teléfono de contacto de revisión** corregido.
 
 ## Idioma principal
 

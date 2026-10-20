@@ -5,16 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#ef4444">
 <title>INGLES — Aprende inglés, portugués, francés, italiano y mandarín con IA + plan A1→B2</title>
-<meta name="description" content="Sistema integral de aprendizaje de inglés: 8 escenarios conversacionales con IA, flashcards SRS, lecturas niveladas, listening y plan de 6 meses A1→B2 basado en evidencia.">
+<meta name="description" content="Aprende inglés, portugués, francés, italiano y mandarín desde el español: 8 escenarios conversacionales con IA, flashcards SRS, lecturas niveladas, listening y plan de 6 meses A1→B2 basado en evidencia.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="INGLES — Aprende inglés con IA + evidencia">
+<meta property="og:title" content="INGLES — Aprende inglés, portugués, francés, italiano y mandarín con IA">
 <meta property="og:description" content="8 escenarios conversacionales · Flashcards SRS · Plan 6 meses A1→B2">
 <meta property="og:url" content="https://ingles.nexocloud.co/">
 <meta property="og:site_name" content="INGLES">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%87%AC%F0%9F%87%A7%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://ingles.apicloud.lat">
+<link rel="preconnect" href="https://tutor.apicloud.lat">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500&family=Crimson+Pro:wght@400;700&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -207,6 +207,7 @@ footer a:hover{color:var(--text)}
     <div class="cta">
       <a class="btn btn-primary" href="/app/">Abrir app →</a>
       <a class="btn btn-ghost" href="/webapp/">Versión ligera</a>
+      <a class="btn btn-ghost" href="https://apps.apple.com/app/id6798352342">App Store (iPhone)</a>
       <a class="btn btn-ghost" href="/docs/">Leer encyclopedia</a>
     </div>
     <div class="hero-stats">
@@ -343,9 +344,9 @@ footer a:hover{color:var(--text)}
 
   <div class="try-now">
     <h3>Probar ahora — Backend conversacional live</h3>
-    <p>El tutor corre en <code style="background:rgba(255,255,255,.06);padding:2px 8px;border-radius:4px;font-family:'JetBrains Mono',monospace;font-size:13px">ingles.apicloud.lat</code> con SSE streaming, cascade LLM (OpenClaw → Anthropic → Gemma local) y Redis para sesiones. Click un escenario para abrir la app:</p>
+    <p>El tutor corre en <code style="background:rgba(255,255,255,.06);padding:2px 8px;border-radius:4px;font-family:'JetBrains Mono',monospace;font-size:13px">tutor.apicloud.lat</code> con SSE streaming, Gemma 4 en infraestructura propia y Redis para sesiones. Elige un escenario para abrir el tutor:</p>
     <div class="scenario-pills" id="scenarioPills"></div>
-    <a class="btn btn-primary" href="/app/">Abrir app ahora →</a>
+    <a class="btn btn-primary" href="/webapp/#/tutor">Abrir tutor ahora →</a>
   </div>
 </section>
 
@@ -369,7 +370,7 @@ footer a:hover{color:var(--text)}
     </style>
 
     <h2>5 modos de aprendizaje en una sola app</h2>
-  <p class="lead">No solo conversación. Vocabulario con SRS, lecturas niveladas, comprehension auditiva, gramática contextual. Funciona offline; sincroniza cuando hay red.</p>
+  <p class="lead">No solo conversación. Vocabulario con SRS, lecturas niveladas, comprehension auditiva, gramática contextual. Funciona offline; tu progreso se queda en tu dispositivo.</p>
   <div class="features-grid">
     <div class="feature">
       <div class="feature-icon">💬</div>
@@ -476,7 +477,7 @@ footer a:hover{color:var(--text)}
 
 <footer>
   <div><strong style="color:var(--text)">INGLES</strong> · ingles.nexocloud.co · Sistema integral basado en evidencia</div>
-  <div>Backend en <a href="https://ingles.apicloud.lat/health">ingles.apicloud.lat</a> · <a href="https://nexocloud.co">Nexocloud Ecosystem</a></div>
+  <div>Backend en <a href="https://tutor.apicloud.lat/health">tutor.apicloud.lat</a> · <a href="https://nexocloud.co">Nexocloud Ecosystem</a></div>
 </footer>
 
 </div>
@@ -487,7 +488,7 @@ footer a:hover{color:var(--text)}
   const statusEl = document.getElementById('apiStatus');
   const statusText = document.getElementById('apiStatusText');
   try {
-    const res = await fetch('https://ingles.apicloud.lat/health', { method: 'GET', mode: 'cors' });
+    const res = await fetch('https://tutor.apicloud.lat/health', { method: 'GET', mode: 'cors' });
     const data = await res.json();
     if (data.status === 'ok') {
       statusEl.classList.remove('checking');
@@ -506,12 +507,12 @@ footer a:hover{color:var(--text)}
 (async () => {
   const wrap = document.getElementById('scenarioPills');
   try {
-    const res = await fetch('https://ingles.apicloud.lat/v1/scenarios', { mode: 'cors' });
+    const res = await fetch('https://tutor.apicloud.lat/v1/scenarios', { mode: 'cors' });
     const data = await res.json();
     Object.entries(data).slice(0, 8).forEach(([key, s]) => {
       const pill = document.createElement('a');
       pill.className = 'scenario-pill';
-      pill.href = '/app/#/conversation/' + key;
+      pill.href = '/webapp/#/tutor';
       pill.textContent = s.title || key;
       wrap.appendChild(pill);
     });
@@ -520,7 +521,7 @@ footer a:hover{color:var(--text)}
     ['Ordering at a café','Airport check-in','Doctor visit','Job interview','Hotel check-in','Shopping','Restaurant','Phone support'].forEach(t => {
       const pill = document.createElement('a');
       pill.className = 'scenario-pill';
-      pill.href = '/app/';
+      pill.href = '/webapp/#/tutor';
       pill.textContent = t;
       wrap.appendChild(pill);
     });

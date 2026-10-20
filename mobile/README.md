@@ -4,8 +4,8 @@ App nativa iOS/Android + web desde un único codebase TypeScript con [Expo Route
 
 Implementa los principios del [tratado](../docs/index.html): input comprensible (Krashen), output forzado (Swain), recasts (Long), noticing (Schmidt), scaffolding en ZPD (Vygotsky/Lantolf).
 
-**Web pública:** https://spinedab.github.io/INGLES/
-**Android (AAB):** se empaqueta vía Capacitor en [`../native/`](../native/) — paquete `com.spinedab.ingles`, targetSdk 35.
+**Web pública (export Expo):** https://ingles.nexocloud.co/app/
+**Android (AAB):** se compila desde este mismo directorio con Expo + Gradle (`expo prebuild` + `./gradlew bundleRelease`) — paquete `com.spinedab.ingles`, targetSdk 36. Ver [`ANDROID.md`](ANDROID.md). El wrap Capacitor de [`../native/`](../native/) está superseded.
 
 ## Arquitectura
 
@@ -27,8 +27,8 @@ mobile/
 │   ├── grammar/               # Gramática focalizada ([id])
 │   ├── search.tsx             # Búsqueda global (modal)
 │   └── settings.tsx
-├── components/                # UI compartida (13 componentes, Reanimated)
-├── lib/                       # Lógica de negocio (12 módulos, sin UI)
+├── components/                # UI compartida (15 componentes, Reanimated)
+├── lib/                       # Lógica de negocio (14 módulos, sin UI)
 │   ├── theme.ts               # Design System v2: indigo/terracotta, dark mode
 │   ├── srs.ts                 # SuperMemo-2
 │   ├── insights.ts            # Activity log, racha, misión diaria
@@ -36,7 +36,8 @@ mobile/
 │   ├── writingCoach.ts        # Analizador de errores hispanohablantes
 │   ├── shadowing.ts           # TTS + comparación de speech
 │   ├── search.ts              # Índice global
-│   └── storage / api / content / types / levelContext
+│   ├── tutorApi.ts            # Cliente del tutor IA (ninguna pantalla lo usa aún)
+│   └── storage / api / content / contentRegistry / types / levelContext
 ├── assets/content/            # JSON local: vocab, lecturas, listening
 └── BACKEND_API.md             # Contrato REST para backend propio (ver ../api/)
 ```
@@ -62,14 +63,12 @@ npm run build:web    # → mobile/dist/
 ```
 Sube `dist/` a tu hosting, o sincroniza a GitHub Pages.
 
-### Android (AAB firmado, vía Capacitor)
-El wrap nativo vive en `../native/` (Capacitor 6, clave SpineDab):
+### Android (AAB firmado)
+Pipeline completo (entorno, keystore, versionCode, subida a Play con `tools/play.py`) en [`ANDROID.md`](ANDROID.md). Resumen:
 ```bash
-cd mobile && npm run build:web
-rsync -a --delete dist/ ../native/www/
-cd ../native && npx cap sync android
-cd android && ./gradlew bundleRelease
-# salida: native/android/app/build/outputs/bundle/release/app-release.aab
+cd mobile && npx expo prebuild --platform android --clean
+cd android && ./gradlew bundleRelease   # con el keystore exportado (ver ANDROID.md → Firma)
+# salida: mobile/android/app/build/outputs/bundle/release/app-release.aab
 ```
 
 ### iOS (EAS Build)

@@ -29,7 +29,7 @@ Este proyecto materializa, en cuatro artefactos concretos, los principios y la e
 
 ### 3.1 Cero backend
 La webapp es 100% estática (HTML/CSS/JS). El estado del aprendiz se persiste en `localStorage`. Razones:
-- Privacidad: ningún dato sale del navegador.
+- Privacidad: el progreso no sale del navegador; solo los mensajes al Tutor IA (`#/tutor`) se envían a https://tutor.apicloud.lat (ver [`privacidad.html`](privacidad.html)).
 - Portabilidad: corre offline tras la primera carga.
 - Sostenibilidad: sin coste de servidor.
 
@@ -81,4 +81,4 @@ Documentos puros. Razón: la disciplina la pone el aprendiz, no la herramienta. 
 
 ## 8. Mantenimiento
 
-El proyecto está pensado como **sistema cerrado y suficiente**: una vez creado, no requiere mantenimiento. Las dependencias externas mínimas (Anthropic API en el tutor) son aisladas. Los contenidos del webapp pueden ampliarse editando JSON en `webapp/content/`.
+El proyecto está pensado como **sistema cerrado y suficiente**: una vez creado, no requiere mantenimiento. Las dependencias externas mínimas (Anthropic API en el tutor) son aisladas. Los contenidos se amplían editando la fuente en `content/<lang>/` y regenerando con `python3 tools/build_content.py` (lo de `webapp/content/` es generado; CI lo comprueba con `--check`).

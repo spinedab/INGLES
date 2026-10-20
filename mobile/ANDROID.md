@@ -7,9 +7,9 @@ superseded — ver [`native/README.md`](../native/README.md).
 | Dato | Valor |
 |------|-------|
 | applicationId | `com.spinedab.ingles` (el mismo que el bundle id de iOS) |
-| versionCode / versionName | `3` / `1.0.0` (`app.json`) — el `2` ya está subido a Play |
+| versionCode / versionName | `4` / `1.1.0` (`app.json`) — del `1` al `4` ya están subidos a Play; la próxima subida necesita `5` |
 | targetSdk | 36 — Play lo exige desde 2026; se fija con `expo-build-properties`, no a mano |
-| Nombre visible | Tutor Inglés IA |
+| Nombre visible | `TutorInglesIA`: sale de `expo.name` en `app.json` hasta que entre el config plugin que pone «Tutor Inglés IA» |
 
 ## Requisitos del entorno
 
@@ -23,7 +23,9 @@ export PATH="$JAVA_HOME/bin:$ANDROID_HOME/platform-tools:$PATH"
 ```
 
 - **JDK 17.** Hay también `openjdk` y `openjdk@21` en Homebrew; RN 0.76 va con 17.
-- **SDK de Android** en `~/Library/Android/sdk` con platform 35 y build-tools 35.
+- **SDK de Android** en `~/Library/Android/sdk` con platform 36 (compileSdk 36,
+  vía `expo-build-properties`) y build-tools 35.0.0 (el que usa el `build.gradle`
+  generado).
 - Android Studio **no** está instalado y no hace falta: todo va por Gradle.
 - **Ya está todo configurado de forma persistente** en `~/.zshrc`: `JAVA_HOME`,
   `ANDROID_HOME`, el PATH con `adb`/`emulator`/`cmdline-tools` y la carga
@@ -112,7 +114,9 @@ Estado real en Play Console (verificado el 12 ago 2026):
 | App bundles subidos | versionCode **1** (9 jun 2026) y **2** (30 jul 2026) |
 | Play App Signing | Activo |
 
-Por eso `app.json` va con `versionCode: 3`: el 2 ya está ocupado.
+Por eso `app.json` pasó a `versionCode: 3`: el 2 ya estaba ocupado. Después se
+subieron el 3 y el 4 (la 1.1.0 de «alpha»), así que el siguiente AAB necesita
+`versionCode: 5`.
 
 ### ~~Bloqueo 1~~ — resuelto: la clave de carga se restableció
 
@@ -144,7 +148,7 @@ prueba cerrada Alpha el 28 ago 2026.
 
 ### Bloqueo 2 — producción exige 12 verificadores que ACEPTEN y 14 días
 
-Estado verificado el 28 sep 2026 en el panel de Play Console:
+Estado verificado el 19 oct 2026 en el panel de Play Console:
 
 - ✅ Versión de prueba cerrada publicada: 1.1.0 (versionCode 4) en «alpha», 177 países.
 - ✅ Lista asignada: «DreamLabsTech Testers - 17 Verificadores», **64 correos invitados**.
@@ -173,8 +177,8 @@ Enlace de acceso (el que hay que mandarles):
   de teléfono de 320–3840 px, y la ficha ya tiene las suyas publicadas.
 - Política de privacidad: https://ingles.nexocloud.co/privacidad.html
 
-Cuando la clave esté resuelta, la subida se puede automatizar con la Google Play
-Developer API y una cuenta de servicio, igual que se hizo con la `.p8` de Apple.
+La subida ya está automatizada por la Google Play Developer API: ver «Subida por
+API (sin navegador)» arriba (`tools/play.py`).
 
 ## Iconos: por qué son SVG y no @expo/vector-icons
 

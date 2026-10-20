@@ -149,34 +149,11 @@ Diferencia con `!reset` (usado en EMOJI para redis, donde el valor deseado
 *era* vacío): `!reset` = "vacía esto sin importar lo que pongas al lado";
 `!override` = "reemplaza con exactamente este valor".
 
-## Pendiente manual: arranque automático (LaunchAgent)
+## Arranque automático (LaunchAgent)
 
-El LaunchAgent (`deploy/com.apps.ingles-api.plist`) está instalado y
-registrado (`launchctl list | grep ingles`), pero **falla al ejecutarse** con:
-
-```
-shell-init: error retrieving current directory: getcwd: cannot access parent directories: Operation not permitted
-bash: /Users/macstudio/Documents/INGLES/api/deploy/start.sh: Operation not permitted
-```
-
-Es una restricción TCC de macOS ("Archivos y Carpetas" / acceso a Documentos):
-otros LaunchAgents del ecosistema (EMOJI, AI Studio) ya tenían ese permiso
-concedido de una sesión interactiva anterior; este es nuevo y macOS no deja
-que un proceso lanzado por `launchd` sin sesión interactiva acceda a
-`~/Documents/INGLES` hasta que alguien lo apruebe una vez desde la UI.
-
-**El servicio en sí funciona perfectamente** — está corriendo ahora mismo vía
-`docker compose up -d` manual y verificado en producción (ver más abajo). Solo
-falta el arranque automático tras reiniciar la Mac. Para resolverlo (acción
-manual, no delegable):
-
-1. Ajustes del Sistema → Privacidad y Seguridad → Archivos y Carpetas
-   (o Acceso Total al Disco) → conceder acceso a `/bin/bash` (o Terminal, según
-   cuál aparezca en el prompt) para la carpeta Documentos.
-2. `launchctl kickstart -k gui/$(id -u)/com.apps.ingles-api`
-3. Verificar: `launchctl list | grep ingles` (debería mostrar PID en vez de `-`).
-
-Mientras tanto, si la Mac se reinicia, arrancar el stack manualmente:
+Resuelto: ver «Arranque automático tras un reinicio (corregido el 2026-08-28)»
+al final de este documento. Para levantar el stack a mano (por ejemplo, tras un
+cambio de código):
 
 ```bash
 cd ~/Documents/INGLES/api && ./deploy/start.sh
@@ -222,23 +199,22 @@ modo `conversation`).
 
 | | Desarrollo (`docker-compose.yml`) | Producción (+ `deploy/docker-compose.prod.yml`) |
 |---|---|---|
-| Proveedor LLM | El que pongas en `.env` local | **`gemma`** (forzado en el override) |
+| Proveedor LLM | `gemma` (fijado en `environment:` de `docker-compose.yml`) | **`gemma`** (forzado en el override) |
 | Redis | Publicado en `16379` para inspección | Sin puerto publicado |
 | API escucha en | `0.0.0.0:8000` | **solo** `127.0.0.1:8817` |
 | `INGLES_TRUST_PROXY` | `false` | `true` (el túnel de Cloudflare hace de proxy confiable) |
 | Restart policy | Ninguna | `unless-stopped` |
+| Logs de Docker | Sin tope | `json-file` con tope de 10 MB × 3 ficheros |
 
 ## Cómo conectar las apps existentes
 
-- **`mobile/`** (Expo/RN): configurar `Ajustes → Backend` → `https://tutor.apicloud.lat`.
-  El contrato general está en [`mobile/BACKEND_API.md`](../../mobile/BACKEND_API.md);
-  los endpoints reales que expone **este** servicio (sesiones de tutor, no
-  auth/sync de progreso) están documentados en los docstrings de
-  [`app/main.py`](../app/main.py).
-- **`webapp/`** (vanilla): no tiene integración con el tutor todavía — es
-  100% cliente con `localStorage` (ver `PROYECTO.md` §3.1). Si se quiere
-  añadir un modo "practicar con el tutor" ahí, este endpoint es el que hay
-  que llamar.
+- **`mobile/`** (Expo/RN): el cliente es `lib/tutorApi.ts`, con la base URL de
+  `expo.extra.tutorBaseUrl` en `app.json` (ya `https://tutor.apicloud.lat`).
+  Ninguna pantalla lo usa todavía. **No** usar `Ajustes → Backend`: ese campo
+  guarda `settings:apiBaseUrl`, el backend de sincronización de
+  [`mobile/BACKEND_API.md`](../../mobile/BACKEND_API.md), que es otro servicio.
+- **`webapp/`** (vanilla): integrado en la vista `#/tutor`
+  (`js/tutor-client.js` + `js/tutor.js`). Ver [USO-CLIENTES.md](USO-CLIENTES.md).
 - **`tutor-ia/`** (CLI): sigue siendo independiente, llama a Anthropic
   directamente. No comparte infraestructura con este despliegue — es la
   versión "de escritorio, con tu propia API key" del mismo tutor.
@@ -252,8 +228,9 @@ modo `conversation`).
 - [ ] Decidir qué hacer con el otro despliegue en `ingles.apicloud.lat`
       (proveedor `openclaw`) — ¿retirarlo, fusionarlo, o dejarlo como está?
       No se investigó su origen para no interferir con él sin instrucción.
-- [ ] Conectar `webapp/` o `mobile/` de verdad a este endpoint (hoy el
-      despliegue existe y funciona, pero ninguna app apunta a él todavía).
+- [x] Conectar `webapp/` (vista `#/tutor`).
+- [ ] Conectar `mobile/`: el cliente `lib/tutorApi.ts` existe, pero ninguna
+      pantalla lo usa.
 
 ---
 
