@@ -2,7 +2,7 @@
   "expo": {
     "name": "TutorInglesIA",
     "slug": "ingles",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "orientation": "portrait",
     "scheme": "ingles",
     "userInterfaceStyle": "automatic",
@@ -15,7 +15,7 @@
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.spinedab.ingles",
-      "buildNumber": "3",
+      "buildNumber": "4",
       "icon": "./assets/icon.png",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
@@ -28,7 +28,7 @@
     },
     "android": {
       "package": "com.spinedab.ingles",
-      "versionCode": 4,
+      "versionCode": 5,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#2d6cdf"
@@ -78,7 +78,8 @@
           }
         }
       ],
-      "./plugins/withAndroidUploadSigning"
+      "./plugins/withAndroidUploadSigning",
+      "./plugins/withAndroidAppLabel"
     ],
     "experiments": {
       "typedRoutes": true,

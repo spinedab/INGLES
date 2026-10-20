@@ -42,7 +42,7 @@ function StackNavigator() {
       <Stack.Screen name="reading" options={{ headerShown: false }} />
       <Stack.Screen name="listening" options={{ headerShown: false }} />
       <Stack.Screen name="grammar" options={{ headerShown: false }} />
-      <Stack.Screen name="search" options={{ title: 'Busqueda', presentation: 'modal' }} />
+      <Stack.Screen name="search" options={{ title: 'Búsqueda', presentation: 'modal' }} />
       <Stack.Screen name="settings" options={{ title: 'Ajustes' }} />
       <Stack.Screen name="onboarding" options={{ headerShown: false, presentation: 'fullScreenModal' }} />
     </Stack>

@@ -1,8 +1,8 @@
 // ═══ Learn hub ═══
 // Hub central que enlaza a los 4 módulos de skills + search.
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import { View, StyleSheet } from 'react-native';
-import { Link, Stack } from 'expo-router';
+import { Link, Stack, useFocusEffect } from 'expo-router';
 import { Icon, type IconName } from '@/components/Icon';
 import { Screen } from '@/components/Screen';
 import { Text } from '@/components/Text';
@@ -52,16 +52,24 @@ function SkillCard({ href, icon, color, title, subtitle, badge }: SkillCardProps
 }
 
 export default function LearnHub() {
-  const { level } = useLevel();
+  const { level, lang } = useLevel();
   const [stats, setStats] = useState<DeckStats | null>(null);
 
-  useEffect(() => {
-    (async () => {
-      const cards = await loadVocab(level);
-      const s = await statsForDeck(deckName(level), cards);
-      setStats(s);
-    })();
-  }, [level]);
+  // Al foco y al cambiar de idioma: el selector está en esta misma pantalla y
+  // las cifras se quedaban con el deck anterior, igual que al volver de repasar.
+  useFocusEffect(
+    useCallback(() => {
+      let cancelled = false;
+      (async () => {
+        const cards = await loadVocab(level);
+        const s = await statsForDeck(deckName(level), cards);
+        if (!cancelled) setStats(s);
+      })();
+      return () => {
+        cancelled = true;
+      };
+    }, [level, lang]),
+  );
 
   const readingCount = (readingIndex(level)).length;
   const listeningCount = (listeningIndex(level)).length;
@@ -87,7 +95,7 @@ export default function LearnHub() {
           </View>
         )}
 
-        <SectionHeader title="Destrezas" subtitle="Elige tu modulo y practica" />
+        <SectionHeader title="Destrezas" subtitle="Elige tu módulo y practica" />
 
         <SkillCard
           href="/flashcards"
@@ -117,8 +125,8 @@ export default function LearnHub() {
           href="/grammar"
           icon="construct"
           color={skillColors.grammar}
-          title="Gramatica focalizada"
-          subtitle={`${grammarCount} topicos para hispanohablantes`}
+          title="Gramática focalizada"
+          subtitle={`${grammarCount} tópicos para hispanohablantes`}
           badge={grammarCount}
         />
 
@@ -128,8 +136,8 @@ export default function LearnHub() {
             <View style={styles.skillRow}>
               <Icon name="search" size={22} color={skillColors.coach} />
               <View style={{ flex: 1, marginLeft: spacing.sm }}>
-                <Text variant="bodyBold" accent>Busqueda global</Text>
-                <Text variant="small" muted>Vocab, lecturas, listening, gramatica</Text>
+                <Text variant="bodyBold" accent>Búsqueda global</Text>
+                <Text variant="small" muted>Vocab, lecturas, listening, gramática</Text>
               </View>
             </View>
           </Card>

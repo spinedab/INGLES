@@ -17,8 +17,14 @@ function normalize(value: string): string {
     .replace(/[̀-ͯ]/g, '');
 }
 
+// Determinista también para escrituras sin letras latinas: con el antiguo
+// fallback a Date.now(), «你» recibía un id nuevo en cada guardado (entradas
+// duplicadas e isSaved siempre en falso). Los ids latinos no cambian.
 function entryId(term: string): string {
-  return normalize(term).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || String(Date.now());
+  return (
+    normalize(term).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') ||
+    'u-' + Array.from(term.trim()).map((c) => (c.codePointAt(0) ?? 0).toString(16)).join('-')
+  );
 }
 
 export async function lexiconEntries(): Promise<LexiconEntry[]> {
@@ -112,9 +118,14 @@ export async function filterEntries(opts: {
  */
 export function buildCloze(entry: LexiconEntry): { prompt: string; answer: string } {
   if (entry.example) {
-    const re = new RegExp(`\\b${entry.term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
-    const prompt = entry.example.replace(re, '_____');
+    // \b es ASCII: no casa entre hanzi ni ante «é» o «à», y la respuesta se
+    // quedaba a la vista en la frase.
+    const esc = entry.term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const re = /[\u3400-\u9FFF]/.test(entry.term)
+      ? new RegExp(`()${esc}`)
+      : new RegExp(`(^|[^A-Za-z\u00C0-\u024F])${esc}(?![A-Za-z\u00C0-\u024F])`, 'i');
+    const prompt = entry.example.replace(re, '$1_____');
     return { prompt, answer: entry.term };
   }
-  return { prompt: `How would you use "${entry.term}" in a sentence?`, answer: entry.term };
+  return { prompt: `¿Cómo usarías «${entry.term}» en una frase?`, answer: entry.term };
 }

@@ -14,6 +14,33 @@ import type { ReadingText } from '@/lib/types';
 
 type Segment = { text: string; tip?: string; collocation?: boolean };
 
+const LETTER = 'A-Za-z\u00C0-\u024F';
+const CJK = /[\u3400-\u9FFF]/;
+const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+// «离…很近» marca un hueco: en el texto aparece como «离公司很近».
+function gapPattern(word: string): string {
+  const gap = CJK.test(word) ? '[^。！？]{0,12}?' : '[^.!?]{0,40}?';
+  return word.split('…').map((p) => escapeRe(p.trim())).join(gap);
+}
+
+// La glosa trae a veces la pronunciación entre paréntesis («起床 (qǐchuáng)»),
+// que no está en el texto. Y \b es ASCII: no casa ante «à» o «é», ni entre
+// hanzi, que no llevan espacios. Por eso el límite de palabra se hace a mano y
+// solo en escrituras con espacios.
+function glossPattern(word: string): RegExp {
+  const base = word.replace(/\s*\([^)]*\)\s*$/, '');
+  const body = gapPattern(base);
+  return CJK.test(base)
+    ? new RegExp(`()(${body})`)
+    : new RegExp(`(^|[^${LETTER}])(${body})(?![${LETTER}])`);
+}
+
+function glossTip(g: { word: string; tip: string }): string {
+  const pron = g.word.match(/\(([^)]*)\)\s*$/);
+  return pron ? `${pron[1]} · ${g.tip}` : g.tip;
+}
+
 function stripTags(html: string): string {
   return html
     .replace(/<\/?p[^>]*>/gi, '\n\n')
@@ -28,19 +55,17 @@ function segmentText(plain: string, glosses: { word: string; tip: string }[], co
   // del diccionario: el regex es case-insensitive, así que reinyectar `g.word`
   // convertía "On closer inspection" (inicio de frase) en "on closer
   // inspection" y corrompía el texto que lee el aprendiz.
-  const markers: { token: string; replacement: (m: string) => string }[] = [];
+  const markers: { token: string; replacement: (m: string, pre: string, w: string) => string }[] = [];
   glosses.forEach((g, i) => {
-    const esc = g.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     markers.push({
-      token: `\\b(${esc})\\b`,
-      replacement: (m) => `[[G${i}]]${m}[[/G${i}]]`,
+      token: glossPattern(g.word).source,
+      replacement: (_m, pre, w) => `${pre}[[G${i}]]${w}[[/G${i}]]`,
     });
   });
   collocations.forEach((c, i) => {
-    const esc = c.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     markers.push({
-      token: `(${esc})`,
-      replacement: (m) => `[[C${i}]]${m}[[/C${i}]]`,
+      token: `()(${gapPattern(c)})`,
+      replacement: (_m, pre, w) => `${pre}[[C${i}]]${w}[[/C${i}]]`,
     });
   });
 
@@ -60,14 +85,18 @@ function segmentText(plain: string, glosses: { word: string; tip: string }[], co
     const [, kind, idxStr, word] = match;
     if (kind === 'G') {
       const idx = parseInt(idxStr, 10);
-      segments.push({ text: word, tip: glosses[idx].tip });
+      segments.push({ text: word, tip: glossTip(glosses[idx]) });
     } else {
       segments.push({ text: word, collocation: true });
     }
     lastIdx = match.index + match[0].length;
   }
   if (lastIdx < text.length) segments.push({ text: text.slice(lastIdx) });
-  return segments;
+  // Una glosa y una colocación pueden solaparse («离…很近» es las dos cosas):
+  // el marcador interior quedaría como texto literal, así que se limpia.
+  return segments
+    .map((seg) => ({ ...seg, text: seg.text.replace(/\[\[\/?[GC]\d+\]\]/g, '') }))
+    .filter((seg) => seg.text);
 }
 
 export default function ReadingDetail() {

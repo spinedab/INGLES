@@ -15,7 +15,7 @@ import type { SearchItem } from '@/lib/types';
 type TypeFilter = 'all' | SearchItem['type'];
 
 export default function SearchScreen() {
-  const { level } = useLevel();
+  const { level, lang } = useLevel();
   const theme = useTheme();
   const [query, setQuery] = useState('');
   const [type, setType] = useState<TypeFilter>('all');
@@ -31,7 +31,7 @@ export default function SearchScreen() {
       setIndex(idx);
       setLoading(false);
     })();
-  }, []);
+  }, [lang]);
 
   useEffect(() => {
     if (!index.length) return;

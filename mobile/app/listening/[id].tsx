@@ -14,6 +14,18 @@ import { logActivity } from '@/lib/insights';
 import { radius, spacing, useTheme } from '@/lib/theme';
 import type { ListeningItem } from '@/lib/types';
 
+// Lo que se manda a la voz: sin etiquetas de hablante («Server:», «服务员：»)
+// y, en mandarín, sin el pinyin entre paréntesis, que la voz china leería como
+// una segunda frase. El guion en pantalla no cambia.
+function speechText(script: string): string {
+  return script
+    .split('\n')
+    .map((l) => l.replace(/^\s*(?:[A-Z][A-Za-z ]{0,18}|[\u3400-\u9FFF]{1,6})\s?[:：]\s*/, ''))
+    .map((l) => (/[\u3400-\u9FFF]/.test(l) ? l.replace(/\s*[(（][^)）]*[)）]/g, '') : l))
+    .filter((l) => l.trim())
+    .join('. ');
+}
+
 export default function ListeningDetail() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const theme = useTheme();
@@ -78,10 +90,7 @@ export default function ListeningDetail() {
       setSpeaking(false);
       return;
     }
-    const text = data.script
-      .split('\n')
-      .map((l) => l.replace(/^\s*[A-Z][A-Za-z ]{0,18}:\s*/, ''))
-      .join('. ');
+    const text = speechText(data.script);
     setSpeaking(true);
     Speech.speak(text, {
       language: ttsLocale(),

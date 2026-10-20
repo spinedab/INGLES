@@ -43,7 +43,7 @@ export default function HomeScreen() {
   );
 
   const hour = new Date().getHours();
-  const greeting = hour < 12 ? 'Buenos dias' : hour < 18 ? 'Buenas tardes' : 'Buenas noches';
+  const greeting = hour < 12 ? 'Buenos días' : hour < 18 ? 'Buenas tardes' : 'Buenas noches';
 
   return (
     <Screen>
@@ -75,11 +75,11 @@ export default function HomeScreen() {
       )}
 
       {/* Mission */}
-      <SectionHeader title="Mision de hoy" subtitle={`3 pasos para avanzar en ${level.toUpperCase()}`} />
+      <SectionHeader title="Misión de hoy" subtitle={`3 pasos para avanzar en ${level.toUpperCase()}`} />
       <MissionList mission={mission} />
 
       {/* Quick access cards */}
-      <SectionHeader title="Modulos" />
+      <SectionHeader title="Módulos" />
 
       <Link href="/flashcards" asChild>
         <Card variant="elevated" onPress={() => {}}>
@@ -123,8 +123,8 @@ export default function HomeScreen() {
           <View style={styles.moduleRow}>
             <View style={[styles.dot, { backgroundColor: skillColors.grammar }]} />
             <View style={{ flex: 1 }}>
-              <Text variant="bodyBold">Gramatica</Text>
-              <Text variant="small" muted>Puntos criticos para hispanohablantes</Text>
+              <Text variant="bodyBold">Gramática</Text>
+              <Text variant="small" muted>Puntos críticos para hispanohablantes</Text>
             </View>
           </View>
         </Card>

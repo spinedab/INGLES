@@ -1,8 +1,8 @@
 // ═══ Profile / Settings tab ═══
 // Combina ajustes + resumen del perfil + level picker + analytics overview.
-import React, { useEffect, useState } from 'react';
-import { View, StyleSheet, Alert, Platform, TextInput } from 'react-native';
-import { Stack } from 'expo-router';
+import React, { useCallback, useState } from 'react';
+import { View, StyleSheet, Alert, Platform, TextInput, Share } from 'react-native';
+import { Stack, useFocusEffect } from 'expo-router';
 import { Icon } from '@/components/Icon';
 import { Screen } from '@/components/Screen';
 import { Text } from '@/components/Text';
@@ -31,15 +31,19 @@ export default function ProfileScreen() {
   const [apiUrl, setApiUrl] = useState('');
   const [goalDraft, setGoalDraft] = useState('30');
 
-  useEffect(() => {
-    (async () => {
-      const sum = await summarizeActivity();
-      setSummary(sum);
-      setApiUrl(apiClient.getBaseUrl());
-      const g = await getDailyGoal();
-      setGoalDraft(String(g));
-    })();
-  }, []);
+  // Las pestañas no se desmontan: con useEffect(…, []) «Tu semana» se quedaba
+  // con la actividad del primer montaje.
+  useFocusEffect(
+    useCallback(() => {
+      (async () => {
+        const sum = await summarizeActivity();
+        setSummary(sum);
+        setApiUrl(apiClient.getBaseUrl());
+        const g = await getDailyGoal();
+        setGoalDraft(String(g));
+      })();
+    }, []),
+  );
 
   const alertCross = (msg: string) => {
     if (Platform.OS === 'web') window.alert(msg);
@@ -66,7 +70,8 @@ export default function ProfileScreen() {
       a.click();
       alertCross('Exportado.');
     } else {
-      alertCross('JSON copiado (implementa Share sheet para tu plataforma).\n' + json.slice(0, 200) + '...');
+      // Hoja de compartir del sistema: guardar en Archivos, mandarlo por correo…
+      await Share.share({ message: json, title: 'ingles-data.json' });
     }
   };
 

@@ -1,6 +1,7 @@
 // Tracking de actividad, racha, meta diaria, misión del día.
 // Port directo de webapp/js/insights.js a TypeScript con la misma semántica.
 import { get, set } from './storage';
+import { activeLanguage } from './content';
 import type {
   ActivityEvent,
   ActivitySummary,
@@ -193,12 +194,23 @@ export function buildDailyMission({ level, srsStats, summary }: MissionInput): D
     skill: weakSkill === 'listening' ? 'listening' : 'reading',
   });
 
-  mission.push({
-    label: 'Output guiado',
-    detail: '80-120 palabras usando vocabulario del deck actual',
-    href: '/coach',
-    skill: 'writing',
-  });
+  // El coach de escritura solo existe en inglés: en otros idiomas el tercer
+  // paso es gramática, que sí tiene contenido propio.
+  mission.push(
+    activeLanguage() === 'en'
+      ? {
+          label: 'Output guiado',
+          detail: '80-120 palabras usando vocabulario del deck actual',
+          href: '/coach',
+          skill: 'writing',
+        }
+      : {
+          label: 'Gramática',
+          detail: 'Un tema con ejercicios de los errores típicos de hispanohablantes',
+          href: '/grammar',
+          skill: 'grammar',
+        },
+  );
 
   return mission;
 }

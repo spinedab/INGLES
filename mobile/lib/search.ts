@@ -1,11 +1,13 @@
 // Búsqueda global: vocabulario, lecturas, listening, gramática.
 // Port de webapp/js/search.js (lógica pura, sin UI).
 import type { CefrLevel, SearchItem } from './types';
-import { loadVocab, loadReading, loadListening, deckName, readingIndex, listeningIndex, grammarTopics } from './content';
+import { loadVocab, loadReading, loadListening, deckName, readingIndex, listeningIndex, grammarTopics, activeLanguage } from './content';
 
 const LEVELS: CefrLevel[] = ['a1', 'a2', 'b1', 'b2'];
 
-let indexCache: SearchItem[] | null = null;
+// La caché es por idioma: sin la clave, al cambiar de idioma seguía sirviendo
+// el índice anterior, con enlaces a lecturas que el idioma nuevo no tiene.
+let indexCache: { lang: string; items: SearchItem[] } | null = null;
 
 function normalize(value: string): string {
   return String(value || '')
@@ -46,7 +48,8 @@ export function labelForType(type: SearchItem['type']): string {
 }
 
 export async function buildSearchIndex(): Promise<SearchItem[]> {
-  if (indexCache) return indexCache;
+  const lang = activeLanguage();
+  if (indexCache && indexCache.lang === lang) return indexCache.items;
   const items: SearchItem[] = [];
 
   for (const level of LEVELS) {
@@ -150,11 +153,12 @@ export async function buildSearchIndex(): Promise<SearchItem[]> {
     });
   }
 
-  indexCache = items.map((item) => ({
+  const built = items.map((item) => ({
     ...item,
     haystack: normalize(`${item.title} ${item.subtitle} ${item.body}`),
   }));
-  return indexCache;
+  indexCache = { lang, items: built };
+  return built;
 }
 
 function scoreItem(item: SearchItem, tokens: string[], level: CefrLevel): number {

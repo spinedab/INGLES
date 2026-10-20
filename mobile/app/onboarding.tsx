@@ -110,8 +110,8 @@ export default function OnboardingScreen() {
             INGLES
           </Text>
           <Text variant="body" muted style={[styles.textCenter, { marginTop: spacing.sm, maxWidth: 300 }]}>
-            Aprende ingles basado en evidencia cientifica.
-            Sin gamificacion toxica. Con pedagogia real.
+            Aprende idiomas con base científica.
+            Sin gamificación tóxica. Con pedagogía real.
           </Text>
           <View style={{ marginTop: spacing.xxxl, width: '100%', maxWidth: 320 }}>
             <Button title="Empezar" size="lg" fullWidth onPress={() => setStep('goal')} />
@@ -127,11 +127,11 @@ export default function OnboardingScreen() {
         <Animated.View entering={SlideInRight.duration(300)} exiting={SlideOutLeft.duration(200)} style={styles.center}>
           <Icon name="time" size={48} color={theme.accent} />
           <Text variant="h1" style={[styles.textCenter, { marginTop: spacing.xl }]}>
-            Cuanto tiempo al dia?
+            ¿Cuánto tiempo al día?
           </Text>
           <Text variant="body" muted style={[styles.textCenter, { marginTop: spacing.sm, maxWidth: 300 }]}>
             30 min diarios consistentes superan 3 horas el domingo.
-            El cerebro consolida durante el sueno.
+            El cerebro consolida durante el sueño.
           </Text>
 
           <View style={styles.goalGrid}>
@@ -157,7 +157,7 @@ export default function OnboardingScreen() {
                   variant="caption"
                   style={{ color: goalChoice === mins ? '#ffffffcc' : theme.muted }}
                 >
-                  min/dia
+                  min/día
                 </Text>
               </Pressable>
             ))}
@@ -242,10 +242,10 @@ export default function OnboardingScreen() {
           </Text>
           <Text variant="body" muted style={[styles.textCenter, { marginTop: spacing.sm, maxWidth: 320 }]}>
             {correct}/{QUESTIONS.length} respuestas correctas.
-            {resultLevel === 'a1' && ' Empezaras desde los fundamentos. Sin prisa.'}
-            {resultLevel === 'a2' && ' Tienes bases solidas. Hora de expandir.'}
-            {resultLevel === 'b1' && ' Buen nivel intermedio. A pulir produccion.'}
-            {resultLevel === 'b2' && ' Nivel avanzado. Foco en fluidez y precision.'}
+            {resultLevel === 'a1' && ' Empezarás desde los fundamentos. Sin prisa.'}
+            {resultLevel === 'a2' && ' Tienes bases sólidas. Hora de expandir.'}
+            {resultLevel === 'b1' && ' Buen nivel intermedio. A pulir producción.'}
+            {resultLevel === 'b2' && ' Nivel avanzado. Foco en fluidez y precisión.'}
           </Text>
           <View style={{ width: '100%', maxWidth: 320, marginTop: spacing.xxxl }}>
             <Button title="Empezar a aprender" size="lg" fullWidth onPress={finish} />
