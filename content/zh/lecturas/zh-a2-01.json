@@ -1,14 +1,14 @@
 {
   "title": "一次不顺利的旅行 (Yí cì bú shùnlì de lǚxíng)",
   "summary": "Relato en pasado — la partícula 了, la negación 没 y el orden temporal.",
-  "text": "<p>去年我和两个朋友决定去西安。我们提前三个月买了火车票，因为便宜一些。我们都很高兴。</p><p>出发那天，我们早上五点到了火车站。人很多，队很长。到了窗口，工作人员说火车晚了四个小时。我们很生气，但是还是等了。</p><p>到西安的时候已经是晚上了。我们的旅馆在钟楼附近。街上有很多小吃店，有羊肉泡馍、凉皮和肉夹馍。到处都是人和声音。</p><p>最后，晚点没有那么重要。我们在西安待了五天，看了兵马俑，每天都吃小吃，还学了几句陕西话。那是我一生中最好的旅行。</p>",
+  "text": "<p>去年我和两个朋友决定去西安。(Qùnián wǒ hé liǎng ge péngyou juédìng qù Xī'ān.) 我们提前三个月买了火车票，(Wǒmen tíqián sān ge yuè mǎi le huǒchēpiào,) 因为便宜一些。(yīnwèi piányi yìxiē.) 我们都很高兴。(Wǒmen dōu hěn gāoxìng.)</p><p>出发那天，(Chūfā nà tiān,) 我们早上五点到了火车站。(wǒmen zǎoshang wǔ diǎn dào le huǒchēzhàn.) 人很多，(Rén hěn duō,) 队很长。(duì hěn cháng.) 到了窗口，(Dào le chuāngkǒu,) 工作人员说火车晚了四个小时。(gōngzuò rényuán shuō huǒchē wǎn le sì ge xiǎoshí.) 我们很生气，(Wǒmen hěn shēngqì,) 但是还是等了。(dànshì háishi děng le.)</p><p>到西安的时候已经是晚上了。(Dào Xī'ān de shíhou yǐjīng shì wǎnshang le.) 我们的旅馆在钟楼附近。(Wǒmen de lǚguǎn zài Zhōnglóu fùjìn.) 街上有很多小吃店，(Jiē shang yǒu hěn duō xiǎochīdiàn,) 有羊肉泡馍、凉皮和肉夹馍。(yǒu yángròu pàomó, liángpí hé ròujiāmó.) 到处都是人和声音。(Dàochù dōu shì rén hé shēngyīn.)</p><p>最后，(Zuìhòu,) 晚点没有那么重要。(wǎndiǎn méiyǒu nàme zhòngyào.) 我们在西安待了五天，(Wǒmen zài Xī'ān dāi le wǔ tiān,) 看了兵马俑，(kàn le bīngmǎyǒng,) 每天都吃小吃，(měitiān dōu chī xiǎochī,) 还学了几句陕西话。(hái xué le jǐ jù Shǎnxī huà.) 那是我一生中最好的旅行。(Nà shì wǒ yìshēng zhōng zuì hǎo de lǚxíng.)</p>",
   "glosses": [
     {
       "word": "提前 (tíqián)",
       "tip": "con anticipación"
     },
     {
-      "word": "晚了四个小时",
+      "word": "晚了四个小时 (wǎn le sì ge xiǎoshí)",
       "tip": "se retrasó cuatro horas"
     },
     {
@@ -45,10 +45,10 @@
       "q": "在火车站发生了什么？",
       "options": [
         "没赶上火车",
-        "火车晚了四个小时",
-        "换了城市"
+        "换了城市",
+        "火车晚了四个小时"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "旅馆在哪儿？",
@@ -62,11 +62,11 @@
     {
       "q": "作者怎么评价这次旅行？",
       "options": [
-        "一生中最好的",
         "很糟糕",
-        "不想说"
+        "不想说",
+        "一生中最好的"
       ],
-      "answer": 0
+      "answer": 2
     }
   ]
 }

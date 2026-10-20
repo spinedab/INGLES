@@ -1433,13 +1433,13 @@
   },
   {
     "id": "a1-117",
-    "front": "little (adj)",
-    "definition": "small",
+    "front": "a little (det)",
+    "definition": "a small amount of (uncountable)",
     "example": "A little water, please.",
-    "translation": "poco",
+    "translation": "un poco (de)",
     "tags": [
       "a1",
-      "adjective",
+      "determiner",
       "freq:top100"
     ]
   },
@@ -3669,7 +3669,7 @@
     "translation": "perdón/lo siento",
     "tags": [
       "a1",
-      "adverb"
+      "adjective"
     ]
   },
   {

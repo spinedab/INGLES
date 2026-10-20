@@ -9,12 +9,12 @@
     {"word":"retrieval","tip":"recuperación (traer algo de la memoria)"},
     {"word":"exposure","tip":"exposición al idioma"}
   ],
-  "collocations": ["a reliable way to", "make a difference", "by contrast", "have a consequence for", "raw material"],
+  "collocations": ["a reliable way to", "make a measurable difference", "by contrast", "has a practical consequence for", "raw material"],
   "questions": [
     {"q":"Why does rereading feel productive?","options":["Because it is easy","Because it takes longer","Because it is tested"],"answer":0},
     {"q":"A week later, how did the rereading students perform?","options":["Much better","No better than the others","Slightly worse"],"answer":1},
-    {"q":"What strengthens the route to a memory?","options":["Pushing information in","Pulling it out","Reading aloud"],"answer":1},
+    {"q":"What strengthens the route to a memory?","options":["Pushing information in","Reading aloud","Pulling it out"],"answer":2},
     {"q":"What does the text recommend after finishing a reading?","options":["Read it a third time","Summarise it from memory","Translate it"],"answer":1},
-    {"q":"What is the author's view on input?","options":["It is unnecessary","It creates the raw material","It replaces retrieval"],"answer":1}
+    {"q":"What is the author's view on input?","options":["It is unnecessary","It replaces retrieval","It creates the raw material"],"answer":2}
   ]
 }

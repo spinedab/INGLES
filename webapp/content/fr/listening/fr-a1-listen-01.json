@@ -39,20 +39,20 @@
     {
       "q": "Combien ça coûte ?",
       "options": [
-        "Quatre euros cinquante",
         "Cinq euros",
+        "Quatre euros cinquante",
         "Cinquante centimes"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "q": "Combien de monnaie reçoit-elle ?",
       "options": [
-        "Cinquante centimes",
         "Un euro",
-        "Rien"
+        "Rien",
+        "Cinquante centimes"
       ],
-      "answer": 0
+      "answer": 2
     }
   ]
 }

@@ -39,11 +39,11 @@
     {
       "q": "O que ela já tentou?",
       "options": [
-        "Reiniciar o modem várias vezes",
         "Trocar de operadora",
+        "Reiniciar o modem várias vezes",
         "Nada"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "q": "Que luz indica o problema?",
@@ -57,11 +57,11 @@
     {
       "q": "Quando será a visita técnica?",
       "options": [
-        "Quinta-feira de manhã",
         "Hoje à noite",
-        "Sexta à tarde"
+        "Sexta à tarde",
+        "Quinta-feira de manhã"
       ],
-      "answer": 0
+      "answer": 2
     }
   ]
 }

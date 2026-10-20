@@ -29,7 +29,7 @@
     "è inutile negarlo",
     "tuttavia",
     "inoltre",
-    "finire per + infinito"
+    "finito per lavorare"
   ],
   "questions": [
     {
@@ -44,29 +44,29 @@
     {
       "q": "Quale problema inatteso è comparso?",
       "options": [
-        "Lavorare più ore di prima",
         "Mancanza di computer",
-        "Stipendi più bassi"
+        "Stipendi più bassi",
+        "Lavorare più ore di prima"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "q": "Perché erano importanti le chiacchiere in corridoio?",
       "options": [
-        "Lì nascevano le idee",
         "Erano obbligatorie",
+        "Lì nascevano le idee",
         "Riducevano il traffico"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "q": "Qual è la conclusione dell'autore?",
       "options": [
-        "Combinare i due modelli",
         "Tornare in ufficio",
+        "Combinare i due modelli",
         "Chiudere gli uffici"
       ],
-      "answer": 0
+      "answer": 1
     }
   ]
 }

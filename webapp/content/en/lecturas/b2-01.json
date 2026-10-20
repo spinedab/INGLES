@@ -38,10 +38,10 @@
   ],
   "collocations": [
     "lead to better decisions",
-    "a body of research",
+    "a substantial body of research",
     "cognitive cost",
     "marginal benefit",
-    "outweigh the cost"
+    "outweigh the cognitive cost"
   ],
   "questions": [
     {
@@ -56,11 +56,11 @@
     {
       "q": "Who coined the term 'paradox of choice'?",
       "options": [
-        "Barack Obama",
         "Barry Schwartz",
+        "Barack Obama",
         "Daniel Kahneman"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "q": "According to the text, what does each additional option require?",
@@ -84,10 +84,10 @@
       "q": "What practical lesson does the author offer?",
       "options": [
         "Always choose the first option",
-        "Ask if marginal benefit outweighs cognitive cost",
-        "Avoid all decisions"
+        "Avoid all decisions",
+        "Ask if marginal benefit outweighs cognitive cost"
       ],
-      "answer": 1
+      "answer": 2
     }
   ]
 }

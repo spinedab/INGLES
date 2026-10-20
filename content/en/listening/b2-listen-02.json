@@ -40,10 +40,10 @@
       "q": "Who absorbs the risk of accidents?",
       "options": [
         "The customer",
-        "The rider",
-        "The company"
+        "The company",
+        "The rider"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "What does the speaker explicitly NOT suggest?",
@@ -58,19 +58,19 @@
       "q": "What happens to an invisible cost?",
       "options": [
         "It disappears",
-        "It has merely been moved",
-        "It doubles"
+        "It doubles",
+        "It has merely been moved"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "What is the methodological implication?",
       "options": [
-        "Measure only what is easy",
         "We overstate benefits if we measure only the measurable",
+        "Measure only what is easy",
         "Technology cannot be evaluated"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "q": "The register of this excerpt is…",

@@ -27,29 +27,29 @@
       {
         "q": "_____ zio di Marco abita a Roma.",
         "options": [
-          "Lo",
           "Il",
-          "L'"
+          "L'",
+          "Lo"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Plural de «l'amico»:",
         "options": [
-          "gli amici",
           "i amici",
+          "gli amici",
           "le amici"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "_____ spagnolo è facile per gli italiani.",
         "options": [
-          "Lo",
           "Il",
+          "Lo",
           "L'"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "_____ studenti sono in classe.",
@@ -63,11 +63,11 @@
       {
         "q": "_____ acqua è fredda.",
         "options": [
-          "L'",
           "La",
-          "Lo"
+          "Lo",
+          "L'"
         ],
-        "answer": 0
+        "answer": 2
       }
     ]
   },
@@ -99,29 +99,29 @@
       {
         "q": "Mi _____ i film italiani.",
         "options": [
-          "piacciono",
           "piace",
+          "piacciono",
           "piaccio"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "Ti _____ la musica classica?",
         "options": [
-          "piace",
           "piacciono",
-          "piaci"
+          "piaci",
+          "piace"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Ci _____ molto questo ristorante.",
         "options": [
-          "piace",
           "piacciono",
-          "piacere"
+          "piacere",
+          "piace"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Il concerto mi _____ piaciuto.",
@@ -162,38 +162,38 @@
       {
         "q": "Ieri _____ mangiato al ristorante.",
         "options": [
-          "ho",
           "sono",
-          "era"
+          "era",
+          "ho"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Maria _____ partita alle otto.",
         "options": [
-          "è",
           "ha",
+          "è",
           "era"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "Noi _____ andati al cinema.",
         "options": [
-          "siamo",
           "abbiamo",
-          "eravamo"
+          "eravamo",
+          "siamo"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Mi _____ svegliato tardi.",
         "options": [
-          "sono",
           "ho",
+          "sono",
           "era"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "Loro _____ visto il film.",
@@ -234,29 +234,29 @@
       {
         "q": "Vado _____ stazione.",
         "options": [
-          "alla",
           "a la",
+          "alla",
           "al"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "Il colore _____ macchina è rosso.",
         "options": [
-          "della",
           "di la",
+          "della",
           "del"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "I libri sono _____ tavolo.",
         "options": [
-          "sul",
           "su il",
-          "nel"
+          "nel",
+          "sul"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Torno _____ ufficio alle sei.",
@@ -270,11 +270,11 @@
       {
         "q": "Abito _____ Italia da due anni.",
         "options": [
-          "in",
           "nella",
-          "all'"
+          "all'",
+          "in"
         ],
-        "answer": 0
+        "answer": 2
       }
     ]
   },
@@ -306,11 +306,11 @@
       {
         "q": "Penso che Maria _____ a casa.",
         "options": [
-          "sia",
           "è",
-          "era"
+          "era",
+          "sia"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Credo che loro _____ ragione.",
@@ -324,20 +324,20 @@
       {
         "q": "Spero che tu _____ venire.",
         "options": [
-          "possa",
           "puoi",
+          "possa",
           "potrai"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "È possibile che _____ domani.",
         "options": [
-          "piova",
           "piove",
-          "pioverà"
+          "pioverà",
+          "piova"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Voglio che tu _____ attenzione.",
@@ -378,29 +378,29 @@
       {
         "q": "«Tengo treinta años»: Ho trent'_____.",
         "options": [
-          "anni",
           "ani",
-          "annos"
+          "annos",
+          "anni"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "«Buenas noches»: Buona _____.",
         "options": [
-          "notte",
           "note",
-          "noté"
+          "noté",
+          "notte"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "«Tengo sueño»: Ho _____.",
         "options": [
-          "sonno",
           "sono",
+          "sonno",
           "suono"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "«Una pareja de novios»: una _____ di fidanzati.",
@@ -441,29 +441,29 @@
       {
         "q": "Il libro? _____ do subito. (a te)",
         "options": [
-          "Te lo",
           "Ti lo",
+          "Te lo",
           "Te il"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "La notizia? _____ ho detta ieri. (a lui)",
         "options": [
-          "Gliel'",
           "Gli l'",
+          "Gliel'",
           "Le l'"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "I documenti? _____ mando per email. (a voi)",
         "options": [
-          "Ve li",
           "Vi li",
-          "Ve le"
+          "Ve le",
+          "Ve li"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Il regalo? _____ compro io. (a lei)",
@@ -504,11 +504,11 @@
       {
         "q": "«Voy a salir de casa»: _____ di casa.",
         "options": [
-          "Esco",
           "Salgo",
-          "Guardo"
+          "Guardo",
+          "Esco"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "«Pan con mantequilla»: pane e _____.",
@@ -531,20 +531,20 @@
       {
         "q": "«Una habitación doble»: una _____ doppia.",
         "options": [
-          "camera",
           "stanza da letto",
-          "cameriera"
+          "cameriera",
+          "camera"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "«Una calle ancha»: una strada _____.",
         "options": [
-          "larga",
           "lunga",
+          "larga",
           "grande"
         ],
-        "answer": 0
+        "answer": 1
       }
     ]
   }

@@ -4,7 +4,7 @@
   "text": "<p>Ogni volta che qualcuno sostiene che l'italiano stia andando in rovina per colpa dei giovani, conviene ricordare che la stessa lamentela è documentata nell'Ottocento, nel Settecento e probabilmente presso qualche romano infastidito dal latino che sentiva per strada.</p><p>Quello che chiamiamo errore è spesso soltanto un mutamento in corso. Il caso del congiuntivo è il più citato: si dice che stia scomparendo, ma i dati mostrano che resiste nella lingua scritta e in molti registri parlati, mentre si indebolisce in contesti informali. Non è la fine di una forma, è la sua specializzazione.</p><p>Questo non significa che qualsiasi soluzione vada bene in qualsiasi contesto. Perché un parlante sia davvero competente, bisogna che padroneggi più registri e sappia quando usarli. Scrivere una relazione di lavoro come se fosse un messaggio in chat è inadeguato quanto il contrario.</p><p>Il problema, dunque, non sta nel cambiamento in sé, ma nell'idea che esista un solo modo legittimo di parlare. Chi difende quell'idea difende spesso, senza accorgersene, il prestigio di un gruppo sociale preciso. Nel momento in cui lo riconosciamo, la discussione smette di riguardare la grammatica e comincia a riguardare il potere.</p>",
   "glosses": [
     {
-      "word": "andare in rovina",
+      "word": "andando in rovina",
       "tip": "irse a la ruina"
     },
     {
@@ -35,11 +35,11 @@
     {
       "q": "Che argomento usa l'autore contro l'idea di «rovina» della lingua?",
       "options": [
-        "La stessa lamentela si ripete da secoli",
         "I giovani leggono più",
+        "La stessa lamentela si ripete da secoli",
         "L'italiano è recente"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "q": "Che cosa dicono i dati sul congiuntivo?",
@@ -53,20 +53,20 @@
     {
       "q": "Che cosa serve per essere un parlante competente?",
       "options": [
-        "Padroneggiare più registri e saper scegliere",
         "Parlare sempre formale",
+        "Padroneggiare più registri e saper scegliere",
         "Evitare il dialetto"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "q": "Qual è la tesi finale?",
       "options": [
-        "La discussione riguarda il potere, non la grammatica",
         "La grammatica va abolita",
-        "Solo la norma è legittima"
+        "Solo la norma è legittima",
+        "La discussione riguarda il potere, non la grammatica"
       ],
-      "answer": 0
+      "answer": 2
     }
   ]
 }

@@ -29,35 +29,35 @@
     "il est inutile de",
     "cependant",
     "de plus",
-    "finir par + infinitif"
+    "fini par travailler"
   ],
   "questions": [
     {
       "q": "Quel avantage est cité en premier ?",
       "options": [
-        "Économiser du temps et de l'argent",
         "Gagner plus",
-        "Travailler moins d'heures"
+        "Travailler moins d'heures",
+        "Économiser du temps et de l'argent"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "q": "Quel problème inattendu est apparu ?",
       "options": [
-        "Travailler plus qu'avant",
         "Le manque d'ordinateurs",
+        "Travailler plus qu'avant",
         "Des salaires plus bas"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "q": "Pourquoi les conversations de couloir comptaient-elles ?",
       "options": [
-        "Les idées y naissaient",
         "Elles étaient obligatoires",
-        "Elles réduisaient les transports"
+        "Elles réduisaient les transports",
+        "Les idées y naissaient"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "q": "Quelle est la conclusion de l'auteur ?",

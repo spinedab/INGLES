@@ -26,8 +26,8 @@
   ],
   "collocations": [
     "l'année dernière",
-    "acheter les billets",
-    "avoir du retard",
+    "acheté les billets",
+    "avait quatre heures de retard",
     "finalement",
     "le plus beau voyage de ma vie"
   ],
@@ -35,20 +35,20 @@
     {
       "q": "Pourquoi ont-ils acheté les billets trois mois avant ?",
       "options": [
-        "Ils coûtaient moins cher",
         "C'était obligatoire",
-        "Il n'y en avait plus"
+        "Il n'y en avait plus",
+        "Ils coûtaient moins cher"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "q": "Que s'est-il passé à la gare ?",
       "options": [
         "Ils ont raté le train",
-        "Le train avait quatre heures de retard",
-        "Ils ont changé de ville"
+        "Ils ont changé de ville",
+        "Le train avait quatre heures de retard"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "Où était l'hôtel ?",

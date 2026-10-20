@@ -26,9 +26,9 @@
   ],
   "collocations": [
     "a reliable way to",
-    "make a difference",
+    "make a measurable difference",
     "by contrast",
-    "have a consequence for",
+    "has a practical consequence for",
     "raw material"
   ],
   "questions": [
@@ -54,10 +54,10 @@
       "q": "What strengthens the route to a memory?",
       "options": [
         "Pushing information in",
-        "Pulling it out",
-        "Reading aloud"
+        "Reading aloud",
+        "Pulling it out"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "What does the text recommend after finishing a reading?",
@@ -72,10 +72,10 @@
       "q": "What is the author's view on input?",
       "options": [
         "It is unnecessary",
-        "It creates the raw material",
-        "It replaces retrieval"
+        "It replaces retrieval",
+        "It creates the raw material"
       ],
-      "answer": 1
+      "answer": 2
     }
   ]
 }

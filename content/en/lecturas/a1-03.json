@@ -9,12 +9,12 @@
     {"word":"receipt","tip":"recibo, tiquete"},
     {"word":"his own bag","tip":"su propia bolsa"}
   ],
-  "collocations": ["go to the supermarket", "do you have any…?", "at the checkout", "pay with a card", "one moment, please"],
+  "collocations": ["goes to the supermarket", "do you have any…?", "at the checkout", "pays with his card", "one moment, please"],
   "questions": [
-    {"q":"How many things are on Omar's list?","options":["Four","Five","Six"],"answer":1},
+    {"q":"How many things are on Omar's list?","options":["Four","Six","Five"],"answer":2},
     {"q":"Why does Omar take six apples?","options":["They are cheap today","He likes only apples","There is nothing else"],"answer":0},
-    {"q":"Where is the milk at first?","options":["On the shelf","In the back","At the checkout"],"answer":1},
-    {"q":"How does Omar pay?","options":["With cash","With his card","With a coupon"],"answer":1},
+    {"q":"Where is the milk at first?","options":["On the shelf","At the checkout","In the back"],"answer":2},
+    {"q":"How does Omar pay?","options":["With his card","With cash","With a coupon"],"answer":0},
     {"q":"Why does Omar say no to a bag?","options":["Bags cost money","He has his own bag","He has few things"],"answer":1}
   ]
 }

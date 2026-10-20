@@ -6,13 +6,13 @@
     {"word":"sandcastle","tip":"castillo de arena"},
     {"word":"umbrella","tip":"sombrilla o paraguas"},
     {"word":"lemonade","tip":"bebida de limón"},
-    {"word":"drove","tip":"pasado de drive — condujo"}
+    {"word":"drive","tip":"trayecto en coche (aquí es sustantivo)"}
   ],
-  "collocations": ["go to the beach", "take photos", "have fun", "go home", "sleep well"],
+  "collocations": ["went to the beach", "took photos", "had fun", "came home", "slept very well"],
   "questions": [
     {"q":"When did the family go to the beach?","options":["Last Saturday","Yesterday","Last Sunday"],"answer":0},
-    {"q":"What did the mother do?","options":["She swam","She read a book","She built a sandcastle"],"answer":1},
-    {"q":"What did they eat for lunch?","options":["Pizza","Sandwiches and fruit","Salad"],"answer":1},
+    {"q":"What did the mother do?","options":["She swam","She built a sandcastle","She read a book"],"answer":2},
+    {"q":"What did they eat for lunch?","options":["Pizza","Salad","Sandwiches and fruit"],"answer":2},
     {"q":"What did they do in the afternoon?","options":["Played football","Read books","Slept"],"answer":0},
     {"q":"How did the narrator feel at the end?","options":["Hungry","Tired but happy","Sad"],"answer":1}
   ]

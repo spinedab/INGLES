@@ -30,11 +30,11 @@
     {
       "q": "Quel est le problème de la cliente ?",
       "options": [
-        "Sa connexion est coupée",
         "Sa box a été volée",
+        "Sa connexion est coupée",
         "Sa facture est fausse"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "q": "Qu'a-t-elle déjà essayé ?",
@@ -57,11 +57,11 @@
     {
       "q": "Quand aura lieu l'intervention ?",
       "options": [
-        "Jeudi matin",
         "Ce soir",
-        "Vendredi après-midi"
+        "Vendredi après-midi",
+        "Jeudi matin"
       ],
-      "answer": 0
+      "answer": 2
     }
   ]
 }

@@ -8,8 +8,8 @@
       "tip": "cosechado"
     },
     {
-      "word": "supply chain",
-      "tip": "cadena de suministro"
+      "word": "supply chains",
+      "tip": "cadenas de suministro"
     },
     {
       "word": "scarce",
@@ -25,7 +25,7 @@
     }
   ],
   "collocations": [
-    "raise a question",
+    "raises an obvious question",
     "economies of scale",
     "a large proportion of",
     "not unreasonably",
@@ -53,20 +53,20 @@
     {
       "q": "How much water does one kilogram of cotton need?",
       "options": [
-        "About 1,000 litres",
         "About 10,000 litres",
+        "About 1,000 litres",
         "About 100,000 litres"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "q": "What do defenders of the industry argue?",
       "options": [
         "Wages are generous",
-        "The jobs beat local alternatives",
-        "Water use is exaggerated"
+        "Water use is exaggerated",
+        "The jobs beat local alternatives"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "What is the author's final position?",

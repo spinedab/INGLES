@@ -25,21 +25,21 @@
     }
   ],
   "collocations": [
-    "delete an account",
-    "spend time scrolling",
+    "delete… accounts",
+    "spend… hours… scrolling",
     "in person",
-    "support a cause",
+    "supporting causes",
     "the costs were higher than the benefits"
   ],
   "questions": [
     {
       "q": "When did the narrator stop using social media?",
       "options": [
-        "A year ago",
         "Six months ago",
+        "A year ago",
         "Last week"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "q": "How did the narrator's friends react?",

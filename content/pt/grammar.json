@@ -45,29 +45,29 @@
       {
         "q": "Quando ouvi isso, eu _____ triste.",
         "options": [
-          "fiquei",
           "fui",
-          "estive"
+          "estive",
+          "fiquei"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Onde _____ a estação de metrô?",
         "options": [
-          "fica",
           "está",
-          "é"
+          "é",
+          "fica"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Hoje eu _____ cansado, não vou sair.",
         "options": [
-          "estou",
           "sou",
+          "estou",
           "fico"
         ],
-        "answer": 0
+        "answer": 1
       }
     ]
   },
@@ -76,7 +76,7 @@
     "title": "Falsos amigos que cambian el sentido",
     "level": "a1",
     "why": "El portugués y el español comparten tanto léxico que el cerebro asume equivalencia. Estas palabras existen en ambos idiomas con significados distintos, así que el error no produce confusión: produce una frase que significa otra cosa.",
-    "rule": "Memoriza el par, no la palabra sola. Las más costosas: esquisito = raro (no «exquisito»), apelido = apodo (apellido = sobrenome), rato = un rato de tiempo... y también ratón; embaraçada = avergonzada (¡no embarazada = grávida!), pelado = desnudo, molho = salsa.",
+    "rule": "Memoriza el par, no la palabra sola. Las más costosas: esquisito = raro (no «exquisito»), apelido = apodo (apellido = sobrenome), rato = ratón (para «un rato» → um pouco, um tempinho); embaraçada = avergonzada (¡no embarazada = grávida!), pelado = desnudo, molho = salsa.",
     "examples": [
       [
         "Esse gosto é esquisito.",
@@ -108,29 +108,29 @@
       {
         "q": "«Mi hermana está embarazada»: Minha irmã está _____.",
         "options": [
-          "grávida",
           "embaraçada",
+          "grávida",
           "embarazada"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "Esse restaurante tem um cheiro _____ (= raro).",
         "options": [
-          "esquisito",
           "exquisito",
-          "delicioso"
+          "delicioso",
+          "esquisito"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "«Espérame un rato»: Espera um _____.",
         "options": [
-          "pouco",
           "rato",
-          "momento"
+          "ratito",
+          "pouco"
         ],
-        "answer": 0
+        "answer": 2
       }
     ]
   },
@@ -162,29 +162,29 @@
       {
         "q": "Quando eu _____ pequeno, morava em Cali.",
         "options": [
-          "era",
           "fui",
-          "seria"
+          "seria",
+          "era"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Ontem nós _____ ao cinema.",
         "options": [
-          "fomos",
           "íamos",
-          "vamos"
+          "vamos",
+          "fomos"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Pedido educado num restaurante: «Eu _____ a conta, por favor.»",
         "options": [
-          "queria",
           "quero",
+          "queria",
           "quis"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "Eu _____ TV quando o telefone tocou.",
@@ -196,13 +196,13 @@
         "answer": 0
       },
       {
-        "q": "Todos os dias ele _____ café às sete.",
+        "q": "Quando morava em São Paulo, todos os dias ele _____ café às sete.",
         "options": [
-          "tomava",
           "tomou",
+          "tomava",
           "toma"
         ],
-        "answer": 0
+        "answer": 1
       }
     ]
   },
@@ -211,7 +211,7 @@
     "title": "Futuro do subjuntivo: «quando eu for»",
     "level": "b1",
     "why": "El español no tiene esta forma viva, así que el hispanohablante dice «quando eu vou» y suena mal. Es una de las marcas más claras entre hablar portugués y hablar portuñol.",
-    "rule": "Después de QUANDO, SE, ENQUANTO, DEPOIS QUE con sentido de futuro, el portugués exige futuro do subjuntivo, no presente de indicativo. Se forma con la 3ª persona del plural del pretérito perfeito menos «-ram»: falaram → falar, fizeram → fizer, forem → for.",
+    "rule": "Después de QUANDO, SE, ENQUANTO, DEPOIS QUE con sentido de futuro, el portugués exige futuro do subjuntivo, no presente de indicativo. Se forma con la 3ª persona del plural del pretérito perfeito menos «-ram»: falaram → falar, fizeram → fizer, foram → for.",
     "examples": [
       [
         "Quando eu for ao Brasil, vou visitar Salvador.",
@@ -243,38 +243,38 @@
       {
         "q": "Se você _____ com a gente, será ótimo.",
         "options": [
-          "vier",
           "vem",
+          "vier",
           "virá"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "Depois que nós _____ o trabalho, descansamos.",
         "options": [
-          "terminarmos",
           "terminamos",
-          "terminaremos"
+          "terminaremos",
+          "terminarmos"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Quando ela _____ o e-mail, responde logo.",
         "options": [
-          "ler",
           "lê",
-          "lerá"
+          "lerá",
+          "ler"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Se eu _____ dinheiro, compro a passagem.",
         "options": [
-          "ganhar",
           "ganho",
+          "ganhar",
           "ganharei"
         ],
-        "answer": 0
+        "answer": 1
       }
     ]
   },
@@ -306,11 +306,11 @@
       {
         "q": "Forma brasileña de «Estoy comiendo»:",
         "options": [
-          "Estou comendo",
           "Estou a comer",
-          "Estou come"
+          "Estou come",
+          "Estou comendo"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Ele _____ falando ao telefone há uma hora.",
@@ -333,11 +333,11 @@
       {
         "q": "Ela _____ morando no Rio desde 2020.",
         "options": [
-          "está",
           "é",
+          "está",
           "fica"
         ],
-        "answer": 0
+        "answer": 1
       }
     ]
   },
@@ -387,20 +387,20 @@
       {
         "q": "Eu _____ ligo amanhã.",
         "options": [
-          "te",
           "ti",
-          "lhe te"
+          "lhe te",
+          "te"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "En un documento formal, al inicio de la frase:",
         "options": [
-          "Chamo-me João",
           "Me chamo João",
+          "Chamo-me João",
           "Eu me chamar João"
         ],
-        "answer": 0
+        "answer": 1
       }
     ]
   },
@@ -450,20 +450,20 @@
       {
         "q": "Para eu _____ te ajudar, preciso dos dados.",
         "options": [
-          "poder",
           "posso",
+          "poder",
           "puder"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "Depois de eles _____, o trabalho ficou pronto.",
         "options": [
-          "terminarem",
           "terminar",
-          "terminaram"
+          "terminaram",
+          "terminarem"
         ],
-        "answer": 0
+        "answer": 2
       }
     ]
   },
@@ -495,11 +495,11 @@
       {
         "q": "Eu gosto _____ café sem açúcar.",
         "options": [
-          "de",
           "o",
-          "a"
+          "a",
+          "de"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Ela precisa _____ mais tempo.",
@@ -522,20 +522,20 @@
       {
         "q": "Eu moro _____ São Paulo.",
         "options": [
-          "em",
           "a",
+          "em",
           "de"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "Sinto falta _____ minha família.",
         "options": [
-          "da",
           "a",
-          "à"
+          "à",
+          "da"
         ],
-        "answer": 0
+        "answer": 2
       }
     ]
   }

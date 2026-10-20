@@ -25,10 +25,10 @@
     }
   ],
   "collocations": [
-    "go to the supermarket",
+    "goes to the supermarket",
     "do you have any…?",
     "at the checkout",
-    "pay with a card",
+    "pays with his card",
     "one moment, please"
   ],
   "questions": [
@@ -36,10 +36,10 @@
       "q": "How many things are on Omar's list?",
       "options": [
         "Four",
-        "Five",
-        "Six"
+        "Six",
+        "Five"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "Why does Omar take six apples?",
@@ -54,19 +54,19 @@
       "q": "Where is the milk at first?",
       "options": [
         "On the shelf",
-        "In the back",
-        "At the checkout"
+        "At the checkout",
+        "In the back"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "How does Omar pay?",
       "options": [
-        "With cash",
         "With his card",
+        "With cash",
         "With a coupon"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "q": "Why does Omar say no to a bag?",

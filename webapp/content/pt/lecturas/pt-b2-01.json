@@ -44,20 +44,20 @@
     {
       "q": "Por que «me dá o livro» não é um descuido?",
       "options": [
-        "Segue um padrão rítmico do português brasileiro",
         "É a norma escrita",
-        "Vem do latim"
+        "Vem do latim",
+        "Segue um padrão rítmico do português brasileiro"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "q": "O que caracteriza um falante competente segundo o texto?",
       "options": [
-        "Dominar vários registros e saber quando usar cada um",
         "Falar sempre formal",
+        "Dominar vários registros e saber quando usar cada um",
         "Evitar gírias"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "q": "Qual é a tese final do autor?",

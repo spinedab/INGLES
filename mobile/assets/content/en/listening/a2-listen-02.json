@@ -30,11 +30,11 @@
     {
       "q": "Why is Marta calling?",
       "options": [
-        "To book a first appointment",
         "She can't come tomorrow",
+        "To book a first appointment",
         "To complain"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "q": "Does she cancel or reschedule?",
@@ -48,19 +48,19 @@
       "q": "What does she apologise for?",
       "options": [
         "Being late",
-        "The short notice",
-        "The wrong number"
+        "The wrong number",
+        "The short notice"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "Which slot does she choose?",
       "options": [
         "Friday afternoon",
-        "Thursday at eleven",
-        "Tomorrow at four"
+        "Tomorrow at four",
+        "Thursday at eleven"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "What does 'short notice' mean?",

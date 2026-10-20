@@ -26,8 +26,8 @@
   ],
   "collocations": [
     "l'anno scorso",
-    "comprare i biglietti",
-    "essere in ritardo",
+    "comprato i biglietti",
+    "era in ritardo",
     "alla fine",
     "il viaggio più bello della mia vita"
   ],
@@ -35,11 +35,11 @@
     {
       "q": "Perché hanno comprato i biglietti tre mesi prima?",
       "options": [
-        "Costavano meno",
         "Era obbligatorio",
-        "Non c'erano altri"
+        "Non c'erano altri",
+        "Costavano meno"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "q": "Che cosa è successo in stazione?",

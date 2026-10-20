@@ -16,16 +16,16 @@
       "tip": "bebida de limón"
     },
     {
-      "word": "drove",
-      "tip": "pasado de drive — condujo"
+      "word": "drive",
+      "tip": "trayecto en coche (aquí es sustantivo)"
     }
   ],
   "collocations": [
-    "go to the beach",
-    "take photos",
-    "have fun",
-    "go home",
-    "sleep well"
+    "went to the beach",
+    "took photos",
+    "had fun",
+    "came home",
+    "slept very well"
   ],
   "questions": [
     {
@@ -41,19 +41,19 @@
       "q": "What did the mother do?",
       "options": [
         "She swam",
-        "She read a book",
-        "She built a sandcastle"
+        "She built a sandcastle",
+        "She read a book"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "What did they eat for lunch?",
       "options": [
         "Pizza",
-        "Sandwiches and fruit",
-        "Salad"
+        "Salad",
+        "Sandwiches and fruit"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "What did they do in the afternoon?",

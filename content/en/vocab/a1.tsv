@@ -115,7 +115,7 @@ a1-113	first (adj)	number one	This is my first time here.	primero	a1 adjective f
 a1-114	last (adj)	final	The last episode was sad.	último	a1 adjective freq:top100
 a1-115	long (adj)	great in length	It's a long road.	largo	a1 adjective freq:top100
 a1-116	great (adj)	excellent	Great job!	excelente/genial	a1 adjective freq:top100
-a1-117	little (adj)	small	A little water, please.	poco	a1 adjective freq:top100
+a1-117	a little (det)	a small amount of (uncountable)	A little water, please.	un poco (de)	a1 determiner freq:top100
 a1-118	other (adj)	different	I'll take the other one.	otro	a1 adjective freq:top100
 a1-119	right (adj)	correct	You are right.	correcto	a1 adjective freq:top100
 a1-120	high (adj)	tall; of great elevation	The mountain is high.	alto	a1 adjective freq:top100
@@ -304,6 +304,6 @@ a1-302	much (det)	a large amount of (uncountable)	much time	mucho	a1 determiner
 a1-303	some (det)	an unknown amount	some water	algo de/unos	a1 determiner
 a1-304	any (det)	used in questions and negatives	Do you have any questions?	algún/ningún	a1 determiner
 a1-305	please (adv)	used to ask politely	Two tickets, please.	por favor	a1 adverb
-a1-306	sorry (adj)	used to apologise	Sorry, I'm late.	perdón/lo siento	a1 adverb
+a1-306	sorry (adj)	used to apologise	Sorry, I'm late.	perdón/lo siento	a1 adjective
 a1-307	thank you (chunk)	used to show gratitude	Thank you very much.	gracias	a1 chunk
 a1-308	excuse me (chunk)	used to get attention politely	Excuse me, is this free?	perdone/disculpe	a1 chunk

@@ -40,11 +40,11 @@
     {
       "q": "What is one advantage mentioned for working from home?",
       "options": [
-        "Better salary",
         "Flexibility",
+        "Better salary",
         "More meetings"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "q": "What do critics say is lost?",
@@ -59,10 +59,10 @@
       "q": "What does 'collaboration loss' refer to?",
       "options": [
         "Lost emails",
-        "Loss of informal interaction",
-        "Reduced salary"
+        "Reduced salary",
+        "Loss of informal interaction"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "What is the solution most companies adopt?",
@@ -76,11 +76,11 @@
     {
       "q": "What is 'compromise' in this context (false friend)?",
       "options": [
-        "A promise",
         "An agreement that satisfies both sides partially",
+        "A promise",
         "A debt"
       ],
-      "answer": 1
+      "answer": 0
     }
   ]
 }

@@ -39,11 +39,11 @@
     {
       "q": "Che cosa ha già provato?",
       "options": [
-        "Riavviare il modem più volte",
         "Cambiare operatore",
-        "Niente"
+        "Niente",
+        "Riavviare il modem più volte"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "q": "Quale spia segnala il guasto?",
@@ -57,11 +57,11 @@
     {
       "q": "Quando è fissato l'intervento?",
       "options": [
-        "Giovedì mattina",
         "Stasera",
+        "Giovedì mattina",
         "Venerdì pomeriggio"
       ],
-      "answer": 0
+      "answer": 1
     }
   ]
 }

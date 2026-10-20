@@ -9,12 +9,12 @@
     {"word":"disproportionately","tip":"de forma desproporcionada"},
     {"word":"accommodating","tip":"que se adapta al interlocutor"}
   ],
-  "collocations": ["by most accounts", "whose norms apply", "a serious point", "as it happens", "leave someone in a stronger position"],
+  "collocations": ["by most accounts", "whose norms apply", "a serious point", "as it happens", "in a stronger position"],
   "questions": [
     {"q":"What ratio of non-native to native users does the text cite?","options":["About three to one","About one to one","About ten to one"],"answer":0},
     {"q":"What does ELF research find about classroom 'errors'?","options":["They usually cause breakdowns","They rarely cause misunderstanding","They are increasing"],"answer":1},
-    {"q":"What does cause misunderstanding, according to the text?","options":["Unshared idiom","Missing articles","Accent"],"answer":0},
-    {"q":"What is the practical objection to teaching ELF norms?","options":["It is harder to teach","Institutions still assess by native norms","It has no research base"],"answer":1},
+    {"q":"What does cause misunderstanding, according to the text?","options":["Missing articles","Accent","Unshared idiom"],"answer":2},
+    {"q":"What is the practical objection to teaching ELF norms?","options":["It is harder to teach","It has no research base","Institutions still assess by native norms"],"answer":2},
     {"q":"What criterion does the research propose?","options":["Nativeness","Intelligibility","Accent reduction"],"answer":1}
   ]
 }

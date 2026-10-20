@@ -39,20 +39,20 @@
     {
       "q": "Quanto costa in tutto?",
       "options": [
-        "Tre euro e cinquanta",
         "Cinque euro",
+        "Tre euro e cinquanta",
         "Un euro e cinquanta"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "q": "Quanto resto riceve?",
       "options": [
-        "Un euro e cinquanta",
         "Cinquanta centesimi",
-        "Niente"
+        "Niente",
+        "Un euro e cinquanta"
       ],
-      "answer": 0
+      "answer": 2
     }
   ]
 }

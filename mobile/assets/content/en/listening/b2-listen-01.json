@@ -44,28 +44,28 @@
       "q": "What role does the hippocampus play?",
       "options": [
         "Long-term storage",
-        "Short-term buffer that replays experiences",
-        "Motor control"
+        "Motor control",
+        "Short-term buffer that replays experiences"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "Which phase of sleep is mentioned as critical?",
       "options": [
-        "REM sleep",
         "Slow-wave sleep",
+        "REM sleep",
         "Light sleep"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "q": "What does the author say about cramming?",
       "options": [
         "It works better than distributed study",
-        "It's worse than distributed study",
-        "It has no effect"
+        "It has no effect",
+        "It's worse than distributed study"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "What kind of naps can help retention?",

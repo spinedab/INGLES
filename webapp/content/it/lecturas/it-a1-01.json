@@ -26,20 +26,20 @@
   ],
   "collocations": [
     "mi alzo alle sei",
-    "fare colazione",
-    "andare al lavoro",
-    "tornare a casa",
+    "faccio colazione",
+    "vado al lavoro",
+    "torno a casa",
     "il fine settimana"
   ],
   "questions": [
     {
       "q": "A che ora si alza Sara?",
       "options": [
-        "Alle sei",
         "Alle otto",
-        "Alle undici"
+        "Alle undici",
+        "Alle sei"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "q": "Come va al lavoro?",
@@ -54,10 +54,10 @@
       "q": "Che cosa insegna?",
       "options": [
         "Matematica",
-        "Italiano",
-        "Storia"
+        "Storia",
+        "Italiano"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "Che fa il sabato?",

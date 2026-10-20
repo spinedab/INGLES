@@ -25,11 +25,11 @@
     }
   ],
   "collocations": [
-    "apply for a position",
-    "wake up early",
-    "put on a suit",
-    "make a joke",
-    "get the job"
+    "applied for a position",
+    "woke up early",
+    "put on my best suit",
+    "made a joke",
+    "got the job"
   ],
   "questions": [
     {
@@ -44,20 +44,20 @@
     {
       "q": "What did the narrator forget?",
       "options": [
-        "Their suit",
         "Their CV",
+        "Their suit",
         "Their phone"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "q": "How long did the interview last?",
       "options": [
-        "15 minutes",
         "30 minutes",
+        "15 minutes",
         "1 hour"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "q": "What helped the narrator in the interview?",

@@ -27,10 +27,10 @@
       "q": "What does the customer order to drink?",
       "options": [
         "A small coffee",
-        "A large coffee with milk",
-        "A tea"
+        "A tea",
+        "A large coffee with milk"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "What food does the customer order?",

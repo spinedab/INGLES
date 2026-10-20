@@ -27,29 +27,29 @@
       {
         "q": "Je voudrais _____ eau, s'il vous plaît.",
         "options": [
-          "de l'",
           "du",
-          "de la"
+          "de la",
+          "de l'"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Elle mange _____ viande.",
         "options": [
-          "de la",
           "du",
-          "des"
+          "des",
+          "de la"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Nous prenons _____ croissants.",
         "options": [
-          "des",
           "de la",
+          "des",
           "du"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "Je ne veux pas _____ sucre.",
@@ -99,20 +99,20 @@
       {
         "q": "«Hablo español» se dice:",
         "options": [
-          "Je parle espagnol",
           "Parle espagnol",
+          "Je parle espagnol",
           "Moi parle espagnol"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "«Llueve mucho»:",
         "options": [
-          "Il pleut beaucoup",
           "Pleut beaucoup",
+          "Il pleut beaucoup",
           "Ça pleut beaucoup"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "«Hay que estudiar»:",
@@ -126,11 +126,11 @@
       {
         "q": "«Hay tres libros»:",
         "options": [
-          "Il y a trois livres",
           "Y a trois livres",
-          "Ont trois livres"
+          "Ont trois livres",
+          "Il y a trois livres"
         ],
-        "answer": 0
+        "answer": 2
       }
     ]
   },
@@ -171,29 +171,29 @@
       {
         "q": "Marie _____ partie à huit heures.",
         "options": [
-          "est",
           "a",
-          "était"
+          "était",
+          "est"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Nous _____ allés à la plage.",
         "options": [
-          "sommes",
           "avons",
+          "sommes",
           "étions"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "Elle s'_____ couchée tard.",
         "options": [
-          "est",
           "a",
-          "avait"
+          "avait",
+          "est"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Ils ont _____ le film hier soir.",
@@ -243,20 +243,20 @@
       {
         "q": "Hier soir, nous _____ un très bon film.",
         "options": [
-          "avons vu",
           "voyions",
+          "avons vu",
           "verrons"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "Il _____ beau, alors nous sommes sortis.",
         "options": [
-          "faisait",
           "a fait",
+          "faisait",
           "fera"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "Je lisais quand le téléphone _____.",
@@ -268,13 +268,13 @@
         "answer": 0
       },
       {
-        "q": "Tous les jours, elle _____ le bus de sept heures.",
+        "q": "Quand elle était étudiante, tous les jours elle _____ le bus de sept heures.",
         "options": [
-          "prenait",
           "a pris",
-          "prendra"
+          "prendra",
+          "prenait"
         ],
-        "answer": 0
+        "answer": 2
       }
     ]
   },
@@ -282,7 +282,7 @@
     "id": "fr-subjonctif-present",
     "title": "Subjonctif: «il faut que je fasse»",
     "level": "b1",
-    "why": "El hispanohablante ya tiene subjuntivo, lo cual ayuda, pero los disparadores no coinciden: «espero que vienes» es imposible en ambos, sin embargo «je pense que» lleva indicativo en francés donde el español a veces duda.",
+    "why": "El hispanohablante ya tiene subjuntivo, lo cual ayuda, pero los disparadores no coinciden: en español «espero que vengas» lleva subjuntivo («espero que vienes» es imposible), mientras que en francés «j'espère que tu viens» lleva indicativo; igual «je pense que» lleva indicativo donde el español a veces duda.",
     "rule": "Subjonctif tras necesidad, voluntad, emoción y duda: il faut que, vouloir que, aimer que, avoir peur que, bien que, pour que, avant que. Con indicativo: penser que, croire que, espérer que (en afirmativa), il est probable que.",
     "examples": [
       [
@@ -315,11 +315,11 @@
       {
         "q": "Je veux que vous _____ attention.",
         "options": [
-          "fassiez",
           "faites",
-          "ferez"
+          "ferez",
+          "fassiez"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "J'espère qu'elle _____ contente.",
@@ -333,20 +333,20 @@
       {
         "q": "Avant que tu _____, dis-moi la vérité.",
         "options": [
-          "partes",
           "pars",
-          "partais"
+          "partais",
+          "partes"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Je ne pense pas qu'il _____ raison.",
         "options": [
-          "ait",
           "a",
+          "ait",
           "aura"
         ],
-        "answer": 0
+        "answer": 1
       }
     ]
   },
@@ -355,7 +355,7 @@
     "title": "Los pronombres «y» y «en»",
     "level": "a2",
     "why": "El español no tiene equivalente directo. El hispanohablante repite el complemento («je vais à Paris, je vais à Paris») donde el francés exige un pronombre, y la frase suena redundante e infantil.",
-    "rule": "Y sustituye un lugar o un complemento con À: «Tu vas à Paris ? — Oui, j'y vais». EN sustituye un complemento con DE o una cantidad: «Tu veux du café ? — Oui, j'en veux». Van SIEMPRE antes del verbo.",
+    "rule": "Y sustituye un lugar o un complemento con À: «Tu vas à Paris ? — Oui, j'y vais». EN sustituye un complemento con DE o una cantidad: «Tu veux du café ? — Oui, j'en veux». Van delante del verbo («j'y vais», «j'y suis allé»; con infinitivo, delante del infinitivo: «je vais y aller»), salvo en el imperativo afirmativo, donde van detrás con guion: «Vas-y !», «Prends-en !».",
     "examples": [
       [
         "— Tu vas au marché ? — Oui, j'y vais.",
@@ -378,29 +378,29 @@
       {
         "q": "— Tu vas à la gare ? — Oui, j'_____ vais.",
         "options": [
-          "y",
           "en",
-          "le"
+          "le",
+          "y"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "— Tu veux du pain ? — Oui, j'_____ veux.",
         "options": [
-          "en",
           "y",
+          "en",
           "le"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "— Combien de frères as-tu ? — J'_____ ai trois.",
         "options": [
-          "en",
           "y",
+          "en",
           "les"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "— Tu penses à l'examen ? — Oui, j'_____ pense.",
@@ -441,11 +441,11 @@
       {
         "q": "«No entiendo» en francés estándar:",
         "options": [
-          "Je ne comprends pas",
           "Je comprends non",
-          "Je ne comprends"
+          "Je ne comprends",
+          "Je ne comprends pas"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "«Nunca voy al cine»: Je _____ vais _____ au cinéma.",
@@ -459,20 +459,20 @@
       {
         "q": "«No he visto nada»: Je n'ai _____ vu.",
         "options": [
-          "rien",
           "pas rien",
-          "personne"
+          "personne",
+          "rien"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "«Ya no fumo»: Je ne fume _____.",
         "options": [
-          "plus",
           "pas plus",
+          "plus",
           "jamais plus"
         ],
-        "answer": 0
+        "answer": 1
       }
     ]
   },
@@ -513,29 +513,29 @@
       {
         "q": "C'est ce film _____ je veux voir.",
         "options": [
-          "que",
           "qui",
-          "dont"
+          "dont",
+          "que"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "C'est moi _____ ai raison.",
         "options": [
-          "qui",
           "que",
+          "qui",
           "qu'"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "_____ mes amis qui organisent la fête.",
         "options": [
-          "Ce sont",
           "C'est",
+          "Ce sont",
           "Il sont"
         ],
-        "answer": 0
+        "answer": 1
       }
     ]
   }

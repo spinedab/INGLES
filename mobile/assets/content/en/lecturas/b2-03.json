@@ -29,7 +29,7 @@
     "whose norms apply",
     "a serious point",
     "as it happens",
-    "leave someone in a stronger position"
+    "in a stronger position"
   ],
   "questions": [
     {
@@ -53,20 +53,20 @@
     {
       "q": "What does cause misunderstanding, according to the text?",
       "options": [
-        "Unshared idiom",
         "Missing articles",
-        "Accent"
+        "Accent",
+        "Unshared idiom"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "q": "What is the practical objection to teaching ELF norms?",
       "options": [
         "It is harder to teach",
-        "Institutions still assess by native norms",
-        "It has no research base"
+        "It has no research base",
+        "Institutions still assess by native norms"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "What criterion does the research propose?",

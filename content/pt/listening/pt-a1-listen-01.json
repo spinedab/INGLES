@@ -26,11 +26,11 @@
     {
       "q": "O que o cliente pede para beber?",
       "options": [
-        "Um café grande com leite",
         "Um chá",
-        "Um suco"
+        "Um suco",
+        "Um café grande com leite"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "q": "Quanto custa o pedido?",
@@ -44,11 +44,11 @@
     {
       "q": "Quanto de troco ele recebe?",
       "options": [
-        "Cinquenta centavos",
         "Um real",
+        "Cinquenta centavos",
         "Nada"
       ],
-      "answer": 0
+      "answer": 1
     }
   ]
 }

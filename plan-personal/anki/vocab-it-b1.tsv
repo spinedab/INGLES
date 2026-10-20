@@ -63,7 +63,7 @@ alloggio (s.m.)	luogo dove si abita	Il problema dell'alloggio è grave.	vivienda
 quartiere (s.m.)	parte di una città	Abito in un quartiere tranquillo.	barrio	b1 noun places
 periferia (s.f.)	zona esterna della città	Abita in periferia.	periferia	b1 noun places
 lavori (s.m.pl.)	cantiere, opere	Ci sono lavori nella strada.	obras	b1 noun
-ambiente (s.m.)	milieu naturale; anche una stanza	Bisogna proteggere l'ambiente.	medio ambiente	b1 noun
+ambiente (s.m.)	la natura e il contesto in cui viviamo; anche una stanza	Bisogna proteggere l'ambiente.	medio ambiente	b1 noun
 rifiuti (s.m.pl.)	spazzatura	Faccio la raccolta differenziata dei rifiuti.	residuos, basura	b1 noun
 siccità (s.f.)	mancanza prolungata di pioggia	La siccità ha colpito i raccolti.	sequía	b1 noun weather
 alluvione (s.f.)	inondazione	L'alluvione ha colpito il centro.	inundación	b1 noun weather
@@ -95,6 +95,6 @@ deluso / delusa (adj.)	che ha perso le illusioni	Sono deluso dal risultato.	dece
 stupito / stupita (adj.)	sorpreso	Sono stupito di vederti.	sorprendido	b1 adj feelings
 diffidente (adj.)	che non si fida	È diffidente verso gli estranei.	desconfiado	b1 adj feelings
 sinceramente (adv.)	con franchezza	Sinceramente, non lo so.	sinceramente	b1 adv
-appena (adv.)	a stento; proprio adesso	Ho appena dormito. È appena arrivato.	apenas; recién	b1 adv keyword
+appena (adv.)	a stento; proprio adesso	Lo sento appena. È appena arrivato.	apenas; recién	b1 adv keyword
 ormai (adv.)	a questo punto, già	Ormai è troppo tardi.	ya, a estas alturas	b1 adv
 prima (adv.)	precedentemente	Prima lavorava qui.	antes	b1 adv

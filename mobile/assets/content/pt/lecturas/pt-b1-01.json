@@ -35,11 +35,11 @@
     {
       "q": "Qual vantagem o texto destaca primeiro?",
       "options": [
-        "Economizar tempo e dinheiro",
         "Ganhar mais",
+        "Economizar tempo e dinheiro",
         "Trabalhar menos horas"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "q": "Qual problema inesperado apareceu?",
@@ -53,20 +53,20 @@
     {
       "q": "Por que as conversas de corredor eram importantes?",
       "options": [
-        "Era onde surgiam as ideias",
         "Eram obrigatórias",
-        "Reduziam o trânsito"
+        "Reduziam o trânsito",
+        "Era onde surgiam as ideias"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "q": "Qual é a conclusão do autor?",
       "options": [
-        "Combinar os dois modelos",
         "Voltar ao escritório",
+        "Combinar os dois modelos",
         "Acabar com o escritório"
       ],
-      "answer": 0
+      "answer": 1
     }
   ]
 }

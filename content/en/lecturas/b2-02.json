@@ -9,12 +9,12 @@
     {"word":"codified","tip":"codificada, fijada por norma"},
     {"word":"under scrutiny","tip":"al examinarlo de cerca"}
   ],
-  "collocations": ["on closer inspection", "pin down a notion", "come apart", "the pedagogical implication", "in terms of what someone can do"],
+  "collocations": ["on closer inspection", "easy to pin down", "come apart", "the pedagogical implication", "in terms of what someone can actually do"],
   "questions": [
     {"q":"How does the native speaker work in everyday discourse?","options":["As a benchmark the learner approximates","As a legal category","As a teaching method"],"answer":0},
-    {"q":"What point is made about variation within native speakers?","options":["It is minimal","It is so wide the benchmark is unclear","It only concerns accent"],"answer":1},
-    {"q":"What does the text say about Standard English?","options":["It is anyone's spontaneous speech","It is a codified variety everyone learns","It is only for non-natives"],"answer":1},
-    {"q":"According to the author, 'nativeness' bundles together…","options":["A single unified competence","Several distinct things","Only cultural knowledge"],"answer":1},
+    {"q":"What point is made about variation within native speakers?","options":["It is minimal","It only concerns accent","It is so wide the benchmark is unclear"],"answer":2},
+    {"q":"What does the text say about Standard English?","options":["It is anyone's spontaneous speech","It is only for non-natives","It is a codified variety everyone learns"],"answer":2},
+    {"q":"According to the author, 'nativeness' bundles together…","options":["Several distinct things","A single unified competence","Only cultural knowledge"],"answer":0},
     {"q":"What standard does the author recommend?","options":["Resembling an idealised speaker","What someone can actually do","Abandoning high standards"],"answer":1}
   ]
 }

@@ -9,11 +9,11 @@
     {"word":"neighbourhood","tip":"barrio"},
     {"word":"agreed on","tip":"nos pusimos de acuerdo en"}
   ],
-  "collocations": ["arrive early", "have you ever worked…?", "write something down", "for the first time", "agree on a goal"],
+  "collocations": ["arrived twenty minutes early", "have you ever worked…?", "wrote something down", "for the first time", "agreed on the goal"],
   "questions": [
     {"q":"How did Daniel feel before the interview?","options":["Confident","Nervous","Bored"],"answer":1},
     {"q":"What experience does Daniel have with clients?","options":["None at all","Websites for two small shops","Three years in a company"],"answer":1},
-    {"q":"Why does Marta find his experience useful?","options":["Her clients aren't designers either","He worked for free","He studied for three years"],"answer":0},
+    {"q":"Why does Marta find his experience useful?","options":["He worked for free","He studied for three years","Her clients aren't designers either"],"answer":2},
     {"q":"What does Daniel say the real problem usually is?","options":["The colour","The font","The goal isn't agreed"],"answer":2},
     {"q":"When did the company call him?","options":["On Thursday","On Friday","They didn't call"],"answer":0}
   ]

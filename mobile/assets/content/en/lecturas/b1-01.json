@@ -25,7 +25,7 @@
     }
   ],
   "collocations": [
-    "end up in landfills",
+    "ends up in landfills",
     "carbon emissions",
     "fast fashion",
     "second-hand",
@@ -36,11 +36,11 @@
     {
       "q": "What percentage of global carbon emissions does fashion produce?",
       "options": [
-        "Around 5%",
         "Around 10%",
+        "Around 5%",
         "Around 25%"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "q": "What is 'fast fashion' according to the text?",

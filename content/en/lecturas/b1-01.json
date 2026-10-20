@@ -9,9 +9,9 @@
     {"word":"mitigate","tip":"reducir el impacto"},
     {"word":"accountable","tip":"responsable, que rinde cuentas"}
   ],
-  "collocations": ["end up in landfills", "carbon emissions", "fast fashion", "second-hand", "shift the market", "be held accountable"],
+  "collocations": ["ends up in landfills", "carbon emissions", "fast fashion", "second-hand", "shift the market", "be held accountable"],
   "questions": [
-    {"q":"What percentage of global carbon emissions does fashion produce?","options":["Around 5%","Around 10%","Around 25%"],"answer":1},
+    {"q":"What percentage of global carbon emissions does fashion produce?","options":["Around 10%","Around 5%","Around 25%"],"answer":0},
     {"q":"What is 'fast fashion' according to the text?","options":["Sportswear","Cheap, disposable clothes released frequently","Luxury brand clothes"],"answer":1},
     {"q":"What is NOT mentioned as a personal solution?","options":["Buying second-hand","Repairing clothes","Donating to charity"],"answer":2},
     {"q":"What does the author say about responsibility?","options":["Only consumers are responsible","Only governments are responsible","Both consumers and governments share responsibility"],"answer":2},

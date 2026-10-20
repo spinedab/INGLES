@@ -9,12 +9,12 @@
     {"word":"got wet","tip":"se mojaron"},
     {"word":"diary","tip":"diario personal"}
   ],
-  "collocations": ["the weather was terrible", "stay at home", "on the corner", "come back", "at the end"],
+  "collocations": ["the weather was terrible", "stayed at home", "on the corner", "came back", "at the end"],
   "questions": [
     {"q":"Where did Lucía want to go?","options":["To the beach","To the cinema","To the shop"],"answer":0},
     {"q":"What happened in the kitchen?","options":["The pancakes burned","Lucía broke two eggs","The sister cut her hand"],"answer":1},
     {"q":"Who cried during the film?","options":["Only Lucía","Only her sister","Both of them"],"answer":2},
-    {"q":"Why did they come back quickly?","options":["The shop was closed","The sky was grey again","They forgot the money"],"answer":1},
+    {"q":"Why did they come back quickly?","options":["The shop was closed","They forgot the money","The sky was grey again"],"answer":2},
     {"q":"How did Lucía feel about the day?","options":["It was a very good day","It was a boring day","It was the worst day"],"answer":0}
   ]
 }

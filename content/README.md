@@ -31,8 +31,10 @@ python3 tools/build_content.py --check   # valida sin escribir (lo que corre CI)
 | mandarín (`zh`) | 500 | 8 / 35 | 4 | 2 |
 
 El inglés lleva más recorrido; los cuatro idiomas nuevos tienen los cuatro
-niveles poblados y todos los módulos funcionando, así que ningún nivel queda
-con la pantalla vacía. Crecer es añadir filas al TSV correspondiente.
+niveles poblados en vocabulario, gramática y lecturas. El listening, en cambio,
+solo tiene A1 y B1 (`<lang>-a1-listen-01` y `<lang>-b1-listen-01`): en A2 y B2
+esa pantalla sale vacía («Sin ejercicios todavía»). Crecer es añadir filas al
+TSV correspondiente o ficheros nuevos en `lecturas/` y `listening/`.
 
 ## Reglas que el generador impone
 
@@ -72,8 +74,10 @@ cada lengua:
   cambian la palabra (`anno` / `ano`), `essere` o `avere` en el pasado, y el
   congiuntivo tras `penso che`, donde el español usa indicativo.
 - **mandarín**: sin parentesco. Tonos como parte de la palabra, clasificadores,
-  ausencia de conjugación. Todo A1-A2 lleva **pinyin con tonos** junto a los
-  caracteres; referencia HSK.
+  ausencia de conjugación. En A1-A2, el vocabulario, los ejemplos de
+  gramática, las lecturas y los diálogos llevan **pinyin con tonos** junto a
+  los caracteres (los ejercicios y las preguntas de comprensión, no);
+  referencia HSK.
 
 El tutor IA tiene su propia calibración por idioma en
 `api/app/calibration/<lang>.md` y escenarios de roleplay ambientados en

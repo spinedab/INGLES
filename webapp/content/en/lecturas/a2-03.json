@@ -25,11 +25,11 @@
     }
   ],
   "collocations": [
-    "arrive early",
+    "arrived twenty minutes early",
     "have you ever worked…?",
-    "write something down",
+    "wrote something down",
     "for the first time",
-    "agree on a goal"
+    "agreed on the goal"
   ],
   "questions": [
     {
@@ -53,11 +53,11 @@
     {
       "q": "Why does Marta find his experience useful?",
       "options": [
-        "Her clients aren't designers either",
         "He worked for free",
-        "He studied for three years"
+        "He studied for three years",
+        "Her clients aren't designers either"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "q": "What does Daniel say the real problem usually is?",

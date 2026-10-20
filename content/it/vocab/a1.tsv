@@ -97,7 +97,7 @@ it-a1-095	domani (avv.)	il giorno dopo oggi	A domani!	mañana (día siguiente)	a
 it-a1-096	ieri (avv.)	il giorno prima di oggi	Ieri ha piovuto molto.	ayer	a1 adv time
 it-a1-097	sempre (avv.)	in ogni occasione	Faccio sempre colazione.	siempre	a1 adv time
 it-a1-098	mai (avv.)	in nessuna occasione (con non)	Non sono mai stato a Venezia.	nunca	a1 adv time
-it-a1-099	qui / qua (avv.)	in questo luogo	Si siede qui, per favore.	aquí	a1 adv place
+it-a1-099	qui / qua (avv.)	in questo luogo	Si sieda qui, per favore.	aquí	a1 adv place
 it-a1-100	lì / là (avv.)	in quel luogo	Il bagno è lì, a destra.	allí, ahí	a1 adv place
 it-a1-101	dove (avv.)	in quale luogo	Dove abiti?	dónde	a1 adv question
 it-a1-102	quando (avv.)	in quale momento	Quando arrivi?	cuándo	a1 adv question
@@ -105,7 +105,7 @@ it-a1-103	come (avv.)	in che modo	Come ti chiami? Come stai?	cómo	a1 adv questi
 it-a1-104	perché (avv./cong.)	domanda e risposta sul motivo (una sola parola per entrambe)	Perché studi italiano? Perché voglio lavorare a Milano.	por qué; porque	a1 adv question keyword
 it-a1-105	quanto (agg./pron.)	domanda la quantità	Quanto costa? Quanti anni hai?	cuánto	a1 pron question
 it-a1-106	chi (pron.)	domanda la persona	Chi è lei?	quién	a1 pron question
-it-a1-107	che / cosa (pron.)	domanda la cosa; unisce frasi	Che cos'è? Cosa fai? Penso che sì.	qué; que	a1 pron top100
+it-a1-107	che / cosa (pron.)	domanda la cosa; unisce frasi	Che cos'è? Cosa fai? So che vieni.	qué; que	a1 pron top100
 it-a1-108	quale (pron.)	domanda tra opzioni	Quale preferisci?	cuál	a1 pron question
 it-a1-109	sì (avv.)	risposta affermativa (con accento!)	Sì, voglio.	sí	a1 adv top100
 it-a1-110	no / non (avv.)	«no» risponde; «non» nega il verbo	No, grazie. Non lo so.	no	a1 adv top100 grammar

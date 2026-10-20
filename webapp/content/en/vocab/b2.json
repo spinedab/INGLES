@@ -518,7 +518,7 @@
     "id": "b2-045",
     "front": "compensate (v)",
     "definition": "to make up for",
-    "example": "Money compensates time.",
+    "example": "Money can't compensate for lost time.",
     "translation": "compensar",
     "tags": [
       "b2",
@@ -555,7 +555,7 @@
     "front": "convene (v)",
     "definition": "to gather formally",
     "example": "The committee convened.",
-    "translation": "convocar",
+    "translation": "reunirse; convocar",
     "tags": [
       "b2",
       "awl",

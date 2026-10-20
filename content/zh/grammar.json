@@ -27,29 +27,29 @@
       {
         "q": "«Caballo» se escribe 马. Su tono es:",
         "options": [
-          "3º (mǎ)",
           "1º (mā)",
-          "4º (mà)"
+          "4º (mà)",
+          "3º (mǎ)"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "买 (comprar) y 卖 (vender) se diferencian por:",
         "options": [
-          "el tono",
           "el carácter solamente",
-          "la consonante"
+          "la consonante",
+          "el tono"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "En 你好, el primer tono se pronuncia como:",
         "options": [
-          "segundo",
           "tercero",
+          "segundo",
           "cuarto"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "¿Cómo se pronuncia 不 en 不是?",
@@ -90,11 +90,11 @@
       {
         "q": "«Ella es profesora»: 她 _____ 老师。",
         "options": [
-          "是",
           "很",
+          "是",
           "不"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "«El café está caliente»: 咖啡 _____ 热。",
@@ -117,20 +117,20 @@
       {
         "q": "¿Cuál es correcta?",
         "options": [
-          "我很忙。",
           "我是忙。",
-          "我有忙。"
+          "我有忙。",
+          "我很忙。"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "«Esto es un libro»: 这 _____ 一本书。",
         "options": [
-          "是",
           "很",
+          "是",
           "在"
         ],
-        "answer": 0
+        "answer": 1
       }
     ]
   },
@@ -162,11 +162,11 @@
       {
         "q": "«Dos personas»: _____ 人。",
         "options": [
-          "两个",
           "二个",
+          "两个",
           "两"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "«Tres libros»: 三 _____ 书。",
@@ -180,20 +180,20 @@
       {
         "q": "«Un vaso de agua»: 一 _____ 水。",
         "options": [
-          "杯",
           "本",
-          "个"
+          "个",
+          "杯"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "«Este gato»: 这 _____ 猫。",
         "options": [
-          "只",
           "本",
-          "条"
+          "条",
+          "只"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "El clasificador general es:",
@@ -234,11 +234,11 @@
       {
         "q": "«Comí»: 我吃 _____ 饭。",
         "options": [
-          "了",
           "过",
+          "了",
           "着"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "«No comí»: 我 _____ 吃饭。",
@@ -252,11 +252,11 @@
       {
         "q": "«Ya llegó el autobús»: 车 _____ 。",
         "options": [
-          "来了",
           "来过",
+          "来了",
           "在来"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "«Antes iba a la escuela todos los días» lleva 了?",
@@ -270,11 +270,11 @@
       {
         "q": "«Compré dos»: 我买 _____ 两个。",
         "options": [
-          "了",
           "过",
-          "着"
+          "着",
+          "了"
         ],
-        "answer": 0
+        "answer": 2
       }
     ]
   },
@@ -290,15 +290,15 @@
         "Lugar ANTES del verbo"
       ],
       [
-        "我明天在家看书。",
+        "我明天在家看书。(Wǒ míngtiān zài jiā kàn shū.)",
         "Sujeto + tiempo + lugar + verbo"
       ],
       [
-        "明天我们八点见。",
+        "明天我们八点见。(Míngtiān wǒmen bā diǎn jiàn.)",
         "El tiempo puede abrir la frase"
       ],
       [
-        "他每天在公司吃午饭。",
+        "他每天在公司吃午饭。(Tā měitiān zài gōngsī chī wǔfàn.)",
         "Frecuencia + lugar + verbo"
       ]
     ],
@@ -306,11 +306,11 @@
       {
         "q": "«Trabajo en Shanghái»:",
         "options": [
-          "我在上海工作。",
           "我工作在上海。",
+          "我在上海工作。",
           "我上海在工作。"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "«Mañana como en casa»:",
@@ -324,20 +324,20 @@
       {
         "q": "El lugar con 在 va:",
         "options": [
-          "antes del verbo",
           "después del verbo",
-          "al final"
+          "al final",
+          "antes del verbo"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "«Estudio chino todos los días»:",
         "options": [
-          "我每天学习汉语。",
           "我学习汉语每天。",
-          "每天学习我汉语。"
+          "每天学习我汉语。",
+          "我每天学习汉语。"
         ],
-        "answer": 0
+        "answer": 2
       }
     ]
   },
@@ -369,29 +369,29 @@
       {
         "q": "«Cierra la ventana»: 请 _____ 窗户关上。",
         "options": [
-          "把",
           "被",
-          "给"
+          "给",
+          "把"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "El objeto de 把 tiene que ser:",
         "options": [
-          "definido y conocido",
           "indefinido",
+          "definido y conocido",
           "siempre plural"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "«Me terminé el café»: 我 _____ 咖啡喝完了。",
         "options": [
-          "把",
           "被",
+          "把",
           "在"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "¿Cuál es correcta?",
@@ -441,29 +441,29 @@
       {
         "q": "«Mi casa»: 我 _____ 家。",
         "options": [
-          "的",
           "得",
+          "的",
           "地"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "«Caminó despacio»: 他慢慢 _____ 走。",
         "options": [
-          "地",
           "的",
+          "地",
           "得"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "«Una película interesante»: 有意思 _____ 电影。",
         "options": [
-          "的",
           "得",
-          "地"
+          "地",
+          "的"
         ],
-        "answer": 0
+        "answer": 2
       }
     ]
   },
@@ -513,20 +513,20 @@
       {
         "q": "«El vaso fue roto por él»: 杯子 _____ 他打破了。",
         "options": [
-          "被",
           "把",
-          "在"
+          "在",
+          "被"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Para un hecho neutro es mejor:",
         "options": [
-          "voz activa o 是…的",
           "siempre 被",
+          "voz activa o 是…的",
           "siempre 把"
         ],
-        "answer": 0
+        "answer": 1
       }
     ]
   }

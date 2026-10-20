@@ -30,11 +30,11 @@
     {
       "q": "What is the tourist looking for?",
       "options": [
-        "A bakery",
         "A pharmacy",
+        "A bakery",
         "A bank"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "q": "How many blocks must they walk?",
@@ -58,19 +58,19 @@
       "q": "What is next to the pharmacy?",
       "options": [
         "A bank",
-        "A small bakery",
-        "A school"
+        "A school",
+        "A small bakery"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "What time does it close?",
       "options": [
         "At six",
-        "At eight",
-        "It doesn't say"
+        "It doesn't say",
+        "At eight"
       ],
-      "answer": 1
+      "answer": 2
     }
   ]
 }

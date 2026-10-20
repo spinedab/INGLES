@@ -9,9 +9,9 @@
     {"word":"abroad","tip":"en el extranjero"},
     {"word":"benefits","tip":"beneficios"}
   ],
-  "collocations": ["delete an account", "spend time scrolling", "in person", "support a cause", "the costs were higher than the benefits"],
+  "collocations": ["delete… accounts", "spend… hours… scrolling", "in person", "supporting causes", "the costs were higher than the benefits"],
   "questions": [
-    {"q":"When did the narrator stop using social media?","options":["A year ago","Six months ago","Last week"],"answer":1},
+    {"q":"When did the narrator stop using social media?","options":["Six months ago","A year ago","Last week"],"answer":0},
     {"q":"How did the narrator's friends react?","options":["They agreed","They thought it was crazy","They did the same"],"answer":1},
     {"q":"How many books has the narrator read this year?","options":["Five","Ten","Fifteen"],"answer":2},
     {"q":"What does the narrator say about social media?","options":["It's all bad","It's all good","It has good and bad things"],"answer":2},

@@ -36,10 +36,10 @@
       "q": "Why can't Mark go on Saturday?",
       "options": [
         "He's working",
-        "His sister's birthday",
-        "He's sick"
+        "He's sick",
+        "His sister's birthday"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "What day do they finally choose?",
@@ -53,11 +53,11 @@
     {
       "q": "At what time will they meet?",
       "options": [
-        "At one",
         "At two",
+        "At one",
         "At three"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "q": "How much do the tickets cost for residents?",

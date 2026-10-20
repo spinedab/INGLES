@@ -27,11 +27,11 @@
       {
         "q": "My brother is _____ doctor.",
         "options": [
-          "a",
           "an",
-          "—"
+          "—",
+          "a"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "I need _____ umbrella.",
@@ -52,10 +52,10 @@
       {
         "q": "She's _____ engineer.",
         "options": [
-          "a",
-          "an"
+          "an",
+          "a"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "q": "It's _____ European country.",
@@ -95,11 +95,11 @@
       {
         "q": "How old _____ you?",
         "options": [
-          "are",
           "do you have",
-          "have"
+          "have",
+          "are"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "I _____ thirsty.",
@@ -112,10 +112,10 @@
       {
         "q": "They _____ afraid of dogs.",
         "options": [
-          "have",
-          "are"
+          "are",
+          "have"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "q": "She _____ a new bike.",
@@ -128,10 +128,10 @@
       {
         "q": "My son _____ eight years old.",
         "options": [
-          "has",
-          "is"
+          "is",
+          "has"
         ],
-        "answer": 1
+        "answer": 0
       }
     ]
   },
@@ -203,10 +203,10 @@
       {
         "q": "He never _____ late.",
         "options": [
-          "arrive",
-          "arrives"
+          "arrives",
+          "arrive"
         ],
-        "answer": 1
+        "answer": 0
       }
     ]
   },
@@ -238,11 +238,11 @@
       {
         "q": "_____ is cold today.",
         "options": [
-          "It",
           "—",
-          "There"
+          "There",
+          "It"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "_____ two cats in the garden.",
@@ -264,10 +264,10 @@
       {
         "q": "_____ 'clock. Time to go.",
         "options": [
-          "Is nine o",
-          "It's nine o"
+          "It's nine o",
+          "Is nine o"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "q": "_____ a problem with the wifi.",
@@ -308,16 +308,16 @@
           "I have a car new and fast.",
           "I have a fast new car."
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "Choose: \"Una casa grande y blanca\"",
         "options": [
-          "A big white house",
           "A white big house",
+          "A big white house",
           "A house big white"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "Choose the correct sentence:",
@@ -358,10 +358,10 @@
       {
         "q": "My car is _____ than yours.",
         "options": [
-          "more fast",
-          "faster"
+          "faster",
+          "more fast"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "q": "This exercise is _____ difficult.",
@@ -425,18 +425,18 @@
       {
         "q": "How _____ money do you need?",
         "options": [
-          "many",
-          "much"
+          "much",
+          "many"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "q": "I have _____ friends here.",
         "options": [
-          "much",
-          "a few"
+          "a few",
+          "much"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "q": "Can you give me some _____?",
@@ -457,10 +457,10 @@
       {
         "q": "We bought new _____.",
         "options": [
-          "furnitures",
-          "furniture"
+          "furniture",
+          "furnitures"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "q": "She has very _____ patience.",
@@ -519,10 +519,10 @@
         "q": "_____ he come yesterday?",
         "options": [
           "Was",
-          "Did",
-          "Do"
+          "Do",
+          "Did"
         ],
-        "answer": 1
+        "answer": 2
       },
       {
         "q": "They _____ work on Sundays.",
@@ -537,10 +537,10 @@
         "q": "_____ your sister speak French?",
         "options": [
           "Is",
-          "Does",
-          "Do"
+          "Do",
+          "Does"
         ],
-        "answer": 1
+        "answer": 2
       },
       {
         "q": "I _____ understand the question.",
@@ -589,10 +589,10 @@
       {
         "q": "We waited _____ two hours.",
         "options": [
-          "since",
-          "for"
+          "for",
+          "since"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "q": "She left ten minutes _____.",
@@ -613,10 +613,10 @@
       {
         "q": "He started working here three years _____.",
         "options": [
-          "for",
-          "ago"
+          "ago",
+          "for"
         ],
-        "answer": 1
+        "answer": 0
       }
     ]
   },
@@ -680,10 +680,10 @@
       {
         "q": "We want _____ early.",
         "options": [
-          "leaving",
-          "to leave"
+          "to leave",
+          "leaving"
         ],
-        "answer": 1
+        "answer": 0
       }
     ]
   },
@@ -747,10 +747,10 @@
       {
         "q": "_____ a lot of traffic today.",
         "options": [
-          "It is",
-          "There is"
+          "There is",
+          "It is"
         ],
-        "answer": 1
+        "answer": 0
       }
     ]
   },
@@ -791,11 +791,11 @@
       {
         "q": "If it _____ tomorrow, we'll cancel the picnic.",
         "options": [
-          "rains",
           "will rain",
-          "rained"
+          "rained",
+          "rains"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "If she had known, she _____ you.",
@@ -886,10 +886,10 @@
       {
         "q": "It _____ rain later; take a coat.",
         "options": [
-          "must",
-          "could"
+          "could",
+          "must"
         ],
-        "answer": 1
+        "answer": 0
       }
     ]
   },
@@ -937,18 +937,18 @@
       {
         "q": "«Se venden casas» →",
         "options": [
-          "Houses are sold.",
-          "Houses sell."
+          "Houses sell.",
+          "Houses are sold."
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "The room _____ every day.",
         "options": [
-          "is cleaned",
-          "is cleaning"
+          "is cleaning",
+          "is cleaned"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "The problem _____ already been solved.",
@@ -965,7 +965,7 @@
     "title": "Phrasal verbs esenciales",
     "level": "b1",
     "why": "No se pueden traducir literalmente. \"Look up\" puede significar \"mirar arriba\" o \"buscar (en diccionario)\" según contexto. Hay miles, pero ~200 cubren el uso diario.",
-    "rule": "Separables (objeto entre verbo y partícula u después): \"turn the light on / turn on the light\". Inseparables: \"look after the children\" (no \"*look the children after\"). Memorizar como unidades.",
+    "rule": "Separables (objeto entre verbo y partícula o después): \"turn the light on / turn on the light\". Inseparables: \"look after the children\" (no \"*look the children after\"). Memorizar como unidades.",
     "examples": [
       [
         "Could you turn off the TV?",
@@ -977,11 +977,11 @@
       ],
       [
         "Find out what time it starts.",
-        "Inseparable, transitivo."
+        "Separable («find it out»); si el objeto es una oración, va detrás de la partícula."
       ],
       [
         "She finally gave up smoking.",
-        "Inseparable."
+        "Separable: «give it up»."
       ]
     ],
     "exercises": [
@@ -997,20 +997,20 @@
       {
         "q": "I can't _____ this puzzle.",
         "options": [
-          "figure out",
           "put up with",
-          "come across"
+          "come across",
+          "figure out"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": "How do you _____ all this stress?",
         "options": [
-          "put up with",
           "look up",
+          "put up with",
           "turn into"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "I ran _____ an old friend yesterday.",
@@ -1024,11 +1024,11 @@
       {
         "q": "We need to _____ a solution to this problem.",
         "options": [
-          "come up with",
           "put off",
-          "take after"
+          "take after",
+          "come up with"
         ],
-        "answer": 0
+        "answer": 2
       }
     ]
   },
@@ -1167,10 +1167,10 @@
       {
         "q": "The film _____ we saw was long.",
         "options": [
-          "that",
-          "what"
+          "what",
+          "that"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "I know _____ you're thinking.",
@@ -1218,10 +1218,10 @@
       {
         "q": "«I live in Lima» → He said he _____ in Lima.",
         "options": [
-          "lives",
-          "lived"
+          "lived",
+          "lives"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "q": "«What time is it?» → She asked what time _____.",
@@ -1234,10 +1234,10 @@
       {
         "q": "«I can help» → He said he _____ help.",
         "options": [
-          "can",
-          "could"
+          "could",
+          "can"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "q": "«Are you ready?» → He asked _____ ready.",
@@ -1285,10 +1285,10 @@
       {
         "q": "I _____ play the piano as a child.",
         "options": [
-          "used to",
-          "am used to"
+          "am used to",
+          "used to"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": "She's _____ to working nights now.",
@@ -1317,10 +1317,10 @@
       {
         "q": "Are you used to _____ climate?",
         "options": [
-          "this",
-          "these"
+          "these",
+          "this"
         ],
-        "answer": 0
+        "answer": 1
       }
     ]
   },
@@ -1384,10 +1384,10 @@
       {
         "q": "«Estoy avergonzado» →",
         "options": [
-          "I'm embarrassed.",
-          "I'm embarazed."
+          "I'm embarazed.",
+          "I'm embarrassed."
         ],
-        "answer": 0
+        "answer": 1
       }
     ]
   },
@@ -1435,10 +1435,10 @@
       {
         "q": "«The method is _____ more efficient.»",
         "options": [
-          "absolutely",
-          "arguably"
+          "arguably",
+          "absolutely"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "q": "«This _____ explain the difference.»",
@@ -1553,10 +1553,10 @@
       {
         "q": "I avoid _____ at night.",
         "options": [
-          "to drive",
-          "driving"
+          "driving",
+          "to drive"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "q": "They managed _____ the deadline.",

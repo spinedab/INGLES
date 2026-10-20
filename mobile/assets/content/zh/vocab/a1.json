@@ -1037,7 +1037,7 @@
   {
     "id": "zh-a1-081",
     "front": "写 (xiě)",
-    "definition": "用笔造字",
+    "definition": "用笔在纸上记下文字",
     "example": "我写汉字。(Wǒ xiě Hànzì.)",
     "translation": "escribir",
     "tags": [
@@ -1193,7 +1193,7 @@
     "id": "zh-a1-093",
     "front": "认识 (rènshi)",
     "definition": "知道是谁，见过",
-    "example": "我认识他。认识你很高兴。(Wǒ rènshi tā.)",
+    "example": "我认识他。认识你很高兴。(Wǒ rènshi tā. Rènshi nǐ hěn gāoxìng.)",
     "translation": "conocer",
     "tags": [
       "a1",
@@ -1282,7 +1282,7 @@
     "id": "zh-a1-100",
     "front": "多少 (duōshao)",
     "definition": "问数量（大数字）",
-    "example": "多少钱？你们有多少人？(Duōshao qián?)",
+    "example": "多少钱？你们有多少人？(Duōshao qián? Nǐmen yǒu duōshao rén?)",
     "translation": "cuánto(s)",
     "tags": [
       "a1",
@@ -1295,7 +1295,7 @@
     "id": "zh-a1-101",
     "front": "几 (jǐ)",
     "definition": "问数量（小数字，十以下）",
-    "example": "你有几个孩子？现在几点？(Nǐ yǒu jǐ ge háizi?)",
+    "example": "你有几个孩子？现在几点？(Nǐ yǒu jǐ ge háizi? Xiànzài jǐ diǎn?)",
     "translation": "cuántos (pocos)",
     "tags": [
       "a1",
@@ -1361,7 +1361,7 @@
     "id": "zh-a1-106",
     "front": "和 (hé)",
     "definition": "连接两个名词",
-    "example": "我和你。爸爸和妈妈。(Wǒ hé nǐ.)",
+    "example": "我和你。爸爸和妈妈。(Wǒ hé nǐ. Bàba hé māma.)",
     "translation": "y (une sustantivos)",
     "tags": [
       "a1",
@@ -1374,7 +1374,7 @@
     "id": "zh-a1-107",
     "front": "太 (tài)",
     "definition": "程度太高，常和\"了\"一起",
-    "example": "太贵了！太好了！(Tài guì le!)",
+    "example": "太贵了！太好了！(Tài guì le! Tài hǎo le!)",
     "translation": "demasiado",
     "tags": [
       "a1",
@@ -1483,7 +1483,7 @@
     "id": "zh-a1-116",
     "front": "号 (hào)",
     "definition": "日期的\"日\"（口语）；号码",
-    "example": "今天几号？五月十号。(Jīntiān jǐ hào?)",
+    "example": "今天几号？五月十号。(Jīntiān jǐ hào? Wǔyuè shí hào.)",
     "translation": "día (del mes); número",
     "tags": [
       "a1",
@@ -1732,7 +1732,7 @@
     "id": "zh-a1-135",
     "front": "您 (nín)",
     "definition": "你的尊称",
-    "example": "您好！您是王老师吗？(Nín hǎo!)",
+    "example": "您好！您是王老师吗？(Nín hǎo! Nín shì Wáng lǎoshī ma?)",
     "translation": "usted",
     "tags": [
       "a1",
@@ -2113,7 +2113,7 @@
     "id": "zh-a1-165",
     "front": "爱 (ài)",
     "definition": "很喜欢，有深的感情",
-    "example": "我爱你。我爱吃饺子。(Wǒ ài nǐ.)",
+    "example": "我爱你。我爱吃饺子。(Wǒ ài nǐ. Wǒ ài chī jiǎozi.)",
     "translation": "amar; encantar",
     "tags": [
       "a1",
@@ -2125,7 +2125,7 @@
     "id": "zh-a1-166",
     "front": "做 (zuò)",
     "definition": "进行某个动作；制作",
-    "example": "你做什么工作？我做饭。(Nǐ zuò shénme gōngzuò?)",
+    "example": "你做什么工作？我做饭。(Nǐ zuò shénme gōngzuò? Wǒ zuò fàn.)",
     "translation": "hacer",
     "tags": [
       "a1",
@@ -2151,7 +2151,7 @@
     "id": "zh-a1-168",
     "front": "给 (gěi)",
     "definition": "交给某人；也是介词\"对、向\"",
-    "example": "给你。我给他一本书。(Gěi nǐ.)",
+    "example": "给你。我给他一本书。(Gěi nǐ. Wǒ gěi tā yì běn shū.)",
     "translation": "dar; a, para",
     "tags": [
       "a1",
@@ -2213,7 +2213,7 @@
     "id": "zh-a1-173",
     "front": "没关系 (méi guānxi)",
     "definition": "回答\"对不起\"",
-    "example": "— 对不起。— 没关系。(Méi guānxi.)",
+    "example": "— 对不起。— 没关系。(Duìbuqǐ. Méi guānxi.)",
     "translation": "no pasa nada",
     "tags": [
       "a1",
@@ -2226,7 +2226,7 @@
     "id": "zh-a1-174",
     "front": "不客气 (bú kèqi)",
     "definition": "回答\"谢谢\"",
-    "example": "— 谢谢！— 不客气。(Bú kèqi.)",
+    "example": "— 谢谢！— 不客气。(Xièxie! Bú kèqi.)",
     "translation": "de nada",
     "tags": [
       "a1",
@@ -2239,7 +2239,7 @@
     "id": "zh-a1-175",
     "front": "喂 (wèi)",
     "definition": "打电话时的第一句话",
-    "example": "喂，你好，请问是王老师吗？(Wèi, nǐ hǎo.)",
+    "example": "喂，你好，请问是王老师吗？(Wèi, nǐ hǎo, qǐngwèn shì Wáng lǎoshī ma?)",
     "translation": "¿aló?, ¿diga?",
     "tags": [
       "a1",
@@ -2264,7 +2264,7 @@
     "id": "zh-a1-177",
     "front": "吧 (ba)",
     "definition": "句末，表示建议或猜测",
-    "example": "我们走吧。你是学生吧？(Wǒmen zǒu ba.)",
+    "example": "我们走吧。你是学生吧？(Wǒmen zǒu ba. Nǐ shì xuésheng ba?)",
     "translation": "(sugerencia: ¿vamos?)",
     "tags": [
       "a1",
@@ -2277,7 +2277,7 @@
     "id": "zh-a1-178",
     "front": "啊 (a)",
     "definition": "句末，表示感叹",
-    "example": "好啊！是啊。(Hǎo a!)",
+    "example": "好啊！是啊。(Hǎo a! Shì a.)",
     "translation": "(exclamación)",
     "tags": [
       "a1",
@@ -2328,7 +2328,7 @@
     "id": "zh-a1-182",
     "front": "天 (tiān)",
     "definition": "一日；天空",
-    "example": "三天。今天天气好。(sān tiān)",
+    "example": "三天。今天天气好。(sān tiān. Jīntiān tiānqì hǎo.)",
     "translation": "día; cielo",
     "tags": [
       "a1",
@@ -2516,7 +2516,7 @@
     "id": "zh-a1-197",
     "front": "渴 (kě)",
     "definition": "想喝水",
-    "example": "我渴了，要喝水。(Wǒ kě le.)",
+    "example": "我渴了，要喝水。(Wǒ kě le, yào hē shuǐ.)",
     "translation": "sediento (tener sed)",
     "tags": [
       "a1",

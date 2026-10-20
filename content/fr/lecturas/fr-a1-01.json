@@ -25,10 +25,10 @@
     }
   ],
   "collocations": [
-    "se lever à six heures",
-    "prendre le petit-déjeuner",
-    "aller au travail",
-    "rentrer chez moi",
+    "me lève à six heures",
+    "prends mon petit-déjeuner",
+    "vais au travail",
+    "rentre chez moi",
     "le week-end"
   ],
   "questions": [
@@ -62,11 +62,11 @@
     {
       "q": "Que fait-elle le samedi ?",
       "options": [
-        "Elle va à la plage",
         "Elle travaille",
-        "Elle déjeune en famille"
+        "Elle déjeune en famille",
+        "Elle va à la plage"
       ],
-      "answer": 0
+      "answer": 2
     }
   ]
 }

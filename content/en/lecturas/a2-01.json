@@ -9,11 +9,11 @@
     {"word":"shaking","tip":"temblando"},
     {"word":"confident","tip":"seguro de sí mismo"}
   ],
-  "collocations": ["apply for a position", "wake up early", "put on a suit", "make a joke", "get the job"],
+  "collocations": ["applied for a position", "woke up early", "put on my best suit", "made a joke", "got the job"],
   "questions": [
     {"q":"How long ago was the first interview?","options":["One year","Three years","Five years"],"answer":2},
-    {"q":"What did the narrator forget?","options":["Their suit","Their CV","Their phone"],"answer":1},
-    {"q":"How long did the interview last?","options":["15 minutes","30 minutes","1 hour"],"answer":1},
+    {"q":"What did the narrator forget?","options":["Their CV","Their suit","Their phone"],"answer":0},
+    {"q":"How long did the interview last?","options":["30 minutes","15 minutes","1 hour"],"answer":0},
     {"q":"What helped the narrator in the interview?","options":["Their CV","Making a joke","Their suit"],"answer":1},
     {"q":"What lesson does the narrator share at the end?","options":["Always bring your CV","Being prepared is enough","Being human matters too"],"answer":2}
   ]

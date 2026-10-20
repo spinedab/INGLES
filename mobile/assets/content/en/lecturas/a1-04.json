@@ -26,9 +26,9 @@
   ],
   "collocations": [
     "the weather was terrible",
-    "stay at home",
+    "stayed at home",
     "on the corner",
-    "come back",
+    "came back",
     "at the end"
   ],
   "questions": [
@@ -63,10 +63,10 @@
       "q": "Why did they come back quickly?",
       "options": [
         "The shop was closed",
-        "The sky was grey again",
-        "They forgot the money"
+        "They forgot the money",
+        "The sky was grey again"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "q": "How did Lucía feel about the day?",

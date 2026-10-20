@@ -28,18 +28,18 @@
     "il convient de rappeler",
     "un changement en cours",
     "loin d'être",
-    "il faut que",
-    "cesser de… et commencer à…"
+    "il faut qu'il maîtrise",
+    "cesse de… et commence à…"
   ],
   "questions": [
     {
       "q": "Quel argument l'auteur oppose-t-il à l'idée de dégradation ?",
       "options": [
-        "La même plainte se répète depuis des siècles",
         "Les jeunes lisent plus",
-        "Le français est récent"
+        "Le français est récent",
+        "La même plainte se répète depuis des siècles"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "q": "Pourquoi « j'sais pas » n'est-il pas un relâchement ?",
@@ -53,11 +53,11 @@
     {
       "q": "Que faut-il pour être un locuteur compétent ?",
       "options": [
-        "Maîtriser plusieurs registres et savoir les choisir",
         "Parler toujours formellement",
+        "Maîtriser plusieurs registres et savoir les choisir",
         "Éviter l'argot"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "q": "Quelle est la thèse finale ?",
