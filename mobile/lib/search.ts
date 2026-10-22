@@ -24,9 +24,20 @@ function stripHtml(text: string): string {
   return String(text || '').replace(/<[^>]*>/g, ' ');
 }
 
+// \b es ASCII: no casaba entre hanzi ni ante «à», y las colocaciones chinas se
+// guardaban sin ejemplo. «…» es un hueco y el pinyin final se ignora. Mismo
+// criterio que webapp/js/search.js.
 function findSentence(text: string, term: string): string {
-  const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const re = new RegExp(`[^.!?]*\\b${escaped}\\b[^.!?]*[.!?]?`, 'i');
+  const base = String(term).replace(/\s*\([^)]*\)\s*$/, '').replace(/[?？!！]\s*$/, '').trim();
+  if (!base) return '';
+  const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const cjk = /[\u3400-\u9FFF]/.test(base);
+  const L = 'A-Za-z\u00C0-\u024F';
+  const gap = cjk ? '[^。！？\\n]{0,12}?' : '[^.!?\\n]{0,40}?';
+  const body = base.split('…').map((p) => esc(p.trim())).filter(Boolean).join(gap);
+  const re = cjk
+    ? new RegExp(`[^。！？()\\n]*${body}[^。！？()\\n]*[。！？]?`)
+    : new RegExp(`[^.!?\\n]*(?:^|[^${L}])${body}(?![${L}])[^.!?\\n]*[.!?]?`, 'i');
   return (String(text || '').match(re) || [''])[0].trim();
 }
 

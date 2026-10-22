@@ -14,6 +14,7 @@ const CORE_ASSETS = [
   './js/storage.js',
   './js/srs.js',
   './js/insights.js',
+  './js/lang.js',
   './js/dashboard.js',
   './js/flashcards.js',
   './js/reading.js',

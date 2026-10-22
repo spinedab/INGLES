@@ -13,7 +13,8 @@ export async function loadText(id) {
 }
 
 export async function renderReading(view, level) {
-  const route = location.hash.replace(/^#\/reading\/?/, '');
+  // Decodificado: un id con tilde («pt-pretérito-imperfeito») llega como %C3%A9.
+  const route = decodeURIComponent(location.hash.replace(/^#\/reading\/?/, ''));
   if (!route) return renderIndex(view, level);
   return renderText(view, level, route);
 }

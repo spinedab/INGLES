@@ -253,73 +253,6 @@ export default function Coach() {
             English» con palabras del deck activo. */}
         {lang === 'en' ? (
           <>
-
-          </>
-        ) : (
-          <Card style={{ marginTop: spacing.xl }}>
-            <Text muted>
-              El coach de escritura y el shadowing están disponibles por ahora solo para inglés.
-            </Text>
-          </Card>
-        )}
-
-        {summary && (
-          <>
-            <Text variant="caption" muted style={{ textTransform: 'uppercase' }}>
-              Misión de hoy · {level.toUpperCase()}
-            </Text>
-            <View style={{ marginTop: spacing.sm, marginBottom: spacing.lg }}>
-              <MissionList mission={mission} />
-            </View>
-
-            <View style={styles.statsRow}>
-              <StatBlock label="Hoy" value={`${Math.round(summary.totals.todayMinutes)}m`} />
-              <StatBlock label="Meta" value={`${summary.goal}m`} />
-              <StatBlock label="Racha" value={`${summary.streak}d`} />
-              <StatBlock label="Semana" value={`${Math.round(summary.totals.weekMinutes)}m`} />
-            </View>
-
-            <Text variant="h2" style={{ marginTop: spacing.xl }}>
-              Esta semana
-            </Text>
-            <WeekBars week={summary.week} goal={summary.goal} />
-
-            <View style={{ flexDirection: 'row', alignItems: 'center', gap: spacing.md }}>
-              <Text muted style={{ flex: 1 }}>
-                Meta diaria (minutos):
-              </Text>
-              <TextInput
-                value={goalDraft}
-                onChangeText={setGoalDraft}
-                onBlur={onGoalBlur}
-                keyboardType="number-pad"
-                style={[
-                  styles.smallInput,
-                  { borderColor: theme.border, color: theme.fg, backgroundColor: theme.card },
-                ]}
-              />
-            </View>
-          </>
-        )}
-
-        <Text variant="h2" style={{ marginTop: spacing.xl }}>
-          Temporizador de foco
-        </Text>
-        <Text muted style={{ marginBottom: spacing.sm }}>
-          Bloques cortos con registro automático.
-        </Text>
-        <View style={[styles.timerBox, { backgroundColor: theme.card, borderColor: theme.border }]}>
-          <Text style={[styles.timerDisplay, { color: theme.accent }]}>
-            {mm}:{ss}
-          </Text>
-        </View>
-        <View style={styles.btnRow}>
-          <Button title={running ? 'En curso' : 'Iniciar'} onPress={startTimer} disabled={running} style={{ flex: 1 }} />
-          <Button title="Pausar" variant="secondary" onPress={pauseTimer} style={{ flex: 1 }} />
-          <Button title="Reset" variant="secondary" onPress={resetTimer} style={{ flex: 1 }} />
-        </View>
-        <Button title="Registrar 10 min manualmente" variant="secondary" onPress={logManualTimer} style={{ marginTop: spacing.sm }} />
-
         <Text variant="h2" style={{ marginTop: spacing.xl }}>
           Writing coach
         </Text>
@@ -456,6 +389,14 @@ export default function Coach() {
                 Extra: {comparison.extra.slice(0, 8).join(', ')}
               </Text>
             )}
+          </Card>
+        )}
+          </>
+        ) : (
+          <Card style={{ marginTop: spacing.xl }}>
+            <Text muted>
+              El coach de escritura y el shadowing están disponibles por ahora solo para inglés.
+            </Text>
           </Card>
         )}
 

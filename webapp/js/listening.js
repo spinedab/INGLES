@@ -12,7 +12,8 @@ export async function loadListen(id) {
 }
 
 export async function renderListening(view, level) {
-  const route = location.hash.replace(/^#\/listening\/?/, '');
+  // Decodificado: un id con tilde («pt-pretérito-imperfeito») llega como %C3%A9.
+  const route = decodeURIComponent(location.hash.replace(/^#\/listening\/?/, ''));
   if (!route) return renderIndex(view, level);
   return renderItem(view, route);
 }

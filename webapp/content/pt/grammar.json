@@ -232,7 +232,7 @@
     ],
     "exercises": [
       {
-        "q": "Quando eu _____ tempo, te ligo.",
+        "q": "Amanhã, quando eu _____ tempo, te ligo.",
         "options": [
           "tiver",
           "tenho",
@@ -250,7 +250,7 @@
         "answer": 1
       },
       {
-        "q": "Depois que nós _____ o trabalho, descansamos.",
+        "q": "Amanhã, depois que nós _____ o trabalho, vamos descansar.",
         "options": [
           "terminamos",
           "terminaremos",
@@ -259,7 +259,7 @@
         "answer": 2
       },
       {
-        "q": "Quando ela _____ o e-mail, responde logo.",
+        "q": "Amanhã, quando ela _____ o e-mail, vai responder logo.",
         "options": [
           "lê",
           "lerá",
@@ -268,7 +268,7 @@
         "answer": 2
       },
       {
-        "q": "Se eu _____ dinheiro, compro a passagem.",
+        "q": "Se eu _____ dinheiro amanhã, compro a passagem.",
         "options": [
           "ganho",
           "ganhar",

@@ -6,7 +6,9 @@ import { loadTopics } from './grammar.js';
 import { addLexiconEntry, isSaved } from './notebook.js';
 
 const LEVELS = ['a1', 'a2', 'b1', 'b2'];
-let indexCache = null;
+// Un índice por idioma: con uno solo, al cambiar de idioma desde la cabecera
+// la búsqueda seguía devolviendo el idioma anterior hasta recargar.
+const indexCache = new Map();
 
 export async function renderSearch(view, level) {
   const query = readQuery();
@@ -50,7 +52,8 @@ export async function renderSearch(view, level) {
 }
 
 async function buildSearchIndex() {
-  if (indexCache) return indexCache;
+  const code = lang.current();
+  if (indexCache.has(code)) return indexCache.get(code);
   const items = [];
 
   for (const level of LEVELS) {
@@ -154,8 +157,9 @@ async function buildSearchIndex() {
     });
   }
 
-  indexCache = items.map(item => ({ ...item, haystack: normalize(`${item.title} ${item.subtitle} ${item.body}`) }));
-  return indexCache;
+  const built = items.map(item => ({ ...item, haystack: normalize(`${item.title} ${item.subtitle} ${item.body}`) }));
+  indexCache.set(code, built);
+  return built;
 }
 
 function searchIndex(index, query, { type, level }) {
@@ -262,8 +266,21 @@ function stripHtml(text) {
   return String(text || '').replace(/<[^>]*>/g, ' ');
 }
 
+const LETTER = 'A-Za-z\u00C0-\u024F';
+const CJK = /[\u3400-\u9FFF]/;
+
+// Frase de ejemplo para el cuaderno. \b es ASCII: no casaba entre hanzi ni ante
+// «à», y todas las colocaciones chinas se guardaban sin ejemplo. Mismo criterio
+// que las glosas de reading.js: «…» es un hueco y el pinyin final se ignora.
 function findSentence(text, term) {
-  const re = new RegExp(`[^.!?]*\\b${escapeRe(term)}\\b[^.!?]*[.!?]?`, 'i');
+  const base = String(term).replace(/\s*\([^)]*\)\s*$/, '').replace(/[?？!！]\s*$/, '').trim();
+  if (!base) return '';
+  const cjk = CJK.test(base);
+  const gap = cjk ? '[^。！？\\n]{0,12}?' : '[^.!?\\n]{0,40}?';
+  const body = base.split('…').map(p => escapeRe(p.trim())).filter(Boolean).join(gap);
+  const re = cjk
+    ? new RegExp(`[^。！？()\\n]*${body}[^。！？()\\n]*[。！？]?`)
+    : new RegExp(`[^.!?\\n]*(?:^|[^${LETTER}])${body}(?![${LETTER}])[^.!?\\n]*[.!?]?`, 'i');
   return (String(text || '').match(re) || [''])[0].trim();
 }
 

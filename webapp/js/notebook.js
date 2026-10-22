@@ -230,9 +230,7 @@ function renderQuiz(entries) {
   }
   const entry = entries[Math.floor(Math.random() * entries.length)];
   const cloze = entry.example
-    ? entry.example.replace(/[\u3400-\u9FFF]/.test(entry.term)
-      ? new RegExp(`()${escapeRe(entry.term)}`)
-      : new RegExp(`(^|[^A-Za-z\u00C0-\u024F])${escapeRe(entry.term)}(?![A-Za-z\u00C0-\u024F])`, 'i'), '$1_____')
+    ? entry.example.replace(clozeRe(entry.term, entry.example), '$1_____')
     : `¿Cómo usarías «${entry.term}» en una frase?`;
   return `
     <div class="quiz-card">
@@ -262,6 +260,19 @@ function deleteEntry(id) {
 // Determinista también para escrituras sin letras latinas: con el antiguo
 // fallback a Date.now(), «你» recibía un id nuevo en cada guardado. Los ids
 // latinos no cambian. Mismo criterio que mobile/lib/notebook.ts.
+// Hueco del quiz. \b es ASCII (no casa entre hanzi ni ante «é»), así que el
+// límite se hace a mano; si la palabra no aparece tal cual se tapa la forma
+// flexionada (years, talked, enfants), y se tapan todas las apariciones.
+// Mismo criterio que mobile/lib/notebook.ts.
+function clozeRe(term, example) {
+  const esc = escapeRe(term);
+  if (/[\u3400-\u9FFF]/.test(term)) return new RegExp(`()${esc}`, 'g');
+  const L = 'A-Za-z\u00C0-\u024F';
+  const exact = new RegExp(`(^|[^${L}])${esc}(?![${L}])`, 'gi');
+  if (exact.test(example)) { exact.lastIndex = 0; return exact; }
+  return new RegExp(`(^|[^${L}])${esc}[${L}]{0,4}(?![${L}])`, 'gi');
+}
+
 function entryId(term) {
   return normalize(term).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
     || 'u-' + Array.from(term.trim()).map(c => c.codePointAt(0).toString(16)).join('-');

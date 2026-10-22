@@ -120,10 +120,17 @@ export function buildCloze(entry: LexiconEntry): { prompt: string; answer: strin
   if (entry.example) {
     // \b es ASCII: no casa entre hanzi ni ante «é» o «à», y la respuesta se
     // quedaba a la vista en la frase.
+    // Si la palabra no aparece tal cual se tapa la forma flexionada (years,
+    // talked), y se tapan todas las apariciones. Mismo criterio que la web.
     const esc = entry.term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const re = /[\u3400-\u9FFF]/.test(entry.term)
-      ? new RegExp(`()${esc}`)
-      : new RegExp(`(^|[^A-Za-z\u00C0-\u024F])${esc}(?![A-Za-z\u00C0-\u024F])`, 'i');
+    const L = 'A-Za-z\u00C0-\u024F';
+    let re: RegExp;
+    if (/[\u3400-\u9FFF]/.test(entry.term)) re = new RegExp(`()${esc}`, 'g');
+    else {
+      re = new RegExp(`(^|[^${L}])${esc}(?![${L}])`, 'gi');
+      if (!re.test(entry.example)) re = new RegExp(`(^|[^${L}])${esc}[${L}]{0,4}(?![${L}])`, 'gi');
+      re.lastIndex = 0;
+    }
     const prompt = entry.example.replace(re, '$1_____');
     return { prompt, answer: entry.term };
   }

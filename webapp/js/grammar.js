@@ -19,7 +19,8 @@ export async function loadTopics() {
 }
 
 export async function renderGrammar(view, level) {
-  const route = location.hash.replace(/^#\/grammar\/?/, '');
+  // Decodificado: un id con tilde («pt-pretérito-imperfeito») llega como %C3%A9.
+  const route = decodeURIComponent(location.hash.replace(/^#\/grammar\/?/, ''));
   if (!route) return renderIndex(view, level);
   const TOPICS = await loadTopics();
   const topic = TOPICS.find(t => t.id === route);

@@ -20,11 +20,15 @@ export async function renderFlashcards(view, level) {
   let queue = srs.selectQueue(deck, vocab, { newPerDay: 20 });
   let idx = 0;
   let revealed = false;
+  // Acciones de la tarjeta visible, para el único listener de teclado.
+  let currentReveal = null;
+  let currentGrade = null;
   let sessionLogged = false;
   let sessionStats = { again: 0, hard: 0, good: 0, easy: 0 };
 
   function showCard() {
     if (idx >= queue.length) {
+      currentReveal = currentGrade = null;
       if (!sessionLogged) {
         sessionLogged = true;
         logActivity('flashcards_session', {
@@ -105,18 +109,24 @@ export async function renderFlashcards(view, level) {
       showCard();
     }
 
-    // Keyboard shortcuts
-    function onKey(e) {
-      if (e.key === ' ' || e.code === 'Space') { e.preventDefault(); reveal(); }
-      else if (revealed) {
-        if (e.key === '1') grade(1);
-        else if (e.key === '2') grade(3);
-        else if (e.key === '3') grade(4);
-        else if (e.key === '4') grade(5);
-      }
+    currentReveal = reveal;
+    currentGrade = grade;
+  }
+
+  // Un solo listener por sesión. Antes se añadía uno por tarjeta y _cleanup
+  // solo quitaba el último: los demás seguían vivos en otras vistas, se comían
+  // los espacios al escribir y podían puntuar la tarjeta equivocada.
+  function onKey(e) {
+    const t = e.target;
+    if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT' || t.isContentEditable)) return;
+    if (!currentReveal) return;
+    if (e.key === ' ' || e.code === 'Space') { e.preventDefault(); currentReveal(); }
+    else if (revealed) {
+      if (e.key === '1') currentGrade(1);
+      else if (e.key === '2') currentGrade(3);
+      else if (e.key === '3') currentGrade(4);
+      else if (e.key === '4') currentGrade(5);
     }
-    document.addEventListener('keydown', onKey);
-    view._cleanup = () => document.removeEventListener('keydown', onKey);
   }
 
   if (queue.length === 0) {
@@ -129,6 +139,8 @@ export async function renderFlashcards(view, level) {
     return;
   }
 
+  document.addEventListener('keydown', onKey);
+  view._cleanup = () => document.removeEventListener('keydown', onKey);
   showCard();
 }
 
