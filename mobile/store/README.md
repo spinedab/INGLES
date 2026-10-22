@@ -20,8 +20,9 @@ Creado el 31 de julio de 2026 con la clave de API de App Store Connect
 
 `mobile/eas.json` ya lleva el `ascAppId` y el `appleTeamId` reales.
 
-> Estado actual (19 oct 2026): versión 1.1 (build 3) **`READY_FOR_SALE`** — a
-> la venta, gratis, 175 territorios. Detalle e historial del envío en
+> Estado actual (22 oct 2026): versión 1.1 (build 3) **`READY_FOR_SALE`** — a
+> la venta, gratis, 175 territorios. La 1.2 (build 4) está en revisión
+> (`WAITING_FOR_REVIEW`) con la ficha nueva de [`ficha-app-store.md`](ficha-app-store.md). Detalle e historial del envío en
 > [`../IOS.md`](../IOS.md).
 
 ## Ficha

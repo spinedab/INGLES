@@ -8,7 +8,7 @@ Mismo codebase que Android y web.
 | Bundle identifier | `com.spinedab.ingles` |
 | Nombre visible | Tutor Inglés (`ios.infoPlist.CFBundleDisplayName`) |
 | Nombre del proyecto Xcode | `TutorInglesIA` |
-| Versión / build | `1.1.0` / `3` (`app.json`; con `appVersionSource: "remote"` en `eas.json`, EAS lleva el build number en remoto) |
+| Versión / build | `1.2.0` / `4` (`app.json`; con `appVersionSource: "remote"` en `eas.json`, EAS lleva el build number en remoto) |
 | iPad | No: solo iPhone (`supportsTablet: false`, `TARGETED_DEVICE_FAMILY = 1`) |
 | Arquitectura | New Architecture activada (`newArchEnabled: true`) |
 
@@ -112,10 +112,20 @@ npm run submit:ios               # eas submit --platform ios --profile productio
 - **Localizaciones**: `CFBundleLocalizations: ["es", "en"]`. UI en español;
   contenido de inglés, portugués (pt-BR), francés, italiano y mandarín.
 
-### Estado (19 oct 2026)
+### Estado (22 oct 2026)
 
 La versión 1.1 (build 3) está **a la venta** (`READY_FOR_SALE`), gratis, en 175
-territorios. La 1.2 está en preparación.
+territorios. La **1.2 (build 4) está enviada a revisión** (`WAITING_FOR_REVIEW`,
+por API): corrige la descripción, que prometía un tutor que la app no tiene, y
+trae los arreglos de la auditoría del 19 oct. Se publica sola al aprobarse
+(`AFTER_APPROVAL`).
+
+Receta del build, la misma de la 1.1: `expo prebuild --platform ios --clean`,
+`xcodebuild archive` con firma manual (`Apple Distribution` + perfil
+`TutorInglesIA AppStore`), `-exportArchive` con
+[`store/ExportOptions.plist`](store/ExportOptions.plist) y `xcrun altool
+--upload-app` con la clave de API. El envío a revisión va por
+`/v1/reviewSubmissions` (`tools/asc.py`).
 
 ### Historial: envío de la 1.0 (28 ago 2026)
 

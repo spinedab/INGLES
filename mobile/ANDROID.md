@@ -7,9 +7,9 @@ superseded — ver [`native/README.md`](../native/README.md).
 | Dato | Valor |
 |------|-------|
 | applicationId | `com.spinedab.ingles` (el mismo que el bundle id de iOS) |
-| versionCode / versionName | `4` / `1.1.0` (`app.json`) — del `1` al `4` ya están subidos a Play; la próxima subida necesita `5` |
+| versionCode / versionName | `5` / `1.2.0` (`app.json`) — del `1` al `5` ya están subidos a Play; la próxima subida necesita `6` |
 | targetSdk | 36 — Play lo exige desde 2026; se fija con `expo-build-properties`, no a mano |
-| Nombre visible | `TutorInglesIA`: sale de `expo.name` en `app.json` hasta que entre el config plugin que pone «Tutor Inglés IA» |
+| Nombre visible | Tutor Inglés IA — lo fija [`plugins/withAndroidAppLabel.js`](plugins/withAndroidAppLabel.js); sin él saldría `expo.name` («TutorInglesIA») |
 
 ## Requisitos del entorno
 
@@ -115,8 +115,8 @@ Estado real en Play Console (verificado el 12 ago 2026):
 | Play App Signing | Activo |
 
 Por eso `app.json` pasó a `versionCode: 3`: el 2 ya estaba ocupado. Después se
-subieron el 3 y el 4 (la 1.1.0 de «alpha»), así que el siguiente AAB necesita
-`versionCode: 5`.
+subieron el 3, el 4 (1.1.0) y el 5 (1.2.0, 22 oct 2026), así que el siguiente
+AAB necesita `versionCode: 6`.
 
 ### ~~Bloqueo 1~~ — resuelto: la clave de carga se restableció
 
@@ -148,9 +148,10 @@ prueba cerrada Alpha el 28 ago 2026.
 
 ### Bloqueo 2 — producción exige 12 verificadores que ACEPTEN y 14 días
 
-Estado verificado el 19 oct 2026 en el panel de Play Console:
+Estado verificado el 19 oct 2026 en el panel de Play Console (la 1.2.0 se subió
+el 22 oct por API):
 
-- ✅ Versión de prueba cerrada publicada: 1.1.0 (versionCode 4) en «alpha», 177 países.
+- ✅ Versión de prueba cerrada publicada: 1.2.0 (versionCode 5) en «alpha», 177 países.
 - ✅ Lista asignada: «DreamLabsTech Testers - 17 Verificadores», **64 correos invitados**.
 - ⬜ **Verificadores que aceptaron: 0.** Este es el bloqueo.
 - ⬜ 14 días seguidos con al menos 12 aceptados.
