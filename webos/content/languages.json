@@ -1,0 +1,42 @@
+[
+  {
+    "code": "en",
+    "name": "inglés",
+    "native": "English",
+    "tts": "en-US",
+    "variant": "Inglés estándar (referencia británica/americana neutra)",
+    "headline": "Aprende inglés, basado en evidencia."
+  },
+  {
+    "code": "fr",
+    "name": "francés",
+    "native": "Français",
+    "tts": "fr-FR",
+    "variant": "Francés estándar de Francia. Ortografía y pronunciación se separan mucho: se trabaja la relación sonido-grafía desde A1.",
+    "headline": "Aprende francés, basado en evidencia."
+  },
+  {
+    "code": "it",
+    "name": "italiano",
+    "native": "Italiano",
+    "tts": "it-IT",
+    "variant": "Italiano estándar. Tan cercano al español que la trampa es dar por idéntico lo que no lo es: artículos, dobles consonantes, essere/avere.",
+    "headline": "Aprende italiano, basado en evidencia."
+  },
+  {
+    "code": "pt",
+    "name": "portugués",
+    "native": "Português",
+    "tts": "pt-BR",
+    "variant": "Portugués de Brasil. Para un hispanohablante el peligro no es entender sino el «portuñol»: se insiste en la forma.",
+    "headline": "Aprende portugués, basado en evidencia."
+  },
+  {
+    "code": "zh",
+    "name": "chino mandarín",
+    "native": "普通话",
+    "tts": "zh-CN",
+    "variant": "Mandarín estándar, caracteres simplificados, con pinyin y tonos en todo el contenido A1-A2 (referencia HSK).",
+    "headline": "Aprende chino mandarín, basado en evidencia."
+  }
+]

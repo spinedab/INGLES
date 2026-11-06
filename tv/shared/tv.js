@@ -188,6 +188,19 @@
     }
   });
 
+  // Play/Pausa del mando (415 Play, 19 Pausa en LG): la acción principal de la
+  // vista. En flashcards revela la respuesta; en listening reproduce si hay
+  // voz y, si no (ningún televisor la trae), revela el guion.
+  const PLAY_KEYS = new Set([415, 19]);
+  const PLAY_TARGETS = ['#reveal', '#tts-play', '#reveal-script'];
+  document.addEventListener('keydown', (event) => {
+    if (!PLAY_KEYS.has(event.keyCode)) return;
+    for (let i = 0; i < PLAY_TARGETS.length; i++) {
+      const b = document.querySelector(PLAY_TARGETS[i]);
+      if (b && !b.disabled && visible(b)) { event.preventDefault(); b.click(); return; }
+    }
+  });
+
   // El enrutado es por hash y reemplaza el contenido de #view, así que hay que
   // recolocar el foco en cada cambio de vista.
   window.addEventListener('hashchange', () => setTimeout(reseat, 60));

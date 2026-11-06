@@ -1,0 +1,1165 @@
+[
+  {
+    "id": "pt-b1-001",
+    "front": "desenvolver (v.)",
+    "definition": "fazer crescer, elaborar",
+    "example": "A empresa desenvolveu um novo aplicativo.",
+    "translation": "desarrollar",
+    "tags": [
+      "b1",
+      "verb",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-b1-002",
+    "front": "estabelecer (v.)",
+    "definition": "fixar, criar formalmente",
+    "example": "Estabelecemos novas regras.",
+    "translation": "establecer",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-b1-003",
+    "front": "apresentar (v.)",
+    "definition": "mostrar; introduzir alguém",
+    "example": "Vou apresentar o projeto amanhã.",
+    "translation": "presentar",
+    "tags": [
+      "b1",
+      "verb",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-b1-004",
+    "front": "permitir (v.)",
+    "definition": "dar permissão; tornar possível",
+    "example": "Isso permite economizar tempo.",
+    "translation": "permitir",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-b1-005",
+    "front": "exigir (v.)",
+    "definition": "demandar como obrigatório",
+    "example": "O cargo exige inglês fluente.",
+    "translation": "exigir",
+    "tags": [
+      "b1",
+      "verb",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-b1-006",
+    "front": "garantir (v.)",
+    "definition": "assegurar",
+    "example": "Garanto que vai dar certo.",
+    "translation": "garantizar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-b1-007",
+    "front": "evitar (v.)",
+    "definition": "impedir que aconteça",
+    "example": "Evito sair no horário de pico.",
+    "translation": "evitar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-b1-008",
+    "front": "enfrentar (v.)",
+    "definition": "lidar com algo difícil",
+    "example": "Precisamos enfrentar o problema.",
+    "translation": "enfrentar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-b1-009",
+    "front": "superar (v.)",
+    "definition": "vencer uma dificuldade",
+    "example": "Ele superou as expectativas.",
+    "translation": "superar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-b1-010",
+    "front": "alcançar (v.)",
+    "definition": "chegar a; conseguir",
+    "example": "Alcançamos a meta do mês.",
+    "translation": "alcanzar",
+    "tags": [
+      "b1",
+      "verb",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-b1-011",
+    "front": "destacar (v.)",
+    "definition": "dar relevo, sobressair",
+    "example": "Vale destacar dois pontos.",
+    "translation": "destacar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-b1-012",
+    "front": "ressaltar (v.)",
+    "definition": "enfatizar",
+    "example": "O relatório ressalta os riscos.",
+    "translation": "resaltar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-b1-013",
+    "front": "sugerir (v.)",
+    "definition": "propor uma ideia",
+    "example": "Sugiro que a gente adie.",
+    "translation": "sugerir",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-b1-014",
+    "front": "propor (v.)",
+    "definition": "apresentar como proposta",
+    "example": "Propuseram uma solução simples.",
+    "translation": "proponer",
+    "tags": [
+      "b1",
+      "verb",
+      "irregular"
+    ]
+  },
+  {
+    "id": "pt-b1-015",
+    "front": "recusar (v.)",
+    "definition": "não aceitar",
+    "example": "Recusei a oferta.",
+    "translation": "rechazar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-b1-016",
+    "front": "admitir (v.)",
+    "definition": "reconhecer; aceitar",
+    "example": "Admito que errei.",
+    "translation": "admitir",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-b1-017",
+    "front": "perceber (v.)",
+    "definition": "notar, dar-se conta",
+    "example": "Percebi que ele estava nervoso.",
+    "translation": "darse cuenta",
+    "tags": [
+      "b1",
+      "verb",
+      "falsefriend"
+    ]
+  },
+  {
+    "id": "pt-b1-018",
+    "front": "reparar (v.)",
+    "definition": "notar; consertar",
+    "example": "Repare no detalhe da foto.",
+    "translation": "fijarse; reparar",
+    "tags": [
+      "b1",
+      "verb",
+      "keyword"
+    ]
+  },
+  {
+    "id": "pt-b1-019",
+    "front": "surgir (v.)",
+    "definition": "aparecer",
+    "example": "Surgiu um problema de última hora.",
+    "translation": "surgir",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-b1-020",
+    "front": "desistir (v.)",
+    "definition": "abandonar uma intenção (desistir DE)",
+    "example": "Não desista agora.",
+    "translation": "desistir, rendirse",
+    "tags": [
+      "b1",
+      "verb",
+      "preposition"
+    ]
+  },
+  {
+    "id": "pt-b1-021",
+    "front": "insistir (v.)",
+    "definition": "repetir com persistência (insistir EM)",
+    "example": "Ele insistiu em pagar.",
+    "translation": "insistir",
+    "tags": [
+      "b1",
+      "verb",
+      "preposition"
+    ]
+  },
+  {
+    "id": "pt-b1-022",
+    "front": "depender (v.)",
+    "definition": "estar condicionado (depender DE)",
+    "example": "Depende do horário.",
+    "translation": "depender",
+    "tags": [
+      "b1",
+      "verb",
+      "preposition"
+    ]
+  },
+  {
+    "id": "pt-b1-023",
+    "front": "concordar (v.)",
+    "definition": "ter a mesma opinião (concordar COM)",
+    "example": "Concordo com você.",
+    "translation": "estar de acuerdo",
+    "tags": [
+      "b1",
+      "verb",
+      "preposition"
+    ]
+  },
+  {
+    "id": "pt-b1-024",
+    "front": "discordar (v.)",
+    "definition": "ter opinião contrária",
+    "example": "Discordo dessa análise.",
+    "translation": "discrepar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-b1-025",
+    "front": "reclamar (v.)",
+    "definition": "expressar insatisfação",
+    "example": "Reclamei do serviço.",
+    "translation": "quejarse, reclamar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-b1-026",
+    "front": "agradecer (v.)",
+    "definition": "expressar gratidão",
+    "example": "Agradeço a ajuda de todos.",
+    "translation": "agradecer",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-b1-027",
+    "front": "desculpar (v.)",
+    "definition": "perdoar; pedir perdão",
+    "example": "Desculpe o atraso.",
+    "translation": "disculpar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-b1-028",
+    "front": "aproveitar (v.)",
+    "definition": "usar bem uma oportunidade",
+    "example": "Aproveitei o feriado para descansar.",
+    "translation": "aprovechar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-b1-029",
+    "front": "investir (v.)",
+    "definition": "aplicar recursos",
+    "example": "Investiram em tecnologia.",
+    "translation": "invertir",
+    "tags": [
+      "b1",
+      "verb",
+      "money"
+    ]
+  },
+  {
+    "id": "pt-b1-030",
+    "front": "economizar (v.)",
+    "definition": "gastar menos",
+    "example": "Economizo para viajar.",
+    "translation": "ahorrar",
+    "tags": [
+      "b1",
+      "verb",
+      "money"
+    ]
+  },
+  {
+    "id": "pt-b1-031",
+    "front": "gastar (v.)",
+    "definition": "usar dinheiro ou tempo",
+    "example": "Gastei muito no fim de semana.",
+    "translation": "gastar",
+    "tags": [
+      "b1",
+      "verb",
+      "money"
+    ]
+  },
+  {
+    "id": "pt-b1-032",
+    "front": "cobrar (v.)",
+    "definition": "pedir pagamento",
+    "example": "Cobraram taxa de serviço.",
+    "translation": "cobrar",
+    "tags": [
+      "b1",
+      "verb",
+      "money"
+    ]
+  },
+  {
+    "id": "pt-b1-033",
+    "front": "devolver (v.)",
+    "definition": "dar de volta",
+    "example": "Devolvi o produto na loja.",
+    "translation": "devolver",
+    "tags": [
+      "b1",
+      "verb",
+      "shopping"
+    ]
+  },
+  {
+    "id": "pt-b1-034",
+    "front": "trocar (v.)",
+    "definition": "substituir; intercambiar",
+    "example": "Quero trocar de tamanho.",
+    "translation": "cambiar",
+    "tags": [
+      "b1",
+      "verb",
+      "shopping"
+    ]
+  },
+  {
+    "id": "pt-b1-035",
+    "front": "entregar (v.)",
+    "definition": "dar em mãos; fazer chegar",
+    "example": "Entreguei o relatório no prazo.",
+    "translation": "entregar",
+    "tags": [
+      "b1",
+      "verb",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-b1-036",
+    "front": "adiar (v.)",
+    "definition": "transferir para depois",
+    "example": "Adiamos a reunião.",
+    "translation": "posponer, aplazar",
+    "tags": [
+      "b1",
+      "verb",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-b1-037",
+    "front": "cancelar (v.)",
+    "definition": "desfazer algo agendado",
+    "example": "Cancelaram o voo.",
+    "translation": "cancelar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-b1-038",
+    "front": "marcar (v.)",
+    "definition": "agendar; assinalar",
+    "example": "Vamos marcar um café.",
+    "translation": "quedar; marcar",
+    "tags": [
+      "b1",
+      "verb",
+      "keyword"
+    ]
+  },
+  {
+    "id": "pt-b1-039",
+    "front": "demorar (v.)",
+    "definition": "levar muito tempo",
+    "example": "Demorou duas horas.",
+    "translation": "tardar",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "pt-b1-040",
+    "front": "pressa (s.f.)",
+    "definition": "necessidade de rapidez",
+    "example": "Não tenha pressa.",
+    "translation": "prisa",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "pt-b1-041",
+    "front": "desafio (s.m.)",
+    "definition": "tarefa difícil e estimulante",
+    "example": "Aprender português foi um desafio.",
+    "translation": "desafío, reto",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "pt-b1-042",
+    "front": "objetivo (s.m.)",
+    "definition": "o que se quer alcançar",
+    "example": "Meu objetivo é morar no Brasil.",
+    "translation": "objetivo",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "pt-b1-043",
+    "front": "meta (s.f.)",
+    "definition": "alvo concreto a atingir",
+    "example": "Batemos a meta do trimestre.",
+    "translation": "meta",
+    "tags": [
+      "b1",
+      "noun",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-b1-044",
+    "front": "resultado (s.m.)",
+    "definition": "o que se obtém",
+    "example": "Os resultados foram positivos.",
+    "translation": "resultado",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "pt-b1-045",
+    "front": "consequência (s.f.)",
+    "definition": "efeito de algo",
+    "example": "Sofremos as consequências.",
+    "translation": "consecuencia",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "pt-b1-046",
+    "front": "vantagem (s.f.)",
+    "definition": "ponto favorável",
+    "example": "A vantagem é a flexibilidade.",
+    "translation": "ventaja",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "pt-b1-047",
+    "front": "desvantagem (s.f.)",
+    "definition": "ponto desfavorável",
+    "example": "A desvantagem é o custo.",
+    "translation": "desventaja",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "pt-b1-048",
+    "front": "risco (s.m.)",
+    "definition": "possibilidade de dano",
+    "example": "Existe risco de atraso.",
+    "translation": "riesgo",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "pt-b1-049",
+    "front": "solução (s.f.)",
+    "definition": "resposta a um problema",
+    "example": "Encontramos uma solução.",
+    "translation": "solución",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "pt-b1-050",
+    "front": "proposta (s.f.)",
+    "definition": "sugestão formal",
+    "example": "A proposta foi aprovada.",
+    "translation": "propuesta",
+    "tags": [
+      "b1",
+      "noun",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-b1-051",
+    "front": "prova (s.f.)",
+    "definition": "exame; evidência",
+    "example": "Tenho prova de português amanhã.",
+    "translation": "examen; prueba",
+    "tags": [
+      "b1",
+      "noun",
+      "school"
+    ]
+  },
+  {
+    "id": "pt-b1-052",
+    "front": "pesquisa (s.f.)",
+    "definition": "investigação; enquete",
+    "example": "Fiz uma pesquisa sobre o tema.",
+    "translation": "investigación; encuesta",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "pt-b1-053",
+    "front": "dados (s.m.pl.)",
+    "definition": "informações, números",
+    "example": "Os dados mostram uma queda.",
+    "translation": "datos",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "pt-b1-054",
+    "front": "relatório (s.m.)",
+    "definition": "documento com resultados",
+    "example": "Escrevi o relatório mensal.",
+    "translation": "informe",
+    "tags": [
+      "b1",
+      "noun",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-b1-055",
+    "front": "prazo de entrega (loc.)",
+    "definition": "data limite para entregar",
+    "example": "O prazo de entrega é sexta.",
+    "translation": "plazo de entrega",
+    "tags": [
+      "b1",
+      "noun",
+      "chunk",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-b1-056",
+    "front": "ponto de vista (loc.)",
+    "definition": "perspectiva",
+    "example": "Do meu ponto de vista, faz sentido.",
+    "translation": "punto de vista",
+    "tags": [
+      "b1",
+      "noun",
+      "chunk"
+    ]
+  },
+  {
+    "id": "pt-b1-057",
+    "front": "mão de obra (loc.)",
+    "definition": "trabalho humano disponível",
+    "example": "Falta mão de obra qualificada.",
+    "translation": "mano de obra",
+    "tags": [
+      "b1",
+      "noun",
+      "chunk",
+      "work"
+    ]
+  },
+  {
+    "id": "pt-b1-058",
+    "front": "custo de vida (loc.)",
+    "definition": "quanto custa viver num lugar",
+    "example": "O custo de vida subiu.",
+    "translation": "coste de vida",
+    "tags": [
+      "b1",
+      "noun",
+      "chunk",
+      "money"
+    ]
+  },
+  {
+    "id": "pt-b1-059",
+    "front": "horário de pico (loc.)",
+    "definition": "hora de maior movimento",
+    "example": "Evito o horário de pico.",
+    "translation": "hora punta",
+    "tags": [
+      "b1",
+      "noun",
+      "chunk",
+      "transport"
+    ]
+  },
+  {
+    "id": "pt-b1-060",
+    "front": "trânsito (s.m.)",
+    "definition": "circulação de veículos",
+    "example": "O trânsito estava horrível.",
+    "translation": "tráfico",
+    "tags": [
+      "b1",
+      "noun",
+      "transport",
+      "falsefriend"
+    ]
+  },
+  {
+    "id": "pt-b1-061",
+    "front": "engarrafamento (s.m.)",
+    "definition": "trânsito parado",
+    "example": "Fiquei duas horas no engarrafamento.",
+    "translation": "atasco, trancón",
+    "tags": [
+      "b1",
+      "noun",
+      "transport"
+    ]
+  },
+  {
+    "id": "pt-b1-062",
+    "front": "multa (s.f.)",
+    "definition": "pena em dinheiro",
+    "example": "Levei uma multa por velocidade.",
+    "translation": "multa",
+    "tags": [
+      "b1",
+      "noun",
+      "transport"
+    ]
+  },
+  {
+    "id": "pt-b1-063",
+    "front": "prefeitura (s.f.)",
+    "definition": "governo da cidade",
+    "example": "A prefeitura anunciou obras.",
+    "translation": "ayuntamiento, alcaldía",
+    "tags": [
+      "b1",
+      "noun",
+      "civic"
+    ]
+  },
+  {
+    "id": "pt-b1-064",
+    "front": "governo (s.m.)",
+    "definition": "quem administra o país",
+    "example": "O governo aprovou a lei.",
+    "translation": "gobierno",
+    "tags": [
+      "b1",
+      "noun",
+      "civic"
+    ]
+  },
+  {
+    "id": "pt-b1-065",
+    "front": "lei (s.f.)",
+    "definition": "norma jurídica",
+    "example": "A lei entra em vigor em janeiro.",
+    "translation": "ley",
+    "tags": [
+      "b1",
+      "noun",
+      "civic"
+    ]
+  },
+  {
+    "id": "pt-b1-066",
+    "front": "direito (s.m.)",
+    "definition": "prerrogativa legal; a área do Direito",
+    "example": "Todos têm direito à saúde.",
+    "translation": "derecho",
+    "tags": [
+      "b1",
+      "noun",
+      "civic"
+    ]
+  },
+  {
+    "id": "pt-b1-067",
+    "front": "dever (s.m./v.)",
+    "definition": "obrigação; ter obrigação de",
+    "example": "É nosso dever votar. Devo sair.",
+    "translation": "deber",
+    "tags": [
+      "b1",
+      "noun",
+      "civic"
+    ]
+  },
+  {
+    "id": "pt-b1-068",
+    "front": "imprensa (s.f.)",
+    "definition": "conjunto dos meios de comunicação",
+    "example": "A imprensa cobriu o caso.",
+    "translation": "prensa",
+    "tags": [
+      "b1",
+      "noun",
+      "media"
+    ]
+  },
+  {
+    "id": "pt-b1-069",
+    "front": "entrevistado (s.m.)",
+    "definition": "quem responde à entrevista",
+    "example": "O entrevistado evitou a pergunta.",
+    "translation": "entrevistado",
+    "tags": [
+      "b1",
+      "noun",
+      "media"
+    ]
+  },
+  {
+    "id": "pt-b1-070",
+    "front": "desigualdade (s.f.)",
+    "definition": "diferença injusta",
+    "example": "A desigualdade aumentou.",
+    "translation": "desigualdad",
+    "tags": [
+      "b1",
+      "noun",
+      "social"
+    ]
+  },
+  {
+    "id": "pt-b1-071",
+    "front": "moradia (s.f.)",
+    "definition": "lugar onde se vive",
+    "example": "O problema da moradia é grave.",
+    "translation": "vivienda",
+    "tags": [
+      "b1",
+      "noun",
+      "social"
+    ]
+  },
+  {
+    "id": "pt-b1-072",
+    "front": "bairro (s.m.)",
+    "definition": "parte de uma cidade",
+    "example": "Moro num bairro tranquilo.",
+    "translation": "barrio",
+    "tags": [
+      "b1",
+      "noun",
+      "places"
+    ]
+  },
+  {
+    "id": "pt-b1-073",
+    "front": "periferia (s.f.)",
+    "definition": "áreas afastadas do centro",
+    "example": "Ele mora na periferia.",
+    "translation": "periferia",
+    "tags": [
+      "b1",
+      "noun",
+      "places"
+    ]
+  },
+  {
+    "id": "pt-b1-074",
+    "front": "obra (s.f.)",
+    "definition": "construção; trabalho artístico",
+    "example": "Tem obra na rua há meses.",
+    "translation": "obra",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "pt-b1-075",
+    "front": "meio ambiente (loc.)",
+    "definition": "natureza e entorno",
+    "example": "Precisamos proteger o meio ambiente.",
+    "translation": "medio ambiente",
+    "tags": [
+      "b1",
+      "noun",
+      "chunk"
+    ]
+  },
+  {
+    "id": "pt-b1-076",
+    "front": "lixo (s.m.)",
+    "definition": "resíduos",
+    "example": "Separo o lixo reciclável.",
+    "translation": "basura",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "pt-b1-077",
+    "front": "seca (s.f.)",
+    "definition": "falta prolongada de chuva",
+    "example": "A seca afetou a colheita.",
+    "translation": "sequía",
+    "tags": [
+      "b1",
+      "noun",
+      "weather"
+    ]
+  },
+  {
+    "id": "pt-b1-078",
+    "front": "enchente (s.f.)",
+    "definition": "inundação por chuva",
+    "example": "A enchente alagou o centro.",
+    "translation": "inundación",
+    "tags": [
+      "b1",
+      "noun",
+      "weather"
+    ]
+  },
+  {
+    "id": "pt-b1-079",
+    "front": "previsão (s.f.)",
+    "definition": "estimativa do que vai acontecer",
+    "example": "A previsão é de chuva.",
+    "translation": "pronóstico, previsión",
+    "tags": [
+      "b1",
+      "noun",
+      "weather"
+    ]
+  },
+  {
+    "id": "pt-b1-080",
+    "front": "de repente (loc.)",
+    "definition": "subitamente",
+    "example": "De repente começou a chover.",
+    "translation": "de repente",
+    "tags": [
+      "b1",
+      "adv",
+      "chunk"
+    ]
+  },
+  {
+    "id": "pt-b1-081",
+    "front": "aos poucos (loc.)",
+    "definition": "gradualmente",
+    "example": "Aos poucos fui entendendo.",
+    "translation": "poco a poco",
+    "tags": [
+      "b1",
+      "adv",
+      "chunk"
+    ]
+  },
+  {
+    "id": "pt-b1-082",
+    "front": "na verdade (loc.)",
+    "definition": "de fato, corrigindo",
+    "example": "Na verdade, foi diferente.",
+    "translation": "en realidad",
+    "tags": [
+      "b1",
+      "adv",
+      "chunk"
+    ]
+  },
+  {
+    "id": "pt-b1-083",
+    "front": "além disso (loc.)",
+    "definition": "adicionalmente",
+    "example": "Além disso, é mais barato.",
+    "translation": "además",
+    "tags": [
+      "b1",
+      "adv",
+      "chunk"
+    ]
+  },
+  {
+    "id": "pt-b1-084",
+    "front": "no entanto (loc.)",
+    "definition": "contudo",
+    "example": "No entanto, existem riscos.",
+    "translation": "sin embargo",
+    "tags": [
+      "b1",
+      "conj",
+      "chunk"
+    ]
+  },
+  {
+    "id": "pt-b1-085",
+    "front": "portanto (conj.)",
+    "definition": "por essa razão",
+    "example": "Chove; portanto, ficamos em casa.",
+    "translation": "por lo tanto",
+    "tags": [
+      "b1",
+      "conj"
+    ]
+  },
+  {
+    "id": "pt-b1-086",
+    "front": "apesar de (loc.)",
+    "definition": "mesmo com",
+    "example": "Apesar do frio, saímos.",
+    "translation": "a pesar de",
+    "tags": [
+      "b1",
+      "conj",
+      "chunk"
+    ]
+  },
+  {
+    "id": "pt-b1-087",
+    "front": "embora (conj.)",
+    "definition": "ainda que (exige subjuntivo)",
+    "example": "Embora esteja cansado, vou.",
+    "translation": "aunque",
+    "tags": [
+      "b1",
+      "conj",
+      "grammar"
+    ]
+  },
+  {
+    "id": "pt-b1-088",
+    "front": "caso (conj.)",
+    "definition": "se (exige subjuntivo)",
+    "example": "Caso precise, me avise.",
+    "translation": "en caso de que",
+    "tags": [
+      "b1",
+      "conj",
+      "grammar"
+    ]
+  },
+  {
+    "id": "pt-b1-089",
+    "front": "desde que (conj.)",
+    "definition": "com a condição de que",
+    "example": "Vou, desde que você venha.",
+    "translation": "siempre que",
+    "tags": [
+      "b1",
+      "conj",
+      "grammar"
+    ]
+  },
+  {
+    "id": "pt-b1-090",
+    "front": "a fim de (loc.)",
+    "definition": "com o objetivo de",
+    "example": "Estudo a fim de melhorar.",
+    "translation": "con el fin de",
+    "tags": [
+      "b1",
+      "conj",
+      "chunk"
+    ]
+  },
+  {
+    "id": "pt-b1-091",
+    "front": "ou seja (loc.)",
+    "definition": "isto é, reformulando",
+    "example": "Vem amanhã, ou seja, terça.",
+    "translation": "o sea",
+    "tags": [
+      "b1",
+      "conj",
+      "chunk"
+    ]
+  },
+  {
+    "id": "pt-b1-092",
+    "front": "inclusive (adv.)",
+    "definition": "até mesmo",
+    "example": "Inclusive ele veio.",
+    "translation": "incluso",
+    "tags": [
+      "b1",
+      "adv"
+    ]
+  },
+  {
+    "id": "pt-b1-093",
+    "front": "sobretudo (adv.)",
+    "definition": "principalmente",
+    "example": "Gosto de música, sobretudo samba.",
+    "translation": "sobre todo",
+    "tags": [
+      "b1",
+      "adv"
+    ]
+  },
+  {
+    "id": "pt-b1-094",
+    "front": "dificilmente (adv.)",
+    "definition": "é pouco provável que",
+    "example": "Dificilmente chego antes das oito.",
+    "translation": "difícilmente",
+    "tags": [
+      "b1",
+      "adv"
+    ]
+  },
+  {
+    "id": "pt-b1-095",
+    "front": "provavelmente (adv.)",
+    "definition": "com probabilidade",
+    "example": "Provavelmente vai atrasar.",
+    "translation": "probablemente",
+    "tags": [
+      "b1",
+      "adv"
+    ]
+  },
+  {
+    "id": "pt-b1-096",
+    "front": "atual (adj.)",
+    "definition": "do momento presente",
+    "example": "Na situação atual, é difícil.",
+    "translation": "actual",
+    "tags": [
+      "b1",
+      "adj"
+    ]
+  },
+  {
+    "id": "pt-b1-097",
+    "front": "disponível (adj.)",
+    "definition": "que pode ser usado",
+    "example": "O quarto está disponível.",
+    "translation": "disponible",
+    "tags": [
+      "b1",
+      "adj"
+    ]
+  },
+  {
+    "id": "pt-b1-098",
+    "front": "necessário (adj.)",
+    "definition": "indispensável",
+    "example": "É necessário confirmar antes.",
+    "translation": "necesario",
+    "tags": [
+      "b1",
+      "adj"
+    ]
+  },
+  {
+    "id": "pt-b1-099",
+    "front": "suficiente (adj.)",
+    "definition": "que basta",
+    "example": "O tempo não foi suficiente.",
+    "translation": "suficiente",
+    "tags": [
+      "b1",
+      "adj"
+    ]
+  },
+  {
+    "id": "pt-b1-100",
+    "front": "capaz (adj.)",
+    "definition": "que tem capacidade (capaz DE)",
+    "example": "Ele é capaz de resolver isso.",
+    "translation": "capaz",
+    "tags": [
+      "b1",
+      "adj"
+    ]
+  }
+]

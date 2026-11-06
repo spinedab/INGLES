@@ -23,9 +23,14 @@ BUILD="$TV_DIR/build"
 
 log() { printf '\033[36m▸\033[0m %s\n' "$1"; }
 
+# webOS se ensambla en webos/ (raíz del repo), la carpeta que sube `lgtv`;
+# Tizen sigue en tv/build/tizen.
+outdir() { [ "$1" = webos ] && echo "$TV_DIR/../webos" || echo "$BUILD/$1"; }
+
 assemble() {
   local platform="$1"
-  local out="$BUILD/$platform"
+  local out
+  out="$(outdir "$platform")"
 
   log "Ensamblando $platform"
   rm -rf "$out"; mkdir -p "$out"
@@ -101,7 +106,7 @@ PY
     echo "FALLO: sintaxis ES2020 (?. o ??) que Chromium 76/79 no entiende"; exit 1
   fi
 
-  log "  $(du -sh "$out" | cut -f1) en build/$platform"
+  log "  $(du -sh "$out" | cut -f1) en ${out#"$TV_DIR/"}"
 }
 
 targets=("${@:-webos tizen}")
@@ -113,23 +118,9 @@ for t in "${targets[@]}"; do
   esac
 done
 
-package_webos() {
-  local out="$BUILD/webos"
-  local ares
-  ares="$(command -v ares-package || echo /tmp/node_modules/.bin/ares-package)"
-  [ -x "$ares" ] || { echo "ares-package no encontrado. npm i -g @webosose/ares-cli"; return 1; }
-
-  # -n (--no-minify) es imprescindible y no aparece en --help.
-  #
-  # Por defecto ares-package minifica con uglify-js, que no sabe parsear
-  # modulos ES. Como la webapp usa import/export, el empaquetado falla con
-  # "Failed to minify code" señalando un archivo al azar, lo que despista
-  # porque el archivo no tiene nada malo. Minificar tampoco aporta: son 620 KB
-  # y la app se sirve desde el propio televisor.
-  log "Empaquetando .ipk (LG)"
-  mkdir -p "$BUILD/dist"
-  "$ares" -n "$out" -o "$BUILD/dist" | tail -2
-}
+# webOS no se empaqueta aquí: la subida a la TV y el .ipk son cosa de `lgtv`
+# (~/Documents/LG-TV), la herramienta compartida de esta Mac, que ya pasa -n
+# (sin minificar: uglify-js no entiende módulos ES).
 
 package_tizen() {
   local out="$BUILD/tizen"
@@ -149,7 +140,7 @@ package_tizen() {
 if [ "${PACKAGE:-0}" = "1" ]; then
   for t in "${targets[@]}"; do
     case "$t" in
-      webos) package_webos ;;
+      webos) log "webOS: usa  lgtv subir webos/  (valida, empaqueta, instala y verifica)" ;;
       tizen) package_tizen ;;
     esac
   done
@@ -157,13 +148,10 @@ fi
 
 cat <<'NEXT'
 
-Listo. Artefactos en tv/build/ (y en tv/build/dist/ si PACKAGE=1).
+Listo. webOS en webos/; Tizen en tv/build/tizen (y .wgt en tv/build/dist/ si PACKAGE=1).
 
-  PACKAGE=1 ./build-tv.sh        # ensambla y empaqueta
-
-LG webOS — el .ipk queda listo para instalar o subir:
-    ares-setup-device                    # registrar el TV (Developer Mode ON)
-    ares-install --device <tv> tv/build/dist/*.ipk
+LG webOS — subir a la TV de la casa con la herramienta compartida:
+    lgtv subir webos/
 
 Samsung Tizen — el .wgt sale SIN FIRMAR y hay que firmarlo con Tizen Studio:
     tizen package -t wgt -s <perfil> -- tv/build/tizen

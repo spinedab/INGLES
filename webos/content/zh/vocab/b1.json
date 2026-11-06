@@ -1,0 +1,1195 @@
+[
+  {
+    "id": "zh-b1-001",
+    "front": "发展 (fāzhǎn)",
+    "definition": "变得更大更好",
+    "example": "公司发展得很快。(Gōngsī fāzhǎn de hěn kuài.)",
+    "translation": "desarrollar(se)",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3",
+      "work"
+    ]
+  },
+  {
+    "id": "zh-b1-002",
+    "front": "提高 (tígāo)",
+    "definition": "使水平上升",
+    "example": "我要提高汉语水平。(Wǒ yào tígāo Hànyǔ shuǐpíng.)",
+    "translation": "elevar, mejorar",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-003",
+    "front": "降低 (jiàngdī)",
+    "definition": "使水平下降",
+    "example": "成本降低了。(Chéngběn jiàngdī le.)",
+    "translation": "reducir",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-004",
+    "front": "增加 (zēngjiā)",
+    "definition": "变多",
+    "example": "人数增加了。(Rénshù zēngjiā le.)",
+    "translation": "aumentar",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-005",
+    "front": "减少 (jiǎnshǎo)",
+    "definition": "变少",
+    "example": "费用减少了。(Fèiyòng jiǎnshǎo le.)",
+    "translation": "disminuir",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-006",
+    "front": "改变 (gǎibiàn)",
+    "definition": "使不一样",
+    "example": "这改变了一切。(Zhè gǎibiàn le yíqiè.)",
+    "translation": "cambiar",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-007",
+    "front": "解决 (jiějué)",
+    "definition": "把问题处理好",
+    "example": "我们解决了问题。(Wǒmen jiějué le wèntí.)",
+    "translation": "resolver",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-008",
+    "front": "影响 (yǐngxiǎng)",
+    "definition": "对别的事产生作用",
+    "example": "天气影响了收成。(Tiānqì yǐngxiǎng le shōucheng.)",
+    "translation": "influir; influencia",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-009",
+    "front": "引起 (yǐnqǐ)",
+    "definition": "使某事发生",
+    "example": "这引起了讨论。(Zhè yǐnqǐ le tǎolùn.)",
+    "translation": "provocar",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-010",
+    "front": "造成 (zàochéng)",
+    "definition": "带来（不好的结果）",
+    "example": "造成了很大损失。(Zàochéng le hěn dà sǔnshī.)",
+    "translation": "causar",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-011",
+    "front": "避免 (bìmiǎn)",
+    "definition": "不让发生",
+    "example": "要避免这个错误。(Yào bìmiǎn zhège cuòwù.)",
+    "translation": "evitar",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-012",
+    "front": "面对 (miànduì)",
+    "definition": "不逃避地处理",
+    "example": "我们要面对现实。(Wǒmen yào miànduì xiànshí.)",
+    "translation": "afrontar",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-013",
+    "front": "超过 (chāoguò)",
+    "definition": "多于",
+    "example": "结果超过了预期。(Jiéguǒ chāoguò le yùqī.)",
+    "translation": "superar",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-014",
+    "front": "达到 (dádào)",
+    "definition": "到了某个水平",
+    "example": "达到了目标。(Dádào le mùbiāo.)",
+    "translation": "alcanzar",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-015",
+    "front": "强调 (qiángdiào)",
+    "definition": "特别指出",
+    "example": "我强调两点。(Wǒ qiángdiào liǎng diǎn.)",
+    "translation": "enfatizar",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-016",
+    "front": "建议 (jiànyì)",
+    "definition": "提出想法",
+    "example": "我建议推迟。(Wǒ jiànyì tuīchí.)",
+    "translation": "sugerir; sugerencia",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-017",
+    "front": "拒绝 (jùjué)",
+    "definition": "不接受",
+    "example": "我拒绝了这个提议。(Wǒ jùjué le zhège tíyì.)",
+    "translation": "rechazar",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-018",
+    "front": "承认 (chéngrèn)",
+    "definition": "说自己错了或事实如此",
+    "example": "我承认我错了。(Wǒ chéngrèn wǒ cuò le.)",
+    "translation": "admitir",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-019",
+    "front": "发现 (fāxiàn)",
+    "definition": "注意到，找到",
+    "example": "我发现他很紧张。(Wǒ fāxiàn tā hěn jǐnzhāng.)",
+    "translation": "darse cuenta, descubrir",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-020",
+    "front": "出现 (chūxiàn)",
+    "definition": "变得可见",
+    "example": "出现了新问题。(Chūxiàn le xīn wèntí.)",
+    "translation": "aparecer",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-021",
+    "front": "放弃 (fàngqì)",
+    "definition": "不再继续",
+    "example": "别放弃！(Bié fàngqì!)",
+    "translation": "rendirse, abandonar",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-022",
+    "front": "坚持 (jiānchí)",
+    "definition": "一直不放弃",
+    "example": "他坚持要付钱。(Tā jiānchí yào fù qián.)",
+    "translation": "insistir, persistir",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-023",
+    "front": "取决于 (qǔjué yú)",
+    "definition": "由某个条件决定",
+    "example": "这取决于时间。(Zhè qǔjué yú shíjiān.)",
+    "translation": "depender de",
+    "tags": [
+      "b1",
+      "verb",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b1-024",
+    "front": "抱怨 (bàoyuàn)",
+    "definition": "表示不满",
+    "example": "他抱怨服务不好。(Tā bàoyuàn fúwù bù hǎo.)",
+    "translation": "quejarse",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-025",
+    "front": "感谢 (gǎnxiè)",
+    "definition": "表示谢意",
+    "example": "感谢大家的帮助。(Gǎnxiè dàjiā de bāngzhù.)",
+    "translation": "agradecer",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-026",
+    "front": "利用 (lìyòng)",
+    "definition": "好好使用",
+    "example": "我利用假期休息。(Wǒ lìyòng jiàqī xiūxi.)",
+    "translation": "aprovechar",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-027",
+    "front": "投资 (tóuzī)",
+    "definition": "把钱放进去以求回报",
+    "example": "他们投资了技术。(Tāmen tóuzī le jìshù.)",
+    "translation": "invertir",
+    "tags": [
+      "b1",
+      "verb",
+      "money"
+    ]
+  },
+  {
+    "id": "zh-b1-028",
+    "front": "节约 (jiéyuē)",
+    "definition": "少花钱或少用",
+    "example": "我们要节约用水。(Wǒmen yào jiéyuē yòng shuǐ.)",
+    "translation": "ahorrar",
+    "tags": [
+      "b1",
+      "verb",
+      "money"
+    ]
+  },
+  {
+    "id": "zh-b1-029",
+    "front": "花 (huā)",
+    "definition": "用掉钱或时间",
+    "example": "我花了很多钱。(Wǒ huā le hěn duō qián.)",
+    "translation": "gastar",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3",
+      "money"
+    ]
+  },
+  {
+    "id": "zh-b1-030",
+    "front": "退 (tuì)",
+    "definition": "返回；退货、退钱",
+    "example": "我想退这件衣服。(Wǒ xiǎng tuì zhè jiàn yīfu.)",
+    "translation": "devolver",
+    "tags": [
+      "b1",
+      "verb",
+      "shopping"
+    ]
+  },
+  {
+    "id": "zh-b1-031",
+    "front": "交 (jiāo)",
+    "definition": "递交；缴纳",
+    "example": "我交了报告。(Wǒ jiāo le bàogào.)",
+    "translation": "entregar; pagar",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3",
+      "keyverb"
+    ]
+  },
+  {
+    "id": "zh-b1-032",
+    "front": "推迟 (tuīchí)",
+    "definition": "改到更晚",
+    "example": "会议推迟了。(Huìyì tuīchí le.)",
+    "translation": "posponer",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-033",
+    "front": "取消 (qǔxiāo)",
+    "definition": "不再进行",
+    "example": "航班取消了。(Hángbān qǔxiāo le.)",
+    "translation": "cancelar",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-034",
+    "front": "预约 (yùyuē)",
+    "definition": "提前约定",
+    "example": "我预约了医生。(Wǒ yùyuē le yīshēng.)",
+    "translation": "pedir cita",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "zh-b1-035",
+    "front": "挑战 (tiǎozhàn)",
+    "definition": "困难但值得做的事",
+    "example": "学汉语是个挑战。(Xué Hànyǔ shì ge tiǎozhàn.)",
+    "translation": "desafío",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "zh-b1-036",
+    "front": "目标 (mùbiāo)",
+    "definition": "想达到的结果",
+    "example": "我的目标是住在中国。(Wǒ de mùbiāo shì zhù zài Zhōngguó.)",
+    "translation": "objetivo",
+    "tags": [
+      "b1",
+      "noun",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-037",
+    "front": "结果 (jiéguǒ)",
+    "definition": "最后得到的",
+    "example": "结果很好。(Jiéguǒ hěn hǎo.)",
+    "translation": "resultado",
+    "tags": [
+      "b1",
+      "noun",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-038",
+    "front": "后果 (hòuguǒ)",
+    "definition": "（不好的）结果",
+    "example": "我们承担后果。(Wǒmen chéngdān hòuguǒ.)",
+    "translation": "consecuencia",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "zh-b1-039",
+    "front": "优点 (yōudiǎn)",
+    "definition": "好的方面",
+    "example": "优点是很灵活。(Yōudiǎn shì hěn línghuó.)",
+    "translation": "ventaja",
+    "tags": [
+      "b1",
+      "noun",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-040",
+    "front": "缺点 (quēdiǎn)",
+    "definition": "不好的方面",
+    "example": "缺点是太贵。(Quēdiǎn shì tài guì.)",
+    "translation": "desventaja",
+    "tags": [
+      "b1",
+      "noun",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-041",
+    "front": "风险 (fēngxiǎn)",
+    "definition": "可能受损失",
+    "example": "有延误的风险。(Yǒu yánwù de fēngxiǎn.)",
+    "translation": "riesgo",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "zh-b1-042",
+    "front": "方案 (fāng'àn)",
+    "definition": "具体的计划",
+    "example": "我们找到了方案。(Wǒmen zhǎodào le fāng'àn.)",
+    "translation": "plan, solución",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "zh-b1-043",
+    "front": "建议书 (jiànyìshū)",
+    "definition": "正式的提议文件",
+    "example": "建议书通过了。(Jiànyìshū tōngguò le.)",
+    "translation": "propuesta",
+    "tags": [
+      "b1",
+      "noun",
+      "work"
+    ]
+  },
+  {
+    "id": "zh-b1-044",
+    "front": "调查 (diàochá)",
+    "definition": "了解情况；问卷",
+    "example": "我做了一个调查。(Wǒ zuò le yí ge diàochá.)",
+    "translation": "investigación; encuesta",
+    "tags": [
+      "b1",
+      "noun",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-045",
+    "front": "数据 (shùjù)",
+    "definition": "数字信息",
+    "example": "数据显示下降。(Shùjù xiǎnshì xiàjiàng.)",
+    "translation": "datos",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "zh-b1-046",
+    "front": "报告 (bàogào)",
+    "definition": "写出结果的文件",
+    "example": "我写了月度报告。(Wǒ xiě le yuèdù bàogào.)",
+    "translation": "informe",
+    "tags": [
+      "b1",
+      "noun",
+      "hsk3",
+      "work"
+    ]
+  },
+  {
+    "id": "zh-b1-047",
+    "front": "看法 (kànfǎ)",
+    "definition": "对事情的观点",
+    "example": "我的看法不同。(Wǒ de kànfǎ bù tóng.)",
+    "translation": "punto de vista",
+    "tags": [
+      "b1",
+      "noun",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-048",
+    "front": "生活费 (shēnghuófèi)",
+    "definition": "生活需要的花费",
+    "example": "这里生活费很高。(Zhèli shēnghuófèi hěn gāo.)",
+    "translation": "coste de vida",
+    "tags": [
+      "b1",
+      "noun",
+      "money"
+    ]
+  },
+  {
+    "id": "zh-b1-049",
+    "front": "高峰期 (gāofēngqī)",
+    "definition": "人最多的时段",
+    "example": "我避开高峰期。(Wǒ bìkāi gāofēngqī.)",
+    "translation": "hora punta",
+    "tags": [
+      "b1",
+      "noun",
+      "transport"
+    ]
+  },
+  {
+    "id": "zh-b1-050",
+    "front": "交通 (jiāotōng)",
+    "definition": "车辆和人的流动",
+    "example": "交通很堵。(Jiāotōng hěn dǔ.)",
+    "translation": "tráfico, transporte",
+    "tags": [
+      "b1",
+      "noun",
+      "hsk3",
+      "transport"
+    ]
+  },
+  {
+    "id": "zh-b1-051",
+    "front": "堵车 (dǔchē)",
+    "definition": "车走不动",
+    "example": "路上堵车两个小时。(Lùshang dǔchē liǎng ge xiǎoshí.)",
+    "translation": "atasco",
+    "tags": [
+      "b1",
+      "verb",
+      "transport"
+    ]
+  },
+  {
+    "id": "zh-b1-052",
+    "front": "罚款 (fákuǎn)",
+    "definition": "因违规交的钱",
+    "example": "我被罚款了。(Wǒ bèi fákuǎn le.)",
+    "translation": "multa",
+    "tags": [
+      "b1",
+      "noun",
+      "transport"
+    ]
+  },
+  {
+    "id": "zh-b1-053",
+    "front": "政府 (zhèngfǔ)",
+    "definition": "管理国家的机构",
+    "example": "政府通过了法律。(Zhèngfǔ tōngguò le fǎlǜ.)",
+    "translation": "gobierno",
+    "tags": [
+      "b1",
+      "noun",
+      "civic"
+    ]
+  },
+  {
+    "id": "zh-b1-054",
+    "front": "法律 (fǎlǜ)",
+    "definition": "国家的规定",
+    "example": "法律一月生效。(Fǎlǜ yī yuè shēngxiào.)",
+    "translation": "ley",
+    "tags": [
+      "b1",
+      "noun",
+      "civic"
+    ]
+  },
+  {
+    "id": "zh-b1-055",
+    "front": "权利 (quánlì)",
+    "definition": "法律给的资格",
+    "example": "人人有健康的权利。(Rénrén yǒu jiànkāng de quánlì.)",
+    "translation": "derecho",
+    "tags": [
+      "b1",
+      "noun",
+      "civic"
+    ]
+  },
+  {
+    "id": "zh-b1-056",
+    "front": "义务 (yìwù)",
+    "definition": "应该做的事",
+    "example": "投票是我们的义务。(Tóupiào shì wǒmen de yìwù.)",
+    "translation": "deber, obligación",
+    "tags": [
+      "b1",
+      "noun",
+      "civic"
+    ]
+  },
+  {
+    "id": "zh-b1-057",
+    "front": "新闻 (xīnwén)",
+    "definition": "最近发生的事的报道",
+    "example": "我看了新闻。(Wǒ kàn le xīnwén.)",
+    "translation": "noticias",
+    "tags": [
+      "b1",
+      "noun",
+      "hsk3",
+      "media"
+    ]
+  },
+  {
+    "id": "zh-b1-058",
+    "front": "媒体 (méitǐ)",
+    "definition": "报纸、电视、网络",
+    "example": "媒体报道了这件事。(Méitǐ bàodào le zhè jiàn shì.)",
+    "translation": "medios",
+    "tags": [
+      "b1",
+      "noun",
+      "media"
+    ]
+  },
+  {
+    "id": "zh-b1-059",
+    "front": "差距 (chājù)",
+    "definition": "两者之间的距离",
+    "example": "收入差距在扩大。(Shōurù chājù zài kuòdà.)",
+    "translation": "brecha, desigualdad",
+    "tags": [
+      "b1",
+      "noun",
+      "social"
+    ]
+  },
+  {
+    "id": "zh-b1-060",
+    "front": "住房 (zhùfáng)",
+    "definition": "居住的地方",
+    "example": "住房问题很严重。(Zhùfáng wèntí hěn yánzhòng.)",
+    "translation": "vivienda",
+    "tags": [
+      "b1",
+      "noun",
+      "social"
+    ]
+  },
+  {
+    "id": "zh-b1-061",
+    "front": "小区 (xiǎoqū)",
+    "definition": "住宅区",
+    "example": "我住在一个安静的小区。(Wǒ zhù zài yí ge ānjìng de xiǎoqū.)",
+    "translation": "urbanización, barrio",
+    "tags": [
+      "b1",
+      "noun",
+      "places"
+    ]
+  },
+  {
+    "id": "zh-b1-062",
+    "front": "郊区 (jiāoqū)",
+    "definition": "城市外围",
+    "example": "他住在郊区。(Tā zhù zài jiāoqū.)",
+    "translation": "periferia",
+    "tags": [
+      "b1",
+      "noun",
+      "places"
+    ]
+  },
+  {
+    "id": "zh-b1-063",
+    "front": "环境 (huánjìng)",
+    "definition": "周围的自然和条件",
+    "example": "我们要保护环境。(Wǒmen yào bǎohù huánjìng.)",
+    "translation": "medio ambiente",
+    "tags": [
+      "b1",
+      "noun",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-064",
+    "front": "垃圾 (lājī)",
+    "definition": "不要的东西",
+    "example": "我分类扔垃圾。(Wǒ fēnlèi rēng lājī.)",
+    "translation": "basura",
+    "tags": [
+      "b1",
+      "noun",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-065",
+    "front": "污染 (wūrǎn)",
+    "definition": "使环境变坏",
+    "example": "空气污染很严重。(Kōngqì wūrǎn hěn yánzhòng.)",
+    "translation": "contaminación",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "zh-b1-066",
+    "front": "天气预报 (tiānqì yùbào)",
+    "definition": "对天气的预测",
+    "example": "天气预报说有雨。(Tiānqì yùbào shuō yǒu yǔ.)",
+    "translation": "pronóstico del tiempo",
+    "tags": [
+      "b1",
+      "noun",
+      "chunk",
+      "weather"
+    ]
+  },
+  {
+    "id": "zh-b1-067",
+    "front": "突然 (tūrán)",
+    "definition": "没有预料地",
+    "example": "突然下起雨来。(Tūrán xià qǐ yǔ lái.)",
+    "translation": "de repente",
+    "tags": [
+      "b1",
+      "adv",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-068",
+    "front": "渐渐 (jiànjiàn)",
+    "definition": "一点一点地",
+    "example": "我渐渐明白了。(Wǒ jiànjiàn míngbai le.)",
+    "translation": "poco a poco",
+    "tags": [
+      "b1",
+      "adv",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-069",
+    "front": "其实 (qíshí)",
+    "definition": "说出真实情况",
+    "example": "其实不是这样。(Qíshí bú shì zhèyàng.)",
+    "translation": "en realidad",
+    "tags": [
+      "b1",
+      "adv",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-070",
+    "front": "另外 (lìngwài)",
+    "definition": "除此之外",
+    "example": "另外，还便宜。(Lìngwài, hái piányi.)",
+    "translation": "además",
+    "tags": [
+      "b1",
+      "conj",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-071",
+    "front": "不过 (búguò)",
+    "definition": "但是（较口语）",
+    "example": "很好，不过太贵。(Hěn hǎo, búguò tài guì.)",
+    "translation": "pero, sin embargo",
+    "tags": [
+      "b1",
+      "conj",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-072",
+    "front": "因此 (yīncǐ)",
+    "definition": "所以（书面）",
+    "example": "下雨，因此取消了。(Xià yǔ, yīncǐ qǔxiāo le.)",
+    "translation": "por lo tanto",
+    "tags": [
+      "b1",
+      "conj"
+    ]
+  },
+  {
+    "id": "zh-b1-073",
+    "front": "尽管 (jǐnguǎn)",
+    "definition": "虽然（书面）",
+    "example": "尽管很冷，我们还是去了。(Jǐnguǎn hěn lěng…)",
+    "translation": "a pesar de que",
+    "tags": [
+      "b1",
+      "conj",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-b1-074",
+    "front": "为了 (wèile)",
+    "definition": "表示目的",
+    "example": "为了提高水平，我每天学。(Wèile tígāo shuǐpíng…)",
+    "translation": "para, con el fin de",
+    "tags": [
+      "b1",
+      "prep",
+      "hsk3",
+      "grammar"
+    ]
+  },
+  {
+    "id": "zh-b1-075",
+    "front": "也就是说 (yě jiù shì shuō)",
+    "definition": "换句话说",
+    "example": "明天，也就是星期二。(Míngtiān, yě jiù shì xīngqī'èr.)",
+    "translation": "es decir",
+    "tags": [
+      "b1",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b1-076",
+    "front": "甚至 (shènzhì)",
+    "definition": "表示更进一步",
+    "example": "很难，甚至不可能。(Hěn nán, shènzhì bù kěnéng.)",
+    "translation": "incluso",
+    "tags": [
+      "b1",
+      "adv",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-077",
+    "front": "尤其 (yóuqí)",
+    "definition": "特别是",
+    "example": "我喜欢音乐，尤其是爵士。(Wǒ xǐhuan yīnyuè, yóuqí shì juéshì.)",
+    "translation": "sobre todo",
+    "tags": [
+      "b1",
+      "adv"
+    ]
+  },
+  {
+    "id": "zh-b1-078",
+    "front": "大概 (dàgài)",
+    "definition": "差不多；可能",
+    "example": "大概三十个人。(Dàgài sānshí ge rén.)",
+    "translation": "aproximadamente; probablemente",
+    "tags": [
+      "b1",
+      "adv",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-079",
+    "front": "目前 (mùqián)",
+    "definition": "现在这个时候",
+    "example": "目前情况很难。(Mùqián qíngkuàng hěn nán.)",
+    "translation": "actualmente",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "zh-b1-080",
+    "front": "必要 (bìyào)",
+    "definition": "不能没有",
+    "example": "有必要先确认。(Yǒu bìyào xiān quèrèn.)",
+    "translation": "necesario",
+    "tags": [
+      "b1",
+      "adj"
+    ]
+  },
+  {
+    "id": "zh-b1-081",
+    "front": "足够 (zúgòu)",
+    "definition": "数量够用",
+    "example": "时间不足够。(Shíjiān bù zúgòu.)",
+    "translation": "suficiente",
+    "tags": [
+      "b1",
+      "adj"
+    ]
+  },
+  {
+    "id": "zh-b1-082",
+    "front": "能够 (nénggòu)",
+    "definition": "有能力做",
+    "example": "他能够解决。(Tā nénggòu jiějué.)",
+    "translation": "ser capaz de",
+    "tags": [
+      "b1",
+      "verb"
+    ]
+  },
+  {
+    "id": "zh-b1-083",
+    "front": "日常 (rìcháng)",
+    "definition": "每天的",
+    "example": "这是日常工作。(Zhè shì rìcháng gōngzuò.)",
+    "translation": "cotidiano",
+    "tags": [
+      "b1",
+      "adj"
+    ]
+  },
+  {
+    "id": "zh-b1-084",
+    "front": "有效 (yǒuxiào)",
+    "definition": "能产生作用",
+    "example": "这个方法很有效。(Zhège fāngfǎ hěn yǒuxiào.)",
+    "translation": "eficaz",
+    "tags": [
+      "b1",
+      "adj"
+    ]
+  },
+  {
+    "id": "zh-b1-085",
+    "front": "担心 (dānxīn)",
+    "definition": "怕不好的事发生",
+    "example": "我很担心他。(Wǒ hěn dānxīn tā.)",
+    "translation": "preocuparse",
+    "tags": [
+      "b1",
+      "verb",
+      "hsk3",
+      "feelings"
+    ]
+  },
+  {
+    "id": "zh-b1-086",
+    "front": "失望 (shīwàng)",
+    "definition": "希望没有实现",
+    "example": "我对结果很失望。(Wǒ duì jiéguǒ hěn shīwàng.)",
+    "translation": "decepcionado",
+    "tags": [
+      "b1",
+      "adj",
+      "feelings"
+    ]
+  },
+  {
+    "id": "zh-b1-087",
+    "front": "惊讶 (jīngyà)",
+    "definition": "感到意外",
+    "example": "我很惊讶。(Wǒ hěn jīngyà.)",
+    "translation": "sorprendido",
+    "tags": [
+      "b1",
+      "adj",
+      "feelings"
+    ]
+  },
+  {
+    "id": "zh-b1-088",
+    "front": "紧张 (jǐnzhāng)",
+    "definition": "心里不放松",
+    "example": "考试前我很紧张。(Kǎoshì qián wǒ hěn jǐnzhāng.)",
+    "translation": "nervioso",
+    "tags": [
+      "b1",
+      "adj",
+      "hsk3",
+      "feelings"
+    ]
+  },
+  {
+    "id": "zh-b1-089",
+    "front": "老实说 (lǎoshí shuō)",
+    "definition": "说真话",
+    "example": "老实说，我不知道。(Lǎoshí shuō, wǒ bù zhīdào.)",
+    "translation": "francamente",
+    "tags": [
+      "b1",
+      "chunk"
+    ]
+  },
+  {
+    "id": "zh-b1-090",
+    "front": "几乎 (jīhū)",
+    "definition": "差一点就",
+    "example": "我几乎没睡。(Wǒ jīhū méi shuì.)",
+    "translation": "casi",
+    "tags": [
+      "b1",
+      "adv",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-091",
+    "front": "从此 (cóngcǐ)",
+    "definition": "从那以后",
+    "example": "从此他不再来了。(Cóngcǐ tā bú zài lái le.)",
+    "translation": "desde entonces",
+    "tags": [
+      "b1",
+      "adv"
+    ]
+  },
+  {
+    "id": "zh-b1-092",
+    "front": "以前 (yǐqián)",
+    "definition": "在那之前",
+    "example": "以前他在这儿工作。(Yǐqián tā zài zhèr gōngzuò.)",
+    "translation": "antes",
+    "tags": [
+      "b1",
+      "noun",
+      "hsk3",
+      "time"
+    ]
+  },
+  {
+    "id": "zh-b1-093",
+    "front": "水平 (shuǐpíng)",
+    "definition": "能力的高低",
+    "example": "他的汉语水平很高。(Tā de Hànyǔ shuǐpíng hěn gāo.)",
+    "translation": "nivel",
+    "tags": [
+      "b1",
+      "noun",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-094",
+    "front": "经验 (jīngyàn)",
+    "definition": "做过事情得到的了解",
+    "example": "他有很多工作经验。(Tā yǒu hěn duō gōngzuò jīngyàn.)",
+    "translation": "experiencia",
+    "tags": [
+      "b1",
+      "noun",
+      "hsk3",
+      "work"
+    ]
+  },
+  {
+    "id": "zh-b1-095",
+    "front": "能力 (nénglì)",
+    "definition": "能做事的本领",
+    "example": "她的能力很强。(Tā de nénglì hěn qiáng.)",
+    "translation": "capacidad",
+    "tags": [
+      "b1",
+      "noun",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-096",
+    "front": "态度 (tàidu)",
+    "definition": "对事情的看法和表现",
+    "example": "他的态度很好。(Tā de tàidu hěn hǎo.)",
+    "translation": "actitud",
+    "tags": [
+      "b1",
+      "noun",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-097",
+    "front": "习惯 (xíguàn)",
+    "definition": "经常做的事；适应",
+    "example": "我习惯早起。(Wǒ xíguàn zǎo qǐ.)",
+    "translation": "costumbre; acostumbrarse",
+    "tags": [
+      "b1",
+      "noun",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-098",
+    "front": "文化 (wénhuà)",
+    "definition": "一个群体的生活方式",
+    "example": "中国文化很丰富。(Zhōngguó wénhuà hěn fēngfù.)",
+    "translation": "cultura",
+    "tags": [
+      "b1",
+      "noun",
+      "hsk3"
+    ]
+  },
+  {
+    "id": "zh-b1-099",
+    "front": "社会 (shèhuì)",
+    "definition": "人们组成的整体",
+    "example": "社会在变化。(Shèhuì zài biànhuà.)",
+    "translation": "sociedad",
+    "tags": [
+      "b1",
+      "noun"
+    ]
+  },
+  {
+    "id": "zh-b1-100",
+    "front": "情况 (qíngkuàng)",
+    "definition": "事情的状态",
+    "example": "情况有点复杂。(Qíngkuàng yǒudiǎn fùzá.)",
+    "translation": "situación",
+    "tags": [
+      "b1",
+      "noun",
+      "hsk3"
+    ]
+  }
+]

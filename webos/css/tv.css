@@ -1,0 +1,159 @@
+/* ==========================================================================
+   Capa de TV: interfaz de "10 pies".
+
+   Se carga DESPUÉS de css/app.css y solo redefine tokens y unas pocas reglas.
+   No duplica el sistema de diseño.
+
+   ── COMPATIBILIDAD: LO MÁS IMPORTANTE DE ESTE ARCHIVO ──
+
+   Los navegadores de televisor van años por detrás. Tizen 6 (Samsung, 2021)
+   embarca Chromium 76 y webOS 6 (LG) embarca Chromium 79. Eso descarta buena
+   parte del CSS que app.css usa:
+
+     - OKLCH ................ Chromium 111. No existe en TV.
+     - :where() ............. Chromium 88.
+     - :focus-visible ....... Chromium 86.
+     - gap en flexbox ....... Chromium 84 (en grid sí funciona, es de la 66).
+     - :has() ............... Chromium 105.
+     - color relativo ....... Chromium 119.
+
+   Un color inválido no se ignora sin más: la declaración entera se descarta,
+   así que `background: var(--bg)` con --bg en OKLCH deja el fondo transparente
+   y el texto puede quedar ilegible. Por eso aquí los tokens se redefinen en
+   HEX. Son los equivalentes exactos de la paleta OKLCH, convertidos, no
+   aproximados a ojo, de modo que la marca se ve igual en TV y en web.
+
+   Cada regla de foco va por separado y duplicada (:focus y :focus-visible):
+   si el motor no entiende una, la otra sigue siendo válida. Agrupadas con
+   coma, el selector desconocido invalidaría toda la regla.
+   ========================================================================== */
+
+:root[data-platform="tv"] {
+  /* ---- Color en HEX, no OKLCH (ver cabecera) ----
+     Se fuerza el tema oscuro siempre: es la convención en televisor, se ve en
+     salón y a menudo a oscuras, y en paneles OLED el blanco a pantalla
+     completa molesta. Además en TV rara vez hay un ajuste de sistema
+     claro/oscuro que respetar. */
+  --bg: #060604;
+  --fg: #f0eeeb;
+  --muted: #9a9893;
+  --accent: #518fe9;
+  --accent-soft: #071a36;
+  --border: #211f1c;
+  --card-bg: #100f0d;
+  --ring: #83b3fa;
+  --good: #6cb97e;
+  --bad: #e8796e;
+  --warn: #e6aa61;
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.6);
+
+  /* ---- Tipografía fija ----
+     En TV no hay viewport variable que justifique clamp(): el tamaño lo dicta
+     la distancia de visión, ~3 m frente a los 30 cm de un móvil. La regla
+     práctica del sector es que el cuerpo de texto mida el doble o más que en
+     escritorio, de ahí los 28px. */
+  --text-xs: 20px;
+  --text-sm: 24px;
+  --text-base: 28px;
+  --text-lg: 32px;
+  --text-xl: 40px;
+  --text-2xl: 52px;
+  --text-3xl: 68px;
+
+  --leading-ui: 1.45;
+  --leading-reading: 1.6;
+
+  /* Con tipografía grande, el espaciado de móvil hace que todo se toque. */
+  --space-1: 0.5rem;  --space-2: 1rem;    --space-3: 1.5rem;
+  --space-4: 2rem;    --space-5: 2.5rem;  --space-6: 3rem;
+  --space-8: 4rem;    --space-10: 5rem;   --space-12: 6rem;  --space-16: 8rem;
+
+  --radius-sm: 10px;
+  --radius-md: 18px;
+  --radius-lg: 28px;
+
+  /* Zona de overscan: muchos televisores recortan hasta un 5% de cada borde.
+     Sin este margen, la barra de navegación aparece cortada. */
+  --tv-safe-x: 4vw;
+  --tv-safe-y: 3vh;
+}
+
+/* No hay puntero. Se oculta para que no quede un cursor flotando si el Magic
+   Remote de LG lo despierta y luego se aparca. */
+:root[data-platform="tv"] body {
+  cursor: none;
+  font-size: var(--text-base);
+  line-height: var(--leading-ui);
+}
+
+/* Margen de seguridad de overscan. */
+:root[data-platform="tv"] .appbar,
+:root[data-platform="tv"] main,
+:root[data-platform="tv"] .appfooter {
+  padding-left: var(--tv-safe-x);
+  padding-right: var(--tv-safe-x);
+}
+:root[data-platform="tv"] .appbar { padding-top: var(--tv-safe-y); }
+:root[data-platform="tv"] .appfooter { padding-bottom: var(--tv-safe-y); }
+:root[data-platform="tv"] main { padding-top: var(--space-6); }
+
+/* ---- Foco ----
+   A tres metros el contorno de 2px de la versión web es invisible. Anillo
+   grueso, halo y un ligero escalado: el cambio de tamaño es la señal que se
+   lee antes desde lejos, incluso antes que el color.
+
+   Reglas separadas a propósito (ver cabecera). */
+:root[data-platform="tv"] a:focus,
+:root[data-platform="tv"] button:focus,
+:root[data-platform="tv"] select:focus,
+:root[data-platform="tv"] [tabindex]:focus {
+  outline: 4px solid var(--ring);
+  outline-offset: 4px;
+  box-shadow: 0 0 0 10px rgba(131, 179, 250, 0.22);
+  transform: scale(1.03);
+  position: relative;
+  z-index: 2;
+}
+:root[data-platform="tv"] a:focus-visible,
+:root[data-platform="tv"] button:focus-visible,
+:root[data-platform="tv"] select:focus-visible,
+:root[data-platform="tv"] [tabindex]:focus-visible {
+  outline: 4px solid var(--ring);
+  outline-offset: 4px;
+  box-shadow: 0 0 0 10px rgba(131, 179, 250, 0.22);
+  transform: scale(1.03);
+  position: relative;
+  z-index: 2;
+}
+
+/* La barra tiene nueve enlaces; a 28px no caben en una línea. Se usan
+   márgenes y no `gap` porque en flex `gap` no existe antes de Chromium 84. */
+:root[data-platform="tv"] .appbar nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+:root[data-platform="tv"] .appbar nav > a {
+  margin: var(--space-1) var(--space-2) var(--space-1) 0;
+}
+
+/* Las rejillas de móvil dan tarjetas diminutas en 1080p y columnas
+   incontables en 4K. Un mínimo grande deja 2 o 3 por fila, que es lo
+   navegable con cuatro flechas. En grid sí se puede usar `gap`. */
+:root[data-platform="tv"] .dashboard-grid,
+:root[data-platform="tv"] .analysis-grid {
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  gap: var(--space-6);
+}
+
+/* Con letra grande, la medida de 68ch heredada obliga a mucho scroll de mando. */
+:root[data-platform="tv"] .text-block,
+:root[data-platform="tv"] .script {
+  max-width: 46ch;
+  font-size: var(--text-lg);
+  line-height: var(--leading-reading);
+}
+
+/* No se instala una PWA en un televisor. */
+:root[data-platform="tv"] #install-app { display: none !important; }

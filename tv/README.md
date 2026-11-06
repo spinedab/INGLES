@@ -16,11 +16,25 @@ y solo se le añaden dos archivos, igual que hace el despliegue web.
 ```bash
 ./build-tv.sh                 # ensambla las dos plataformas
 ./build-tv.sh webos           # solo LG
-PACKAGE=1 ./build-tv.sh       # ensambla y además empaqueta
+PACKAGE=1 ./build-tv.sh       # además empaqueta el .wgt de Samsung
+lgtv subir ../webos/          # LG: valida, empaqueta, instala en la TV de la casa y verifica
 ```
 
-Salida en `build/webos/`, `build/tizen/` y los paquetes en `build/dist/`.
-Nada de esto se versiona.
+LG se ensambla en **`webos/`, en la raíz del repo**, y se versiona: es la
+carpeta que sube `lgtv`, la herramienta compartida de esta Mac
+(`~/Documents/LG-TV`). Es generada, así que no se edita a mano: se cambia la
+webapp, `shared/` o `webos/appinfo.json` de aquí y se vuelve a ensamblar.
+Este proyecto no lleva ares-cli ni lógica de subida propia; si a `lgtv` le
+falta algo, se mejora allí.
+
+Tizen sale en `build/tizen/` y su `.wgt` en `build/dist/`; eso no se versiona.
+
+### Mando
+
+Flechas para moverse (navegación espacial de `shared/tv.js`), OK (Enter) para
+activar, Atrás (461) para volver al inicio o salir desde la raíz, y Play/Pausa
+(415/19) para la acción principal de la vista: revelar la respuesta en
+flashcards y el guion en listening.
 
 ## Qué se añade a la webapp
 
@@ -65,7 +79,7 @@ correspondiente exista también en `tv.css`.**
 uglify-js, que no sabe parsear módulos ES. Como la webapp usa `import`, el
 empaquetado falla con `Failed to minify code` señalando un archivo cualquiera,
 lo que despista porque ese archivo está bien. El flag `-n` / `--no-minify`
-existe pero está oculto de `--help`. `build-tv.sh` ya lo pasa.
+existe pero está oculto de `--help`. `lgtv` ya lo pasa.
 
 **3. No hay síntesis de voz.** `speechSynthesis` no está disponible en estos
 televisores, así que los 16 listenings (8 de inglés y 2 por cada uno de pt, fr,
@@ -81,10 +95,10 @@ cuentas son tuyas.
 
 ### LG
 1. Cuenta en [LG Seller Lounge](https://seller.lgappstv.com) — gratuita.
-2. Para probar en el televisor: Developer Mode desde la LG Content Store,
-   luego `ares-setup-device` y `ares-install`.
-3. Subir el `.ipk`. LG firma en el proceso de publicación, así que el paquete
-   que genera este script ya sirve tal cual.
+2. Para probar en el televisor de la casa: `lgtv subir webos/` (ver
+   `~/Documents/LG-TV/README.md`; Developer Mode dura ~50 h y hay que
+   extenderlo en la TV).
+3. Subir el `.ipk` que deja `lgtv`. LG firma en el proceso de publicación.
 
 ### Samsung
 1. Cuenta en [Samsung Seller Office](https://seller.samsungapps.com) — gratuita.
